@@ -2432,7 +2432,7 @@
   type: merger
   from: [kagoshima-mujin-old, kagoshima-sogo-mujin]
   to: [kagoshima-mujin]
-  note: 有報は2社の合併とする。Wikipediaは第一産業無尽・大島無尽・富国無尽・鹿児島相互無尽との合併とし年月の記載なし
+  note: 有報は2社の合併とする。Wikipediaは第一産業無尽・大島無尽・富国無尽・鹿児島相互無尽との合併とし年月の記載なし（大島無尽は銀行変遷史DBによれば1952年設立で、この合併には加わっていない）
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
 
 - date: "1951-10"
@@ -4190,3 +4190,10 @@
   to: [hakko-mujin-1936]
   note: 新立合併（1941年8月4日認可、9月20日創立総会）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/W20HtvXZDutwQXQ_1SE6yf00KAe/description.html"]
+
+- date: "1955-03-31"
+  type: transfer
+  from: [oshima-mujin]
+  to: [asahi-sogo]
+  note: 旭相互銀行が買収（営業譲渡）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JtDOJH8pcxCyRBC9l2qDcRHZt1h/description.html"]

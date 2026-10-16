@@ -5903,6 +5903,15 @@
   note: 1951年10月旭相互銀行に営業譲渡。消滅日は営業譲渡日。設立日・法人の解散日は出典に記載なし
   sources: [https://ja.wikipedia.org/wiki/南日本銀行]
 
+- id: oshima-mujin
+  name: 大島無尽
+  type: other
+  founded: "1952-06-03"
+  dissolved: "1955-03-31"
+  prefecture: 鹿児島県
+  note: 奄美大島（米軍政下）で設立（旭相互銀行史は1952年6月3日設立、西日本相互銀行二十年史は5月3日に軍政府より営業認可）。1955年3月31日旭相互銀行に営業譲渡
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JtDOJH8pcxCyRBC9l2qDcRHZt1h/description.html"]
+
 - id: asahi-sogo
   name: 旭相互銀行
   type: other
