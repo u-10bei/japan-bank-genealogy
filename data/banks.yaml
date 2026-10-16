@@ -92,9 +92,11 @@
 - id: dai31-kokuritsu
   name: 第三十一国立銀行
   type: other
+  founded: "1878-03-14"
   dissolved: "1888"
-  note: 1888年第百四十八国立銀行に合併（銀行局報告は5月、第四銀行百年史は4月30日とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html"]
+  prefecture: 福島県
+  note: 福島で設立（1878年3月14日開業免状下付・設立。開業日は銀行局報告が6月1日、第四銀行百年史が6月9日とする）。1885年3月21日新潟に移転。1888年第百四十八国立銀行に合併（銀行局報告は5月、第四銀行百年史は4月30日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NpxSrHdD31LtCRVyDyK9ys_OYvo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html"]
 
 - id: dai148-kokuritsu
   name: 第百四十八国立銀行
@@ -105,14 +107,83 @@
   note: 1879年3月18日開業免状下付・設立、4月21日開業。1888年第三十一国立銀行を合併。1898年7月1日山口銀行が業務を継承。満期による解散日は資料により異なる（三和銀行史は1898年6月30日満期閉業、銀行総覧・銀行局報告は12月20日満期解散とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html"]
 
-- id: yamaguchi-osaka
+- id: yamaguchi-kojin
   name: 山口銀行（大阪）
   type: other
   founded: "1898"
+  dissolved: "1917-05-01"
+  prefecture: 大阪府
+  note: 個人経営の山口銀行。第百四十八国立銀行の業務を継承して設立（銀行総覧は1898年3月24日設立、三和銀行史は7月1日設立・営業継承とする）。1917年5月1日株式会社山口銀行が業務を継承し廃業。現存の山口銀行（山口県）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/B9IqIG2XypCj4jFycKXt4_yxA9g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html"]
+
+- id: toraya-bank
+  name: 虎屋銀行
+  type: other
+  founded: "1918"
+  dissolved: "1922-01-01"
+  prefecture: 大阪府
+  note: 1922年1月1日山口銀行が買収（4月任意解散登記）。銀行変遷史DBは1918〜1922年の虎屋銀行とする
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- id: koyama-bank
+  name: 児山銀行
+  type: other
+  dissolved: "1925-02-12"
+  note: 1925年2月12日山口銀行が買収（三和銀行史による。2月16日買収届出）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- id: kihan-chochiku
+  name: 紀阪貯蓄銀行
+  type: other
+  dissolved: "1925-10-20"
+  note: 1925年10月20日山口銀行が買収（三和銀行史による。11月9日買収届出）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- id: setchi-bank
+  name: 摂池銀行
+  type: other
+  dissolved: "1927"
+  note: 1927年山口銀行が買収（三和銀行史は6月、日本金融史資料は5月とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- id: taguchi-bank
+  name: 田口銀行
+  type: other
+  dissolved: "1928-01"
+  note: 1928年1月山口銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- id: yasaka-bank
+  name: 八坂銀行
+  type: other
+  dissolved: "1928-10-16"
+  note: 1928年10月16日山口銀行が買収（三和銀行史・佐賀銀行百年史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- id: amagasaki-kyoritsu
+  name: 尼崎共立銀行
+  type: other
+  dissolved: "1929-03-11"
+  note: 1929年3月11日山口銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- id: kashima-bank
+  name: 加島銀行
+  type: other
+  founded: "1888"
+  dissolved: "1937"
+  prefecture: 大阪府
+  note: 銀行変遷史DBは1888〜1937年の加島銀行とする（設立日は未確認）。1929年5月11日、営業を山口銀行・鴻池銀行・野村銀行の3行が分割して譲受。1937年廃業
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- id: yamaguchi-osaka
+  name: 山口銀行（大阪）
+  type: other
+  founded: "1917"
   dissolved: "1933-12-09"
   prefecture: 大阪府
-  note: 1898年7月1日第百四十八国立銀行の業務を継承して開業。銀行変遷史DBは1898〜1917年の山口銀行と、それ以後の山口銀行を分けている（未確認のため同じ項目とした）。現存の山口銀行（山口県）とは別
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/山口銀行_(大阪)]
+  note: 株式会社山口銀行。設立日は資料により異なる（銀行総覧は1917年1月20日設立、4月18日設立登記、三和銀行史は3月18日設立とする）。1917年5月1日個人経営の山口銀行の業務を継承して開業。1922〜1929年に虎屋・児山・紀阪貯蓄・摂池・田口・八坂・尼崎共立の各行を買収し、加島銀行の営業の一部を譲受。1933年12月9日鴻池銀行・三十四銀行と新立合併し三和銀行となる（11月20日合併認可、12月9日創立総会、12月11日開業）。現存の山口銀行（山口県）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/山口銀行_(大阪)]
 
 - id: konoike
   name: 鴻池銀行

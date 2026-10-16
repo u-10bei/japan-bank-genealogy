@@ -4779,6 +4779,86 @@
 - date: "1898-07-01"
   type: transfer
   from: [dai148-kokuritsu]
-  to: [yamaguchi-osaka]
+  to: [yamaguchi-kojin]
   note: 満期により山口銀行が業務を継承（三和銀行史による）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html"]
+
+- date: "1917-05-01"
+  type: transfer
+  from: [yamaguchi-kojin]
+  to: [yamaguchi-osaka]
+  note: 株式会社山口銀行が個人経営の山口銀行の業務を継承（株式会社化）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/B9IqIG2XypCj4jFycKXt4_yxA9g/description.html"]
+
+- date: "1922-01-01"
+  type: transfer
+  from: [toraya-bank]
+  to: [yamaguchi-osaka]
+  note: 山口銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- date: "1925-02-12"
+  type: transfer
+  from: [koyama-bank]
+  to: [yamaguchi-osaka]
+  note: 山口銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- date: "1925-10-20"
+  type: transfer
+  from: [kihan-chochiku]
+  to: [yamaguchi-osaka]
+  note: 山口銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- date: "1927"
+  type: transfer
+  from: [setchi-bank]
+  to: [yamaguchi-osaka]
+  note: 山口銀行が買収（三和銀行史は6月、日本金融史資料は5月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- date: "1928-01"
+  type: transfer
+  from: [taguchi-bank]
+  to: [yamaguchi-osaka]
+  note: 山口銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- date: "1928-10-16"
+  type: transfer
+  from: [yasaka-bank]
+  to: [yamaguchi-osaka]
+  note: 山口銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- date: "1929-03-11"
+  type: transfer
+  from: [amagasaki-kyoritsu]
+  to: [yamaguchi-osaka]
+  note: 山口銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- date: "1929-05-11"
+  type: transfer
+  from: [kashima-bank]
+  to: [yamaguchi-osaka]
+  partial: true
+  note: 加島銀行の営業を山口銀行・鴻池銀行・野村銀行の3行が分割して譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- date: "1929-05-11"
+  type: transfer
+  from: [kashima-bank]
+  to: [konoike]
+  partial: true
+  note: 加島銀行の営業を山口銀行・鴻池銀行・野村銀行の3行が分割して譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- date: "1929-05-11"
+  type: transfer
+  from: [kashima-bank]
+  to: [nomura]
+  partial: true
+  note: 加島銀行の営業を山口銀行・鴻池銀行・野村銀行の3行が分割して譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
