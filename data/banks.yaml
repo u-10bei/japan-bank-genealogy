@@ -8843,10 +8843,10 @@
   name: 延岡銀行
   type: other
   founded: "1899-01-01"
-  dissolved: "1933-12"
+  dissolved: "1933-12-05"
   prefecture: 宮崎県
-  note: 1899年1月1日第百四十五国立銀行が改称。1933年12月日向興業銀行が合併
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nzDfhp3LCkIGa31AgyMI8jWeHpd/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGVF"]
+  note: 1899年1月1日第百四十五国立銀行が改称。1933年12月5日日向興業銀行が合併（12月2日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0oxt4XTkgpLt4-ka0Dzs3RM6fcj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nzDfhp3LCkIGa31AgyMI8jWeHpd/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGVF"]
 
 - id: hyuga-chochiku
   name: 日向貯蓄銀行

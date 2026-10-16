@@ -3657,11 +3657,12 @@
   to: [kasumi]
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YI1V"]
 
-- date: "1933-12"
+- date: "1933-12-05"
   type: absorption
   from: [nobeoka]
   to: [hyuga-kogyo]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGVF"]
+  note: 日向興業銀行が合併（12月2日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0oxt4XTkgpLt4-ka0Dzs3RM6fcj/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGVF"]
 
 - date: "1943-08"
   type: absorption
