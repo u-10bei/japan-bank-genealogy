@@ -1,0 +1,504 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>日本の銀行系譜図</title>
+<meta name="description" content="日本の銀行の合併・統合・改称・破綻の変遷を年表上の系譜図で可視化">
+<style>
+:root {
+  color-scheme: light;
+  --surface: #fcfcfb;
+  --surface-2: #f2f1ee;
+  --border: #dddcd7;
+  --text-primary: #0b0b0b;
+  --text-secondary: #52514e;
+  --text-muted: #7a7974;
+  --grid: #e8e7e3;
+  --accent: #2a78d6;
+  --critical: #c62f2e;
+  --t-city: #2a78d6;
+  --t-regional: #eb6834;
+  --t-trust: #1baf7a;
+  --t-regional2: #eda100;
+  --t-special: #e87ba4;
+  --t-long_term: #6250d6;
+  --t-other: #8c8b86;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --surface: #1a1a19;
+    --surface-2: #242423;
+    --border: #3a3a38;
+    --text-primary: #f0efec;
+    --text-secondary: #c3c2b7;
+    --text-muted: #8f8e88;
+    --grid: #2c2c2a;
+    --accent: #3987e5;
+    --critical: #e66767;
+    --t-city: #3987e5;
+    --t-regional: #d95926;
+    --t-trust: #199e70;
+    --t-regional2: #c98500;
+    --t-special: #d55181;
+    --t-long_term: #9085e9;
+    --t-other: #77766f;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface: #1a1a19;
+  --surface-2: #242423;
+  --border: #3a3a38;
+  --text-primary: #f0efec;
+  --text-secondary: #c3c2b7;
+  --text-muted: #8f8e88;
+  --grid: #2c2c2a;
+  --accent: #3987e5;
+  --critical: #e66767;
+  --t-city: #3987e5;
+  --t-regional: #d95926;
+  --t-trust: #199e70;
+  --t-regional2: #c98500;
+  --t-special: #d55181;
+  --t-long_term: #9085e9;
+  --t-other: #77766f;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; }
+body {
+  background: var(--surface);
+  color: var(--text-primary);
+  font-family: system-ui, -apple-system, "Hiragino Sans", "Noto Sans JP", "Yu Gothic UI", sans-serif;
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  padding: 12px 16px 8px;
+  border-bottom: 1px solid var(--border);
+}
+h1 { font-size: 18px; margin: 0 0 2px; }
+.sub { color: var(--text-secondary); font-size: 12px; margin: 0; }
+.sub a { color: var(--accent); }
+.controls {
+  display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center;
+  padding: 8px 16px; border-bottom: 1px solid var(--border);
+}
+.controls input[type=search] {
+  font: inherit; padding: 5px 8px; width: 220px; max-width: 100%;
+  border: 1px solid var(--border); border-radius: 6px;
+  background: var(--surface); color: var(--text-primary);
+}
+.btns { display: flex; gap: 4px; flex-wrap: wrap; }
+button {
+  font: inherit; font-size: 12px; padding: 4px 10px; cursor: pointer;
+  border: 1px solid var(--border); border-radius: 6px;
+  background: var(--surface-2); color: var(--text-primary);
+}
+button:hover { border-color: var(--text-muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 12px; color: var(--text-secondary); }
+.legend label { display: inline-flex; align-items: center; gap: 4px; cursor: pointer; user-select: none; }
+.legend input { margin: 0; }
+.swatch { width: 14px; height: 6px; border-radius: 3px; display: inline-block; }
+main { flex: 1; display: flex; min-height: 0; position: relative; }
+#chart-wrap { flex: 1; overflow: auto; position: relative; }
+#chart { display: block; }
+#axis-wrap { position: sticky; top: 0; z-index: 2; background: var(--surface); border-bottom: 1px solid var(--border); }
+#axis { display: block; }
+#detail {
+  width: 320px; flex: none; border-left: 1px solid var(--border);
+  overflow: auto; padding: 12px 16px; background: var(--surface);
+}
+#detail h2 { font-size: 16px; margin: 0 0 2px; }
+#detail .en { color: var(--text-muted); font-size: 12px; margin: 0 0 8px; }
+#detail dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 12px; margin: 0 0 12px; font-size: 13px; }
+#detail dt { color: var(--text-secondary); }
+#detail dd { margin: 0; }
+#detail h3 { font-size: 13px; color: var(--text-secondary); margin: 12px 0 4px; }
+#detail ul { margin: 0; padding-left: 18px; font-size: 13px; }
+#detail li { margin-bottom: 4px; }
+#detail a, .bank-link { color: var(--accent); cursor: pointer; text-decoration: none; }
+#detail a:hover, .bank-link:hover { text-decoration: underline; }
+#detail .placeholder { color: var(--text-muted); }
+#detail .close { display: none; float: right; }
+.tooltip {
+  position: fixed; pointer-events: none; z-index: 10;
+  background: var(--surface); color: var(--text-primary);
+  border: 1px solid var(--border); border-radius: 6px;
+  padding: 6px 8px; font-size: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  opacity: 0; transition: opacity .1s;
+}
+.tooltip .muted { color: var(--text-muted); }
+
+svg text { font-family: inherit; }
+.axis text { fill: var(--text-secondary); font-size: 11px; }
+.axis line, .axis path { stroke: var(--border); }
+.gridline { stroke: var(--grid); stroke-width: 1; }
+.bank { cursor: pointer; }
+.bank .bar { stroke: var(--surface); stroke-width: 2px; paint-order: stroke; }
+.bank .hit { fill: transparent; }
+.bank text { fill: var(--text-primary); font-size: 12px; }
+.bank text.alive { font-weight: 600; }
+.link { fill: none; stroke: var(--text-muted); stroke-width: 1.5px; }
+.link.rename { stroke-dasharray: 3 3; }
+.event-dot { fill: var(--surface); stroke: var(--text-secondary); stroke-width: 1.5px; }
+.fail-mark { stroke: var(--critical); stroke-width: 2.5px; stroke-linecap: round; }
+.dim { opacity: .12; }
+.bank.selected .bar { stroke: var(--text-primary); }
+.today { stroke: var(--text-muted); stroke-dasharray: 2 4; }
+
+@media (max-width: 760px) {
+  #detail {
+    position: absolute; right: 0; bottom: 0; left: 0; width: auto; max-height: 50%;
+    border-left: 0; border-top: 1px solid var(--border);
+    box-shadow: 0 -4px 12px rgba(0,0,0,.12); display: none;
+  }
+  #detail.open { display: block; }
+  #detail .close { display: inline-block; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>日本の銀行系譜図</h1>
+  <p class="sub"><span id="stats"></span> ・ データは <a href="https://github.com/u-10bei/japan-bank-genealogy">GitHub</a> で管理しています。誤りの指摘・追加は Issue / Pull Request へ</p>
+</header>
+<div class="controls">
+  <input type="search" id="search" list="bank-names" placeholder="銀行名で検索（例: 三和銀行）" aria-label="銀行名で検索">
+  <datalist id="bank-names"></datalist>
+  <div class="btns" role="group" aria-label="表示期間">
+    <button data-range="all">全期間</button>
+    <button data-range="1945">1945〜</button>
+    <button data-range="1990">1990〜</button>
+    <button id="zoom-in" aria-label="拡大">＋</button>
+    <button id="zoom-out" aria-label="縮小">－</button>
+    <button id="clear">選択解除</button>
+  </div>
+  <div class="legend" id="legend"></div>
+</div>
+<main>
+  <div id="chart-wrap">
+    <div id="axis-wrap"><svg id="axis"></svg></div>
+    <svg id="chart" role="img" aria-label="銀行の系譜図"></svg>
+  </div>
+  <aside id="detail" aria-live="polite">
+    <p class="placeholder">銀行の線をクリックすると、詳細と前身・後継の系統を表示します。<br><br>横方向は Ctrl/⌘ + ホイール または ドラッグで拡大・移動できます。</p>
+  </aside>
+</main>
+<div class="tooltip" id="tooltip"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script>
+const TYPE_LABELS = {
+  city: "都市銀行", regional: "地方銀行", regional2: "第二地方銀行", trust: "信託銀行",
+  long_term: "長期信用銀行", special: "特殊銀行", other: "その他",
+};
+const EVENT_LABELS = {
+  merger: "合併", absorption: "吸収合併", rename: "商号変更",
+  reorganization: "再編", transfer: "事業譲渡", failure: "破綻・国有化",
+};
+const ROW_H = 24, LABEL_PAD = 4, MARGIN = { left: 16, right: 140 };
+const NOW_YEAR = new Date().getFullYear() + new Date().getMonth() / 12;
+
+// "1933" / "1933-12" / "1933-12-09" → 小数年
+function toYear(d) {
+  const [y, m = 1, day = 1] = d.split("-").map(Number);
+  return y + (m - 1) / 12 + (day - 1) / 365;
+}
+function fmtDate(d) {
+  if (!d) return "";
+  const [y, m, day] = d.split("-");
+  return y + "年" + (m ? Number(m) + "月" : "") + (day ? Number(day) + "日" : "");
+}
+
+d3.json("data.json").then(init).catch(err => {
+  document.getElementById("detail").innerHTML =
+    "<p>data.json を読み込めませんでした。<code>python scripts/build.py</code> を実行してから、<code>docs/</code> をHTTPサーバーで配信してください。</p>";
+  console.error(err);
+});
+
+function init(data) {
+  const banks = new Map(data.banks.map(b => [b.id, { ...b, preds: [], succs: [], events: [] }]));
+  for (const e of data.events) {
+    for (const f of e.from) banks.get(f).events.push(e);
+    for (const t of e.to) if (!e.from.includes(t)) banks.get(t).events.push(e);
+    if (e.type === "failure") continue;
+    for (const f of e.from) for (const t of e.to) {
+      if (f === t) continue;
+      banks.get(t).preds.push(f);
+      banks.get(f).succs.push(t);
+    }
+  }
+  for (const b of banks.values()) {
+    b.start = toYear(b.founded);
+    b.end = b.dissolved ? toYear(b.dissolved) : NOW_YEAR;
+    b.failed = b.events.some(e => e.type === "failure" && e.from.includes(b.id));
+  }
+
+  // ---- レイアウト: 系統（連結成分）ごとにまとめ、後継行の上下に前身行を配置する
+  const order = [];
+  const visited = new Set();
+  function place(id) {
+    if (visited.has(id)) return;
+    visited.add(id);
+    const ps = banks.get(id).preds.filter(p => !visited.has(p))
+      .sort((a, b) => banks.get(a).start - banks.get(b).start);
+    const half = Math.ceil(ps.length / 2);
+    ps.slice(0, half).forEach(place);
+    order.push(id);
+    ps.slice(half).forEach(place);
+  }
+  function component(id, seen = new Set()) {
+    if (seen.has(id)) return seen;
+    seen.add(id);
+    const b = banks.get(id);
+    [...b.preds, ...b.succs].forEach(n => component(n, seen));
+    return seen;
+  }
+  const comps = [];
+  const assigned = new Set();
+  for (const id of banks.keys()) {
+    if (assigned.has(id)) continue;
+    const c = [...component(id)];
+    c.forEach(x => assigned.add(x));
+    comps.push(c);
+  }
+  // 大きい系統から、同規模なら古い順
+  comps.sort((a, b) => b.length - a.length ||
+    d3.min(a, id => banks.get(id).start) - d3.min(b, id => banks.get(id).start));
+  const rowOf = new Map();
+  let row = 0;
+  for (const c of comps) {
+    const roots = c.filter(id => banks.get(id).succs.length === 0)
+      .sort((a, b) => banks.get(b).end - banks.get(a).end || banks.get(a).start - banks.get(b).start);
+    const before = order.length;
+    roots.forEach(place);
+    c.forEach(place); // 念のため取りこぼしを配置
+    for (const id of order.slice(before)) rowOf.set(id, row++);
+    row += 1; // 系統間の余白
+  }
+
+  // ---- 描画
+  const wrap = document.getElementById("chart-wrap");
+  const svg = d3.select("#chart");
+  const axisSvg = d3.select("#axis");
+  const height = row * ROW_H + 8;
+  const minYear = Math.floor(d3.min(banks.values(), b => b.start) / 10) * 10;
+  const x0 = d3.scaleLinear().domain([minYear, NOW_YEAR + 1]);
+  let x = x0.copy();
+  const y = id => rowOf.get(id) * ROW_H + ROW_H / 2 + 4;
+
+  const gGrid = svg.append("g");
+  const gLinks = svg.append("g");
+  const gBanks = svg.append("g");
+  const gEvents = svg.append("g");
+  const gAxis = axisSvg.append("g").attr("class", "axis").attr("transform", "translate(0,22)");
+
+  const links = [];
+  for (const e of data.events) {
+    if (e.type === "failure") continue;
+    for (const f of e.from) for (const t of e.to) if (f !== t) links.push({ e, f, t });
+  }
+  const linkSel = gLinks.selectAll("path").data(links).join("path")
+    .attr("class", d => "link " + d.e.type);
+
+  const eventPoints = [];
+  for (const e of data.events) {
+    if (e.type === "failure") {
+      for (const f of e.from) eventPoints.push({ e, id: f, fail: true });
+    } else {
+      for (const t of e.to) if (!e.from.includes(t)) eventPoints.push({ e, id: t });
+    }
+  }
+  const dotSel = gEvents.selectAll("g").data(eventPoints).join("g");
+  dotSel.filter(d => !d.fail).append("circle").attr("class", "event-dot").attr("r", 4);
+  dotSel.filter(d => d.fail).append("path").attr("class", "fail-mark").attr("d", "M-4,-4L4,4M4,-4L-4,4");
+
+  const bankList = [...banks.values()];
+  const bankSel = gBanks.selectAll("g").data(bankList, d => d.id).join("g")
+    .attr("class", "bank")
+    .on("click", (ev, d) => select(d.id, true))
+    .on("mousemove", (ev, d) => showTip(ev, d))
+    .on("mouseleave", hideTip);
+  bankSel.append("rect").attr("class", "hit").attr("height", ROW_H);
+  bankSel.append("rect").attr("class", "bar").attr("height", 8).attr("rx", 4)
+    .attr("fill", d => `var(--t-${d.type})`);
+  bankSel.append("text").attr("class", d => d.dissolved ? "" : "alive")
+    .text(d => d.name);
+
+  function render() {
+    const width = Math.max(wrap.clientWidth, 480);
+    x.range([MARGIN.left, width - MARGIN.right]);
+    svg.attr("width", width).attr("height", height);
+    axisSvg.attr("width", width).attr("height", 28);
+    const ticks = x.ticks(Math.max(4, Math.floor(width / 80)));
+    gAxis.call(d3.axisTop(x).tickValues(ticks).tickFormat(d3.format("d")).tickSizeOuter(0));
+    gGrid.selectAll("line.gridline").data(ticks).join("line").attr("class", "gridline")
+      .attr("x1", d => x(d)).attr("x2", d => x(d)).attr("y1", 0).attr("y2", height);
+    gGrid.selectAll("line.today").data([NOW_YEAR]).join("line").attr("class", "today")
+      .attr("x1", d => x(d)).attr("x2", d => x(d)).attr("y1", 0).attr("y2", height);
+
+    bankSel.select(".bar")
+      .attr("x", d => x(d.start)).attr("y", d => y(d.id) - 4)
+      .attr("width", d => Math.max(2, x(d.end) - x(d.start)));
+    bankSel.select(".hit")
+      .attr("x", d => x(d.start)).attr("y", d => y(d.id) - ROW_H / 2)
+      .attr("width", d => Math.max(8, x(d.end) - x(d.start)));
+    // ラベルは線の左上。画面外に出たら左端に寄せる
+    bankSel.select("text")
+      .attr("x", d => Math.min(Math.max(x(d.start), MARGIN.left) + LABEL_PAD, Math.max(x(d.end) - 20, x(d.start) + LABEL_PAD)))
+      .attr("y", d => y(d.id) - 7);
+    linkSel.attr("d", d => {
+      const xx = x(toYear(d.e.date)), y1 = y(d.f), y2 = y(d.t);
+      const bend = Math.min(12, Math.abs(y2 - y1) / 2);
+      return `M${xx - bend},${y1}C${xx},${y1} ${xx},${y1} ${xx},${y1 + Math.sign(y2 - y1) * bend}` +
+        `L${xx},${y2}`;
+    });
+    dotSel.attr("transform", d => `translate(${x(toYear(d.e.date))},${y(d.id)})`);
+  }
+
+  // ---- ズーム（横方向のみ。縦はページスクロール）
+  let transform = d3.zoomIdentity;
+  const zoom = d3.zoom()
+    .scaleExtent([1, 40])
+    .filter(ev => ev.type === "wheel" ? (ev.ctrlKey || ev.metaKey) : !ev.button)
+    .on("zoom", ev => {
+      transform = ev.transform;
+      x = transform.rescaleX(x0.copy().range(x.range()));
+      render();
+    });
+  svg.call(zoom).on("dblclick.zoom", null);
+  function zoomToYears(a, b) {
+    const r = x.range();
+    const base = x0.copy().range(r);
+    const k = Math.min(40, Math.max(1, (r[1] - r[0]) / (base(b) - base(a))));
+    const tx = r[0] - k * base(a);
+    svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity.translate(tx, 0).scale(k));
+  }
+  document.querySelectorAll("[data-range]").forEach(btn => btn.addEventListener("click", () => {
+    const v = btn.dataset.range;
+    if (v === "all") svg.transition().duration(500).call(zoom.transform, d3.zoomIdentity);
+    else zoomToYears(Number(v), NOW_YEAR + 1);
+  }));
+  document.getElementById("zoom-in").onclick = () => svg.transition().call(zoom.scaleBy, 1.5);
+  document.getElementById("zoom-out").onclick = () => svg.transition().call(zoom.scaleBy, 1 / 1.5);
+
+  // ---- 凡例 & 種別フィルタ
+  const hiddenTypes = new Set();
+  const typesPresent = Object.keys(TYPE_LABELS).filter(t => bankList.some(b => b.type === t));
+  const legend = d3.select("#legend");
+  for (const t of typesPresent) {
+    const lab = legend.append("label");
+    lab.append("input").attr("type", "checkbox").property("checked", true)
+      .on("change", function () { this.checked ? hiddenTypes.delete(t) : hiddenTypes.add(t); applyHighlight(); });
+    lab.append("span").attr("class", "swatch").style("background", `var(--t-${t})`);
+    lab.append("span").text(`${TYPE_LABELS[t]} (${bankList.filter(b => b.type === t).length})`);
+  }
+  const lg = legend.append("span").style("display", "inline-flex").style("gap", "10px");
+  lg.append("span").html('<svg width="12" height="12" style="vertical-align:-2px"><circle cx="6" cy="6" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg> 合併・改称等');
+  lg.append("span").html('<svg width="12" height="12" style="vertical-align:-2px"><path d="M2,2L10,10M10,2L2,10" stroke="var(--critical)" stroke-width="2.5" stroke-linecap="round"/></svg> 破綻・国有化');
+
+  // ---- 選択・系統ハイライト
+  let selected = null, lineage = null;
+  function lineageOf(id) {
+    const s = new Set([id]);
+    const walk = (cur, key) => banks.get(cur)[key].forEach(n => { if (!s.has(n)) { s.add(n); walk(n, key); } });
+    walk(id, "preds");
+    walk(id, "succs");
+    return s;
+  }
+  function applyHighlight() {
+    const visible = d => !hiddenTypes.has(banks.get(d).type) && (!lineage || lineage.has(d));
+    bankSel.classed("dim", d => !visible(d.id)).classed("selected", d => d.id === selected);
+    linkSel.classed("dim", d => !(visible(d.f) && visible(d.t)));
+    dotSel.classed("dim", d => !visible(d.id));
+  }
+  function select(id, fromChart) {
+    selected = id;
+    lineage = id ? lineageOf(id) : null;
+    applyHighlight();
+    renderDetail(id);
+    if (id && !fromChart) {
+      const b = banks.get(id);
+      const top = y(id) - wrap.clientHeight / 2 + 28;
+      wrap.scrollTo({ top: Math.max(0, top), behavior: "smooth" });
+      const span = [...lineage].map(n => banks.get(n));
+      zoomToYears(Math.max(minYear, d3.min(span, s => s.start) - 3), Math.min(NOW_YEAR + 1, d3.max(span, s => s.end) + 3));
+    }
+  }
+  document.getElementById("clear").onclick = () => { select(null); document.getElementById("search").value = ""; };
+
+  // ---- 検索
+  const dl = d3.select("#bank-names");
+  for (const b of [...bankList].sort((a, b) => a.name.localeCompare(b.name, "ja"))) {
+    dl.append("option").attr("value", b.name).text(b.name_en || "");
+  }
+  const search = document.getElementById("search");
+  search.addEventListener("change", () => {
+    const q = search.value.trim();
+    if (!q) return;
+    const hit = bankList.find(b => b.name === q) ||
+      bankList.find(b => b.name.includes(q) || (b.name_en || "").toLowerCase().includes(q.toLowerCase()));
+    if (hit) select(hit.id);
+  });
+
+  // ---- 詳細パネル
+  const detail = document.getElementById("detail");
+  const placeholder = detail.innerHTML;
+  const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const linkTo = id => `<span class="bank-link" data-id="${esc(id)}">${esc(banks.get(id).name)}</span>`;
+  function renderDetail(id) {
+    if (!id) { detail.innerHTML = placeholder; detail.classList.remove("open"); return; }
+    const b = banks.get(id);
+    const evs = [...b.events].sort((a, c) => toYear(a.date) - toYear(c.date));
+    detail.innerHTML = `
+      <button class="close" aria-label="閉じる">閉じる</button>
+      <h2>${esc(b.name)}</h2>
+      <p class="en">${esc(b.name_en || "")}</p>
+      <dl>
+        <dt>種別</dt><dd><span class="swatch" style="background:var(--t-${b.type})"></span> ${TYPE_LABELS[b.type]}</dd>
+        <dt>設立</dt><dd>${fmtDate(b.founded)}</dd>
+        <dt>消滅</dt><dd>${b.dissolved ? fmtDate(b.dissolved) : "存続中"}</dd>
+        ${b.prefecture ? `<dt>本店</dt><dd>${esc(b.prefecture)}</dd>` : ""}
+      </dl>
+      ${b.note ? `<p>${esc(b.note)}</p>` : ""}
+      ${b.preds.length ? `<h3>前身</h3><ul>${[...new Set(b.preds)].map(p => `<li>${linkTo(p)}</li>`).join("")}</ul>` : ""}
+      ${b.succs.length ? `<h3>後継</h3><ul>${[...new Set(b.succs)].map(s => `<li>${linkTo(s)}</li>`).join("")}</ul>` : ""}
+      ${evs.length ? `<h3>変遷</h3><ul>${evs.map(e => `<li>${fmtDate(e.date)} ${EVENT_LABELS[e.type]}：${e.from.map(linkTo).join("・")}${e.to.length ? " → " + e.to.map(linkTo).join("・") : ""}${e.note ? `<br><small>${esc(e.note)}</small>` : ""}</li>`).join("")}</ul>` : ""}
+      ${b.sources && b.sources.length ? `<h3>出典</h3><ul>${b.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(decodeURI(s))}</a></li>`).join("")}</ul>` : ""}
+    `;
+    detail.classList.add("open");
+    detail.querySelectorAll(".bank-link").forEach(el => el.onclick = () => select(el.dataset.id));
+    const close = detail.querySelector(".close");
+    if (close) close.onclick = () => select(null);
+  }
+
+  // ---- ツールチップ
+  const tip = document.getElementById("tooltip");
+  function showTip(ev, d) {
+    tip.innerHTML = `<strong>${esc(d.name)}</strong><br><span class="muted">${TYPE_LABELS[d.type]}・${fmtDate(d.founded)}〜${d.dissolved ? fmtDate(d.dissolved) : "現在"}</span>`;
+    const pad = 12;
+    let left = ev.clientX + pad, top = ev.clientY + pad;
+    if (left + tip.offsetWidth > window.innerWidth) left = ev.clientX - tip.offsetWidth - pad;
+    if (top + tip.offsetHeight > window.innerHeight) top = ev.clientY - tip.offsetHeight - pad;
+    tip.style.left = left + "px"; tip.style.top = top + "px"; tip.style.opacity = 1;
+  }
+  function hideTip() { tip.style.opacity = 0; }
+
+  document.getElementById("stats").textContent =
+    `収録: 銀行 ${bankList.length} 行 / 変遷イベント ${data.events.length} 件`;
+  window.addEventListener("resize", () => {
+    x = transform.rescaleX(x0.copy().range([MARGIN.left, Math.max(wrap.clientWidth, 480) - MARGIN.right]));
+    render();
+  });
+  render();
+
+  // URL ハッシュ (#bank=sanwa) で初期選択
+  const m = location.hash.match(/bank=([a-z0-9-]+)/);
+  if (m && banks.has(m[1])) select(m[1]);
+}
+</script>
+</body>
+</html>
