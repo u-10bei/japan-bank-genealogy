@@ -900,6 +900,23 @@
   note: 明治45年設立の旧青森銀行
   sources: [https://ja.wikipedia.org/wiki/第五十九銀行, https://ja.wikipedia.org/wiki/八戸銀行]
 
+- id: fujisaki-ginko
+  name: 藤崎銀行
+  type: other
+  dissolved: "1927-03-25"
+  prefecture: 青森県
+  note: 1927年3月25日弘前商業銀行に合併（合併認可の記載「大正1.12.16」は昭和元年の誤記か）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2UoRy_akiqTfQPl459Iccm6grTg/description.html"]
+
+- id: hirosaki-shogyo
+  name: 弘前商業銀行
+  type: other
+  founded: "1896-03-25"
+  dissolved: "1944-06-30"
+  prefecture: 青森県
+  note: 1896年4月15日開業。1927年藤崎銀行を合併。1944年6月30日青森銀行が買収（青森銀行史は営業譲渡、青森銀行の有価証券報告書は「営業の一部を譲受」とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2UoRy_akiqTfQPl459Iccm6grTg/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OESC"]
+
 - id: aomori
   name: 青森銀行
   name_en: The Aomori Bank
@@ -907,7 +924,7 @@
   founded: "1943-10-01"
   dissolved: "2025-01-01"
   prefecture: 青森県
-  note: 2022年プロクレアHD傘下。2025年みちのく銀行を吸収し青森みちのく銀行に改称。1944年6月、弘前商業銀行・佐々木銀行の営業の一部を譲受
+  note: 2022年プロクレアHD傘下。2025年みちのく銀行を吸収し青森みちのく銀行に改称。1944年6月、佐々木銀行の営業の一部を譲受（弘前商業銀行の買収は別項目）
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OESC", https://ja.wikipedia.org/wiki/青森みちのく銀行, https://ja.wikipedia.org/wiki/青森銀行, https://ja.wikipedia.org/wiki/第五十九銀行]
 
 - id: aomori-michinoku

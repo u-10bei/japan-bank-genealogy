@@ -4155,3 +4155,16 @@
   to: [hachinohe-ginko]
   note: 4行の新立合併（1928年5月1日開業）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xg2DIeGqnfi-SkV71hYRsMFxPvb/description.html"]
+
+- date: "1927-03-25"
+  type: absorption
+  from: [fujisaki-ginko]
+  to: [hirosaki-shogyo]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2UoRy_akiqTfQPl459Iccm6grTg/description.html"]
+
+- date: "1944-06-30"
+  type: transfer
+  from: [hirosaki-shogyo]
+  to: [aomori]
+  note: 青森銀行が買収（営業譲渡）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2UoRy_akiqTfQPl459Iccm6grTg/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OESC"]
