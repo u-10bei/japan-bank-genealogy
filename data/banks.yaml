@@ -5584,10 +5584,10 @@
 - id: mufg-emutto-bank
   name: 三菱UFJエムット銀行
   type: new
-  founded: "2026-09-24"
+  founded: "2025-08-01"
   prefecture: 東京都
-  note: 2026年9月24日の銀行業免許取得・商号変更を始点とした（法人の設立日は出典に記載なし）。三菱UFJ銀行全額出資の設立準備会社が2026年9月24日銀行免許を取得し商号変更（設立日は出典に記載なし）。開業は2027年1〜3月予定
-  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/三菱UFJ銀行]
+  note: 三菱UFJ銀行が新銀行の設立準備会社MUデジタルバンク設立準備として設立（帝国データバンク新設企業情報）。2026年9月24日銀行業免許・三菱UFJエムット銀行に商号変更（サービス名称「エムットバンク」）。開業は2027年1〜3月予定（Wikipedia）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FyBHDYcVwUZOkbJcbYOeYZPzZse/description.html", https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/三菱UFJ銀行]
 
 - id: minna-bank
   name: みんなの銀行
