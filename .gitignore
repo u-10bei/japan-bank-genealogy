@@ -1,0 +1,3 @@
+# build.py が生成する（CI でも生成）
+docs/data.json
+__pycache__/

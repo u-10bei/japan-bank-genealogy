@@ -1,0 +1,455 @@
+# 銀行マスタ
+#
+# id        : 英小文字・数字・ハイフンの一意なID（変更しないこと）
+# name      : 正式名称（当時のもの）
+# name_en   : 英語名（任意）
+# type      : city | trust | long_term | regional | regional2 | special | other
+# founded   : 設立日 YYYY / YYYY-MM / YYYY-MM-DD
+# dissolved : 消滅日（存続中なら省略）。合併・改称などで名称が消えた日
+# prefecture: 本店所在地の都道府県（任意）
+# note      : 補足（任意）
+# sources   : 出典URLのリスト（任意だが推奨）
+#
+# ※ 初期データは主要行の系譜のみ。日付は出典で確認のうえ随時修正してください。
+
+# ---------------------------------------------------------------- 三菱UFJ系
+- id: mitsubishi
+  name: 三菱銀行
+  name_en: The Mitsubishi Bank
+  type: city
+  founded: "1919-08-15"
+  dissolved: "1996-04-01"
+  prefecture: 東京都
+  note: 三菱合資会社銀行部から独立
+  sources: [https://ja.wikipedia.org/wiki/三菱銀行]
+
+- id: yokohama-specie
+  name: 横浜正金銀行
+  name_en: The Yokohama Specie Bank
+  type: special
+  founded: "1880"
+  dissolved: "1946-12"
+  prefecture: 神奈川県
+  note: 戦後に閉鎖機関となり、普通銀行として東京銀行に改組
+  sources: [https://ja.wikipedia.org/wiki/横浜正金銀行]
+
+- id: tokyo
+  name: 東京銀行
+  name_en: The Bank of Tokyo
+  type: city
+  founded: "1946-12"
+  dissolved: "1996-04-01"
+  prefecture: 東京都
+  note: 外国為替専門銀行
+  sources: [https://ja.wikipedia.org/wiki/東京銀行]
+
+- id: tokyo-mitsubishi
+  name: 東京三菱銀行
+  name_en: The Bank of Tokyo-Mitsubishi
+  type: city
+  founded: "1996-04-01"
+  dissolved: "2006-01-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/東京三菱銀行]
+
+- id: sanwa
+  name: 三和銀行
+  name_en: The Sanwa Bank
+  type: city
+  founded: "1933-12-09"
+  dissolved: "2002-01-15"
+  prefecture: 大阪府
+  sources: [https://ja.wikipedia.org/wiki/三和銀行]
+
+- id: thirty-fourth
+  name: 三十四銀行
+  type: other
+  founded: "1878"
+  dissolved: "1933-12-09"
+  prefecture: 大阪府
+  sources: [https://ja.wikipedia.org/wiki/三十四銀行]
+
+- id: yamaguchi-osaka
+  name: 山口銀行（大阪）
+  type: other
+  founded: "1879"
+  dissolved: "1933-12-09"
+  prefecture: 大阪府
+  note: 現存の山口銀行（山口県）とは別
+  sources: [https://ja.wikipedia.org/wiki/三和銀行]
+
+- id: konoike
+  name: 鴻池銀行
+  type: other
+  founded: "1877"
+  dissolved: "1933-12-09"
+  prefecture: 大阪府
+  sources: [https://ja.wikipedia.org/wiki/三和銀行]
+
+- id: tokai
+  name: 東海銀行
+  name_en: The Tokai Bank
+  type: city
+  founded: "1941-06-09"
+  dissolved: "2002-01-15"
+  prefecture: 愛知県
+  note: 愛知銀行・名古屋銀行・伊藤銀行の合併で設立
+  sources: [https://ja.wikipedia.org/wiki/東海銀行]
+
+- id: ufj
+  name: UFJ銀行
+  name_en: UFJ Bank
+  type: city
+  founded: "2002-01-15"
+  dissolved: "2006-01-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/UFJ銀行]
+
+- id: btmu
+  name: 三菱東京UFJ銀行
+  name_en: The Bank of Tokyo-Mitsubishi UFJ
+  type: city
+  founded: "2006-01-01"
+  dissolved: "2018-04-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/三菱UFJ銀行]
+
+- id: mufg-bank
+  name: 三菱UFJ銀行
+  name_en: MUFG Bank
+  type: city
+  founded: "2018-04-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/三菱UFJ銀行]
+
+# ---------------------------------------------------------------- 三井住友系
+- id: sumitomo
+  name: 住友銀行
+  name_en: The Sumitomo Bank
+  type: city
+  founded: "1895-11-01"
+  dissolved: "2001-04-01"
+  prefecture: 大阪府
+  note: 住友本店銀行部として開業
+  sources: [https://ja.wikipedia.org/wiki/住友銀行]
+
+- id: mitsui
+  name: 三井銀行
+  name_en: The Mitsui Bank
+  type: city
+  founded: "1876-07-01"
+  dissolved: "1990-04-01"
+  prefecture: 東京都
+  note: 日本初の私立銀行。1943〜1948年は帝国銀行に統合されていた（未収録）
+  sources: [https://ja.wikipedia.org/wiki/三井銀行]
+
+- id: kobe
+  name: 神戸銀行
+  type: city
+  founded: "1936"
+  dissolved: "1973-10-01"
+  prefecture: 兵庫県
+  sources: [https://ja.wikipedia.org/wiki/神戸銀行]
+
+- id: taiyo
+  name: 太陽銀行
+  type: city
+  founded: "1968"
+  dissolved: "1973-10-01"
+  prefecture: 東京都
+  note: 日本相互銀行が普通銀行に転換して改称
+  sources: [https://ja.wikipedia.org/wiki/太陽神戸銀行]
+
+- id: taiyo-kobe
+  name: 太陽神戸銀行
+  type: city
+  founded: "1973-10-01"
+  dissolved: "1990-04-01"
+  prefecture: 兵庫県
+  sources: [https://ja.wikipedia.org/wiki/太陽神戸銀行]
+
+- id: taiyo-kobe-mitsui
+  name: 太陽神戸三井銀行
+  type: city
+  founded: "1990-04-01"
+  dissolved: "1992-04-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/さくら銀行]
+
+- id: sakura
+  name: さくら銀行
+  name_en: The Sakura Bank
+  type: city
+  founded: "1992-04-01"
+  dissolved: "2001-04-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/さくら銀行]
+
+- id: smbc
+  name: 三井住友銀行
+  name_en: Sumitomo Mitsui Banking Corporation
+  type: city
+  founded: "2001-04-01"
+  prefecture: 東京都
+  note: 2002年12月、わかしお銀行を存続会社とする合併（逆さ合併）を実施（未収録）
+  sources: [https://ja.wikipedia.org/wiki/三井住友銀行]
+
+# ---------------------------------------------------------------- みずほ系
+- id: dai-ichi-national
+  name: 第一国立銀行
+  type: other
+  founded: "1873-07-20"
+  dissolved: "1896"
+  prefecture: 東京都
+  note: 渋沢栄一が設立
+  sources: [https://ja.wikipedia.org/wiki/第一銀行]
+
+- id: dai-ichi
+  name: 第一銀行
+  type: city
+  founded: "1896"
+  dissolved: "1971-10-01"
+  prefecture: 東京都
+  note: 1943〜1948年は帝国銀行に統合されていた（未収録）
+  sources: [https://ja.wikipedia.org/wiki/第一銀行]
+
+- id: kangyo
+  name: 日本勧業銀行
+  type: special
+  founded: "1897"
+  dissolved: "1971-10-01"
+  prefecture: 東京都
+  note: 1950年に普通銀行へ転換
+  sources: [https://ja.wikipedia.org/wiki/日本勧業銀行]
+
+- id: dkb
+  name: 第一勧業銀行
+  name_en: The Dai-Ichi Kangyo Bank
+  type: city
+  founded: "1971-10-01"
+  dissolved: "2002-04-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/第一勧業銀行]
+
+- id: yasuda
+  name: 安田銀行
+  type: city
+  founded: "1880"
+  dissolved: "1948"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/富士銀行]
+
+- id: fuji
+  name: 富士銀行
+  name_en: The Fuji Bank
+  type: city
+  founded: "1948"
+  dissolved: "2002-04-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/富士銀行]
+
+- id: ibj
+  name: 日本興業銀行
+  name_en: The Industrial Bank of Japan
+  type: long_term
+  founded: "1902"
+  dissolved: "2002-04-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/日本興業銀行]
+
+- id: mizuho-bank-old
+  name: みずほ銀行（旧）
+  type: city
+  founded: "2002-04-01"
+  dissolved: "2013-07-01"
+  prefecture: 東京都
+  note: 個人・中堅中小企業向け
+  sources: [https://ja.wikipedia.org/wiki/みずほ銀行_(旧)]
+
+- id: mizuho-corporate
+  name: みずほコーポレート銀行
+  type: city
+  founded: "2002-04-01"
+  dissolved: "2013-07-01"
+  prefecture: 東京都
+  note: 大企業向け。2013年に旧みずほ銀行を吸収し、みずほ銀行へ商号変更
+  sources: [https://ja.wikipedia.org/wiki/みずほ銀行]
+
+- id: mizuho-bank
+  name: みずほ銀行
+  name_en: Mizuho Bank
+  type: city
+  founded: "2013-07-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/みずほ銀行]
+
+# ---------------------------------------------------------------- りそな系
+- id: daiwa
+  name: 大和銀行
+  name_en: The Daiwa Bank
+  type: city
+  founded: "1918"
+  dissolved: "2003-03-01"
+  prefecture: 大阪府
+  note: 大阪野村銀行として設立
+  sources: [https://ja.wikipedia.org/wiki/大和銀行]
+
+- id: kyowa
+  name: 協和銀行
+  type: city
+  founded: "1948"
+  dissolved: "1991-04-01"
+  prefecture: 東京都
+  note: 日本貯蓄銀行から改称
+  sources: [https://ja.wikipedia.org/wiki/協和銀行]
+
+- id: saitama
+  name: 埼玉銀行
+  type: city
+  founded: "1943"
+  dissolved: "1991-04-01"
+  prefecture: 埼玉県
+  sources: [https://ja.wikipedia.org/wiki/埼玉銀行]
+
+- id: kyowa-saitama
+  name: 協和埼玉銀行
+  type: city
+  founded: "1991-04-01"
+  dissolved: "1992-09-21"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/あさひ銀行]
+
+- id: asahi
+  name: あさひ銀行
+  type: city
+  founded: "1992-09-21"
+  dissolved: "2003-03-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/あさひ銀行]
+
+- id: resona
+  name: りそな銀行
+  name_en: Resona Bank
+  type: city
+  founded: "2003-03-01"
+  prefecture: 大阪府
+  sources: [https://ja.wikipedia.org/wiki/りそな銀行]
+
+- id: saitama-resona
+  name: 埼玉りそな銀行
+  name_en: Saitama Resona Bank
+  type: regional
+  founded: "2003-03-01"
+  prefecture: 埼玉県
+  sources: [https://ja.wikipedia.org/wiki/埼玉りそな銀行]
+
+# ---------------------------------------------------------------- 破綻・国有化
+- id: takugin
+  name: 北海道拓殖銀行
+  name_en: The Hokkaido Takushoku Bank
+  type: city
+  founded: "1900"
+  dissolved: "1998-11-16"
+  prefecture: 北海道
+  note: 1997年11月17日に経営破綻、北海道内の営業を北洋銀行へ譲渡
+  sources: [https://ja.wikipedia.org/wiki/北海道拓殖銀行]
+
+- id: hokuyo
+  name: 北洋銀行
+  name_en: North Pacific Bank
+  type: regional2
+  founded: "1917"
+  prefecture: 北海道
+  sources: [https://ja.wikipedia.org/wiki/北洋銀行]
+
+- id: ltcb
+  name: 日本長期信用銀行
+  name_en: The Long-Term Credit Bank of Japan
+  type: long_term
+  founded: "1952"
+  dissolved: "2000-06-05"
+  prefecture: 東京都
+  note: 1998年10月に特別公的管理（一時国有化）
+  sources: [https://ja.wikipedia.org/wiki/日本長期信用銀行]
+
+- id: shinsei
+  name: 新生銀行
+  name_en: Shinsei Bank
+  type: long_term
+  founded: "2000-06-05"
+  dissolved: "2023-01-04"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/SBI新生銀行]
+
+- id: sbi-shinsei
+  name: SBI新生銀行
+  name_en: SBI Shinsei Bank
+  type: other
+  founded: "2023-01-04"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/SBI新生銀行]
+
+- id: ncb
+  name: 日本債券信用銀行
+  name_en: The Nippon Credit Bank
+  type: long_term
+  founded: "1957"
+  dissolved: "2001-01-04"
+  prefecture: 東京都
+  note: 日本不動産銀行として設立。1998年12月に特別公的管理（一時国有化）
+  sources: [https://ja.wikipedia.org/wiki/日本債券信用銀行]
+
+- id: aozora
+  name: あおぞら銀行
+  name_en: Aozora Bank
+  type: other
+  founded: "2001-01-04"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/あおぞら銀行]
+
+# ---------------------------------------------------------------- 地方銀行（例）
+- id: daishi
+  name: 第四銀行
+  type: regional
+  founded: "1873"
+  dissolved: "2021-01-01"
+  prefecture: 新潟県
+  sources: [https://ja.wikipedia.org/wiki/第四銀行]
+
+- id: hokuetsu
+  name: 北越銀行
+  type: regional
+  founded: "1878"
+  dissolved: "2021-01-01"
+  prefecture: 新潟県
+  sources: [https://ja.wikipedia.org/wiki/北越銀行]
+
+- id: daishi-hokuetsu
+  name: 第四北越銀行
+  type: regional
+  founded: "2021-01-01"
+  prefecture: 新潟県
+  sources: [https://ja.wikipedia.org/wiki/第四北越銀行]
+
+- id: eighteenth
+  name: 十八銀行
+  type: regional
+  founded: "1877"
+  dissolved: "2020-10-01"
+  prefecture: 長崎県
+  sources: [https://ja.wikipedia.org/wiki/十八銀行]
+
+- id: shinwa
+  name: 親和銀行
+  type: regional
+  founded: "1939"
+  dissolved: "2020-10-01"
+  prefecture: 長崎県
+  sources: [https://ja.wikipedia.org/wiki/親和銀行]
+
+- id: juhachi-shinwa
+  name: 十八親和銀行
+  type: regional
+  founded: "2020-10-01"
+  prefecture: 長崎県
+  sources: [https://ja.wikipedia.org/wiki/十八親和銀行]

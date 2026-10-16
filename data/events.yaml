@@ -1,0 +1,160 @@
+# 変遷イベント
+#
+# date : 発生日 YYYY / YYYY-MM / YYYY-MM-DD
+# type : merger         新設合併・対等合併（from の銀行が消え、to が生まれる）
+#        absorption     吸収合併（from が to に吸収され、to は存続）
+#        rename         商号変更
+#        reorganization 分割・再編（from 複数 → to 複数 など）
+#        transfer       事業譲渡（破綻行の受け皿など）
+#        failure        経営破綻・国有化（to は省略可）
+# from : 変遷前の銀行IDのリスト
+# to   : 変遷後の銀行IDのリスト
+# note : 補足（任意）
+# sources: 出典URLのリスト（任意だが推奨）
+
+# ---------------------------------------------------------------- 三菱UFJ系
+- date: "1933-12-09"
+  type: merger
+  from: [thirty-fourth, yamaguchi-osaka, konoike]
+  to: [sanwa]
+
+- date: "1946-12"
+  type: reorganization
+  from: [yokohama-specie]
+  to: [tokyo]
+  note: 横浜正金銀行の事業を承継して東京銀行を設立
+
+- date: "1996-04-01"
+  type: merger
+  from: [mitsubishi, tokyo]
+  to: [tokyo-mitsubishi]
+
+- date: "2002-01-15"
+  type: merger
+  from: [sanwa, tokai]
+  to: [ufj]
+
+- date: "2006-01-01"
+  type: merger
+  from: [tokyo-mitsubishi, ufj]
+  to: [btmu]
+
+- date: "2018-04-01"
+  type: rename
+  from: [btmu]
+  to: [mufg-bank]
+
+# ---------------------------------------------------------------- 三井住友系
+- date: "1973-10-01"
+  type: merger
+  from: [taiyo, kobe]
+  to: [taiyo-kobe]
+
+- date: "1990-04-01"
+  type: merger
+  from: [mitsui, taiyo-kobe]
+  to: [taiyo-kobe-mitsui]
+
+- date: "1992-04-01"
+  type: rename
+  from: [taiyo-kobe-mitsui]
+  to: [sakura]
+
+- date: "2001-04-01"
+  type: merger
+  from: [sumitomo, sakura]
+  to: [smbc]
+
+# ---------------------------------------------------------------- みずほ系
+- date: "1896"
+  type: rename
+  from: [dai-ichi-national]
+  to: [dai-ichi]
+  note: 国立銀行の営業満期に伴い普通銀行に転換
+
+- date: "1948"
+  type: rename
+  from: [yasuda]
+  to: [fuji]
+
+- date: "1971-10-01"
+  type: merger
+  from: [dai-ichi, kangyo]
+  to: [dkb]
+
+- date: "2002-04-01"
+  type: reorganization
+  from: [dkb, fuji, ibj]
+  to: [mizuho-bank-old, mizuho-corporate]
+  note: 3行を分割・合併し、2行に再編
+
+- date: "2013-07-01"
+  type: merger
+  from: [mizuho-bank-old, mizuho-corporate]
+  to: [mizuho-bank]
+  note: 法的にはみずほコーポレート銀行が存続会社
+
+# ---------------------------------------------------------------- りそな系
+- date: "1991-04-01"
+  type: merger
+  from: [kyowa, saitama]
+  to: [kyowa-saitama]
+
+- date: "1992-09-21"
+  type: rename
+  from: [kyowa-saitama]
+  to: [asahi]
+
+- date: "2003-03-01"
+  type: reorganization
+  from: [daiwa, asahi]
+  to: [resona, saitama-resona]
+  note: 大和銀行とあさひ銀行が合併してりそな銀行に。あさひ銀行の埼玉県内営業は埼玉りそな銀行へ分割
+
+# ---------------------------------------------------------------- 破綻・国有化
+- date: "1997-11-17"
+  type: failure
+  from: [takugin]
+  note: 経営破綻
+
+- date: "1998-11-16"
+  type: transfer
+  from: [takugin]
+  to: [hokuyo]
+  note: 北海道内の営業を北洋銀行へ譲渡
+
+- date: "1998-10-23"
+  type: failure
+  from: [ltcb]
+  note: 特別公的管理（一時国有化）
+
+- date: "2000-06-05"
+  type: rename
+  from: [ltcb]
+  to: [shinsei]
+
+- date: "2023-01-04"
+  type: rename
+  from: [shinsei]
+  to: [sbi-shinsei]
+
+- date: "1998-12-13"
+  type: failure
+  from: [ncb]
+  note: 特別公的管理（一時国有化）
+
+- date: "2001-01-04"
+  type: rename
+  from: [ncb]
+  to: [aozora]
+
+# ---------------------------------------------------------------- 地方銀行（例）
+- date: "2021-01-01"
+  type: merger
+  from: [daishi, hokuetsu]
+  to: [daishi-hokuetsu]
+
+- date: "2020-10-01"
+  type: merger
+  from: [eighteenth, shinwa]
+  to: [juhachi-shinwa]
