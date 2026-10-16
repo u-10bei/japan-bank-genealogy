@@ -970,8 +970,67 @@
   founded: "1896-12-19"
   dissolved: "1917-02"
   prefecture: 新潟県
-  note: 1896年12月19日第四国立銀行が改称。1912年12月中条共立銀行を合併。1917年2月第四銀行に改称（2月2日改称認可、2月10日改称登記。第四銀行百年史は2月11日改称とする）。1918年に新潟商業銀行が改称した新潟銀行とは別
+  note: 1896年12月19日第四国立銀行が改称。1912年12月中条共立銀行を合併。1917年2月第四銀行に改称（2月2日改称認可、2月10日改称登記。第四銀行百年史は2月11日改称とする）。1918年に新潟商業銀行が改称した新潟銀行（1918〜1943）とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1J6-m7Zh3jq7agR9Hbn8nGFjVBg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/x3i0UuEaQ7S_WvEos6RJU_mjrdl/description.html", https://ja.wikipedia.org/wiki/第四銀行]
+
+- id: niigata-shogyo-1897
+  name: 新潟商業銀行
+  type: other
+  founded: "1897-03-05"
+  dissolved: "1918-04"
+  prefecture: 新潟県
+  note: 1897年3月5日設立（許可）。1918年4月新潟銀行に改称（5月28日改称登記）。1922年設立の新潟商業銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wYCQP7fTPM4J7FFLhaV_3wG-9S/description.html"]
+
+- id: gosen-yoshida
+  name: 五泉吉田銀行
+  type: other
+  dissolved: "1923-04-01"
+  prefecture: 新潟県
+  note: 1923年4月1日新潟銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html"]
+
+- id: niigata-shogyo-1922
+  name: 新潟商業銀行
+  type: other
+  founded: "1922"
+  dissolved: "1926-10-01"
+  prefecture: 新潟県
+  note: 1926年10月1日新潟銀行に合併（9月23日合併認可）。銀行変遷史DBは1922〜1926年の新潟商業銀行とする（設立日は未確認）。1897年設立の新潟商業銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html"]
+
+- id: kuzuzuka-bank
+  name: 葛塚銀行
+  type: other
+  dissolved: "1927-04-03"
+  prefecture: 新潟県
+  note: 1927年4月3日新潟銀行に合併（3月8日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html"]
+
+- id: sanjo-bank
+  name: 三条銀行
+  type: other
+  dissolved: "1929-08-31"
+  prefecture: 新潟県
+  note: 1929年8月31日新潟銀行に合併（7月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html"]
+
+- id: hokuetsu-shogyo
+  name: 北越商業銀行
+  type: other
+  dissolved: "1929-08-31"
+  prefecture: 新潟県
+  note: 1929年8月31日新潟銀行に合併（7月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html"]
+
+- id: niigata-1918
+  name: 新潟銀行
+  type: other
+  founded: "1918-04"
+  dissolved: "1943-03-29"
+  prefecture: 新潟県
+  note: 1918年4月新潟商業銀行（1897年設立）が改称（5月28日改称登記）。1923〜1929年に五泉吉田・新潟商業（1922年設立）・葛塚・三条・北越商業の各行を合併。1943年3月29日第四銀行に合併（3月10日合併認可）。第四銀行の前身の新潟銀行（1896〜1917）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html", https://ja.wikipedia.org/wiki/第四銀行]
 
 - id: daishi
   name: 第四銀行

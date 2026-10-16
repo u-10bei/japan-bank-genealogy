@@ -5882,3 +5882,45 @@
   to: [matsue]
   note: 松江銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
+
+- date: "1918-04"
+  type: rename
+  from: [niigata-shogyo-1897]
+  to: [niigata-1918]
+  note: 新潟銀行に改称（5月28日改称登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wYCQP7fTPM4J7FFLhaV_3wG-9S/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html"]
+
+- date: "1923-04-01"
+  type: absorption
+  from: [gosen-yoshida]
+  to: [niigata-1918]
+  note: 新潟銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html"]
+
+- date: "1926-10-01"
+  type: absorption
+  from: [niigata-shogyo-1922]
+  to: [niigata-1918]
+  note: 新潟銀行が合併（9月23日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html"]
+
+- date: "1927-04-03"
+  type: absorption
+  from: [kuzuzuka-bank]
+  to: [niigata-1918]
+  note: 新潟銀行が合併（3月8日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html"]
+
+- date: "1929-08-31"
+  type: absorption
+  from: [sanjo-bank, hokuetsu-shogyo]
+  to: [niigata-1918]
+  note: 新潟銀行が合併（7月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html"]
+
+- date: "1943-03-29"
+  type: absorption
+  from: [niigata-1918]
+  to: [daishi]
+  note: 第四銀行が合併（3月10日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html", https://ja.wikipedia.org/wiki/第四銀行]
