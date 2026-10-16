@@ -4658,7 +4658,7 @@
   founded: "1897-03-01"
   dissolved: "1934-08-20"
   prefecture: 愛媛県
-  note: 1897年3月1日第二十九国立銀行が改称。1913年2月1日岩松銀行を買収（岩松銀行は解散せず鹿児島に移転し隅州銀行に改称。未収録）。1921年12月1日、貯蓄部門を新設の伊予貯蓄銀行に統合（貯蓄業務兼営11行の貯蓄部門と愛媛貯蓄銀行・松山貯蓄銀行の合併。伊予貯蓄銀行は未収録）。1930〜1933年に実業・西南・宇和島の各行を合併し、吉田商業銀行を買収。1934年8月20日大洲銀行・八幡浜商業銀行と新立合併し予州銀行となる
+  note: 1897年3月1日第二十九国立銀行が改称。1913年2月1日岩松銀行を買収（岩松銀行は解散せず鹿児島に移転し隅州銀行に改称）。1921年12月1日、貯蓄部門を新設の伊予貯蓄銀行に統合（貯蓄業務兼営11行の貯蓄部門と愛媛貯蓄銀行・松山貯蓄銀行の合併。伊予貯蓄銀行は未収録）。1930〜1933年に実業・西南・宇和島の各行を合併し、吉田商業銀行を買収。1934年8月20日大洲銀行・八幡浜商業銀行と新立合併し予州銀行となる
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/82I8_vceNsnXard21uZ3vUjn0tp/description.html", https://ja.wikipedia.org/wiki/伊予銀行]
 
 - id: yawatahama-shogyo
@@ -5272,13 +5272,50 @@
   note: 鹿児島商業銀行と第百四十七銀行の新立合併で設立（銀行総覧は1928年8月31日設立、鹿児島銀行百年史は9月1日新立合併とする）。1930〜1936年に薩摩・海江田・鹿児島商弘の各行を買収し、西薩殖産銀行の営業地盤を継承。1944年2月1日鹿児島銀行・鹿児島貯蓄銀行と新立合併し鹿児島興業銀行となる（1月31日創立総会）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html", https://ja.wikipedia.org/wiki/鹿児島銀行]
 
+- id: iwamatsu-bank
+  name: 岩松銀行
+  type: other
+  founded: "1898-12-02"
+  dissolved: "1913-08-15"
+  prefecture: 愛媛県
+  note: 1898年12月2日設立（1899年3月開業）。1913年2月1日第二十九銀行に営業を譲渡（解散せず）。1913年8月15日鹿児島に移転し隅州銀行に改称（営業権譲渡）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7dwOyjBzd926wn06zTxtPR4qknc/description.html"]
+
+- id: gushu-bank
+  name: 隅州銀行
+  type: other
+  founded: "1913-08-15"
+  dissolved: "1915-02-12"
+  prefecture: 鹿児島県
+  note: 1913年8月15日岩松銀行が愛媛から鹿児島に移転し改称（鹿児島銀行百年史は10月1日買収開業とする）。1915年2月12日南薩銀行に改称（改称登記日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vg72_yXbdZHmIe8GQ8NnON6Ltjh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7dwOyjBzd926wn06zTxtPR4qknc/description.html"]
+
+- id: nansatsu-bank
+  name: 南薩銀行
+  type: other
+  founded: "1915-02-12"
+  dissolved: "1929-09-30"
+  prefecture: 鹿児島県
+  note: 1915年2月12日隅州銀行が改称（改称登記日。3月15日開業）。1929年9月30日鹿児島銀行と新立合併し、新たな鹿児島銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cx8m_wY_DbZTBkO1M40PYjKq_No/description.html"]
+
+- id: kagoshima-1914
+  name: 鹿児島銀行
+  type: other
+  founded: "1914"
+  dissolved: "1929-09-30"
+  prefecture: 鹿児島県
+  note: 銀行変遷史DBは1914〜1929年の鹿児島銀行とする（設立日は未確認）。1929年9月30日南薩銀行と新立合併し、新たな鹿児島銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cx8m_wY_DbZTBkO1M40PYjKq_No/description.html"]
+
 - id: kagoshima-old
   name: 鹿児島銀行
   type: other
+  founded: "1929-09-30"
   dissolved: "1944-02-01"
   prefecture: 鹿児島県
-  note: 旧鹿児島銀行。設立日は出典に記載なし
-  sources: [https://ja.wikipedia.org/wiki/鹿児島銀行]
+  note: 南薩銀行・鹿児島銀行（1914〜1929）の新立合併で設立（1929年9月30日創立総会、10月1日開業）。1944年2月1日第百四十七銀行・鹿児島貯蓄銀行と新立合併し鹿児島興業銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cx8m_wY_DbZTBkO1M40PYjKq_No/description.html", https://ja.wikipedia.org/wiki/鹿児島銀行]
 
 - id: kagoshima-chochiku
   name: 鹿児島貯蓄銀行

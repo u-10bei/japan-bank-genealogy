@@ -5534,3 +5534,32 @@
   to: [dai29]
   note: 第二十九銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/82I8_vceNsnXard21uZ3vUjn0tp/description.html"]
+
+- date: "1913-02-01"
+  type: transfer
+  from: [iwamatsu-bank]
+  to: [dai29]
+  partial: true
+  note: 第二十九銀行が岩松銀行を買収（営業譲渡。岩松銀行は解散せず、8月15日鹿児島に移転し隅州銀行に改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7dwOyjBzd926wn06zTxtPR4qknc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/82I8_vceNsnXard21uZ3vUjn0tp/description.html"]
+
+- date: "1913-08-15"
+  type: rename
+  from: [iwamatsu-bank]
+  to: [gushu-bank]
+  note: 愛媛から鹿児島に移転し改称（営業権譲渡）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7dwOyjBzd926wn06zTxtPR4qknc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vg72_yXbdZHmIe8GQ8NnON6Ltjh/description.html"]
+
+- date: "1915-02-12"
+  type: rename
+  from: [gushu-bank]
+  to: [nansatsu-bank]
+  note: 南薩銀行に改称（日付は改称登記日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vg72_yXbdZHmIe8GQ8NnON6Ltjh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cx8m_wY_DbZTBkO1M40PYjKq_No/description.html"]
+
+- date: "1929-09-30"
+  type: merger
+  from: [nansatsu-bank, kagoshima-1914]
+  to: [kagoshima-old]
+  note: 新立合併（9月30日創立総会、10月1日開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cx8m_wY_DbZTBkO1M40PYjKq_No/description.html"]
