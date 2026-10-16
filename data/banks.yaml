@@ -1443,14 +1443,44 @@
   note: 1950年11月1日開業
   sources: [https://ja.wikipedia.org/wiki/東北銀行]
 
+- id: dai77-kokuritsu
+  name: 第七十七国立銀行
+  type: other
+  founded: "1878-11-07"
+  dissolved: "1898-03-01"
+  prefecture: 宮城県
+  note: 1878年10月17日創立総会、11月7日開業免状下付・設立、12月9日開業。1898年3月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し七十七銀行に改称（1897年11月12日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AXBUuBy1Q0YtczHmE2DTB_jSejg/description.html", https://ja.wikipedia.org/wiki/第七十七国立銀行]
+
+- id: sendai-kogyo
+  name: 仙台興業銀行
+  type: other
+  dissolved: "1927-12-31"
+  note: 1927年12月31日七十七銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sceFB-qFqTW0Yqr2jPLm2W9HzJn/description.html"]
+
+- id: miyagi-shogyo
+  name: 宮城商業銀行
+  type: other
+  dissolved: "1927-12-31"
+  note: 1927年12月31日七十七銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sceFB-qFqTW0Yqr2jPLm2W9HzJn/description.html"]
+
+- id: namie-bank
+  name: 浪江銀行
+  type: other
+  dissolved: "1928-05-26"
+  note: 1928年5月26日七十七銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sceFB-qFqTW0Yqr2jPLm2W9HzJn/description.html"]
+
 - id: shichijushichi-old
   name: 七十七銀行
   type: other
-  founded: "1878-12-09"
+  founded: "1898-03-01"
   dissolved: "1932-01-31"
   prefecture: 宮城県
-  note: 第七十七国立銀行として創業、普通銀行転換日は記載なし
-  sources: [https://ja.wikipedia.org/wiki/七十七銀行, https://ja.wikipedia.org/wiki/第七十七国立銀行]
+  note: 1898年3月1日第七十七国立銀行が改称。1927年仙台興業銀行・宮城商業銀行を合併、1928年浪江銀行を買収。1932年1月31日五城銀行・東北実業銀行と新立合併し、新たな七十七銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sceFB-qFqTW0Yqr2jPLm2W9HzJn/description.html", https://ja.wikipedia.org/wiki/七十七銀行, https://ja.wikipedia.org/wiki/第七十七国立銀行]
 
 - id: tohoku-jitsugyo
   name: 東北実業銀行

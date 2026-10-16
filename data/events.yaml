@@ -436,8 +436,8 @@
   type: merger
   from: [shichijushichi-old, tohoku-jitsugyo, gojo-ginko]
   to: [shichijushichi]
-  note: 3行合併で新立（日付は設立日）
-  sources: [https://ja.wikipedia.org/wiki/七十七銀行, https://ja.wikipedia.org/wiki/第七十七国立銀行]
+  note: 3行の新立合併（1月15日合併認可、1月31日創立総会、2月1日開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sceFB-qFqTW0Yqr2jPLm2W9HzJn/description.html", https://ja.wikipedia.org/wiki/七十七銀行, https://ja.wikipedia.org/wiki/第七十七国立銀行]
 
 - date: "1941-11-04"
   type: merger
@@ -5133,3 +5133,24 @@
   to: [ryou-u]
   note: 両羽銀行が営業を譲受
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1898-03-01"
+  type: rename
+  from: [dai77-kokuritsu]
+  to: [shichijushichi-old]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AXBUuBy1Q0YtczHmE2DTB_jSejg/description.html"]
+
+- date: "1927-12-31"
+  type: absorption
+  from: [sendai-kogyo, miyagi-shogyo]
+  to: [shichijushichi-old]
+  note: 七十七銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sceFB-qFqTW0Yqr2jPLm2W9HzJn/description.html"]
+
+- date: "1928-05-26"
+  type: transfer
+  from: [namie-bank]
+  to: [shichijushichi-old]
+  note: 七十七銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sceFB-qFqTW0Yqr2jPLm2W9HzJn/description.html"]
