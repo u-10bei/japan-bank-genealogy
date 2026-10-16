@@ -2762,13 +2762,30 @@
   note: 勝間田・久世・津山中央・土居・備前加茂・武藤の6行の新立合併で岡山に設立（銀總は1923年6月26日、中國銀行五十年史は7月24日創立総会・開業）。1924年津山銀行と新立合併し山陽銀行に
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
 
+- id: ochiai-ginko
+  name: 落合銀行
+  type: other
+  dissolved: "1922-12-15"
+  prefecture: 岡山県
+  note: 1922年12月15日津山銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/69m9Et19-S8GmTeq-kt6y0g7ilm/description.html"]
+
+- id: kume-ginko
+  name: 久米銀行
+  type: other
+  dissolved: "1924-01-01"
+  prefecture: 岡山県
+  note: 1923年12月27日合併認可、1924年1月1日津山銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/69m9Et19-S8GmTeq-kt6y0g7ilm/description.html"]
+
 - id: tsuyama-ginko
   name: 津山銀行
   type: other
+  founded: "1879-12-25"
   dissolved: "1924-07-24"
   prefecture: 岡山県
-  note: 1924年作備銀行と新立合併し山陽銀行に（設立日は未確認）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
+  note: 1879年12月8日創立許可、12月25日設立、1880年1月5日開業。1922年落合銀行、1924年久米銀行を合併。1924年作備銀行と新立合併し山陽銀行に
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/69m9Et19-S8GmTeq-kt6y0g7ilm/description.html"]
 
 - id: sanyo-okayama
   name: 山陽銀行
