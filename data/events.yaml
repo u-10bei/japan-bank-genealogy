@@ -3715,6 +3715,13 @@
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S"]
 
 # ---------------------------------------------------------------- 七十四銀行（銀行変遷史データベース）
+- date: "1892-01"
+  type: transfer
+  from: [yokohama-chochiku-1882]
+  to: [yokohama-chochiku]
+  note: 株式会社への改組（旧銀行は1891年12月廃業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fYOIgqtJ5exii7jP2DTGrYL52Po/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4KQAuF4dodzZiiUtCq3SZbMxu6e/description.html"]
+
 - date: "1898-04-01"
   type: rename
   from: [kokuritsu-74]
@@ -3741,8 +3748,15 @@
   note: 横浜興信銀行に整理を委託
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
 
+- date: "1920-12-17"
+  type: transfer
+  from: [yokohama-chochiku]
+  to: [yokohama-koshin]
+  note: 横浜興信銀行に整理を委託
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4KQAuF4dodzZiiUtCq3SZbMxu6e/description.html"]
+
 - date: "1932-11-01"
   type: absorption
   from: [yokohama-chochiku]
   to: [bank-74]
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4KQAuF4dodzZiiUtCq3SZbMxu6e/description.html"]

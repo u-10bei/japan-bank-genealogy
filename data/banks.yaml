@@ -1408,14 +1408,23 @@
   prefecture: 神奈川県
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
 
+- id: yokohama-chochiku-1882
+  name: 横浜貯蓄銀行
+  type: other
+  founded: "1882-01-06"
+  dissolved: "1892-01"
+  prefecture: 神奈川県
+  note: 株式会社への改組のため1891年12月廃業、1892年1月株式会社横浜貯蓄銀行を設立
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fYOIgqtJ5exii7jP2DTGrYL52Po/description.html"]
+
 - id: yokohama-chochiku
   name: 横浜貯蓄銀行
   type: other
-  founded: "1892"
+  founded: "1892-01"
   dissolved: "1932-11-01"
   prefecture: 神奈川県
-  note: 1932年9月30日合併認可
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
+  note: 株式会社として設立（銀總は1892年1月6日、横浜銀行六十年史は1893年7月1日改組とする）。1920年12月17日横浜興信銀行に整理を委託。1932年9月30日合併認可、11月1日七十四銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4KQAuF4dodzZiiUtCq3SZbMxu6e/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
 
 - id: yokohama-koshin
   name: 横浜興信銀行
@@ -1423,7 +1432,7 @@
   founded: "1920-12-16"
   dissolved: "1957"
   prefecture: 神奈川県
-  note: 七十四銀行の整理を引き受けるため設立（1920年12月17日整理委託）
+  note: 七十四銀行・横浜貯蓄銀行の整理を引き受けるため設立（1920年12月17日に両行が整理を委託）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html", https://ja.wikipedia.org/wiki/横浜銀行]
 
 - id: yokohama
