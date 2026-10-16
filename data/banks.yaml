@@ -1373,14 +1373,58 @@
   note: 法人は旧八千代銀行。合併で第二地銀から地銀に移行。東京きらぼしFG傘下
   sources: [https://ja.wikipedia.org/wiki/きらぼし銀行]
 
+- id: kokuritsu-74
+  name: 第七十四国立銀行
+  type: other
+  founded: "1878-07-19"
+  dissolved: "1898-04-01"
+  prefecture: 神奈川県
+  note: 1878年7月30日開業
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cusgSJBpA3DCv63RLDOooKCLgji/description.html"]
+
+- id: yokohama-74
+  name: 横浜七十四銀行
+  type: other
+  founded: "1898-04-01"
+  dissolved: "1918-06-06"
+  prefecture: 神奈川県
+  note: 第七十四国立銀行が国立銀行営業満期前特別処分法により私立銀行として営業を継続し改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/X4elxsYcJ0ENOaGq9O7-sTPoXfo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cusgSJBpA3DCv63RLDOooKCLgji/description.html"]
+
+- id: bank-74
+  name: 七十四銀行
+  type: other
+  founded: "1918-06-06"
+  dissolved: "1937-03-03"
+  prefecture: 神奈川県
+  note: 1920年12月17日、横浜興信銀行に整理を委託。1937年3月3日銀行業務を廃止し七十四商事株式会社に改称（1948年3月2日清算結了）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
+
+- id: motegi-ginko
+  name: 茂木銀行
+  type: other
+  founded: "1895"
+  dissolved: "1918-08-10"
+  prefecture: 神奈川県
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
+
+- id: yokohama-chochiku
+  name: 横浜貯蓄銀行
+  type: other
+  founded: "1892"
+  dissolved: "1932-11-01"
+  prefecture: 神奈川県
+  note: 1932年9月30日合併認可
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
+
 - id: yokohama-koshin
   name: 横浜興信銀行
   type: regional
   founded: "1920-12-16"
   dissolved: "1957"
   prefecture: 神奈川県
-  note: 七十四銀行・横浜貯蓄銀行の破綻処理のため設立
-  sources: [https://ja.wikipedia.org/wiki/横浜銀行]
+  note: 七十四銀行の整理を引き受けるため設立（1920年12月17日整理委託）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html", https://ja.wikipedia.org/wiki/横浜銀行]
 
 - id: yokohama
   name: 横浜銀行

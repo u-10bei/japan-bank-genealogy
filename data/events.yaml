@@ -3713,3 +3713,36 @@
   to: [wakayama-sogo]
   note: 相互銀行法の施行に伴い商号変更
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S"]
+
+# ---------------------------------------------------------------- 七十四銀行（銀行変遷史データベース）
+- date: "1898-04-01"
+  type: rename
+  from: [kokuritsu-74]
+  to: [yokohama-74]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cusgSJBpA3DCv63RLDOooKCLgji/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/X4elxsYcJ0ENOaGq9O7-sTPoXfo/description.html"]
+
+- date: "1918-06-06"
+  type: rename
+  from: [yokohama-74]
+  to: [bank-74]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/X4elxsYcJ0ENOaGq9O7-sTPoXfo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
+
+- date: "1918-08-10"
+  type: absorption
+  from: [motegi-ginko]
+  to: [bank-74]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
+
+- date: "1920-12-17"
+  type: transfer
+  from: [bank-74]
+  to: [yokohama-koshin]
+  note: 横浜興信銀行に整理を委託
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
+
+- date: "1932-11-01"
+  type: absorption
+  from: [yokohama-chochiku]
+  to: [bank-74]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html"]
