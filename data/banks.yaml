@@ -6854,6 +6854,24 @@
   prefecture: 東京都
   sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
 
+- id: daiichi-shintaku
+  name: 第一信託
+  type: trust
+  founded: "1940"
+  dissolved: "1948-07"
+  prefecture: 東京都
+  note: 第一信託株式会社。銀行変遷史DBは1940〜1948年とする（設立日は未確認）。1948年7月第一信託銀行に改称し銀行業務を開始
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2R_XLZBjARnfCi1MV4-zWWNiHBj/description.html"]
+
+- id: daiichi-trust-bank
+  name: 第一信託銀行
+  type: trust
+  founded: "1948-07"
+  dissolved: "1962-12-01"
+  prefecture: 東京都
+  note: 1948年7月第一信託株式会社が改称し銀行業務を開始（日本金融年表は7月21日とする）。1962年12月1日、信託業務を中央信託銀行に譲渡し朝日銀行に改称（朝日銀行のその後は未確認のため項目にしていない）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2R_XLZBjARnfCi1MV4-zWWNiHBj/description.html"]
+
 - id: chuo-trust
   name: 中央信託銀行
   name_en: The Chuo Trust and Banking Company
@@ -8546,13 +8564,22 @@
   note: 1943年8月日向興業銀行が合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGVF"]
 
+- id: fukutoku-shokusan
+  name: 福徳殖産
+  type: other
+  dissolved: "1950-01-30"
+  prefecture: 大阪府
+  note: 福徳殖産株式会社。1950年1月30日福徳殖産無尽株式会社に改称（福徳相互銀行三十年史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/b5ih8ts9RvZx6x4jTLYBPKhbW4f/description.html"]
+
 - id: fukutoku-shokusan-mujin
   name: 福徳殖産無尽
   type: other
+  founded: "1950-01-30"
   dissolved: "1951-10-20"
   prefecture: 大阪府
-  note: 1951年10月20日相互銀行に転換し福徳相互銀行に改称（福徳相互銀行三十年史による）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPeG5FWeWPcSBnEly_6Wnhd9Skn/description.html"]
+  note: 1950年1月30日福徳殖産株式会社が改称、3月20日無尽営業免許。1951年10月20日相互銀行に転換し福徳相互銀行に改称（福徳相互銀行三十年史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/b5ih8ts9RvZx6x4jTLYBPKhbW4f/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPeG5FWeWPcSBnEly_6Wnhd9Skn/description.html"]
 
 - id: fukutoku-sogo
   name: 福徳相互銀行

@@ -4669,3 +4669,25 @@
   to: [fukutoku]
   note: 普通銀行（第二地方銀行協会加盟行）に転換
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPeG5FWeWPcSBnEly_6Wnhd9Skn/description.html"]
+
+- date: "1950-01-30"
+  type: rename
+  from: [fukutoku-shokusan]
+  to: [fukutoku-shokusan-mujin]
+  note: 福徳殖産株式会社が福徳殖産無尽株式会社に改称（3月20日無尽営業免許）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/b5ih8ts9RvZx6x4jTLYBPKhbW4f/description.html"]
+
+- date: "1948-07"
+  type: rename
+  from: [daiichi-shintaku]
+  to: [daiichi-trust-bank]
+  note: 第一信託銀行に改称し銀行業務を開始（日本金融年表は7月21日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2R_XLZBjARnfCi1MV4-zWWNiHBj/description.html"]
+
+- date: "1962-12-01"
+  type: transfer
+  from: [daiichi-trust-bank]
+  to: [chuo-trust]
+  partial: true
+  note: 信託業務を中央信託銀行に譲渡（同日朝日銀行に改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2R_XLZBjARnfCi1MV4-zWWNiHBj/description.html"]
