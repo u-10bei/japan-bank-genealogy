@@ -3359,13 +3359,48 @@
   note: 設立時の商号は山隂合同銀行、1997年10月1日山陰合同銀行に表記変更。1941年10月石州・矢上銀行、1945年3月山陰貯蓄銀行を合併
   sources: [https://ja.wikipedia.org/wiki/山陰合同銀行]
 
+- id: sanin-kyoei-mujin
+  name: 山陰共栄無尽
+  type: other
+  dissolved: "1926"
+  prefecture: 鳥取県
+  note: 1926年ごろ相愛無尽に改称（銀行変遷史DBが銀行総覧第32回・第33回から推定。月日は不明）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efhrhUbksb_VV05oxG7qkbBx8Hf/description.html"]
+
+- id: soai-mujin
+  name: 相愛無尽
+  type: other
+  founded: "1926"
+  dissolved: "1942-02-07"
+  prefecture: 鳥取県
+  note: 1926年ごろ山陰共栄無尽が改称（銀行変遷史DBの推定）。『ふそう50年のあゆみ』・Wikipediaは1932年5月1日相愛無尽創業とする。1942年2月7日共済無尽と新立合併し鳥取無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efhrhUbksb_VV05oxG7qkbBx8Hf/description.html", https://ja.wikipedia.org/wiki/ふそう銀行]
+
+- id: kyosai-mujin-tottori
+  name: 共済無尽
+  type: other
+  founded: "1915"
+  dissolved: "1942-02-07"
+  prefecture: 鳥取県
+  note: 銀行変遷史DBは1915〜1942年の共済無尽とする（設立日は未確認）。1942年2月7日相愛無尽と新立合併し鳥取無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efhrhUbksb_VV05oxG7qkbBx8Hf/description.html", https://ja.wikipedia.org/wiki/ふそう銀行]
+
+- id: tottori-mujin
+  name: 鳥取無尽
+  type: other
+  founded: "1942-02-07"
+  dissolved: "1951-10-20"
+  prefecture: 鳥取県
+  note: 相愛無尽・共済無尽の新立合併で設立（山陰合同銀行五十年史による）。1951年10月20日扶桑相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efhrhUbksb_VV05oxG7qkbBx8Hf/description.html", https://ja.wikipedia.org/wiki/ふそう銀行]
+
 - id: fuso-sogo
   name: 扶桑相互銀行
   type: other
-  founded: "1932-05-01"
+  founded: "1951-10-20"
   dissolved: "1989-04-01"
   prefecture: 鳥取県
-  note: 相愛無尽として設立、1942年2月7日共済無尽と合併し鳥取無尽、1951年10月20日扶桑相互銀行に
+  note: 1951年10月20日、相互銀行への転換で鳥取無尽が改称
   sources: [https://ja.wikipedia.org/wiki/ふそう銀行]
 
 - id: fuso

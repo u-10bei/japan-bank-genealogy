@@ -4485,3 +4485,24 @@
   to: [sachi-mujin]
   note: 幸無尽が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SrvQg5aZC5A84yI7fkhvsZwPbrj/description.html"]
+
+- date: "1926"
+  type: rename
+  from: [sanin-kyoei-mujin]
+  to: [soai-mujin]
+  note: 山陰共栄無尽が相愛無尽に改称（銀行総覧第32回・第33回からの推定）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efhrhUbksb_VV05oxG7qkbBx8Hf/description.html"]
+
+- date: "1942-02-07"
+  type: merger
+  from: [soai-mujin, kyosai-mujin-tottori]
+  to: [tottori-mujin]
+  note: 新立合併（山陰合同銀行五十年史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efhrhUbksb_VV05oxG7qkbBx8Hf/description.html", https://ja.wikipedia.org/wiki/ふそう銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [tottori-mujin]
+  to: [fuso-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/ふそう銀行]
