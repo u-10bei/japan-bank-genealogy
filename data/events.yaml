@@ -4457,3 +4457,24 @@
   to: [morioka-mujin]
   note: 盛岡無尽株式会社の設立に伴い三盟無尽合資会社が解散し、盛岡無尽が買収（銀行総覧は解散を1920年1月26日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RpcBrUHA3GQkj8w2OydkMW7oNej/description.html"]
+
+- date: "1942-05-01"
+  type: merger
+  from: [gifu-mujin-1924, sachi-mujin, yoro-mujin, ryofuku-mujin]
+  to: [gifu-godo-mujin]
+  note: 4社の新立合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
+
+- date: "1948-05"
+  type: rename
+  from: [gifu-godo-mujin]
+  to: [gifu-mujin-1948]
+  note: 岐阜無尽に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
+
+- date: "1951-10"
+  type: rename
+  from: [gifu-mujin-1948]
+  to: [gifu-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/岐阜銀行]
