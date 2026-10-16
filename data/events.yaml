@@ -2735,3 +2735,249 @@
   note: 有報（みずほFG）は2020年7月「JTCホールディングスが両行と合併し商号を日本カストディ銀行に変更」と記載（JTCHD存続）。Wikipediaは日本トラスティ・サービス信託銀行が資産管理サービス信託銀行とJTCHDを吸収し改称と記載。日はWikipediaによる
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF8Y", https://ja.wikipedia.org/wiki/日本カストディ銀行]
 
+# ---------------------------------------------------------------- 新形態銀行等・政府系
+- date: "2010-09-10"
+  type: failure
+  from: [japan-shinko-bank]
+  note: 経営破綻、預金保険法に基づくペイオフが初めて発動
+  sources: [https://ja.wikipedia.org/wiki/日本振興銀行]
+
+- date: "2011-04-25"
+  type: transfer
+  from: [japan-shinko-bank]
+  to: [second-japan-bridge-bank]
+  note: 日本振興銀行の事業を第二日本承継銀行が譲受
+  sources: [https://ja.wikipedia.org/wiki/日本振興銀行, https://ja.wikipedia.org/wiki/第二日本承継銀行]
+
+- date: "2011-12-26"
+  type: rename
+  from: [second-japan-bridge-bank]
+  to: [aeon-community-bank]
+  note: 預金保険機構が全株式をイオン銀行へ譲渡し改称
+  sources: [https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
+
+- date: "2012-03-31"
+  type: absorption
+  from: [aeon-community-bank]
+  to: [aeon-bank]
+  sources: [https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
+
+- date: "2020-02-09"
+  type: rename
+  from: [jibun-bank]
+  to: [au-jibun-bank]
+  sources: [https://ja.wikipedia.org/wiki/auじぶん銀行]
+
+- date: "2001-01"
+  type: rename
+  from: [nissaigin-trust]
+  to: [aozora-trust]
+  sources: [https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+
+- date: "2018-06-01"
+  type: rename
+  from: [aozora-trust]
+  to: [gmo-aozora-net-bank]
+  sources: [https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+
+- date: "2021-04-05"
+  type: rename
+  from: [japan-net-bank]
+  to: [paypay-bank]
+  sources: [https://ja.wikipedia.org/wiki/PayPay銀行]
+
+- date: "2026-08-03"
+  type: rename
+  from: [sumishin-sbi-net-bank]
+  to: [docomo-smtb-net-bank]
+  sources: [https://ja.wikipedia.org/wiki/ドコモSMTBネット銀行]
+
+- date: "1996-09-02"
+  type: rename
+  from: [tokyo-kyodo-bank]
+  to: [resolution-bank]
+  note: 整理回収銀行に改組
+  sources: [https://ja.wikipedia.org/wiki/整理回収機構]
+
+- date: "1999-04-01"
+  type: merger
+  from: [resolution-bank]
+  to: [rcc]
+  note: 住宅金融債権管理機構（存続法人、データセット外）と整理回収銀行が合併し整理回収機構が成立
+  sources: [https://ja.wikipedia.org/wiki/整理回収機構]
+
+- date: "2005-10-11"
+  type: rename
+  from: [iy-bank]
+  to: [seven-bank]
+  note: 有報は2005年10月（日はWikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1N", https://ja.wikipedia.org/wiki/セブン銀行]
+
+- date: "2010-05-04"
+  type: rename
+  from: [ebank]
+  to: [rakuten-bank]
+  note: 有報は2010年5月（日はWikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGME", https://ja.wikipedia.org/wiki/楽天銀行]
+
+- date: "1957-04"
+  type: rename
+  from: [hokkaido-kaihatsu-koko]
+  to: [hokkaido-tohoku-koko]
+  note: 北海道東北開発公庫に改組
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YLAV"]
+
+- date: "1999-10-01"
+  type: merger
+  from: [jdb, hokkaido-tohoku-koko]
+  to: [dbj-1999]
+  note: 日本開発銀行と北海道東北開発公庫の一切の権利・義務を承継し日本政策投資銀行設立（有報は1999年10月、日はWikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YLAV", https://ja.wikipedia.org/wiki/日本政策投資銀行]
+
+- date: "2008-10-01"
+  type: reorganization
+  from: [dbj-1999]
+  to: [dbj]
+  note: 株式会社化。旧ＤＢＪが財産の全部（国承継分を除く）を現物出資し権利義務を承継、旧ＤＢＪは解散
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YLAV", https://ja.wikipedia.org/wiki/日本政策投資銀行]
+
+- date: "1952-04-01"
+  type: rename
+  from: [export-bank-japan]
+  to: [jexim]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YECJ", https://ja.wikipedia.org/wiki/国際協力銀行]
+
+- date: "1999-10-01"
+  type: merger
+  from: [jexim, oecf]
+  to: [jbic-1999]
+  note: 日本輸出入銀行と海外経済協力基金のすべての事業を承継（有報は1999年10月、日はWikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YECJ", https://ja.wikipedia.org/wiki/国際協力銀行]
+
+- date: "2008-10-01"
+  type: reorganization
+  from: [jbic-1999]
+  to: [jfc]
+  note: 国際金融等業務は日本政策金融公庫に、海外経済協力業務は国際協力機構（データセット外）に統合（有報は2008年10月、日はWikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YECJ", https://ja.wikipedia.org/wiki/国際協力銀行]
+
+- date: "2012-04-01"
+  type: reorganization
+  from: [jfc]
+  to: [jbic]
+  note: 日本政策金融公庫から国際協力銀行業務及び駐留軍再編促進金融業務を分離して設立。公庫は存続
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YECJ", https://ja.wikipedia.org/wiki/国際協力銀行]
+
+# ---------------------------------------------------------------- 信託銀行（その他）
+- date: "1996-10-01"
+  type: rename
+  from: [chase-manhattan-trust]
+  to: [dmg-trust-1996]
+  note: ドイツ銀行が全株式を取得し改称
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/x7pJlMccITvFwZEhl8-KZBfTjco/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/feHEUqdmaA1zi9lzuRFBMaYo-dl/description.html]
+
+- date: "1999-08-02"
+  type: rename
+  from: [dmg-trust-1996]
+  to: [dmg-trust]
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/feHEUqdmaA1zi9lzuRFBMaYo-dl/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Ou__HGA5d3_n0RjalDCqs7ppDgk/description.html]
+
+- date: "2000-05-09"
+  type: rename
+  from: [dmg-trust]
+  to: [master-trust-japan]
+  note: 三菱信託銀行・日本生命・東洋信託銀行・明治生命・ドイツ銀行が全株式を取得し改称
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Ou__HGA5d3_n0RjalDCqs7ppDgk/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VSeLFu9Cx92iN6bTlzn5A8_QiE/description.html]
+
+- date: "1998-08-03"
+  type: rename
+  from: [yamaichi-trust]
+  to: [orix-trust]
+  note: 1998年4月オリックスグループ入り
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YNMH", https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Ykmo0NV-YSSjX9eKJtbzprlQc5k/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_t6RzaUEzZK6Bgk8PX3-iH4PKRj/description.html]
+
+- date: "2011-10-01"
+  type: rename
+  from: [orix-trust]
+  to: [orix-bank]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YNMH", https://ja.wikipedia.org/wiki/オリックス銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_t6RzaUEzZK6Bgk8PX3-iH4PKRj/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0y9HmcBhhu1ah4DX03BmYVxwqXd/description.html]
+
+- date: "2000-06-05"
+  type: rename
+  from: [ltcb-trust]
+  to: [shinsei-trust]
+  note: 親会社の日本長期信用銀行→新生銀行の改称と同日
+  sources: [https://ja.wikipedia.org/wiki/SBI新生信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3ru-UdOFViwX-Du17nj0Ku8v6Vd/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7sqLIXq9qacFRFI5RZn4etjVsZh/description.html]
+
+- date: "2026-04-01"
+  type: rename
+  from: [shinsei-trust]
+  to: [sbi-shinsei-trust]
+  sources: [https://ja.wikipedia.org/wiki/SBI新生信託銀行, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDBB", https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7sqLIXq9qacFRFI5RZn4etjVsZh/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xF9uC2uIzURAQOxWZBrUMqjpR_b/description.html]
+
+- date: "1991-12"
+  type: rename
+  from: [manufacturers-hanover-trust]
+  to: [state-street-trust]
+  sources: [https://ja.wikipedia.org/wiki/ステート・ストリート信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/m3SaX0s-ESDB7cXxNpe1mw_tktn/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UWlGOIFZ2Pg76mmf95rkEtjTI6f/description.html]
+
+- date: "1996-11-01"
+  type: rename
+  from: [chemical-trust]
+  to: [chase-trust]
+  sources: [https://ja.wikipedia.org/wiki/SMBC信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tvMgqmsB8nxst9Zdc3v8MuU7QCm/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Il7AwwuYAjY8uXMvOrvLcZ7iyZe/description.html]
+
+- date: "2002-06-17"
+  type: rename
+  from: [chase-trust]
+  to: [sg-trust]
+  note: ソシエテジェネラルグループが買収し改称
+  sources: [https://ja.wikipedia.org/wiki/SMBC信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Il7AwwuYAjY8uXMvOrvLcZ7iyZe/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/at4XtOfYkm7BoWwCacGhoyP6CNc/description.html]
+
+- date: "2010-01"
+  type: rename
+  from: [sg-trust]
+  to: [societe-generale-trust]
+  note: 改称日は資料により1月1日（金融機関コード便覧）または1月4日（ニッキン）
+  sources: [https://ja.wikipedia.org/wiki/SMBC信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/at4XtOfYkm7BoWwCacGhoyP6CNc/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v8aJt1IX4VeJMch9MXErgbnNz5j/description.html]
+
+- date: "2013-10-01"
+  type: rename
+  from: [societe-generale-trust]
+  to: [smbc-trust]
+  note: "三井住友銀行の100%子会社となり改称"
+  sources: [https://ja.wikipedia.org/wiki/SMBC信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v8aJt1IX4VeJMch9MXErgbnNz5j/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1qsycYYNQmNZIkEIqChBbZgqonl/description.html]
+
+- date: "2006-03-20"
+  type: rename
+  from: [morgan-trust]
+  to: [jpmorgan-trust]
+  sources: [https://ja.wikipedia.org/wiki/ニューヨークメロン信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wbcJqFJg7Y0rlvLn51vqqOegP1h/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/iMVprpMrZLZYNHqQ7Ziryxr6jNe/description.html]
+
+- date: "2009-03"
+  type: rename
+  from: [jpmorgan-trust]
+  to: [bny-mellon-trust]
+  note: ニューヨークメロン銀行が買収し改称。改称日は資料により3月1日（金融庁の1年）または3月2日（日刊工業新聞）
+  sources: [https://ja.wikipedia.org/wiki/ニューヨークメロン信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/iMVprpMrZLZYNHqQ7Ziryxr6jNe/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DxRABOuolhh6xv7Ndt7F6GiyGWj/description.html]
+
+- date: "2001-12-03"
+  type: rename
+  from: [nikko-trust]
+  to: [nikko-citi-trust]
+  note: 同日シティトラスト信託銀行の資産管理部門の営業を譲受
+  sources: [https://ja.wikipedia.org/wiki/日興シティ信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4E-MS8YYt8KHnCSVv7NFTVk7afn/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RV_YC89M50R-tDj10TXPPaH5Cvk/description.html]
+
+- date: "2010-03-01"
+  type: rename
+  from: [nikko-citi-trust]
+  to: [nct-trust]
+  sources: [https://ja.wikipedia.org/wiki/日興シティ信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RV_YC89M50R-tDj10TXPPaH5Cvk/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lx3yC8QY07AIST7x_ctoUwZO8Uk/description.html]
+
+- date: "2010-07-20"
+  type: absorption
+  from: [nct-trust]
+  to: [nomura-trust]
+  note: 2009年10月に全株式を取得し子会社化のうえ吸収合併。野村HDの有報沿革に記載なし
+  sources: [https://ja.wikipedia.org/wiki/日興シティ信託銀行, https://ja.wikipedia.org/wiki/野村信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lx3yC8QY07AIST7x_ctoUwZO8Uk/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fNq3RI4bx1N7I-OnDfA3lNwSmvl/description.html]
+

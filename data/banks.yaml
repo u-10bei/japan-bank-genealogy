@@ -5385,3 +5385,589 @@
   note: 2018年10月設立のJTCホールディングス（両行の共同持株会社）が両行と合併して発足
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF8Y", https://ja.wikipedia.org/wiki/日本カストディ銀行]
 
+# ---------------------------------------------------------------- 新形態銀行等・政府系
+- id: aeon-bank
+  name: イオン銀行
+  name_en: "AEON Bank, Ltd."
+  type: new
+  founded: "2006-05-15"
+  prefecture: 東京都
+  note: 準備会社イオン総合金融準備として設立、2007年10月5日イオン銀行に商号変更、10月11日免許取得、10月29日開業
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/イオン銀行]
+
+- id: japan-shinko-bank
+  name: 日本振興銀行
+  type: new
+  founded: "2003-04-21"
+  dissolved: "2012-09-10"
+  prefecture: 東京都
+  note: 中小新興企業融資企画として設立、2004年4月21日開業。2010年9月10日破綻（初のペイオフ発動）。のち日本振興清算に商号変更し2012年9月10日解散
+  sources: [https://ja.wikipedia.org/wiki/日本振興銀行]
+
+- id: second-japan-bridge-bank
+  name: 第二日本承継銀行
+  type: new
+  founded: "2004-03-01"
+  dissolved: "2011-12-26"
+  prefecture: 東京都
+  note: 預金保険機構の承継銀行（ブリッジバンク）。2011年12月26日全株式がイオン銀行へ譲渡
+  sources: [https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
+
+- id: aeon-community-bank
+  name: イオンコミュニティ銀行
+  type: new
+  founded: "2011-12-26"
+  dissolved: "2012-03-31"
+  prefecture: 東京都
+  note: 第二日本承継銀行がイオン銀行の子会社となり改称
+  sources: [https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
+
+- id: sbj-bank
+  name: SBJ銀行
+  name_en: SBJ Bank Ltd.
+  type: new
+  founded: "2009-01-08"
+  prefecture: 東京都
+  note: 新韓銀行の完全子会社SBJ金融準備として設立、2009年5月7日商号変更。2009年9月14日新韓銀行日本支店（大阪・東京・福岡）の事業を譲り受け開業
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/SBJ銀行]
+
+- id: jibun-bank
+  name: じぶん銀行
+  type: new
+  founded: "2006-05-25"
+  dissolved: "2020-02-09"
+  prefecture: 東京都
+  note: 三菱東京UFJ銀行とKDDIの合弁。準備会社モバイルネットバンク設立調査として設立、2008年6月9日じぶん銀行に商号変更、6月17日免許取得。開業日はauじぶん銀行の記事で2008年6月26日、三菱UFJ銀行の記事で7月17日と食い違う。2019年4月KDDIの保有株式をauフィナンシャルHDに承継
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YKG2", https://ja.wikipedia.org/wiki/auじぶん銀行, https://ja.wikipedia.org/wiki/三菱UFJ銀行]
+
+- id: au-jibun-bank
+  name: auじぶん銀行
+  name_en: au Jibun Bank Corporation
+  type: new
+  founded: "2020-02-09"
+  prefecture: 東京都
+  note: 2025年1月31日三菱UFJ銀行が保有株式をauフィナンシャルHDへ売却
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/auじぶん銀行, https://ja.wikipedia.org/wiki/三菱UFJフィナンシャル・グループ]
+
+- id: nissaigin-trust
+  name: 日債銀信託銀行
+  type: trust
+  founded: "1994-02-28"
+  dissolved: "2001-01"
+  prefecture: 東京都
+  note: 日本債券信用銀行の信託子会社。1994年4月1日開業。有報は1994年2月設立（日はWikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO", https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+
+- id: aozora-trust
+  name: あおぞら信託銀行
+  type: trust
+  founded: "2001-01"
+  dissolved: "2018-06-01"
+  prefecture: 東京都
+  note: 親銀行のあおぞら銀行への改称に合わせ改称（Wikipediaは2001年1月とのみ記載）
+  sources: [https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+
+- id: gmo-aozora-net-bank
+  name: GMOあおぞらネット銀行
+  name_en: "GMO Aozora Net Bank, Ltd."
+  type: new
+  founded: "2018-06-01"
+  prefecture: 東京都
+  note: あおぞら銀行とGMOインターネットグループの合弁。インターネット銀行事業開始後、信託業務はあおぞら銀行が承継
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO", https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+
+- id: japan-net-bank
+  name: ジャパンネット銀行
+  type: new
+  founded: "2000-09-19"
+  dissolved: "2021-04-05"
+  prefecture: 東京都
+  note: さくら銀行・富士通（のち住友銀行も参加）が設立。2000年10月12日開業。2018年2月ヤフー（現LINEヤフー）の子会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBXD", https://ja.wikipedia.org/wiki/PayPay銀行]
+
+- id: paypay-bank
+  name: PayPay銀行
+  name_en: PayPay Bank Corporation
+  type: new
+  founded: "2021-04-05"
+  prefecture: 東京都
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBXD", https://ja.wikipedia.org/wiki/PayPay銀行]
+
+- id: sumishin-sbi-net-bank
+  name: 住信SBIネット銀行
+  name_en: "SBI Sumishin Net Bank, Ltd."
+  type: new
+  founded: "2007-09"
+  dissolved: "2026-08-03"
+  prefecture: 東京都
+  note: 銀行としての開始（2007年9月商号変更・免許）を設立日とした。法人は住友信託銀行の事務受託子会社住信ビジネスサービスとして1986年6月設立（日はWikipedia）。2004年9月住信オフィスサービス、2006年4月SBI住信ネットバンク設立準備調査会社に商号変更。2007年9月（Wikipediaでは9月11日）住信SBIネット銀行に商号変更、9月18日免許取得、9月24日開業。2025年NTTドコモが公開買付けで株式取得、10月SBIHDとの資本関係解消
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VXGQ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YK3R", https://ja.wikipedia.org/wiki/ドコモSMTBネット銀行]
+
+- id: docomo-smtb-net-bank
+  name: ドコモSMTBネット銀行
+  type: new
+  founded: "2026-08-03"
+  prefecture: 東京都
+  note: NTTドコモと三井住友信託銀行が出資
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/ドコモSMTBネット銀行]
+
+- id: tokyo-kyodo-bank
+  name: 東京共同銀行
+  type: new
+  dissolved: "1996-09-02"
+  prefecture: 東京都
+  note: 破綻した東京協和信用組合・安全信用組合の受け皿。1995年3月20日業務開始（設立日は出典に記載なし）。1996年3月コスモ信用組合の事業を譲受
+  sources: [https://ja.wikipedia.org/wiki/整理回収機構]
+
+- id: resolution-bank
+  name: 整理回収銀行
+  type: new
+  founded: "1996-09-02"
+  dissolved: "1999-04-01"
+  prefecture: 東京都
+  note: 東京共同銀行を改組。1997年木津信用組合・三福信用組合の事業を譲受
+  sources: [https://ja.wikipedia.org/wiki/整理回収機構]
+
+- id: rcc
+  name: 整理回収機構
+  name_en: The Resolution and Collection Corporation
+  type: new
+  founded: "1999-04-01"
+  prefecture: 東京都
+  note: 存続法人は1996年7月26日設立の住宅金融債権管理機構（住管機構）で、整理回収銀行を合併して整理回収機構となった
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/整理回収機構]
+
+- id: iy-bank
+  name: アイワイバンク銀行
+  type: new
+  founded: "2001-04-10"
+  dissolved: "2005-10-11"
+  prefecture: 東京都
+  note: 有報は2001年4月設立・同月免許取得、5月営業開始（日はWikipedia、開業2001年5月7日）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1N", https://ja.wikipedia.org/wiki/セブン銀行]
+
+- id: seven-bank
+  name: セブン銀行
+  name_en: "Seven Bank, Ltd."
+  type: new
+  founded: "2005-10-11"
+  prefecture: 東京都
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1N", https://ja.wikipedia.org/wiki/セブン銀行]
+
+- id: zero-one-bank
+  name: 01銀行
+  type: new
+  founded: "2023-09-28"
+  prefecture: 大阪府
+  note: 池田泉州HDの完全子会社。準備会社01Bank設立準備として設立（Wikipedia沿革節。インフォボックスは2024年2月1日と食い違う）、2025年2月28日免許交付、3月3日商号変更、8月28日営業開始
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/01銀行]
+
+- id: sony-bank
+  name: ソニー銀行
+  name_en: Sony Bank Inc.
+  type: new
+  founded: "2001-04"
+  prefecture: 東京都
+  note: 2001年6月営業開始（本文では6月11日）。2004年4月ソニーフィナンシャルホールディングス（現ソニーフィナンシャルグループ）傘下
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCL0", https://ja.wikipedia.org/wiki/ソニー銀行]
+
+- id: daiwa-next-bank
+  name: 大和ネクスト銀行
+  name_en: "Daiwa Next Bank, Ltd."
+  type: new
+  founded: "2010-04-01"
+  prefecture: 東京都
+  note: 準備会社大和ネットバンク設立準備として設立、2011年4月4日商号変更、4月12日免許取得、4月15日開業（Wikipedia）。大和証券グループ本社の有報は2011年5月お客さま向けサービス開始と記載
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCMP", https://ja.wikipedia.org/wiki/大和ネクスト銀行]
+
+- id: mufg-emutto-bank
+  name: 三菱UFJエムット銀行
+  type: new
+  founded: "2026-09-24"
+  prefecture: 東京都
+  note: 2026年9月24日の銀行業免許取得・商号変更を始点とした（法人の設立日は出典に記載なし）。三菱UFJ銀行全額出資の設立準備会社が2026年9月24日銀行免許を取得し商号変更（設立日は出典に記載なし）。開業は2027年1〜3月予定
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/三菱UFJ銀行]
+
+- id: minna-bank
+  name: みんなの銀行
+  name_en: "Minna no Ginko, Ltd."
+  type: new
+  founded: "2019-08-15"
+  prefecture: 福岡県
+  note: ふくおかFG傘下。準備会社みんなの銀行設立準備として設立、2020年12月10日商号変更、12月22日免許取得、2021年5月28日開業（有報は年月、日はWikipedia）
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFNB", https://ja.wikipedia.org/wiki/みんなの銀行]
+
+- id: ebank
+  name: イーバンク銀行
+  type: new
+  founded: "2000-01-14"
+  dissolved: "2010-05-04"
+  prefecture: 東京都
+  note: 日本電子決済企画として2000年1月設立、2001年6月（15日）イーバンク銀行に商号変更、7月（23日）免許取得・開業。2009年2月楽天の子会社（日はWikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGME", https://ja.wikipedia.org/wiki/楽天銀行]
+
+- id: rakuten-bank
+  name: 楽天銀行
+  name_en: "Rakuten Bank, Ltd."
+  type: new
+  founded: "2010-05-04"
+  prefecture: 東京都
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGME", https://ja.wikipedia.org/wiki/楽天銀行]
+
+- id: lawson-bank
+  name: ローソン銀行
+  name_en: "Lawson Bank, Inc."
+  type: new
+  founded: "2016-11-25"
+  prefecture: 東京都
+  note: ローソンバンク設立準備として設立、2018年6月1日ローソン・エイティエム・ネットワークスからATM事業を承継、7月2日商号変更、8月10日免許取得、10月15日銀行業務開始
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/ローソン銀行]
+
+- id: japan-post-bank
+  name: ゆうちょ銀行
+  name_en: "JAPAN POST BANK Co., Ltd."
+  type: new
+  founded: "2006-09-01"
+  prefecture: 東京都
+  note: 日本郵政の全額出資の準備会社株式会社ゆうちょとして2006年9月設立、2007年10月1日郵政民営化に伴い商号変更・開業し日本郵政公社の郵便貯金業務等を承継（日はWikipedia）
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9G1", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE7T", https://ja.wikipedia.org/wiki/ゆうちょ銀行]
+
+- id: ui-bank
+  name: UI銀行
+  name_en: "UI Bank Co., Ltd."
+  type: new
+  founded: "2020-10-30"
+  prefecture: 東京都
+  note: 東京きらぼしFG傘下。きらぼしデジタルバンク設立準備会社として設立、2021年12月3日商号変更、12月17日免許取得、2022年1月17日開業（有報は年月、日はWikipedia）
+  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBHI", https://ja.wikipedia.org/wiki/UI銀行]
+
+- id: jdb
+  name: 日本開発銀行
+  name_en: The Japan Development Bank
+  type: special
+  founded: "1951-04-20"
+  dissolved: "1999-10-01"
+  prefecture: 東京都
+  note: 有報は1951年4月設立（日はWikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YLAV", https://ja.wikipedia.org/wiki/日本政策投資銀行]
+
+- id: hokkaido-kaihatsu-koko
+  name: 北海道開発公庫
+  type: special
+  founded: "1956-06"
+  dissolved: "1957-04"
+  prefecture: 東京都
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YLAV", https://ja.wikipedia.org/wiki/日本政策投資銀行]
+
+- id: hokkaido-tohoku-koko
+  name: 北海道東北開発公庫
+  type: special
+  founded: "1957-04"
+  dissolved: "1999-10-01"
+  prefecture: 東京都
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YLAV", https://ja.wikipedia.org/wiki/日本政策投資銀行]
+
+- id: dbj-1999
+  name: 日本政策投資銀行
+  name_en: Development Bank of Japan
+  type: special
+  founded: "1999-10-01"
+  dissolved: "2008-10-01"
+  prefecture: 東京都
+  note: 日本政策投資銀行法に基づく特殊法人（旧ＤＢＪ）。地域振興整備公団・環境事業団の融資業務も引継ぎ
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YLAV", https://ja.wikipedia.org/wiki/日本政策投資銀行]
+
+- id: dbj
+  name: 日本政策投資銀行
+  name_en: Development Bank of Japan Inc.
+  type: special
+  founded: "2008-10-01"
+  prefecture: 東京都
+  note: 株式会社日本政策投資銀行法に基づく株式会社。旧ＤＢＪの財産を現物出資で引継ぎ
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YLAV", https://ja.wikipedia.org/wiki/日本政策投資銀行]
+
+- id: export-bank-japan
+  name: 日本輸出銀行
+  type: special
+  founded: "1950-12-28"
+  dissolved: "1952-04-01"
+  prefecture: 東京都
+  note: 有報は1950年12月設立、1952年4月改称（日はWikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YECJ", https://ja.wikipedia.org/wiki/国際協力銀行]
+
+- id: jexim
+  name: 日本輸出入銀行
+  name_en: The Export-Import Bank of Japan
+  type: special
+  founded: "1952-04-01"
+  dissolved: "1999-10-01"
+  prefecture: 東京都
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YECJ", https://ja.wikipedia.org/wiki/国際協力銀行]
+
+- id: oecf
+  name: 海外経済協力基金
+  name_en: The Overseas Economic Cooperation Fund
+  type: special
+  founded: "1961-03"
+  dissolved: "1999-10-01"
+  prefecture: 東京都
+  note: 日本輸出入銀行が別勘定で運営を委託されていた東南アジア開発協力基金を承継して設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YECJ"]
+
+- id: jbic-1999
+  name: 国際協力銀行
+  name_en: Japan Bank for International Cooperation
+  type: special
+  founded: "1999-10-01"
+  dissolved: "2008-10-01"
+  prefecture: 東京都
+  note: 国際協力銀行法に基づく旧国際協力銀行。2008年10月国際金融等業務は日本政策金融公庫、海外経済協力業務は国際協力機構に統合
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YECJ", https://ja.wikipedia.org/wiki/国際協力銀行]
+
+- id: jfc
+  name: 日本政策金融公庫
+  name_en: Japan Finance Corporation
+  type: special
+  founded: "2008-10-01"
+  prefecture: 東京都
+  note: 国民生活金融公庫・農林漁業金融公庫・中小企業金融公庫と旧国際協力銀行（国際金融等業務）を承継して設立。2012年4月国際協力銀行業務を分離（設立日は国際協力銀行の記事による）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YECJ", https://ja.wikipedia.org/wiki/国際協力銀行]
+
+- id: jbic
+  name: 国際協力銀行
+  name_en: Japan Bank for International Cooperation
+  type: special
+  founded: "2012-04-01"
+  prefecture: 東京都
+  note: 株式会社国際協力銀行法に基づく株式会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YECJ", https://ja.wikipedia.org/wiki/国際協力銀行]
+
+# ---------------------------------------------------------------- 信託銀行（その他）
+- id: yamaichi-trust
+  name: 山一信託銀行
+  type: trust
+  founded: "1993-08-23"
+  dissolved: "1998-08-03"
+  prefecture: 東京都
+  note: 山一證券の信託銀行子会社として設立。1993年9月3日銀行業免許・信託兼営認可、10月1日開業。1998年4月28日、オリックスが全株式を取得
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Ykmo0NV-YSSjX9eKJtbzprlQc5k/description.html, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YNMH", https://ja.wikipedia.org/wiki/オリックス銀行]
+
+- id: orix-trust
+  name: オリックス信託銀行
+  type: trust
+  founded: "1998-08-03"
+  dissolved: "2011-10-01"
+  prefecture: 東京都
+  note: 2009年10月本店を中央区日本橋兜町から港区芝に移転
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_t6RzaUEzZK6Bgk8PX3-iH4PKRj/description.html, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YNMH", https://ja.wikipedia.org/wiki/オリックス銀行]
+
+- id: orix-bank
+  name: オリックス銀行
+  name_en: ORIX Bank
+  type: trust
+  founded: "2011-10-01"
+  prefecture: 東京都
+  note: 商号変更日はWikipediaで2011年10月1日。Wikipediaによれば2026年に大和証券グループの大和ネクスト銀行への株式譲渡が発表され8月に完了（未検証）
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0y9HmcBhhu1ah4DX03BmYVxwqXd/description.html, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YNMH", https://ja.wikipedia.org/wiki/オリックス銀行, https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf]
+
+- id: ltcb-trust
+  name: 長銀信託銀行
+  type: trust
+  founded: "1996-11-27"
+  dissolved: "2000-06-05"
+  prefecture: 東京都
+  note: 日本長期信用銀行の信託銀行子会社として設立
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3ru-UdOFViwX-Du17nj0Ku8v6Vd/description.html, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDBB", https://ja.wikipedia.org/wiki/SBI新生信託銀行]
+
+- id: shinsei-trust
+  name: 新生信託銀行
+  type: trust
+  founded: "2000-06-05"
+  dissolved: "2026-04-01"
+  prefecture: 東京都
+  note: 商号変更日はWikipediaのみ（有報は現商号がSBI新生信託銀行である旨のみ記載）
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7sqLIXq9qacFRFI5RZn4etjVsZh/description.html, https://ja.wikipedia.org/wiki/SBI新生信託銀行, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDBB"]
+
+- id: sbi-shinsei-trust
+  name: SBI新生信託銀行
+  name_en: "SBI Shinsei Trust & Banking"
+  type: trust
+  founded: "2026-04-01"
+  prefecture: 東京都
+  note: SBI新生銀行の連結子会社
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xF9uC2uIzURAQOxWZBrUMqjpR_b/description.html, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDBB", https://ja.wikipedia.org/wiki/SBI新生信託銀行, https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf]
+
+- id: manufacturers-hanover-trust
+  name: マニュファクチュラース・ハノバー信託銀行
+  type: trust
+  founded: "1986-03-13"
+  dissolved: "1991-12"
+  prefecture: 東京都
+  note: "マニュファクチュラース・ハノバー・インターナショナル・ファイナンス・コーポレーションの100%出資で設立。1986年3月31日免許、4月1日開業"
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/m3SaX0s-ESDB7cXxNpe1mw_tktn/description.html, https://ja.wikipedia.org/wiki/ステート・ストリート信託銀行]
+
+- id: state-street-trust
+  name: ステート・ストリート信託銀行
+  name_en: State Street Trust and Banking
+  type: trust
+  founded: "1991-12"
+  prefecture: 東京都
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UWlGOIFZ2Pg76mmf95rkEtjTI6f/description.html, https://ja.wikipedia.org/wiki/ステート・ストリート信託銀行, https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf]
+
+- id: chemical-trust
+  name: ケミカル信託銀行
+  type: trust
+  founded: "1986-02-25"
+  dissolved: "1996-11-01"
+  prefecture: 東京都
+  note: "ケミカル・インターナショナル・ファイナンス・リミテッドの100%出資で設立。1986年3月31日免許、4月2日開業"
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tvMgqmsB8nxst9Zdc3v8MuU7QCm/description.html, https://ja.wikipedia.org/wiki/SMBC信託銀行]
+
+- id: chase-trust
+  name: チェース信託銀行
+  type: trust
+  founded: "1996-11-01"
+  dissolved: "2002-06-17"
+  prefecture: 東京都
+  note: 2002年に業務の一部をモルガン信託銀行に譲渡（Wikipedia「ニューヨークメロン信託銀行」）。ソシエテ・ジェネラルが買収
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Il7AwwuYAjY8uXMvOrvLcZ7iyZe/description.html, https://ja.wikipedia.org/wiki/SMBC信託銀行, https://ja.wikipedia.org/wiki/ニューヨークメロン信託銀行]
+
+- id: sg-trust
+  name: エス・ジー・信託銀行
+  type: trust
+  founded: "2002-06-17"
+  dissolved: "2010-01"
+  prefecture: 東京都
+  note: ソシエテ・ジェネラル傘下。Wikipediaはこの時点を営業開始としている
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/at4XtOfYkm7BoWwCacGhoyP6CNc/description.html, https://ja.wikipedia.org/wiki/SMBC信託銀行]
+
+- id: societe-generale-trust
+  name: ソシエテジェネラル信託銀行
+  type: trust
+  founded: "2010-01"
+  dissolved: "2013-10-01"
+  prefecture: 東京都
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v8aJt1IX4VeJMch9MXErgbnNz5j/description.html, https://ja.wikipedia.org/wiki/SMBC信託銀行]
+
+- id: smbc-trust
+  name: SMBC信託銀行
+  name_en: SMBC Trust Bank
+  type: trust
+  founded: "2013-10-01"
+  prefecture: 東京都
+  note: 2013年10月1日、三井住友銀行がソシエテジェネラル信託銀行を買収し改称。2015年11月1日、シティバンク銀行のリテールバンク事業を譲受
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1qsycYYNQmNZIkEIqChBbZgqonl/description.html, https://ja.wikipedia.org/wiki/SMBC信託銀行, https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf]
+
+- id: jsf-trust
+  name: 日証金信託銀行
+  name_en: JSF Trust and Banking
+  type: trust
+  founded: "1998-11-17"
+  prefecture: 東京都
+  note: 日本証券金融の連結子会社。有報は1998年11月、日はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIQY", https://ja.wikipedia.org/wiki/日証金信託銀行, https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf]
+
+- id: chase-manhattan-trust
+  name: チェース・マンハッタン信託銀行
+  type: trust
+  founded: "1985-11-13"
+  dissolved: "1996-10-01"
+  prefecture: 東京都
+  note: "チェース・マンハッタン・オーバーシーズ・バンキング・コーポレーションの100%出資で設立。1985年11月22日免許、11月25日開業"
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/x7pJlMccITvFwZEhl8-KZBfTjco/description.html]
+
+- id: dmg-trust-1996
+  name: ドイチェ・モルガン・グレンフェル信託銀行
+  type: trust
+  founded: "1996-10-01"
+  dissolved: "1999-08-02"
+  prefecture: 東京都
+  note: ドイツ銀行がチェース・マンハッタン信託銀行の全株式を取得し改称。1999年8月2日、営業の一部を日本バンカース・トラスト信託銀行へ譲渡
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/feHEUqdmaA1zi9lzuRFBMaYo-dl/description.html]
+
+- id: dmg-trust
+  name: ディーエムジー信託銀行
+  type: trust
+  founded: "1999-08-02"
+  dissolved: "2000-05-09"
+  prefecture: 東京都
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Ou__HGA5d3_n0RjalDCqs7ppDgk/description.html]
+
+- id: master-trust-japan
+  name: 日本マスタートラスト信託銀行
+  name_en: The Master Trust Bank of Japan
+  type: trust
+  founded: "2000-05-09"
+  prefecture: 東京都
+  note: 2000年5月9日、三菱信託銀行・日本生命・東洋信託銀行・明治生命・ドイツ銀行がディーエムジー信託銀行の全株式を取得し改称（銀行変遷史DBの表記は「日本マスタートラスト銀行と改称」）。2005年10月三菱UFJ信託銀行の連結子会社（有報）
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VSeLFu9Cx92iN6bTlzn5A8_QiE/description.html, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/日本マスタートラスト信託銀行, https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf]
+
+- id: morgan-trust
+  name: モルガン信託銀行
+  type: trust
+  founded: "1985-10-16"
+  dissolved: "2006-03-20"
+  prefecture: 東京都
+  note: "モルガン・ギャランティー・インターナショナル・ファイナンス・コーポレーションの100%出資で設立。1985年10月25日免許、10月28日開業"
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wbcJqFJg7Y0rlvLn51vqqOegP1h/description.html, https://ja.wikipedia.org/wiki/ニューヨークメロン信託銀行]
+
+- id: jpmorgan-trust
+  name: JPモルガン信託銀行
+  type: trust
+  founded: "2006-03-20"
+  dissolved: "2009-03"
+  prefecture: 東京都
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/iMVprpMrZLZYNHqQ7Ziryxr6jNe/description.html, https://ja.wikipedia.org/wiki/ニューヨークメロン信託銀行]
+
+- id: bny-mellon-trust
+  name: ニューヨークメロン信託銀行
+  name_en: The Bank of New York Mellon Trust (Japan)
+  type: trust
+  founded: "2009-03"
+  prefecture: 東京都
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DxRABOuolhh6xv7Ndt7F6GiyGWj/description.html, https://ja.wikipedia.org/wiki/ニューヨークメロン信託銀行, https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf]
+
+- id: nochu-trust
+  name: 農中信託銀行
+  name_en: "The Norinchukin Trust & Banking"
+  type: trust
+  founded: "1995-08-17"
+  prefecture: 東京都
+  note: 農林中央金庫の信託銀行子会社として設立。1995年9月1日銀行業免許・信託兼営認可、9月22日開業
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/22SaTtCPGXv3FqcI0YqRTu-2j9m/description.html, https://ja.wikipedia.org/wiki/農中信託銀行, https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf]
+
+- id: nikko-trust
+  name: 日興信託銀行
+  type: trust
+  founded: "1993-08-23"
+  dissolved: "2001-12-03"
+  prefecture: 東京都
+  note: "日興證券の信託銀行子会社として設立。1993年9月3日銀行業免許・信託兼営認可、10月1日開業。2001年12月、株式の50%をシティグループに譲渡"
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4E-MS8YYt8KHnCSVv7NFTVk7afn/description.html, https://ja.wikipedia.org/wiki/日興シティ信託銀行]
+
+- id: nikko-citi-trust
+  name: 日興シティ信託銀行
+  type: trust
+  founded: "2001-12-03"
+  dissolved: "2010-03-01"
+  prefecture: 東京都
+  note: 2001年12月3日シティトラスト信託銀行から資産管理部門を営業譲受。2009年10月1日、全株式が野村信託銀行に譲渡され同行の子会社となる
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RV_YC89M50R-tDj10TXPPaH5Cvk/description.html, https://ja.wikipedia.org/wiki/日興シティ信託銀行, https://ja.wikipedia.org/wiki/野村信託銀行]
+
+- id: nct-trust
+  name: NCT信託銀行
+  type: trust
+  founded: "2010-03-01"
+  dissolved: "2010-07-20"
+  prefecture: 東京都
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lx3yC8QY07AIST7x_ctoUwZO8Uk/description.html, https://ja.wikipedia.org/wiki/日興シティ信託銀行, https://ja.wikipedia.org/wiki/野村信託銀行]
+
+- id: nomura-trust
+  name: 野村信託銀行
+  name_en: Nomura Trust and Banking
+  type: trust
+  founded: "1993-08"
+  prefecture: 東京都
+  note: 野村證券の信託銀行子会社として設立。1993年9月3日銀行業免許・信託兼営認可、10月1日開業。2010年7月20日NCT信託銀行を吸収合併
+  sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fNq3RI4bx1N7I-OnDfA3lNwSmvl/description.html, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC5C", https://ja.wikipedia.org/wiki/野村信託銀行, https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf]
+

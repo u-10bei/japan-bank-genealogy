@@ -26,6 +26,8 @@ jobs:
       - run: pip install pyyaml
       - name: Validate data and build data.json
         run: python scripts/build.py
+      - name: Compare active banks with the FSA license list
+        run: python scripts/compare_fsa.py
       - if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v3
         with:

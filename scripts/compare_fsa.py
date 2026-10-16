@@ -28,7 +28,8 @@ def norm(name: str) -> str:
 def main() -> int:
     rows = list(csv.DictReader(open(ROOT / "sources/fsa/ginkou_menkyo.csv", encoding="utf-8")))
     banks = yaml.safe_load(open(ROOT / "data/banks.yaml", encoding="utf-8"))
-    alive = {norm(b["name"]): b for b in banks if not b.get("dissolved")}
+    # 政府系金融機関（type: special）は銀行免許を持たないため対象外
+    alive = {norm(b["name"]): b for b in banks if not b.get("dissolved") and b["type"] != "special"}
     fsa = {norm(r["name"]): r for r in rows}
     missing = [r for k, r in fsa.items() if k not in alive]
     extra = [b for k, b in alive.items() if k not in fsa]
