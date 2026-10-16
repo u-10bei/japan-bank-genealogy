@@ -2517,17 +2517,27 @@
 - id: gifu-mujin-1924
   name: 岐阜無尽
   type: other
-  founded: "1924"
+  founded: "1924-05-01"
   dissolved: "1942-05-01"
-  note: 銀行変遷史DBは1924〜1942年の岐阜無尽とする（設立日は未確認）。1942年5月1日、幸無尽・養老無尽・両福無尽と新立合併し岐阜合同無尽となる。1948年改称の岐阜無尽とは別
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
+  prefecture: 岐阜県
+  note: 1942年5月1日、幸無尽・養老無尽・両福無尽と新立合併し岐阜合同無尽となる（銀行変遷史DBの幸・養老・両福無尽の項は「岐阜無尽(昭和13－昭和17)」とするが、本項・岐阜合同無尽の項の大正13年が正しいと考えられる）。1948年改称の岐阜無尽とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XLJFkiGrz5TIGMMhkTncLcUgoBe/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
+
+- id: noh-mujin
+  name: 濃飛無尽
+  type: other
+  dissolved: "1940-04"
+  note: 1940年4月幸無尽が買収（十六銀行百年史による。消滅日は買収の月）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SrvQg5aZC5A84yI7fkhvsZwPbrj/description.html"]
 
 - id: sachi-mujin
   name: 幸無尽
   type: other
+  founded: "1927-02-11"
   dissolved: "1942-05-01"
-  note: 1942年5月1日、岐阜無尽・養老無尽・両福無尽と新立合併し岐阜合同無尽となる。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
+  prefecture: 岐阜県
+  note: 1940年4月濃飛無尽を買収。1942年5月1日、岐阜無尽・養老無尽・両福無尽と新立合併し岐阜合同無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SrvQg5aZC5A84yI7fkhvsZwPbrj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
 
 - id: yoro-mujin
   name: 養老無尽
@@ -2541,9 +2551,11 @@
 - id: ryofuku-mujin
   name: 両福無尽
   type: other
+  founded: "1931"
   dissolved: "1942-05-01"
-  note: 1942年5月1日、岐阜無尽・幸無尽・養老無尽と新立合併し岐阜合同無尽となる。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
+  prefecture: 岐阜県
+  note: 設立日は資料により異なる（銀行総覧は1931年5月14日、十六銀行百年史は6月25日とする）。1942年5月1日、岐阜無尽・幸無尽・養老無尽と新立合併し岐阜合同無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XXy1wPD8J4EOaI_OhHABGcYvoBh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
 
 - id: gifu-godo-mujin
   name: 岐阜合同無尽

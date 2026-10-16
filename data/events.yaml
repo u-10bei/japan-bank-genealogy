@@ -4478,3 +4478,10 @@
   to: [gifu-sogo]
   note: 相互銀行に転換
   sources: [https://ja.wikipedia.org/wiki/岐阜銀行]
+
+- date: "1940-04"
+  type: transfer
+  from: [noh-mujin]
+  to: [sachi-mujin]
+  note: 幸無尽が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SrvQg5aZC5A84yI7fkhvsZwPbrj/description.html"]
