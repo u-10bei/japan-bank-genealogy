@@ -4921,14 +4921,31 @@
   note: 戦前の愛知銀行（1941年東海銀行に合併）とは別。1989年1月25日普通銀行転換認可。2022年10月中京銀行と共同株式移転であいちフィナンシャルグループを設立
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
 
+- id: mie-shokusan-mujin
+  name: 三重殖産無尽
+  type: other
+  founded: "1927-10-22"
+  dissolved: "1941-10-01"
+  prefecture: 三重県
+  note: 1928年1月16日無尽営業認可（銀總の一部の回とWikipediaは同日を設立日とする）、2月11日開業。1941年10月1日三重相互無尽と新立合併し八紘無尽に
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/W20HtvXZDutwQXQ_1SE6yf00KAe/description.html"]
+
+- id: mie-sogo-mujin
+  name: 三重相互無尽
+  type: other
+  dissolved: "1941-10-01"
+  prefecture: 三重県
+  note: 1941年10月1日三重殖産無尽と新立合併し八紘無尽に
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/W20HtvXZDutwQXQ_1SE6yf00KAe/description.html"]
+
 - id: hakko-mujin-1936
   name: 八紘無尽
   type: other
-  founded: "1936-10"
+  founded: "1941-10-01"
   dissolved: "1943-02-10"
   prefecture: 三重県
-  note: Wikipediaによれば1928年1月16日設立の三重殖産無尽が1936年10月三重相互無尽と合併して八紘無尽となる
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O", https://ja.wikipedia.org/wiki/中京銀行]
+  note: 三重殖産無尽と三重相互無尽の新立合併で設立（1941年8月4日認可、9月20日創立総会、10月1日新立合併）。Wikipediaは1936年10月とする
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/W20HtvXZDutwQXQ_1SE6yf00KAe/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O", https://ja.wikipedia.org/wiki/中京銀行]
 
 - id: kisei-mujin
   name: 紀勢無尽

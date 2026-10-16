@@ -4183,3 +4183,10 @@
   to: [tokai-mujin]
   note: 新立合併（銀總は8月7日、中京相互銀行史は9月1日）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I8eclBBPxY7OGh-yXsmO2LUS_0n/description.html"]
+
+- date: "1941-10-01"
+  type: merger
+  from: [mie-shokusan-mujin, mie-sogo-mujin]
+  to: [hakko-mujin-1936]
+  note: 新立合併（1941年8月4日認可、9月20日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/W20HtvXZDutwQXQ_1SE6yf00KAe/description.html"]
