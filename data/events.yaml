@@ -4070,3 +4070,18 @@
   from: [inariyama-ginko]
   to: [dai63-kokuritsu]
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8m_VsH-zkL7bY-Zl6MAf2KL9pQ/description.html"]
+
+# ---------------------------------------------------------------- 第五十七銀行（銀行変遷史データベース）
+- date: "1897-07-01"
+  type: rename
+  from: [kokuritsu-57]
+  to: [dai57]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bZYMUZOaQ1nVdJ9DBzzm0UDHx8i/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zyyk3GAHEj6BTZFH1RAdK4g6wJ/description.html"]
+
+- date: "1940-10-28"
+  type: transfer
+  from: [dai57]
+  to: [chuetsu]
+  note: 中越銀行が買収（1940年10月28日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zyyk3GAHEj6BTZFH1RAdK4g6wJ/description.html"]

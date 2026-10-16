@@ -1867,14 +1867,32 @@
   note: 3代目
   sources: [https://ja.wikipedia.org/wiki/高岡銀行]
 
+- id: kokuritsu-57
+  name: 第五十七国立銀行
+  type: other
+  founded: "1878-10-05"
+  dissolved: "1897-07-01"
+  prefecture: 福井県
+  note: 1878年10月5日設立認可、10月28日開業
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bZYMUZOaQ1nVdJ9DBzzm0UDHx8i/description.html"]
+
+- id: dai57
+  name: 第五十七銀行
+  type: other
+  founded: "1897-07-01"
+  dissolved: "1940-10-28"
+  prefecture: 福井県
+  note: 第五十七国立銀行が国立銀行営業満期前特別処分法により私立銀行として営業継続し改称（継続日は銀報で1897年7月1日。北陸銀行創業百年史・福井銀行八十年史は満期前継続許可の3月31日を改称日とする）。1940年10月28日中越銀行が買収（福井銀行八十年史は11月1日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zyyk3GAHEj6BTZFH1RAdK4g6wJ/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bZYMUZOaQ1nVdJ9DBzzm0UDHx8i/description.html"]
+
 - id: chuetsu
   name: 中越銀行
   type: other
   founded: "1894-12-12"
   dissolved: "1943-07-31"
   prefecture: 富山県
-  note: 1894年12月12日設立認可、1895年1月4日開業。1940年に第五十七銀行を合併
-  sources: [https://ja.wikipedia.org/wiki/中越銀行]
+  note: 1894年12月12日設立認可、1895年1月4日開業。1940年10月28日第五十七銀行を買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zyyk3GAHEj6BTZFH1RAdK4g6wJ/description.html", https://ja.wikipedia.org/wiki/中越銀行]
 
 - id: toyama-2
   name: 富山銀行
