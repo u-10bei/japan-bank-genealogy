@@ -4260,13 +4260,64 @@
   note: 1921年12月15日鳥取貯蓄銀行として設立（因伯銀行を経て）、1949年10月1日鳥取信用組合の営業の全部を譲受、11月11日鳥取銀行に商号変更。前身に鳥取融通合資会社（1899年、Wikipedia）
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDT2", https://ja.wikipedia.org/wiki/鳥取銀行]
 
+- id: yakumo-bank
+  name: 八雲銀行
+  type: other
+  dissolved: "1916-10-06"
+  prefecture: 島根県
+  note: 1916年10月6日松江銀行に合併（10月12日合併登記）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
+
+- id: ano-bank
+  name: 安濃銀行
+  type: other
+  dissolved: "1918-11-01"
+  prefecture: 島根県
+  note: 1918年11月1日松江銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
+
+- id: kasubuchi-bank
+  name: 粕淵銀行
+  type: other
+  dissolved: "1918-12"
+  prefecture: 島根県
+  note: 1918年12月松江銀行に合併（山陰合同銀行五十年史は12月15日合併、銀行総覧は12月23日合併登記とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
+
+- id: hirata-bank
+  name: 平田銀行
+  type: other
+  founded: "1897"
+  dissolved: "1919-11-01"
+  prefecture: 島根県
+  note: 1919年11月1日松江銀行に合併。銀行変遷史DBは1897〜1919年の平田銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
+
+- id: yasugi-bank
+  name: 安来銀行
+  type: other
+  dissolved: "1928-04-23"
+  prefecture: 島根県
+  note: 1928年4月23日松江銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
+
 - id: matsue
   name: 松江銀行
   type: other
   founded: "1889-08-31"
+  dissolved: "1931-07-20"
+  prefecture: 島根県
+  note: 1889年8月31日設立、11月3日開業。1916〜1927年に八雲・安濃・粕淵・平田・八束・出雲の各行を合併、1928年安来銀行を買収。1931年7月20日雲陽実業銀行と新立合併し、新たな松江銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8", https://ja.wikipedia.org/wiki/山陰合同銀行]
+
+- id: matsue-1931
+  name: 松江銀行
+  type: other
+  founded: "1931-07-20"
   dissolved: "1941-07-01"
   prefecture: 島根県
-  sources: [https://ja.wikipedia.org/wiki/山陰合同銀行]
+  note: 松江銀行（1889〜1931）・雲陽実業銀行の新立合併で設立（6月25日合併認可、7月21日開業）。1941年7月1日米子銀行と新立合併し山陰合同銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QnAD9OUKqFWQlBO6Z0c0vQ6d8kd/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8", https://ja.wikipedia.org/wiki/山陰合同銀行]
 
 - id: yonago
   name: 米子銀行
@@ -9631,8 +9682,9 @@
   name: 雲陽実業銀行
   type: other
   dissolved: "1931-07-20"
-  note: 1931年7月松江銀行と合併し新たな松江銀行を設立
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+  prefecture: 島根県
+  note: 1931年7月20日松江銀行と新立合併し、新たな松江銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QnAD9OUKqFWQlBO6Z0c0vQ6d8kd/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
 
 - id: ichiyama-kogyo
   name: 市山興業銀行

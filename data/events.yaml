@@ -1068,9 +1068,10 @@
 
 - date: "1941-07-01"
   type: merger
-  from: [matsue, yonago]
+  from: [matsue-1931, yonago]
   to: [sanin-godo]
-  sources: [https://ja.wikipedia.org/wiki/山陰合同銀行]
+  note: 新立合併（6月27日合併認可、6月30日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QnAD9OUKqFWQlBO6Z0c0vQ6d8kd/description.html", https://ja.wikipedia.org/wiki/山陰合同銀行]
 
 - date: "1989-04-01"
   type: rename
@@ -3583,10 +3584,11 @@
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
 
 - date: "1931-07-20"
-  type: absorption
-  from: [unyo-jitsugyo]
-  to: [matsue]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+  type: merger
+  from: [matsue, unyo-jitsugyo]
+  to: [matsue-1931]
+  note: 新立合併（6月25日合併認可、7月21日開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QnAD9OUKqFWQlBO6Z0c0vQ6d8kd/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
 
 - date: "1941-10-01"
   type: absorption
@@ -5845,3 +5847,38 @@
   to: [matsue]
   note: 松江銀行が合併（8月合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vt-UQKnz0NvVb2EqHPOAm4WpWJo/description.html"]
+
+- date: "1916-10-06"
+  type: absorption
+  from: [yakumo-bank]
+  to: [matsue]
+  note: 松江銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
+
+- date: "1918-11-01"
+  type: absorption
+  from: [ano-bank]
+  to: [matsue]
+  note: 松江銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
+
+- date: "1918-12"
+  type: absorption
+  from: [kasubuchi-bank]
+  to: [matsue]
+  note: 松江銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
+
+- date: "1919-11-01"
+  type: absorption
+  from: [hirata-bank]
+  to: [matsue]
+  note: 松江銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
+
+- date: "1928-04-23"
+  type: transfer
+  from: [yasugi-bank]
+  to: [matsue]
+  note: 松江銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5J8feCt1EA241aBJZf6Q7mMgAah/description.html"]
