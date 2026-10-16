@@ -4984,3 +4984,11 @@
   to: [dai98]
   note: 第九十八銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html"]
+
+- date: "1907-07-10"
+  type: transfer
+  from: [tsudanuma-shogyo]
+  to: [dai98]
+  partial: true
+  note: 第九十八銀行が営業を譲受（津田沼商業銀行は解散せず、8月24日北海道に移転し釧路銀行に改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Un7xRclbZE2y1kz5JUH4aje772e/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html"]

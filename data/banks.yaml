@@ -1749,6 +1749,15 @@
   note: 1878年11月16日開業免状下付・設立、12月7日開業。1897年9月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第九十八銀行に改称（5月31日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/suWikI_n-k59mk9uTlRf_tWHL3g/description.html"]
 
+- id: tsudanuma-shogyo
+  name: 津田沼商業銀行
+  type: other
+  founded: "1900-06-15"
+  dissolved: "1907-08-24"
+  prefecture: 千葉県
+  note: 1907年7月10日第九十八銀行に営業を譲渡（解散せず）。1907年8月24日北海道に移転し釧路銀行に改称、1914年東京に移転し光正銀行に改称（釧路銀行・光正銀行はその後が未確認のため未収録。消滅日は釧路銀行への改称日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Un7xRclbZE2y1kz5JUH4aje772e/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LxAlVpmPnaI23o-Pdtece-2LwHe/description.html"]
+
 - id: ichinomiya-shogyo
   name: 一宮商業銀行
   type: other
@@ -1779,7 +1788,7 @@
   founded: "1897-09-01"
   dissolved: "1943-03-31"
   prefecture: 千葉県
-  note: 安田財閥系。1897年9月1日第九十八国立銀行が改称。1907年7月10日津田沼商業銀行・六軒商業銀行の営業を譲受（両行は解散せず移転・改称したため未収録）。1917〜1919年に一宮商業・長南商業・花房の各行を合併。1943年3月31日小見川農商銀行・千葉合同銀行と新立合併し千葉銀行となる
+  note: 安田財閥系。1897年9月1日第九十八国立銀行が改称。1907年7月10日津田沼商業銀行・六軒商業銀行の営業を譲受（両行は解散せず移転・改称。六軒商業銀行は未収録）。1917〜1919年に一宮商業・長南商業・花房の各行を合併。1943年3月31日小見川農商銀行・千葉合同銀行と新立合併し千葉銀行となる
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html", https://ja.wikipedia.org/wiki/千葉銀行]
 
 - id: chiba
