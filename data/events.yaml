@@ -4112,3 +4112,24 @@
   to: [tajima]
   note: 但馬地区12店舗の営業を譲受（多くは旧全但銀行の店舗）。同日、香住銀行は但馬銀行に商号変更
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YI1V", https://ja.wikipedia.org/wiki/但馬銀行]
+
+# ---------------------------------------------------------------- 久次米銀行（銀行変遷史データベース）
+- date: "1892"
+  type: reorganization
+  from: [kujime-ginko]
+  to: [awa-ginko-1892, kujime-ginko-1892]
+  note: 1891年9月の分割決議に基づき、関西部が合名会社阿波銀行（1892年1月）、関東部が合資会社久次米銀行（1892年2月4日）に
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TTp5aiBk1RLoK2vzUBeSBJjyJLi/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/clpagJt0Oo3uMs411o1m1sdFG3h/description.html"]
+
+- date: "1907"
+  type: failure
+  from: [kujime-ginko-1892]
+  note: 破産
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/clpagJt0Oo3uMs411o1m1sdFG3h/description.html"]
+
+- date: "1896-06-19"
+  type: transfer
+  from: [awa-ginko-1892]
+  to: [awa-shogyo]
+  note: 合名会社阿波銀行を母体に阿波商業銀行を設立（承継の詳細は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TTp5aiBk1RLoK2vzUBeSBJjyJLi/description.html", https://ja.wikipedia.org/wiki/阿波銀行]

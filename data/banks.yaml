@@ -3309,6 +3309,33 @@
   sources: [https://ja.wikipedia.org/wiki/山口銀行, https://ja.wikipedia.org/wiki/百十銀行]
 
 # ---------------------------------------------------------------- 地方銀行（四国・九州・沖縄）
+- id: kujime-ginko
+  name: 久次米銀行
+  type: other
+  founded: "1879-11"
+  dissolved: "1892"
+  prefecture: 徳島県
+  note: 1879年11月18日創立許可、11月開業。1891年5月30日休業、9月20日資産負債を関東（東京・郡山支店）と関西（徳島本店・大阪・洲本支店）に分割することを決議。関西部は合名会社阿波銀行、関東部は合資会社久次米銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TTp5aiBk1RLoK2vzUBeSBJjyJLi/description.html"]
+
+- id: awa-ginko-1892
+  name: 阿波銀行
+  type: other
+  founded: "1892-01"
+  dissolved: "1896-06-19"
+  prefecture: 徳島県
+  note: 合名会社阿波銀行。久次米銀行の関西部（徳島本店・大阪・洲本支店）を継承（阿波商業銀行小史は1892年1月8日創業、阿波銀行七十年小史は2月9日開店、銀總は1893年6月28日設立）。1896年阿波商業銀行の母体となる。現在の阿波銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TTp5aiBk1RLoK2vzUBeSBJjyJLi/description.html"]
+
+- id: kujime-ginko-1892
+  name: 久次米銀行
+  type: other
+  founded: "1892-02-04"
+  dissolved: "1907"
+  prefecture: 東京都
+  note: 合資会社久次米銀行。久次米銀行の関東部（東京・郡山支店）を継承して東京に設立。1907年破産
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/clpagJt0Oo3uMs411o1m1sdFG3h/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TTp5aiBk1RLoK2vzUBeSBJjyJLi/description.html"]
+
 - id: awa-shogyo
   name: 阿波商業銀行
   type: other

@@ -108,7 +108,7 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
         d = date_key(str(e["date"]))
         for bid in dst:
             b = ids[bid]
-            if e["type"] in ("merger", "rename", "reorganization") and str(b.get("founded")) != str(e["date"]) and bid not in src:
+            if e["type"] in ("merger", "rename", "reorganization") and not (str(b.get("founded")).startswith(str(e["date"])) or str(e["date"]).startswith(str(b.get("founded")))) and bid not in src:
                 warnings.append(f"{where}: '{bid}' の founded ({b['founded']}) がイベント日と一致しません")
 
     # イベントが関係する銀行の存続期間外に置かれていないか（精度の低い方に合わせて比較）
