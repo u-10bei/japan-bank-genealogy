@@ -143,6 +143,7 @@ svg text { font-family: inherit; }
 .bank text.alive { font-weight: 600; }
 .link { fill: none; stroke: var(--text-muted); stroke-width: 1.5px; }
 .link.rename { stroke-dasharray: 3 3; }
+.link.partial { stroke-dasharray: 1 3; stroke-width: 1.25px; opacity: .7; }
 .event-dot { fill: var(--surface); stroke: var(--text-secondary); stroke-width: 1.5px; }
 .fail-mark { stroke: var(--critical); stroke-width: 2.5px; stroke-linecap: round; }
 .dim { opacity: .12; }
@@ -231,15 +232,33 @@ d3.json("data.json").then(init).catch(err => {
 });
 
 function init(data) {
-  const banks = new Map(data.banks.map(b => [b.id, { ...b, preds: [], succs: [], events: [] }]));
+  const banks = new Map(data.banks.map(b => [b.id, { ...b, preds: [], succs: [], events: [], transfersIn: [], transfersOut: [] }]));
+  // 事業譲渡（transfer）を系統のつながりとみなすのは、譲渡元が消滅し、合併等の後継がなく、
+  // 譲渡先が1行だけの場合（＝事業の全部を1行が承継）に限る。部分的な譲渡は点線で描くだけにする。
+  const structuralTransfer = e => {
+    if (e.type !== "transfer") return true;
+    return e.from.every(f => {
+      const b = data.banks.find(x => x.id === f);
+      if (!b || !b.dissolved) return false;
+      const out = data.events.filter(x => x.from.includes(f) && x.type !== "failure");
+      if (out.some(x => x.type !== "transfer")) return false;
+      return new Set(out.flatMap(x => x.to)).size === 1;
+    });
+  };
   for (const e of data.events) {
+    e.partial = !structuralTransfer(e);
     for (const f of e.from) banks.get(f).events.push(e);
     for (const t of e.to) if (!e.from.includes(t)) banks.get(t).events.push(e);
     if (e.type === "failure") continue;
     for (const f of e.from) for (const t of e.to) {
       if (f === t) continue;
-      banks.get(t).preds.push(f);
-      banks.get(f).succs.push(t);
+      if (e.partial) {
+        banks.get(t).transfersIn.push(f);
+        banks.get(f).transfersOut.push(t);
+      } else {
+        banks.get(t).preds.push(f);
+        banks.get(f).succs.push(t);
+      }
     }
   }
   for (const b of banks.values()) {
@@ -344,7 +363,7 @@ function init(data) {
     for (const f of e.from) for (const t of e.to) if (f !== t) links.push({ e, f, t });
   }
   const linkSel = gLinks.selectAll("path").data(links).join("path")
-    .attr("class", d => "link " + d.e.type);
+    .attr("class", d => "link " + d.e.type + (d.e.partial ? " partial" : ""));
 
   const eventPoints = [];
   for (const e of data.events) {
@@ -454,6 +473,7 @@ function init(data) {
   }
   const lg = legend.append("span").style("display", "inline-flex").style("gap", "10px");
   lg.append("span").html('<svg width="12" height="12" style="vertical-align:-2px"><circle cx="6" cy="6" r="4" fill="none" stroke="currentColor" stroke-width="1.5"/></svg> 合併・改称等');
+  lg.append("span").html('<svg width="18" height="12" style="vertical-align:-2px"><path d="M1,6H17" stroke="currentColor" stroke-width="1.5" stroke-dasharray="1 3"/></svg> 一部の事業譲渡');
   lg.append("span").html('<svg width="12" height="12" style="vertical-align:-2px"><path d="M2,2L10,10M10,2L2,10" stroke="var(--critical)" stroke-width="2.5" stroke-linecap="round"/></svg> 破綻・国有化');
 
   // ---- 選択・系統ハイライト
@@ -468,7 +488,10 @@ function init(data) {
   function applyHighlight() {
     const visible = d => !hiddenTypes.has(banks.get(d).type) && (!lineage || lineage.has(d));
     bankSel.classed("dim", d => !visible(d.id)).classed("selected", d => d.id === selected);
-    linkSel.classed("dim", d => !(visible(d.f) && visible(d.t)));
+    linkSel.classed("dim", d => !(visible(d.f) && visible(d.t)))
+      // 一部の事業譲渡は系統をまたいで長い線になるため、選択中の系統に関わるものだけ表示する
+      .style("display", d => !d.e.partial || (lineage && (lineage.has(d.f) || lineage.has(d.t))) ? null : "none")
+      .classed("dim", d => d.e.partial ? false : !(visible(d.f) && visible(d.t)));
     dotSel.classed("dim", d => !visible(d.id));
   }
   function select(id, fromChart) {
@@ -532,6 +555,8 @@ function init(data) {
       ${b.note ? `<p>${esc(b.note)}</p>` : ""}
       ${b.preds.length ? `<h3>前身</h3><ul>${[...new Set(b.preds)].map(p => `<li>${linkTo(p)}</li>`).join("")}</ul>` : ""}
       ${b.succs.length ? `<h3>後継</h3><ul>${[...new Set(b.succs)].map(s => `<li>${linkTo(s)}</li>`).join("")}</ul>` : ""}
+      ${b.transfersIn.length ? `<h3>事業の一部を譲り受けた先</h3><ul>${[...new Set(b.transfersIn)].map(s => `<li>${linkTo(s)}</li>`).join("")}</ul>` : ""}
+      ${b.transfersOut.length ? `<h3>事業の譲渡先</h3><ul>${[...new Set(b.transfersOut)].map(s => `<li>${linkTo(s)}</li>`).join("")}</ul>` : ""}
       ${evs.length ? `<h3>変遷</h3><ul>${evs.map(e => `<li>${fmtDate(e.date)} ${EVENT_LABELS[e.type]}：${e.from.map(linkTo).join("・")}${e.to.length ? " → " + e.to.map(linkTo).join("・") : ""}${e.note ? `<br><small>${esc(e.note)}</small>` : ""}</li>`).join("")}</ul>` : ""}
       ${b.sources && b.sources.length ? `<h3>出典</h3><ul>${b.sources.map(s => `<li><a href="${esc(s)}" target="_blank" rel="noopener">${esc(decodeURI(s))}</a></li>`).join("")}</ul>` : ""}
     `;
@@ -570,6 +595,7 @@ function init(data) {
     render();
   });
   render();
+  applyHighlight();
 
   // URL ハッシュ (#bank=sanwa) で初期選択
   const m = location.hash.match(/bank=([a-z0-9-]+)/);

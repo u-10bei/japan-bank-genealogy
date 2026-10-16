@@ -2377,3 +2377,244 @@
   note: 普通銀行に転換
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
 
+# ---------------------------------------------------------------- 信託銀行
+- date: "1948-08-02"
+  type: rename
+  from: [mitsubishi-shintaku]
+  to: [asahi-trust]
+  note: 普通銀行業務を併営し朝日信託銀行に改称（有報は1948年8月）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- date: "1952-06-01"
+  type: rename
+  from: [asahi-trust]
+  to: [mitsubishi-trust]
+  note: 有報は1952年6月
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- date: "1960-04"
+  type: transfer
+  from: [sanwa]
+  to: [toyo-trust]
+  note: 三和銀行の信託業務を東洋信託銀行へ譲渡
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- date: "1960-04"
+  type: transfer
+  from: [kobe]
+  to: [toyo-trust]
+  note: 神戸銀行の信託業務及び勘定を東洋信託銀行へ譲渡
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1947-08"
+  type: rename
+  from: [kawasaki-shintaku]
+  to: [nihon-shintaku]
+  note: 財閥解体期に改称
+  sources: [https://ja.wikipedia.org/wiki/三菱UFJ信託銀行, https://ja.wikipedia.org/wiki/日本信託銀行]
+
+- date: "1948-07"
+  type: rename
+  from: [nihon-shintaku]
+  to: [nippon-trust]
+  sources: [https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- date: "1999-10"
+  type: absorption
+  from: [sanwa-trust]
+  to: [toyo-trust]
+  note: 東洋信託銀行を存続会社として合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/東洋信託銀行]
+
+- date: "2001-07-01"
+  type: absorption
+  from: [tokai-trust]
+  to: [toyo-trust]
+  note: 東洋信託銀行を存続会社として合併（有報は2001年7月）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO", https://ja.wikipedia.org/wiki/東洋信託銀行]
+
+- date: "2001-10-01"
+  type: absorption
+  from: [nippon-trust, tokyo-trust-2001]
+  to: [mitsubishi-trust]
+  note: 三菱信託銀行を存続会社として日本信託銀行・東京信託銀行を合併（有報は2001年10月）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO", https://ja.wikipedia.org/wiki/日本信託銀行]
+
+- date: "2002-01-15"
+  type: rename
+  from: [toyo-trust]
+  to: [ufj-trust]
+  note: 有報は2002年1月
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO", https://ja.wikipedia.org/wiki/東洋信託銀行]
+
+- date: "2005-10-01"
+  type: absorption
+  from: [ufj-trust]
+  to: [mitsubishi-trust]
+  note: 三菱信託銀行を存続会社として合併（有報は2005年10月）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO", https://ja.wikipedia.org/wiki/東洋信託銀行]
+
+- date: "2005-10-01"
+  type: rename
+  from: [mitsubishi-trust]
+  to: [mufg-trust]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- date: "1948-08"
+  type: rename
+  from: [sumitomo-shintaku]
+  to: [fuji-shintaku-1948]
+  note: 普通銀行業務を開始し富士信託銀行に改称
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ", https://ja.wikipedia.org/wiki/住友信託銀行]
+
+- date: "1952-06"
+  type: rename
+  from: [fuji-shintaku-1948]
+  to: [sumitomo-trust]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ", https://ja.wikipedia.org/wiki/住友信託銀行]
+
+- date: "2000-08-01"
+  type: absorption
+  from: [sumigin-trust, daiwa-international-trust]
+  to: [sumitomo-trust]
+  note: Wikipediaのみによる（有報に記載なし）
+  sources: [https://ja.wikipedia.org/wiki/住友信託銀行]
+
+- date: "2008-02"
+  type: absorption
+  from: [bgi-trust]
+  to: [sumitomo-trust]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ"]
+
+- date: "1948-08"
+  type: rename
+  from: [mitsui-shintaku]
+  to: [tokyo-trust-1948]
+  note: 信託銀行に転換し東京信託銀行に改称
+  sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- date: "1952-06"
+  type: rename
+  from: [tokyo-trust-1948]
+  to: [mitsui-trust]
+  sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- date: "1962-12"
+  type: transfer
+  from: [tokai]
+  to: [chuo-trust]
+  note: 東海銀行・第一信託銀行から信託部門、日本証券代行から証券代行部門を譲受（Wikipediaのみ）
+  sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- date: "1998-11-16"
+  type: transfer
+  from: [takugin]
+  to: [chuo-trust]
+  note: 北海道拓殖銀行の北海道外の営業を譲受（Wikipediaのみ）
+  sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- date: "2000-04-01"
+  type: absorption
+  from: [mitsui-trust]
+  to: [chuo-trust]
+  note: 中央信託銀行を存続会社として合併（Wikipediaによる）
+  sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- date: "2000-04-01"
+  type: rename
+  from: [chuo-trust]
+  to: [chuo-mitsui-trust]
+  sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- date: "2002-02"
+  type: rename
+  from: [sakura-trust]
+  to: [mitsui-asset-trust]
+  note: 三井トラスト・ホールディングス設立に伴い同社の子会社となり改称（Wikipediaによる）
+  sources: [https://ja.wikipedia.org/wiki/中央三井アセット信託銀行, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGM"]
+
+- date: "2002-03"
+  type: transfer
+  from: [chuo-mitsui-trust]
+  to: [mitsui-asset-trust]
+  note: 中央三井信託銀行の年金・証券部門を会社分割により移管
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGM"]
+
+- date: "2007-10-01"
+  type: rename
+  from: [mitsui-asset-trust]
+  to: [chuo-mitsui-asset-trust]
+  note: 有報は2007年10月
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGM", https://ja.wikipedia.org/wiki/中央三井アセット信託銀行]
+
+- date: "2012-04-01"
+  type: merger
+  from: [sumitomo-trust, chuo-mitsui-trust, chuo-mitsui-asset-trust]
+  to: [smtb]
+  note: 有報は3行の合併による「発足」と記載。Wikipediaは住友信託銀行を存続会社とし三井住友信託銀行に商号変更と記載
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGM", https://ja.wikipedia.org/wiki/住友信託銀行, https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- date: "1926-02-12"
+  type: rename
+  from: [kyosai-shintaku]
+  to: [yasuda-shintaku]
+  sources: [https://ja.wikipedia.org/wiki/安田信託銀行]
+
+- date: "1948-08-02"
+  type: rename
+  from: [yasuda-shintaku]
+  to: [chuo-trust-1948]
+  sources: [https://ja.wikipedia.org/wiki/安田信託銀行]
+
+- date: "1951-06-01"
+  type: rename
+  from: [chuo-trust-1948]
+  to: [yasuda-trust]
+  sources: [https://ja.wikipedia.org/wiki/安田信託銀行, https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- date: "1999-04-01"
+  type: merger
+  from: [fuji-trust-1996, dkb-trust]
+  to: [dkb-fuji-trust]
+  note: 有報（みずほ銀行）は1999年4月「合併、商号を第一勧業富士信託銀行に変更」と記載。存続会社は未確認
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- date: "2000-10-01"
+  type: absorption
+  from: [ibj-trust]
+  to: [dkb-fuji-trust]
+  note: 第一勧業富士信託銀行を存続会社として合併（存続会社はWikipediaによる）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- date: "2000-10-01"
+  type: rename
+  from: [dkb-fuji-trust]
+  to: [mizuho-trust-old]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- date: "2002-04-01"
+  type: rename
+  from: [yasuda-trust]
+  to: [mizuho-asset-trust]
+  sources: [https://ja.wikipedia.org/wiki/安田信託銀行, https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- date: "2003-03-12"
+  type: absorption
+  from: [mizuho-trust-old]
+  to: [mizuho-asset-trust]
+  note: みずほアセット信託銀行を存続会社として合併
+  sources: [https://ja.wikipedia.org/wiki/みずほ信託銀行, https://ja.wikipedia.org/wiki/安田信託銀行]
+
+- date: "2003-03-12"
+  type: rename
+  from: [mizuho-asset-trust]
+  to: [mizuho-trust]
+  sources: [https://ja.wikipedia.org/wiki/みずほ信託銀行, https://ja.wikipedia.org/wiki/安田信託銀行]
+
+- date: "2020-07-27"
+  type: merger
+  from: [jtsb, tcsb]
+  to: [custody-bank-japan]
+  note: 有報（みずほFG）は2020年7月「JTCホールディングスが両行と合併し商号を日本カストディ銀行に変更」と記載（JTCHD存続）。Wikipediaは日本トラスティ・サービス信託銀行が資産管理サービス信託銀行とJTCHDを吸収し改称と記載。日はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF8Y", https://ja.wikipedia.org/wiki/日本カストディ銀行]
+

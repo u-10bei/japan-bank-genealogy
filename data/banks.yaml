@@ -4890,3 +4890,362 @@
   prefecture: 沖縄県
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
 
+# ---------------------------------------------------------------- 信託銀行
+- id: mitsubishi-shintaku
+  name: 三菱信託株式会社
+  type: trust
+  founded: "1927-03-10"
+  dissolved: "1948-08-02"
+  prefecture: 東京都
+  note: 信託業法に基づく三菱系の信託会社。有報は1927年3月設立、日はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- id: asahi-trust
+  name: 朝日信託銀行
+  type: trust
+  founded: "1948-08-02"
+  dissolved: "1952-06-01"
+  prefecture: 東京都
+  note: 普通銀行業務を併営し信託銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- id: mitsubishi-trust
+  name: 三菱信託銀行
+  name_en: The Mitsubishi Trust and Banking Corporation
+  type: trust
+  founded: "1952-06-01"
+  dissolved: "2005-10-01"
+  prefecture: 東京都
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- id: mufg-trust
+  name: 三菱UFJ信託銀行
+  name_en: Mitsubishi UFJ Trust and Banking Corporation
+  type: trust
+  founded: "2005-10-01"
+  prefecture: 東京都
+  note: 三菱UFJフィナンシャル・グループの完全子会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO", https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- id: toyo-trust
+  name: 東洋信託銀行
+  name_en: The Toyo Trust and Banking Company
+  type: trust
+  founded: "1959-11-02"
+  dissolved: "2002-01-15"
+  prefecture: 東京都
+  note: 三和銀行・神戸銀行・野村證券の提携により設立。有報は1959年11月、日はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/東洋信託銀行]
+
+- id: sanwa-trust
+  name: 三和信託銀行
+  type: trust
+  founded: "1995-11-30"
+  dissolved: "1999-10"
+  note: 三和銀行の信託子会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/東洋信託銀行]
+
+- id: tokai-trust
+  name: 東海信託銀行
+  type: trust
+  founded: "1995-08"
+  dissolved: "2001-07-01"
+  note: 東海銀行の信託子会社。2001年5月に東洋信託銀行が全株式を取得
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO", https://ja.wikipedia.org/wiki/東洋信託銀行]
+
+- id: ufj-trust
+  name: UFJ信託銀行
+  name_en: The UFJ Trust Bank
+  type: trust
+  founded: "2002-01-15"
+  dissolved: "2005-10-01"
+  prefecture: 東京都
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO", https://ja.wikipedia.org/wiki/東洋信託銀行]
+
+- id: kawasaki-shintaku
+  name: 川崎信託株式会社
+  type: trust
+  founded: "1927"
+  dissolved: "1947-08"
+  prefecture: 東京都
+  note: 東京川崎財閥系の信託会社
+  sources: [https://ja.wikipedia.org/wiki/日本信託銀行, https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- id: nihon-shintaku
+  name: 日本信託株式会社
+  type: trust
+  founded: "1947-08"
+  dissolved: "1948-07"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- id: nippon-trust
+  name: 日本信託銀行
+  name_en: The Nippon Trust Bank
+  type: trust
+  founded: "1948-07"
+  dissolved: "2001-10-01"
+  prefecture: 東京都
+  note: 1994年三菱銀行の子会社、のち東京三菱銀行の完全子会社。1920年設立の同名の株式会社日本信託銀行（大和證券の前身）とは別法人
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", https://ja.wikipedia.org/wiki/日本信託銀行, https://ja.wikipedia.org/wiki/三菱UFJ信託銀行]
+
+- id: tokyo-trust-2001
+  name: 東京信託銀行
+  type: trust
+  dissolved: "2001-10-01"
+  note: 2001年9月三菱東京フィナンシャル・グループの完全子会社となり、翌月三菱信託銀行に合併。設立日は未確認。三井信託銀行の旧商号（1948-52年）とは別法人
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO"]
+
+- id: sumitomo-shintaku
+  name: 住友信託株式会社
+  type: trust
+  founded: "1925-07-28"
+  dissolved: "1948-08"
+  prefecture: 大阪府
+  note: 信託業法に基づき設立、1925年9月営業開始。有報は1925年7月設立、日はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ", https://ja.wikipedia.org/wiki/住友信託銀行]
+
+- id: fuji-shintaku-1948
+  name: 富士信託銀行
+  type: trust
+  founded: "1948-08"
+  dissolved: "1952-06"
+  prefecture: 大阪府
+  note: 住友信託の戦後の商号。普通銀行業務を開始。1996年設立の富士銀行系の富士信託銀行とは無関係
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ", https://ja.wikipedia.org/wiki/住友信託銀行]
+
+- id: sumitomo-trust
+  name: 住友信託銀行
+  name_en: The Sumitomo Trust and Banking Company
+  type: trust
+  founded: "1952-06"
+  dissolved: "2012-04-01"
+  prefecture: 大阪府
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ", https://ja.wikipedia.org/wiki/住友信託銀行]
+
+- id: sumigin-trust
+  name: すみぎん信託銀行
+  type: trust
+  dissolved: "2000-08-01"
+  note: 住友銀行系の信託銀行。設立日未確認（Wikipediaのみ）
+  sources: [https://ja.wikipedia.org/wiki/住友信託銀行]
+
+- id: daiwa-international-trust
+  name: 大和インターナショナル信託銀行
+  type: trust
+  dissolved: "2000-08-01"
+  note: 設立日未確認（Wikipediaのみ）
+  sources: [https://ja.wikipedia.org/wiki/住友信託銀行]
+
+- id: bgi-trust
+  name: バークレイズ・グローバル・インベスターズ信託銀行
+  type: trust
+  dissolved: "2008-02"
+  note: 外資系信託銀行。設立日未確認
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ"]
+
+- id: mitsui-shintaku
+  name: 三井信託株式会社
+  type: trust
+  founded: "1924-03-25"
+  dissolved: "1948-08"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- id: tokyo-trust-1948
+  name: 東京信託銀行
+  type: trust
+  founded: "1948-08"
+  dissolved: "1952-06"
+  prefecture: 東京都
+  note: 三井信託の戦後の商号（信託銀行に転換）。2001年に三菱信託銀行に合併した東京信託銀行とは別法人
+  sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- id: mitsui-trust
+  name: 三井信託銀行
+  name_en: The Mitsui Trust and Banking Company
+  type: trust
+  founded: "1952-06"
+  dissolved: "2000-04-01"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- id: chuo-trust
+  name: 中央信託銀行
+  name_en: The Chuo Trust and Banking Company
+  type: trust
+  founded: "1962-05-26"
+  dissolved: "2000-04-01"
+  prefecture: 東京都
+  note: 1948-51年の安田信託の旧商号「中央信託銀行」とは別法人
+  sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- id: chuo-mitsui-trust
+  name: 中央三井信託銀行
+  name_en: The Chuo Mitsui Trust and Banking Company
+  type: trust
+  founded: "2000-04-01"
+  dissolved: "2012-04-01"
+  prefecture: 東京都
+  note: 2002年2月に株式移転で三井トラスト・ホールディングス（のち中央三井トラスト・ホールディングス）を設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGM", https://ja.wikipedia.org/wiki/中央三井信託銀行]
+
+- id: sakura-trust
+  name: さくら信託銀行
+  type: trust
+  founded: "1995-12-28"
+  dissolved: "2002-02"
+  prefecture: 東京都
+  note: さくら銀行のホールセール信託子会社。2001年6月中央三井信託銀行の子会社に
+  sources: [https://ja.wikipedia.org/wiki/中央三井アセット信託銀行]
+
+- id: mitsui-asset-trust
+  name: 三井アセット信託銀行
+  type: trust
+  founded: "2002-02"
+  dissolved: "2007-10-01"
+  prefecture: 東京都
+  note: 改称時期はWikipediaによる（有報は2001年10月の記述で既にこの名称を使用）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGM", https://ja.wikipedia.org/wiki/中央三井アセット信託銀行]
+
+- id: chuo-mitsui-asset-trust
+  name: 中央三井アセット信託銀行
+  type: trust
+  founded: "2007-10-01"
+  dissolved: "2012-04-01"
+  prefecture: 東京都
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGM", https://ja.wikipedia.org/wiki/中央三井アセット信託銀行]
+
+- id: smtb
+  name: 三井住友信託銀行
+  name_en: Sumitomo Mitsui Trust Bank
+  type: trust
+  founded: "2012-04-01"
+  prefecture: 東京都
+  note: 三井住友トラストグループ（旧三井住友トラスト・ホールディングス、2011年4月発足）の子会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGM", https://ja.wikipedia.org/wiki/住友信託銀行]
+
+- id: kyosai-shintaku
+  name: 共済信託株式会社
+  type: trust
+  founded: "1925-05-09"
+  dissolved: "1926-02-12"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/安田信託銀行, https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- id: yasuda-shintaku
+  name: 安田信託株式会社
+  type: trust
+  founded: "1926-02-12"
+  dissolved: "1948-08-02"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/安田信託銀行, https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- id: chuo-trust-1948
+  name: 中央信託銀行
+  type: trust
+  founded: "1948-08-02"
+  dissolved: "1951-06-01"
+  prefecture: 東京都
+  note: 安田信託の戦後の商号。1962年設立の中央信託銀行とは別法人
+  sources: [https://ja.wikipedia.org/wiki/安田信託銀行, https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- id: yasuda-trust
+  name: 安田信託銀行
+  name_en: The Yasuda Trust and Banking Company
+  type: trust
+  founded: "1951-06-01"
+  dissolved: "2002-04-01"
+  prefecture: 東京都
+  note: 1999年3月富士銀行が第三者割当増資を引き受け子会社化
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/安田信託銀行]
+
+- id: mizuho-asset-trust
+  name: みずほアセット信託銀行
+  type: trust
+  founded: "2002-04-01"
+  dissolved: "2003-03-12"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/安田信託銀行, https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- id: ibj-trust
+  name: 興銀信託銀行
+  type: trust
+  founded: "1995-10"
+  dissolved: "2000-10-01"
+  prefecture: 東京都
+  note: 日本興業銀行の信託子会社。みずほ銀行の有報では「興銀信託株式会社」と表記
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- id: dkb-trust
+  name: 第一勧業信託銀行
+  type: trust
+  founded: "1995-11"
+  dissolved: "1999-04-01"
+  prefecture: 東京都
+  note: 第一勧業銀行の信託子会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- id: fuji-trust-1996
+  name: 富士信託銀行
+  type: trust
+  founded: "1996-06"
+  dissolved: "1999-04-01"
+  prefecture: 東京都
+  note: 富士銀行の信託子会社。1948-52年の住友信託の旧商号「富士信託銀行」とは別法人
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- id: dkb-fuji-trust
+  name: 第一勧業富士信託銀行
+  type: trust
+  founded: "1999-04-01"
+  dissolved: "2000-10-01"
+  prefecture: 東京都
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- id: mizuho-trust-old
+  name: みずほ信託銀行（旧）
+  type: trust
+  founded: "2000-10-01"
+  dissolved: "2003-03-12"
+  prefecture: 東京都
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- id: mizuho-trust
+  name: みずほ信託銀行
+  name_en: "Mizuho Trust & Banking"
+  type: trust
+  founded: "2003-03-12"
+  prefecture: 東京都
+  note: 法人格は安田信託銀行の系譜。2003年3月みずほフィナンシャルグループの直接子会社、2011年9月株式交換で完全子会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF8Y", https://ja.wikipedia.org/wiki/みずほ信託銀行]
+
+- id: jtsb
+  name: 日本トラスティ・サービス信託銀行
+  name_en: Japan Trustee Services Bank
+  type: trust
+  founded: "2000-06-20"
+  dissolved: "2020-07-27"
+  prefecture: 東京都
+  note: "大和銀行が住友信託銀行との基本合意に基づき設立（50:50の合弁）。2002年9月中央三井信託銀行が資本参加。有報は2000年6月、日はWikipediaによる"
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/日本カストディ銀行]
+
+- id: tcsb
+  name: 資産管理サービス信託銀行
+  name_en: "Trust & Custody Services Bank"
+  type: trust
+  founded: "2001-01-22"
+  dissolved: "2020-07-27"
+  prefecture: 東京都
+  note: みずほ系の資産管理専門信託銀行
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF8Y", https://ja.wikipedia.org/wiki/日本カストディ銀行]
+
+- id: custody-bank-japan
+  name: 日本カストディ銀行
+  name_en: Custody Bank of Japan
+  type: trust
+  founded: "2020-07-27"
+  prefecture: 東京都
+  note: 2018年10月設立のJTCホールディングス（両行の共同持株会社）が両行と合併して発足
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF8Y", https://ja.wikipedia.org/wiki/日本カストディ銀行]
+
