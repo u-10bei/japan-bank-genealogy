@@ -4141,3 +4141,17 @@
   to: [awa-shogyo]
   note: 買収（営業譲受）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/N0IXK1CUrCTLdFlOc7T_3Pp1-Jl/description.html"]
+
+# ---------------------------------------------------------------- 八戸銀行の前身（銀行変遷史データベース）
+- date: "1921-03-10"
+  type: absorption
+  from: [izumiyama-1897]
+  to: [izumiyama-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xg2DIeGqnfi-SkV71hYRsMFxPvb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5Sz99N_p0aMsjW7-SF-gbpXKO-d/description.html"]
+
+- date: "1928-04-29"
+  type: merger
+  from: [izumiyama-ginko, gonohe-ginko, hashikami-ginko, hachinohe-shogyo]
+  to: [hachinohe-ginko]
+  note: 4行の新立合併（1928年5月1日開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xg2DIeGqnfi-SkV71hYRsMFxPvb/description.html"]

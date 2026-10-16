@@ -826,14 +826,56 @@
   prefecture: 青森県
   sources: [https://ja.wikipedia.org/wiki/第五十九銀行]
 
+- id: izumiyama-1897
+  name: 泉山銀行
+  type: other
+  founded: "1897-11-11"
+  dissolved: "1921-03-10"
+  prefecture: 青森県
+  note: 合名会社泉山銀行。1921年3月10日株式会社泉山銀行に合併し解散（青森銀行史。登記は4月か）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5Sz99N_p0aMsjW7-SF-gbpXKO-d/description.html"]
+
+- id: izumiyama-ginko
+  name: 泉山銀行
+  type: other
+  founded: "1920-11-07"
+  dissolved: "1928-04-29"
+  prefecture: 青森県
+  note: 株式会社泉山銀行。1921年3月10日合名会社泉山銀行を合併。1928年4月29日、4行の新立合併により八戸銀行に
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xg2DIeGqnfi-SkV71hYRsMFxPvb/description.html"]
+
+- id: gonohe-ginko
+  name: 五戸銀行
+  type: other
+  dissolved: "1928-04-29"
+  prefecture: 青森県
+  note: 1928年4月29日、4行の新立合併により八戸銀行に
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xg2DIeGqnfi-SkV71hYRsMFxPvb/description.html"]
+
+- id: hashikami-ginko
+  name: 階上銀行
+  type: other
+  dissolved: "1928-04-29"
+  prefecture: 青森県
+  note: 1928年4月29日、4行の新立合併により八戸銀行に
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xg2DIeGqnfi-SkV71hYRsMFxPvb/description.html"]
+
+- id: hachinohe-shogyo
+  name: 八戸商業銀行
+  type: other
+  dissolved: "1928-04-29"
+  prefecture: 青森県
+  note: 1928年4月29日、4行の新立合併により八戸銀行に
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xg2DIeGqnfi-SkV71hYRsMFxPvb/description.html"]
+
 - id: hachinohe-ginko
   name: 八戸銀行
   type: other
-  founded: "1928"
+  founded: "1928-04-29"
   dissolved: "1943-10-01"
   prefecture: 青森県
-  note: 泉山銀行など4行の合併で設立、1928年5月1日開業
-  sources: [https://ja.wikipedia.org/wiki/八戸銀行]
+  note: 泉山・五戸・階上・八戸商業の4行の新立合併で設立（青森銀行史。銀總の一部は4月13日とする）、1928年5月1日開業
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xg2DIeGqnfi-SkV71hYRsMFxPvb/description.html", https://ja.wikipedia.org/wiki/八戸銀行]
 
 - id: tsugaru-ginko
   name: 津軽銀行
