@@ -5767,3 +5767,31 @@
   to: [kiyo]
   note: 紀陽銀行が買収（2月6日買収認可・解散認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]
+
+- date: "1920-09-20"
+  type: absorption
+  from: [ichiyama-kogyo]
+  to: [koshin-bank]
+  note: 庚申銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6B3SC9KQ1KsDkDAnJYNxKauVPcb/description.html"]
+
+- date: "1921-12"
+  type: transfer
+  from: [koshin-bank]
+  to: [shimane-chochiku]
+  note: 庚申銀行の貯蓄業務を新設の島根貯蓄銀行が継承
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6B3SC9KQ1KsDkDAnJYNxKauVPcb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qs7JRy3mlbPLQMYbbgcVWx36K2h/description.html"]
+
+- date: "1923-12-01"
+  type: absorption
+  from: [hamada-shogyo]
+  to: [koshin-bank]
+  note: 庚申銀行が合併し、同日石州銀行に改称（11月22日合併改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6B3SC9KQ1KsDkDAnJYNxKauVPcb/description.html"]
+
+- date: "1923-12-01"
+  type: rename
+  from: [koshin-bank]
+  to: [sekishu]
+  note: 浜田商業銀行の合併と同時に石州銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6B3SC9KQ1KsDkDAnJYNxKauVPcb/description.html"]

@@ -9634,12 +9634,39 @@
   note: 1931年7月松江銀行と合併し新たな松江銀行を設立
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
 
+- id: ichiyama-kogyo
+  name: 市山興業銀行
+  type: other
+  dissolved: "1920-09-20"
+  prefecture: 島根県
+  note: 1920年9月20日庚申銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6B3SC9KQ1KsDkDAnJYNxKauVPcb/description.html"]
+
+- id: hamada-shogyo
+  name: 浜田商業銀行
+  type: other
+  dissolved: "1923-12-01"
+  prefecture: 島根県
+  note: 1923年12月1日庚申銀行に合併（同日庚申銀行は石州銀行に改称）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6B3SC9KQ1KsDkDAnJYNxKauVPcb/description.html"]
+
+- id: koshin-bank
+  name: 庚申銀行
+  type: other
+  founded: "1920-02-18"
+  dissolved: "1923-12-01"
+  prefecture: 島根県
+  note: 1920年2月18日設立（5月10日営業認可）。1920年9月20日市山興業銀行を合併。1921年12月貯蓄部門を新設の島根貯蓄銀行に譲渡。1923年12月1日浜田商業銀行を合併し石州銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6B3SC9KQ1KsDkDAnJYNxKauVPcb/description.html"]
+
 - id: sekishu
   name: 石州銀行
   type: other
+  founded: "1923-12-01"
   dissolved: "1941-10-01"
-  note: 1941年10月山陰合同銀行が合併
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+  prefecture: 島根県
+  note: 1923年12月1日庚申銀行が浜田商業銀行を合併し改称（11月22日合併改称認可）。1941年10月山陰合同銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6B3SC9KQ1KsDkDAnJYNxKauVPcb/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
 
 - id: yagami
   name: 矢上銀行
@@ -9654,7 +9681,7 @@
   founded: "1921-12-13"
   dissolved: "1936-02-01"
   prefecture: 島根県
-  note: 雲州西浜銀行・庚申銀行・八束貯蓄銀行の貯蓄業務を継承して設立（設立日は銀行総覧第29回・山陰合同銀行五十年史による。第30〜42回は12月24日とする。1922年1月4日開業）。雲州西浜銀行・庚申銀行は未収録。1936年2月1日山陰貯蓄銀行に買収され解散（1月20日買収認可）
+  note: 雲州西浜銀行・庚申銀行・八束貯蓄銀行の貯蓄業務を継承して設立（設立日は銀行総覧第29回・山陰合同銀行五十年史による。第30〜42回は12月24日とする。1922年1月4日開業）。雲州西浜銀行は未収録。1936年2月1日山陰貯蓄銀行に買収され解散（1月20日買収認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qs7JRy3mlbPLQMYbbgcVWx36K2h/description.html"]
 
 - id: sanin-chochiku
