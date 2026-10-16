@@ -4085,3 +4085,30 @@
   to: [chuetsu]
   note: 中越銀行が買収（1940年10月28日買収認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zyyk3GAHEj6BTZFH1RAdK4g6wJ/description.html"]
+
+# ---------------------------------------------------------------- 全但銀行（銀行変遷史データベース）
+- date: "1941-05-03"
+  type: merger
+  from: [asago-ginko, ikuno-ginko, sankyo-hyogo, shokusan-hyogo, tajima-1928, tajima-godo, muraoka-ginko, yabu-godo]
+  to: [zentan-ginko]
+  note: 8行の新立合併（1941年4月18日認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qq2PtrHpgV4Tq58IWUDStWPmS8g/description.html"]
+
+- date: "1943-12-24"
+  type: absorption
+  from: [tajima-chochiku]
+  to: [zentan-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qq2PtrHpgV4Tq58IWUDStWPmS8g/description.html"]
+
+- date: "1945-03-27"
+  type: absorption
+  from: [zentan-ginko]
+  to: [kobe]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qq2PtrHpgV4Tq58IWUDStWPmS8g/description.html"]
+
+- date: "1956-09-24"
+  type: transfer
+  from: [kobe]
+  to: [tajima]
+  note: 但馬地区12店舗の営業を譲受（多くは旧全但銀行の店舗）。同日、香住銀行は但馬銀行に商号変更
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YI1V", https://ja.wikipedia.org/wiki/但馬銀行]
