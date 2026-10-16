@@ -1999,13 +1999,162 @@
   prefecture: 静岡県
   sources: [https://ja.wikipedia.org/wiki/静岡銀行]
 
+- id: shisan-ginko
+  name: 資産銀行
+  type: other
+  dissolved: "1920-06-20"
+  prefecture: 静岡県
+  note: 1920年6月20日遠州銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: seien-ginko-1885
+  name: 西遠銀行
+  type: other
+  founded: "1885"
+  dissolved: "1920-06-20"
+  prefecture: 静岡県
+  note: 1920年6月20日遠州銀行に合併（1928年設立の西遠銀行とは別）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: kiga-ginko
+  name: 気賀銀行
+  type: other
+  dissolved: "1925"
+  prefecture: 静岡県
+  note: 1925年遠州銀行が買収（静岡銀行史は10月合併、買収届出受理は11月24日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: kanasashi-ginko
+  name: 金指銀行
+  type: other
+  dissolved: "1926-02"
+  prefecture: 静岡県
+  note: 遠州銀行が買収（買収届出は1925年12月26日、静岡銀行史は1926年2月合併）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: enshu-kinyu
+  name: 遠州金融
+  type: other
+  dissolved: "1926-09-30"
+  prefecture: 静岡県
+  note: 遠州金融株式会社。1926年8月19日合併認可、9月30日遠州銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: kyosei-ginko
+  name: 共盛銀行
+  type: other
+  dissolved: "1926-10"
+  prefecture: 静岡県
+  note: 1926年10月遠州銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: ryuzenji-ginko
+  name: 竜禅寺銀行
+  type: other
+  dissolved: "1927"
+  prefecture: 静岡県
+  note: 1927年遠州銀行が買収（8月2日解散、買収の認可又は届出は10月）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: nakaizumi-ginko
+  name: 中泉銀行
+  type: other
+  dissolved: "1930-04"
+  prefecture: 静岡県
+  note: 1930年4月遠州銀行に合併（買収の可能性。業務廃止認可は1932年3月）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: kyowa-shizuoka
+  name: 協和銀行
+  type: other
+  founded: "1928"
+  dissolved: "1937-05"
+  prefecture: 静岡県
+  note: 1937年4月26日買収認可、5月遠州銀行が買収（都市銀行の協和銀行とは別）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: yokoyama-ginko
+  name: 横山銀行
+  type: other
+  dissolved: "1938-10"
+  prefecture: 静岡県
+  note: 1938年10月13日買収認可、遠州銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: hokuen-ginko
+  name: 北遠銀行
+  type: other
+  dissolved: "1939-12"
+  prefecture: 静岡県
+  note: 1939年12月5日分割買収認可。遠州銀行と浦川銀行が分割して買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: seien-ginko-1928
+  name: 西遠銀行
+  type: other
+  founded: "1928"
+  dissolved: "1941-01-01"
+  prefecture: 静岡県
+  note: 1940年12月24日買収認可、1941年1月1日遠州銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: amamiya-ginko
+  name: 天宮銀行
+  type: other
+  dissolved: "1942-04"
+  prefecture: 静岡県
+  note: 1942年3月30日買収認可、4月遠州銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: enyo-ginko
+  name: 遠洋銀行
+  type: other
+  dissolved: "1942-04"
+  prefecture: 静岡県
+  note: 1942年3月30日買収認可、4月遠州銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- id: totomi-chochiku
+  name: 遠江貯蓄銀行
+  type: other
+  dissolved: "1905-10"
+  prefecture: 静岡県
+  note: 1905年10月遠江銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cKxUz-Av6OnScKAEKavUiSxm5wp/description.html"]
+
+- id: hikuma-ginko
+  name: 曳馬銀行
+  type: other
+  dissolved: "1922-06"
+  prefecture: 静岡県
+  note: 遠江銀行に合併（合併登記は1922年6月、静岡銀行史は1923年8月合併）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cKxUz-Av6OnScKAEKavUiSxm5wp/description.html"]
+
+- id: eisei-ginko
+  name: 永世銀行
+  type: other
+  dissolved: "1925-08"
+  prefecture: 静岡県
+  note: 1925年7月20日合併認可、8月遠江銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cKxUz-Av6OnScKAEKavUiSxm5wp/description.html"]
+
+- id: totomi-ginko
+  name: 遠江銀行
+  type: other
+  founded: "1905-10"
+  dissolved: "1926-03-20"
+  prefecture: 静岡県
+  note: 遠江貯蓄銀行が改称（銀總は1905年10月14日、静岡銀行史は10月24日）。曳馬銀行・永世銀行を合併。1926年3月20日遠州銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cKxUz-Av6OnScKAEKavUiSxm5wp/description.html"]
+
 - id: enshu
   name: 遠州銀行
   type: other
+  founded: "1920-03-20"
   dissolved: "1943-03-01"
   prefecture: 静岡県
-  note: 記事中に遠江銀行（1920年3月設立）との記載あり、表記不一致
-  sources: [https://ja.wikipedia.org/wiki/静岡銀行]
+  note: 1920年3月20日設立（4月10日営業認可）。資産銀行・西遠銀行の合併以降、遠州地方の銀行を相次いで買収・合併。1943年3月1日静岡三十五銀行と新立合併し静岡銀行に（Wikipediaの「遠江銀行（1920年3月設立）」は遠州銀行の誤記と考えられる）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html", https://ja.wikipedia.org/wiki/静岡銀行]
 
 - id: shizuoka
   name: 静岡銀行

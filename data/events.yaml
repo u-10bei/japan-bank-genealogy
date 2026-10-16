@@ -758,7 +758,8 @@
   type: merger
   from: [shizuoka-sanjugo, enshu]
   to: [shizuoka]
-  sources: [https://ja.wikipedia.org/wiki/静岡銀行]
+  note: 新立合併（1943年2月24日認可、2月25日創立総会、3月1日合併実行）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html", https://ja.wikipedia.org/wiki/静岡銀行]
 
 - date: "1896-12-28"
   type: rename
@@ -3942,3 +3943,101 @@
   from: [sobu-ginko]
   to: [chiba-godo]
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+# ---------------------------------------------------------------- 遠州銀行・遠江銀行（銀行変遷史データベース）
+- date: "1905-10"
+  type: rename
+  from: [totomi-chochiku]
+  to: [totomi-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cKxUz-Av6OnScKAEKavUiSxm5wp/description.html"]
+
+- date: "1922-06"
+  type: absorption
+  from: [hikuma-ginko]
+  to: [totomi-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cKxUz-Av6OnScKAEKavUiSxm5wp/description.html"]
+
+- date: "1925-08"
+  type: absorption
+  from: [eisei-ginko]
+  to: [totomi-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cKxUz-Av6OnScKAEKavUiSxm5wp/description.html"]
+
+- date: "1926-03-20"
+  type: transfer
+  from: [totomi-ginko]
+  to: [enshu]
+  note: 遠州銀行が買収（買収届出は1926年2月9日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cKxUz-Av6OnScKAEKavUiSxm5wp/description.html"]
+
+- date: "1920-06-20"
+  type: absorption
+  from: [shisan-ginko, seien-ginko-1885]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1925"
+  type: transfer
+  from: [kiga-ginko]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1926-02"
+  type: transfer
+  from: [kanasashi-ginko]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1926-09-30"
+  type: absorption
+  from: [enshu-kinyu]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1926-10"
+  type: transfer
+  from: [kyosei-ginko]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1927"
+  type: transfer
+  from: [ryuzenji-ginko]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1930-04"
+  type: absorption
+  from: [nakaizumi-ginko]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1937-05"
+  type: transfer
+  from: [kyowa-shizuoka]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1938-10"
+  type: transfer
+  from: [yokoyama-ginko]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1939-12"
+  type: transfer
+  from: [hokuen-ginko]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1941-01-01"
+  type: transfer
+  from: [seien-ginko-1928]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1942-04"
+  type: transfer
+  from: [amamiya-ginko, enyo-ginko]
+  to: [enshu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
