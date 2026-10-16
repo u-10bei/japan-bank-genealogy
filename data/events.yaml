@@ -4505,4 +4505,11 @@
   from: [tottori-mujin]
   to: [fuso-sogo]
   note: 相互銀行に転換
-  sources: [https://ja.wikipedia.org/wiki/ふそう銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QWx86nG1kLNcO6RhBiSBZOiHiUc/description.html", https://ja.wikipedia.org/wiki/ふそう銀行]
+
+- date: "1915-11-06"
+  type: rename
+  from: [kyosai-kinyu]
+  to: [kyosai-mujin-tottori]
+  note: 共済金融株式会社が共済無尽株式会社に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pURQ36W3Icq9Oth6ruGpigPKQGp/description.html"]

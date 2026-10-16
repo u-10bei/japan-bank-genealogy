@@ -3376,14 +3376,22 @@
   note: 1926年ごろ山陰共栄無尽が改称（銀行変遷史DBの推定）。『ふそう50年のあゆみ』・Wikipediaは1932年5月1日相愛無尽創業とする。1942年2月7日共済無尽と新立合併し鳥取無尽となる
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efhrhUbksb_VV05oxG7qkbBx8Hf/description.html", https://ja.wikipedia.org/wiki/ふそう銀行]
 
+- id: kyosai-kinyu
+  name: 共済金融
+  type: other
+  dissolved: "1915-11-06"
+  prefecture: 鳥取県
+  note: 共済金融株式会社。1915年11月6日共済無尽株式会社に改称（山陰合同銀行五十年史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pURQ36W3Icq9Oth6ruGpigPKQGp/description.html"]
+
 - id: kyosai-mujin-tottori
   name: 共済無尽
   type: other
-  founded: "1915"
+  founded: "1915-11-06"
   dissolved: "1942-02-07"
   prefecture: 鳥取県
-  note: 銀行変遷史DBは1915〜1942年の共済無尽とする（設立日は未確認）。1942年2月7日相愛無尽と新立合併し鳥取無尽となる
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efhrhUbksb_VV05oxG7qkbBx8Hf/description.html", https://ja.wikipedia.org/wiki/ふそう銀行]
+  note: 1915年11月6日共済金融株式会社が改称。1942年2月7日相愛無尽と新立合併し鳥取無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pURQ36W3Icq9Oth6ruGpigPKQGp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QWx86nG1kLNcO6RhBiSBZOiHiUc/description.html"]
 
 - id: tottori-mujin
   name: 鳥取無尽
@@ -3391,8 +3399,8 @@
   founded: "1942-02-07"
   dissolved: "1951-10-20"
   prefecture: 鳥取県
-  note: 相愛無尽・共済無尽の新立合併で設立（山陰合同銀行五十年史による）。1951年10月20日扶桑相互銀行に改称
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efhrhUbksb_VV05oxG7qkbBx8Hf/description.html", https://ja.wikipedia.org/wiki/ふそう銀行]
+  note: 相愛無尽・共済無尽の新立合併で設立（山陰合同銀行五十年史・銀行総覧による）。1951年10月20日扶桑相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QWx86nG1kLNcO6RhBiSBZOiHiUc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efhrhUbksb_VV05oxG7qkbBx8Hf/description.html", https://ja.wikipedia.org/wiki/ふそう銀行]
 
 - id: fuso-sogo
   name: 扶桑相互銀行
@@ -3401,7 +3409,7 @@
   dissolved: "1989-04-01"
   prefecture: 鳥取県
   note: 1951年10月20日、相互銀行への転換で鳥取無尽が改称
-  sources: [https://ja.wikipedia.org/wiki/ふそう銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QWx86nG1kLNcO6RhBiSBZOiHiUc/description.html", https://ja.wikipedia.org/wiki/ふそう銀行]
 
 - id: fuso
   name: ふそう銀行
