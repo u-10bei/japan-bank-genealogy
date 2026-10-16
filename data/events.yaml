@@ -2796,15 +2796,15 @@
   type: rename
   from: [tokyo-kyodo-bank]
   to: [resolution-bank]
-  note: 整理回収銀行に改組
-  sources: [https://ja.wikipedia.org/wiki/整理回収機構]
+  note: 破綻信用組合の資産整理・回収を主目的とする銀行に改組し、整理回収銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/uI39XKJiF5KcppPDnptATOJXkTe/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hCybsRsM9XhgvgOMgNaUG3N8Xwo/description.html", https://ja.wikipedia.org/wiki/整理回収機構]
 
 - date: "1999-04-01"
   type: merger
   from: [resolution-bank]
   to: [rcc]
   note: 住宅金融債権管理機構（存続法人、データセット外）と整理回収銀行が合併し、整理回収機構に改称
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RaKyCHlfeN5cEuHMLQe7aqIY3Jh/description.html", https://ja.wikipedia.org/wiki/整理回収機構]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hCybsRsM9XhgvgOMgNaUG3N8Xwo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RaKyCHlfeN5cEuHMLQe7aqIY3Jh/description.html", https://ja.wikipedia.org/wiki/整理回収機構]
 
 - date: "2005-10-11"
   type: rename

@@ -5514,10 +5514,11 @@
 - id: tokyo-kyodo-bank
   name: 東京共同銀行
   type: new
+  founded: "1995-01-13"
   dissolved: "1996-09-02"
   prefecture: 東京都
-  note: 破綻した東京協和信用組合・安全信用組合の受け皿。1995年3月20日業務開始（設立日は出典に記載なし）。1996年3月コスモ信用組合の事業を譲受
-  sources: [https://ja.wikipedia.org/wiki/整理回収機構]
+  note: 安全信用組合・東京協和信用組合の不良資産処理のため設立。1995年1月17日銀行業免許、3月20日に両信用組合の事業を譲受して開業。1996年3月25日コスモ信用組合の事業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/uI39XKJiF5KcppPDnptATOJXkTe/description.html", https://ja.wikipedia.org/wiki/整理回収機構]
 
 - id: resolution-bank
   name: 整理回収銀行
@@ -5525,8 +5526,8 @@
   founded: "1996-09-02"
   dissolved: "1999-04-01"
   prefecture: 東京都
-  note: 東京共同銀行を改組。1997年木津信用組合・三福信用組合の事業を譲受
-  sources: [https://ja.wikipedia.org/wiki/整理回収機構]
+  note: 東京共同銀行を破綻信用組合の資産整理・回収を主目的とする銀行に改組。1997年2月24日木津信用組合、4月21日三福信用組合の事業を譲受。1996〜98年、預金保険機構の委託で破綻信用組合の不良債権を買収（正常債権・預金は東海銀行・福岡銀行・横浜銀行・十六銀行・大垣共立銀行や他の信用組合が譲受）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hCybsRsM9XhgvgOMgNaUG3N8Xwo/description.html", https://ja.wikipedia.org/wiki/整理回収機構]
 
 - id: rcc
   name: 整理回収機構
