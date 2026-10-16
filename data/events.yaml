@@ -4421,3 +4421,17 @@
   to: [chubu-sogo]
   note: 相互銀行に転換（同日転換免許）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/uns92GzrYKEJ-EqSnarhGAIz70j/description.html"]
+
+- date: "1949-09"
+  type: rename
+  from: [shikoku-tatemono-mujin]
+  to: [toho-tatemono-mujin]
+  note: 東邦建物無尽に改称（全国相互銀行店舗名簿は9月1日、Wikipediaは9月20日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5pgnaKOQ-b-2F3XyUUI-DovSsMj/description.html", https://ja.wikipedia.org/wiki/東邦相互銀行]
+
+- date: "1958-04-01"
+  type: rename
+  from: [toho-tatemono-mujin]
+  to: [toho-sogo]
+  note: 相互銀行に転換（1月4日相互銀行免許）
+  sources: [https://ja.wikipedia.org/wiki/東邦相互銀行]
