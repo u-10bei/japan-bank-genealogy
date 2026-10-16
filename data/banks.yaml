@@ -5621,8 +5621,8 @@
   type: new
   founded: "2016-11-25"
   prefecture: 東京都
-  note: ローソンバンク設立準備として設立、2018年6月1日ローソン・エイティエム・ネットワークスからATM事業を承継、7月2日商号変更、8月10日免許取得、10月15日銀行業務開始
-  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/ローソン銀行]
+  note: ローソンが銀行設立の準備会社ローソンバンク設立準備として設立。2018年6月1日ローソン・エイティエム・ネットワークスからATM事業を承継（吸収分割）、6月26日予備審査終了、7月2日ローソン銀行に商号変更、8月10日銀行業免許、9月10日開業、10月15日顧客向けサービス開始
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2P4YGeZJ02GbB2Ibq_mWBMi1cGf/description.html", https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/ローソン銀行]
 
 - id: japan-post-bank
   name: ゆうちょ銀行
