@@ -7604,6 +7604,15 @@
   note: "日興證券の信託銀行子会社として設立。1993年9月3日銀行業免許・信託兼営認可、10月1日開業。2001年12月、株式の50%をシティグループに譲渡"
   sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4E-MS8YYt8KHnCSVv7NFTVk7afn/description.html, https://ja.wikipedia.org/wiki/日興シティ信託銀行]
 
+- id: citytrust
+  name: シティトラスト信託銀行
+  type: trust
+  founded: "1986-01-21"
+  dissolved: "2006-03-31"
+  prefecture: 東京都
+  note: シティバンク・オーバーシーズ・インベストメント・コーポレーションの全額出資で設立（1986年2月21日免許、3月5日開業）。2001年12月3日資産管理部門を日興シティ信託銀行に営業譲渡。2006年3月31日営業廃止（消滅日は営業廃止日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DAO7XnPS1ULSeDy_cWrmq6n0FHe/description.html"]
+
 - id: nikko-citi-trust
   name: 日興シティ信託銀行
   type: trust

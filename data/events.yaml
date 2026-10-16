@@ -4633,3 +4633,11 @@
   partial: true
   note: リテールバンク事業をSMBC信託銀行に譲渡（法人顧客向け業務等は2017年3月31日シティバンク、エヌ・エイ東京支店に譲渡）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k1nPeOQZOdiKraIUe3777MKWuZn/description.html"]
+
+- date: "2001-12-03"
+  type: transfer
+  from: [citytrust]
+  to: [nikko-citi-trust]
+  partial: true
+  note: 資産管理部門を日興シティ信託銀行に営業譲渡（シティトラスト信託銀行はその後も2006年3月31日まで営業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DAO7XnPS1ULSeDy_cWrmq6n0FHe/description.html"]
