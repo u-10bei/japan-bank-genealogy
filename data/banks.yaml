@@ -5534,8 +5534,8 @@
   type: new
   founded: "1999-04-01"
   prefecture: 東京都
-  note: 存続法人は1996年7月26日設立の住宅金融債権管理機構（住管機構）で、整理回収銀行を合併して整理回収機構となった
-  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/整理回収機構]
+  note: 住宅金融債権管理機構（住管機構、1996年7月26日設立、存続法人）と整理回収銀行が合併し改称。2001年8月31日信託業務兼営認可（9月1日営業開始）。2002年に信用組合関西興銀・朝銀系信用組合各組合の事業の一部を譲受。2011年4月25日、預金保険機構の委託で日本振興銀行の不良債権の一部を買取り
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RaKyCHlfeN5cEuHMLQe7aqIY3Jh/description.html", https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/整理回収機構]
 
 - id: iy-bank
   name: アイワイバンク銀行
