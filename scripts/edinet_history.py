@@ -8,6 +8,7 @@
     export EDINET_API_KEY=...        # API キー（プロキシ等でヘッダー注入済みなら不要）
     python scripts/edinet_history.py --years 2021-2026
     python scripts/edinet_history.py --from 2026-06-15 --to 2026-07-05
+    python scripts/edinet_history.py --years 2021-2026 --name '信託|トラスト'   # 提出者名で絞り込み
 
 対象: 書類種別「有価証券報告書」(docTypeCode=120) のうち、提出者名に「銀行」を含むもの、
 および提出者名が HOLDING_HINTS に当たり、沿革に「銀行」が現れるもの（銀行持株会社）。
@@ -32,7 +33,7 @@ ROOT = Path(__file__).resolve().parent.parent
 OUT_DIR = ROOT / "sources" / "edinet"
 API = "https://api.edinet-fsa.go.jp/api/v2"
 # 銀行持株会社と思われる提出者名の手がかり（名称に「銀行」を含まない持株会社用）
-HOLDING_HINTS = ("フィナンシャル", "ＦＧ", "FG", "ぎん", "銀", "プロクレア", "フィデア", "じもと", "トモニ", "池田泉州", "りそな")
+HOLDING_HINTS = ("フィナンシャル", "ＦＧ", "FG", "ぎん", "銀", "プロクレア", "フィデア", "じもと", "トモニ", "池田泉州", "りそな", "トラスト")
 SLEEP = 0.5  # API へのアクセス間隔（秒）
 
 
@@ -55,7 +56,7 @@ def api_get(path: str, **params) -> bytes:
     raise AssertionError
 
 
-def list_reports(day: dt.date) -> list[dict]:
+def list_reports(day: dt.date, name_re: re.Pattern | None = None) -> list[dict]:
     d = json.loads(api_get("documents.json", date=day.isoformat(), type=2))
     if str(d.get("metadata", {}).get("status")) != "200":
         raise SystemExit(f"EDINET API error on {day}: {d}")
@@ -65,6 +66,8 @@ def list_reports(day: dt.date) -> list[dict]:
         if r.get("docTypeCode") != "120" or r.get("withdrawalStatus") != "0":
             continue
         if "信託受益証券" in (r.get("docDescription") or ""):
+            continue
+        if name_re and not name_re.search(name):
             continue
         if "銀行" in name or any(h in name for h in HOLDING_HINTS):
             out.append(r)
@@ -107,6 +110,7 @@ def main() -> int:
     p.add_argument("--years", help="例: 2021-2026（各年 6/15〜7/5 を走査）")
     p.add_argument("--from", dest="date_from")
     p.add_argument("--to", dest="date_to")
+    p.add_argument("--name", help="提出者名の正規表現で絞り込む（例: '信託|トラスト'）")
     args = p.parse_args()
 
     days: list[dt.date] = []
@@ -125,7 +129,7 @@ def main() -> int:
     existing = {f.name.split("_")[-1].removesuffix(".txt") for f in OUT_DIR.glob("*.txt")}
     saved = skipped = 0
     for day in days:
-        reports = list_reports(day)
+        reports = list_reports(day, re.compile(args.name) if args.name else None)
         if reports:
             print(f"{day}: {len(reports)} 件", file=sys.stderr)
         for r in reports:
