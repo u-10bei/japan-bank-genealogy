@@ -3494,13 +3494,13 @@
   type: absorption
   from: [yamagata-shogyo]
   to: [ryou-u]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M"]
 
 - date: "1944-03-31"
   type: absorption
   from: [yamagata-chochiku]
   to: [ryou-u]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M"]
 
 - date: "1944-03-31"
   type: absorption
@@ -5035,3 +5035,101 @@
   to: [fukuso-bank]
   note: 福相銀行に改称（日付は改称登記日）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/KMB0JGBKg1BmdAVQL_J09NHHh_o/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mR_TjPEXc2TCPe_6Zb54aZIKBSk/description.html"]
+
+- date: "1897-06-30"
+  type: transfer
+  from: [dai81-kokuritsu]
+  to: [ryou-u]
+  note: 両羽銀行が第八十一国立銀行の業務継承を完了（国立銀行は1898年11月満期解散）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JfXuvdVmdIyPWMOyZJYhrN9enZm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1916-03-16"
+  type: absorption
+  from: [yonezawa-gisha]
+  to: [ryou-u]
+  note: 両羽銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1919-05-17"
+  type: absorption
+  from: [uyo-chochiku]
+  to: [ryou-u]
+  note: 両羽銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1926-07-20"
+  type: absorption
+  from: [yuri-bank]
+  to: [ryou-u]
+  note: 両羽銀行が合併（6月18日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1935-01-01"
+  type: transfer
+  from: [tateoka-bank]
+  to: [ryou-u]
+  note: 両羽銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1940-05-01"
+  type: transfer
+  from: [higashi-bank]
+  to: [ryou-u]
+  note: 両羽銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1940-07-01"
+  type: transfer
+  from: [tendo-bank]
+  to: [ryou-u]
+  note: 両羽銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1940-08-01"
+  type: transfer
+  from: [uzen-bank]
+  to: [ryou-u]
+  note: 両羽銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1941-11-01"
+  type: transfer
+  from: [uyo-bank]
+  to: [ryou-u]
+  note: 両羽銀行が4行の営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1941-11-01"
+  type: transfer
+  from: [higashine-bank]
+  to: [ryou-u]
+  note: 両羽銀行が4行の営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1941-11-01"
+  type: transfer
+  from: [miura-bank]
+  to: [ryou-u]
+  note: 両羽銀行が4行の営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1941-11-01"
+  type: transfer
+  from: [murayama-bank]
+  to: [ryou-u]
+  note: 両羽銀行が4行の営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1944-03-31"
+  type: transfer
+  from: [takano-bank]
+  to: [ryou-u]
+  note: 両羽銀行が営業を譲受（山形貯蓄銀行の合併と同日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- date: "1948-08-01"
+  type: transfer
+  from: [uzen-nagasaki]
+  to: [ryou-u]
+  note: 両羽銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]

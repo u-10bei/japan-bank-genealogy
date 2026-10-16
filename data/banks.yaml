@@ -1284,14 +1284,130 @@
   note: 2009年フィデアHD傘下。2025年本店を山形市へ移転。2027年1月北都銀行を吸収しフィデア銀行に改称予定
   sources: [https://ja.wikipedia.org/wiki/荘内銀行]
 
+- id: dai81-kokuritsu
+  name: 第八十一国立銀行
+  type: other
+  founded: "1878-11-08"
+  dissolved: "1898-11"
+  prefecture: 山形県
+  note: 1878年9月15日創立総会、11月8日開業免状下付・設立、12月開業（銀行局報告は13日、山形銀行八十年史は16日とする）。1897年6月30日両羽銀行への業務継承を完了。1898年11月満期解散（銀行総覧・銀行局報告は7日、山形銀行八十年史は8日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JfXuvdVmdIyPWMOyZJYhrN9enZm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: yonezawa-gisha
+  name: 米沢義社
+  type: other
+  dissolved: "1916-03-16"
+  prefecture: 山形県
+  note: 1916年3月16日両羽銀行に合併（山形銀行八十年史による。銀行総覧は3月1日任意解散とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: uyo-chochiku
+  name: 羽陽貯蓄銀行
+  type: other
+  dissolved: "1919-05-17"
+  prefecture: 山形県
+  note: 1919年5月17日両羽銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: yuri-bank
+  name: 由利銀行
+  type: other
+  dissolved: "1926-07-20"
+  prefecture: 秋田県
+  note: 1926年7月20日両羽銀行に合併（6月18日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: tateoka-bank
+  name: 楯岡銀行
+  type: other
+  dissolved: "1935-01-01"
+  prefecture: 山形県
+  note: 1935年1月1日両羽銀行が買収（1934年12月26日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: higashi-bank
+  name: 東銀行
+  type: other
+  founded: "1900"
+  dissolved: "1940-05-01"
+  prefecture: 山形県
+  note: 1940年5月1日両羽銀行が営業を譲受（4月26日買収認可）。銀行変遷史DBは1900〜1940年の東銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: tendo-bank
+  name: 天童銀行
+  type: other
+  dissolved: "1940-07-01"
+  prefecture: 山形県
+  note: 1940年7月1日両羽銀行が営業を譲受（6月13日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: uzen-bank
+  name: 羽前銀行
+  type: other
+  dissolved: "1940-08-01"
+  prefecture: 山形県
+  note: 1940年8月1日両羽銀行が営業を譲受（7月23日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: uyo-bank
+  name: 羽陽銀行
+  type: other
+  dissolved: "1941-11-01"
+  prefecture: 山形県
+  note: 1941年11月1日両羽銀行が営業を譲受（10月27日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: higashine-bank
+  name: 東根銀行
+  type: other
+  founded: "1919"
+  dissolved: "1941-11-01"
+  prefecture: 山形県
+  note: 1941年11月1日両羽銀行が営業を譲受（10月27日買収認可）。銀行変遷史DBは1919〜1941年の東根銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: miura-bank
+  name: 三浦銀行
+  type: other
+  founded: "1932"
+  dissolved: "1941-11-01"
+  prefecture: 山形県
+  note: 1941年11月1日両羽銀行が営業を譲受（10月27日買収認可）。銀行変遷史DBは1932〜1941年の三浦銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: murayama-bank
+  name: 村山銀行
+  type: other
+  dissolved: "1941-11-01"
+  prefecture: 山形県
+  note: 1941年11月1日両羽銀行が営業を譲受（10月27日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: takano-bank
+  name: 高野銀行
+  type: other
+  dissolved: "1944-03-31"
+  prefecture: 山形県
+  note: 1944年3月31日両羽銀行が営業を譲受（3月19日譲受認可。山形銀行八十年史は4月1日実行とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
+- id: uzen-nagasaki
+  name: 羽前長崎銀行
+  type: other
+  dissolved: "1948-08-01"
+  prefecture: 山形県
+  note: 1948年8月1日両羽銀行が営業を譲受。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html"]
+
 - id: ryou-u
   name: 両羽銀行
   type: regional
   founded: "1896-04-14"
   dissolved: "1965-04-01"
   prefecture: 山形県
-  note: 1897年第八十一国立銀行（1878年創業）の業務を継承
-  sources: [https://ja.wikipedia.org/wiki/山形銀行]
+  note: 1896年3月29日創立総会、4月14日設立認可、5月8日開業。1897年6月30日第八十一国立銀行の業務継承を完了。1916〜1948年に米沢義社・羽陽貯蓄・由利・山形商業・山形貯蓄の各行を合併し、楯岡・東・天童・羽前・羽陽・東根・三浦・村山・高野・羽前長崎の各行を買収。1965年4月1日山形銀行に改称（1964年11月10日改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html", https://ja.wikipedia.org/wiki/山形銀行]
 
 - id: yamagata
   name: 山形銀行
@@ -8652,9 +8768,11 @@
 - id: yamagata-shogyo
   name: 山形商業銀行
   type: other
+  founded: "1896"
   dissolved: "1943-03-01"
-  note: 1943年3月1日両羽銀行に合併
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M"]
+  prefecture: 山形県
+  note: 銀行変遷史DBは1896〜1943年の山形商業銀行とする（設立日は未確認）。1943年3月1日両羽銀行に合併（1月19日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UyyK_gg8hCjjaV5VuzY_PFvzs5p/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M"]
 
 - id: yamagata-chochiku
   name: 山形貯蓄銀行
