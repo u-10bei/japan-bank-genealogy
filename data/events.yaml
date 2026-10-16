@@ -4168,3 +4168,18 @@
   to: [aomori]
   note: 青森銀行が買収（営業譲渡）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2UoRy_akiqTfQPl459Iccm6grTg/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OESC"]
+
+# ---------------------------------------------------------------- 勧業無尽・東海無尽の前身（銀行変遷史データベース）
+- date: "1941-08-01"
+  type: merger
+  from: [showa-shoko-mujin, kotobuki-mujin, sakae-mujin]
+  to: [kangyo-mujin-aichi]
+  note: 3社の新立合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XXAIf52xfWjF9-mMLMFv8QcncB/description.html"]
+
+- date: "1941-09"
+  type: merger
+  from: [toyohashi-mujin, nihon-mujin-aichi]
+  to: [tokai-mujin]
+  note: 新立合併（銀總は8月7日、中京相互銀行史は9月1日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I8eclBBPxY7OGh-yXsmO2LUS_0n/description.html"]

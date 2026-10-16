@@ -4823,14 +4823,58 @@
   note: 名古屋無尽と株式会社愛知無尽の合併で設立
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
 
+- id: kotobuki-mujin
+  name: 寿無尽
+  type: other
+  dissolved: "1941-08-01"
+  prefecture: 愛知県
+  note: 1941年8月1日、昭和商工無尽・栄無尽と新立合併し勧業無尽に（昭和商工無尽の項目による）。銀行変遷史DBの寿無尽の項目は東海無尽の沿革と同内容で、記載に混乱がある
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XXAIf52xfWjF9-mMLMFv8QcncB/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/16RAhRyvyMN939gDRFDW-1f5-g/description.html"]
+
+- id: sakae-mujin
+  name: 栄無尽
+  type: other
+  founded: "1933-01-05"
+  dissolved: "1941-08-01"
+  prefecture: 愛知県
+  note: 1941年8月1日、昭和商工無尽・寿無尽と新立合併し勧業無尽に（昭和商工無尽の項目による。栄無尽の項目は「豊橋無尽と合併、東海無尽新立」とし、食い違う）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Borrk84t2qbKy1G0jDmSvrqGFAo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XXAIf52xfWjF9-mMLMFv8QcncB/description.html"]
+
+- id: showa-shoko-mujin
+  name: 昭和商工無尽
+  type: other
+  founded: "1932-04"
+  dissolved: "1941-08-01"
+  prefecture: 愛知県
+  note: 設立日は資料により1932年4月16日・18日・22日。1941年8月1日、寿無尽・栄無尽と新立合併し勧業無尽に
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XXAIf52xfWjF9-mMLMFv8QcncB/description.html"]
+
+- id: toyohashi-mujin
+  name: 豊橋無尽
+  type: other
+  founded: "1931-06-07"
+  dissolved: "1941-09"
+  prefecture: 愛知県
+  note: 1941年9月、日本無尽と新立合併し東海無尽に（銀總は8月7日設立、中京相互銀行史は9月1日新立合併）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I8eclBBPxY7OGh-yXsmO2LUS_0n/description.html"]
+
+- id: nihon-mujin-aichi
+  name: 日本無尽
+  type: other
+  founded: "1933"
+  dissolved: "1941-09"
+  prefecture: 愛知県
+  note: 1941年9月、豊橋無尽と新立合併し東海無尽に（東京の日本無尽〈太陽銀行の前身〉とは別）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I8eclBBPxY7OGh-yXsmO2LUS_0n/description.html"]
+
 - id: kangyo-mujin-aichi
   name: 勧業無尽
   type: other
   founded: "1941-08-01"
   dissolved: "1944-05-15"
   prefecture: 愛知県
-  note: 本店名古屋市。壽無尽・榮無尽・昭和商工無尽の合併で設立。有報は1941年8月、日付はWikipediaによる
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+  note: 本店名古屋市。昭和商工無尽・寿無尽・栄無尽の3社の新立合併で設立（有報は1941年8月、銀總・中京相互銀行史は8月1日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XXAIf52xfWjF9-mMLMFv8QcncB/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
 
 - id: tokai-mujin
   name: 東海無尽
@@ -4838,8 +4882,8 @@
   founded: "1941-09"
   dissolved: "1944-05-15"
   prefecture: 愛知県
-  note: 本店豊橋市。豊橋無尽と日本無尽の合併で設立。設立は有報の1941年9月に従う（Wikipediaは1941年8月7日）
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+  note: 本店豊橋市。豊橋無尽と日本無尽の新立合併で設立。設立は有報の1941年9月に従う（銀總・Wikipediaは8月7日、中京相互銀行史は9月1日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I8eclBBPxY7OGh-yXsmO2LUS_0n/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
 
 - id: aichi-godo-mujin
   name: 愛知合同無尽
