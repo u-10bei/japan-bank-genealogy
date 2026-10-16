@@ -3898,22 +3898,30 @@
   note: 1897年3月1日第四十三国立銀行が改称。1900年紀州銀行を合併、1903年和歌山商業銀行・紀伊銀行、1907年橋本銀行を買収。1930年8月25日、紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行に分割買収された（田辺銀行は未収録）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jXhH0bC0YFBr0KZOGihD232B2qb/description.html"]
 
+- id: wakayama-chochiku
+  name: 和歌山貯蓄銀行
+  type: other
+  dissolved: "1904"
+  prefecture: 和歌山県
+  note: 1904年紀陽貯蓄銀行が買収（1月30日任意解散認可、7月18日営業譲受）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k7tzlbWqV4GsTacOEHStPieVEzf/description.html"]
+
 - id: kiyo-chochiku
   name: 紀陽貯蓄銀行
   type: other
   founded: "1895-05-02"
-  dissolved: "1922-01"
+  dissolved: "1922-01-01"
   prefecture: 和歌山県
-  note: 1903年、四十三銀行が買収した紀伊銀行の一部の店舗の貯蓄預金を継承（銀行変遷史DB）
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S", https://ja.wikipedia.org/wiki/紀陽銀行]
+  note: 設立日は有価証券報告書・紀陽銀行100年史の設立登記日（1895年3月22日創業総会、4月20日設立許可（銀行総覧は設立日とする）、5月3日開業）。1903年8月、四十三銀行が買収した紀伊銀行の一部の店舗の貯蓄預金を継承。1904年和歌山貯蓄銀行を買収。1922年1月1日、貯蓄業務を新設の紀伊貯蓄銀行に譲渡し、普通銀行に転換して紀陽銀行に改称（1921年10月24日普通銀行転換認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k7tzlbWqV4GsTacOEHStPieVEzf/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S", https://ja.wikipedia.org/wiki/紀陽銀行]
 
 - id: kiyo
   name: 紀陽銀行
   name_en: "The Kiyo Bank, Ltd."
   type: regional
-  founded: "1922-01"
+  founded: "1922-01-01"
   prefecture: 和歌山県
-  note: 2013年に親会社の紀陽ホールディングスを吸収合併
+  note: 1922年1月1日紀陽貯蓄銀行が普通銀行に転換し改称。2013年に親会社の紀陽ホールディングスを吸収合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S", https://ja.wikipedia.org/wiki/紀陽銀行]
 
 - id: wakayama-mujin

@@ -1014,12 +1014,12 @@
   note: 4行の新立合併（5月16日合併認可、6月1日創立総会）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html", https://ja.wikipedia.org/wiki/南都銀行]
 
-- date: "1922-01"
+- date: "1922-01-01"
   type: rename
   from: [kiyo-chochiku]
   to: [kiyo]
-  note: 普通銀行に転換
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S", https://ja.wikipedia.org/wiki/紀陽銀行]
+  note: 普通銀行に転換（1921年10月24日転換認可）。貯蓄業務は新設の紀伊貯蓄銀行に譲渡
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k7tzlbWqV4GsTacOEHStPieVEzf/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S", https://ja.wikipedia.org/wiki/紀陽銀行]
 
 - date: "1989-02"
   type: rename
@@ -5343,3 +5343,24 @@
   to: [rokujuhachi]
   note: 四十三銀行を紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行が分割買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1903-08"
+  type: transfer
+  from: [kii-bank]
+  to: [kiyo-chochiku]
+  note: 四十三銀行の紀伊銀行買収に際し、紀伊銀行の本店・粉河支店・和歌浦支店の貯蓄預金を紀陽貯蓄銀行が継承
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k7tzlbWqV4GsTacOEHStPieVEzf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1904-07-18"
+  type: transfer
+  from: [wakayama-chochiku]
+  to: [kiyo-chochiku]
+  note: 紀陽貯蓄銀行が営業を譲受（買収）（1月30日和歌山貯蓄銀行任意解散認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k7tzlbWqV4GsTacOEHStPieVEzf/description.html"]
+
+- date: "1922-01-01"
+  type: transfer
+  from: [kiyo-chochiku]
+  to: [kii-chochiku]
+  note: 紀陽貯蓄銀行の貯蓄業務を新設の紀伊貯蓄銀行が継承
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k7tzlbWqV4GsTacOEHStPieVEzf/description.html"]
