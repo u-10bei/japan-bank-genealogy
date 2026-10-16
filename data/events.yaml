@@ -2428,26 +2428,26 @@
   note: 普通銀行に転換
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
 
-- date: "1943-11"
+- date: "1943-11-02"
   type: merger
   from: [kagoshima-mujin-1942, kagoshima-sogo-mujin]
   to: [kagoshima-mujin]
-  note: 有報は2社の合併とする。Wikipediaの「第一産業無尽・大島無尽・富国無尽・鹿児島相互無尽との合併」は、1942年2月の4社合併（銀行変遷史DB）とこの合併をまとめた記述と考えられる
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+  note: 1943年7月28日合併認可、11月1日創立総会、11月2日新立合併（銀行変遷史DB）。有報は2社の合併とする。Wikipediaの「第一産業無尽・大島無尽・富国無尽・鹿児島相互無尽との合併」は、1942年2月の4社合併（銀行変遷史DB）とこの合併をまとめた記述と考えられる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPKfGWiLWq56AeLUPw9bQCdwbIi/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
 
-- date: "1951-10"
+- date: "1951-10-20"
   type: rename
   from: [kagoshima-mujin]
   to: [asahi-sogo]
   note: 相互銀行法施行に伴う転換
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPKfGWiLWq56AeLUPw9bQCdwbIi/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
 
-- date: "1951-10"
+- date: "1951-03-22"
   type: transfer
   from: [minami-kyushu-shokusan-mujin]
-  to: [asahi-sogo]
-  note: 営業譲受（Wikipediaのみ、有報に記載なし）
-  sources: [https://ja.wikipedia.org/wiki/南日本銀行]
+  to: [kagoshima-mujin]
+  note: 鹿児島無尽が営業譲受（銀行変遷史DB、旭相互銀行史による。Wikipediaは1951年10月旭相互銀行の譲受とする。有報に記載なし）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPKfGWiLWq56AeLUPw9bQCdwbIi/description.html", https://ja.wikipedia.org/wiki/南日本銀行]
 
 - date: "1951-10"
   type: transfer
@@ -4198,12 +4198,19 @@
   note: 旭相互銀行が買収（営業譲渡）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JtDOJH8pcxCyRBC9l2qDcRHZt1h/description.html"]
 
+- date: "1936-07-05"
+  type: transfer
+  from: [kagoshima-mujin-goshi]
+  to: [kagoshima-mujin-old]
+  note: 鹿児島無尽合資会社が新設の鹿児島無尽株式会社に営業譲渡し解散（株式会社への改組）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0LgqCoGX4wWQOcxe2mUQJtm2RMj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/q84APs3xAHguTJhWgI5DCXRHntc/description.html"]
+
 - date: "1942-02-07"
   type: merger
   from: [kagoshima-mujin-old, oshima-mujin-1936, daiichi-sangyo-mujin, fukoku-mujin]
   to: [kagoshima-mujin-1942]
   note: 4社の新立合併（1941年12月5日認可、1942年2月1日創立総会）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/q84APs3xAHguTJhWgI5DCXRHntc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-7w5PAMLDxAZuDZxXVKJLgnWpMm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
 
 - date: "1917-12-12"
   type: rename
@@ -4215,6 +4222,6 @@
 - date: "1924-11-24"
   type: rename
   from: [gushu-sangyo-mujin]
-  to: [kagoshima-mujin-old]
+  to: [kagoshima-mujin-goshi]
   note: 鹿児島無尽合資会社に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/D_m4I3LklpivRxHld_UB6EgZdkp/description.html"]
