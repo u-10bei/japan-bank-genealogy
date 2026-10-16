@@ -3115,9 +3115,11 @@
 - id: fukutoku-mujin-wakayama
   name: 福徳無尽
   type: other
+  founded: "1926"
   dissolved: "1941-08-20"
-  note: 1941年8月20日紀南無尽と新立合併し興紀無尽となる。設立日は出典に記載なし。大阪の福徳相互銀行（のち福徳銀行）とは別
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html"]
+  prefecture: 和歌山県
+  note: 和歌山で設立（設立日は資料により異なる。興紀相互銀行史は1926年6月10日創立総会、7月13日設立登記、銀行総覧は7月8日設立とする）。1941年8月20日紀南無尽と新立合併し興紀無尽となる。大阪の福徳相互銀行（のち福徳銀行）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BUvKbzAgwZEVp_Sh2AFGwLt8hmh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html"]
 
 - id: kouki-mujin
   name: 興紀無尽
