@@ -8593,9 +8593,11 @@
 - id: kii-chochiku
   name: 紀伊貯蓄銀行
   type: other
-  dissolved: "1945-06"
-  note: 1945年6月紀陽銀行が合併
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S"]
+  founded: "1921-12-21"
+  dissolved: "1945-06-01"
+  prefecture: 和歌山県
+  note: 1921年12月21日設立（設立認可・営業認可。1921年11月創立総会、1922年1月1日開業か）。1922年1月1日紀陽貯蓄銀行の貯蓄業務を継承。1930年8月25日四十三銀行の営業の一部を譲受（6行による分割買収）。1945年6月1日紀陽銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/A6sUaeUx4renforLTCpCmRmpKDi/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S"]
 
 - id: kihoku-shogyo
   name: 紀北商業銀行

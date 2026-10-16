@@ -3197,11 +3197,11 @@
   to: [nanto]
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEBM"]
 
-- date: "1945-06"
+- date: "1945-06-01"
   type: absorption
   from: [kii-chochiku]
   to: [kiyo]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/A6sUaeUx4renforLTCpCmRmpKDi/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S"]
 
 - date: "1920-06"
   type: absorption
