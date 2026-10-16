@@ -5392,8 +5392,8 @@
   type: new
   founded: "2006-05-15"
   prefecture: 東京都
-  note: 準備会社イオン総合金融準備として設立、2007年10月5日イオン銀行に商号変更、10月11日免許取得、10月29日開業
-  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/イオン銀行]
+  note: イオンの銀行業参入の準備会社イオン総合金融準備として設立。2007年10月5日イオン銀行に商号変更、10月11日銀行業免許、10月15日営業開始（有人店舗は10月29日）。2011年12月26日、日本振興銀行の貸付債権の一部を譲受。親会社は2013年1月イオンクレジットサービス（同年4月イオンフィナンシャルサービスに改称）、2019年4月AFSコーポレーション
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6lRIW_xbpAJL-6O5Buc6ZOpoBqg/description.html", https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/イオン銀行]
 
 - id: japan-shinko-bank
   name: 日本振興銀行
@@ -5411,7 +5411,7 @@
   dissolved: "2011-12-26"
   prefecture: 東京都
   note: 預金保険機構の承継銀行（ブリッジバンク）。2011年12月26日全株式がイオン銀行へ譲渡
-  sources: [https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6lRIW_xbpAJL-6O5Buc6ZOpoBqg/description.html", https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
 
 - id: aeon-community-bank
   name: イオンコミュニティ銀行
@@ -5420,7 +5420,7 @@
   dissolved: "2012-03-31"
   prefecture: 東京都
   note: 第二日本承継銀行がイオン銀行の子会社となり改称
-  sources: [https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6lRIW_xbpAJL-6O5Buc6ZOpoBqg/description.html", https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
 
 - id: sbj-bank
   name: SBJ銀行

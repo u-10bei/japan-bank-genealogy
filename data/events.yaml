@@ -2753,14 +2753,14 @@
   type: rename
   from: [second-japan-bridge-bank]
   to: [aeon-community-bank]
-  note: 預金保険機構が全株式をイオン銀行へ譲渡し改称
-  sources: [https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
+  note: イオン銀行が預金保険機構から全株式を譲り受けて子会社化し、改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6lRIW_xbpAJL-6O5Buc6ZOpoBqg/description.html", https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
 
 - date: "2012-03-31"
   type: absorption
   from: [aeon-community-bank]
   to: [aeon-bank]
-  sources: [https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6lRIW_xbpAJL-6O5Buc6ZOpoBqg/description.html", https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
 
 - date: "2020-02-09"
   type: rename
