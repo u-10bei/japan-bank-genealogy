@@ -2232,14 +2232,23 @@
   note: 1895年峰山銀行として設立、翌年丹後商工銀行に改称
   sources: [https://ja.wikipedia.org/wiki/京都銀行]
 
+- id: nantan-ginko
+  name: 南但銀行
+  type: other
+  founded: "1901-11-11"
+  dissolved: "1913"
+  prefecture: 兵庫県
+  note: 南但株式会社が改称。1913年10月8日兵庫から京都に移転し、志賀銀行に改称（改称日は銀總で12月15日、京都銀行五十年史で10月30日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/puOigaPk7g2me8Ri6H-6rRPSEf/description.html"]
+
 - id: shiga-ginko-kyoto
   name: 志賀銀行
   type: other
   founded: "1913"
   dissolved: "1919-06-28"
   prefecture: 京都府
-  note: 1919年6月28日何鹿銀行に改称（銀總は1919年、登記は10月か）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+  note: 南但銀行が京都へ移転して改称。1919年6月28日何鹿銀行に改称（銀總は1919年、登記は10月か）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/puOigaPk7g2me8Ri6H-6rRPSEf/description.html"]
 
 - id: ikaruga-ginko
   name: 何鹿銀行
@@ -2247,7 +2256,7 @@
   founded: "1919-06-28"
   dissolved: "1936-11-01"
   prefecture: 京都府
-  note: 志賀銀行が改称。1926年北鹿銀行、1929年10月河守銀行を合併。1936年11月1日、治久・高木・福知山銀行と新立合併し両丹銀行に（Wikipediaは何鹿銀行の旧名を南但銀行とする）
+  note: 志賀銀行が改称。1926年北鹿銀行、1929年10月河守銀行を合併。1936年11月1日、治久・高木・福知山銀行と新立合併し両丹銀行に。志賀銀行の前身は南但銀行（Wikipediaの「旧南但銀行」はこの経緯を指す）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
 
 - id: hokuroku-ginko

@@ -3846,6 +3846,13 @@
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jq_3aqVx22pe_gGyxy5QuewAR3g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html", https://ja.wikipedia.org/wiki/親和銀行]
 
 # ---------------------------------------------------------------- 両丹銀行の前身（銀行変遷史データベース）
+- date: "1913"
+  type: rename
+  from: [nantan-ginko]
+  to: [shiga-ginko-kyoto]
+  note: 兵庫から京都に移転し改称（銀總は1913年12月15日、京都銀行五十年史は10月30日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/puOigaPk7g2me8Ri6H-6rRPSEf/description.html"]
+
 - date: "1919-06-28"
   type: rename
   from: [shiga-ginko-kyoto]
