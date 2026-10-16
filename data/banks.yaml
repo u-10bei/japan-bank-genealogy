@@ -2570,19 +2570,19 @@
   name: 岐阜無尽
   type: other
   founded: "1948-05"
-  dissolved: "1951-10"
+  dissolved: "1951-10-20"
   prefecture: 岐阜県
-  note: 1948年5月岐阜合同無尽が改称。1951年10月相互銀行に転換し岐阜相互銀行に改称（日付は未確認）。1942年まで存在した岐阜無尽とは別
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html", https://ja.wikipedia.org/wiki/岐阜銀行]
+  note: 1948年5月岐阜合同無尽が改称。1951年10月20日相互銀行に転換し岐阜相互銀行に改称（相互銀行史による）。1942年まで存在した岐阜無尽とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8DSRA0OMgJu_-xL1rsZU_yu2e2d/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html", https://ja.wikipedia.org/wiki/岐阜銀行]
 
 - id: gifu-sogo
   name: 岐阜相互銀行
   type: other
-  founded: "1951-10"
+  founded: "1951-10-20"
   dissolved: "1989-02-01"
   prefecture: 岐阜県
-  note: 1951年10月、相互銀行への転換で岐阜無尽が改称
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html", https://ja.wikipedia.org/wiki/岐阜銀行]
+  note: 1951年10月20日、相互銀行への転換で岐阜無尽が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8DSRA0OMgJu_-xL1rsZU_yu2e2d/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html", https://ja.wikipedia.org/wiki/岐阜銀行]
 
 - id: gifu
   name: 岐阜銀行

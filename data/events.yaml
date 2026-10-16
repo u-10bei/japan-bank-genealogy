@@ -4470,14 +4470,14 @@
   from: [gifu-godo-mujin]
   to: [gifu-mujin-1948]
   note: 岐阜無尽に改称
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8DSRA0OMgJu_-xL1rsZU_yu2e2d/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
 
-- date: "1951-10"
+- date: "1951-10-20"
   type: rename
   from: [gifu-mujin-1948]
   to: [gifu-sogo]
-  note: 相互銀行に転換
-  sources: [https://ja.wikipedia.org/wiki/岐阜銀行]
+  note: 相互銀行に転換（日付は相互銀行史による。岐阜銀行の有価証券報告書は1951年10月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8DSRA0OMgJu_-xL1rsZU_yu2e2d/description.html", https://ja.wikipedia.org/wiki/岐阜銀行]
 
 - date: "1940-04"
   type: transfer
