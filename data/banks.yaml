@@ -4799,6 +4799,40 @@
   note: 本店長岡市。2001年5月新潟中央銀行の営業を一部譲受。2022年SBIHDと資本業務提携
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1U", https://ja.wikipedia.org/wiki/大光銀行]
 
+- id: omori-mujin-shoko-kojin
+  name: 大森無尽商行
+  type: other
+  founded: "1916-04-27"
+  dissolved: "1920-12-04"
+  prefecture: 新潟県
+  note: 個人経営の大森無尽商行。1920年に株式会社大森無尽商行を設立し、12月4日に解散（銀行総覧による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zEXeo08x3n6wL6vOMVu_gywTR8m/description.html"]
+
+- id: omori-mujin-shoko
+  name: 大森無尽商行
+  type: other
+  founded: "1920"
+  dissolved: "1942-10-03"
+  prefecture: 新潟県
+  note: 株式会社大森無尽商行。設立日は資料により異なる（新潟中央銀行50年史・銀行総覧第34〜48回は1920年8月1日、銀行総覧第28〜33回は11月24日とし、11月24日は無尽営業免許日）。1942年10月、相互信用無尽・第一共栄無尽と新立合併し新潟無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zEXeo08x3n6wL6vOMVu_gywTR8m/description.html", https://ja.wikipedia.org/wiki/新潟中央銀行]
+
+- id: sogo-shinyo-mujin
+  name: 相互信用無尽
+  type: other
+  dissolved: "1942-10-03"
+  prefecture: 新潟県
+  note: 1942年10月、大森無尽商行・第一共栄無尽と新立合併し新潟無尽となる。設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/新潟中央銀行]
+
+- id: daiichi-kyoei-mujin
+  name: 第一共栄無尽
+  type: other
+  dissolved: "1942-10-03"
+  prefecture: 新潟県
+  note: 1942年10月、相互信用無尽・大森無尽商行と新立合併し新潟無尽となる。設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/新潟中央銀行]
+
 - id: niigata-mujin
   name: 新潟無尽
   type: other
