@@ -1180,7 +1180,8 @@
   type: merger
   from: [dai52, nakata]
   to: [matsuyama-52]
-  sources: [https://ja.wikipedia.org/wiki/伊予銀行]
+  note: 新立合併（12月9日新立合併認可。銀行総覧は12月9日設立、伊予銀行五十年史は12月10日新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html", https://ja.wikipedia.org/wiki/伊予銀行]
 
 - date: "1941-09-01"
   type: merger
@@ -5364,3 +5365,66 @@
   to: [kii-chochiku]
   note: 紀陽貯蓄銀行の貯蓄業務を新設の紀伊貯蓄銀行が継承
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k7tzlbWqV4GsTacOEHStPieVEzf/description.html"]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai52-kokuritsu]
+  to: [dai52]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JXkdY4oI1Y6Bd4bwW-RJBEUuoMm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- date: "1906-09-30"
+  type: transfer
+  from: [eisho-goshi]
+  to: [dai52]
+  note: 栄松合資会社が五十二銀行に債権債務を譲渡
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- date: "1910-12"
+  type: transfer
+  from: [gunchu-bank]
+  to: [dai52]
+  note: 五十二銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- date: "1911-10"
+  type: absorption
+  from: [tobe-bank]
+  to: [dai52]
+  note: 五十二銀行が合併（買収か）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- date: "1920-03-01"
+  type: absorption
+  from: [yawatahama-bank]
+  to: [dai52]
+  note: 五十二銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- date: "1923-02-01"
+  type: transfer
+  from: [iyo-katsuyama]
+  to: [dai52]
+  note: 五十二銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- date: "1923-11-05"
+  type: absorption
+  from: [iyo-shuso]
+  to: [dai52]
+  note: 五十二銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- date: "1924-08-19"
+  type: transfer
+  from: [asaya-bank]
+  to: [dai52]
+  note: 五十二銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- date: "1931-12-01"
+  type: transfer
+  from: [ono-bank-ehime]
+  to: [dai52]
+  note: 五十二銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]

@@ -4556,22 +4556,97 @@
   prefecture: 愛媛県
   sources: [https://ja.wikipedia.org/wiki/伊予銀行]
 
-- id: dai52
-  name: 第五十二銀行
+- id: dai52-kokuritsu
+  name: 第五十二国立銀行
   type: other
-  founded: "1878-09-25"
+  founded: "1878-09-14"
+  dissolved: "1897-07-01"
+  prefecture: 愛媛県
+  note: 松山で設立（1878年9月14日開業免状下付・設立、9月25日開業）。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し五十二銀行に改称（3月2日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JXkdY4oI1Y6Bd4bwW-RJBEUuoMm/description.html", https://ja.wikipedia.org/wiki/伊予銀行]
+
+- id: eisho-goshi
+  name: 栄松合資会社
+  type: other
+  dissolved: "1906-10-11"
+  prefecture: 愛媛県
+  note: 「栄松社」。1906年9月30日五十二銀行に債権債務を譲渡し、10月11日任意解散。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- id: gunchu-bank
+  name: 郡中銀行
+  type: other
+  dissolved: "1910-12"
+  prefecture: 愛媛県
+  note: 1910年12月五十二銀行が買収（銀行総覧は12月24日任意解散、伊予銀行五十年史は12月25日買収とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- id: tobe-bank
+  name: 砥部銀行
+  type: other
+  dissolved: "1911-10"
+  prefecture: 愛媛県
+  note: 1911年10月五十二銀行が合併（買収か。銀行総覧は10月2日合併、伊予銀行五十年史は10月5日買収とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- id: yawatahama-bank
+  name: 八幡浜銀行
+  type: other
+  dissolved: "1920-03-01"
+  prefecture: 愛媛県
+  note: 1920年3月1日五十二銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- id: iyo-katsuyama
+  name: 伊予勝山銀行
+  type: other
+  dissolved: "1923-02-01"
+  prefecture: 愛媛県
+  note: 1923年2月1日五十二銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- id: iyo-shuso
+  name: 伊予周桑銀行
+  type: other
+  dissolved: "1923-11-05"
+  prefecture: 愛媛県
+  note: 1923年11月5日五十二銀行に合併（10月24日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- id: asaya-bank
+  name: 朝屋銀行
+  type: other
+  dissolved: "1924-08-19"
+  prefecture: 愛媛県
+  note: 1924年8月19日五十二銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- id: ono-bank-ehime
+  name: 大野銀行
+  type: other
+  founded: "1899"
+  dissolved: "1931-12-01"
+  prefecture: 愛媛県
+  note: 1931年12月1日五十二銀行が買収（11月13日買収認可）。銀行変遷史DBは1899〜1931年の大野銀行とする（設立日は未確認）。愛知県の大野銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- id: dai52
+  name: 五十二銀行
+  type: other
+  founded: "1897-07-01"
   dissolved: "1937-12"
   prefecture: 愛媛県
-  note: 第五十二国立銀行として開業（普通銀行転換日は記載なし）
-  sources: [https://ja.wikipedia.org/wiki/伊予銀行]
+  note: 1897年7月1日第五十二国立銀行が改称。1906〜1931年に栄松合資会社・郡中・砥部・八幡浜・伊予勝山・伊予周桑・朝屋・大野の各行を合併・買収。1937年12月仲田銀行と新立合併し松山五十二銀行となる（銀行総覧は12月9日設立、伊予銀行五十年史は12月10日新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html", https://ja.wikipedia.org/wiki/伊予銀行]
 
 - id: nakata
   name: 仲田銀行
   type: other
+  founded: "1932"
   dissolved: "1937-12"
   prefecture: 愛媛県
-  note: 設立日は出典に記載なし
-  sources: [https://ja.wikipedia.org/wiki/伊予銀行]
+  note: 銀行変遷史DBは1932〜1937年の仲田銀行とする（設立日は未確認）。1937年12月五十二銀行と新立合併し松山五十二銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html", https://ja.wikipedia.org/wiki/伊予銀行]
 
 - id: matsuyama-52
   name: 松山五十二銀行
