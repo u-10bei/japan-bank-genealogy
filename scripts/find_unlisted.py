@@ -27,7 +27,8 @@ PATTERNS = [
     re.compile(r"株式会社(" + NAME + ")"),
     re.compile(r"(?<![一-鿿゠-ヿA-Za-z])([一-鿿゠-ヿA-Za-zー・]{1,14}?(?:銀行|無尽))株式会社"),
     re.compile(r"(第[一二三四五六七八九十百千〇]+国立銀行)"),
-    re.compile(r"(?:^|[、。・（(「\s/：:と及並])([一-鿿゠-ヿー]{1,12}(?:銀行|無尽|無盡))"),
+    # 区切り記号・助詞の直後の漢字・カナ名。カナに挟まれた「・」（チェース・マンハッタン）は名前の一部として扱う
+    re.compile(r"(?:^|[、。（(「\s/：:・と及並をはがにのへでもや])((?:[一-鿿゠-ヿー]|(?<=[゠-ヿ])・(?=[゠-ヿ]))+?(?:銀行|無尽|無盡))"),
 ]
 PREFIX = re.compile(r"^(株式会社|合名会社|合資会社|私盟会社|財団法人|保証有限責任会社|及び|および|から|が|を|と|同日|翌年|翌月|初代|現|旧・|旧|新・|本店・)")
 NOT_A_NAME = re.compile(
@@ -39,8 +40,11 @@ GENERIC = set(
     "新銀行 子銀行 存続銀行 大手銀行 責任銀行 私立銀行 承継銀行 日本承継銀行 無尽 相互無尽 殖産無尽 県内無尽 全国銀行 全国相互銀行 "
     "外国為替公認銀行 乙種外国為替公認銀行 外国為替銀行 外国為替専門銀行 外国為替コルレス銀行 コルレス包括承認銀行 コルレス包括契約銀行 "
     "外資系信託銀行 米国外国銀行 商業銀行 地域銀行 SBI地域銀行 戦後第一号銀行 ネット銀行 インターネット銀行 海外銀行 主力銀行 "
-    "県是銀行 合同銀行 受皿銀行 沖縄県銀行 関連銀行".split()
+    "県是銀行 合同銀行 受皿銀行 沖縄県銀行 関連銀行 親銀行 各銀行 本店銀行 資産管理専門信託銀行 "
+    "外国為替コルレス契約包括承認銀行 道内無尽".split()
 )
+# 海外の銀行（日本の銀行の系譜の対象外）
+FOREIGN = set("ドイツ銀行 ニューヨークメロン銀行 新韓銀行 SBI貯蓄銀行 代スイス貯蓄銀行 中國信託商業銀行 シティバンク".split())
 # 現存するが、まだ収録対象にしていない銀行（新形態銀行・政府系など）
 CURRENT_UNLISTED = set(
     "セブン銀行 ゆうちょ銀行 イオン銀行 ローソン銀行 住信SBIネット銀行 楽天銀行 ソニー銀行 オリックス銀行 UI銀行 みんなの銀行 "
@@ -49,7 +53,8 @@ CURRENT_UNLISTED = set(
 
 
 def plain(name: str) -> str:
-    return re.sub(r"（.*?）|\(.*?\)", "", N(name)).replace("國", "国")
+    # 旧字体の揺れ（國・隂・廣・豫など）を寄せて比較する
+    return re.sub(r"（.*?）|\(.*?\)", "", N(name)).translate(str.maketrans("國隂廣豫壽榮盡", "国陰広予寿栄尽"))
 
 
 def extract(text: str) -> set[str]:
@@ -110,7 +115,21 @@ def main() -> int:
     events = yaml.safe_load(open(ROOT / "data/events.yaml", encoding="utf-8"))
     known = {plain(b["name"]) for b in banks}
     lineage = lineages(banks, events)
-    name_to_id = {plain(b["name"]): b["id"] for b in banks if not b.get("dissolved")}
+    # 同名の銀行は存続中のもの（なければ最後に消滅したもの）を優先
+    name_to_id = {}
+    for b in sorted(banks, key=lambda b: (b.get("dissolved") is None, str(b.get("dissolved") or ""))):
+        name_to_id[plain(b["name"])] = b["id"]
+
+    def lineage_of_filer(filer: str, body: str) -> str:
+        """提出者が銀行ならその系統。持株会社などは、沿革で最も多く言及される収録済み銀行の系統。"""
+        if plain(filer) in name_to_id:
+            return lineage[name_to_id[plain(filer)]]
+        counts = collections.Counter()
+        for n, bid in name_to_id.items():
+            c = plain(body).count(n)
+            if c:
+                counts[lineage[bid]] += c * len(n)  # 長い名前ほど確からしい
+        return counts.most_common(1)[0][0] if counts else f"{filer}（持株会社等）"
 
     found: dict[str, set[str]] = collections.defaultdict(set)   # 名前 → 言及元（系統名）
     refs: dict[str, set[str]] = collections.defaultdict(set)    # 名前 → 言及元（具体的な出典）
@@ -124,11 +143,14 @@ def main() -> int:
         text = open(f, encoding="utf-8").read()
         filer = re.sub(r"株式会社|\s", "", N(re.search(r"# 提出者: (.*?) \(", text).group(1)))
         body = text.split("\n", 6)[-1]
-        lin = lineage.get(name_to_id.get(plain(filer)), f"{filer}（持株会社等）")
+        lin = lineage_of_filer(filer, body)
         for n in extract(body):
             found[n].add(lin); refs[n].add(f"有報: {filer}")
 
-    old = {n: v for n, v in found.items() if n not in known and plain(n) not in known and n not in CURRENT_UNLISTED}
+    # 「日本マスタートラスト銀行」（＝日本マスタートラスト信託銀行）のような表記揺れは既知とみなす
+    variant = lambda n: "信託" not in n and plain(n).replace("銀行", "信託銀行") in known  # noqa: E731
+    old = {n: v for n, v in found.items()
+           if n not in known and plain(n) not in known and not variant(n) and n not in CURRENT_UNLISTED and n not in FOREIGN}
     # 国立銀行時代の名称は、多くを後身の普通銀行と同じ項目にまとめて収録している（note に記載）
     national = {n: v for n, v in old.items() if n.endswith("国立銀行")}
     old = {n: v for n, v in old.items() if n not in national}
