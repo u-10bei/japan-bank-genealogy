@@ -5410,8 +5410,8 @@
   founded: "2004-03-01"
   dissolved: "2011-12-26"
   prefecture: 東京都
-  note: 預金保険機構の承継銀行（ブリッジバンク）。2011年12月26日全株式がイオン銀行へ譲渡
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6lRIW_xbpAJL-6O5Buc6ZOpoBqg/description.html", https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
+  note: 預金保険法に基づく承継銀行（ブリッジバンク）として預金保険機構の100%子会社で設立。2004年3月8日銀行業免許。2011年12月26日全株式が預金保険機構からイオン銀行へ譲渡
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vQZXQMhRLWm2-z4k_Osa6JGW3qp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6lRIW_xbpAJL-6O5Buc6ZOpoBqg/description.html", https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
 
 - id: aeon-community-bank
   name: イオンコミュニティ銀行

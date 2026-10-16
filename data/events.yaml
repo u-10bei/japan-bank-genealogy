@@ -2747,14 +2747,14 @@
   from: [japan-shinko-bank]
   to: [second-japan-bridge-bank]
   note: 事業の一部を第二日本承継銀行へ譲渡（不良債権の一部は預金保険機構の委託を受け整理回収機構が買取り）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/w6OZyfDGU2LaoYcUDB-7YXniJwd/description.html", https://ja.wikipedia.org/wiki/日本振興銀行, https://ja.wikipedia.org/wiki/第二日本承継銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vQZXQMhRLWm2-z4k_Osa6JGW3qp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/w6OZyfDGU2LaoYcUDB-7YXniJwd/description.html", https://ja.wikipedia.org/wiki/日本振興銀行, https://ja.wikipedia.org/wiki/第二日本承継銀行]
 
 - date: "2011-12-26"
   type: rename
   from: [second-japan-bridge-bank]
   to: [aeon-community-bank]
   note: イオン銀行が預金保険機構から全株式を譲り受けて子会社化し、改称
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6lRIW_xbpAJL-6O5Buc6ZOpoBqg/description.html", https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vQZXQMhRLWm2-z4k_Osa6JGW3qp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6lRIW_xbpAJL-6O5Buc6ZOpoBqg/description.html", https://ja.wikipedia.org/wiki/第二日本承継銀行, https://ja.wikipedia.org/wiki/イオン銀行]
 
 - date: "2012-03-31"
   type: absorption
