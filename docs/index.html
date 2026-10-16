@@ -149,6 +149,15 @@ svg text { font-family: inherit; }
 .bank .bar.unknown-start { opacity: .45; }
 .bank.selected .bar { stroke: var(--text-primary); }
 .today { stroke: var(--text-muted); stroke-dasharray: 2 4; }
+.lineage-header line { stroke: var(--border); }
+.lineage-header .title { fill: var(--text-secondary); font-size: 12px; font-weight: 600; }
+.lineage-header .meta { fill: var(--text-muted); font-size: 11px; }
+.lineage-header { pointer-events: none; }
+.controls select {
+  font: inherit; font-size: 12px; padding: 4px 6px; border-radius: 6px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text-primary);
+}
+.sort-label { font-size: 12px; color: var(--text-secondary); display: inline-flex; align-items: center; gap: 6px; }
 
 @media (max-width: 760px) {
   #detail {
@@ -177,6 +186,7 @@ svg text { font-family: inherit; }
     <button id="zoom-out" aria-label="縮小">－</button>
     <button id="clear">選択解除</button>
   </div>
+  <label class="sort-label">並び順 <select id="sort" aria-label="系統の並び順"></select></label>
   <div class="legend" id="legend"></div>
 </div>
 <main>
@@ -241,19 +251,8 @@ function init(data) {
     b.failed = b.events.some(e => e.type === "failure" && e.from.includes(b.id));
   }
 
-  // ---- レイアウト: 系統（連結成分）ごとにまとめ、後継行の上下に前身行を配置する
-  const order = [];
-  const visited = new Set();
-  function place(id) {
-    if (visited.has(id)) return;
-    visited.add(id);
-    const ps = banks.get(id).preds.filter(p => !visited.has(p))
-      .sort((a, b) => banks.get(a).start - banks.get(b).start);
-    const half = Math.ceil(ps.length / 2);
-    ps.slice(0, half).forEach(place);
-    order.push(id);
-    ps.slice(half).forEach(place);
-  }
+  // ---- レイアウト: 系統（前身・後継でつながる銀行の集まり）ごとにまとめ、
+  //      系統の中では後継行の上下に前身行を配置する。系統どうしの順序は選択式。
   function component(id, seen = new Set()) {
     if (seen.has(id)) return seen;
     seen.add(id);
@@ -261,40 +260,79 @@ function init(data) {
     [...b.preds, ...b.succs].forEach(n => component(n, seen));
     return seen;
   }
-  const comps = [];
+  const lineages = [];
   const assigned = new Set();
   for (const id of banks.keys()) {
     if (assigned.has(id)) continue;
-    const c = [...component(id)];
-    c.forEach(x => assigned.add(x));
-    comps.push(c);
+    const members = [...component(id)];
+    members.forEach(x => assigned.add(x));
+    // 代表行: 存続中（なければ最後まで残った）後継行のうち最も新しいもの
+    const roots = members.filter(m => banks.get(m).succs.length === 0)
+      .sort((a, b) => banks.get(b).end - banks.get(a).end || banks.get(b).start - banks.get(a).start);
+    const rep = banks.get(roots[0]);
+    lineages.push({
+      members, roots, rep,
+      alive: members.filter(m => !banks.get(m).dissolved).map(m => banks.get(m)),
+      start: d3.min(members, m => banks.get(m).start),
+    });
   }
-  // 大きい系統から、同規模なら古い順
-  comps.sort((a, b) => b.length - a.length ||
-    d3.min(a, id => banks.get(id).start) - d3.min(b, id => banks.get(id).start));
+  const PREFS = "北海道 青森県 岩手県 宮城県 秋田県 山形県 福島県 茨城県 栃木県 群馬県 埼玉県 千葉県 東京都 神奈川県 新潟県 富山県 石川県 福井県 山梨県 長野県 岐阜県 静岡県 愛知県 三重県 滋賀県 京都府 大阪府 兵庫県 奈良県 和歌山県 鳥取県 島根県 岡山県 広島県 山口県 徳島県 香川県 愛媛県 高知県 福岡県 佐賀県 長崎県 熊本県 大分県 宮崎県 鹿児島県 沖縄県".split(" ");
+  const prefIdx = p => { const i = PREFS.indexOf(p); return i < 0 ? 99 : i; };
+  const typeIdx = t => Object.keys(TYPE_LABELS).indexOf(t);
+  const bySize = (a, b) => b.members.length - a.members.length || a.start - b.start;
+  const SORTS = {
+    size: { label: "系統の規模順（収録行数の多い順）", cmp: bySize },
+    pref: { label: "本店所在地順（北から南）", cmp: (a, b) => prefIdx(a.rep.prefecture) - prefIdx(b.rep.prefecture) || bySize(a, b) },
+    type: { label: "業態順（都市銀行→地方銀行→…）", cmp: (a, b) => typeIdx(a.rep.type) - typeIdx(b.rep.type) || prefIdx(a.rep.prefecture) - prefIdx(b.rep.prefecture) || bySize(a, b) },
+    founded: { label: "系統の起源が古い順", cmp: (a, b) => a.start - b.start || bySize(a, b) },
+  };
   const rowOf = new Map();
-  let row = 0;
-  for (const c of comps) {
-    const roots = c.filter(id => banks.get(id).succs.length === 0)
-      .sort((a, b) => banks.get(b).end - banks.get(a).end || banks.get(a).start - banks.get(b).start);
-    const before = order.length;
-    roots.forEach(place);
-    c.forEach(place); // 念のため取りこぼしを配置
-    for (const id of order.slice(before)) rowOf.set(id, row++);
-    row += 1; // 系統間の余白
+  let headers = [], rowCount = 0;
+  function layout(mode) {
+    const order = [];
+    const visited = new Set();
+    function place(id) {
+      if (visited.has(id)) return;
+      visited.add(id);
+      const ps = banks.get(id).preds.filter(p => !visited.has(p))
+        .sort((a, b) => banks.get(a).start - banks.get(b).start);
+      const half = Math.ceil(ps.length / 2);
+      ps.slice(0, half).forEach(place);
+      order.push(id);
+      ps.slice(half).forEach(place);
+    }
+    rowOf.clear();
+    headers = [];
+    let row = 0;
+    for (const L of [...lineages].sort(SORTS[mode].cmp)) {
+      const names = (L.alive.length ? L.alive : [L.rep]).map(b => b.name);
+      const meta = [L.rep.prefecture, `${L.members.length}行`, L.alive.length ? "" : "現存行なし"].filter(Boolean).join("・");
+      headers.push({ row, title: names.join("・") + " の系統", meta });
+      row += 1;
+      const before = order.length;
+      L.roots.forEach(place);
+      L.members.forEach(place); // 念のため取りこぼしを配置
+      for (const id of order.slice(before)) rowOf.set(id, row++);
+      row += 1; // 系統間の余白
+    }
+    rowCount = row;
   }
+  let sortMode = "size";
+  try { sortMode = localStorage.getItem("sortMode") || sortMode; } catch (e) {}
+  if (!SORTS[sortMode]) sortMode = "size";
+  layout(sortMode);
 
   // ---- 描画
   const wrap = document.getElementById("chart-wrap");
   const svg = d3.select("#chart");
   const axisSvg = d3.select("#axis");
-  const height = row * ROW_H + 8;
   const minYear = Math.floor(d3.min(banks.values(), b => b.start) / 10) * 10;
   const x0 = d3.scaleLinear().domain([minYear, NOW_YEAR + 1]);
   let x = x0.copy();
   const y = id => rowOf.get(id) * ROW_H + ROW_H / 2 + 4;
 
   const gGrid = svg.append("g");
+  const gHeaders = svg.append("g");
   const gLinks = svg.append("g");
   const gBanks = svg.append("g");
   const gEvents = svg.append("g");
@@ -334,6 +372,7 @@ function init(data) {
 
   function render() {
     const width = Math.max(wrap.clientWidth, 480);
+    const height = rowCount * ROW_H + 8;
     x.range([MARGIN.left, width - MARGIN.right]);
     svg.attr("width", width).attr("height", height);
     axisSvg.attr("width", width).attr("height", 28);
@@ -361,6 +400,19 @@ function init(data) {
         `L${xx},${y2}`;
     });
     dotSel.attr("transform", d => `translate(${x(toYear(d.e.date))},${y(d.id)})`);
+    const hs = gHeaders.selectAll("g.lineage-header").data(headers, d => d.title).join(enter => {
+      const g = enter.append("g").attr("class", "lineage-header");
+      g.append("line");
+      const t = g.append("text");
+      t.append("tspan").attr("class", "title");
+      t.append("tspan").attr("class", "meta").attr("dx", 8);
+      return g;
+    });
+    hs.attr("transform", d => `translate(0,${d.row * ROW_H + 4})`);
+    hs.select("line").attr("x1", MARGIN.left).attr("x2", width - 8).attr("y1", ROW_H - 6).attr("y2", ROW_H - 6);
+    hs.select("text").attr("x", MARGIN.left).attr("y", ROW_H - 10);
+    hs.select(".title").text(d => d.title);
+    hs.select(".meta").text(d => d.meta);
   }
 
   // ---- ズーム（横方向のみ。縦はページスクロール）
@@ -435,16 +487,26 @@ function init(data) {
   document.getElementById("clear").onclick = () => { select(null); document.getElementById("search").value = ""; };
 
   // ---- 検索
+  // 同名の銀行（旧秋田銀行と現秋田銀行など）は期間を添えて区別する
+  const nameCount = d3.rollup(bankList, v => v.length, b => b.name);
+  const yearOf = d => d ? d.slice(0, 4) : "";
+  const labelOf = b => nameCount.get(b.name) > 1
+    ? `${b.name}（${b.founded ? yearOf(b.founded) : "?"}〜${yearOf(b.dissolved)}）` : b.name;
+  const byLabel = new Map(bankList.map(b => [labelOf(b), b]));
   const dl = d3.select("#bank-names");
-  for (const b of [...bankList].sort((a, b) => a.name.localeCompare(b.name, "ja"))) {
-    dl.append("option").attr("value", b.name).text(b.name_en || "");
+  for (const b of [...bankList].sort((a, c) => a.name.localeCompare(c.name, "ja") || a.start - c.start)) {
+    dl.append("option").attr("value", labelOf(b))
+      .text([TYPE_LABELS[b.type], b.prefecture, b.name_en].filter(Boolean).join("・"));
   }
   const search = document.getElementById("search");
   search.addEventListener("change", () => {
     const q = search.value.trim();
     if (!q) return;
-    const hit = bankList.find(b => b.name === q) ||
-      bankList.find(b => b.name.includes(q) || (b.name_en || "").toLowerCase().includes(q.toLowerCase()));
+    const ql = q.toLowerCase();
+    // 完全一致 → 同名なら存続中・新しい方 → 部分一致
+    const hit = byLabel.get(q) ||
+      bankList.filter(b => b.name === q).sort((a, c) => c.end - a.end)[0] ||
+      bankList.find(b => b.name.includes(q) || (b.name_en || "").toLowerCase().includes(ql));
     if (hit) select(hit.id);
   });
 
@@ -490,6 +552,16 @@ function init(data) {
     tip.style.left = left + "px"; tip.style.top = top + "px"; tip.style.opacity = 1;
   }
   function hideTip() { tip.style.opacity = 0; }
+
+  const sortSel = d3.select("#sort");
+  for (const [k, v] of Object.entries(SORTS)) sortSel.append("option").attr("value", k).text(v.label);
+  sortSel.property("value", sortMode).on("change", function () {
+    sortMode = this.value;
+    try { localStorage.setItem("sortMode", sortMode); } catch (e) {}
+    layout(sortMode);
+    render();
+    if (selected) wrap.scrollTo({ top: Math.max(0, y(selected) - wrap.clientHeight / 2 + 28) });
+  });
 
   document.getElementById("stats").textContent =
     `収録: 銀行 ${bankList.length} 行 / 変遷イベント ${data.events.length} 件`;
