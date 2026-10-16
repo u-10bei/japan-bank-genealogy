@@ -1755,8 +1755,35 @@
   founded: "1900-06-15"
   dissolved: "1907-08-24"
   prefecture: 千葉県
-  note: 1907年7月10日第九十八銀行に営業を譲渡（解散せず）。1907年8月24日北海道に移転し釧路銀行に改称、1914年東京に移転し光正銀行に改称（釧路銀行・光正銀行はその後が未確認のため未収録。消滅日は釧路銀行への改称日）
+  note: 1907年7月10日第九十八銀行に営業を譲渡（解散せず）。1907年8月24日北海道に移転し釧路銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Un7xRclbZE2y1kz5JUH4aje772e/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LxAlVpmPnaI23o-Pdtece-2LwHe/description.html"]
+
+- id: kushiro-bank
+  name: 釧路銀行
+  type: other
+  founded: "1907-08-24"
+  dissolved: "1914"
+  prefecture: 北海道
+  note: 1907年8月24日津田沼商業銀行が千葉から北海道に移転し改称。1914年東京に移転し光正銀行に改称（7月6日移転登記、12月23日改称登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LxAlVpmPnaI23o-Pdtece-2LwHe/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Un7xRclbZE2y1kz5JUH4aje772e/description.html"]
+
+- id: kosei-bank
+  name: 光正銀行
+  type: other
+  founded: "1914"
+  dissolved: "1923-01-20"
+  prefecture: 東京都
+  note: 1914年釧路銀行が北海道から東京に移転し改称（7月6日移転登記、12月23日改称登記）。1923年1月20日駒沢銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TiIpCB4hSPz-uhOo4lsqpRMOxFe/description.html"]
+
+- id: komazawa-bank
+  name: 駒沢銀行
+  type: other
+  founded: "1923-01-20"
+  dissolved: "1928-11-27"
+  prefecture: 東京都
+  note: 1923年1月20日光正銀行が改称。1928年11月27日業務廃止認可、銀行業を廃止し光正不動産株式会社に改称（消滅日は業務廃止認可日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gT1Y1b44cAMRuStAY7NaC2q3L8g/description.html"]
 
 - id: ichinomiya-shogyo
   name: 一宮商業銀行
