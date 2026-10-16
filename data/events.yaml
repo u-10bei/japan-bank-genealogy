@@ -3806,6 +3806,19 @@
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
 
 # ---------------------------------------------------------------- 親和銀行の前身（銀行変遷史データベース）
+- date: "1918-04-08"
+  type: rename
+  from: [itoyama-ginko]
+  to: [sasebo-shogyo]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jq_3aqVx22pe_gGyxy5QuewAR3g/description.html"]
+
+- date: "1926-02"
+  type: transfer
+  from: [sasa-ginko]
+  to: [sasebo-shogyo]
+  note: 買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jq_3aqVx22pe_gGyxy5QuewAR3g/description.html"]
+
 - date: "1907-06"
   type: rename
   from: [haiki-ginko]
@@ -3830,4 +3843,4 @@
   from: [sasebo-ginko, sasebo-shogyo]
   to: [shinwa]
   note: 新立合併。8月26日認可、8月31日両行解散、9月1日創立総会・開業
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html", https://ja.wikipedia.org/wiki/親和銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jq_3aqVx22pe_gGyxy5QuewAR3g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html", https://ja.wikipedia.org/wiki/親和銀行]

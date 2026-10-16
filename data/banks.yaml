@@ -674,13 +674,30 @@
   note: 1927年10月1日佐世保銀行に合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
 
+- id: itoyama-ginko
+  name: 糸山銀行
+  type: other
+  dissolved: "1918-04-08"
+  prefecture: 長崎県
+  note: 1918年4月佐世保商業銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jq_3aqVx22pe_gGyxy5QuewAR3g/description.html"]
+
+- id: sasa-ginko
+  name: 佐々銀行
+  type: other
+  dissolved: "1926-02"
+  prefecture: 長崎県
+  note: 1926年2月佐世保商業銀行が買収（買収届出は2月8日、親和銀行史は2月28日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jq_3aqVx22pe_gGyxy5QuewAR3g/description.html"]
+
 - id: sasebo-shogyo
   name: 佐世保商業銀行
   type: other
+  founded: "1918-04-08"
   dissolved: "1939-09-01"
   prefecture: 長崎県
-  note: 1939年8月31日、佐世保銀行との新立合併により解散（設立日は未確認）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html", https://ja.wikipedia.org/wiki/親和銀行]
+  note: 糸山銀行が改称（改称登記日は銀總による。DBは月に「?」を付す）。1926年2月佐々銀行を買収。1939年8月31日、佐世保銀行との新立合併により解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jq_3aqVx22pe_gGyxy5QuewAR3g/description.html", https://ja.wikipedia.org/wiki/親和銀行]
 
 - id: shinwa
   name: 親和銀行
