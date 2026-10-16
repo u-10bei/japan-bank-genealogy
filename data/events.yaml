@@ -4513,3 +4513,10 @@
   to: [kyosai-mujin-tottori]
   note: 共済金融株式会社が共済無尽株式会社に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pURQ36W3Icq9Oth6ruGpigPKQGp/description.html"]
+
+- date: "1943-03-15"
+  type: absorption
+  from: [jonan-mujin]
+  to: [higo-mujin]
+  note: 肥後無尽が合併（3月1日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/K990E4w-QFio24NVah1GDenOG7k/description.html"]

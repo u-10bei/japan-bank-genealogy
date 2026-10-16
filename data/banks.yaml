@@ -6212,6 +6212,15 @@
   note: 初代熊本銀行（相互銀行から転換）。戦前の熊本銀行(kumamoto-old)とは別
   sources: [https://ja.wikipedia.org/wiki/熊本銀行, https://ja.wikipedia.org/wiki/熊本ファミリー銀行]
 
+- id: jonan-mujin
+  name: 城南無尽
+  type: other
+  founded: "1933-01-30"
+  dissolved: "1943-03-15"
+  prefecture: 熊本県
+  note: 1933年4月24日設立登記・開業。1943年3月15日肥後無尽に合併（3月1日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/K990E4w-QFio24NVah1GDenOG7k/description.html"]
+
 - id: higo-mujin
   name: 肥後無尽
   type: other
