@@ -2232,14 +2232,75 @@
   note: 1895年峰山銀行として設立、翌年丹後商工銀行に改称
   sources: [https://ja.wikipedia.org/wiki/京都銀行]
 
+- id: shiga-ginko-kyoto
+  name: 志賀銀行
+  type: other
+  founded: "1913"
+  dissolved: "1919-06-28"
+  prefecture: 京都府
+  note: 1919年6月28日何鹿銀行に改称（銀總は1919年、登記は10月か）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+
+- id: ikaruga-ginko
+  name: 何鹿銀行
+  type: other
+  founded: "1919-06-28"
+  dissolved: "1936-11-01"
+  prefecture: 京都府
+  note: 志賀銀行が改称。1926年北鹿銀行、1929年10月河守銀行を合併。1936年11月1日、治久・高木・福知山銀行と新立合併し両丹銀行に（Wikipediaは何鹿銀行の旧名を南但銀行とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+
+- id: hokuroku-ginko
+  name: 北鹿銀行
+  type: other
+  dissolved: "1926"
+  prefecture: 京都府
+  note: 1926年何鹿銀行に合併（合併認可は7月19日、京都銀行五十年史は4月合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+
+- id: kokami-ginko
+  name: 河守銀行
+  type: other
+  dissolved: "1929-10"
+  prefecture: 京都府
+  note: 1929年10月何鹿銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+
+- id: jiku-ginko
+  name: 治久銀行
+  type: other
+  founded: "1922"
+  dissolved: "1936-11-01"
+  prefecture: 京都府
+  note: 両丹銀行の新立合併に参加
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+
+- id: takagi-ginko
+  name: 高木銀行
+  type: other
+  founded: "1916"
+  dissolved: "1936-11-01"
+  prefecture: 京都府
+  note: 両丹銀行の新立合併に参加
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+
+- id: fukuchiyama-ginko
+  name: 福知山銀行
+  type: other
+  founded: "1922"
+  dissolved: "1936-11-01"
+  prefecture: 京都府
+  note: 両丹銀行の新立合併に参加
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+
 - id: ryotan
   name: 両丹銀行
   type: other
-  founded: "1936"
+  founded: "1936-11-01"
   dissolved: "1941-10-01"
   prefecture: 京都府
-  note: 何鹿銀行（旧南但銀行）などの合併により創立、本社福知山
-  sources: [https://ja.wikipedia.org/wiki/京都銀行]
+  note: 何鹿・治久・高木・福知山の4行の新立合併で設立（1936年10月27日認可、11月1日創立総会）、本社福知山
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html", https://ja.wikipedia.org/wiki/京都銀行]
 
 - id: tango-sangyo
   name: 丹後産業銀行

@@ -3844,3 +3844,29 @@
   to: [shinwa]
   note: 新立合併。8月26日認可、8月31日両行解散、9月1日創立総会・開業
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jq_3aqVx22pe_gGyxy5QuewAR3g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html", https://ja.wikipedia.org/wiki/親和銀行]
+
+# ---------------------------------------------------------------- 両丹銀行の前身（銀行変遷史データベース）
+- date: "1919-06-28"
+  type: rename
+  from: [shiga-ginko-kyoto]
+  to: [ikaruga-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+
+- date: "1926"
+  type: absorption
+  from: [hokuroku-ginko]
+  to: [ikaruga-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+
+- date: "1929-10"
+  type: absorption
+  from: [kokami-ginko]
+  to: [ikaruga-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
+
+- date: "1936-11-01"
+  type: merger
+  from: [ikaruga-ginko, jiku-ginko, takagi-ginko, fukuchiyama-ginko]
+  to: [ryotan]
+  note: 4行の新立合併（1936年10月27日認可、11月1日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/75yOUM0BAiiA1AqLhzqcJ1D8hik/description.html"]
