@@ -5913,15 +5913,16 @@
   dissolved: "1942-02-07"
   prefecture: 鹿児島県
   note: 鹿児島で設立（銀行総覧・旭相互銀行史年表は1929年1月10日、旭相互銀行史本文は4月10日創立とする）。1942年2月7日、鹿児島無尽・大島無尽・富国無尽と新立合併
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/YVXgG_NB7NoVekT5R0lvWRqcfM/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4c7L4ujQKNrZl_hGqr-TSV74A8l/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
 
 - id: fukoku-mujin
   name: 富国無尽
   type: other
+  founded: "1932"
   dissolved: "1942-02-07"
   prefecture: 鹿児島県
-  note: 1942年2月7日、鹿児島無尽・大島無尽・第一産業無尽と新立合併
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
+  note: 鹿児島で設立（設立日は銀行総覧が1932年9月15日、旭相互銀行史が8月31日とする）。1942年2月7日、鹿児島無尽・大島無尽・第一産業無尽と新立合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/YVXgG_NB7NoVekT5R0lvWRqcfM/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
 
 - id: kagoshima-mujin-1942
   name: 鹿児島無尽
