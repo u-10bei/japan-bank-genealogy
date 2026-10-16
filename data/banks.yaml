@@ -2045,13 +2045,31 @@
   note: 1894年12月12日設立認可、1895年1月4日開業。1940年10月28日第五十七銀行を買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zyyk3GAHEj6BTZFH1RAdK4g6wJ/description.html", https://ja.wikipedia.org/wiki/中越銀行]
 
+- id: toyama-soko
+  name: 富山倉庫銀行
+  type: other
+  dissolved: "1902-06-26"
+  prefecture: 富山県
+  note: 1902年6月26日富山橋北銀行に合併（北陸銀行「創業百年史」による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9wRk7ReZaHEpofhN7GAKp6ldBij/description.html"]
+
+- id: toyama-kyohoku
+  name: 富山橋北銀行
+  type: other
+  founded: "1896-03-14"
+  dissolved: "1911-06"
+  prefecture: 富山県
+  note: 設立日は銀行総覧・北陸銀行「創業百年史」の設立（認可）日（1896年2月9日創立総会、4月15日開業）。1902年6月26日富山倉庫銀行を合併。1911年6月富山銀行に改称（銀行総覧は6月7日、創業百年史は6月19日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9wRk7ReZaHEpofhN7GAKp6ldBij/description.html"]
+
 - id: toyama-2
   name: 富山銀行
   type: other
+  founded: "1911-06"
   dissolved: "1943-07-31"
   prefecture: 富山県
-  note: 2代目（旧富山橋北銀行）。現在の富山銀行とは別
-  sources: [https://ja.wikipedia.org/wiki/中越銀行, https://ja.wikipedia.org/wiki/富山銀行]
+  note: 2代目。1911年6月富山橋北銀行が改称（銀行総覧は6月7日、創業百年史は6月19日とする）。現在の富山銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9wRk7ReZaHEpofhN7GAKp6ldBij/description.html", https://ja.wikipedia.org/wiki/中越銀行, https://ja.wikipedia.org/wiki/富山銀行]
 
 - id: hokuriku
   name: 北陸銀行

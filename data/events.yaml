@@ -4597,3 +4597,17 @@
   to: [nara]
   note: 普通銀行（第二地方銀行協会加盟行）に転換
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UOgImIilnuBse3O-jaaWXAw7FJf/description.html"]
+
+- date: "1902-06-26"
+  type: absorption
+  from: [toyama-soko]
+  to: [toyama-kyohoku]
+  note: 富山橋北銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9wRk7ReZaHEpofhN7GAKp6ldBij/description.html"]
+
+- date: "1911-06"
+  type: rename
+  from: [toyama-kyohoku]
+  to: [toyama-2]
+  note: 富山銀行に改称（銀行総覧は6月7日、北陸銀行「創業百年史」は6月19日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9wRk7ReZaHEpofhN7GAKp6ldBij/description.html"]
