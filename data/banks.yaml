@@ -4846,10 +4846,11 @@
 - id: daiichi-kyoei-mujin
   name: 第一共栄無尽
   type: other
+  founded: "1933-06-26"
   dissolved: "1942-10-05"
   prefecture: 新潟県
-  note: 1942年10月5日、相互信用無尽・大森無尽商行と新立合併し新潟無尽となる。設立日は出典に記載なし
-  sources: [https://ja.wikipedia.org/wiki/新潟中央銀行]
+  note: 新潟で設立。1942年10月5日、相互信用無尽・大森無尽商行と新立合併し新潟無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nWiMl8v0ohALowzxbgkqEPyY3Sk/description.html", https://ja.wikipedia.org/wiki/新潟中央銀行]
 
 - id: niigata-mujin
   name: 新潟無尽
