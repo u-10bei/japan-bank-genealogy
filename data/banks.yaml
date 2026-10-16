@@ -5497,11 +5497,11 @@
   name: 住信SBIネット銀行
   name_en: "SBI Sumishin Net Bank, Ltd."
   type: new
-  founded: "2007-09"
+  founded: "2006-04-03"
   dissolved: "2026-08-03"
   prefecture: 東京都
-  note: 銀行としての開始（2007年9月商号変更・免許）を設立日とした。法人は住友信託銀行の事務受託子会社住信ビジネスサービスとして1986年6月設立（日はWikipedia）。2004年9月住信オフィスサービス、2006年4月SBI住信ネットバンク設立準備調査会社に商号変更。2007年9月（Wikipediaでは9月11日）住信SBIネット銀行に商号変更、9月18日免許取得、9月24日開業。2025年NTTドコモが公開買付けで株式取得、10月SBIHDとの資本関係解消
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VXGQ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YK3R", https://ja.wikipedia.org/wiki/ドコモSMTBネット銀行]
+  note: 住友信託銀行とSBIホールディングスが合弁で準備会社SBI住信ネットバンク設立準備調査会社を設立（銀行変遷史DB。Wikipediaは1986年6月設立の住友信託銀行子会社・住信ビジネスサービス→住信オフィスサービスが2006年4月に商号変更したとする）。2007年9月11日予備審査終了・住信SBIネット銀行に商号変更、9月18日銀行業免許、9月24日営業開始。2025年NTTドコモが公開買付けで株式取得、10月SBIHDとの資本関係解消
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/EpvgP6b6OMZ8a12mXyY3Qfogf1b/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VXGQ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YK3R", https://ja.wikipedia.org/wiki/ドコモSMTBネット銀行]
 
 - id: docomo-smtb-net-bank
   name: ドコモSMTBネット銀行
@@ -5509,7 +5509,7 @@
   founded: "2026-08-03"
   prefecture: 東京都
   note: NTTドコモと三井住友信託銀行が出資
-  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/ドコモSMTBネット銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/m_OKi1Yl55-aTGZCWBEvHfAtLWi/description.html", https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/ドコモSMTBネット銀行]
 
 - id: tokyo-kyodo-bank
   name: 東京共同銀行

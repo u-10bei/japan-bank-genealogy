@@ -2797,7 +2797,7 @@
   type: rename
   from: [sumishin-sbi-net-bank]
   to: [docomo-smtb-net-bank]
-  sources: [https://ja.wikipedia.org/wiki/ドコモSMTBネット銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/EpvgP6b6OMZ8a12mXyY3Qfogf1b/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/m_OKi1Yl55-aTGZCWBEvHfAtLWi/description.html", https://ja.wikipedia.org/wiki/ドコモSMTBネット銀行]
 
 - date: "1996-09-02"
   type: rename
