@@ -2081,13 +2081,22 @@
   note: 1938年10月13日買収認可、遠州銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
 
+- id: urakawa-ginko
+  name: 浦川銀行
+  type: other
+  founded: "1894-04-06"
+  dissolved: "1944-12-01"
+  prefecture: 静岡県
+  note: 拡産会社が改称（設立日は改称日）。1939年12月北遠銀行を遠州銀行と分割して買収。1944年12月1日静岡銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sRQDxwavWXF2lcCt2CFyPLYi51m/description.html"]
+
 - id: hokuen-ginko
   name: 北遠銀行
   type: other
   dissolved: "1939-12"
   prefecture: 静岡県
   note: 1939年12月5日分割買収認可。遠州銀行と浦川銀行が分割して買収
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sRQDxwavWXF2lcCt2CFyPLYi51m/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
 
 - id: seien-ginko-1928
   name: 西遠銀行

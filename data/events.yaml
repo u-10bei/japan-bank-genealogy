@@ -4027,8 +4027,9 @@
 - date: "1939-12"
   type: transfer
   from: [hokuen-ginko]
-  to: [enshu]
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+  to: [enshu, urakawa-ginko]
+  note: 遠州銀行と浦川銀行が分割買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sRQDxwavWXF2lcCt2CFyPLYi51m/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
 
 - date: "1941-01-01"
   type: transfer
@@ -4041,3 +4042,10 @@
   from: [amamiya-ginko, enyo-ginko]
   to: [enshu]
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bhiGQg__O92uQN7KH7lmGUrnwCi/description.html"]
+
+- date: "1944-12-01"
+  type: transfer
+  from: [urakawa-ginko]
+  to: [shizuoka]
+  note: 静岡銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sRQDxwavWXF2lcCt2CFyPLYi51m/description.html"]
