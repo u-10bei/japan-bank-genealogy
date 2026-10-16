@@ -44,7 +44,9 @@ GENERIC = set(
     "外国為替コルレス契約包括承認銀行 道内無尽".split()
 )
 # 海外の銀行（日本の銀行の系譜の対象外）
-FOREIGN = set("ドイツ銀行 ニューヨークメロン銀行 新韓銀行 SBI貯蓄銀行 代スイス貯蓄銀行 中國信託商業銀行 シティバンク".split())
+FOREIGN = set("バンカース・トラスト銀行 ドイツ銀行 ニューヨークメロン銀行 新韓銀行 SBI貯蓄銀行 代スイス貯蓄銀行 中國信託商業銀行 シティバンク".split())
+# 収録済みの銀行の別表記（出典による表記の揺れ。note に記載）
+VARIANTS = set("大洋無尽 太平洋無尽 太陽無尽 東邦建設無尽 大森無尽 交野無尽".split())
 # 現存するが、まだ収録対象にしていない銀行（新形態銀行・政府系など）
 CURRENT_UNLISTED = set(
     "セブン銀行 ゆうちょ銀行 イオン銀行 ローソン銀行 住信SBIネット銀行 楽天銀行 ソニー銀行 オリックス銀行 UI銀行 みんなの銀行 "
@@ -62,7 +64,13 @@ def extract(text: str) -> set[str]:
     t = N(text)
     for p in PATTERNS:
         for m in p.finditer(t):
-            raw = m.group(1)
+            raw, i = m.group(1), m.start(1)
+            # 「1937年宮城無尽」「2月1日阿蘇無尽」の日付の一部は名前に含めない
+            if i and t[i - 1].isdigit() and raw[0] in "年月日":
+                raw = raw[1:]
+            # 「ビー・エヌ・ピー」の途中（カナ＋中黒の直後）から始まる一致は捨てる
+            if i >= 2 and t[i - 1] == "・" and re.match(r"[\u30a0-\u30ff]", t[i - 2]):
+                continue
             # 「ビー・エヌ・ピー・パリバ信託銀行」のようなカナの中黒は分割しない
             parts = [raw] if re.search(r"[\u30a0-\u30ff]・[\u30a0-\u30ff]", raw) else raw.split("・")
             for part in parts:
@@ -152,7 +160,7 @@ def main() -> int:
     # 「日本マスタートラスト銀行」（＝日本マスタートラスト信託銀行）のような表記揺れは既知とみなす
     variant = lambda n: "信託" not in n and plain(n).replace("銀行", "信託銀行") in known  # noqa: E731
     old = {n: v for n, v in found.items()
-           if n not in known and plain(n) not in known and not variant(n) and n not in CURRENT_UNLISTED and n not in FOREIGN}
+           if n not in known and plain(n) not in known and not variant(n) and n not in CURRENT_UNLISTED and n not in FOREIGN and n not in VARIANTS}
     # 国立銀行時代の名称は、多くを後身の普通銀行と同じ項目にまとめて収録している（note に記載）
     national = {n: v for n, v in old.items() if n.endswith("国立銀行")}
     old = {n: v for n, v in old.items() if n not in national}
