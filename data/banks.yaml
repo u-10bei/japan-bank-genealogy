@@ -1359,13 +1359,71 @@
   note: 戦後地銀。2003年に北埼信用組合を合併
   sources: [https://ja.wikipedia.org/wiki/武蔵野銀行]
 
+- id: narita-ginko
+  name: 成田銀行
+  type: other
+  dissolved: "1918-06-21"
+  prefecture: 千葉県
+  note: 1918年6月21日総武銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- id: sobu-ginko
+  name: 総武銀行
+  type: other
+  founded: "1918-06-21"
+  dissolved: "1928-07-01"
+  prefecture: 千葉県
+  note: 成田銀行が改称。北総・多古・成東銀行を合併。1928年7月1日安房合同銀行・三協銀行を合併し千葉合同銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- id: hokuso-ginko
+  name: 北総銀行
+  type: other
+  dissolved: "1919-12-26"
+  prefecture: 千葉県
+  note: 1919年12月26日総武銀行に合併（千葉銀行史。登記は1920年1月か）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- id: tako-ginko
+  name: 多古銀行
+  type: other
+  dissolved: "1921-10-20"
+  prefecture: 千葉県
+  note: 1921年10月20日総武銀行に合併（千葉銀行史）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- id: naruto-ginko
+  name: 成東銀行
+  type: other
+  dissolved: "1923-05-23"
+  prefecture: 千葉県
+  note: 1923年5月23日総武銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- id: awa-godo
+  name: 安房合同銀行
+  type: other
+  dissolved: "1928-07-01"
+  prefecture: 千葉県
+  note: 1928年7月1日総武銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- id: sankyo-chiba
+  name: 三協銀行
+  type: other
+  dissolved: "1928-07-01"
+  prefecture: 千葉県
+  note: 1928年7月1日総武銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
 - id: chiba-godo
   name: 千葉合同銀行
   type: other
+  founded: "1928-07-01"
   dissolved: "1943-03-31"
   prefecture: 千葉県
-  note: 旧総武銀行に遡る。設立日は出典に記載なし
-  sources: [https://ja.wikipedia.org/wiki/千葉銀行]
+  note: 総武銀行が安房合同銀行・三協銀行を合併して改称（1928年6月合併改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html", https://ja.wikipedia.org/wiki/千葉銀行]
 
 - id: omigawa-nosho
   name: 小見川農商銀行

@@ -3904,3 +3904,41 @@
   to: [sanyo-okayama]
   note: 新立合併（1924年6月30日認可、7月24日創立総会・開業）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/69m9Et19-S8GmTeq-kt6y0g7ilm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
+
+# ---------------------------------------------------------------- 千葉合同銀行の前身（銀行変遷史データベース）
+- date: "1918-06-21"
+  type: rename
+  from: [narita-ginko]
+  to: [sobu-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- date: "1919-12-26"
+  type: absorption
+  from: [hokuso-ginko]
+  to: [sobu-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- date: "1921-10-20"
+  type: absorption
+  from: [tako-ginko]
+  to: [sobu-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- date: "1923-05-23"
+  type: absorption
+  from: [naruto-ginko]
+  to: [sobu-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- date: "1928-07-01"
+  type: absorption
+  from: [awa-godo, sankyo-chiba]
+  to: [sobu-ginko]
+  note: 同日、千葉合同銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
+
+- date: "1928-07-01"
+  type: rename
+  from: [sobu-ginko]
+  to: [chiba-godo]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lLkQV086dWQ3BZNnKfUO7PEuspb/description.html"]
