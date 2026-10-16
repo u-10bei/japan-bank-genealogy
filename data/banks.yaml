@@ -2452,14 +2452,23 @@
   prefecture: 静岡県
   sources: [https://ja.wikipedia.org/wiki/清水銀行]
 
+- id: seien-mujin
+  name: 西遠無尽
+  type: other
+  founded: "1916-03-22"
+  dissolved: "1952-07-01"
+  prefecture: 静岡県
+  note: 設立日は創立総会の日（中部銀行史は1916年4月1日設立登記、7月27日無尽営業免許とする。Wikipediaの「1916年4月設立」は設立登記の月）。1952年7月1日中部相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/uns92GzrYKEJ-EqSnarhGAIz70j/description.html", https://ja.wikipedia.org/wiki/中部銀行]
+
 - id: chubu-sogo
   name: 中部相互銀行
   type: other
-  founded: "1952-07"
+  founded: "1952-07-01"
   dissolved: "1989-02"
   prefecture: 静岡県
-  note: 1916年4月設立の西遠無尽が前身
-  sources: [https://ja.wikipedia.org/wiki/中部銀行]
+  note: 1952年7月1日、相互銀行への転換で西遠無尽が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/uns92GzrYKEJ-EqSnarhGAIz70j/description.html", https://ja.wikipedia.org/wiki/中部銀行]
 
 - id: chubu
   name: 中部銀行

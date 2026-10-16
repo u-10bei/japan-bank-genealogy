@@ -4414,3 +4414,10 @@
   to: [mie-kangyo-mujin]
   note: 合資会社を株式会社に改組（新設の株式会社が業務を継承）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rLTdO4TmDijumbg9eSZAZ2V1s2p/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_pPcjFHolYu_QCnOKwciktMW7kb/description.html"]
+
+- date: "1952-07-01"
+  type: rename
+  from: [seien-mujin]
+  to: [chubu-sogo]
+  note: 相互銀行に転換（同日転換免許）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/uns92GzrYKEJ-EqSnarhGAIz70j/description.html"]
