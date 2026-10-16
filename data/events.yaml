@@ -666,15 +666,15 @@
   type: absorption
   from: [dai123-kokuritsu]
   to: [dai12-kokuritsu]
-  note: 本店を富山へ移転し富山第十二国立銀行に。十二銀行の記事では1884年10月28日とする記載もある
-  sources: [https://ja.wikipedia.org/wiki/北陸銀行, https://ja.wikipedia.org/wiki/十二銀行]
+  note: 本店を富山へ移転し富山第十二国立銀行に（日付は銀行変遷史DB・北陸銀行「創業百年史」による。Wikipediaの十二銀行の記事は1884年10月28日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7GX6_sffVBSzmCUu9-VYaBNsR2/description.html", https://ja.wikipedia.org/wiki/北陸銀行, https://ja.wikipedia.org/wiki/十二銀行]
 
-- date: "1897-07"
+- date: "1897-07-02"
   type: rename
   from: [dai12-kokuritsu]
   to: [juni]
-  note: 北陸銀行記事は7月16日、十二銀行記事は7月2日
-  sources: [https://ja.wikipedia.org/wiki/北陸銀行, https://ja.wikipedia.org/wiki/十二銀行]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（7月1日満期、3月27日満期継続許可）。日付は北陸銀行「創業百年史」・Wikipediaの十二銀行の記事による（Wikipediaの北陸銀行の記事は7月16日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7GX6_sffVBSzmCUu9-VYaBNsR2/description.html", https://ja.wikipedia.org/wiki/北陸銀行, https://ja.wikipedia.org/wiki/十二銀行]
 
 - date: "1920-06-18"
   type: merger

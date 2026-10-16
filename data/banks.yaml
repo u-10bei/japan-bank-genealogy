@@ -1988,11 +1988,11 @@
 - id: dai12-kokuritsu
   name: 第十二国立銀行
   type: other
-  founded: "1877-08-26"
-  dissolved: "1897-07"
+  founded: "1877-07-02"
+  dissolved: "1897-07-02"
   prefecture: 富山県
-  note: 金沢で開業、1884年に第百二十三国立銀行と合併し本店を富山へ移転（富山第十二国立銀行）
-  sources: [https://ja.wikipedia.org/wiki/北陸銀行, https://ja.wikipedia.org/wiki/十二銀行]
+  note: 石川県金沢で設立（1877年7月2日設立認可・開業免状下付、8月26日開業）。1884年1月4日第百二十三国立銀行を合併し本店を富山へ移転（富山第十二国立銀行）。1897年7月、営業満期国立銀行処分法により私立銀行として営業を継続し十二銀行に改称（銀行変遷史DB・北陸銀行「創業百年史」による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7GX6_sffVBSzmCUu9-VYaBNsR2/description.html", https://ja.wikipedia.org/wiki/北陸銀行, https://ja.wikipedia.org/wiki/十二銀行]
 
 - id: dai123-kokuritsu
   name: 第百二十三国立銀行
@@ -2006,7 +2006,7 @@
 - id: juni
   name: 十二銀行
   type: other
-  founded: "1897-07"
+  founded: "1897-07-02"
   dissolved: "1943-07-31"
   prefecture: 富山県
   sources: [https://ja.wikipedia.org/wiki/北陸銀行, https://ja.wikipedia.org/wiki/十二銀行]
