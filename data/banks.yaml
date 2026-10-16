@@ -381,9 +381,10 @@
   name: 北洋銀行
   name_en: North Pacific Bank
   type: regional2
-  founded: "1917"
+  founded: "1989-02"
   prefecture: 北海道
-  sources: [https://ja.wikipedia.org/wiki/北洋銀行]
+  note: 1917年8月北海道無尽として設立、小樽無尽・北洋無尽・北洋相互銀行を経て1989年2月普通銀行転換。1998年11月拓銀の道内営業を譲受、2008年10月札幌銀行を吸収合併、2012年10月札幌北洋HDを吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP", https://ja.wikipedia.org/wiki/北洋銀行]
 
 - id: ltcb
   name: 日本長期信用銀行
@@ -2993,4 +2994,1899 @@
   prefecture: 沖縄県
   note: 1972年5月本土復帰に伴い地銀協加盟。2021年おきなわフィナンシャルグループ傘下
   sources: [https://ja.wikipedia.org/wiki/沖縄銀行]
+
+# ---------------------------------------------------------------- 第二地方銀行（北海道・東北・関東）
+- id: hokkaido-mujin-1917
+  name: 北海道無尽
+  type: other
+  founded: "1917-08-20"
+  dissolved: "1918-01"
+  prefecture: 北海道
+  note: 北洋銀行の前身。有報は1917年8月、日付はWikipediaによる。1950年設立の北海道無尽（札幌銀行の前身）とは別会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP", https://ja.wikipedia.org/wiki/北洋銀行]
+
+- id: otaru-mujin
+  name: 小樽無尽
+  type: other
+  founded: "1918-01"
+  dissolved: "1944-02"
+  prefecture: 北海道
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP"]
+
+- id: hokuyo-mujin
+  name: 北洋無尽
+  type: other
+  founded: "1944-02"
+  dissolved: "1951-10"
+  prefecture: 北海道
+  note: Wikipediaでは道内無尽5社を統合とするが、有報は商号変更とのみ記載。1945年本店を小樽から札幌へ移転（Wikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP", https://ja.wikipedia.org/wiki/北洋銀行]
+
+- id: hokuyo-sogo
+  name: 北洋相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 北海道
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP"]
+
+- id: hokkaido-mujin-1950
+  name: 北海道無尽
+  type: other
+  founded: "1950-12"
+  dissolved: "1951-10-20"
+  prefecture: 北海道
+  note: 札幌銀行の前身。1917年設立の北海道無尽（北洋銀行の前身）とは別会社
+  sources: [https://ja.wikipedia.org/wiki/札幌銀行]
+
+- id: hokkaido-sogo
+  name: 北海道相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 北海道
+  note: 通称「道相銀」
+  sources: [https://ja.wikipedia.org/wiki/札幌銀行]
+
+- id: sapporo
+  name: 札幌銀行
+  name_en: The Sapporo Bank
+  type: regional2
+  founded: "1989-02-01"
+  dissolved: "2008-10-14"
+  prefecture: 北海道
+  note: 2001年4月北洋銀行と札幌北洋ホールディングスを共同設立。2008年北洋銀行に吸収合併
+  sources: [https://ja.wikipedia.org/wiki/札幌銀行, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP"]
+
+- id: yamagata-shokusan
+  name: 山形殖産
+  type: other
+  founded: "1914-01-03"
+  dissolved: "1915"
+  prefecture: 山形県
+  note: 殖産会社として設立、1914年2月1日営業開始
+  sources: [https://ja.wikipedia.org/wiki/殖産銀行, https://ja.wikipedia.org/wiki/きらやか銀行]
+
+- id: yamagata-shokusan-mujin
+  name: 山形殖産無尽
+  type: other
+  founded: "1915"
+  dissolved: "1951"
+  prefecture: 山形県
+  sources: [https://ja.wikipedia.org/wiki/殖産銀行]
+
+- id: shokusan-sogo
+  name: 殖産相互銀行
+  type: other
+  founded: "1951"
+  dissolved: "1989-02-01"
+  prefecture: 山形県
+  sources: [https://ja.wikipedia.org/wiki/殖産銀行]
+
+- id: shokusan
+  name: 殖産銀行
+  type: regional2
+  founded: "1989-02-01"
+  dissolved: "2007-05-07"
+  prefecture: 山形県
+  note: 2005年きらやかホールディングスの完全子会社
+  sources: [https://ja.wikipedia.org/wiki/殖産銀行]
+
+- id: ryou-mujin
+  name: 両羽無尽
+  type: other
+  founded: "1941-01-27"
+  dissolved: "1951-10-20"
+  prefecture: 山形県
+  note: 無尽会社2社の合併により設立（前身2社の名称は未確認）
+  sources: [https://ja.wikipedia.org/wiki/山形しあわせ銀行]
+
+- id: yamagata-sogo
+  name: 山形相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 山形県
+  sources: [https://ja.wikipedia.org/wiki/山形しあわせ銀行]
+
+- id: yamagata-shiawase
+  name: 山形しあわせ銀行
+  type: regional2
+  founded: "1989-02-01"
+  dissolved: "2007-05-07"
+  prefecture: 山形県
+  note: 2005年きらやかホールディングスの完全子会社
+  sources: [https://ja.wikipedia.org/wiki/山形しあわせ銀行, https://ja.wikipedia.org/wiki/きらやか銀行]
+
+- id: kirayaka
+  name: きらやか銀行
+  name_en: The Kirayaka Bank
+  type: regional2
+  founded: "2007-05-07"
+  prefecture: 山形県
+  note: 2008年10月きらやかホールディングスを吸収合併。2012年10月仙台銀行と共同株式移転でじもとホールディングスを設立（有報）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDEF", https://ja.wikipedia.org/wiki/きらやか銀行]
+
+- id: iwate-mujin
+  name: 岩手無尽
+  type: other
+  dissolved: "1942-02-02"
+  prefecture: 岩手県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- id: morioka-mujin
+  name: 盛岡無尽
+  type: other
+  dissolved: "1942-02-02"
+  prefecture: 岩手県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- id: iwate-kosan-mujin
+  name: 岩手興産無尽
+  type: other
+  founded: "1942-02-02"
+  dissolved: "1950-08"
+  prefecture: 岩手県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- id: kosan-mujin
+  name: 興産無尽
+  type: other
+  founded: "1950-08"
+  dissolved: "1951-10"
+  prefecture: 岩手県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- id: kosan-sogo
+  name: 興産相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1966-07"
+  prefecture: 岩手県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- id: kita-nippon-sogo
+  name: 北日本相互銀行
+  type: other
+  founded: "1966-07"
+  dissolved: "1989-02"
+  prefecture: 岩手県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- id: kita-nippon
+  name: 北日本銀行
+  name_en: The Kita-Nippon Bank
+  type: regional2
+  founded: "1989-02"
+  prefecture: 岩手県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP", https://ja.wikipedia.org/wiki/北日本銀行]
+
+- id: shinko-mujin
+  name: 振興無尽
+  type: other
+  founded: "1951-07-05"
+  dissolved: "1952"
+  prefecture: 宮城県
+  sources: [https://ja.wikipedia.org/wiki/仙台銀行]
+
+- id: shinko-sogo
+  name: 振興相互銀行
+  type: other
+  founded: "1952"
+  dissolved: "1989"
+  prefecture: 宮城県
+  sources: [https://ja.wikipedia.org/wiki/仙台銀行]
+
+- id: sendai
+  name: 仙台銀行
+  name_en: The Sendai Bank
+  type: regional2
+  founded: "1989"
+  prefecture: 宮城県
+  note: 2012年10月きらやか銀行と共同株式移転でじもとホールディングスを設立（有報）。転換日の月日は未確認
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDEF", https://ja.wikipedia.org/wiki/仙台銀行]
+
+- id: tokuyo-sogo
+  name: 徳陽相互銀行
+  type: other
+  founded: "1942-04-01"
+  dissolved: "1990-08"
+  prefecture: 宮城県
+  note: 1942年宮城無尽・太陽無尽・東北無尽の合併で三徳無尽として発足、1951年10月徳陽相互銀行に改称
+  sources: [https://ja.wikipedia.org/wiki/徳陽シティ銀行]
+
+- id: tokuyo-city
+  name: 徳陽シティ銀行
+  type: regional2
+  founded: "1990-08"
+  dissolved: "1999-01-24"
+  prefecture: 宮城県
+  note: 1997年11月26日経営破綻、1998年11月16日営業終了、1999年1月24日解散
+  sources: [https://ja.wikipedia.org/wiki/徳陽シティ銀行]
+
+- id: yumoto-shinyo-mujin
+  name: 湯本信用無尽
+  type: other
+  founded: "1922-11-27"
+  dissolved: "1939-11"
+  prefecture: 福島県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCO6"]
+
+- id: fukushima-mujin-kinko
+  name: 福島無尽金庫
+  type: other
+  founded: "1939-11"
+  dissolved: "1951-10"
+  prefecture: 福島県
+  note: 1939年11月福島無尽を吸収合併して改称、本店を福島市へ移転
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCO6"]
+
+- id: fukushima-sogo
+  name: 福島相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 福島県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCO6"]
+
+- id: fukushima
+  name: 福島銀行
+  name_en: The Fukushima Bank
+  type: regional2
+  founded: "1989-02"
+  prefecture: 福島県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCO6", https://ja.wikipedia.org/wiki/福島銀行]
+
+- id: koriyama-mujin
+  name: 郡山無尽
+  type: other
+  dissolved: "1942-08-18"
+  prefecture: 福島県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHKN"]
+
+- id: aizu-kangyo-mujin
+  name: 会津勧業無尽
+  type: other
+  dissolved: "1942-08-18"
+  prefecture: 福島県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHKN"]
+
+- id: iwaki-mujin
+  name: 磐城無尽
+  type: other
+  dissolved: "1942-08-18"
+  prefecture: 福島県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHKN"]
+
+- id: daito-mujin
+  name: 大東無尽
+  type: other
+  founded: "1942-08-18"
+  dissolved: "1951-10"
+  prefecture: 福島県
+  note: 有報は1942年8月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHKN", https://ja.wikipedia.org/wiki/大東銀行]
+
+- id: daito-sogo
+  name: 大東相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02-01"
+  prefecture: 福島県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHKN"]
+
+- id: daito
+  name: 大東銀行
+  name_en: The Daito Bank
+  type: regional2
+  founded: "1989-02-01"
+  prefecture: 福島県
+  note: 2002年12月水戸支店を茨城銀行へ、2003年2月仙台支店の一部を仙台銀行へ営業譲渡（Wikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHKN", https://ja.wikipedia.org/wiki/大東銀行]
+
+- id: gunma-chochiku-mujin
+  name: 群馬貯蓄無尽
+  type: other
+  founded: "1917-06-11"
+  dissolved: "1918-04"
+  prefecture: 群馬県
+  note: 本店館林
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- id: gunma-mujin
+  name: 群馬無尽
+  type: other
+  founded: "1918-04"
+  dissolved: "1942-09-30"
+  prefecture: 群馬県
+  note: 本店を前橋へ移転
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- id: jomo-mujin
+  name: 上毛無尽
+  type: other
+  founded: "1927-06"
+  dissolved: "1942-09-30"
+  prefecture: 群馬県
+  note: 本店高崎
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- id: kanto-mujin
+  name: 関東無尽
+  type: other
+  founded: "1929-12"
+  dissolved: "1942-09-30"
+  prefecture: 群馬県
+  note: 本店桐生
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- id: gunma-taisei-mujin
+  name: 群馬大生無尽
+  type: other
+  founded: "1942-09-30"
+  dissolved: "1951-10"
+  prefecture: 群馬県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- id: ogawa-mujin
+  name: 小川無尽
+  type: other
+  dissolved: "1951-09"
+  prefecture: 埼玉県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- id: taisei-sogo
+  name: 大生相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02-01"
+  prefecture: 群馬県
+  note: 1973年深川信用組合、1977年赤羽信用組合と合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- id: towa
+  name: 東和銀行
+  name_en: The Towa Bank
+  type: regional2
+  founded: "1989-02-01"
+  prefecture: 群馬県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF", https://ja.wikipedia.org/wiki/東和銀行]
+
+- id: nosho-mujin
+  name: 農商無尽
+  type: other
+  dissolved: "1942-12-08"
+  prefecture: 栃木県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE6L"]
+
+- id: fugen-mujin
+  name: 富源無尽
+  type: other
+  dissolved: "1942-12-08"
+  prefecture: 栃木県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE6L"]
+
+- id: ashikaga-mujin
+  name: 足利無尽
+  type: other
+  dissolved: "1942-12-08"
+  prefecture: 栃木県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE6L"]
+
+- id: tochigi-mujin
+  name: 栃木無尽
+  type: other
+  founded: "1942-12-08"
+  dissolved: "1952-07"
+  prefecture: 栃木県
+  note: 有報は1942年12月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE6L", https://ja.wikipedia.org/wiki/栃木銀行]
+
+- id: tochigi-sogo
+  name: 栃木相互銀行
+  type: other
+  founded: "1952-07"
+  dissolved: "1989-02"
+  prefecture: 栃木県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE6L"]
+
+- id: tochigi
+  name: 栃木銀行
+  name_en: The Tochigi Bank
+  type: regional2
+  founded: "1989-02"
+  prefecture: 栃木県
+  note: 2002年6月破綻した栃木県中央信用組合の事業を譲受（Wikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE6L", https://ja.wikipedia.org/wiki/栃木銀行]
+
+- id: chiba-mujin
+  name: 千葉無尽
+  type: other
+  dissolved: "1943-03-31"
+  prefecture: 千葉県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2"]
+
+- id: taisho-mujin
+  name: 大昭無尽
+  type: other
+  dissolved: "1943-03-31"
+  prefecture: 千葉県
+  note: 本店館山
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2"]
+
+- id: chiba-kyoei-mujin
+  name: 千葉共栄無尽
+  type: other
+  dissolved: "1943-03-31"
+  prefecture: 千葉県
+  note: 本店東金町
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2"]
+
+- id: chiba-godo-mujin
+  name: 千葉合同無尽
+  type: other
+  founded: "1943-03-31"
+  dissolved: "1951-10"
+  prefecture: 千葉県
+  note: 千葉合同銀行（chiba-godo）とは別会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2"]
+
+- id: kokumin-kyosai-mujin
+  name: 国民共済無尽
+  type: other
+  dissolved: "1945-07"
+  note: 本店所在地は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2"]
+
+- id: chiba-sogo
+  name: 千葉相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 千葉県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2"]
+
+- id: keiyo
+  name: 京葉銀行
+  name_en: The Keiyo Bank
+  type: regional2
+  founded: "1989-02"
+  prefecture: 千葉県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2", https://ja.wikipedia.org/wiki/京葉銀行]
+
+- id: joban-mujin
+  name: 常磐無尽
+  type: other
+  founded: "1924-04-05"
+  dissolved: "1951"
+  prefecture: 茨城県
+  note: 水戸市で設立
+  sources: [https://ja.wikipedia.org/wiki/東日本銀行]
+
+- id: joban-sogo
+  name: 常磐相互銀行
+  type: other
+  founded: "1951"
+  dissolved: "1973"
+  prefecture: 東京都
+  note: 1952年本店を東京都千代田区へ移転
+  sources: [https://ja.wikipedia.org/wiki/東日本銀行]
+
+- id: tokiwa-sogo
+  name: ときわ相互銀行
+  type: other
+  founded: "1973"
+  dissolved: "1989"
+  prefecture: 東京都
+  sources: [https://ja.wikipedia.org/wiki/東日本銀行]
+
+- id: higashi-nippon
+  name: 東日本銀行
+  name_en: The Higashi-Nippon Bank
+  type: regional2
+  founded: "1989"
+  prefecture: 東京都
+  note: 2016年4月横浜銀行と共同株式移転でコンコルディア・フィナンシャルグループを設立（有報）。転換日の月日は未確認
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TNGG", https://ja.wikipedia.org/wiki/東日本銀行]
+
+- id: tokyo-sogo
+  name: 東京相互銀行
+  type: other
+  founded: "1950-02"
+  dissolved: "1989-02"
+  prefecture: 東京都
+  note: 1950年2月東京協和殖産無尽として設立、1951年1月東京殖産無尽、1951年10月東京相互銀行に改称
+  sources: [https://ja.wikipedia.org/wiki/東京相和銀行]
+
+- id: tokyo-sowa
+  name: 東京相和銀行
+  type: regional2
+  founded: "1989-02"
+  dissolved: "2001-07-23"
+  prefecture: 東京都
+  note: 1999年6月12日破綻、2001年6月営業を東京スター銀行へ譲渡、同年7月23日解散
+  sources: [https://ja.wikipedia.org/wiki/東京相和銀行, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OCCS"]
+
+- id: tokyo-star
+  name: 東京スター銀行
+  name_en: The Tokyo Star Bank
+  type: regional2
+  founded: "2001-01"
+  prefecture: 東京都
+  note: 2001年1月日本ファイナンス・インベストメンツとして設立、同年5月商号変更・銀行免許取得。2002年に信用組合3組合の店舗を譲受。2014年中國信託商業銀行の完全子会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OCCS", https://ja.wikipedia.org/wiki/東京スター銀行]
+
+- id: kanagawa-sogo
+  name: 神奈川相互銀行
+  type: other
+  founded: "1953-07-30"
+  dissolved: "1989-04-01"
+  prefecture: 神奈川県
+  note: 有報は1953年7月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100O9VR", https://ja.wikipedia.org/wiki/神奈川銀行]
+
+- id: kanagawa
+  name: 神奈川銀行
+  name_en: The Kanagawa Bank
+  type: regional2
+  founded: "1989-04-01"
+  prefecture: 神奈川県
+  note: "2023年4月横浜銀行が株式84.63%を取得し子会社化、同年6月完全子会社化（コンコルディアFG有報）"
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100O9VR", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TNGG", https://ja.wikipedia.org/wiki/神奈川銀行]
+
+# ---------------------------------------------------------------- 第二地方銀行（中部・近畿）
+- id: hokuetsu-sangyo-mujin
+  name: 北越産業無尽
+  type: other
+  dissolved: "1942-03-10"
+  prefecture: 新潟県
+  note: 国民無尽商会と合併し大光無尽を設立。設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1U"]
+
+- id: kokumin-mujin-shokai
+  name: 国民無尽商会
+  type: other
+  dissolved: "1942-03-10"
+  prefecture: 新潟県
+  note: 北越産業無尽と合併し大光無尽を設立。設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1U"]
+
+- id: taiko-mujin
+  name: 大光無尽
+  type: other
+  founded: "1942-03-10"
+  dissolved: "1951-10-20"
+  prefecture: 新潟県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1U", https://ja.wikipedia.org/wiki/大光銀行]
+
+- id: taiko-sogo
+  name: 大光相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-08-01"
+  prefecture: 新潟県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1U"]
+
+- id: taiko
+  name: 大光銀行
+  name_en: "The Taiko Bank, Ltd."
+  type: regional2
+  founded: "1989-08-01"
+  prefecture: 新潟県
+  note: 本店長岡市。2001年5月新潟中央銀行の営業を一部譲受。2022年SBIHDと資本業務提携
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1U", https://ja.wikipedia.org/wiki/大光銀行]
+
+- id: niigata-mujin
+  name: 新潟無尽
+  type: other
+  founded: "1942-10-03"
+  dissolved: "1951-10-20"
+  prefecture: 新潟県
+  note: 相互信用無尽・大森無尽商行・第一共栄無尽の3社合併で設立
+  sources: [https://ja.wikipedia.org/wiki/新潟中央銀行]
+
+- id: niigata-sogo
+  name: 新潟相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 新潟県
+  sources: [https://ja.wikipedia.org/wiki/新潟中央銀行]
+
+- id: niigata-chuo
+  name: 新潟中央銀行
+  type: regional2
+  founded: "1989-02-01"
+  dissolved: "2001-06-30"
+  prefecture: 新潟県
+  note: 1999年10月2日破綻。2001年5月14日に営業を第四・大光・群馬・東和・八十二・東日本の各行へ譲渡、6月30日解散（2006年11月閉鎖登記）
+  sources: [https://ja.wikipedia.org/wiki/新潟中央銀行]
+
+- id: chuetsu-mujin
+  name: 中越無尽
+  type: other
+  dissolved: "1944-10-01"
+  prefecture: 富山県
+  note: 富山合同無尽の前身の一つ。設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- id: mujin-koshi-kyoeki
+  name: 無尽公司共益
+  type: other
+  dissolved: "1944-10-01"
+  prefecture: 富山県
+  note: 富山合同無尽の前身の一つ。設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- id: meisei-mujin
+  name: 明正無尽
+  type: other
+  dissolved: "1944-10-01"
+  prefecture: 富山県
+  note: 富山合同無尽の前身の一つ。設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- id: toyama-godo-mujin
+  name: 富山合同無尽
+  type: other
+  founded: "1944-10-01"
+  dissolved: "1951-10-20"
+  prefecture: 富山県
+  note: 有報は1944年10月設立とのみ記載。日付はWikipediaによる。同年12月16日日本海無尽から営業権譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB2", https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- id: toyama-sogo
+  name: 富山相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 富山県
+  note: 有報は1951年10月とのみ記載。日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB2", https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- id: toyama-daiichi
+  name: 富山第一銀行
+  name_en: "The Toyama First Bank, Ltd."
+  type: regional2
+  founded: "1989-02-01"
+  prefecture: 富山県
+  note: 1989年1月25日普通銀行転換の本認可。2003年3月石川銀行から2店舗譲受、2008年4月名古屋支店を名古屋銀行へ譲渡
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB2", https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- id: izu-mujin
+  name: 伊豆無尽
+  type: other
+  founded: "1926-11-12"
+  dissolved: "1948-04"
+  prefecture: 静岡県
+  note: 1927年2月営業開始。有報は1926年11月設立とのみ記載、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS", https://ja.wikipedia.org/wiki/静岡中央銀行]
+
+- id: taiyo-mujin
+  name: 太洋無尽
+  type: other
+  founded: "1948-04"
+  dissolved: "1951-10"
+  prefecture: 静岡県
+  note: Wikipediaは「大洋無尽」と表記するが有報の「太洋」に従う
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS", https://ja.wikipedia.org/wiki/静岡中央銀行]
+
+- id: taiyo-sogo-shizuoka
+  name: 太洋相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1957-09"
+  prefecture: 静岡県
+  note: Wikipediaは「大洋相互銀行」と表記するが有報の「太洋」に従う
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS", https://ja.wikipedia.org/wiki/静岡中央銀行]
+
+- id: suruga-mujin
+  name: 駿河無尽
+  type: other
+  founded: "1928-01-04"
+  dissolved: "1952-10"
+  prefecture: 静岡県
+  sources: [https://ja.wikipedia.org/wiki/静岡中央銀行]
+
+- id: seishin-sogo
+  name: 静神相互銀行
+  type: other
+  founded: "1952-10"
+  dissolved: "1957-09"
+  prefecture: 静岡県
+  note: 駿河無尽が相互銀行に転換・改称
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS", https://ja.wikipedia.org/wiki/静岡中央銀行]
+
+- id: shizuoka-sogo
+  name: 静岡相互銀行
+  type: other
+  founded: "1957-09"
+  dissolved: "1989-08"
+  prefecture: 静岡県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS"]
+
+- id: shizuoka-chuo
+  name: 静岡中央銀行
+  name_en: "The Shizuoka Chuo Bank, Ltd."
+  type: regional2
+  founded: "1989-08"
+  prefecture: 静岡県
+  note: 本店沼津市。2003年3月日本承継銀行経由で中部銀行の営業の一部を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS", https://ja.wikipedia.org/wiki/静岡中央銀行]
+
+- id: nagoya-shokusan-mujin
+  name: 名古屋殖産無尽
+  type: other
+  founded: "1949-02-24"
+  dissolved: "1951-10"
+  prefecture: 愛知県
+  note: 1949年2月24日共和殖産として岡崎市で設立、同年7月名古屋殖産、12月無尽業内免許を受け名古屋殖産無尽に改称
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZ0", https://ja.wikipedia.org/wiki/名古屋銀行]
+
+- id: nagoya-sogo
+  name: 名古屋相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 愛知県
+  note: 1951年10月18日相互銀行営業内免許・商号変更、10月20日正式免許。1969〜72年に信用組合4組合を合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZ0"]
+
+- id: nagoya
+  name: 名古屋銀行
+  name_en: "The Bank of Nagoya, Ltd."
+  type: regional2
+  founded: "1989-02"
+  prefecture: 愛知県
+  note: 戦前の名古屋銀行（1941年東海銀行に合併）とは別。2001年6月十六銀行と店舗を相互に営業譲渡（岐阜3店譲渡・愛知4店譲受）、2008年4月富山第一銀行名古屋支店を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZ0", https://ja.wikipedia.org/wiki/名古屋銀行]
+
+- id: nippon-chochiku-kogyo
+  name: 日本貯蓄興業
+  type: other
+  founded: "1910-09-17"
+  dissolved: "1916-10-23"
+  prefecture: 愛知県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- id: nagoya-mujin
+  name: 名古屋無尽
+  type: other
+  founded: "1916-10-23"
+  dissolved: "1942-02-04"
+  prefecture: 愛知県
+  note: 有報は1916年10月とのみ記載、日付はWikipediaによる。法人格は愛知銀行・あいち銀行へ継続（設立日1910年9月17日）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- id: aichi-mujin-1918
+  name: 愛知無尽
+  type: other
+  founded: "1918-06-24"
+  dissolved: "1942-02-04"
+  prefecture: 愛知県
+  note: 株式会社愛知無尽。本店丹羽郡
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF"]
+
+- id: aichi-mujin
+  name: 愛知無尽
+  type: other
+  founded: "1942-02-04"
+  dissolved: "1944-05-15"
+  prefecture: 愛知県
+  note: 名古屋無尽と株式会社愛知無尽の合併で設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- id: kangyo-mujin-aichi
+  name: 勧業無尽
+  type: other
+  founded: "1941-08-01"
+  dissolved: "1944-05-15"
+  prefecture: 愛知県
+  note: 本店名古屋市。壽無尽・榮無尽・昭和商工無尽の合併で設立。有報は1941年8月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- id: tokai-mujin
+  name: 東海無尽
+  type: other
+  founded: "1941-09"
+  dissolved: "1944-05-15"
+  prefecture: 愛知県
+  note: 本店豊橋市。豊橋無尽と日本無尽の合併で設立。設立は有報の1941年9月に従う（Wikipediaは1941年8月7日）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- id: aichi-godo-mujin
+  name: 愛知合同無尽
+  type: other
+  founded: "1944-05-15"
+  dissolved: "1948-02-27"
+  prefecture: 愛知県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- id: chuo-mujin-aichi
+  name: 中央無尽
+  type: other
+  founded: "1948-02-27"
+  dissolved: "1951-10-20"
+  prefecture: 愛知県
+  note: 有報は1948年2月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- id: chuo-sogo-aichi
+  name: 中央相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 愛知県
+  note: 1971年昭和信用組合、1973年品野信用組合を合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- id: aichi-1989
+  name: 愛知銀行
+  name_en: "The Aichi Bank, Ltd."
+  type: regional2
+  founded: "1989-02-01"
+  dissolved: "2025-01-01"
+  prefecture: 愛知県
+  note: 戦前の愛知銀行（1941年東海銀行に合併）とは別。1989年1月25日普通銀行転換認可。2022年10月中京銀行と共同株式移転であいちフィナンシャルグループを設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- id: hakko-mujin-1936
+  name: 八紘無尽
+  type: other
+  founded: "1936-10"
+  dissolved: "1943-02-10"
+  prefecture: 三重県
+  note: Wikipediaによれば1928年1月16日設立の三重殖産無尽が1936年10月三重相互無尽と合併して八紘無尽となる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O", https://ja.wikipedia.org/wiki/中京銀行]
+
+- id: kisei-mujin
+  name: 紀勢無尽
+  type: other
+  dissolved: "1943-02-10"
+  prefecture: 三重県
+  note: 設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O"]
+
+- id: hakko-mujin
+  name: 八紘無尽
+  type: other
+  founded: "1943-02-10"
+  dissolved: "1948-01"
+  prefecture: 三重県
+  note: 本店津市、1945年12月名張市へ移転。有報は新設合併とするが、Wikipediaは八紘無尽が紀勢無尽と合併し商号変更したとする
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O", https://ja.wikipedia.org/wiki/中京銀行]
+
+- id: taido-mujin
+  name: 太道無尽
+  type: other
+  founded: "1948-01"
+  dissolved: "1951-10"
+  prefecture: 三重県
+  note: 有報では1948年1月商号変更、7月宝無尽の営業権譲受。Wikipediaは1948年1月25日宝無尽との合併により改称とする
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O", https://ja.wikipedia.org/wiki/中京銀行]
+
+- id: takara-mujin
+  name: 宝無尽
+  type: other
+  prefecture: 愛知県
+  dissolved: "1948-07"
+  note: 本店名古屋市。1948年7月営業権を太道無尽へ譲渡。消滅日は営業譲渡日。設立日・法人の解散日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O", https://ja.wikipedia.org/wiki/中京銀行]
+
+- id: taido-sogo
+  name: 太道相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1969-05"
+  prefecture: 愛知県
+  note: 1964年2月本店を名古屋市へ移転
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O"]
+
+- id: chukyo-sogo
+  name: 中京相互銀行
+  type: other
+  founded: "1969-05"
+  dissolved: "1989-02"
+  prefecture: 愛知県
+  note: 名古屋信用金庫との合併と同時に改称。1970年海部信用組合、1972年名古屋商工信用組合を合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O"]
+
+- id: chukyo
+  name: 中京銀行
+  name_en: "The Chukyo Bank, Ltd."
+  type: regional2
+  founded: "1989-02"
+  dissolved: "2025-01-01"
+  prefecture: 愛知県
+  note: 2002年3月UFJ銀行の関連会社に（2022年8月資本関係解消）。2022年10月あいちフィナンシャルグループ傘下
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O", https://ja.wikipedia.org/wiki/中京銀行]
+
+- id: aichi
+  name: あいち銀行
+  name_en: "The Aichi Bank, Ltd."
+  type: regional2
+  founded: "2025-01-01"
+  prefecture: 愛知県
+  note: 愛知銀行が中京銀行を吸収合併し改称。あいちフィナンシャルグループの完全子会社。法人設立は1910年9月17日（日本貯蓄興業）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5H", https://ja.wikipedia.org/wiki/あいち銀行]
+
+- id: shichifuku-sogo-mujin
+  name: 七福相互無尽
+  type: other
+  founded: "1949-09-06"
+  dissolved: "1951-10"
+  prefecture: 兵庫県
+  sources: [https://ja.wikipedia.org/wiki/みなと銀行]
+
+- id: shichifuku-sogo
+  name: 七福相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1966-10"
+  prefecture: 兵庫県
+  sources: [https://ja.wikipedia.org/wiki/みなと銀行]
+
+- id: hanshin-sogo
+  name: 阪神相互銀行
+  type: other
+  founded: "1966-10"
+  dissolved: "1989-02"
+  prefecture: 兵庫県
+  sources: [https://ja.wikipedia.org/wiki/みなと銀行]
+
+- id: hanshin
+  name: 阪神銀行
+  type: regional2
+  founded: "1989-02"
+  dissolved: "1999-04-01"
+  prefecture: 兵庫県
+  sources: [https://ja.wikipedia.org/wiki/みなと銀行, https://ja.wikipedia.org/wiki/阪神銀行]
+
+- id: hyogo-mujin
+  name: 兵庫無尽
+  type: other
+  founded: "1944-06-20"
+  dissolved: "1951-10"
+  prefecture: 兵庫県
+  note: 兵庫県下の3無尽会社の統合で発足。源流は1912年10月設立の三木勧業株式合資会社
+  sources: [https://ja.wikipedia.org/wiki/兵庫銀行]
+
+- id: hyogo-sogo
+  name: 兵庫相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 兵庫県
+  sources: [https://ja.wikipedia.org/wiki/兵庫銀行]
+
+- id: hyogo
+  name: 兵庫銀行
+  type: regional2
+  founded: "1989-02"
+  dissolved: "1996-03-29"
+  prefecture: 兵庫県
+  note: 1995年8月破綻。1996年1月29日みどり銀行へ営業譲渡、3月29日解散、2001年6月8日清算終了
+  sources: [https://ja.wikipedia.org/wiki/兵庫銀行]
+
+- id: midori
+  name: みどり銀行
+  type: regional2
+  founded: "1995-10-27"
+  dissolved: "1999-04-01"
+  prefecture: 兵庫県
+  note: 兵庫銀行の受皿銀行。1995年10月31日免許交付、1996年1月29日営業開始
+  sources: [https://ja.wikipedia.org/wiki/みどり銀行, https://ja.wikipedia.org/wiki/兵庫銀行]
+
+- id: minato
+  name: みなと銀行
+  name_en: "The Minato Bank, Ltd."
+  type: regional2
+  founded: "1999-04-01"
+  prefecture: 兵庫県
+  note: 2000年さくら銀行の子会社に。2018年4月株式交換で関西みらいFGの完全子会社、2024年4月りそなHDが同FGを吸収合併しりそなHDの直接子会社に。関西みらい銀行とは合併していない
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3", https://ja.wikipedia.org/wiki/みなと銀行]
+
+# ---------------------------------------------------------------- 第二地方銀行（中国・四国）
+- id: matsue-sogo-chokin
+  name: 松江相互貯金
+  type: other
+  founded: "1915-05-20"
+  dissolved: "1915-10-28"
+  prefecture: 島根県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHPP", https://ja.wikipedia.org/wiki/島根銀行]
+
+- id: matsue-sogo-mujin
+  name: 松江相互無尽
+  type: other
+  founded: "1915-10-28"
+  dissolved: "1951-10-20"
+  prefecture: 島根県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHPP", https://ja.wikipedia.org/wiki/島根銀行]
+
+- id: matsue-sogo
+  name: 松江相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-08-01"
+  prefecture: 島根県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHPP", https://ja.wikipedia.org/wiki/島根銀行]
+
+- id: shimane
+  name: 島根銀行
+  name_en: "The Shimane Bank, Ltd."
+  type: regional2
+  founded: "1989-08-01"
+  prefecture: 島根県
+  note: 松江相互銀行が普通銀行に転換し改称。2019年SBIホールディングスと資本業務提携
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHPP", https://ja.wikipedia.org/wiki/島根銀行]
+
+- id: kurashiki-mujin
+  name: 倉敷無尽
+  type: other
+  founded: "1931-11-09"
+  dissolved: "1941-03"
+  prefecture: 岡山県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- id: kokoku-mujin
+  name: 興国無尽
+  type: other
+  dissolved: "1941-03"
+  prefecture: 岡山県
+  note: 1941年3月倉敷無尽に吸収合併（設立日は出典に記載なし）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- id: bessho-mujin
+  name: 別所無尽
+  type: other
+  dissolved: "1941-03"
+  prefecture: 岡山県
+  note: 1941年3月倉敷無尽に吸収合併（設立日は出典に記載なし）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- id: sanwa-mujin-okayama
+  name: 三和無尽
+  type: other
+  founded: "1941-03"
+  dissolved: "1951-10"
+  prefecture: 岡山県
+  note: 倉敷無尽が興国・別所無尽を吸収合併して改称、本店を岡山市へ移転
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- id: chugoku-mujin
+  name: 中国無尽
+  type: other
+  dissolved: "1943-09"
+  note: 1943年9月営業の全部を三和無尽に譲渡（消滅日は譲渡日。設立日・法人の解散日・本店所在地は出典に記載なし）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- id: sanwa-sogo-okayama
+  name: 三和相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1969-04"
+  prefecture: 岡山県
+  note: 沖縄の三和相互銀行とは別
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- id: sanyo-sogo
+  name: 山陽相互銀行
+  type: other
+  founded: "1969-04"
+  dissolved: "1989-04"
+  prefecture: 岡山県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- id: tomato
+  name: トマト銀行
+  name_en: "TOMATO BANK, LTD."
+  type: regional2
+  founded: "1989-04"
+  prefecture: 岡山県
+  note: 山陽相互銀行が普通銀行に転換し改称。2002年7月岡山県信用組合の事業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- id: hiroshima-mujin-1923
+  name: 廣島無盡
+  type: other
+  founded: "1923-11"
+  dissolved: "1941-04-22"
+  prefecture: 広島県
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: geibi-mujin
+  name: 藝備無盡
+  type: other
+  dissolved: "1941-04-22"
+  prefecture: 広島県
+  note: 設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: soeki-mujin
+  name: 双益無盡
+  type: other
+  dissolved: "1941-04-22"
+  prefecture: 広島県
+  note: 設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: sanyo-mujin-hiroshima
+  name: 山陽無盡
+  type: other
+  dissolved: "1941-04-22"
+  prefecture: 広島県
+  note: 設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: hiroshima-mujin-1941
+  name: 廣島無盡
+  type: other
+  founded: "1941-04-22"
+  dissolved: "1951-10"
+  prefecture: 広島県
+  note: 廣島・藝備・双益・山陽無盡の4社の戦時統合により新発足
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: hiroshima-sogo
+  name: 広島相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 広島県
+  note: 1970年10月広島県環衛信用組合を合併
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: hiroshima-general
+  name: 広島総合銀行
+  type: regional2
+  founded: "1989-02"
+  dissolved: "2004-05-01"
+  prefecture: 広島県
+  note: 2001年9月28日もみじホールディングス設立により同社傘下
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: kure-mujin-old
+  name: 呉無尽
+  type: other
+  dissolved: "1941-11"
+  prefecture: 広島県
+  note: 設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: kureyo-mujin
+  name: 呉洋無尽
+  type: other
+  dissolved: "1941-11"
+  prefecture: 広島県
+  note: 設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: kure-mujin
+  name: 呉無尽
+  type: other
+  founded: "1941-11"
+  dissolved: "1951-10"
+  prefecture: 広島県
+  note: 呉無尽・呉洋無尽の合併により新設
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: kure-sogo
+  name: 呉相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 広島県
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: setouchi
+  name: せとうち銀行
+  type: regional2
+  founded: "1989-02"
+  dissolved: "2004-05-01"
+  prefecture: 広島県
+  note: 2001年9月28日もみじホールディングス傘下
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: momiji
+  name: もみじ銀行
+  name_en: "Momiji Bank, Ltd."
+  type: regional2
+  founded: "2004-05-01"
+  prefecture: 広島県
+  note: 広島総合銀行がせとうち銀行を吸収合併し改称。2006年10月山口フィナンシャルグループ傘下、2007年4月1日もみじホールディングスを吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE1V", https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- id: tokuyama-mujin-kyoeki
+  name: 徳山無尽共益
+  type: other
+  founded: "1930-11-17"
+  dissolved: "1944-02-01"
+  prefecture: 山口県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB1", https://ja.wikipedia.org/wiki/西京銀行]
+
+- id: shimonoseki-mujin
+  name: 下関無尽
+  type: other
+  dissolved: "1944-02-01"
+  prefecture: 山口県
+  note: 設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB1"]
+
+- id: hoei-mujin
+  name: 宝栄無尽
+  type: other
+  dissolved: "1944-02-01"
+  prefecture: 山口県
+  note: 有報では宝栄無尽、Wikipediaでは宝永無尽と表記（有報に従う）。設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB1", https://ja.wikipedia.org/wiki/西京銀行]
+
+- id: yamaguchi-mujin
+  name: 山口無尽
+  type: other
+  founded: "1944-02-01"
+  dissolved: "1951-10-20"
+  prefecture: 山口県
+  note: 3社合併で下関市に設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB1", https://ja.wikipedia.org/wiki/西京銀行]
+
+- id: yamaguchi-sogo
+  name: 山口相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 山口県
+  note: 1970年本店を現周南市へ移転
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB1", https://ja.wikipedia.org/wiki/西京銀行]
+
+- id: saikyo
+  name: 西京銀行
+  name_en: "THE SAIKYO BANK, LTD."
+  type: regional2
+  founded: "1989-02-01"
+  prefecture: 山口県
+  note: 山口相互銀行が普通銀行に転換し改称
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB1", https://ja.wikipedia.org/wiki/西京銀行]
+
+- id: tomioka-mujin-goshi
+  name: 富岡無尽合資会社
+  type: other
+  founded: "1918-03-03"
+  dissolved: "1936-05-24"
+  prefecture: 徳島県
+  note: 現阿南市富岡町で設立
+  sources: [https://ja.wikipedia.org/wiki/徳島銀行, https://ja.wikipedia.org/wiki/徳島大正銀行]
+
+- id: tomioka-mujin
+  name: 富岡無尽
+  type: other
+  founded: "1936-05-24"
+  dissolved: "1948-02"
+  prefecture: 徳島県
+  note: 株式会社として設立（合資会社からの改組）
+  sources: [https://ja.wikipedia.org/wiki/徳島銀行]
+
+- id: tokushima-mujin
+  name: 徳島無尽
+  type: other
+  founded: "1948-02"
+  dissolved: "1951-10-20"
+  prefecture: 徳島県
+  sources: [https://ja.wikipedia.org/wiki/徳島銀行]
+
+- id: tokushima-sogo
+  name: 徳島相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 徳島県
+  sources: [https://ja.wikipedia.org/wiki/徳島銀行]
+
+- id: tokushima-1989
+  name: 徳島銀行
+  name_en: "The Tokushima Bank, Ltd."
+  type: regional2
+  founded: "1989-02-01"
+  dissolved: "2020-01-01"
+  prefecture: 徳島県
+  note: 徳島相互銀行が普通銀行に転換し改称。2010年4月香川銀行とトモニホールディングスを設立。戦前の徳島銀行（1928年阿波銀行へ営業譲渡）とは別
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAZU", https://ja.wikipedia.org/wiki/徳島銀行]
+
+- id: kansai-jutaku-kenchiku
+  name: 関西住宅組合建築
+  type: other
+  founded: "1922"
+  dissolved: "1942"
+  prefecture: 大阪府
+  note: 大正銀行の前身会社
+  sources: [https://ja.wikipedia.org/wiki/大正銀行]
+
+- id: kansai-jutaku-mujin
+  name: 関西住宅無尽
+  type: other
+  founded: "1942"
+  dissolved: "1958-10"
+  prefecture: 大阪府
+  sources: [https://ja.wikipedia.org/wiki/大正銀行]
+
+- id: taisho-sogo
+  name: 大正相互銀行
+  type: other
+  founded: "1958-10"
+  dissolved: "1989-04-01"
+  prefecture: 大阪府
+  note: 1988年4月大阪北信用組合と合併
+  sources: [https://ja.wikipedia.org/wiki/大正銀行]
+
+- id: taisho
+  name: 大正銀行
+  name_en: "The Taisho Bank, Ltd."
+  type: regional2
+  founded: "1989-04-01"
+  dissolved: "2020-01-01"
+  prefecture: 大阪府
+  note: 大正相互銀行が普通銀行に転換し改称。2016年4月株式交換によりトモニホールディングスの完全子会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAZU", https://ja.wikipedia.org/wiki/大正銀行]
+
+- id: tokushima-taisho
+  name: 徳島大正銀行
+  name_en: "The Tokushima Taisho Bank, Ltd."
+  type: regional2
+  founded: "2020-01-01"
+  prefecture: 徳島県
+  note: 徳島銀行が大正銀行を吸収合併し改称。トモニホールディングス傘下
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAZU", https://ja.wikipedia.org/wiki/徳島大正銀行]
+
+- id: marugame-mujin
+  name: 丸亀無尽
+  type: other
+  dissolved: "1943-02-01"
+  prefecture: 香川県
+  note: 設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/香川銀行]
+
+- id: shippo-mujin
+  name: 七宝無尽
+  type: other
+  dissolved: "1943-02-01"
+  prefecture: 香川県
+  note: 設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/香川銀行]
+
+- id: kagawa-daiichi-mujin
+  name: 香川第一無尽
+  type: other
+  dissolved: "1943-02-01"
+  prefecture: 香川県
+  note: 設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/香川銀行]
+
+- id: sanuki-mujin
+  name: 讃岐無尽
+  type: other
+  dissolved: "1943-02-01"
+  prefecture: 香川県
+  note: 設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/香川銀行]
+
+- id: asahi-mujin-kagawa
+  name: 旭無尽
+  type: other
+  dissolved: "1943-02-01"
+  prefecture: 香川県
+  note: 設立日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/香川銀行]
+
+- id: kagawa-mujin
+  name: 香川無尽
+  type: other
+  founded: "1943-02-01"
+  dissolved: "1951-10-20"
+  prefecture: 香川県
+  note: 無尽5社の合併により創立
+  sources: [https://ja.wikipedia.org/wiki/香川銀行]
+
+- id: kagawa-sogo
+  name: 香川相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 香川県
+  sources: [https://ja.wikipedia.org/wiki/香川銀行]
+
+- id: kagawa
+  name: 香川銀行
+  name_en: "The Kagawa Bank, Ltd."
+  type: regional2
+  founded: "1989-02-01"
+  prefecture: 香川県
+  note: 香川相互銀行が普通銀行に転換し改称。2010年4月徳島銀行とトモニホールディングスを設立。1931年中国銀行に営業譲渡した戦前の香川銀行とは別
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAZU", https://ja.wikipedia.org/wiki/香川銀行]
+
+- id: toyo-mujin-ehime
+  name: 東豫無尽蓄積
+  type: other
+  founded: "1915"
+  dissolved: "1943-03-20"
+  prefecture: 愛媛県
+  note: 愛媛銀行の創業
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS", https://ja.wikipedia.org/wiki/愛媛銀行]
+
+- id: imabari-mujin
+  name: 今治無尽
+  type: other
+  founded: "1916"
+  dissolved: "1943-03-20"
+  prefecture: 愛媛県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS"]
+
+- id: matsuyama-mujin
+  name: 松山無尽
+  type: other
+  founded: "1923-08"
+  dissolved: "1943-03-20"
+  prefecture: 愛媛県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS"]
+
+- id: tokiwa-mujin
+  name: 常磐無尽
+  type: other
+  founded: "1929-05"
+  dissolved: "1943-03-20"
+  prefecture: 愛媛県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS"]
+
+- id: nanyo-mujin-kinyu
+  name: 南豫無尽金融
+  type: other
+  founded: "1932"
+  dissolved: "1943-03-20"
+  prefecture: 愛媛県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS"]
+
+- id: ehime-mujin
+  name: 愛媛無尽
+  type: other
+  founded: "1943-03-20"
+  dissolved: "1951-10"
+  prefecture: 愛媛県
+  note: 県内無尽5社の合併により設立。有報は1943年3月、日付はWikipediaのインフォボックスによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS", https://ja.wikipedia.org/wiki/愛媛銀行]
+
+- id: iyo-shokusan-mujin
+  name: 伊豫殖産無尽
+  type: other
+  dissolved: "1950-12"
+  note: 1950年12月愛媛無尽に営業譲渡（消滅日は譲渡日。設立日・法人の解散日・本店所在地は出典に記載なし）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS", https://ja.wikipedia.org/wiki/愛媛銀行]
+
+- id: ehime-sogo
+  name: 愛媛相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 愛媛県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS", https://ja.wikipedia.org/wiki/愛媛銀行]
+
+- id: ehime
+  name: 愛媛銀行
+  name_en: "The Ehime Bank, Ltd."
+  type: regional2
+  founded: "1989-02"
+  prefecture: 愛媛県
+  note: 愛媛相互銀行が普通銀行に転換し改称。2000年10月北温信用組合と合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS", https://ja.wikipedia.org/wiki/愛媛銀行]
+
+- id: kochi-mujin
+  name: 高知無尽
+  type: other
+  founded: "1930-01-20"
+  dissolved: "1951-10-20"
+  prefecture: 高知県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJZJ", https://ja.wikipedia.org/wiki/高知銀行]
+
+- id: kochi-sogo
+  name: 高知相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 高知県
+  note: 商号変更日はWikipediaでは1951年10月18日（有報の10月20日に従う）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJZJ", https://ja.wikipedia.org/wiki/高知銀行]
+
+- id: kochi-1989
+  name: 高知銀行
+  name_en: "THE BANK OF KOCHI, LTD."
+  type: regional2
+  founded: "1989-02-01"
+  prefecture: 高知県
+  note: 高知相互銀行が普通銀行に転換し改称。四国銀行の前身の高知銀行（kochi-old）とは別会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJZJ", https://ja.wikipedia.org/wiki/高知銀行]
+
+# ---------------------------------------------------------------- 第二地方銀行（九州・沖縄）
+- id: daiichi-shokusan-mujin
+  name: 第一殖産無尽
+  type: other
+  dissolved: "1951-06"
+  prefecture: 福岡県
+  note: 本店福岡市。設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R90U", https://ja.wikipedia.org/wiki/福岡中央銀行]
+
+- id: seibu-shokusan-mujin
+  name: 西部殖産無尽
+  type: other
+  dissolved: "1951-06"
+  prefecture: 福岡県
+  note: 本店旧小倉市。設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R90U", https://ja.wikipedia.org/wiki/福岡中央銀行]
+
+- id: shokin-mujin
+  name: 正金殖産無尽
+  type: other
+  founded: "1951-06"
+  dissolved: "1952-05"
+  prefecture: 福岡県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R90U", https://ja.wikipedia.org/wiki/福岡中央銀行]
+
+- id: shokin-sogo
+  name: 正金相互銀行
+  type: other
+  founded: "1952-05"
+  dissolved: "1989-02"
+  prefecture: 福岡県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R90U", https://ja.wikipedia.org/wiki/福岡中央銀行]
+
+- id: fukuoka-chuo
+  name: 福岡中央銀行
+  name_en: "The Fukuoka Chuo Bank, Ltd."
+  type: regional2
+  founded: "1989-02"
+  prefecture: 福岡県
+  note: 2023年10月1日株式交換によりふくおかフィナンシャルグループの完全子会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R90U", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFNB", https://ja.wikipedia.org/wiki/福岡中央銀行]
+
+- id: saga-mujin
+  name: 佐賀無尽
+  type: other
+  founded: "1949-12-22"
+  dissolved: "1951-10"
+  prefecture: 佐賀県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCEI", https://ja.wikipedia.org/wiki/佐賀共栄銀行]
+
+- id: saga-sogo
+  name: 佐賀相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-04"
+  prefecture: 佐賀県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCEI", https://ja.wikipedia.org/wiki/佐賀共栄銀行]
+
+- id: saga-kyoei
+  name: 佐賀共栄銀行
+  name_en: "The Saga Kyoei Bank, Ltd."
+  type: regional2
+  founded: "1989-04"
+  prefecture: 佐賀県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCEI", https://ja.wikipedia.org/wiki/佐賀共栄銀行]
+
+- id: nagasaki-chokin
+  name: 長崎貯金
+  type: other
+  founded: "1912-11"
+  dissolved: "1916-05"
+  prefecture: 長崎県
+  sources: [https://ja.wikipedia.org/wiki/長崎銀行]
+
+- id: nagasaki-mujin
+  name: 長崎無尽
+  type: other
+  founded: "1916-05"
+  dissolved: "1951-10"
+  prefecture: 長崎県
+  note: 1941年8月昭和無尽、1942年4月諫早無尽を合併
+  sources: [https://ja.wikipedia.org/wiki/長崎銀行]
+
+- id: nagasaki-sogo
+  name: 長崎相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 長崎県
+  sources: [https://ja.wikipedia.org/wiki/長崎銀行]
+
+- id: nagasaki
+  name: 長崎銀行
+  name_en: "The Nagasaki Bank, Ltd."
+  type: regional2
+  founded: "1989-02"
+  prefecture: 長崎県
+  note: 2001年福岡シティ銀行の関連会社・子会社、2014年西日本シティ銀行の完全子会社、2016年10月西日本フィナンシャルホールディングス傘下
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEOV", https://ja.wikipedia.org/wiki/長崎銀行]
+
+- id: kumamoto-mujin
+  name: 熊本無尽
+  type: other
+  founded: "1929-01-19"
+  dissolved: "1951-10"
+  prefecture: 熊本県
+  note: 沿革では1929年1月、基礎情報では1月19日設立。1942年8月福栄無尽を合併
+  sources: [https://ja.wikipedia.org/wiki/熊本銀行]
+
+- id: kumamoto-sogo
+  name: 熊本相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 熊本県
+  sources: [https://ja.wikipedia.org/wiki/熊本銀行]
+
+- id: kumamoto-1989
+  name: 熊本銀行
+  type: regional2
+  founded: "1989-02"
+  dissolved: "1992-04"
+  prefecture: 熊本県
+  note: 初代熊本銀行（相互銀行から転換）。戦前の熊本銀行(kumamoto-old)とは別
+  sources: [https://ja.wikipedia.org/wiki/熊本銀行, https://ja.wikipedia.org/wiki/熊本ファミリー銀行]
+
+- id: higo-mujin
+  name: 肥後無尽
+  type: other
+  founded: "1933-03"
+  dissolved: "1951-10"
+  prefecture: 熊本県
+  note: 1943年阿蘇無尽の営業を譲受、城南無尽を合併
+  sources: [https://ja.wikipedia.org/wiki/熊本銀行]
+
+- id: higo-sogo
+  name: 肥後相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 熊本県
+  sources: [https://ja.wikipedia.org/wiki/熊本銀行]
+
+- id: higo-family
+  name: 肥後ファミリー銀行
+  type: regional2
+  founded: "1989-02"
+  dissolved: "1992-04"
+  prefecture: 熊本県
+  sources: [https://ja.wikipedia.org/wiki/熊本銀行, https://ja.wikipedia.org/wiki/熊本ファミリー銀行]
+
+- id: kumamoto-family
+  name: 熊本ファミリー銀行
+  type: regional2
+  founded: "1992-04"
+  dissolved: "2013-04-01"
+  prefecture: 熊本県
+  note: 2007年4月福岡銀行と共同株式移転でふくおかフィナンシャルグループ設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFNB", https://ja.wikipedia.org/wiki/熊本ファミリー銀行, https://ja.wikipedia.org/wiki/熊本銀行]
+
+- id: kumamoto
+  name: 熊本銀行
+  name_en: "The Kumamoto Bank, Ltd."
+  type: regional2
+  founded: "2013-04-01"
+  prefecture: 熊本県
+  note: 2代目熊本銀行。ふくおかフィナンシャルグループ傘下
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFNB", https://ja.wikipedia.org/wiki/熊本銀行]
+
+- id: daiho-mujin
+  name: 大豊殖産無尽
+  type: other
+  founded: "1949-12-22"
+  dissolved: "1953-01-26"
+  prefecture: 大分県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF85", https://ja.wikipedia.org/wiki/豊和銀行]
+
+- id: howa-sogo
+  name: 豊和相互銀行
+  type: other
+  founded: "1953-01-26"
+  dissolved: "1989-02-01"
+  prefecture: 大分県
+  note: 相互銀行転換日は有報で1953年1月26日、Wikipediaでは1月27日（有報を採用）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF85", https://ja.wikipedia.org/wiki/豊和銀行]
+
+- id: howa
+  name: 豊和銀行
+  name_en: "The Howa Bank, Ltd."
+  type: regional2
+  founded: "1989-02-01"
+  prefecture: 大分県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF85", https://ja.wikipedia.org/wiki/豊和銀行]
+
+- id: hyuga-mujin
+  name: 日向無尽
+  type: other
+  dissolved: "1941-08"
+  prefecture: 宮崎県
+  note: 設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
+
+- id: nisshu-mujin
+  name: 日州無尽
+  type: other
+  dissolved: "1941-08"
+  prefecture: 宮崎県
+  note: 設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
+
+- id: takanabe-mujin
+  name: 高鍋無尽
+  type: other
+  dissolved: "1941-08"
+  prefecture: 宮崎県
+  note: 設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
+
+- id: shomei-mujin
+  name: 昭明無尽
+  type: other
+  dissolved: "1941-08"
+  prefecture: 宮崎県
+  note: 設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
+
+- id: miyazaki-mujin
+  name: 宮崎無尽
+  type: other
+  founded: "1941-08"
+  dissolved: "1951-10"
+  prefecture: 宮崎県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
+
+- id: miyazaki-sogo
+  name: 宮崎相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 宮崎県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
+
+- id: miyazaki-taiyo
+  name: 宮崎太陽銀行
+  name_en: "The Miyazaki Taiyo Bank, Ltd."
+  type: regional2
+  founded: "1989-02"
+  prefecture: 宮崎県
+  note: 1993年10月日向市信用組合と合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
+
+- id: kagoshima-mujin-old
+  name: 鹿児島無尽
+  type: other
+  founded: "1913-09"
+  dissolved: "1943-11"
+  prefecture: 鹿児島県
+  note: 同仁貯金合資会社として設立し、隅州産業無尽等を経て鹿児島無尽に改称（Wikipedia）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+
+- id: kagoshima-sogo-mujin
+  name: 鹿児島相互無尽
+  type: other
+  dissolved: "1943-11"
+  prefecture: 鹿児島県
+  note: 設立日は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+
+- id: kagoshima-mujin
+  name: 鹿児島無尽
+  type: other
+  founded: "1943-11"
+  dissolved: "1951-10"
+  prefecture: 鹿児島県
+  note: 1943年11月合併で新設（本店鹿児島市六日町）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+
+- id: minami-kyushu-shokusan-mujin
+  name: 南九州殖産無尽
+  type: other
+  prefecture: 鹿児島県
+  dissolved: "1951-10"
+  note: 1951年10月旭相互銀行に営業譲渡。消滅日は営業譲渡日。設立日・法人の解散日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/南日本銀行]
+
+- id: taihei-shokusan-mujin
+  name: 大平殖産無尽
+  type: other
+  prefecture: 鹿児島県
+  dissolved: "1951-10"
+  note: 1951年10月旭相互銀行に営業譲渡。消滅日は営業譲渡日。設立日・法人の解散日は出典に記載なし
+  sources: [https://ja.wikipedia.org/wiki/南日本銀行]
+
+- id: asahi-sogo
+  name: 旭相互銀行
+  type: other
+  founded: "1951-10"
+  dissolved: "1989-02"
+  prefecture: 鹿児島県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+
+- id: minami-nippon
+  name: 南日本銀行
+  name_en: "The Minami-Nippon Bank, Ltd."
+  type: regional2
+  founded: "1989-02"
+  prefecture: 鹿児島県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+
+- id: okinawa-mujin
+  name: 沖繩無尽
+  type: other
+  founded: "1949-05"
+  dissolved: "1953-11"
+  prefecture: 沖縄県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
+- id: naha-mujin
+  name: 那覇無尽
+  type: other
+  founded: "1949-05"
+  dissolved: "1953-11"
+  prefecture: 沖縄県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
+- id: okinawa-sogo-1953
+  name: 沖繩相互銀行
+  type: other
+  founded: "1953-11"
+  dissolved: "1964-04"
+  prefecture: 沖縄県
+  note: 1972年改称の沖縄相互銀行(okinawa-sogo-1972)とは別法人
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
+- id: daiichi-sogo-okinawa
+  name: 第一相互銀行
+  type: other
+  founded: "1953-11"
+  dissolved: "1964-04"
+  prefecture: 沖縄県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
+- id: chuo-sogo-okinawa
+  name: 中央相互銀行
+  type: other
+  founded: "1964-04"
+  dissolved: "1972-03"
+  prefecture: 沖縄県
+  note: 名古屋の中央相互銀行（現愛知銀行系）とは別
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
+- id: okinawa-sogo-1972
+  name: 沖縄相互銀行
+  type: other
+  founded: "1972-03"
+  dissolved: "1989-02"
+  prefecture: 沖縄県
+  note: 本土復帰に備え名古屋の中央相互銀行との重複を避けて改称。1972年5月本土相互銀行法の免許取得
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
+- id: okinawa-kaiho
+  name: 沖縄海邦銀行
+  name_en: "The Okinawa Kaiho Bank, Ltd."
+  type: regional2
+  founded: "1989-02"
+  prefecture: 沖縄県
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
 

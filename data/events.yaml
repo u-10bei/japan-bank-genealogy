@@ -1280,3 +1280,1100 @@
   to: [okinawa]
   sources: [https://ja.wikipedia.org/wiki/沖縄銀行]
 
+# ---------------------------------------------------------------- 第二地方銀行（北海道・東北・関東）
+- date: "1918-01"
+  type: rename
+  from: [hokkaido-mujin-1917]
+  to: [otaru-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP"]
+
+- date: "1944-02"
+  type: rename
+  from: [otaru-mujin]
+  to: [hokuyo-mujin]
+  note: Wikipediaは道内無尽5社の統合とする
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP", https://ja.wikipedia.org/wiki/北洋銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [hokuyo-mujin]
+  to: [hokuyo-sogo]
+  note: 相互銀行業の免許取得
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP"]
+
+- date: "1989-02"
+  type: rename
+  from: [hokuyo-sogo]
+  to: [hokuyo]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [hokkaido-mujin-1950]
+  to: [hokkaido-sogo]
+  sources: [https://ja.wikipedia.org/wiki/札幌銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [hokkaido-sogo]
+  to: [sapporo]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/札幌銀行]
+
+- date: "2008-10-14"
+  type: absorption
+  from: [sapporo]
+  to: [hokuyo]
+  note: 有報は2008年10月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP", https://ja.wikipedia.org/wiki/北洋銀行, https://ja.wikipedia.org/wiki/札幌銀行]
+
+- date: "1915"
+  type: rename
+  from: [yamagata-shokusan]
+  to: [yamagata-shokusan-mujin]
+  note: 殖産会社から無尽会社に転換
+  sources: [https://ja.wikipedia.org/wiki/殖産銀行]
+
+- date: "1951"
+  type: rename
+  from: [yamagata-shokusan-mujin]
+  to: [shokusan-sogo]
+  sources: [https://ja.wikipedia.org/wiki/殖産銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [shokusan-sogo]
+  to: [shokusan]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/殖産銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [ryou-mujin]
+  to: [yamagata-sogo]
+  sources: [https://ja.wikipedia.org/wiki/山形しあわせ銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [yamagata-sogo]
+  to: [yamagata-shiawase]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/山形しあわせ銀行]
+
+- date: "2007-05-07"
+  type: absorption
+  from: [yamagata-shiawase]
+  to: [shokusan]
+  note: 殖産銀行が存続行
+  sources: [https://ja.wikipedia.org/wiki/きらやか銀行, https://ja.wikipedia.org/wiki/殖産銀行]
+
+- date: "2007-05-07"
+  type: rename
+  from: [shokusan]
+  to: [kirayaka]
+  note: 合併と同日に改称、本店を山形市旅篭町へ移転
+  sources: [https://ja.wikipedia.org/wiki/きらやか銀行, https://ja.wikipedia.org/wiki/殖産銀行]
+
+- date: "1942-02-02"
+  type: merger
+  from: [iwate-mujin, morioka-mujin]
+  to: [iwate-kosan-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- date: "1950-08"
+  type: rename
+  from: [iwate-kosan-mujin]
+  to: [kosan-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- date: "1951-10"
+  type: rename
+  from: [kosan-mujin]
+  to: [kosan-sogo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- date: "1966-07"
+  type: rename
+  from: [kosan-sogo]
+  to: [kita-nippon-sogo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- date: "1989-02"
+  type: rename
+  from: [kita-nippon-sogo]
+  to: [kita-nippon]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+
+- date: "1952"
+  type: rename
+  from: [shinko-mujin]
+  to: [shinko-sogo]
+  sources: [https://ja.wikipedia.org/wiki/仙台銀行]
+
+- date: "1989"
+  type: rename
+  from: [shinko-sogo]
+  to: [sendai]
+  note: 普通銀行に転換（月日未確認）
+  sources: [https://ja.wikipedia.org/wiki/仙台銀行]
+
+- date: "1990-08"
+  type: rename
+  from: [tokuyo-sogo]
+  to: [tokuyo-city]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/徳陽シティ銀行]
+
+- date: "1997-11-26"
+  type: failure
+  from: [tokuyo-city]
+  note: コール市場で資金調達できず経営破綻
+  sources: [https://ja.wikipedia.org/wiki/徳陽シティ銀行]
+
+- date: "1998-11"
+  type: transfer
+  from: [tokuyo-city]
+  to: [sendai, shichijushichi, kita-nippon, fukushima, higashi-nippon, tochigi, musashino]
+  note: 営業の大部分（宮城県内19店舗・預金）を仙台銀行へ、正常債権の一部を七十七銀行へ、県外分を北日本・福島・東日本（支店なし）・栃木・武蔵野銀行へ譲渡、ほか県内信用金庫へ。1998年11月16日営業終了。個別の譲渡日は未記載。各行の有報沿革には記載なし
+  sources: [https://ja.wikipedia.org/wiki/徳陽シティ銀行, https://ja.wikipedia.org/wiki/仙台銀行]
+
+- date: "1939-11"
+  type: rename
+  from: [yumoto-shinyo-mujin]
+  to: [fukushima-mujin-kinko]
+  note: 福島無尽を吸収合併して改称、本店を福島市へ移転
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCO6"]
+
+- date: "1951-10"
+  type: rename
+  from: [fukushima-mujin-kinko]
+  to: [fukushima-sogo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCO6"]
+
+- date: "1989-02"
+  type: rename
+  from: [fukushima-sogo]
+  to: [fukushima]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCO6"]
+
+- date: "1942-08-18"
+  type: merger
+  from: [koriyama-mujin, aizu-kangyo-mujin, iwaki-mujin]
+  to: [daito-mujin]
+  note: 有報は1942年8月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHKN", https://ja.wikipedia.org/wiki/大東銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [daito-mujin]
+  to: [daito-sogo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHKN"]
+
+- date: "1989-02-01"
+  type: rename
+  from: [daito-sogo]
+  to: [daito]
+  note: 普通銀行に転換。有報は1989年2月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHKN", https://ja.wikipedia.org/wiki/大東銀行]
+
+- date: "1918-04"
+  type: rename
+  from: [gunma-chochiku-mujin]
+  to: [gunma-mujin]
+  note: 本店を前橋市へ移転
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- date: "1942-09-30"
+  type: merger
+  from: [gunma-mujin, jomo-mujin, kanto-mujin]
+  to: [gunma-taisei-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- date: "1951-09"
+  type: absorption
+  from: [ogawa-mujin]
+  to: [gunma-taisei-mujin]
+  note: 有報は「小川無尽（埼玉県）と合併」
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- date: "1951-10"
+  type: rename
+  from: [gunma-taisei-mujin]
+  to: [taisei-sogo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- date: "1989-02-01"
+  type: rename
+  from: [taisei-sogo]
+  to: [towa]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZF"]
+
+- date: "1942-12-08"
+  type: merger
+  from: [nosho-mujin, fugen-mujin, ashikaga-mujin]
+  to: [tochigi-mujin]
+  note: 有報は1942年12月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE6L", https://ja.wikipedia.org/wiki/栃木銀行]
+
+- date: "1952-07"
+  type: rename
+  from: [tochigi-mujin]
+  to: [tochigi-sogo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE6L"]
+
+- date: "1989-02"
+  type: rename
+  from: [tochigi-sogo]
+  to: [tochigi]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE6L"]
+
+- date: "1943-03-31"
+  type: merger
+  from: [chiba-mujin, taisho-mujin, chiba-kyoei-mujin]
+  to: [chiba-godo-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2"]
+
+- date: "1945-07"
+  type: absorption
+  from: [kokumin-kyosai-mujin]
+  to: [chiba-godo-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2"]
+
+- date: "1951-10"
+  type: rename
+  from: [chiba-godo-mujin]
+  to: [chiba-sogo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2"]
+
+- date: "1989-02"
+  type: rename
+  from: [chiba-sogo]
+  to: [keiyo]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBD2"]
+
+- date: "1951"
+  type: rename
+  from: [joban-mujin]
+  to: [joban-sogo]
+  sources: [https://ja.wikipedia.org/wiki/東日本銀行]
+
+- date: "1973"
+  type: rename
+  from: [joban-sogo]
+  to: [tokiwa-sogo]
+  sources: [https://ja.wikipedia.org/wiki/東日本銀行]
+
+- date: "1989"
+  type: rename
+  from: [tokiwa-sogo]
+  to: [higashi-nippon]
+  note: 普通銀行に転換（月日未確認）
+  sources: [https://ja.wikipedia.org/wiki/東日本銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [tokyo-sogo]
+  to: [tokyo-sowa]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/東京相和銀行]
+
+- date: "1999-06-12"
+  type: failure
+  from: [tokyo-sowa]
+  note: 金融整理管財人による業務・財産管理命令
+  sources: [https://ja.wikipedia.org/wiki/東京相和銀行]
+
+- date: "2001-06-11"
+  type: transfer
+  from: [tokyo-sowa]
+  to: [tokyo-star]
+  note: 営業の全部を譲渡。有報は2001年6月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OCCS", https://ja.wikipedia.org/wiki/東京相和銀行]
+
+- date: "2003-03-03"
+  type: transfer
+  from: [chubu]
+  to: [tokyo-star]
+  note: 中部銀行の4店舗（神奈川・東京）を譲受。有報は2003年3月、日付は中部銀行のWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OCCS", https://ja.wikipedia.org/wiki/中部銀行]
+
+- date: "1989-04-01"
+  type: rename
+  from: [kanagawa-sogo]
+  to: [kanagawa]
+  note: 普通銀行に転換。有報は1989年4月、日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100O9VR", https://ja.wikipedia.org/wiki/神奈川銀行]
+
+# ---------------------------------------------------------------- 第二地方銀行（中部・近畿）
+- date: "1942-03-10"
+  type: merger
+  from: [hokuetsu-sangyo-mujin, kokumin-mujin-shokai]
+  to: [taiko-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1U"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [taiko-mujin]
+  to: [taiko-sogo]
+  note: 相互銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1U"]
+
+- date: "1989-08-01"
+  type: rename
+  from: [taiko-sogo]
+  to: [taiko]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1U"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [niigata-mujin]
+  to: [niigata-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/新潟中央銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [niigata-sogo]
+  to: [niigata-chuo]
+  note: 普通銀行に転換（1月25日認可）
+  sources: [https://ja.wikipedia.org/wiki/新潟中央銀行]
+
+- date: "1999-10-02"
+  type: failure
+  from: [niigata-chuo]
+  note: 10月1日為替決済で債務不履行、10月2日金融再生法に基づき破綻
+  sources: [https://ja.wikipedia.org/wiki/新潟中央銀行]
+
+- date: "2001-05-14"
+  type: transfer
+  from: [niigata-chuo]
+  to: [taiko, daishi, gunma, hachijuni, higashi-nippon, towa]
+  note: 営業を第四・大光・群馬・東和・八十二・東日本の各行へ分割譲渡。大光銀行の有報は「営業を一部譲り受ける」と記載（東和・東日本の有報沿革には記載なし）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC1U", https://ja.wikipedia.org/wiki/新潟中央銀行, https://ja.wikipedia.org/wiki/東日本銀行]
+
+- date: "1944-10-01"
+  type: merger
+  from: [chuetsu-mujin, mujin-koshi-kyoeki, meisei-mujin]
+  to: [toyama-godo-mujin]
+  note: 有報は1944年10月設立とのみ記載、合併の構成・日付はWikipediaによる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB2", https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [toyama-godo-mujin]
+  to: [toyama-sogo]
+  note: 相互銀行に転換。有報は1951年10月
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB2", https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [toyama-sogo]
+  to: [toyama-daiichi]
+  note: 普通銀行に転換。有報は1989年2月
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB2", https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- date: "2003-03"
+  type: transfer
+  from: [ishikawa]
+  to: [toyama-daiichi]
+  note: 破綻した石川銀行から2店舗を譲受（北陸・北國銀行への譲渡は別イベント）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB2", https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- date: "2008-04"
+  type: transfer
+  from: [toyama-daiichi]
+  to: [nagoya]
+  note: 富山第一銀行名古屋支店の事業を名古屋銀行へ譲渡
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZ0", https://ja.wikipedia.org/wiki/富山第一銀行]
+
+- date: "1948-04"
+  type: rename
+  from: [izu-mujin]
+  to: [taiyo-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS"]
+
+- date: "1951-10"
+  type: rename
+  from: [taiyo-mujin]
+  to: [taiyo-sogo-shizuoka]
+  note: 相互銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS"]
+
+- date: "1952-10"
+  type: rename
+  from: [suruga-mujin]
+  to: [seishin-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/静岡中央銀行]
+
+- date: "1957-09"
+  type: absorption
+  from: [seishin-sogo]
+  to: [taiyo-sogo-shizuoka]
+  note: 有報は「静神相互銀行と合併し静岡相互銀行に商号変更」と記載（法人は伊豆無尽から継続）。Wikipediaは存続会社を明示せず
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS", https://ja.wikipedia.org/wiki/静岡中央銀行]
+
+- date: "1957-09"
+  type: rename
+  from: [taiyo-sogo-shizuoka]
+  to: [shizuoka-sogo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS"]
+
+- date: "1989-08"
+  type: rename
+  from: [shizuoka-sogo]
+  to: [shizuoka-chuo]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS"]
+
+- date: "2003-03"
+  type: transfer
+  from: [chubu]
+  to: [shizuoka-chuo]
+  note: 日本承継銀行経由で中部銀行の営業の一部を譲受（清水銀行・東京スター銀行への譲渡は別イベント）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFGS", https://ja.wikipedia.org/wiki/静岡中央銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [nagoya-shokusan-mujin]
+  to: [nagoya-sogo]
+  note: 10月18日相互銀行営業内免許・商号変更、10月20日正式免許
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZ0"]
+
+- date: "1989-02"
+  type: rename
+  from: [nagoya-sogo]
+  to: [nagoya]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCZ0"]
+
+- date: "1916-10-23"
+  type: rename
+  from: [nippon-chochiku-kogyo]
+  to: [nagoya-mujin]
+  note: 無尽業の営業免許を受け改称。有報は1916年10月
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- date: "1942-02-04"
+  type: merger
+  from: [nagoya-mujin, aichi-mujin-1918]
+  to: [aichi-mujin]
+  note: 有報は「合併により愛知無尽株式会社を設立」と記載
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- date: "1944-05-15"
+  type: merger
+  from: [aichi-mujin, kangyo-mujin-aichi, tokai-mujin]
+  to: [aichi-godo-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- date: "1948-02-27"
+  type: rename
+  from: [aichi-godo-mujin]
+  to: [chuo-mujin-aichi]
+  note: 有報は1948年2月
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [chuo-mujin-aichi]
+  to: [chuo-sogo-aichi]
+  note: 相互銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF"]
+
+- date: "1989-02-01"
+  type: rename
+  from: [chuo-sogo-aichi]
+  to: [aichi-1989]
+  note: 普通銀行に転換（1月25日認可）。有報は1989年2月
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OASF", https://ja.wikipedia.org/wiki/愛知銀行]
+
+- date: "1943-02-10"
+  type: merger
+  from: [hakko-mujin-1936, kisei-mujin]
+  to: [hakko-mujin]
+  note: 有報の記載（新設合併）に従う。Wikipediaは八紘無尽による合併・商号変更とする
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O", https://ja.wikipedia.org/wiki/中京銀行]
+
+- date: "1948-01"
+  type: rename
+  from: [hakko-mujin]
+  to: [taido-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O"]
+
+- date: "1948-07"
+  type: transfer
+  from: [takara-mujin]
+  to: [taido-mujin]
+  note: 宝無尽の営業権を譲受（有報）。Wikipediaは1948年1月25日の宝無尽との合併とし食い違う
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O", https://ja.wikipedia.org/wiki/中京銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [taido-mujin]
+  to: [taido-sogo]
+  note: 相互銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O"]
+
+- date: "1969-05"
+  type: rename
+  from: [taido-sogo]
+  to: [chukyo-sogo]
+  note: 名古屋信用金庫との合併と同時に改称
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O"]
+
+- date: "1989-02"
+  type: rename
+  from: [chukyo-sogo]
+  to: [chukyo]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R25O"]
+
+- date: "2025-01-01"
+  type: absorption
+  from: [chukyo]
+  to: [aichi-1989]
+  note: 存続会社は愛知銀行。有報は2025年1月
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5H", https://ja.wikipedia.org/wiki/あいち銀行, https://ja.wikipedia.org/wiki/中京銀行]
+
+- date: "2025-01-01"
+  type: rename
+  from: [aichi-1989]
+  to: [aichi]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5H", https://ja.wikipedia.org/wiki/あいち銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [shichifuku-sogo-mujin]
+  to: [shichifuku-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/みなと銀行]
+
+- date: "1966-10"
+  type: rename
+  from: [shichifuku-sogo]
+  to: [hanshin-sogo]
+  sources: [https://ja.wikipedia.org/wiki/みなと銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [hanshin-sogo]
+  to: [hanshin]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/みなと銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [hyogo-mujin]
+  to: [hyogo-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/兵庫銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [hyogo-sogo]
+  to: [hyogo]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/兵庫銀行]
+
+- date: "1995-08"
+  type: failure
+  from: [hyogo]
+  note: 8月30日に破綻処理と新銀行への継承を発表
+  sources: [https://ja.wikipedia.org/wiki/兵庫銀行]
+
+- date: "1996-01-29"
+  type: transfer
+  from: [hyogo]
+  to: [midori]
+  sources: [https://ja.wikipedia.org/wiki/兵庫銀行, https://ja.wikipedia.org/wiki/みどり銀行]
+
+- date: "1999-04-01"
+  type: absorption
+  from: [midori]
+  to: [hanshin]
+  note: 存続会社は阪神銀行
+  sources: [https://ja.wikipedia.org/wiki/みなと銀行, https://ja.wikipedia.org/wiki/みどり銀行]
+
+- date: "1999-04-01"
+  type: rename
+  from: [hanshin]
+  to: [minato]
+  sources: [https://ja.wikipedia.org/wiki/みなと銀行, https://ja.wikipedia.org/wiki/阪神銀行]
+
+# ---------------------------------------------------------------- 第二地方銀行（中国・四国）
+- date: "1915-10-28"
+  type: rename
+  from: [matsue-sogo-chokin]
+  to: [matsue-sogo-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHPP", https://ja.wikipedia.org/wiki/島根銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [matsue-sogo-mujin]
+  to: [matsue-sogo]
+  note: 相互銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHPP", https://ja.wikipedia.org/wiki/島根銀行]
+
+- date: "1989-08-01"
+  type: rename
+  from: [matsue-sogo]
+  to: [shimane]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YHPP", https://ja.wikipedia.org/wiki/島根銀行]
+
+- date: "1941-03"
+  type: absorption
+  from: [kokoku-mujin, bessho-mujin]
+  to: [kurashiki-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- date: "1941-03"
+  type: rename
+  from: [kurashiki-mujin]
+  to: [sanwa-mujin-okayama]
+  note: 吸収合併と同時に三和無尽に商号変更
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- date: "1943-09"
+  type: transfer
+  from: [chugoku-mujin]
+  to: [sanwa-mujin-okayama]
+  note: 中国無尽の営業の全部を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [sanwa-mujin-okayama]
+  to: [sanwa-sogo-okayama]
+  note: 相互銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- date: "1969-04"
+  type: rename
+  from: [sanwa-sogo-okayama]
+  to: [sanyo-sogo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- date: "1989-04"
+  type: rename
+  from: [sanyo-sogo]
+  to: [tomato]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJ7V", https://ja.wikipedia.org/wiki/トマト銀行]
+
+- date: "1941-04-22"
+  type: merger
+  from: [hiroshima-mujin-1923, geibi-mujin, soeki-mujin, sanyo-mujin-hiroshima]
+  to: [hiroshima-mujin-1941]
+  note: 戦時統合により廣島無盡として新発足（存続・新設の別は出典で不明確）
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [hiroshima-mujin-1941]
+  to: [hiroshima-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [hiroshima-sogo]
+  to: [hiroshima-general]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- date: "1941-11"
+  type: merger
+  from: [kure-mujin-old, kureyo-mujin]
+  to: [kure-mujin]
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [kure-mujin]
+  to: [kure-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [kure-sogo]
+  to: [setouchi]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- date: "2004-05-01"
+  type: absorption
+  from: [setouchi]
+  to: [hiroshima-general]
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- date: "2004-05-01"
+  type: rename
+  from: [hiroshima-general]
+  to: [momiji]
+  note: せとうち銀行の吸収合併と同時に商号変更
+  sources: [https://ja.wikipedia.org/wiki/もみじ銀行]
+
+- date: "1944-02-01"
+  type: merger
+  from: [tokuyama-mujin-kyoeki, shimonoseki-mujin, hoei-mujin]
+  to: [yamaguchi-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB1", https://ja.wikipedia.org/wiki/西京銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [yamaguchi-mujin]
+  to: [yamaguchi-sogo]
+  note: 相互銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB1", https://ja.wikipedia.org/wiki/西京銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [yamaguchi-sogo]
+  to: [saikyo]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCB1", https://ja.wikipedia.org/wiki/西京銀行]
+
+- date: "1936-05-24"
+  type: rename
+  from: [tomioka-mujin-goshi]
+  to: [tomioka-mujin]
+  note: 合資会社から株式会社に改組
+  sources: [https://ja.wikipedia.org/wiki/徳島銀行]
+
+- date: "1948-02"
+  type: rename
+  from: [tomioka-mujin]
+  to: [tokushima-mujin]
+  sources: [https://ja.wikipedia.org/wiki/徳島銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [tokushima-mujin]
+  to: [tokushima-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/徳島銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [tokushima-sogo]
+  to: [tokushima-1989]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/徳島銀行]
+
+- date: "1942"
+  type: rename
+  from: [kansai-jutaku-kenchiku]
+  to: [kansai-jutaku-mujin]
+  sources: [https://ja.wikipedia.org/wiki/大正銀行]
+
+- date: "1958-10"
+  type: rename
+  from: [kansai-jutaku-mujin]
+  to: [taisho-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/大正銀行]
+
+- date: "1989-04-01"
+  type: rename
+  from: [taisho-sogo]
+  to: [taisho]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/大正銀行]
+
+- date: "2020-01-01"
+  type: absorption
+  from: [taisho]
+  to: [tokushima-1989]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAZU", https://ja.wikipedia.org/wiki/徳島大正銀行]
+
+- date: "2020-01-01"
+  type: rename
+  from: [tokushima-1989]
+  to: [tokushima-taisho]
+  note: 大正銀行の吸収合併と同時に商号変更
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAZU", https://ja.wikipedia.org/wiki/徳島大正銀行]
+
+- date: "1943-02-01"
+  type: merger
+  from: [marugame-mujin, shippo-mujin, kagawa-daiichi-mujin, sanuki-mujin, asahi-mujin-kagawa]
+  to: [kagawa-mujin]
+  sources: [https://ja.wikipedia.org/wiki/香川銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [kagawa-mujin]
+  to: [kagawa-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/香川銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [kagawa-sogo]
+  to: [kagawa]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/香川銀行]
+
+- date: "1943-03-20"
+  type: merger
+  from: [toyo-mujin-ehime, imabari-mujin, matsuyama-mujin, tokiwa-mujin, nanyo-mujin-kinyu]
+  to: [ehime-mujin]
+  note: 有報は1943年3月（日はWikipediaによる）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS", https://ja.wikipedia.org/wiki/愛媛銀行]
+
+- date: "1950-12"
+  type: transfer
+  from: [iyo-shokusan-mujin]
+  to: [ehime-mujin]
+  note: 伊豫殖産無尽の営業譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS", https://ja.wikipedia.org/wiki/愛媛銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [ehime-mujin]
+  to: [ehime-sogo]
+  note: 相互銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS", https://ja.wikipedia.org/wiki/愛媛銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [ehime-sogo]
+  to: [ehime]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YENS", https://ja.wikipedia.org/wiki/愛媛銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [kochi-mujin]
+  to: [kochi-sogo]
+  note: 相互銀行に転換（Wikipediaは10月18日）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJZJ", https://ja.wikipedia.org/wiki/高知銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [kochi-sogo]
+  to: [kochi-1989]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJZJ", https://ja.wikipedia.org/wiki/高知銀行]
+
+# ---------------------------------------------------------------- 第二地方銀行（九州・沖縄）
+- date: "1951-06"
+  type: merger
+  from: [daiichi-shokusan-mujin, seibu-shokusan-mujin]
+  to: [shokin-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R90U", https://ja.wikipedia.org/wiki/福岡中央銀行]
+
+- date: "1952-05"
+  type: rename
+  from: [shokin-mujin]
+  to: [shokin-sogo]
+  note: 相互銀行の営業免許取得
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R90U", https://ja.wikipedia.org/wiki/福岡中央銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [shokin-sogo]
+  to: [fukuoka-chuo]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R90U", https://ja.wikipedia.org/wiki/福岡中央銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [saga-mujin]
+  to: [saga-sogo]
+  note: 相互銀行の営業免許取得
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCEI", https://ja.wikipedia.org/wiki/佐賀共栄銀行]
+
+- date: "1989-04"
+  type: rename
+  from: [saga-sogo]
+  to: [saga-kyoei]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCEI", https://ja.wikipedia.org/wiki/佐賀共栄銀行]
+
+- date: "1916-05"
+  type: rename
+  from: [nagasaki-chokin]
+  to: [nagasaki-mujin]
+  sources: [https://ja.wikipedia.org/wiki/長崎銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [nagasaki-mujin]
+  to: [nagasaki-sogo]
+  note: 相互銀行法に基づき転換
+  sources: [https://ja.wikipedia.org/wiki/長崎銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [nagasaki-sogo]
+  to: [nagasaki]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/長崎銀行]
+
+- date: "2002-03"
+  type: transfer
+  from: [nagasaki]
+  to: [fukuoka-city]
+  note: 長崎銀行の福岡県内10か店を福岡シティ銀行へ事業譲渡（一部譲渡、長崎銀行は存続）
+  sources: [https://ja.wikipedia.org/wiki/長崎銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [kumamoto-mujin]
+  to: [kumamoto-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/熊本銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [higo-mujin]
+  to: [higo-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/熊本銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [kumamoto-sogo]
+  to: [kumamoto-1989]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/熊本銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [higo-sogo]
+  to: [higo-family]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/熊本銀行]
+
+- date: "1992-04"
+  type: absorption
+  from: [higo-family]
+  to: [kumamoto-1989]
+  note: 対等合併だが法的には（初代）熊本銀行が存続会社。同日熊本ファミリー銀行に改称
+  sources: [https://ja.wikipedia.org/wiki/熊本ファミリー銀行, https://ja.wikipedia.org/wiki/熊本銀行]
+
+- date: "1992-04"
+  type: rename
+  from: [kumamoto-1989]
+  to: [kumamoto-family]
+  sources: [https://ja.wikipedia.org/wiki/熊本ファミリー銀行, https://ja.wikipedia.org/wiki/熊本銀行]
+
+- date: "2013-04-01"
+  type: rename
+  from: [kumamoto-family]
+  to: [kumamoto]
+  note: 有報は2013年4月、Wikipediaにより日付を補完
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFNB", https://ja.wikipedia.org/wiki/熊本ファミリー銀行, https://ja.wikipedia.org/wiki/熊本銀行]
+
+- date: "1953-01-26"
+  type: rename
+  from: [daiho-mujin]
+  to: [howa-sogo]
+  note: 相互銀行法施行に伴う転換。Wikipediaは1月27日とする（有報を採用）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF85", https://ja.wikipedia.org/wiki/豊和銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [howa-sogo]
+  to: [howa]
+  note: 金融機関の合併及び転換に関する法律により普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YF85", https://ja.wikipedia.org/wiki/豊和銀行]
+
+- date: "1941-08"
+  type: merger
+  from: [hyuga-mujin, nisshu-mujin, takanabe-mujin, shomei-mujin]
+  to: [miyazaki-mujin]
+  note: 宮崎県内4無尽会社の合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [miyazaki-mujin]
+  to: [miyazaki-sogo]
+  note: 相互銀行制度施行に伴う転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [miyazaki-sogo]
+  to: [miyazaki-taiyo]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
+
+- date: "1943-11"
+  type: merger
+  from: [kagoshima-mujin-old, kagoshima-sogo-mujin]
+  to: [kagoshima-mujin]
+  note: 有報は2社の合併とする。Wikipediaは第一産業無尽・大島無尽・富国無尽・鹿児島相互無尽との合併とし年月の記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [kagoshima-mujin]
+  to: [asahi-sogo]
+  note: 相互銀行法施行に伴う転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+
+- date: "1951-10"
+  type: transfer
+  from: [minami-kyushu-shokusan-mujin]
+  to: [asahi-sogo]
+  note: 営業譲受（Wikipediaのみ、有報に記載なし）
+  sources: [https://ja.wikipedia.org/wiki/南日本銀行]
+
+- date: "1951-10"
+  type: transfer
+  from: [taihei-shokusan-mujin]
+  to: [asahi-sogo]
+  note: 営業譲受（Wikipediaのみ、有報に記載なし）
+  sources: [https://ja.wikipedia.org/wiki/南日本銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [asahi-sogo]
+  to: [minami-nippon]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+
+- date: "1953-11"
+  type: rename
+  from: [okinawa-mujin]
+  to: [okinawa-sogo-1953]
+  note: 1953年10月琉球政府立法院で相互銀行法成立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
+- date: "1953-11"
+  type: rename
+  from: [naha-mujin]
+  to: [daiichi-sogo-okinawa]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
+- date: "1964-04"
+  type: merger
+  from: [okinawa-sogo-1953, daiichi-sogo-okinawa]
+  to: [chuo-sogo-okinawa]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
+- date: "1972-03"
+  type: rename
+  from: [chuo-sogo-okinawa]
+  to: [okinawa-sogo-1972]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [okinawa-sogo-1972]
+  to: [okinawa-kaiho]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCGZ", https://ja.wikipedia.org/wiki/沖縄海邦銀行]
+
