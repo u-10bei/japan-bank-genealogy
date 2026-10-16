@@ -3123,19 +3123,19 @@
   name: 興紀無尽
   type: other
   founded: "1941-08-20"
-  dissolved: "1951-10"
+  dissolved: "1951-10-20"
   prefecture: 和歌山県
-  note: 紀南無尽・福徳無尽の新立合併で設立（1941年7月24日合併認可、8月16日創立総会、8月20日設立登記）。Wikipediaは3社の合併とするが、銀行変遷史DBでは新宮無尽は1937年に紀南無尽へ合併済み。1951年10月興紀相互銀行に改称
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html", https://ja.wikipedia.org/wiki/阪和銀行]
+  note: 紀南無尽・福徳無尽の新立合併で設立（1941年7月24日合併認可、8月16日創立総会、8月20日設立登記）。Wikipediaは3社の合併とするが、銀行変遷史DBでは新宮無尽は1937年に紀南無尽へ合併済み。1951年10月20日興紀相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SSwwpoEQxm7CoT-L-YeDf9289zf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html", https://ja.wikipedia.org/wiki/阪和銀行]
 
 - id: kouki-sogo
   name: 興紀相互銀行
   type: other
-  founded: "1951-10"
+  founded: "1951-10-20"
   dissolved: "1989-02"
   prefecture: 和歌山県
-  note: 1951年10月、相互銀行への転換で興紀無尽が改称（日付は未確認）
-  sources: [https://ja.wikipedia.org/wiki/阪和銀行]
+  note: 1951年10月20日、相互銀行への転換で興紀無尽が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SSwwpoEQxm7CoT-L-YeDf9289zf/description.html", https://ja.wikipedia.org/wiki/阪和銀行]
 
 - id: hanwa
   name: 阪和銀行

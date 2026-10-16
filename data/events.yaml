@@ -4364,11 +4364,11 @@
   from: [kinan-mujin, fukutoku-mujin-wakayama]
   to: [kouki-mujin]
   note: 新立合併（7月24日合併認可、8月16日創立総会、8月20日設立登記）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SSwwpoEQxm7CoT-L-YeDf9289zf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html"]
 
-- date: "1951-10"
+- date: "1951-10-20"
   type: rename
   from: [kouki-mujin]
   to: [kouki-sogo]
   note: 相互銀行に転換
-  sources: [https://ja.wikipedia.org/wiki/阪和銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SSwwpoEQxm7CoT-L-YeDf9289zf/description.html", https://ja.wikipedia.org/wiki/阪和銀行]
