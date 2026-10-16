@@ -1170,11 +1170,12 @@
   to: [hyakujushi]
   sources: [https://ja.wikipedia.org/wiki/百十四銀行]
 
-- date: "1934-08"
+- date: "1934-08-20"
   type: merger
   from: [dai29, yawatahama-shogyo, ozu]
   to: [yoshu]
-  sources: [https://ja.wikipedia.org/wiki/伊予銀行]
+  note: 3行の新立合併（7月31日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/82I8_vceNsnXard21uZ3vUjn0tp/description.html", https://ja.wikipedia.org/wiki/伊予銀行]
 
 - date: "1937-12"
   type: merger
@@ -5505,3 +5506,31 @@
   to: [thirty-fourth]
   note: 三十四銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1897-03-01"
+  type: rename
+  from: [dai29-kokuritsu]
+  to: [dai29]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cVutZRlro-91thFdyh8ASpRL83o/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/82I8_vceNsnXard21uZ3vUjn0tp/description.html"]
+
+- date: "1930-01-25"
+  type: absorption
+  from: [jitsugyo-bank-ehime, seinan-bank]
+  to: [dai29]
+  note: 第二十九銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/82I8_vceNsnXard21uZ3vUjn0tp/description.html"]
+
+- date: "1930-03-01"
+  type: transfer
+  from: [yoshida-shogyo]
+  to: [dai29]
+  note: 第二十九銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/82I8_vceNsnXard21uZ3vUjn0tp/description.html"]
+
+- date: "1933-03-01"
+  type: absorption
+  from: [uwajima-bank]
+  to: [dai29]
+  note: 第二十九銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/82I8_vceNsnXard21uZ3vUjn0tp/description.html"]
