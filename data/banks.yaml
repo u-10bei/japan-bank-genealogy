@@ -1253,6 +1253,24 @@
   prefecture: 茨城県
   sources: [https://ja.wikipedia.org/wiki/常磐銀行]
 
+- id: kokuritsu-104
+  name: 第百四国立銀行
+  type: other
+  founded: "1878-09-06"
+  dissolved: "1897-10-01"
+  prefecture: 茨城県
+  note: 1878年9月6日開業免状下付、10月22日開業
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_6Lmqm05Dqp6L1t9y0giMDYDzog/description.html"]
+
+- id: mito-104
+  name: 水戸百四銀行
+  type: other
+  founded: "1897-10-01"
+  dissolved: "1914-10-22"
+  prefecture: 茨城県
+  note: 第百四国立銀行が国立銀行営業満期前特別処分法により私立銀行として営業継続し改称。1914年10月22日常磐銀行に合併し解散（常陽銀行二十年史は11月3日合併引継完了）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RSYi9_oLqlJ4FT0Tlv3gMHfQR7k/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_6Lmqm05Dqp6L1t9y0giMDYDzog/description.html"]
+
 - id: joban
   name: 常磐銀行
   type: other
@@ -1260,7 +1278,7 @@
   dissolved: "1935-07-31"
   prefecture: 茨城県
   note: 1914年に水戸百四銀行（旧第百四国立銀行）を合併
-  sources: [https://ja.wikipedia.org/wiki/常磐銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RSYi9_oLqlJ4FT0Tlv3gMHfQR7k/description.html", https://ja.wikipedia.org/wiki/常磐銀行]
 
 - id: joyo
   name: 常陽銀行

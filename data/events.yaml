@@ -4049,3 +4049,18 @@
   to: [shizuoka]
   note: 静岡銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sRQDxwavWXF2lcCt2CFyPLYi51m/description.html"]
+
+# ---------------------------------------------------------------- 水戸百四銀行（銀行変遷史データベース）
+- date: "1897-10-01"
+  type: rename
+  from: [kokuritsu-104]
+  to: [mito-104]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_6Lmqm05Dqp6L1t9y0giMDYDzog/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RSYi9_oLqlJ4FT0Tlv3gMHfQR7k/description.html"]
+
+- date: "1914-10-22"
+  type: absorption
+  from: [mito-104]
+  to: [joban]
+  note: 常陽銀行二十年史は1914年11月3日合併引継完了とする
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RSYi9_oLqlJ4FT0Tlv3gMHfQR7k/description.html"]
