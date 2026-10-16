@@ -604,11 +604,11 @@
   to: [kiraboshi]
   sources: [https://ja.wikipedia.org/wiki/きらぼし銀行]
 
-- date: "1957"
+- date: "1957-01-01"
   type: rename
   from: [yokohama-koshin]
   to: [yokohama]
-  sources: [https://ja.wikipedia.org/wiki/横浜銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html", https://ja.wikipedia.org/wiki/横浜銀行]
 
 - date: "1897-01-01"
   type: rename
@@ -3760,3 +3760,47 @@
   from: [yokohama-chochiku]
   to: [bank-74]
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vn7fpsAyQw1ohbXodgdZXbSk6In/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4KQAuF4dodzZiiUtCq3SZbMxu6e/description.html"]
+
+# ---------------------------------------------------------------- 横浜興信銀行の買収・合併（銀行変遷史データベース）
+- date: "1932-11-01"
+  type: absorption
+  from: [kanto-koshin]
+  to: [yokohama-koshin]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
+
+- date: "1927-12-07"
+  type: transfer
+  from: [soda-ginko]
+  to: [yokohama-koshin]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
+
+- date: "1928-04-02"
+  type: transfer
+  from: [daini-ginko]
+  to: [yokohama-koshin]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
+
+- date: "1928-05-14"
+  type: transfer
+  from: [yokohama-boeki]
+  to: [yokohama-koshin]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
+
+- date: "1928-07-23"
+  type: transfer
+  from: [motomachi-ginko]
+  to: [yokohama-koshin]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
+
+- date: "1941-12-13"
+  type: transfer
+  from: [ashigara-nosho, kamakura-ginko, sagami-ginko, hadano-ginko, hiratsuka-koyo, meiwa-ginko]
+  to: [yokohama-koshin]
+  note: 6行を買収（1941年12月11日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
+
+- date: "1945-05-05"
+  type: transfer
+  from: [tonan-chochiku]
+  to: [yokohama-koshin]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
