@@ -5398,11 +5398,11 @@
 - id: japan-shinko-bank
   name: 日本振興銀行
   type: new
-  founded: "2003-04-21"
+  founded: "2003-04"
   dissolved: "2012-09-10"
   prefecture: 東京都
-  note: 中小新興企業融資企画として設立、2004年4月21日開業。2010年9月10日破綻（初のペイオフ発動）。のち日本振興清算に商号変更し2012年9月10日解散
-  sources: [https://ja.wikipedia.org/wiki/日本振興銀行]
+  note: 設立準備会社の中小新興企業融資企画として設立（設立日は日本金融名鑑で2003年4月1日、Wikipediaで4月21日）。2003年10月31日予備免許、2004年4月13日銀行業免許、4月21日営業開始。2010年9月10日破綻（初のペイオフ発動）。2011年12月26日、貸付債権の一部をイオン銀行へ譲渡。のち日本振興清算に商号変更し2012年9月10日管理終了・解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/w6OZyfDGU2LaoYcUDB-7YXniJwd/description.html", https://ja.wikipedia.org/wiki/日本振興銀行]
 
 - id: second-japan-bridge-bank
   name: 第二日本承継銀行

@@ -2739,15 +2739,15 @@
 - date: "2010-09-10"
   type: failure
   from: [japan-shinko-bank]
-  note: 経営破綻、預金保険法に基づくペイオフが初めて発動
-  sources: [https://ja.wikipedia.org/wiki/日本振興銀行]
+  note: 預金保険法第74条第5項に基づく申出と民事再生手続開始の申立。金融整理管財人（預金保険機構）が選任され、ペイオフが初めて発動
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/w6OZyfDGU2LaoYcUDB-7YXniJwd/description.html", https://ja.wikipedia.org/wiki/日本振興銀行]
 
 - date: "2011-04-25"
   type: transfer
   from: [japan-shinko-bank]
   to: [second-japan-bridge-bank]
-  note: 日本振興銀行の事業を第二日本承継銀行が譲受
-  sources: [https://ja.wikipedia.org/wiki/日本振興銀行, https://ja.wikipedia.org/wiki/第二日本承継銀行]
+  note: 事業の一部を第二日本承継銀行へ譲渡（不良債権の一部は預金保険機構の委託を受け整理回収機構が買取り）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/w6OZyfDGU2LaoYcUDB-7YXniJwd/description.html", https://ja.wikipedia.org/wiki/日本振興銀行, https://ja.wikipedia.org/wiki/第二日本承継銀行]
 
 - date: "2011-12-26"
   type: rename
