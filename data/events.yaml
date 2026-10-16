@@ -4590,3 +4590,10 @@
   to: [noto-mujin]
   note: 無尽経営能登貯金株式会社が能登無尽株式会社に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ah9ZvBmoKdhMfa54w5KGW7XCwVe/description.html"]
+
+- date: "1989-04-01"
+  type: rename
+  from: [sanei-sogo]
+  to: [nara]
+  note: 普通銀行（第二地方銀行協会加盟行）に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UOgImIilnuBse3O-jaaWXAw7FJf/description.html"]

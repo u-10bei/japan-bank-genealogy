@@ -563,14 +563,23 @@
   prefecture: 東京都
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/あさひ銀行]
 
-- id: nara
-  name: 奈良銀行
+- id: sanei-sogo
+  name: 三栄相互銀行
   type: other
   founded: "1953-03-16"
+  dissolved: "1989-04-01"
+  prefecture: 奈良県
+  note: 1953年3月16日営業免許・設立登記（3月15日創立総会、3月26日開業。奈良銀行四十年史による）。1989年4月1日普通銀行に転換し奈良銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UOgImIilnuBse3O-jaaWXAw7FJf/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/奈良銀行]
+
+- id: nara
+  name: 奈良銀行
+  type: regional2
+  founded: "1989-04-01"
   dissolved: "2006-01-01"
   prefecture: 奈良県
-  note: 三栄相互銀行として設立。2006年1月りそな銀行に吸収合併
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/奈良銀行]
+  note: 1989年4月1日、普通銀行への転換で三栄相互銀行が改称。2006年1月りそな銀行に吸収合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UOgImIilnuBse3O-jaaWXAw7FJf/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/奈良銀行]
 
 - id: resona
   name: りそな銀行
