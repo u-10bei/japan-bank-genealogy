@@ -4947,3 +4947,10 @@
   to: [dai147]
   note: 第百四十七銀行が営業を譲受（買収）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html"]
+
+- date: "1899-01-01"
+  type: rename
+  from: [dai145-kokuritsu]
+  to: [nobeoka]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nzDfhp3LCkIGa31AgyMI8jWeHpd/description.html"]
