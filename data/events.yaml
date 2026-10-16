@@ -4450,3 +4450,10 @@
   to: [iwate-mujin]
   note: 岩手無尽が営業を譲受（買収）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gxvpRFokCF6AzcPGst56uGroQ1f/description.html"]
+
+- date: "1919-12-30"
+  type: transfer
+  from: [sanmei-mujin-goshi]
+  to: [morioka-mujin]
+  note: 盛岡無尽株式会社の設立に伴い三盟無尽合資会社が解散し、盛岡無尽が買収（銀行総覧は解散を1920年1月26日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RpcBrUHA3GQkj8w2OydkMW7oNej/description.html"]

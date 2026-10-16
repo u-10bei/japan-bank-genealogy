@@ -4422,12 +4422,22 @@
   note: 岩手無尽株式会社。設立日は創立総会の日（北日本相互銀行二十年史・銀行総覧の多くの回による。銀行総覧第28〜29・31〜33回は無尽営業免許日の1920年7月20日を設立日とする）。1920年9月1日岩手無尽合資会社を買収し開業。1941年12月10日興南無尽の営業を譲受。1942年2月2日盛岡無尽と新立合併し岩手興産無尽となる（1941年11月合併認可、1942年1月29日創立総会）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gxvpRFokCF6AzcPGst56uGroQ1f/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
 
+- id: sanmei-mujin-goshi
+  name: 三盟無尽
+  type: other
+  dissolved: "1919-12-30"
+  prefecture: 岩手県
+  note: 三盟無尽合資会社。盛岡無尽株式会社の設立に伴い解散・買収（解散日は北日本相互銀行二十年史による。銀行総覧は1920年1月26日とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RpcBrUHA3GQkj8w2OydkMW7oNej/description.html"]
+
 - id: morioka-mujin
   name: 盛岡無尽
   type: other
+  founded: "1919-06-18"
   dissolved: "1942-02-02"
   prefecture: 岩手県
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+  note: 盛岡無尽株式会社。設立日は創立総会の日（北日本相互銀行二十年史・銀行総覧第34〜48回による。第27〜33回は6月8日とする）。三盟無尽合資会社の解散・買収を条件に1919年9月13日無尽営業免許、10月開業。1942年2月2日岩手無尽と新立合併し岩手興産無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RpcBrUHA3GQkj8w2OydkMW7oNej/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
 
 - id: iwate-kosan-mujin
   name: 岩手興産無尽
