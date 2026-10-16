@@ -4648,3 +4648,10 @@
   to: [nihon-bankers-trust]
   note: ドイチェ・モルガン・グレンフェル信託銀行の営業の一部を日本バンカース・トラスト信託銀行が譲受（同日ドイチェ信託銀行に改称）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/t3U-KbfFheEnj7BuTjP5ht9Rwed/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/feHEUqdmaA1zi9lzuRFBMaYo-dl/description.html"]
+
+- date: "1999-08-02"
+  type: rename
+  from: [nihon-bankers-trust]
+  to: [deutsche-trust]
+  note: ドイチェ信託銀行に改称（同日ドイチェ・モルガン・グレンフェル信託銀行の営業の一部を譲受）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VF4Vxal89bVFz3fzek8nnXzPcuo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/t3U-KbfFheEnj7BuTjP5ht9Rwed/description.html"]
