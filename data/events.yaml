@@ -1147,7 +1147,7 @@
   type: rename
   from: [awa-shogyo]
   to: [awa]
-  sources: [https://ja.wikipedia.org/wiki/阿波銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/N0IXK1CUrCTLdFlOc7T_3Pp1-Jl/description.html", https://ja.wikipedia.org/wiki/阿波銀行]
 
 - date: "1898-10-07"
   type: rename
@@ -3628,13 +3628,14 @@
   type: absorption
   from: [futatsugi]
   to: [awa-shogyo]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
+  note: 1934年5月2日買収認可（阿波銀行七十年小史は4月29日買収合併）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/N0IXK1CUrCTLdFlOc7T_3Pp1-Jl/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
 
-- date: "1943-08"
+- date: "1943-08-01"
   type: absorption
   from: [awa-chochiku]
   to: [awa-shogyo]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/N0IXK1CUrCTLdFlOc7T_3Pp1-Jl/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
 
 - date: "1944-12"
   type: absorption
@@ -4127,9 +4128,16 @@
   note: 破産
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/clpagJt0Oo3uMs411o1m1sdFG3h/description.html"]
 
-- date: "1896-06-19"
-  type: transfer
+- date: "1896-06"
+  type: reorganization
   from: [awa-ginko-1892]
   to: [awa-shogyo]
-  note: 合名会社阿波銀行を母体に阿波商業銀行を設立（承継の詳細は未確認）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TTp5aiBk1RLoK2vzUBeSBJjyJLi/description.html", https://ja.wikipedia.org/wiki/阿波銀行]
+  note: 合名会社阿波銀行が満期廃業し、同行の株主により阿波商業銀行を設立（発展解消）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fkrfUVW5T9errcNLCJmz8LwZGcl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/N0IXK1CUrCTLdFlOc7T_3Pp1-Jl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TTp5aiBk1RLoK2vzUBeSBJjyJLi/description.html", https://ja.wikipedia.org/wiki/阿波銀行]
+
+- date: "1928-05"
+  type: transfer
+  from: [tokushima-1882]
+  to: [awa-shogyo]
+  note: 買収（営業譲受）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/N0IXK1CUrCTLdFlOc7T_3Pp1-Jl/description.html"]

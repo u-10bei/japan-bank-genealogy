@@ -3322,10 +3322,10 @@
   name: 阿波銀行
   type: other
   founded: "1892-01"
-  dissolved: "1896-06-19"
+  dissolved: "1896-06"
   prefecture: 徳島県
-  note: 合名会社阿波銀行。久次米銀行の関西部（徳島本店・大阪・洲本支店）を継承（阿波商業銀行小史は1892年1月8日創業、阿波銀行七十年小史は2月9日開店、銀總は1893年6月28日設立）。1896年阿波商業銀行の母体となる。現在の阿波銀行とは別
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TTp5aiBk1RLoK2vzUBeSBJjyJLi/description.html"]
+  note: 合名会社阿波銀行。久次米銀行の関西部（徳島本店・大阪・洲本支店）を継承して設立（阿波商業銀行小史は1892年1月8日創業、阿波銀行七十年小史は2月9日開店、銀總は1893年6月28日設立）。1896年6月満期廃業し、同行株主により阿波商業銀行を設立（発展解消）。現在の阿波銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fkrfUVW5T9errcNLCJmz8LwZGcl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TTp5aiBk1RLoK2vzUBeSBJjyJLi/description.html"]
 
 - id: kujime-ginko-1892
   name: 久次米銀行
@@ -3336,14 +3336,23 @@
   note: 合資会社久次米銀行。久次米銀行の関東部（東京・郡山支店）を継承して東京に設立。1907年破産
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/clpagJt0Oo3uMs411o1m1sdFG3h/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TTp5aiBk1RLoK2vzUBeSBJjyJLi/description.html"]
 
+- id: tokushima-1882
+  name: 徳島銀行
+  type: other
+  founded: "1882"
+  dissolved: "1928-05"
+  prefecture: 徳島県
+  note: 1928年5月阿波商業銀行が買収（戦後の徳島銀行とは別）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/N0IXK1CUrCTLdFlOc7T_3Pp1-Jl/description.html"]
+
 - id: awa-shogyo
   name: 阿波商業銀行
   type: other
   founded: "1896-06-19"
   dissolved: "1964-10-01"
   prefecture: 徳島県
-  note: 久次米銀行破綻後の整理会社・合名会社(旧)阿波銀行を母体に設立
-  sources: [https://ja.wikipedia.org/wiki/阿波銀行]
+  note: 合名会社阿波銀行の株主により設立（1896年5月17日創立総会、6月1日設立認可、6月19日設立登記、6月21日開業）。1928年徳島銀行、1934年二木銀行を買収、1943年8月1日阿波貯蓄銀行を合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/N0IXK1CUrCTLdFlOc7T_3Pp1-Jl/description.html", https://ja.wikipedia.org/wiki/阿波銀行]
 
 - id: awa
   name: 阿波銀行
@@ -7645,8 +7654,8 @@
 - id: awa-chochiku
   name: 阿波貯蓄銀行
   type: other
-  dissolved: "1943-08"
-  note: 1943年8月阿波商業銀行が吸収合併
+  dissolved: "1943-08-01"
+  note: 1943年7月15日合併認可、8月1日阿波商業銀行に合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
 
 - id: iyo-sogo-chochiku
