@@ -6221,13 +6221,22 @@
   note: 1933年4月24日設立登記・開業。1943年3月15日肥後無尽に合併（3月1日合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/K990E4w-QFio24NVah1GDenOG7k/description.html"]
 
+- id: aso-chokin-mujin
+  name: 阿蘇貯金無尽
+  type: other
+  dissolved: "1917-05-15"
+  prefecture: 熊本県
+  note: 1917年5月15日阿蘇無尽株式会社に改称（肥後相互銀行史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VXnCESVSb376ATn_sA8F7xKIxEc/description.html"]
+
 - id: aso-mujin
   name: 阿蘇無尽
   type: other
+  founded: "1917-05-15"
   dissolved: "1943-02-01"
   prefecture: 熊本県
-  note: 1943年2月1日肥後無尽に営業譲渡（消滅日は営業譲渡日）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LlMtfelfl0m-n0BF666aibkXcSk/description.html"]
+  note: 1917年5月15日阿蘇貯金無尽株式会社が改称。1943年2月1日肥後無尽に営業譲渡（消滅日は営業譲渡日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VXnCESVSb376ATn_sA8F7xKIxEc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LlMtfelfl0m-n0BF666aibkXcSk/description.html"]
 
 - id: higo-mujin
   name: 肥後無尽
