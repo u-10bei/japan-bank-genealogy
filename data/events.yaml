@@ -30,6 +30,7 @@
   type: merger
   from: [thirty-fourth, yamaguchi-osaka, konoike]
   to: [sanwa]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行]
 
 - date: "1946-12"
   type: transfer
@@ -42,21 +43,25 @@
   type: merger
   from: [mitsubishi, tokyo]
   to: [tokyo-mitsubishi]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/東京三菱銀行]
 
 - date: "2002-01-15"
   type: merger
   from: [sanwa, tokai]
   to: [ufj]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/UFJ銀行]
 
 - date: "2006-01-01"
   type: merger
   from: [tokyo-mitsubishi, ufj]
   to: [btmu]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/東京三菱銀行]
 
 - date: "2018-04-01"
   type: rename
   from: [btmu]
   to: [mufg-bank]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三菱UFJ銀行]
 
 # ---------------------------------------------------------------- 三井住友系
 - date: "1943-04"
@@ -66,11 +71,11 @@
   note: 三井銀行と第一銀行が合併し帝国銀行となる
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
 
-- date: "1944-08"
+- date: "1944-08-01"
   type: absorption
   from: [jugo]
   to: [teikoku]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/帝国銀行]
 
 - date: "1948-10"
   type: reorganization
@@ -86,18 +91,18 @@
   note: 行名復帰
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
 
-- date: "1948-10"
+- date: "1948-10-01"
   type: rename
   from: [sumitomo-1895]
   to: [osaka-1948]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/住友銀行]
 
-- date: "1952-12"
+- date: "1952-12-01"
   type: rename
   from: [osaka-1948]
   to: [sumitomo]
   note: 行名復帰
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/住友銀行]
 
 - date: "1948-04"
   type: rename
@@ -129,28 +134,33 @@
   type: merger
   from: [taiyo, kobe]
   to: [taiyo-kobe]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/太陽神戸銀行]
 
 - date: "1990-04-01"
   type: merger
   from: [mitsui, taiyo-kobe]
   to: [taiyo-kobe-mitsui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/さくら銀行]
 
 - date: "1992-04-01"
   type: rename
   from: [taiyo-kobe-mitsui]
   to: [sakura]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/さくら銀行]
 
 - date: "2001-04-01"
   type: merger
   from: [sumitomo, sakura]
   to: [smbc]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/三井住友銀行]
 
 # ---------------------------------------------------------------- みずほ系
-- date: "1896"
+- date: "1896-09-26"
   type: rename
   from: [dai-ichi-national]
   to: [dai-ichi-1896]
-  note: 国立銀行の営業満期に伴い普通銀行に転換
+  note: 国立銀行の営業満期（9月25日）に伴い株式会社第一銀行として営業開始
+  sources: [https://ja.wikipedia.org/wiki/第一銀行]
 
 - date: "1948-10"
   type: rename
@@ -162,18 +172,21 @@
   type: merger
   from: [dai-ichi, kangyo]
   to: [dkb]
+  sources: [https://ja.wikipedia.org/wiki/日本勧業銀行]
 
 - date: "2002-04-01"
   type: reorganization
   from: [dkb, fuji, ibj]
   to: [mizuho-bank-old, mizuho-corporate]
   note: 3行を分割・合併し、2行に再編
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/みずほ銀行]
 
 - date: "2013-07-01"
   type: merger
   from: [mizuho-bank-old, mizuho-corporate]
   to: [mizuho-bank]
   note: 法的にはみずほコーポレート銀行が存続会社
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/みずほ銀行]
 
 # ---------------------------------------------------------------- りそな系
 - date: "1927-01"
@@ -198,17 +211,26 @@
   type: merger
   from: [kyowa, saitama]
   to: [kyowa-saitama]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/あさひ銀行]
 
 - date: "1992-09-21"
   type: rename
   from: [kyowa-saitama]
   to: [asahi]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/あさひ銀行]
 
 - date: "2003-03-01"
   type: reorganization
   from: [daiwa, asahi]
   to: [resona, saitama-resona]
   note: 大和銀行とあさひ銀行が合併してりそな銀行に。あさひ銀行の埼玉県内営業は埼玉りそな銀行へ分割
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/りそな銀行]
+
+- date: "2006-01-01"
+  type: absorption
+  from: [nara]
+  to: [resona]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/奈良銀行]
 
 # ---------------------------------------------------------------- 破綻・国有化
 - date: "1977-10"
@@ -221,48 +243,57 @@
   type: failure
   from: [takugin]
   note: 経営破綻
+  sources: [https://ja.wikipedia.org/wiki/北海道拓殖銀行]
 
-- date: "1998-11-16"
+- date: "1998-11"
   type: transfer
   from: [takugin]
   to: [hokuyo]
-  note: 北海道内の営業を北洋銀行へ譲渡
+  note: 北海道内の営業を北洋銀行へ譲渡（営業終了日はWikipedia内で11月10日・13日の両説）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP", https://ja.wikipedia.org/wiki/北海道拓殖銀行]
 
 - date: "1998-10-23"
   type: failure
   from: [ltcb]
   note: 特別公的管理（一時国有化）
+  sources: [https://ja.wikipedia.org/wiki/日本長期信用銀行]
 
 - date: "2000-06-05"
   type: rename
   from: [ltcb]
   to: [shinsei]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDBB", https://ja.wikipedia.org/wiki/SBI新生銀行]
 
 - date: "2023-01-04"
   type: rename
   from: [shinsei]
   to: [sbi-shinsei]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDBB", https://ja.wikipedia.org/wiki/SBI新生銀行]
 
 - date: "1998-12-13"
   type: failure
   from: [ncb]
   note: 特別公的管理（一時国有化）
+  sources: [https://ja.wikipedia.org/wiki/日本債券信用銀行]
 
 - date: "2001-01-04"
   type: rename
   from: [ncb]
   to: [aozora]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO", https://ja.wikipedia.org/wiki/あおぞら銀行]
 
 # ---------------------------------------------------------------- 地方銀行（例）
 - date: "2021-01-01"
   type: merger
   from: [daishi, hokuetsu]
   to: [daishi-hokuetsu]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W200", https://ja.wikipedia.org/wiki/第四北越銀行]
 
 - date: "2020-10-01"
   type: merger
   from: [eighteenth, shinwa]
   to: [juhachi-shinwa]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFNB", https://ja.wikipedia.org/wiki/十八親和銀行]
 
 # ---------------------------------------------------------------- 地方銀行（北海道・東北）
 - date: "1897-09-01"
@@ -2592,7 +2623,7 @@
   note: 東海銀行・第一信託銀行から信託部門、日本証券代行から証券代行部門を譲受（Wikipediaのみ）
   sources: [https://ja.wikipedia.org/wiki/中央三井信託銀行]
 
-- date: "1998-11-16"
+- date: "1998-11"
   type: transfer
   from: [takugin]
   to: [chuo-trust]

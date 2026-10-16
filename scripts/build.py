@@ -71,6 +71,8 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
             v = b.get(k)
             if v is not None and not DATE_RE.match(str(v)):
                 errors.append(f"{where}: {k} '{v}' は YYYY / YYYY-MM / YYYY-MM-DD 形式（文字列で記述）")
+        if not b.get("sources"):
+            warnings.append(f"{where}: sources（出典）がありません")
         if not b.get("founded") and not b.get("dissolved"):
             errors.append(f"{where}: founded か dissolved の少なくとも一方が必要です")
         if b.get("founded") and b.get("dissolved") and DATE_RE.match(str(b["founded"])) and DATE_RE.match(str(b["dissolved"])):
@@ -90,6 +92,8 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
             errors.append(f"{where}: date が不正です")
         if e.get("type") not in EVENT_TYPES:
             errors.append(f"{where}: type は {sorted(EVENT_TYPES)} のいずれか")
+        if not e.get("sources"):
+            warnings.append(f"{where}: sources（出典）がありません")
         src, dst = e.get("from") or [], e.get("to") or []
         if not src:
             errors.append(f"{where}: from は必須です")

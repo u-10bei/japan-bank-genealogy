@@ -17,11 +17,11 @@
   name: 三菱銀行
   name_en: The Mitsubishi Bank
   type: city
-  founded: "1919-08"
+  founded: "1919-08-15"
   dissolved: "1948-10"
   prefecture: 東京都
   note: 三菱合資会社銀行部の業務を継承して設立、同年10月1日営業開始
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三菱銀行]
 
 - id: chiyoda
   name: 千代田銀行
@@ -30,7 +30,7 @@
   dissolved: "1953-07"
   prefecture: 東京都
   note: 三菱銀行が商号変更
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三菱銀行]
 
 - id: mitsubishi
   name: 三菱銀行
@@ -46,10 +46,10 @@
   name: 横浜正金銀行
   name_en: The Yokohama Specie Bank
   type: special
-  founded: "1880"
+  founded: "1880-02"
   dissolved: "1946-12"
   prefecture: 神奈川県
-  note: 戦後に閉鎖機関となり、普通銀行として東京銀行に改組
+  note: 1880年2月23日設立免許、2月28日営業開始。戦後に閉鎖機関となり、東京銀行に営業譲渡
   sources: [https://ja.wikipedia.org/wiki/横浜正金銀行]
 
 - id: tokyo
@@ -59,7 +59,7 @@
   founded: "1946-12"
   dissolved: "1996-04-01"
   prefecture: 東京都
-  note: 横浜正金銀行から営業譲渡を受け1947年1月4日営業開始。1954年8月外国為替銀行法に基づく外国為替専門銀行として発足
+  note: 横浜正金銀行から営業譲渡を受け1947年1月4日営業開始（設立日はWikipediaで1946年12月17日・16日の両説）。1954年8月外国為替専門銀行として発足
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/東京銀行]
 
 - id: tokyo-mitsubishi
@@ -86,6 +86,7 @@
   founded: "1878"
   dissolved: "1933-12-09"
   prefecture: 大阪府
+  note: 第三十四国立銀行として開業（1878年4月13日、三和銀行記事では1878年3月）、1897年9月普通銀行に転換
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三十四銀行]
 
 - id: yamaguchi-osaka
@@ -94,16 +95,17 @@
   founded: "1879"
   dissolved: "1933-12-09"
   prefecture: 大阪府
-  note: 現存の山口銀行（山口県）とは別
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行]
+  note: 1879年第百四十八国立銀行として開業、1898年山口銀行開業。現存の山口銀行（山口県）とは別
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/山口銀行_(大阪)]
 
 - id: konoike
   name: 鴻池銀行
   type: other
-  founded: "1877"
+  founded: "1877-05-21"
   dissolved: "1933-12-09"
   prefecture: 大阪府
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行]
+  note: 第十三国立銀行として開業、1897年個人経営の普通銀行に転換、1919年株式会社に改組
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/鴻池銀行]
 
 - id: tokai
   name: 東海銀行
@@ -131,6 +133,7 @@
   founded: "2006-01-01"
   dissolved: "2018-04-01"
   prefecture: 東京都
+  note: 合併の登記日は2006年1月1日、効力発生は1月4日（Wikipedia注記）
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三菱UFJ銀行]
 
 - id: mufg-bank
@@ -147,28 +150,28 @@
   name_en: The Sumitomo Bank
   type: city
   founded: "1895-11"
-  dissolved: "1948-10"
+  dissolved: "1948-10-01"
   prefecture: 大阪府
-  note: 1895年11月個人経営として創業、1912年3月株式会社住友銀行設立
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+  note: 1895年11月個人経営として創業、1912年株式会社住友銀行設立（有報は1912年3月、Wikipediaは1912年2月23日）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/住友銀行]
 
 - id: osaka-1948
   name: 大阪銀行
   type: city
-  founded: "1948-10"
-  dissolved: "1952-12"
+  founded: "1948-10-01"
+  dissolved: "1952-12-01"
   prefecture: 大阪府
   note: 住友銀行が商号変更（現存の銀行とは無関係）
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/住友銀行]
 
 - id: sumitomo
   name: 住友銀行
   name_en: The Sumitomo Bank
   type: city
-  founded: "1952-12"
+  founded: "1952-12-01"
   dissolved: "2001-04-01"
   prefecture: 大阪府
-  note: 1952年12月、大阪銀行が住友銀行に行名復帰
+  note: 1952年12月1日、大阪銀行が住友銀行に行名復帰（Wikipedia本文には1952年4月とする記述もある）
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/住友銀行]
 
 - id: mitsui-1876
@@ -178,16 +181,17 @@
   founded: "1876-07"
   dissolved: "1943-04"
   prefecture: 東京都
-  note: 私盟会社として創立、1893年合名会社、1909年株式会社に改組
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+  note: 私盟会社として創立（Wikipediaは創業を1876年5月とする）。1893年合名会社、1909年株式会社に改組
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/三井銀行]
 
 - id: jugo
   name: 十五銀行
   type: other
-  dissolved: "1944-08"
+  dissolved: "1944-08-01"
   prefecture: 東京都
-  note: 設立日は未確認
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+  note: 第十五国立銀行として開業、1897年5月21日株式会社十五銀行に改組
+  founded: "1877-05-21"
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/十五銀行]
 
 - id: teikoku
   name: 帝国銀行
@@ -195,8 +199,8 @@
   founded: "1943-04"
   dissolved: "1954-01"
   prefecture: 東京都
-  note: 三井銀行と第一銀行の合併で発足。1948年10月に第一銀行を分離
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+  note: 三井銀行と第一銀行の合併で発足（Wikipediaは1943年3月27日とする）。1948年10月に第一銀行を分離（Wikipediaは1948年9月23日とする）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/帝国銀行]
 
 - id: mitsui
   name: 三井銀行
@@ -211,7 +215,7 @@
 - id: kobe
   name: 神戸銀行
   type: city
-  founded: "1936-12"
+  founded: "1936-12-12"
   dissolved: "1973-10-01"
   prefecture: 兵庫県
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/神戸銀行]
@@ -297,7 +301,7 @@
   name: 第一国立銀行
   type: other
   founded: "1873-07-20"
-  dissolved: "1896"
+  dissolved: "1896-09-26"
   prefecture: 東京都
   note: 渋沢栄一が設立
   sources: [https://ja.wikipedia.org/wiki/第一銀行]
@@ -305,7 +309,7 @@
 - id: dai-ichi-1896
   name: 第一銀行
   type: city
-  founded: "1896"
+  founded: "1896-09-26"
   dissolved: "1943-04"
   prefecture: 東京都
   sources: [https://ja.wikipedia.org/wiki/第一銀行, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
@@ -317,7 +321,7 @@
   dissolved: "1971-10-01"
   prefecture: 東京都
   note: 1948年10月、帝国銀行から分離して再発足
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/第一銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/第一銀行, https://ja.wikipedia.org/wiki/帝国銀行]
 
 - id: kangyo
   name: 日本勧業銀行
@@ -325,7 +329,7 @@
   founded: "1897"
   dissolved: "1971-10-01"
   prefecture: 東京都
-  note: 1950年に普通銀行へ転換
+  note: 1950年に普通銀行へ転換。設立日はWikipediaのinfoboxで1897年6月7日、沿革では1897年7月
   sources: [https://ja.wikipedia.org/wiki/日本勧業銀行]
 
 - id: dkb
@@ -359,7 +363,7 @@
   name: 日本興業銀行
   name_en: The Industrial Bank of Japan
   type: long_term
-  founded: "1902"
+  founded: "1902-03-27"
   dissolved: "2002-04-01"
   prefecture: 東京都
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/日本興業銀行]
@@ -394,10 +398,11 @@
 - id: osaka-nomura
   name: 大阪野村銀行
   type: other
-  founded: "1918-05"
+  founded: "1918-05-15"
   dissolved: "1927-01"
   prefecture: 大阪府
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
+  note: 設立日はWikipediaのinfoboxによる（同記事の沿革は1918年6月）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/大和銀行]
 
 - id: nomura
   name: 野村銀行
@@ -419,11 +424,11 @@
 - id: nihon-chochiku
   name: 日本貯蓄銀行
   type: other
-  founded: "1945-05"
+  founded: "1945-05-15"
   dissolved: "1948-07"
   prefecture: 東京都
   note: 9貯蓄銀行の合併により設立
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/協和銀行]
 
 - id: kyowa
   name: 協和銀行
@@ -436,7 +441,7 @@
 - id: saitama
   name: 埼玉銀行
   type: city
-  founded: "1943-07"
+  founded: "1943-07-01"
   dissolved: "1991-04-01"
   prefecture: 埼玉県
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/埼玉銀行]
@@ -457,6 +462,15 @@
   prefecture: 東京都
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/あさひ銀行]
 
+- id: nara
+  name: 奈良銀行
+  type: other
+  founded: "1953-03-16"
+  dissolved: "2006-01-01"
+  prefecture: 奈良県
+  note: 三栄相互銀行として設立。2006年1月りそな銀行に吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/奈良銀行]
+
 - id: resona
   name: りそな銀行
   name_en: Resona Bank
@@ -471,7 +485,7 @@
   type: regional
   founded: "2003-03-01"
   prefecture: 埼玉県
-  note: 法人は2002年8月に大和銀ホールディングスが設立し、2003年3月あさひ銀行の埼玉県内営業を分割承継
+  note: 法人は2002年8月27日に大和銀ホールディングスの子会社として設立、2003年3月あさひ銀行の埼玉県内営業を分割承継し3月3日営業開始
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/埼玉りそな銀行]
 
 # ---------------------------------------------------------------- 破綻・国有化
@@ -480,10 +494,10 @@
   name_en: The Hokkaido Takushoku Bank
   type: city
   founded: "1900"
-  dissolved: "1998-11-16"
+  dissolved: "1998-11"
   prefecture: 北海道
-  note: 1997年11月17日に経営破綻、北海道内の営業を北洋銀行へ譲渡
-  sources: [https://ja.wikipedia.org/wiki/北海道拓殖銀行]
+  note: 1997年11月17日に経営破綻、1998年11月に営業を北洋銀行・中央信託銀行へ譲渡。設立日はWikipediaの沿革で1900年2月16日、infoboxで同年4月1日
+  sources: [https://ja.wikipedia.org/wiki/北海道拓殖銀行, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBAP"]
 
 - id: hokuyo
   name: 北洋銀行
@@ -524,11 +538,11 @@
 - id: fudosan
   name: 日本不動産銀行
   type: long_term
-  founded: "1957-04"
+  founded: "1957-04-01"
   dissolved: "1977-10"
   prefecture: 東京都
   note: 長期信用銀行法に基づき設立
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO"]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO", https://ja.wikipedia.org/wiki/日本債券信用銀行]
 
 - id: ncb
   name: 日本債券信用銀行
@@ -552,17 +566,19 @@
 - id: daishi
   name: 第四銀行
   type: regional
-  founded: "1873"
+  founded: "1873-11-02"
   dissolved: "2021-01-01"
   prefecture: 新潟県
-  sources: [https://ja.wikipedia.org/wiki/第四銀行]
+  note: 第四国立銀行として設立（1874年3月1日開業）
+  sources: [https://ja.wikipedia.org/wiki/第四銀行, https://ja.wikipedia.org/wiki/第四北越銀行]
 
 - id: hokuetsu
   name: 北越銀行
   type: regional
-  founded: "1878"
+  founded: "1878-12-20"
   dissolved: "2021-01-01"
   prefecture: 新潟県
+  note: 第六十九国立銀行として創業（現法人の設立は1942年12月7日）
   sources: [https://ja.wikipedia.org/wiki/北越銀行]
 
 - id: daishi-hokuetsu
@@ -575,17 +591,19 @@
 - id: eighteenth
   name: 十八銀行
   type: regional
-  founded: "1877"
+  founded: "1877-09-02"
   dissolved: "2020-10-01"
   prefecture: 長崎県
+  note: 第十八国立銀行として設立（同年12月20日開業）
   sources: [https://ja.wikipedia.org/wiki/十八銀行]
 
 - id: shinwa
   name: 親和銀行
   type: regional
-  founded: "1939"
+  founded: "1939-09-07"
   dissolved: "2020-10-01"
   prefecture: 長崎県
+  note: 佐世保銀行と佐世保商業銀行の合併により設立
   sources: [https://ja.wikipedia.org/wiki/親和銀行]
 
 - id: juhachi-shinwa
@@ -593,6 +611,7 @@
   type: regional
   founded: "2020-10-01"
   prefecture: 長崎県
+  note: 法的には親和銀行が十八銀行を吸収合併し、十八親和銀行に商号変更
   sources: [https://ja.wikipedia.org/wiki/十八親和銀行]
 
 # ---------------------------------------------------------------- 地方銀行（北海道・東北）
