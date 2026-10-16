@@ -27,6 +27,7 @@
 ```sh
 python scripts/edinet_history.py --years 2021-2026   # EDINET API から【沿革】を取得（要 API キー: EDINET_API_KEY）
 python scripts/compare_edinet.py > report.md         # データとの突き合わせレポート
+python scripts/find_unlisted.py > unlisted.md        # 出典・note に名前があるが未収録の銀行の一覧
 ```
 
 ## データ構造
