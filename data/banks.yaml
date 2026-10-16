@@ -3618,7 +3618,7 @@
   founded: "1898-06"
   dissolved: "1908"
   prefecture: 滋賀県
-  note: 1898年6月第六十四国立銀行が改称。1908年1月1日近江銀行が買収（近江銀行は未収録）。解散日は資料により異なる（滋賀銀行五十年史は1月31日解散・4月30日清算結了、銀行総覧は2月21日任意解散とする）
+  note: 1898年6月第六十四国立銀行が改称。1908年1月1日近江銀行が買収。解散日は資料により異なる（滋賀銀行五十年史は1月31日解散・4月30日清算結了、銀行総覧は2月21日任意解散とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NGI5QYSr_jW-Xpb8emdaXrqDpnd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e0IJz6AgGGa_W-ap-zF_5KVRblg/description.html"]
 
 - id: dai133-kokuritsu
@@ -9508,6 +9508,45 @@
   dissolved: "1943-04"
   note: 1943年4月安田銀行に合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+
+- id: nagahama-bank
+  name: 長浜銀行
+  type: other
+  dissolved: "1906"
+  note: 1906年1月1日近江銀行に合併（滋賀銀行五十年史による。富士銀行百年史別巻は1905年1月とする。銀行総覧は1906年2月20日任意解散とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
+
+- id: koto-bank
+  name: 湖東銀行
+  type: other
+  dissolved: "1906"
+  note: 1906年近江銀行に合併（滋賀銀行五十年史は7月1日合併・7月31日解散、銀行総覧は9月5日任意解散とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
+
+- id: hino-bank
+  name: 日野銀行
+  type: other
+  founded: "1896"
+  dissolved: "1906"
+  note: 1906年近江銀行が買収（滋賀銀行五十年史は12月1日買収、富士銀行百年史別巻は10月営業譲受、銀行総覧は11月1日任意解散とする）。銀行変遷史DBは1896〜1906年の日野銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
+
+- id: tokyo-bank-1896
+  name: 東京銀行
+  type: other
+  founded: "1896"
+  dissolved: "1918"
+  note: 1918年10月近江銀行に合併（11月5日合併登記）。銀行変遷史DBは1896〜1918年の東京銀行とする（設立日は未確認）。1946年設立の東京銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
+
+- id: omi-bank
+  name: 近江銀行
+  type: other
+  founded: "1894-03-27"
+  dissolved: "1928-05-08"
+  prefecture: 大阪府
+  note: 1894年3月27日大阪で設立。1906年長浜銀行・湖東銀行を合併、日野銀行を買収。1908年1月1日大津銀行を買収。1918年東京銀行（1896〜1918）を合併。1928年5月8日昭和銀行に営業譲渡（勘定継承日。富士銀行百年史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
 
 - id: showa-ginko
   name: 昭和銀行

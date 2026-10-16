@@ -5990,3 +5990,45 @@
   to: [otsu-bank]
   note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は6月16日、滋賀銀行五十年史は6月17日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e0IJz6AgGGa_W-ap-zF_5KVRblg/description.html"]
+
+- date: "1906"
+  type: absorption
+  from: [nagahama-bank]
+  to: [omi-bank]
+  note: 近江銀行が合併（滋賀銀行五十年史は1月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
+
+- date: "1906"
+  type: absorption
+  from: [koto-bank]
+  to: [omi-bank]
+  note: 近江銀行が合併（滋賀銀行五十年史は7月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
+
+- date: "1906"
+  type: transfer
+  from: [hino-bank]
+  to: [omi-bank]
+  note: 近江銀行が買収（滋賀銀行五十年史は12月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
+
+- date: "1908-01-01"
+  type: transfer
+  from: [otsu-bank]
+  to: [omi-bank]
+  note: 近江銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NGI5QYSr_jW-Xpb8emdaXrqDpnd/description.html"]
+
+- date: "1918"
+  type: absorption
+  from: [tokyo-bank-1896]
+  to: [omi-bank]
+  note: 近江銀行が合併（10月合併、11月5日合併登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
+
+- date: "1928-05-08"
+  type: transfer
+  from: [omi-bank]
+  to: [showa-ginko]
+  note: 昭和銀行が営業を譲受（勘定継承日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
