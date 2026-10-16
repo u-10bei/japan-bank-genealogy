@@ -5931,3 +5931,17 @@
   to: [mitsubishi-1919]
   note: 三菱合資会社銀行部が独立し、新設の三菱銀行に資産負債を譲渡（10月1日三菱銀行開業）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8rTCTYAxp6aTomAxHLqA0jJ8tul/description.html"]
+
+- date: "1885-05-07"
+  type: absorption
+  from: [dai149-kokuritsu]
+  to: [dai119-kokuritsu]
+  note: 第百十九国立銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9w0pNSQ091vOlUwLmrKxCUXaGlp/description.html"]
+
+- date: "1895-07-20"
+  type: transfer
+  from: [dai119-kokuritsu]
+  to: [mitsubishi-goshi-ginkobu]
+  note: 三菱合資会社銀行部を設置し、第百十九国立銀行の業務を順次移譲（第百十九国立銀行は1898年12月3日営業満期解散）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9w0pNSQ091vOlUwLmrKxCUXaGlp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8rTCTYAxp6aTomAxHLqA0jJ8tul/description.html"]

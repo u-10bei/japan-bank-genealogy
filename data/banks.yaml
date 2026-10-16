@@ -13,13 +13,29 @@
 # ※ 初期データは主要行の系譜のみ。日付は出典で確認のうえ随時修正してください。
 
 # ---------------------------------------------------------------- 三菱UFJ系
+- id: dai149-kokuritsu
+  name: 第百四十九国立銀行
+  type: other
+  dissolved: "1885-05-07"
+  note: 1885年5月7日第百十九国立銀行に合併（北海道拓殖銀行史は5月とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9w0pNSQ091vOlUwLmrKxCUXaGlp/description.html"]
+
+- id: dai119-kokuritsu
+  name: 第百十九国立銀行
+  type: other
+  founded: "1878-12-04"
+  dissolved: "1898-12-03"
+  prefecture: 東京都
+  note: 1878年12月4日開業免状下付・設立、1879年1月11日開業。1885年5月7日第百四十九国立銀行を合併、5月28日郵便汽船三菱会社（1886年3月三菱社に改称）が経営を継承。1895年7月20日設置の三菱合資会社銀行部に業務を順次移譲。1898年12月3日営業満期解散（1899年5月6日清算完了）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9w0pNSQ091vOlUwLmrKxCUXaGlp/description.html"]
+
 - id: mitsubishi-goshi-ginkobu
   name: 三菱合資会社銀行部
   type: other
   founded: "1895-07-20"
   dissolved: "1920-04"
   prefecture: 東京都
-  note: 三菱合資会社（1893年12月15日、三菱社を改組して設立）が1895年7月20日に銀行部を設置し、第百十九国立銀行の業務を順次継承（9月7日営業認可、10月16日開業。第百十九国立銀行は未収録）。1919年9月30日、資産負債を新設の三菱銀行に譲渡。1920年4月廃業（銀行総覧による）
+  note: 三菱合資会社（1893年12月15日、三菱社を改組して設立）が1895年7月20日に銀行部を設置し、第百十九国立銀行の業務を順次継承（9月7日営業認可、10月16日開業）。1919年9月30日、資産負債を新設の三菱銀行に譲渡。1920年4月廃業（銀行総覧による）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8rTCTYAxp6aTomAxHLqA0jJ8tul/description.html"]
 
 - id: mitsubishi-1919
