@@ -185,14 +185,56 @@
   note: 株式会社山口銀行。設立日は資料により異なる（銀行総覧は1917年1月20日設立、4月18日設立登記、三和銀行史は3月18日設立とする）。1917年5月1日個人経営の山口銀行の業務を継承して開業。1922〜1929年に虎屋・児山・紀阪貯蓄・摂池・田口・八坂・尼崎共立の各行を買収し、加島銀行の営業の一部を譲受。1933年12月9日鴻池銀行・三十四銀行と新立合併し三和銀行となる（11月20日合併認可、12月9日創立総会、12月11日開業）。現存の山口銀行（山口県）とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/山口銀行_(大阪)]
 
-- id: konoike
+- id: konoike-kojin
   name: 鴻池銀行
   type: other
   founded: "1877-05-21"
+  dissolved: "1901-02-28"
+  prefecture: 大阪府
+  note: 第十三国立銀行として開業し、1897年個人経営の鴻池銀行に転換（第十三国立銀行時代を含む）。1900年12月1日合名会社鴻池銀行が業務を継承、1901年2月28日廃業（銀行総覧による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZEFXFSRZ9mho6BycSPs4UVYTEPo/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/鴻池銀行]
+
+- id: izumicho-bank
+  name: 泉町銀行
+  type: other
+  dissolved: "1900-12-01"
+  prefecture: 大阪府
+  note: 1900年12月1日合名会社鴻池銀行に合併（三和銀行史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZEFXFSRZ9mho6BycSPs4UVYTEPo/description.html"]
+
+- id: konoike-gomei
+  name: 鴻池銀行
+  type: other
+  founded: "1900-11-15"
+  dissolved: "1919-12-31"
+  prefecture: 大阪府
+  note: 合名会社鴻池銀行。1900年11月15日設立（銀行総覧第27回は明治23年とするが誤記と考えられる）。12月1日個人経営の鴻池銀行の業務を継承し、泉町銀行を合併。1919年12月31日株式会社鴻池銀行に合併（三和銀行史による。銀行総覧・日本金融史資料は1920年の合併解散とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZEFXFSRZ9mho6BycSPs4UVYTEPo/description.html"]
+
+- id: toda-bank
+  name: 戸田銀行
+  type: other
+  founded: "1919"
+  dissolved: "1923-01-16"
+  note: 1923年1月16日鴻池銀行が買収（日本金融史資料による。紀陽銀行100年史は2月10日とする）。銀行変遷史DBは1919〜1923年の戸田銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/q_g2GEJuNORSSgBLqhwoeKQ_Gej/description.html"]
+
+- id: kure-shoko
+  name: 呉商工銀行
+  type: other
+  dissolved: "1929-05-01"
+  prefecture: 広島県
+  note: 1929年5月1日鴻池銀行が買収（三和銀行史による。広島銀行「創業百年史」は4月30日営業満期・譲渡・解散とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/q_g2GEJuNORSSgBLqhwoeKQ_Gej/description.html"]
+
+- id: konoike
+  name: 鴻池銀行
+  type: other
+  founded: "1919-09-25"
   dissolved: "1933-12-09"
   prefecture: 大阪府
-  note: 第十三国立銀行として開業、1897年個人経営の普通銀行に転換、1919年株式会社に改組
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/鴻池銀行]
+  note: 株式会社鴻池銀行（10月8日営業認可）。1919年12月31日合名会社鴻池銀行を合併。1923年戸田銀行、1929年呉商工銀行を買収し、加島銀行の営業の一部を譲受。1933年12月9日三十四銀行・山口銀行と新立合併し三和銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/q_g2GEJuNORSSgBLqhwoeKQ_Gej/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/鴻池銀行]
 
 - id: tokai
   name: 東海銀行

@@ -4862,3 +4862,38 @@
   partial: true
   note: 加島銀行の営業を山口銀行・鴻池銀行・野村銀行の3行が分割して譲受
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+
+- date: "1900-12-01"
+  type: transfer
+  from: [konoike-kojin]
+  to: [konoike-gomei]
+  note: 合名会社鴻池銀行が個人経営の鴻池銀行の業務を継承（三和銀行史は「株式会社に改組」と記す）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZEFXFSRZ9mho6BycSPs4UVYTEPo/description.html"]
+
+- date: "1900-12-01"
+  type: absorption
+  from: [izumicho-bank]
+  to: [konoike-gomei]
+  note: 合名会社鴻池銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZEFXFSRZ9mho6BycSPs4UVYTEPo/description.html"]
+
+- date: "1919-12-31"
+  type: absorption
+  from: [konoike-gomei]
+  to: [konoike]
+  note: 株式会社鴻池銀行が合併（三和銀行史による。銀行総覧・日本金融史資料は1920年とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/q_g2GEJuNORSSgBLqhwoeKQ_Gej/description.html"]
+
+- date: "1923-01-16"
+  type: transfer
+  from: [toda-bank]
+  to: [konoike]
+  note: 鴻池銀行が買収（紀陽銀行100年史は2月10日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/q_g2GEJuNORSSgBLqhwoeKQ_Gej/description.html"]
+
+- date: "1929-05-01"
+  type: transfer
+  from: [kure-shoko]
+  to: [konoike]
+  note: 鴻池銀行が買収（広島銀行「創業百年史」は4月30日営業満期・譲渡・解散とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/q_g2GEJuNORSSgBLqhwoeKQ_Gej/description.html"]
