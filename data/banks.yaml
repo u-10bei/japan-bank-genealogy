@@ -9675,13 +9675,55 @@
   note: 1941年10月山陰合同銀行が合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
 
+- id: unyo-bussan
+  name: 雲陽物産
+  type: other
+  dissolved: "1897-01"
+  prefecture: 島根県
+  note: 雲陽物産合資会社。1897年1月雲州今市銀行に改称（山陰合同銀行五十年史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I7Hdoww0NjfSnaRGCIF23eRhUXb/description.html"]
+
+- id: imaichi-shogyo
+  name: 今市奨業銀行
+  type: other
+  dissolved: "1922-07-16"
+  prefecture: 島根県
+  note: 1922年7月16日雲州今市銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I7Hdoww0NjfSnaRGCIF23eRhUXb/description.html"]
+
+- id: kizuki-bank
+  name: 杵築銀行
+  type: other
+  dissolved: "1923"
+  prefecture: 島根県
+  note: 1923年雲州今市銀行に合併（10月5日合併認可。日本金融史資料は10月31日、山陰合同銀行五十年史は11月1日とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I7Hdoww0NjfSnaRGCIF23eRhUXb/description.html"]
+
+- id: unshu-imaichi
+  name: 雲州今市銀行
+  type: other
+  founded: "1897-01"
+  dissolved: "1925-07-20"
+  prefecture: 島根県
+  note: 1897年1月雲陽物産合資会社が改称。1920年2月12日合資会社から株式会社に改組（同じ項目とした）。1922年今市奨業銀行、1923年杵築銀行、1925年7月5日雲州西浜銀行を合併。1925年7月20日出雲銀行に改称（6月30日改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I7Hdoww0NjfSnaRGCIF23eRhUXb/description.html"]
+
+- id: izumo-bank
+  name: 出雲銀行
+  type: other
+  founded: "1925-07-20"
+  dissolved: "1927-09-23"
+  prefecture: 島根県
+  note: 1925年7月20日雲州今市銀行が改称。1927年9月23日松江銀行に合併（8月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vt-UQKnz0NvVb2EqHPOAm4WpWJo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I7Hdoww0NjfSnaRGCIF23eRhUXb/description.html"]
+
 - id: unshu-nishihama
   name: 雲州西浜銀行
   type: other
   founded: "1898-10-13"
   dissolved: "1925-07-05"
   prefecture: 島根県
-  note: 1898年10月13日設立（1899年1月4日開業）。1921年12月貯蓄部門を新設の島根貯蓄銀行に譲渡。1925年7月5日雲州今市銀行に合併（6月30日合併認可。雲州今市銀行は同時に出雲銀行に改称。雲州今市銀行・出雲銀行は未収録）
+  note: 1898年10月13日設立（1899年1月4日開業）。1921年12月貯蓄部門を新設の島根貯蓄銀行に譲渡。1925年7月5日雲州今市銀行に合併（6月30日合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MCdIi5UPJcOt6pPScBXbRnVyv2m/description.html"]
 
 - id: shimane-chochiku

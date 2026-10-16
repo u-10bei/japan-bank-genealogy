@@ -5803,3 +5803,45 @@
   partial: true
   note: 雲州西浜銀行の貯蓄業務を新設の島根貯蓄銀行が継承
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MCdIi5UPJcOt6pPScBXbRnVyv2m/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qs7JRy3mlbPLQMYbbgcVWx36K2h/description.html"]
+
+- date: "1897-01"
+  type: rename
+  from: [unyo-bussan]
+  to: [unshu-imaichi]
+  note: 雲陽物産合資会社が雲州今市銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I7Hdoww0NjfSnaRGCIF23eRhUXb/description.html"]
+
+- date: "1922-07-16"
+  type: absorption
+  from: [imaichi-shogyo]
+  to: [unshu-imaichi]
+  note: 雲州今市銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I7Hdoww0NjfSnaRGCIF23eRhUXb/description.html"]
+
+- date: "1923"
+  type: absorption
+  from: [kizuki-bank]
+  to: [unshu-imaichi]
+  note: 雲州今市銀行が合併（日本金融史資料は10月31日、山陰合同銀行五十年史は11月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I7Hdoww0NjfSnaRGCIF23eRhUXb/description.html"]
+
+- date: "1925-07-05"
+  type: absorption
+  from: [unshu-nishihama]
+  to: [unshu-imaichi]
+  note: 雲州今市銀行が合併（6月30日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I7Hdoww0NjfSnaRGCIF23eRhUXb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MCdIi5UPJcOt6pPScBXbRnVyv2m/description.html"]
+
+- date: "1925-07-20"
+  type: rename
+  from: [unshu-imaichi]
+  to: [izumo-bank]
+  note: 出雲銀行に改称（6月30日改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/I7Hdoww0NjfSnaRGCIF23eRhUXb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vt-UQKnz0NvVb2EqHPOAm4WpWJo/description.html"]
+
+- date: "1927-09-23"
+  type: absorption
+  from: [izumo-bank]
+  to: [matsue]
+  note: 松江銀行が合併（8月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vt-UQKnz0NvVb2EqHPOAm4WpWJo/description.html"]
