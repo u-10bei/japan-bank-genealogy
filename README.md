@@ -79,7 +79,7 @@ python scripts/compare_fsa.py                        # 金融庁の銀行免許�
 | `absorption` | 吸収合併（from が to に吸収され、to は存続） |
 | `rename` | 商号変更 |
 | `reorganization` | 分割・再編（複数 → 複数 など） |
-| `transfer` | 事業譲渡（破綻行の受け皿など） |
+| `transfer` | 事業譲渡（破綻行の受け皿など）。事業の一部の譲渡で、自動判定では全部の承継に見えてしまう場合は `partial: true` を付ける |
 | `failure` | 経営破綻・国有化（`to` は省略可） |
 
 ## ローカルでの確認

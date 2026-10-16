@@ -7498,6 +7498,16 @@
   prefecture: 東京都
   sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v8aJt1IX4VeJMch9MXErgbnNz5j/description.html, https://ja.wikipedia.org/wiki/SMBC信託銀行]
 
+- id: citibank-japan
+  name: シティバンク銀行
+  name_en: "Citibank Japan Ltd."
+  type: new
+  founded: "2007-07-01"
+  dissolved: "2017-03-31"
+  prefecture: 東京都
+  note: 米シティグループの日本法人。シティバンク準備株式会社が改称し、2007年7月1日シティバンク、エヌ・エイ在日支店のリテール業務を譲り受けて営業開始（準備会社の設立日は出典に記載なし）。2015年11月1日リテールバンク事業をSMBC信託銀行に譲渡。2017年3月31日法人顧客向け銀行業務等をシティバンク、エヌ・エイ東京支店（外国銀行支店のため収録対象外）に譲渡。消滅日は事業譲渡日（法人の解散日は出典に記載なし）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k1nPeOQZOdiKraIUe3777MKWuZn/description.html"]
+
 - id: smbc-trust
   name: SMBC信託銀行
   name_en: SMBC Trust Bank

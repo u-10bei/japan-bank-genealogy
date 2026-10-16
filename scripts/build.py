@@ -24,7 +24,7 @@ EVENT_TYPES = {"merger", "absorption", "rename", "reorganization", "transfer", "
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 DATE_RE = re.compile(r"^\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$")
 BANK_KEYS = {"id", "name", "name_en", "type", "founded", "dissolved", "prefecture", "note", "sources"}
-EVENT_KEYS = {"date", "type", "from", "to", "note", "sources"}
+EVENT_KEYS = {"date", "type", "from", "to", "partial", "note", "sources"}
 
 
 def load_yaml(name: str) -> list:
@@ -94,6 +94,8 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
             errors.append(f"{where}: type は {sorted(EVENT_TYPES)} のいずれか")
         if not e.get("sources"):
             warnings.append(f"{where}: sources（出典）がありません")
+        if "partial" in e and (e.get("type") != "transfer" or e["partial"] is not True):
+            errors.append(f"{where}: partial は transfer にだけ true で指定できます")
         src, dst = e.get("from") or [], e.get("to") or []
         if not src:
             errors.append(f"{where}: from は必須です")

@@ -4625,3 +4625,11 @@
   to: [shinginko-tokyo]
   note: 東京都が全株式を取得し、新銀行東京に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wDsYnJM43JmLmkbQ2fwp6OuN6Yk/description.html"]
+
+- date: "2015-11-01"
+  type: transfer
+  from: [citibank-japan]
+  to: [smbc-trust]
+  partial: true
+  note: リテールバンク事業をSMBC信託銀行に譲渡（法人顧客向け業務等は2017年3月31日シティバンク、エヌ・エイ東京支店に譲渡）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k1nPeOQZOdiKraIUe3777MKWuZn/description.html"]

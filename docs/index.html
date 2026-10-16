@@ -238,8 +238,10 @@ function init(data) {
   const banks = new Map(data.banks.map(b => [b.id, { ...b, preds: [], succs: [], events: [], transfersIn: [], transfersOut: [] }]));
   // 事業譲渡（transfer）を系統のつながりとみなすのは、譲渡元が消滅し、合併等の後継がなく、
   // 譲渡先が1行だけの場合（＝事業の全部を1行が承継）に限る。部分的な譲渡は点線で描くだけにする。
+  // データで partial: true とした譲渡（残りの事業の譲渡先が収録対象外の場合など）も部分的な譲渡とする。
   const structuralTransfer = e => {
     if (e.type !== "transfer") return true;
+    if (e.partial === true) return false;
     return e.from.every(f => {
       const b = data.banks.find(x => x.id === f);
       if (!b || !b.dissolved) return false;

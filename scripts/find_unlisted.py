@@ -82,6 +82,8 @@ def lineages(banks: list[dict], events: list[dict]) -> dict[str, str]:
         if e["type"] == "failure":
             continue
         if e["type"] == "transfer":
+            if e.get("partial"):
+                continue
             out = [x for x in events if set(x["from"]) & set(e["from"]) and x["type"] != "failure"]
             whole = all(by_id[f].get("dissolved") for f in e["from"]) and all(x["type"] == "transfer" for x in out) \
                 and len({t for x in out for t in x.get("to") or []}) == 1
