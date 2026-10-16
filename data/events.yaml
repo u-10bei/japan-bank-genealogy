@@ -4705,3 +4705,52 @@
   to: [dai-ichi]
   note: 第一銀行が合併（7月14日合併認可、8月19日合併登記）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/KKZHsAVcYMv-UvTnX8Er78He9eb/description.html"]
+
+- date: "1898-07-01"
+  type: rename
+  from: [dai53-kokuritsu]
+  to: [gojusan]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jO1HJCW_fozE3UXCWo5XWQ5mXhp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Pztpxigmv11AK2BmpidrbdkYXjf/description.html"]
+
+- date: "1904-02"
+  type: absorption
+  from: [gojusan]
+  to: [hamada]
+  note: 浜田銀行が合併（銀行総覧は2月8日合併のため解散、山陰合同銀行五十年史は2月25日合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Pztpxigmv11AK2BmpidrbdkYXjf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SglmCies7bcOOPW1m3oYwaOAxzl/description.html"]
+
+- date: "1919-08-18"
+  type: absorption
+  from: [hamada]
+  to: [yatsuka-chochiku]
+  note: 八束貯蓄銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SglmCies7bcOOPW1m3oYwaOAxzl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
+
+- date: "1919-09-01"
+  type: absorption
+  from: [ohara-bank]
+  to: [yatsuka-chochiku]
+  note: 八束貯蓄銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
+
+- date: "1921-12-30"
+  type: transfer
+  from: [masuda-chochiku]
+  to: [yatsuka-chochiku]
+  note: 八束貯蓄銀行が営業を譲受（買収）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
+
+- date: "1922-01-01"
+  type: rename
+  from: [yatsuka-chochiku]
+  to: [yatsuka]
+  note: 貯蓄部門を分離（新設の島根貯蓄銀行が3行の貯蓄業務を継承）し、八束銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/btRs9X3PO6CkDZRvXPiKDdcLb2h/description.html"]
+
+- date: "1923-04-01"
+  type: absorption
+  from: [shizuma-shogyo]
+  to: [yatsuka]
+  note: 八束銀行が合併（5月21日合併登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/btRs9X3PO6CkDZRvXPiKDdcLb2h/description.html"]

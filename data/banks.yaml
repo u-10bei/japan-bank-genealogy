@@ -8467,15 +8467,69 @@
   founded: "1878-12"
   dissolved: "1898-07-01"
   prefecture: 島根県
-  note: 津和野で設立（山陰合同銀行の有価証券報告書・五十年史は1878年12月1日、銀行総覧・開業免状下付は12月11日とする。1879年2月1日開業）。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し五十三銀行に改称（五十三銀行から八束銀行までの経緯は未確認のため項目にしていない）
+  note: 津和野で設立（山陰合同銀行の有価証券報告書・五十年史は1878年12月1日、銀行総覧・開業免状下付は12月11日とする。1879年2月1日開業）。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し五十三銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jO1HJCW_fozE3UXCWo5XWQ5mXhp/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- id: gojusan
+  name: 五十三銀行
+  type: other
+  founded: "1898-07-01"
+  dissolved: "1904-02"
+  prefecture: 島根県
+  note: 第五十三国立銀行が国立銀行営業満期前特別処分法により私立銀行として営業を継続し改称（1898年3月4日満期前継続許可。銀行総覧第6〜7回は「第五十三銀行」と表記）。1904年2月浜田銀行に合併（銀行総覧は2月8日合併のため解散、山陰合同銀行五十年史は2月25日合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Pztpxigmv11AK2BmpidrbdkYXjf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jO1HJCW_fozE3UXCWo5XWQ5mXhp/description.html"]
+
+- id: hamada
+  name: 浜田銀行
+  type: other
+  founded: "1885-07-14"
+  dissolved: "1919-08-18"
+  prefecture: 島根県
+  note: 設立日は銀行総覧第1〜11回・山陰合同銀行五十年史による（10月1日開業。銀行総覧第12〜26回は10月1日を設立日とする）。1904年2月五十三銀行を合併。1919年8月18日八束貯蓄銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SglmCies7bcOOPW1m3oYwaOAxzl/description.html"]
+
+- id: ohara-bank
+  name: 大原銀行
+  type: other
+  founded: "1900"
+  dissolved: "1919-09-01"
+  prefecture: 島根県
+  note: 銀行変遷史DBは1900〜1919年の大原銀行とする（設立日は未確認）。1919年9月1日八束貯蓄銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
+
+- id: masuda-chochiku
+  name: 益田貯蓄銀行
+  type: other
+  dissolved: "1921-12-30"
+  prefecture: 島根県
+  note: 1921年12月30日八束貯蓄銀行が営業を譲受（買収）（山陰合同銀行五十年史による。登記は1922年1月か）。消滅日は営業譲渡日。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
+
+- id: yatsuka-chochiku
+  name: 八束貯蓄銀行
+  type: other
+  founded: "1912-05-05"
+  dissolved: "1922-01-01"
+  prefecture: 島根県
+  note: 1912年5月31日営業認可、7月8日開業。1919年浜田銀行・大原銀行を合併、1921年益田貯蓄銀行を買収。1921年12月、貯蓄業務を新設の島根貯蓄銀行に譲渡し（島根貯蓄銀行は未収録）、1922年1月1日八束銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
+
+- id: shizuma-shogyo
+  name: 静間商業銀行
+  type: other
+  dissolved: "1923-04-01"
+  prefecture: 島根県
+  note: 1923年4月1日八束銀行に合併（5月21日合併登記）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/btRs9X3PO6CkDZRvXPiKDdcLb2h/description.html"]
 
 - id: yatsuka
   name: 八束銀行
   type: other
+  founded: "1922-01-01"
   dissolved: "1927-07-25"
-  note: 1927年7月松江銀行が合併（津和野第五十三国立銀行を源流とする）
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+  prefecture: 島根県
+  note: 1922年1月1日八束貯蓄銀行が貯蓄部門を分離して改称。1923年4月1日静間商業銀行を合併。1927年7月25日松江銀行に合併（有価証券報告書は「津和野第五十三国立銀行を源流とする」とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/btRs9X3PO6CkDZRvXPiKDdcLb2h/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
 
 - id: unyo-jitsugyo
   name: 雲陽実業銀行
