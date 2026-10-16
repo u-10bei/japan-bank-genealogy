@@ -8546,12 +8546,31 @@
   note: 1943年8月日向興業銀行が合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGVF"]
 
+- id: fukutoku-shokusan-mujin
+  name: 福徳殖産無尽
+  type: other
+  dissolved: "1951-10-20"
+  prefecture: 大阪府
+  note: 1951年10月20日相互銀行に転換し福徳相互銀行に改称（福徳相互銀行三十年史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPeG5FWeWPcSBnEly_6Wnhd9Skn/description.html"]
+
+- id: fukutoku-sogo
+  name: 福徳相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 大阪府
+  note: 1951年10月20日、相互銀行への転換で福徳殖産無尽が改称。1989年2月1日普通銀行に転換し福徳銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPeG5FWeWPcSBnEly_6Wnhd9Skn/description.html"]
+
 - id: fukutoku
   name: 福徳銀行
   type: regional2
+  founded: "1989-02-01"
   dissolved: "1998-10-01"
-  note: 旧相互銀行。1998年10月なにわ銀行と福徳銀行が合併しなみはや銀行を新設
-  sources: [https://ja.wikipedia.org/wiki/なみはや銀行]
+  prefecture: 大阪府
+  note: 1989年2月1日、普通銀行（第二地方銀行協会加盟行）への転換で福徳相互銀行が改称。1998年10月なにわ銀行と福徳銀行が合併しなみはや銀行を新設
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPeG5FWeWPcSBnEly_6Wnhd9Skn/description.html", https://ja.wikipedia.org/wiki/なみはや銀行]
 
 - id: naniwa
   name: なにわ銀行
