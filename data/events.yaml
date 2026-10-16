@@ -4611,3 +4611,17 @@
   to: [toyama-2]
   note: 富山銀行に改称（銀行総覧は6月7日、北陸銀行「創業百年史」は6月19日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9wRk7ReZaHEpofhN7GAKp6ldBij/description.html"]
+
+- date: "2000-08-09"
+  type: rename
+  from: [bnp-trust]
+  to: [bnp-paribas-trust]
+  note: ビー・エヌ・ピー・パリバ信託銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MgI5Mrs7z4yFLb4jKhe5l3pTlOd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wDsYnJM43JmLmkbQ2fwp6OuN6Yk/description.html"]
+
+- date: "2004-04-01"
+  type: rename
+  from: [bnp-paribas-trust]
+  to: [shinginko-tokyo]
+  note: 東京都が全株式を取得し、新銀行東京に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wDsYnJM43JmLmkbQ2fwp6OuN6Yk/description.html"]

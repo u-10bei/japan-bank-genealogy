@@ -1665,6 +1665,24 @@
   note: 戦後地銀
   sources: [https://ja.wikipedia.org/wiki/東京都民銀行]
 
+- id: bnp-trust
+  name: ビー・エヌ・ピー信託銀行
+  type: trust
+  founded: "1999-04"
+  dissolved: "2000-08-09"
+  prefecture: 東京都
+  note: パリ国立銀行（BNP）の信託銀行子会社として設立（設立日は日本金融名鑑・Wikipediaが1999年4月5日、『金融』が4月6日とする）。1999年4月下旬銀行免許・信託業務兼営認可、5月6日営業開始。2000年8月9日ビー・エヌ・ピー・パリバ信託銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MgI5Mrs7z4yFLb4jKhe5l3pTlOd/description.html", https://ja.wikipedia.org/wiki/新銀行東京]
+
+- id: bnp-paribas-trust
+  name: ビー・エヌ・ピー・パリバ信託銀行
+  type: trust
+  founded: "2000-08-09"
+  dissolved: "2004-04-01"
+  prefecture: 東京都
+  note: 2000年8月9日ビー・エヌ・ピー信託銀行が改称。2004年4月1日、東京都が全株式を取得し新銀行東京に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wDsYnJM43JmLmkbQ2fwp6OuN6Yk/description.html"]
+
 - id: shinginko-tokyo
   name: 新銀行東京
   name_en: "ShinGinko Tokyo, Limited"
@@ -1672,8 +1690,8 @@
   founded: "2004-04-01"
   dissolved: "2018-05-01"
   prefecture: 東京都
-  note: 法人登記上は1999年4月5日設立のビー・エヌ・ピー・パリバ信託銀行を商号変更
-  sources: [https://ja.wikipedia.org/wiki/新銀行東京]
+  note: 2004年4月1日、東京都が全株式を取得したビー・エヌ・ピー・パリバ信託銀行が改称（法人は1999年設立のビー・エヌ・ピー信託銀行）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wDsYnJM43JmLmkbQ2fwp6OuN6Yk/description.html", https://ja.wikipedia.org/wiki/新銀行東京]
 
 - id: kiraboshi
   name: きらぼし銀行
