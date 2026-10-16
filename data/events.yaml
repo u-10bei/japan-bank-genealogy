@@ -5154,3 +5154,87 @@
   to: [shichijushichi-old]
   note: 七十七銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sceFB-qFqTW0Yqr2jPLm2W9HzJn/description.html"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai69-kokuritsu]
+  to: [rokujuku]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/17w0lZ5pUuv-FvGVOCjrzKUjskl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- date: "1923-12-01"
+  type: absorption
+  from: [koshimi-bank]
+  to: [rokujuku]
+  note: 六十九銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- date: "1927-04-01"
+  type: absorption
+  from: [wakinomachi-bank]
+  to: [rokujuku]
+  note: 六十九銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- date: "1927-10-01"
+  type: absorption
+  from: [muikamachi-bank]
+  to: [rokujuku]
+  note: 六十九銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- date: "1929-04-01"
+  type: absorption
+  from: [teradomari-bank, nagaoka-shogyo]
+  to: [rokujuku]
+  note: 六十九銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- date: "1931-12"
+  type: transfer
+  from: [sekihara-bank]
+  to: [rokujuku]
+  note: 六十九銀行が営業を譲受（買収）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- date: "1932-01-26"
+  type: transfer
+  from: [imai-bank]
+  to: [rokujuku]
+  note: 六十九銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- date: "1933-12-09"
+  type: absorption
+  from: [koide-bank]
+  to: [rokujuku]
+  note: 六十九銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- date: "1934-04-01"
+  type: absorption
+  from: [kamiya-bank, tokamachi-bank]
+  to: [rokujuku]
+  note: 六十九銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- date: "1934-11-01"
+  type: absorption
+  from: [tochio-bank]
+  to: [rokujuku]
+  note: 六十九銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- date: "1942-12-07"
+  type: merger
+  from: [rokujuku, nagaoka-bank]
+  to: [nagaoka-rokujuku]
+  note: 新立合併（10月26日合併認可、12月5日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html", https://ja.wikipedia.org/wiki/北越銀行]
+
+- date: "1948-10-01"
+  type: rename
+  from: [nagaoka-rokujuku]
+  to: [hokuetsu]
+  note: 北越銀行に改称（9月20日商号変更認可）
+  sources: [https://ja.wikipedia.org/wiki/北越銀行]

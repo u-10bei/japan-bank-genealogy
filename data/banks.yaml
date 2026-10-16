@@ -820,13 +820,138 @@
   note: 第四国立銀行として設立（1874年3月1日開業）
   sources: [https://ja.wikipedia.org/wiki/第四銀行, https://ja.wikipedia.org/wiki/第四北越銀行]
 
+- id: dai69-kokuritsu
+  name: 第六十九国立銀行
+  type: other
+  founded: "1878-11-02"
+  dissolved: "1898-01-01"
+  prefecture: 新潟県
+  note: 長岡で設立（1878年11月2日開業免状下付、12月20日開業）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し六十九銀行に改称（1897年9月27日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/17w0lZ5pUuv-FvGVOCjrzKUjskl/description.html", https://ja.wikipedia.org/wiki/北越銀行]
+
+- id: rokujuku
+  name: 六十九銀行
+  type: other
+  founded: "1898-01-01"
+  dissolved: "1942-12-07"
+  prefecture: 新潟県
+  note: 1898年1月1日第六十九国立銀行が改称。1923〜1934年に越見・脇野町・六日町・寺泊・長岡商業・小出・神谷・十日町・栃尾の各行を合併し、関原銀行・今井銀行を買収。1942年12月7日長岡銀行と新立合併し長岡六十九銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html", https://ja.wikipedia.org/wiki/北越銀行]
+
+- id: koshimi-bank
+  name: 越見銀行
+  type: other
+  dissolved: "1923-12-01"
+  prefecture: 新潟県
+  note: 1923年12月1日六十九銀行に合併（10月22日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: wakinomachi-bank
+  name: 脇野町銀行
+  type: other
+  dissolved: "1927-04-01"
+  prefecture: 新潟県
+  note: 1927年4月1日六十九銀行に合併（3月18日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: muikamachi-bank
+  name: 六日町銀行
+  type: other
+  dissolved: "1927-10-01"
+  prefecture: 新潟県
+  note: 1927年10月1日六十九銀行に合併（8月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: teradomari-bank
+  name: 寺泊銀行
+  type: other
+  founded: "1925"
+  dissolved: "1929-04-01"
+  prefecture: 新潟県
+  note: 1929年4月1日六十九銀行に合併（3月1日合併認可）。銀行変遷史DBは1925〜1929年の寺泊銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: nagaoka-shogyo
+  name: 長岡商業銀行
+  type: other
+  dissolved: "1929-04-01"
+  prefecture: 新潟県
+  note: 1929年4月1日六十九銀行に合併（3月1日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: sekihara-bank
+  name: 関原銀行
+  type: other
+  dissolved: "1931-12"
+  prefecture: 新潟県
+  note: 1931年12月六十九銀行が営業を譲受（北越銀行「創業百年史」は12月1日営業譲受、日本金融史資料は12月24日買収認可とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: imai-bank
+  name: 今井銀行
+  type: other
+  founded: "1916"
+  dissolved: "1932-01-26"
+  prefecture: 新潟県
+  note: 1932年1月26日六十九銀行が買収（1931年12月19日買収認可）。銀行変遷史DBは1916〜1932年の今井銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: koide-bank
+  name: 小出銀行
+  type: other
+  dissolved: "1933-12-09"
+  prefecture: 新潟県
+  note: 1933年12月9日六十九銀行に合併（11月9日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: kamiya-bank
+  name: 神谷銀行
+  type: other
+  dissolved: "1934-04-01"
+  prefecture: 新潟県
+  note: 1934年4月1日六十九銀行に合併（3月17日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: tokamachi-bank
+  name: 十日町銀行
+  type: other
+  dissolved: "1934-04-01"
+  prefecture: 新潟県
+  note: 1934年4月1日六十九銀行に合併（3月17日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: tochio-bank
+  name: 栃尾銀行
+  type: other
+  dissolved: "1934-11-01"
+  prefecture: 新潟県
+  note: 1934年11月1日六十九銀行に合併（9月15日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html"]
+
+- id: nagaoka-bank
+  name: 長岡銀行
+  type: other
+  dissolved: "1942-12-07"
+  prefecture: 新潟県
+  note: 1942年12月7日六十九銀行と新立合併し長岡六十九銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html", https://ja.wikipedia.org/wiki/北越銀行]
+
+- id: nagaoka-rokujuku
+  name: 長岡六十九銀行
+  type: other
+  founded: "1942-12-07"
+  dissolved: "1948-10-01"
+  prefecture: 新潟県
+  note: 六十九銀行・長岡銀行の新立合併で設立（1942年10月26日合併認可、12月5日創立総会）。1948年10月1日北越銀行に改称（9月20日商号変更認可。Wikipediaによる）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html", https://ja.wikipedia.org/wiki/北越銀行]
+
 - id: hokuetsu
   name: 北越銀行
   type: regional
-  founded: "1878-12-20"
+  founded: "1948-10-01"
   dissolved: "2021-01-01"
   prefecture: 新潟県
-  note: 第六十九国立銀行として創業（現法人の設立は1942年12月7日）
+  note: 1948年10月1日長岡六十九銀行が改称（法人の設立は1942年12月7日、創業は第六十九国立銀行の1878年）
   sources: [https://ja.wikipedia.org/wiki/北越銀行]
 
 - id: daishi-hokuetsu
