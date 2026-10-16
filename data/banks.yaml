@@ -5865,10 +5865,44 @@
   name: 鹿児島無尽
   type: other
   founded: "1913-09"
+  dissolved: "1942-02-07"
+  prefecture: 鹿児島県
+  note: 同仁貯金合資会社として設立し、隅州産業無尽等を経て鹿児島無尽に改称（Wikipedia。銀行変遷史DBはこの鹿児島無尽を1936〜1942年とする）。1942年2月7日、大島無尽・第一産業無尽・富国無尽と新立合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+
+- id: oshima-mujin-1936
+  name: 大島無尽
+  type: other
+  founded: "1936-06-30"
+  dissolved: "1942-02-07"
+  prefecture: 鹿児島県
+  note: 大島無尽合資会社を改組して設立か（1936年6月30日無尽営業免許）。1942年2月7日、鹿児島無尽・第一産業無尽・富国無尽と新立合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
+
+- id: daiichi-sangyo-mujin
+  name: 第一産業無尽
+  type: other
+  dissolved: "1942-02-07"
+  prefecture: 鹿児島県
+  note: 1942年2月7日、鹿児島無尽・大島無尽・富国無尽と新立合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
+
+- id: fukoku-mujin
+  name: 富国無尽
+  type: other
+  dissolved: "1942-02-07"
+  prefecture: 鹿児島県
+  note: 1942年2月7日、鹿児島無尽・大島無尽・第一産業無尽と新立合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
+
+- id: kagoshima-mujin-1942
+  name: 鹿児島無尽
+  type: other
+  founded: "1942-02-07"
   dissolved: "1943-11"
   prefecture: 鹿児島県
-  note: 同仁貯金合資会社として設立し、隅州産業無尽等を経て鹿児島無尽に改称（Wikipedia）
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+  note: 鹿児島無尽・大島無尽・第一産業無尽・富国無尽の4社の新立合併で設立（1941年12月5日認可、1942年2月1日創立総会）。1943年11月鹿児島相互無尽と新立合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
 
 - id: kagoshima-sogo-mujin
   name: 鹿児島相互無尽
@@ -5903,13 +5937,13 @@
   note: 1951年10月旭相互銀行に営業譲渡。消滅日は営業譲渡日。設立日・法人の解散日は出典に記載なし
   sources: [https://ja.wikipedia.org/wiki/南日本銀行]
 
-- id: oshima-mujin
+- id: oshima-mujin-1952
   name: 大島無尽
   type: other
   founded: "1952-06-03"
   dissolved: "1955-03-31"
   prefecture: 鹿児島県
-  note: 奄美大島（米軍政下）で設立（旭相互銀行史は1952年6月3日設立、西日本相互銀行二十年史は5月3日に軍政府より営業認可）。1955年3月31日旭相互銀行に営業譲渡
+  note: 奄美大島（米軍政下）で設立（旭相互銀行史は1952年6月3日設立、西日本相互銀行二十年史は5月3日に軍政府より営業認可）。1955年3月31日旭相互銀行に営業譲渡。1936年設立の大島無尽とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JtDOJH8pcxCyRBC9l2qDcRHZt1h/description.html"]
 
 - id: asahi-sogo
