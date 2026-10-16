@@ -57,6 +57,14 @@ def parse_history(text: str) -> list[tuple[str, str]]:
                     d += f"-{int(m['d']):02d}"
             cur = [d, m["rest"].strip(" |")]
             items.append(cur)
+        elif cur is not None and (mm := re.match(r"^(\d{1,2})月(?:\s*(\d{1,2})日)?\s*[|]?\s*(.*)$", line)) and mm[3]:
+            # 「10月」のように年を省いた行は直前の年に属する
+            d = f"{cur[0][:4]}-{int(mm[1]):02d}" + (f"-{int(mm[2]):02d}" if mm[2] else "")
+            cur = [d, mm[3].strip(" |")]
+            items.append(cur)
+        elif cur is not None and re.fullmatch(r"\d{1,2}月(\s*\d{1,2}日)?", line):
+            cur = [f"{cur[0][:4]}-{int(re.match(r'\d+', line)[0]):02d}", ""]
+            items.append(cur)
         elif cur is not None and line and line != "|":
             cur[1] = (cur[1] + " " + line.strip(" |")).strip()
     return [(d, t) for d, t in items if t]
@@ -96,9 +104,11 @@ def main() -> int:
             t_clean = re.sub(r"株式会社|\(株\)", "", t)
             hits, rest = [], t_clean
             for n in names:
-                if n in rest:
+                # 「百二十八銀行」中の「十八銀行」のような部分一致を避ける
+                pat = re.compile(r"(?<![一二三四五六七八九十百千第])" + re.escape(n))
+                if pat.search(rest):
                     hits.append(n)
-                    rest = rest.replace(n, "")
+                    rest = pat.sub("", rest)
             cells = []
             verdict = ""
             for n in hits:
@@ -111,9 +121,11 @@ def main() -> int:
                     cells.append(f"{b['id']}: {', '.join(same_year)}")
                     if d in same_year:
                         verdict = verdict or "一致"
+                    elif any(x.startswith(d) for x in same_year):
+                        verdict = verdict or "一致"  # データの方が詳細
                     elif any(d.startswith(x) for x in same_year):
-                        verdict = "詳細化可"
-                    else:
+                        verdict = "詳細化可" if verdict != "要確認" else verdict
+                    elif not verdict:
                         verdict = "要確認"
             out.append(f"| {d} | {t.replace('|', '／')} | {' '.join(hits) or '-'} | {'<br>'.join(cells) or '-'} | {verdict or '未収録?'} |")
         out.append("")

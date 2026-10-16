@@ -72,10 +72,11 @@
   to: [dai-ichi]
   note: 国立銀行の営業満期に伴い普通銀行に転換
 
-- date: "1948"
+- date: "1948-10"
   type: rename
   from: [yasuda]
   to: [fuji]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
 
 - date: "1971-10-01"
   type: merger
@@ -95,6 +96,24 @@
   note: 法的にはみずほコーポレート銀行が存続会社
 
 # ---------------------------------------------------------------- りそな系
+- date: "1927-01"
+  type: rename
+  from: [osaka-nomura]
+  to: [nomura]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
+
+- date: "1948-07"
+  type: rename
+  from: [nihon-chochiku]
+  to: [kyowa]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
+
+- date: "1948-10"
+  type: rename
+  from: [nomura]
+  to: [daiwa]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
+
 - date: "1991-04-01"
   type: merger
   from: [kyowa, saitama]
@@ -284,11 +303,11 @@
   to: [shonai]
   sources: [https://ja.wikipedia.org/wiki/荘内銀行, https://ja.wikipedia.org/wiki/六十七銀行]
 
-- date: "1965"
+- date: "1965-04-01"
   type: rename
   from: [ryou-u]
   to: [yamagata]
-  sources: [https://ja.wikipedia.org/wiki/山形銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M", https://ja.wikipedia.org/wiki/山形銀行]
 
 - date: "1960-01-01"
   type: rename
@@ -398,12 +417,12 @@
   note: 普通銀行に転換
   sources: [https://ja.wikipedia.org/wiki/関東つくば銀行]
 
-- date: "1989"
+- date: "1989-02"
   type: rename
   from: [ibaraki-sogo]
   to: [ibaraki]
   note: 普通銀行に転換
-  sources: [https://ja.wikipedia.org/wiki/茨城銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDJN", https://ja.wikipedia.org/wiki/茨城銀行]
 
 - date: "2003-04"
   type: absorption
@@ -592,12 +611,12 @@
   to: [fukui]
   sources: [https://ja.wikipedia.org/wiki/福井銀行]
 
-- date: "1989"
+- date: "1989-04"
   type: rename
   from: [fukui-sogo]
   to: [fukuho]
   note: 普通銀行に転換
-  sources: [https://ja.wikipedia.org/wiki/福邦銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7", https://ja.wikipedia.org/wiki/福邦銀行]
 
 - date: "2026-05-02"
   type: absorption
@@ -746,11 +765,11 @@
   to: [tanwa]
   sources: [https://ja.wikipedia.org/wiki/京都銀行]
 
-- date: "1951"
+- date: "1951-01"
   type: rename
   from: [tanwa]
   to: [kyoto]
-  sources: [https://ja.wikipedia.org/wiki/京都銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R9CL", https://ja.wikipedia.org/wiki/京都銀行]
 
 - date: "1957"
   type: rename
@@ -876,12 +895,12 @@
   note: ほかに八木銀行・御所銀行が参加
   sources: [https://ja.wikipedia.org/wiki/南都銀行]
 
-- date: "1922"
+- date: "1922-01"
   type: rename
   from: [kiyo-chochiku]
   to: [kiyo]
   note: 普通銀行に転換
-  sources: [https://ja.wikipedia.org/wiki/紀陽銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S", https://ja.wikipedia.org/wiki/紀陽銀行]
 
 - date: "1989-02"
   type: rename
@@ -916,17 +935,17 @@
   note: 同日阪和銀行は解散
   sources: [https://ja.wikipedia.org/wiki/阪和銀行]
 
-- date: "1932-09"
+- date: "1932-09-28"
   type: rename
   from: [mikumi]
   to: [kasumi]
-  sources: [https://ja.wikipedia.org/wiki/但馬銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YI1V", https://ja.wikipedia.org/wiki/但馬銀行]
 
-- date: "1956-09"
+- date: "1956-09-24"
   type: rename
   from: [kasumi]
   to: [tajima]
-  sources: [https://ja.wikipedia.org/wiki/但馬銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YI1V", https://ja.wikipedia.org/wiki/但馬銀行]
 
 - date: "1941-07-01"
   type: merger

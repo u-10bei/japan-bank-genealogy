@@ -146,19 +146,19 @@
 - id: kobe
   name: 神戸銀行
   type: city
-  founded: "1936"
+  founded: "1936-12"
   dissolved: "1973-10-01"
   prefecture: 兵庫県
-  sources: [https://ja.wikipedia.org/wiki/神戸銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/神戸銀行]
 
 - id: taiyo
   name: 太陽銀行
   type: city
-  founded: "1968"
+  founded: "1968-12"
   dissolved: "1973-10-01"
   prefecture: 東京都
   note: 日本相互銀行が普通銀行に転換して改称
-  sources: [https://ja.wikipedia.org/wiki/太陽神戸銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/太陽神戸銀行]
 
 - id: taiyo-kobe
   name: 太陽神戸銀行
@@ -235,7 +235,7 @@
   name: 安田銀行
   type: city
   founded: "1880"
-  dissolved: "1948"
+  dissolved: "1948-10"
   prefecture: 東京都
   sources: [https://ja.wikipedia.org/wiki/富士銀行]
 
@@ -243,10 +243,10 @@
   name: 富士銀行
   name_en: The Fuji Bank
   type: city
-  founded: "1948"
+  founded: "1948-10"
   dissolved: "2002-04-01"
   prefecture: 東京都
-  sources: [https://ja.wikipedia.org/wiki/富士銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/富士銀行]
 
 - id: ibj
   name: 日本興業銀行
@@ -284,32 +284,55 @@
   sources: [https://ja.wikipedia.org/wiki/みずほ銀行]
 
 # ---------------------------------------------------------------- りそな系
+- id: osaka-nomura
+  name: 大阪野村銀行
+  type: other
+  founded: "1918-05"
+  dissolved: "1927-01"
+  prefecture: 大阪府
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
+
+- id: nomura
+  name: 野村銀行
+  type: other
+  founded: "1927-01"
+  dissolved: "1948-10"
+  prefecture: 大阪府
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
+
 - id: daiwa
   name: 大和銀行
   name_en: The Daiwa Bank
   type: city
-  founded: "1918"
+  founded: "1948-10"
   dissolved: "2003-03-01"
   prefecture: 大阪府
-  note: 大阪野村銀行として設立
-  sources: [https://ja.wikipedia.org/wiki/大和銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/大和銀行]
+
+- id: nihon-chochiku
+  name: 日本貯蓄銀行
+  type: other
+  founded: "1945-05"
+  dissolved: "1948-07"
+  prefecture: 東京都
+  note: 9貯蓄銀行の合併により設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
 
 - id: kyowa
   name: 協和銀行
   type: city
-  founded: "1948"
+  founded: "1948-07"
   dissolved: "1991-04-01"
   prefecture: 東京都
-  note: 日本貯蓄銀行から改称
-  sources: [https://ja.wikipedia.org/wiki/協和銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/協和銀行]
 
 - id: saitama
   name: 埼玉銀行
   type: city
-  founded: "1943"
+  founded: "1943-07"
   dissolved: "1991-04-01"
   prefecture: 埼玉県
-  sources: [https://ja.wikipedia.org/wiki/埼玉銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/埼玉銀行]
 
 - id: kyowa-saitama
   name: 協和埼玉銀行
@@ -366,11 +389,11 @@
   name: 日本長期信用銀行
   name_en: The Long-Term Credit Bank of Japan
   type: long_term
-  founded: "1952"
+  founded: "1952-12"
   dissolved: "2000-06-05"
   prefecture: 東京都
   note: 1998年10月に特別公的管理（一時国有化）
-  sources: [https://ja.wikipedia.org/wiki/日本長期信用銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDBB", https://ja.wikipedia.org/wiki/日本長期信用銀行]
 
 - id: shinsei
   name: 新生銀行
@@ -737,7 +760,7 @@
   name: 両羽銀行
   type: regional
   founded: "1896-04-14"
-  dissolved: "1965"
+  dissolved: "1965-04-01"
   prefecture: 山形県
   note: 1897年第八十一国立銀行（1878年創業）の業務を継承
   sources: [https://ja.wikipedia.org/wiki/山形銀行]
@@ -746,9 +769,9 @@
   name: 山形銀行
   name_en: "The Yamagata Bank, Ltd."
   type: regional
-  founded: "1965"
+  founded: "1965-04-01"
   prefecture: 山形県
-  sources: [https://ja.wikipedia.org/wiki/山形銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M", https://ja.wikipedia.org/wiki/山形銀行]
 
 - id: iwate-shokusan
   name: 岩手殖産銀行
@@ -1047,19 +1070,19 @@
 - id: ibaraki-sogo
   name: 茨城相互銀行
   type: other
-  founded: "1952"
-  dissolved: "1989"
+  founded: "1952-05"
+  dissolved: "1989-02"
   prefecture: 茨城県
   note: 前身は1921年設立の茨城無尽
-  sources: [https://ja.wikipedia.org/wiki/茨城銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDJN", https://ja.wikipedia.org/wiki/茨城銀行]
 
 - id: ibaraki
   name: 茨城銀行
   type: regional2
-  founded: "1989"
+  founded: "1989-02"
   dissolved: "2010-03-01"
   prefecture: 茨城県
-  sources: [https://ja.wikipedia.org/wiki/茨城銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDJN", https://ja.wikipedia.org/wiki/茨城銀行]
 
 - id: tsukuba
   name: 筑波銀行
@@ -1460,21 +1483,21 @@
 - id: fukui-sogo
   name: 福井相互銀行
   type: other
-  founded: "1951"
-  dissolved: "1989"
+  founded: "1951-10"
+  dissolved: "1989-04"
   prefecture: 福井県
   note: 1943年11月5日設立の若越無尽が相互銀行転換・改称
-  sources: [https://ja.wikipedia.org/wiki/福邦銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7", https://ja.wikipedia.org/wiki/福邦銀行]
 
 - id: fukuho
   name: 福邦銀行
   name_en: "The Fukuho Bank, Ltd."
   type: regional2
-  founded: "1989"
+  founded: "1989-04"
   dissolved: "2026-05-02"
   prefecture: 福井県
   note: 2024年10月1日福井銀行の完全子会社化
-  sources: [https://ja.wikipedia.org/wiki/福邦銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7", https://ja.wikipedia.org/wiki/福邦銀行]
 
 - id: dai35-kokuritsu
   name: 第三十五国立銀行
@@ -1655,10 +1678,11 @@
 - id: dai16-kokuritsu
   name: 第十六国立銀行
   type: other
-  founded: "1877-10"
+  founded: "1877-08-08"
   dissolved: "1896-12"
   prefecture: 岐阜県
-  sources: [https://ja.wikipedia.org/wiki/十六銀行]
+  note: 設立日は有価証券報告書による（Wikipediaは1877年10月とする）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", https://ja.wikipedia.org/wiki/十六銀行]
 
 - id: juroku
   name: 十六銀行
@@ -1820,7 +1844,7 @@
   name: 丹和銀行
   type: other
   founded: "1941-10-01"
-  dissolved: "1951"
+  dissolved: "1951-01"
   prefecture: 京都府
   note: 本店福知山市
   sources: [https://ja.wikipedia.org/wiki/京都銀行]
@@ -1829,10 +1853,10 @@
   name: 京都銀行
   name_en: "The Bank of Kyoto, Ltd."
   type: regional
-  founded: "1951"
+  founded: "1951-01"
   prefecture: 京都府
   note: 1953年本店を京都市へ移転。2023年京都フィナンシャルグループ設立（持株会社）
-  sources: [https://ja.wikipedia.org/wiki/京都銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100R9CL", https://ja.wikipedia.org/wiki/京都銀行]
 
 - id: osaka-fudo
   name: 大阪不動銀行
@@ -2022,19 +2046,19 @@
   name: 紀陽貯蓄銀行
   type: other
   founded: "1895-05-02"
-  dissolved: "1922"
+  dissolved: "1922-01"
   prefecture: 和歌山県
   note: 前身は第四十三国立銀行
-  sources: [https://ja.wikipedia.org/wiki/紀陽銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S", https://ja.wikipedia.org/wiki/紀陽銀行]
 
 - id: kiyo
   name: 紀陽銀行
   name_en: "The Kiyo Bank, Ltd."
   type: regional
-  founded: "1922"
+  founded: "1922-01"
   prefecture: 和歌山県
   note: 2013年に親会社の紀陽ホールディングスを吸収合併
-  sources: [https://ja.wikipedia.org/wiki/紀陽銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S", https://ja.wikipedia.org/wiki/紀陽銀行]
 
 - id: wakayama-sogo
   name: 和歌山相互銀行
@@ -2083,28 +2107,28 @@
 - id: mikumi
   name: 美含銀行
   type: other
-  founded: "1897-11"
-  dissolved: "1932-09"
+  founded: "1897-11-11"
+  dissolved: "1932-09-28"
   prefecture: 兵庫県
-  sources: [https://ja.wikipedia.org/wiki/但馬銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YI1V", https://ja.wikipedia.org/wiki/但馬銀行]
 
 - id: kasumi
   name: 香住銀行
   type: other
-  founded: "1932-09"
-  dissolved: "1956-09"
+  founded: "1932-09-28"
+  dissolved: "1956-09-24"
   prefecture: 兵庫県
   note: 1938年5月浜坂銀行を吸収合併
-  sources: [https://ja.wikipedia.org/wiki/但馬銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YI1V", https://ja.wikipedia.org/wiki/但馬銀行]
 
 - id: tajima
   name: 但馬銀行
   name_en: "The Tajima Bank, Ltd."
   type: regional
-  founded: "1956-09"
+  founded: "1956-09-24"
   prefecture: 兵庫県
   note: 改称時に神戸銀行から但馬地区12店舗（多くは旧全但銀行）を譲受
-  sources: [https://ja.wikipedia.org/wiki/但馬銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YI1V", https://ja.wikipedia.org/wiki/但馬銀行]
 
 - id: tottori
   name: 鳥取銀行
