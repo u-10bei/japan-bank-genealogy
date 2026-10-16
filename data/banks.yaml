@@ -2532,9 +2532,11 @@
 - id: yoro-mujin
   name: 養老無尽
   type: other
+  founded: "1928-01-27"
   dissolved: "1942-05-01"
-  note: 1942年5月1日、岐阜無尽・幸無尽・両福無尽と新立合併し岐阜合同無尽となる。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
+  prefecture: 岐阜県
+  note: 1942年5月1日、岐阜無尽・幸無尽・両福無尽と新立合併し岐阜合同無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9Up3bn4v1mU3xxhVadVd2bzyZ6n/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NwDPUHlECHLGZ5PTHruB42IeV4c/description.html"]
 
 - id: ryofuku-mujin
   name: 両福無尽
