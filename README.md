@@ -55,7 +55,8 @@ python scripts/find_unlisted.py > unlisted.md        # 出典・note に名前�
 | `regional2` | 第二地方銀行 |
 | `trust` | 信託銀行 |
 | `long_term` | 長期信用銀行 |
-| `special` | 特殊銀行（横浜正金・勧銀など） |
+| `new` | 新形態銀行等（ネット銀行・流通系・ゆうちょ銀行など） |
+| `special` | 特殊銀行・政府系（横浜正金・勧銀、日本政策投資銀行など） |
 | `other` | その他（戦前の普通銀行、新形態銀行など） |
 
 ### `data/events.yaml` — 変遷イベント

@@ -23,6 +23,7 @@
   --t-regional2: #eda100;
   --t-special: #e87ba4;
   --t-long_term: #6250d6;
+  --t-new: #008300;
   --t-other: #8c8b86;
 }
 @media (prefers-color-scheme: dark) {
@@ -43,6 +44,7 @@
     --t-regional2: #c98500;
     --t-special: #d55181;
     --t-long_term: #9085e9;
+    --t-new: #008300;
     --t-other: #77766f;
   }
 }
@@ -63,6 +65,7 @@
   --t-regional2: #c98500;
   --t-special: #d55181;
   --t-long_term: #9085e9;
+  --t-new: #008300;
   --t-other: #77766f;
 }
 * { box-sizing: border-box; }
@@ -205,7 +208,7 @@ svg text { font-family: inherit; }
 <script>
 const TYPE_LABELS = {
   city: "都市銀行", regional: "地方銀行", regional2: "第二地方銀行", trust: "信託銀行",
-  long_term: "長期信用銀行", special: "特殊銀行", other: "その他",
+  long_term: "長期信用銀行", new: "新形態銀行等", special: "特殊銀行・政府系", other: "その他（戦前・無尽等）",
 };
 const EVENT_LABELS = {
   merger: "合併", absorption: "吸収合併", rename: "商号変更",

@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
 OUT_PATH = ROOT / "docs" / "data.json"
 
-BANK_TYPES = {"city", "trust", "long_term", "regional", "regional2", "special", "other"}
+BANK_TYPES = {"city", "trust", "long_term", "regional", "regional2", "new", "special", "other"}
 EVENT_TYPES = {"merger", "absorption", "rename", "reorganization", "transfer", "failure"}
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 DATE_RE = re.compile(r"^\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$")

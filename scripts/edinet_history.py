@@ -56,7 +56,7 @@ def api_get(path: str, **params) -> bytes:
     raise AssertionError
 
 
-def list_reports(day: dt.date, name_re: re.Pattern | None = None) -> list[dict]:
+def list_reports(day: dt.date, name_re: re.Pattern | None = None, any_filer: bool = False) -> list[dict]:
     d = json.loads(api_get("documents.json", date=day.isoformat(), type=2))
     if str(d.get("metadata", {}).get("status")) != "200":
         raise SystemExit(f"EDINET API error on {day}: {d}")
@@ -69,7 +69,7 @@ def list_reports(day: dt.date, name_re: re.Pattern | None = None) -> list[dict]:
             continue
         if name_re and not name_re.search(name):
             continue
-        if "銀行" in name or any(h in name for h in HOLDING_HINTS):
+        if any_filer or "銀行" in name or any(h in name for h in HOLDING_HINTS):
             out.append(r)
     return out
 
@@ -111,6 +111,7 @@ def main() -> int:
     p.add_argument("--from", dest="date_from")
     p.add_argument("--to", dest="date_to")
     p.add_argument("--name", help="提出者名の正規表現で絞り込む（例: '信託|トラスト'）")
+    p.add_argument("--any-filer", action="store_true", help="--name に一致すれば銀行以外の提出者も対象にする（銀行を子会社に持つ事業会社など）")
     args = p.parse_args()
 
     days: list[dt.date] = []
@@ -129,7 +130,7 @@ def main() -> int:
     existing = {f.name.split("_")[-1].removesuffix(".txt") for f in OUT_DIR.glob("*.txt")}
     saved = skipped = 0
     for day in days:
-        reports = list_reports(day, re.compile(args.name) if args.name else None)
+        reports = list_reports(day, re.compile(args.name) if args.name else None, args.any_filer and bool(args.name))
         if reports:
             print(f"{day}: {len(reports)} 件", file=sys.stderr)
         for r in reports:
