@@ -5453,19 +5453,19 @@
   name: 日債銀信託銀行
   type: trust
   founded: "1994-02-28"
-  dissolved: "2001-01"
+  dissolved: "2001-01-04"
   prefecture: 東京都
-  note: 日本債券信用銀行の信託子会社。1994年4月1日開業。有報は1994年2月設立（日はWikipedia）
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO", https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+  note: 日本債券信用銀行の信託銀行子会社として設立。1994年3月4日銀行業免許・信託兼営認可、4月1日開業
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wt_3UoVetwo51Mxudo1ZJdbtgMd/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO", https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
 
 - id: aozora-trust
   name: あおぞら信託銀行
   type: trust
-  founded: "2001-01"
+  founded: "2001-01-04"
   dissolved: "2018-06-01"
   prefecture: 東京都
-  note: 親銀行のあおぞら銀行への改称に合わせ改称（Wikipediaは2001年1月とのみ記載）
-  sources: [https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+  note: 日債銀信託銀行が親銀行のあおぞら銀行への改称に合わせ改称。2017年10月25日社名変更認可
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/YZpTzOBU0Zp_xxW-dge2-pD9GTg/description.html", https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
 
 - id: gmo-aozora-net-bank
   name: GMOあおぞらネット銀行
@@ -5473,8 +5473,8 @@
   type: new
   founded: "2018-06-01"
   prefecture: 東京都
-  note: あおぞら銀行とGMOインターネットグループの合弁。インターネット銀行事業開始後、信託業務はあおぞら銀行が承継
-  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO", https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+  note: あおぞら銀行とGMOインターネットグループの合弁。2018年7月17日インターネット銀行事業開始、10月1日信託業務をあおぞら銀行に承継
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TE-AWlHqZ62s1B02SsiTMvo_q1d/description.html", https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO", https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
 
 - id: japan-net-bank
   name: ジャパンネット銀行

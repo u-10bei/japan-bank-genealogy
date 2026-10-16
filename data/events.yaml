@@ -2768,17 +2768,24 @@
   to: [au-jibun-bank]
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/akVqqx-_eYZ37ghtpN8Rdiy6itk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohePYyCDJJpgvwybKEo-I6Mv6Qg/description.html", https://ja.wikipedia.org/wiki/auじぶん銀行]
 
-- date: "2001-01"
+- date: "2001-01-04"
   type: rename
   from: [nissaigin-trust]
   to: [aozora-trust]
-  sources: [https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wt_3UoVetwo51Mxudo1ZJdbtgMd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/YZpTzOBU0Zp_xxW-dge2-pD9GTg/description.html", https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
 
 - date: "2018-06-01"
   type: rename
   from: [aozora-trust]
   to: [gmo-aozora-net-bank]
-  sources: [https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/YZpTzOBU0Zp_xxW-dge2-pD9GTg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TE-AWlHqZ62s1B02SsiTMvo_q1d/description.html", https://ja.wikipedia.org/wiki/GMOあおぞらネット銀行]
+
+- date: "2018-10-01"
+  type: transfer
+  from: [gmo-aozora-net-bank]
+  to: [aozora]
+  note: 信託業務をあおぞら銀行に承継（吸収分割）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TE-AWlHqZ62s1B02SsiTMvo_q1d/description.html"]
 
 - date: "2021-04-05"
   type: rename
