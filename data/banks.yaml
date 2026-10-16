@@ -680,8 +680,8 @@
   founded: "1943-10-01"
   dissolved: "2025-01-01"
   prefecture: 青森県
-  note: 2022年プロクレアHD傘下。2025年みちのく銀行を吸収し青森みちのく銀行に改称
-  sources: [https://ja.wikipedia.org/wiki/青森みちのく銀行, https://ja.wikipedia.org/wiki/青森銀行, https://ja.wikipedia.org/wiki/第五十九銀行]
+  note: 2022年プロクレアHD傘下。2025年みちのく銀行を吸収し青森みちのく銀行に改称。1944年6月、弘前商業銀行・佐々木銀行の営業の一部を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OESC", https://ja.wikipedia.org/wiki/青森みちのく銀行, https://ja.wikipedia.org/wiki/青森銀行, https://ja.wikipedia.org/wiki/第五十九銀行]
 
 - id: aomori-michinoku
   name: 青森みちのく銀行
@@ -5971,4 +5971,907 @@
   prefecture: 東京都
   note: 野村證券の信託銀行子会社として設立。1993年9月3日銀行業免許・信託兼営認可、10月1日開業。2010年7月20日NCT信託銀行を吸収合併
   sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fNq3RI4bx1N7I-OnDfA3lNwSmvl/description.html, "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YC5C", https://ja.wikipedia.org/wiki/野村信託銀行, https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf]
+
+# ---------------------------------------------------------------- 旧銀行（十六・福井・滋賀・百十四・南都・紀陽・百五の系統）
+- id: gifu-soko
+  name: 岐阜倉庫銀行
+  type: other
+  dissolved: "1903-07"
+  note: 1903年7月十六銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: noko
+  name: 濃厚銀行
+  type: other
+  dissolved: "1904-07"
+  note: 1904年7月十六銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: tomiaki
+  name: 富秋銀行
+  type: other
+  dissolved: "1911-10"
+  note: 1911年10月十六銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: hazama
+  name: 間銀行
+  type: other
+  dissolved: "1916-06"
+  note: 1916年6月十六銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: takehana
+  name: 竹鼻銀行
+  type: other
+  dissolved: "1928-04"
+  note: 1928年4月十六銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: hishu-chochiku
+  name: 飛州貯蓄銀行
+  type: other
+  dissolved: "1943-12"
+  note: 1943年12月十六銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: gifu-chochiku
+  name: 岐阜貯蓄銀行
+  type: other
+  dissolved: "1943-12"
+  note: 1943年12月十六銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: kagashima
+  name: 鏡島銀行
+  type: other
+  dissolved: "1930-09"
+  note: 1930年9月十六銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: hyakunijuhachi
+  name: 百二十八銀行
+  type: other
+  dissolved: "1936-11"
+  note: 1936年11月十六銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: mino
+  name: 美濃銀行
+  type: other
+  dissolved: "1937-02"
+  note: 1937年2月十六銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: yaotsu
+  name: 八百津銀行
+  type: other
+  dissolved: "1937-03"
+  note: 1937年3月十六銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: mino-godo
+  name: 美濃合同銀行
+  type: other
+  dissolved: "1940-08"
+  note: 1940年8月十六銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: hida
+  name: 飛騨銀行
+  type: other
+  dissolved: "1941-02"
+  note: 1941年2月十六銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: ena
+  name: 恵那銀行
+  type: other
+  dissolved: "1942-05"
+  note: 1942年5月十六銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: akasaka
+  name: 赤坂銀行
+  type: other
+  dissolved: "1942-05"
+  note: 1942年5月十六銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: gifu-shintaku
+  name: 岐阜信託銀行
+  type: other
+  dissolved: "1944-12"
+  note: "1944年12月十六銀行が買収（有報表記: 岐阜信託銀行株式会社）"
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: echizen-shogyo
+  name: 越前商業銀行
+  type: other
+  dissolved: "1912-06"
+  note: 1912年6月福井銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: mikuni-shogyo
+  name: 三国商業銀行
+  type: other
+  dissolved: "1914-08"
+  note: 1914年8月福井銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: wakasa-shogyo
+  name: 若狭商業銀行
+  type: other
+  dissolved: "1919-06"
+  note: 1919年6月福井銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: takahama
+  name: 高浜銀行
+  type: other
+  dissolved: "1924-04"
+  note: 1924年4月福井銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: daishichi
+  name: 大七銀行
+  type: other
+  dissolved: "1924-08"
+  note: 1924年8月福井銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: reinan
+  name: 嶺南銀行
+  type: other
+  dissolved: "1928-05"
+  note: 1928年5月福井銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: morita
+  name: 森田銀行
+  type: other
+  dissolved: "1930-12"
+  note: 1930年12月福井銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: kosei
+  name: 洪盛銀行
+  type: other
+  dissolved: "1932-02"
+  note: 1932年2月福井銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: gamo
+  name: 蒲生銀行
+  type: other
+  dissolved: "1940-11"
+  note: 1940年11月滋賀銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- id: kohoku
+  name: 湖北銀行
+  type: other
+  dissolved: "1942-08"
+  note: 1942年8月滋賀銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- id: kashiwabara
+  name: 柏原銀行
+  type: other
+  dissolved: "1943-06"
+  note: 1943年6月滋賀銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- id: shiga-chochiku
+  name: 滋賀貯蓄銀行
+  type: other
+  dissolved: "1943-08"
+  note: 1943年8月滋賀銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- id: shodoshima
+  name: 小豆島銀行
+  type: other
+  dissolved: "1928"
+  note: 1928年高松百十四銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YA4U"]
+
+- id: domei
+  name: 同盟銀行
+  type: other
+  dissolved: "1934"
+  note: 1934年高松百十四銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YA4U"]
+
+- id: matsuyama
+  name: 松山銀行
+  type: other
+  dissolved: "1936"
+  note: 1936年高松百十四銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YA4U"]
+
+- id: tadotsu
+  name: 多度津銀行
+  type: other
+  dissolved: "1941"
+  note: 1941年高松百十四銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YA4U"]
+
+- id: sanuki-chochiku
+  name: 讃岐貯蓄銀行
+  type: other
+  dissolved: "1943"
+  note: 1943年高松百十四銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YA4U"]
+
+- id: yamato-chochiku
+  name: 大和貯蓄銀行
+  type: other
+  dissolved: "1944-02-10"
+  note: 1944年2月10日南都銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEBM"]
+
+- id: kii-chochiku
+  name: 紀伊貯蓄銀行
+  type: other
+  dissolved: "1945-06"
+  note: 1945年6月紀陽銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S"]
+
+- id: kihoku-shogyo
+  name: 紀北商業銀行
+  type: other
+  dissolved: "1920-06"
+  note: 1920年6月百五銀行が合併（有報は「買収あるいは合併」と一括記載。Wikipediaは1920年9月6日合併とする）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ", https://ja.wikipedia.org/wiki/百五銀行]
+
+- id: gifu-1903
+  name: 岐阜銀行
+  type: other
+  dissolved: "1903-07"
+  note: 1903年7月十六銀行が吸収合併（1989年設立の岐阜銀行とは別法人）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- id: ote
+  name: 大手銀行
+  type: other
+  dissolved: "1910-11"
+  note: 1910年11月福井銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: ishikawa-1926
+  name: 石川銀行
+  type: other
+  dissolved: "1926-04"
+  note: 1926年4月福井銀行が合併（1989年設立の石川銀行とは別法人）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: fukui-shintaku
+  name: 福井信託
+  type: other
+  dissolved: "1944-12"
+  note: "1944年12月福井銀行が合併（有報表記: 福井信託株式会社）"
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- id: omi-shintaku
+  name: 近江信託
+  type: other
+  dissolved: "1945-07"
+  note: "1945年7月滋賀銀行が合併（有報表記: 近江信託株式会社）"
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- id: kameyama
+  name: 亀山銀行
+  type: other
+  dissolved: "1905-10"
+  note: 1905年10月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- id: kuwana
+  name: 桑名銀行
+  type: other
+  dissolved: "1916-12"
+  note: 1916年12月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- id: owase
+  name: 尾鷲銀行
+  type: other
+  dissolved: "1920-06"
+  note: 1920年6月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- id: hachijusan
+  name: 八十三銀行
+  type: other
+  dissolved: "1920-12"
+  note: 1920年12月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- id: iga-ueno
+  name: 伊賀上野銀行
+  type: other
+  dissolved: "1921-10"
+  note: 1921年10月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- id: yoshida-mie
+  name: 吉田銀行
+  type: other
+  dissolved: "1922-03"
+  note: 1922年3月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- id: kawage
+  name: 河芸銀行
+  type: other
+  dissolved: "1925-04"
+  note: 1925年4月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- id: ichishi
+  name: 一志銀行
+  type: other
+  dissolved: "1929-12"
+  note: 1929年12月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- id: seinan
+  name: 勢南銀行
+  type: other
+  dissolved: "1943-03"
+  note: 1943年3月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- id: mie-kyodo-chochiku
+  name: 三重共同貯蓄銀行
+  type: other
+  dissolved: "1943-09"
+  note: 1943年9月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- id: fukui-mujin
+  name: 福井無尽
+  type: other
+  dissolved: "1943-11"
+  note: 1943年11月武生無尽・越前無尽と合併し若越無尽を設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7"]
+
+- id: takefu-mujin
+  name: 武生無尽
+  type: other
+  dissolved: "1943-11"
+  note: 1943年11月福井無尽・越前無尽と合併し若越無尽を設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7"]
+
+- id: echizen-mujin
+  name: 越前無尽
+  type: other
+  dissolved: "1943-11"
+  note: 1943年11月福井無尽・武生無尽と合併し若越無尽を設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7"]
+
+- id: jakuetsu-mujin
+  name: 若越無尽
+  type: other
+  founded: "1943-11"
+  dissolved: "1951-10"
+  note: 福井無尽・武生無尽・越前無尽の合併で設立。1951年10月福井相互銀行に商号変更
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7"]
+
+- id: kyoto-kyoei
+  name: 京都共栄銀行
+  type: other
+  dissolved: "1998-10"
+  prefecture: 京都府
+  note: 1997年経営破綻。1998年10月営業譲渡（大半は幸福銀行、舞鶴市分は福邦銀行、丹後地方は北京都信用金庫）。福邦銀行は1998年3月営業一部譲受契約締結
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7", https://ja.wikipedia.org/wiki/京都共栄銀行]
+
+- id: yagi
+  name: 八木銀行
+  type: other
+  dissolved: "1934-06-01"
+  note: 1934年6月1日六十八銀行・吉野銀行・御所銀行と合併し南都銀行設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEBM"]
+
+- id: gose
+  name: 御所銀行
+  type: other
+  dissolved: "1934-06-01"
+  note: 1934年6月1日六十八銀行・吉野銀行・八木銀行と合併し南都銀行設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEBM"]
+
+# ---------------------------------------------------------------- 旧銀行（都市銀行・東日本の系統）
+- id: morimura-ginko
+  name: 森村銀行
+  type: other
+  dissolved: "1929-05"
+  note: 1929年5月三菱銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: kinbara-ginko
+  name: 金原銀行
+  type: other
+  dissolved: "1940-10"
+  note: 1940年10月三菱銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: tokyo-nakano-ginko
+  name: 東京中野銀行
+  type: other
+  dissolved: "1942-04"
+  note: 1942年4月三菱銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: daihyaku
+  name: 第百銀行
+  type: other
+  dissolved: "1943-04"
+  note: 1943年4月三菱銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: aichi-ginko-1941
+  name: 愛知銀行
+  type: other
+  dissolved: "1941-06-09"
+  note: 1941年6月名古屋銀行・伊藤銀行と合併し東海銀行を設立（戦後の愛知銀行とは別）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: nagoya-ginko-1941
+  name: 名古屋銀行
+  type: other
+  dissolved: "1941-06-09"
+  note: 1941年6月愛知銀行・伊藤銀行と合併し東海銀行を設立（戦後の名古屋銀行とは別）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: ito-ginko
+  name: 伊藤銀行
+  type: other
+  dissolved: "1941-06-09"
+  note: 1941年6月愛知銀行・名古屋銀行と合併し東海銀行を設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: sanwa-shintaku
+  name: 三和信託株式会社
+  type: other
+  dissolved: "1945-05"
+  note: 1945年5月三和銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: daido-ginko
+  name: 大同銀行
+  type: other
+  dissolved: "1945-05"
+  note: 1945年5月三和銀行に合併（群馬大同銀行とは別）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: owada-ginko
+  name: 大和田銀行
+  type: other
+  dissolved: "1945-10"
+  note: 1945年10月三和銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: okazaki-ginko
+  name: 岡崎銀行
+  type: other
+  dissolved: "1945-09"
+  note: 1945年9月東海銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: inazawa-ginko
+  name: 稲沢銀行
+  type: other
+  dissolved: "1945-09"
+  note: 1945年9月東海銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: ono-ginko-aichi
+  name: 大野銀行
+  type: other
+  dissolved: "1945-09"
+  note: 1945年9月東海銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- id: hannan-ginko
+  name: 阪南銀行
+  type: other
+  dissolved: "1945-07"
+  note: 1945年7月住友銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- id: ikeda-jitsugyo-ginko
+  name: 池田実業銀行
+  type: other
+  dissolved: "1945-07"
+  note: 1945年7月住友銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- id: kawachi-ginko
+  name: 河内銀行
+  type: other
+  dissolved: "1965-04"
+  note: 1965年4月住友銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- id: toto-ginko
+  name: 東都銀行
+  type: other
+  dissolved: "1968-04"
+  note: 1968年4月三井銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- id: heiwa-sogo
+  name: 平和相互銀行
+  type: other
+  dissolved: "1986-10"
+  note: 1986年10月住友銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- id: nippon-chuya-ginko
+  name: 日本昼夜銀行
+  type: other
+  dissolved: "1943-04"
+  note: 1943年4月安田銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+
+- id: showa-ginko
+  name: 昭和銀行
+  type: other
+  dissolved: "1944-08"
+  note: 1944年8月安田銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+
+- id: daisan-ginko-tokyo
+  name: 第三銀行
+  type: other
+  dissolved: "1944-08"
+  note: 1944年8月安田銀行が営業を譲受（三重県の第三銀行とは別）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+
+- id: daiwagin-trust
+  name: 大和銀信託銀行
+  type: trust
+  founded: "2001-12"
+  dissolved: "2002"
+  note: 大和銀行が2001年12月設立、2002年りそな信託銀行に改称（改称月は出典に記載なし、2002年9月〜11月の間）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3"]
+
+- id: resona-trust
+  name: りそな信託銀行
+  type: trust
+  founded: "2002"
+  dissolved: "2009-04"
+  note: 旧大和銀信託銀行。2009年4月りそな銀行と合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
+
+- id: asahi-shintaku-ginko
+  name: あさひ信託銀行
+  type: trust
+  dissolved: "2002-10"
+  note: 2002年10月大和銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
+
+- id: miharu-ginko
+  name: 三春銀行
+  type: other
+  dissolved: "1942-08"
+  note: 1942年8月東邦銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- id: inawashiro-ginko
+  name: 猪苗代銀行
+  type: other
+  dissolved: "1942-08"
+  note: 1942年8月東邦銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- id: iwase-kogyo-ginko
+  name: 岩瀬興業銀行
+  type: other
+  dissolved: "1942-08"
+  note: 1942年8月東邦銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- id: yabuki-ginko
+  name: 矢吹銀行
+  type: other
+  dissolved: "1943-02"
+  note: 1943年2月東邦銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- id: tamura-jitsugyo-ginko
+  name: 田村実業銀行
+  type: other
+  dissolved: "1943-02"
+  note: 1943年2月東邦銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- id: bando-ginko
+  name: 磐東銀行
+  type: other
+  dissolved: "1943-02"
+  note: 1943年2月東邦銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- id: fukushima-chochiku
+  name: 福島貯蓄銀行
+  type: other
+  dissolved: "1944-11"
+  note: 1944年11月東邦銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- id: haramachi-ginko
+  name: 原町銀行
+  type: other
+  dissolved: "1932-12"
+  note: 1932年12月七十七銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAM0"]
+
+- id: miyagi-ginko
+  name: 宮城銀行
+  type: other
+  dissolved: "1941-09"
+  note: 1941年9月七十七銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAM0"]
+
+- id: sennan-ginko
+  name: 仙南銀行
+  type: other
+  dissolved: "1942-02"
+  note: 1942年2月七十七銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAM0"]
+
+- id: tohoku-chochiku
+  name: 東北貯蓄銀行
+  type: other
+  dissolved: "1945-05"
+  note: 1945年5月七十七銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAM0"]
+
+- id: rikuchu-ginko
+  name: 陸中銀行
+  type: other
+  dissolved: "1941-08-16"
+  note: 1941年8月16日岩手殖産銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD6A"]
+
+- id: iwate-chochiku
+  name: 岩手貯蓄銀行
+  type: other
+  dissolved: "1943-08-02"
+  note: 1943年8月2日岩手殖産銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD6A"]
+
+- id: yamagata-shogyo
+  name: 山形商業銀行
+  type: other
+  dissolved: "1943-03-01"
+  note: 1943年3月1日両羽銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M"]
+
+- id: yamagata-chochiku
+  name: 山形貯蓄銀行
+  type: other
+  dissolved: "1944-03-31"
+  note: 1944年3月31日両羽銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M"]
+
+- id: chiba-chochiku
+  name: 千葉貯蓄銀行
+  type: other
+  dissolved: "1944-03-31"
+  note: 1944年3月31日千葉銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDSE"]
+
+- id: noda-shoyu-ginko
+  name: 野田商誘銀行
+  type: other
+  dissolved: "1944-06-01"
+  note: 1944年6月1日千葉銀行が営業を継承
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDSE"]
+
+- id: kamiina-ginko
+  name: 上伊那銀行
+  type: other
+  dissolved: "1943-03"
+  note: 1943年3月八十二銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+
+- id: saku-ginko
+  name: 佐久銀行
+  type: other
+  dissolved: "1943-03"
+  note: 1943年3月八十二銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+
+- id: shinshu-ginko
+  name: 信州銀行
+  type: other
+  dissolved: "1943-03"
+  note: 1943年3月八十二銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+
+- id: nagano-chochiku
+  name: 長野貯蓄銀行
+  type: other
+  dissolved: "1943-09"
+  note: 1943年9月八十二銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+
+- id: ueda-shokusan-ginko
+  name: 上田殖産銀行
+  type: other
+  dissolved: "1943-11"
+  note: 1943年11月八十二銀行が営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+
+- id: iida-ginko
+  name: 飯田銀行
+  type: other
+  dissolved: "1943-12"
+  note: 1943年12月八十二銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+
+- id: shizuoka-jitsugyo
+  name: 静岡実業銀行
+  type: other
+  dissolved: "1923-07-31"
+  note: 1923年7月31日駿河銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCW1"]
+
+- id: matsuda-ginko
+  name: 松田銀行
+  type: other
+  dissolved: "1927-03-01"
+  note: 1927年3月1日駿河銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCW1"]
+
+- id: fuji-ginko-shizuoka
+  name: 富士銀行
+  type: other
+  dissolved: "1928-04-01"
+  note: 旧片浜銀行。1928年4月1日駿河銀行に合併（戦後の富士銀行とは別）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCW1"]
+
+- id: suruga-chochiku
+  name: 駿河貯蓄銀行
+  type: other
+  dissolved: "1943-12-01"
+  note: 1943年12月1日駿河銀行に合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCW1"]
+
+- id: fukushima-mujin
+  name: 福島無尽
+  type: other
+  dissolved: "1939-11"
+  note: 1939年11月湯本信用無尽が吸収合併（同時に福島無尽金庫に改称）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCO6"]
+
+# ---------------------------------------------------------------- 旧銀行（中国・四国・九州・沖縄の系統、なみはや銀行の前身）
+- id: yatsuka
+  name: 八束銀行
+  type: other
+  dissolved: "1927-07-25"
+  note: 1927年7月松江銀行が合併（津和野第五十三国立銀行を源流とする）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- id: unyo-jitsugyo
+  name: 雲陽実業銀行
+  type: other
+  dissolved: "1931-07-20"
+  note: 1931年7月松江銀行と合併し新たな松江銀行を設立
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- id: sekishu
+  name: 石州銀行
+  type: other
+  dissolved: "1941-10-01"
+  note: 1941年10月山陰合同銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- id: yagami
+  name: 矢上銀行
+  type: other
+  dissolved: "1941-10-01"
+  note: 1941年10月山陰合同銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- id: sanin-chochiku
+  name: 山陰貯蓄銀行
+  type: other
+  dissolved: "1945-03-01"
+  note: 1945年3月山陰合同銀行が買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- id: kogetsu
+  name: 後月銀行
+  type: other
+  dissolved: "1931-03"
+  note: 1931年3月中国銀行が営業譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VZS6"]
+
+- id: mimasaka-katsuyama
+  name: 美作勝山銀行
+  type: other
+  dissolved: "1932-12"
+  note: 1932年12月中国銀行が営業譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VZS6"]
+
+- id: chubi
+  name: 中備銀行
+  type: other
+  dissolved: "1940-05"
+  note: 1940年5月中国銀行が営業譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VZS6"]
+
+- id: okayama-godo-chochiku
+  name: 岡山合同貯蓄銀行
+  type: other
+  dissolved: "1944-02"
+  note: 1944年2月中国銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VZS6"]
+
+- id: futatsugi
+  name: 二木銀行
+  type: other
+  dissolved: "1934-04"
+  note: 1934年4月阿波商業銀行が買収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
+
+- id: awa-chochiku
+  name: 阿波貯蓄銀行
+  type: other
+  dissolved: "1943-08"
+  note: 1943年8月阿波商業銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
+
+- id: iyo-sogo-chochiku
+  name: 伊豫相互貯蓄銀行
+  type: other
+  dissolved: "1944-12"
+  note: 1944年12月伊豫合同銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OLYJ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBIB"]
+
+- id: tosa
+  name: 土佐銀行
+  type: other
+  dissolved: "1923-11-01"
+  note: 1923年11月高知銀行が合併し四国銀行に改称
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD3N"]
+
+- id: hamasaka
+  name: 浜坂銀行
+  type: other
+  dissolved: "1938-05-05"
+  note: 1938年5月香住銀行が吸収合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YI1V"]
+
+- id: nobeoka
+  name: 延岡銀行
+  type: other
+  dissolved: "1933-12"
+  note: 1933年12月日向興業銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGVF"]
+
+- id: hyuga-chochiku
+  name: 日向貯蓄銀行
+  type: other
+  dissolved: "1943-08"
+  note: 1943年8月日向興業銀行が合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGVF"]
+
+- id: fukutoku
+  name: 福徳銀行
+  type: regional2
+  dissolved: "1998-10-01"
+  note: 旧相互銀行。1998年10月なにわ銀行と福徳銀行が合併しなみはや銀行を新設
+  sources: [https://ja.wikipedia.org/wiki/なみはや銀行]
+
+- id: naniwa
+  name: なにわ銀行
+  type: regional2
+  dissolved: "1998-10-01"
+  note: 旧相互銀行。1998年10月福徳銀行と合併しなみはや銀行を新設
+  sources: [https://ja.wikipedia.org/wiki/なみはや銀行]
 

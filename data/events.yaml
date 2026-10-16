@@ -1007,9 +1007,9 @@
 
 - date: "1934-06-01"
   type: merger
-  from: [rokujuhachi, yoshino]
+  from: [rokujuhachi, yoshino, yagi, gose]
   to: [nanto]
-  note: ほかに八木銀行・御所銀行が参加
+  note: ほかに八木銀行・御所銀行が参加。八木銀行・御所銀行も合併に参加（有報）
   sources: [https://ja.wikipedia.org/wiki/南都銀行]
 
 - date: "1922-01"
@@ -2987,4 +2987,688 @@
   to: [nomura-trust]
   note: 2009年10月に全株式を取得し子会社化のうえ吸収合併。野村HDの有報沿革に記載なし
   sources: [https://ja.wikipedia.org/wiki/日興シティ信託銀行, https://ja.wikipedia.org/wiki/野村信託銀行, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lx3yC8QY07AIST7x_ctoUwZO8Uk/description.html, https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fNq3RI4bx1N7I-OnDfA3lNwSmvl/description.html]
+
+# ---------------------------------------------------------------- 旧銀行（十六・福井・滋賀・百十四・南都・紀陽・百五の系統）
+- date: "1903-07"
+  type: absorption
+  from: [gifu-soko]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1904-07"
+  type: absorption
+  from: [noko]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1911-10"
+  type: absorption
+  from: [tomiaki]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1916-06"
+  type: absorption
+  from: [hazama]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1928-04"
+  type: absorption
+  from: [takehana]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1943-12"
+  type: absorption
+  from: [hishu-chochiku]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1943-12"
+  type: absorption
+  from: [gifu-chochiku]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1930-09"
+  type: transfer
+  from: [kagashima]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1936-11"
+  type: transfer
+  from: [hyakunijuhachi]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1937-02"
+  type: transfer
+  from: [mino]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1937-03"
+  type: transfer
+  from: [yaotsu]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1940-08"
+  type: transfer
+  from: [mino-godo]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1941-02"
+  type: transfer
+  from: [hida]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1942-05"
+  type: transfer
+  from: [ena]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1942-05"
+  type: transfer
+  from: [akasaka]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1944-12"
+  type: transfer
+  from: [gifu-shintaku]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1912-06"
+  type: absorption
+  from: [echizen-shogyo]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1914-08"
+  type: transfer
+  from: [mikuni-shogyo]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1919-06"
+  type: absorption
+  from: [wakasa-shogyo]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1924-04"
+  type: absorption
+  from: [takahama]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1924-08"
+  type: absorption
+  from: [daishichi]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1928-05"
+  type: absorption
+  from: [reinan]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1930-12"
+  type: absorption
+  from: [morita]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1932-02"
+  type: transfer
+  from: [kosei]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1940-11"
+  type: transfer
+  from: [gamo]
+  to: [shiga]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- date: "1942-08"
+  type: transfer
+  from: [kohoku]
+  to: [shiga]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- date: "1943-06"
+  type: transfer
+  from: [kashiwabara]
+  to: [shiga]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- date: "1943-08"
+  type: absorption
+  from: [shiga-chochiku]
+  to: [shiga]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- date: "1928"
+  type: transfer
+  from: [shodoshima]
+  to: [takamatsu-114]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YA4U"]
+
+- date: "1934"
+  type: transfer
+  from: [domei]
+  to: [takamatsu-114]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YA4U"]
+
+- date: "1936"
+  type: transfer
+  from: [matsuyama]
+  to: [takamatsu-114]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YA4U"]
+
+- date: "1941"
+  type: transfer
+  from: [tadotsu]
+  to: [takamatsu-114]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YA4U"]
+
+- date: "1943"
+  type: transfer
+  from: [sanuki-chochiku]
+  to: [takamatsu-114]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YA4U"]
+
+- date: "1944-02-10"
+  type: absorption
+  from: [yamato-chochiku]
+  to: [nanto]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEBM"]
+
+- date: "1945-06"
+  type: absorption
+  from: [kii-chochiku]
+  to: [kiyo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S"]
+
+- date: "1920-06"
+  type: absorption
+  from: [kihoku-shogyo]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ", https://ja.wikipedia.org/wiki/百五銀行]
+
+- date: "1903-07"
+  type: absorption
+  from: [gifu-1903]
+  to: [juroku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+
+- date: "1910-11"
+  type: transfer
+  from: [ote]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1926-04"
+  type: absorption
+  from: [ishikawa-1926]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1944-12"
+  type: absorption
+  from: [fukui-shintaku]
+  to: [fukui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFJC"]
+
+- date: "1945-07"
+  type: absorption
+  from: [omi-shintaku]
+  to: [shiga]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- date: "1905-10"
+  type: absorption
+  from: [kameyama]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- date: "1916-12"
+  type: absorption
+  from: [kuwana]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- date: "1920-06"
+  type: absorption
+  from: [owase]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- date: "1920-12"
+  type: absorption
+  from: [hachijusan]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- date: "1921-10"
+  type: absorption
+  from: [iga-ueno]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- date: "1922-03"
+  type: absorption
+  from: [yoshida-mie]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- date: "1925-04"
+  type: absorption
+  from: [kawage]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- date: "1929-12"
+  type: absorption
+  from: [ichishi]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- date: "1943-03"
+  type: absorption
+  from: [seinan]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- date: "1943-09"
+  type: absorption
+  from: [mie-kyodo-chochiku]
+  to: [hyakugo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+
+- date: "1943-11"
+  type: merger
+  from: [fukui-mujin, takefu-mujin, echizen-mujin]
+  to: [jakuetsu-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7"]
+
+- date: "1951-10"
+  type: rename
+  from: [jakuetsu-mujin]
+  to: [fukui-sogo]
+  note: 相互銀行法施行に伴い商号変更
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7"]
+
+- date: "1998-10"
+  type: transfer
+  from: [kyoto-kyoei]
+  to: [kofuku, fukuho]
+  note: 営業譲渡。大半は幸福銀行、舞鶴市分は福邦銀行（北京都信用金庫への丹後地方分は対象外）。福邦銀行分の譲受日は出典に明記なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7", https://ja.wikipedia.org/wiki/京都共栄銀行]
+
+# ---------------------------------------------------------------- 旧銀行（都市銀行・東日本の系統）
+- date: "1929-05"
+  type: transfer
+  from: [morimura-ginko]
+  to: [mitsubishi-1919]
+  note: 三菱銀行が森村銀行を買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- date: "1940-10"
+  type: transfer
+  from: [kinbara-ginko]
+  to: [mitsubishi-1919]
+  note: 三菱銀行が金原銀行を買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- date: "1942-04"
+  type: transfer
+  from: [tokyo-nakano-ginko]
+  to: [mitsubishi-1919]
+  note: 三菱銀行が東京中野銀行を買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- date: "1943-04"
+  type: absorption
+  from: [daihyaku]
+  to: [mitsubishi-1919]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- date: "1941-06-09"
+  type: merger
+  from: [aichi-ginko-1941, nagoya-ginko-1941, ito-ginko]
+  to: [tokai]
+  note: 3行合併で東海銀行を設立（出典は1941年6月、日付は東海銀行の設立日）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/東海銀行]
+
+- date: "1945-05"
+  type: absorption
+  from: [sanwa-shintaku, daido-ginko]
+  to: [sanwa]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- date: "1945-09"
+  type: absorption
+  from: [okazaki-ginko, inazawa-ginko, ono-ginko-aichi]
+  to: [tokai]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- date: "1945-10"
+  type: absorption
+  from: [owada-ginko]
+  to: [sanwa]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- date: "1945-07"
+  type: absorption
+  from: [hannan-ginko, ikeda-jitsugyo-ginko]
+  to: [sumitomo-1895]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1965-04"
+  type: absorption
+  from: [kawachi-ginko]
+  to: [sumitomo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1968-04"
+  type: absorption
+  from: [toto-ginko]
+  to: [mitsui]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1986-10"
+  type: absorption
+  from: [heiwa-sogo]
+  to: [sumitomo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1943-04"
+  type: absorption
+  from: [nippon-chuya-ginko]
+  to: [yasuda]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+
+- date: "1944-08"
+  type: absorption
+  from: [showa-ginko]
+  to: [yasuda]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+
+- date: "1944-08"
+  type: transfer
+  from: [daisan-ginko-tokyo]
+  to: [yasuda]
+  note: 第三銀行の営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+
+- date: "2002"
+  type: rename
+  from: [daiwagin-trust]
+  to: [resona-trust]
+  note: 改称月は出典に記載なし
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3"]
+
+- date: "2009-04"
+  type: absorption
+  from: [resona-trust]
+  to: [resona]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3"]
+
+- date: "2002-10"
+  type: absorption
+  from: [asahi-shintaku-ginko]
+  to: [daiwa]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3"]
+
+- date: "1942-08"
+  type: transfer
+  from: [miharu-ginko, inawashiro-ginko, iwase-kogyo-ginko]
+  to: [toho]
+  note: 3行の営業を譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- date: "1943-02"
+  type: absorption
+  from: [yabuki-ginko, tamura-jitsugyo-ginko, bando-ginko]
+  to: [toho]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- date: "1944-11"
+  type: absorption
+  from: [fukushima-chochiku]
+  to: [toho]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- date: "1932-12"
+  type: transfer
+  from: [haramachi-ginko]
+  to: [shichijushichi]
+  note: 原町銀行を買収
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAM0"]
+
+- date: "1941-09"
+  type: absorption
+  from: [miyagi-ginko]
+  to: [shichijushichi]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAM0"]
+
+- date: "1942-02"
+  type: transfer
+  from: [sennan-ginko]
+  to: [shichijushichi]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAM0"]
+
+- date: "1945-05"
+  type: transfer
+  from: [tohoku-chochiku]
+  to: [shichijushichi]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAM0"]
+
+- date: "1941-08-16"
+  type: absorption
+  from: [rikuchu-ginko]
+  to: [iwate-shokusan]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD6A"]
+
+- date: "1943-08-02"
+  type: absorption
+  from: [iwate-chochiku]
+  to: [iwate-shokusan]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD6A"]
+
+- date: "1943-03-01"
+  type: absorption
+  from: [yamagata-shogyo]
+  to: [ryou-u]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M"]
+
+- date: "1944-03-31"
+  type: absorption
+  from: [yamagata-chochiku]
+  to: [ryou-u]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE2M"]
+
+- date: "1944-03-31"
+  type: absorption
+  from: [chiba-chochiku]
+  to: [chiba]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDSE"]
+
+- date: "1944-06-01"
+  type: transfer
+  from: [noda-shoyu-ginko]
+  to: [chiba]
+  note: 営業を継承
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDSE"]
+
+- date: "1943-03"
+  type: transfer
+  from: [kamiina-ginko, saku-ginko, shinshu-ginko]
+  to: [hachijuni]
+  note: 3行よりそれぞれ営業譲受
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+
+- date: "1943-09"
+  type: transfer
+  from: [nagano-chochiku]
+  to: [hachijuni]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+
+- date: "1943-11"
+  type: transfer
+  from: [ueda-shokusan-ginko]
+  to: [hachijuni]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+
+- date: "1943-12"
+  type: absorption
+  from: [iida-ginko]
+  to: [hachijuni]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+
+- date: "1923-07-31"
+  type: absorption
+  from: [shizuoka-jitsugyo]
+  to: [suruga-old]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCW1"]
+
+- date: "1927-03-01"
+  type: absorption
+  from: [matsuda-ginko]
+  to: [suruga-old]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCW1"]
+
+- date: "1928-04-01"
+  type: absorption
+  from: [fuji-ginko-shizuoka]
+  to: [suruga-old]
+  note: 富士銀行（旧片浜銀行）を合併
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCW1"]
+
+- date: "1943-12-01"
+  type: absorption
+  from: [suruga-chochiku]
+  to: [suruga-old]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCW1"]
+
+- date: "1939-11"
+  type: absorption
+  from: [fukushima-mujin]
+  to: [yumoto-shinyo-mujin]
+  note: 吸収合併と同時に福島無尽金庫に改称
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCO6"]
+
+# ---------------------------------------------------------------- 旧銀行（中国・四国・九州・沖縄の系統、なみはや銀行の前身）
+- date: "1927-07-25"
+  type: absorption
+  from: [yatsuka]
+  to: [matsue]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- date: "1931-07-20"
+  type: absorption
+  from: [unyo-jitsugyo]
+  to: [matsue]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- date: "1941-10-01"
+  type: absorption
+  from: [sekishu]
+  to: [sanin-godo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- date: "1941-10-01"
+  type: absorption
+  from: [yagami]
+  to: [sanin-godo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- date: "1945-03-01"
+  type: transfer
+  from: [sanin-chochiku]
+  to: [sanin-godo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
+- date: "1931-03"
+  type: transfer
+  from: [kogetsu]
+  to: [chugoku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VZS6"]
+
+- date: "1932-12"
+  type: transfer
+  from: [mimasaka-katsuyama]
+  to: [chugoku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VZS6"]
+
+- date: "1940-05"
+  type: transfer
+  from: [chubi]
+  to: [chugoku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VZS6"]
+
+- date: "1944-02"
+  type: absorption
+  from: [okayama-godo-chochiku]
+  to: [chugoku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100VZS6"]
+
+- date: "1934-04"
+  type: absorption
+  from: [futatsugi]
+  to: [awa-shogyo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
+
+- date: "1943-08"
+  type: absorption
+  from: [awa-chochiku]
+  to: [awa-shogyo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
+
+- date: "1944-12"
+  type: absorption
+  from: [iyo-sogo-chochiku]
+  to: [iyo-godo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OLYJ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBIB"]
+
+- date: "1923-11-01"
+  type: absorption
+  from: [tosa]
+  to: [kochi-old]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD3N"]
+
+- date: "1938-05-05"
+  type: absorption
+  from: [hamasaka]
+  to: [kasumi]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YI1V"]
+
+- date: "1933-12"
+  type: absorption
+  from: [nobeoka]
+  to: [hyuga-kogyo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGVF"]
+
+- date: "1943-08"
+  type: absorption
+  from: [hyuga-chochiku]
+  to: [hyuga-kogyo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGVF"]
+
+- date: "1998-10-01"
+  type: merger
+  from: [fukutoku, naniwa]
+  to: [namihaya]
+  note: 特定合併（経営が行き詰まった金融機関の救済策）
+  sources: [https://ja.wikipedia.org/wiki/なみはや銀行]
 

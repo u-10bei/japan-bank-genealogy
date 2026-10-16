@@ -540,7 +540,7 @@ function init(data) {
   const detail = document.getElementById("detail");
   const placeholder = detail.innerHTML;
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const linkTo = id => `<span class="bank-link" data-id="${esc(id)}">${esc(banks.get(id).name)}</span>`;
+  const linkTo = id => `<span class="bank-link" data-id="${esc(id)}">${esc(labelOf(banks.get(id)))}</span>`;
   function renderDetail(id) {
     if (!id) { detail.innerHTML = placeholder; detail.classList.remove("open"); return; }
     const b = banks.get(id);
