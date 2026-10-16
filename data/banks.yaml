@@ -4529,14 +4529,73 @@
   prefecture: 宮崎県
   sources: [https://ja.wikipedia.org/wiki/宮崎銀行]
 
+- id: dai147-kokuritsu
+  name: 第百四十七国立銀行
+  type: other
+  founded: "1879-08-30"
+  dissolved: "1897-01-01"
+  prefecture: 鹿児島県
+  note: 1879年8月30日開業免状下付・設立、10月6日開業。1897年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第百四十七銀行に改称（1896年9月8日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/01DznCC9ehWZWvsn8RBsEN91YNd/description.html", https://ja.wikipedia.org/wiki/鹿児島銀行]
+
+- id: dai147-1897
+  name: 第百四十七銀行
+  type: other
+  founded: "1897-01-01"
+  dissolved: "1928"
+  prefecture: 鹿児島県
+  note: 1897年1月1日第百四十七国立銀行が改称。1928年鹿児島商業銀行と新立合併し、新たな第百四十七銀行となる（銀行総覧は8月31日設立、鹿児島銀行百年史は9月1日新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LfPeAT1AH5tOTzw3gp0Gimyvthe/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/01DznCC9ehWZWvsn8RBsEN91YNd/description.html"]
+
+- id: kagoshima-shogyo
+  name: 鹿児島商業銀行
+  type: other
+  dissolved: "1928"
+  prefecture: 鹿児島県
+  note: 1928年第百四十七銀行と新立合併し、新たな第百四十七銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LfPeAT1AH5tOTzw3gp0Gimyvthe/description.html"]
+
+- id: satsuma-bank
+  name: 薩摩銀行
+  type: other
+  founded: "1925"
+  dissolved: "1930-02-20"
+  prefecture: 鹿児島県
+  note: 1930年2月20日第百四十七銀行が営業を譲受（買収）。銀行変遷史DBは1925〜1930年の薩摩銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html"]
+
+- id: kaieda-bank
+  name: 海江田銀行
+  type: other
+  dissolved: "1932-02-27"
+  prefecture: 鹿児島県
+  note: 1932年2月27日第百四十七銀行が営業を譲受（買収）（2月18日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html"]
+
+- id: seisatsu-shokusan
+  name: 西薩殖産銀行
+  type: other
+  dissolved: "1933-01-04"
+  prefecture: 鹿児島県
+  note: 業務を廃止し、1933年1月4日第百四十七銀行が営業地盤を継承（消滅日は継承日）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html"]
+
+- id: kagoshima-shoko
+  name: 鹿児島商弘銀行
+  type: other
+  dissolved: "1936-04-01"
+  prefecture: 鹿児島県
+  note: 1936年4月1日第百四十七銀行が営業を譲受（買収）（3月7日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html"]
+
 - id: dai147
   name: 第百四十七銀行
   type: other
-  founded: "1879-10"
+  founded: "1928"
   dissolved: "1944-02-01"
   prefecture: 鹿児島県
-  note: 第百四十七国立銀行として設立。1928年鹿児島商業銀行と合併
-  sources: [https://ja.wikipedia.org/wiki/鹿児島銀行]
+  note: 鹿児島商業銀行と第百四十七銀行の新立合併で設立（銀行総覧は1928年8月31日設立、鹿児島銀行百年史は9月1日新立合併とする）。1930〜1936年に薩摩・海江田・鹿児島商弘の各行を買収し、西薩殖産銀行の営業地盤を継承。1944年2月1日鹿児島銀行・鹿児島貯蓄銀行と新立合併し鹿児島興業銀行となる（1月31日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html", https://ja.wikipedia.org/wiki/鹿児島銀行]
 
 - id: kagoshima-old
   name: 鹿児島銀行

@@ -1359,7 +1359,8 @@
   type: merger
   from: [dai147, kagoshima-old, kagoshima-chochiku]
   to: [kagoshima-kogyo]
-  sources: [https://ja.wikipedia.org/wiki/鹿児島銀行]
+  note: 3行の新立合併（1944年1月29日合併認可、1月31日創立総会、2月1日新立合併・開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html", https://ja.wikipedia.org/wiki/鹿児島銀行]
 
 - date: "1952-12"
   type: rename
@@ -4904,3 +4905,45 @@
   to: [konoike-kojin]
   note: 新設の個人経営の鴻池銀行が業務を継承（銀行総覧は2月1日設立、三和銀行史は3月1日設立・営業継承とする）。第十三国立銀行は5月14日満期解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jM54B0uJg8QaFpIb_PjHdgusPXb/description.html"]
+
+- date: "1897-01-01"
+  type: rename
+  from: [dai147-kokuritsu]
+  to: [dai147-1897]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/01DznCC9ehWZWvsn8RBsEN91YNd/description.html"]
+
+- date: "1928"
+  type: merger
+  from: [dai147-1897, kagoshima-shogyo]
+  to: [dai147]
+  note: 新立合併（銀行総覧は8月31日設立、鹿児島銀行百年史は9月1日新立合併とする。7月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html"]
+
+- date: "1930-02-20"
+  type: transfer
+  from: [satsuma-bank]
+  to: [dai147]
+  note: 第百四十七銀行が営業を譲受（買収）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html"]
+
+- date: "1932-02-27"
+  type: transfer
+  from: [kaieda-bank]
+  to: [dai147]
+  note: 第百四十七銀行が営業を譲受（買収）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html"]
+
+- date: "1933-01-04"
+  type: transfer
+  from: [seisatsu-shokusan]
+  to: [dai147]
+  note: 業務を廃止した西薩殖産銀行の営業地盤を第百四十七銀行が継承
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html"]
+
+- date: "1936-04-01"
+  type: transfer
+  from: [kagoshima-shoko]
+  to: [dai147]
+  note: 第百四十七銀行が営業を譲受（買収）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qRNN6QRNmrTJ0sr4B5wlOLK3vag/description.html"]
