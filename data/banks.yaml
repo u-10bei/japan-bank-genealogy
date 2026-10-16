@@ -1752,14 +1752,23 @@
   prefecture: 長野県
   sources: [https://ja.wikipedia.org/wiki/第十九銀行, https://ja.wikipedia.org/wiki/八十二長野銀行]
 
+- id: inariyama-ginko
+  name: 稲荷山銀行
+  type: other
+  founded: "1881-01"
+  dissolved: "1893-12-01"
+  prefecture: 長野県
+  note: 1881年1月創立許可、3月13日開業。1893年12月1日第六十三国立銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8m_VsH-zkL7bY-Zl6MAf2KL9pQ/description.html"]
+
 - id: dai63-kokuritsu
   name: 第六十三国立銀行
   type: other
   founded: "1878-10-28"
   dissolved: "1897-07-01"
   prefecture: 長野県
-  note: 1893年に稲荷山銀行と合併
-  sources: [https://ja.wikipedia.org/wiki/八十二長野銀行, https://ja.wikipedia.org/wiki/六十三銀行]
+  note: 1893年12月1日稲荷山銀行を合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8m_VsH-zkL7bY-Zl6MAf2KL9pQ/description.html", https://ja.wikipedia.org/wiki/八十二長野銀行, https://ja.wikipedia.org/wiki/六十三銀行]
 
 - id: rokujusan
   name: 六十三銀行

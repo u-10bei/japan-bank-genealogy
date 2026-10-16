@@ -4064,3 +4064,9 @@
   to: [joban]
   note: 常陽銀行二十年史は1914年11月3日合併引継完了とする
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RSYi9_oLqlJ4FT0Tlv3gMHfQR7k/description.html"]
+
+- date: "1893-12-01"
+  type: absorption
+  from: [inariyama-ginko]
+  to: [dai63-kokuritsu]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8m_VsH-zkL7bY-Zl6MAf2KL9pQ/description.html"]
