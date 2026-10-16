@@ -6221,19 +6221,27 @@
   note: 1933年4月24日設立登記・開業。1943年3月15日肥後無尽に合併（3月1日合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/K990E4w-QFio24NVah1GDenOG7k/description.html"]
 
+- id: aso-mujin
+  name: 阿蘇無尽
+  type: other
+  dissolved: "1943-02-01"
+  prefecture: 熊本県
+  note: 1943年2月1日肥後無尽に営業譲渡（消滅日は営業譲渡日）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LlMtfelfl0m-n0BF666aibkXcSk/description.html"]
+
 - id: higo-mujin
   name: 肥後無尽
   type: other
-  founded: "1933-03"
-  dissolved: "1951-10"
+  founded: "1933-01-15"
+  dissolved: "1951-10-20"
   prefecture: 熊本県
-  note: 1943年阿蘇無尽の営業を譲受、城南無尽を合併
-  sources: [https://ja.wikipedia.org/wiki/熊本銀行]
+  note: 設立日は創立総会の日（1933年3月9日無尽営業免許、3月17日設立登記・開業。Wikipediaの1933年3月は登記・開業の月）。1943年2月1日阿蘇無尽の営業を譲受、3月15日城南無尽を合併。1951年10月20日肥後相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LlMtfelfl0m-n0BF666aibkXcSk/description.html", https://ja.wikipedia.org/wiki/熊本銀行]
 
 - id: higo-sogo
   name: 肥後相互銀行
   type: other
-  founded: "1951-10"
+  founded: "1951-10-20"
   dissolved: "1989-02"
   prefecture: 熊本県
   sources: [https://ja.wikipedia.org/wiki/熊本銀行]

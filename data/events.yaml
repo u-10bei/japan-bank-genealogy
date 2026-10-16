@@ -2353,12 +2353,12 @@
   note: 相互銀行に転換
   sources: [https://ja.wikipedia.org/wiki/熊本銀行]
 
-- date: "1951-10"
+- date: "1951-10-20"
   type: rename
   from: [higo-mujin]
   to: [higo-sogo]
   note: 相互銀行に転換
-  sources: [https://ja.wikipedia.org/wiki/熊本銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LlMtfelfl0m-n0BF666aibkXcSk/description.html", https://ja.wikipedia.org/wiki/熊本銀行]
 
 - date: "1989-02"
   type: rename
@@ -4520,3 +4520,10 @@
   to: [higo-mujin]
   note: 肥後無尽が合併（3月1日合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/K990E4w-QFio24NVah1GDenOG7k/description.html"]
+
+- date: "1943-02-01"
+  type: transfer
+  from: [aso-mujin]
+  to: [higo-mujin]
+  note: 肥後無尽が営業を譲受（買収）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LlMtfelfl0m-n0BF666aibkXcSk/description.html"]
