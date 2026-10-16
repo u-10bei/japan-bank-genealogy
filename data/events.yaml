@@ -4372,3 +4372,31 @@
   to: [kouki-sogo]
   note: 相互銀行に転換
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/SSwwpoEQxm7CoT-L-YeDf9289zf/description.html", https://ja.wikipedia.org/wiki/阪和銀行]
+
+- date: "1927-12-01"
+  type: transfer
+  from: [kumano-mujin-goshi]
+  to: [mie-mujin]
+  note: 三重無尽が熊野無尽合資会社の業務を引き継ぎ開業
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html"]
+
+- date: "1940-03-03"
+  type: absorption
+  from: [mie-kangyo-mujin]
+  to: [mie-mujin]
+  note: 三重無尽が合併（2月2日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html"]
+
+- date: "1944-03-27"
+  type: absorption
+  from: [kyoyu-mujin]
+  to: [mie-mujin]
+  note: 三重無尽が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [mie-mujin]
+  to: [daisan-sogo]
+  note: 相互銀行に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html"]
