@@ -13,16 +13,30 @@
 # sources: 出典URLのリスト（任意だが推奨）
 
 # ---------------------------------------------------------------- 三菱UFJ系
+- date: "1948-10"
+  type: rename
+  from: [mitsubishi-1919]
+  to: [chiyoda]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
+- date: "1953-07"
+  type: rename
+  from: [chiyoda]
+  to: [mitsubishi]
+  note: 旧商号に復帰
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+
 - date: "1933-12-09"
   type: merger
   from: [thirty-fourth, yamaguchi-osaka, konoike]
   to: [sanwa]
 
 - date: "1946-12"
-  type: reorganization
+  type: transfer
   from: [yokohama-specie]
   to: [tokyo]
-  note: 横浜正金銀行の事業を承継して東京銀行を設立
+  note: 横浜正金銀行から営業譲渡を受けて東京銀行を設立、翌年1月4日営業開始
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
 
 - date: "1996-04-01"
   type: merger
@@ -45,6 +59,72 @@
   to: [mufg-bank]
 
 # ---------------------------------------------------------------- 三井住友系
+- date: "1943-04"
+  type: merger
+  from: [mitsui-1876, dai-ichi-1896]
+  to: [teikoku]
+  note: 三井銀行と第一銀行が合併し帝国銀行となる
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1944-08"
+  type: absorption
+  from: [jugo]
+  to: [teikoku]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1948-10"
+  type: reorganization
+  from: [teikoku]
+  to: [teikoku, dai-ichi]
+  note: 帝国銀行が第一銀行を分離
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1954-01"
+  type: rename
+  from: [teikoku]
+  to: [mitsui]
+  note: 行名復帰
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1948-10"
+  type: rename
+  from: [sumitomo-1895]
+  to: [osaka-1948]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1952-12"
+  type: rename
+  from: [osaka-1948]
+  to: [sumitomo]
+  note: 行名復帰
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1948-04"
+  type: rename
+  from: [dainippon-mujin]
+  to: [nippon-mujin]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1951-10"
+  type: rename
+  from: [nippon-mujin]
+  to: [nippon-sogo]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1968-12"
+  type: rename
+  from: [nippon-sogo]
+  to: [taiyo]
+  note: 普通銀行に転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "2003-03"
+  type: absorption
+  from: [wakashio]
+  to: [smbc]
+  note: 法的にはわかしお銀行が存続会社となり、商号を三井住友銀行に変更（逆さ合併）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
 - date: "1973-10-01"
   type: merger
   from: [taiyo, kobe]
@@ -69,7 +149,7 @@
 - date: "1896"
   type: rename
   from: [dai-ichi-national]
-  to: [dai-ichi]
+  to: [dai-ichi-1896]
   note: 国立銀行の営業満期に伴い普通銀行に転換
 
 - date: "1948-10"
@@ -131,6 +211,12 @@
   note: 大和銀行とあさひ銀行が合併してりそな銀行に。あさひ銀行の埼玉県内営業は埼玉りそな銀行へ分割
 
 # ---------------------------------------------------------------- 破綻・国有化
+- date: "1977-10"
+  type: rename
+  from: [fudosan]
+  to: [ncb]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO"]
+
 - date: "1997-11-17"
   type: failure
   from: [takugin]

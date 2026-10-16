@@ -102,14 +102,27 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
         if len(errors) > n_errors:
             continue
         d = date_key(str(e["date"]))
-        for bid in src:
-            b = ids[bid]
-            if b.get("founded") and date_key(str(b["founded"])) > d:
-                warnings.append(f"{where}: '{bid}' の設立日より前のイベントです")
         for bid in dst:
             b = ids[bid]
             if e["type"] in ("merger", "rename", "reorganization") and str(b.get("founded")) != str(e["date"]) and bid not in src:
                 warnings.append(f"{where}: '{bid}' の founded ({b['founded']}) がイベント日と一致しません")
+
+    # イベントが関係する銀行の存続期間外に置かれていないか（精度の低い方に合わせて比較）
+    def before(a: str, b: str) -> bool:
+        n = min(len(a), len(b))
+        return a[:n] < b[:n]
+    for i, e in enumerate(events):
+        if not isinstance(e, dict) or not e.get("date"):
+            continue
+        d = str(e["date"])
+        for bid in [*(e.get("from") or []), *(e.get("to") or [])]:
+            bk = ids.get(bid)
+            if not bk:
+                continue
+            if bk.get("founded") and before(d, str(bk["founded"])):
+                warnings.append(f"events.yaml[{i}] ({d}): '{bid}' の設立 ({bk['founded']}) より前です")
+            if bk.get("dissolved") and before(str(bk["dissolved"]), d):
+                warnings.append(f"events.yaml[{i}] ({d}): '{bid}' の消滅 ({bk['dissolved']}) より後です")
 
     for bid in ids:
         if bid not in referenced and ids[bid].get("dissolved"):
