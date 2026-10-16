@@ -80,14 +80,101 @@
   prefecture: 大阪府
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行]
 
+- id: dai34-kokuritsu
+  name: 第三十四国立銀行
+  type: other
+  founded: "1878-03-14"
+  dissolved: "1897-09-01"
+  prefecture: 大阪府
+  note: 1878年3月14日開業免状下付・設立、4月13日開業。1897年9月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し三十四銀行に改称（5月26日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7bljpVLzEZJts8QJMykYgxvcGon/description.html", https://ja.wikipedia.org/wiki/三十四銀行]
+
+- id: hyakunijuichi
+  name: 百二十一銀行
+  type: other
+  dissolved: "1897-12-01"
+  note: 1897年12月1日三十四銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- id: nihon-kyodo
+  name: 日本共同銀行
+  type: other
+  dissolved: "1899-04-01"
+  note: 1899年4月1日三十四銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- id: nihon-churitsu
+  name: 日本中立銀行
+  type: other
+  dissolved: "1899-04-01"
+  note: 1899年4月1日三十四銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- id: arina-bank
+  name: 有魚銀行
+  type: other
+  dissolved: "1901-12-27"
+  note: 1901年12月27日三十四銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- id: amagasaki-bank
+  name: 尼崎銀行
+  type: other
+  dissolved: "1917"
+  note: 1917年三十四銀行に合併（銀行総覧は10月27日合併・11月9日合併登記、三和銀行史は11月1日合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- id: onishi-bank
+  name: 大西銀行
+  type: other
+  founded: "1881"
+  dissolved: "1923-09-17"
+  note: 1923年9月17日三十四銀行が買収。銀行変遷史DBは1881〜1923年の大西銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- id: katsuragi-bank
+  name: 葛城銀行
+  type: other
+  dissolved: "1923-12"
+  note: 1923年12月三十四銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- id: setsuyo-bank
+  name: 摂陽銀行
+  type: other
+  dissolved: "1926-06-24"
+  note: 1926年6月24日三十四銀行に合併（5月14日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- id: sairoku-bank
+  name: 西六銀行
+  type: other
+  dissolved: "1927-02-18"
+  note: 1927年2月18日三十四銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- id: bisan-shogyo
+  name: 尾三商業銀行
+  type: other
+  dissolved: "1928-05-14"
+  note: 1928年5月14日三十四銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- id: sanju-bank
+  name: 三十銀行
+  type: other
+  dissolved: "1929-08-19"
+  note: 1929年8月19日三十四銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
 - id: thirty-fourth
   name: 三十四銀行
   type: other
-  founded: "1878"
+  founded: "1897-09-01"
   dissolved: "1933-12-09"
   prefecture: 大阪府
-  note: 第三十四国立銀行として開業（1878年4月13日、三和銀行記事では1878年3月）、1897年9月普通銀行に転換
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三十四銀行]
+  note: 1897年9月1日第三十四国立銀行が改称。1897〜1929年に百二十一・日本共同・日本中立・有魚・尼崎・摂陽の各行を合併し、大西・葛城・西六・尾三商業・三十の各行を買収。1930年8月25日四十三銀行の営業の一部を譲受（6行による分割買収。三十四銀行の項は6行の1つを「六十三銀行」とするが、四十三銀行の項・南都銀行五十年史では六十八銀行）。1933年12月9日鴻池銀行・山口銀行と新立合併し三和銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三十四銀行]
 
 - id: dai31-kokuritsu
   name: 第三十一国立銀行

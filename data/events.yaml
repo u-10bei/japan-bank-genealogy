@@ -5428,3 +5428,80 @@
   to: [dai52]
   note: 五十二銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RRcUHS9YFOR9AjqDCnGd5fHOx5f/description.html"]
+
+- date: "1897-09-01"
+  type: rename
+  from: [dai34-kokuritsu]
+  to: [thirty-fourth]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7bljpVLzEZJts8QJMykYgxvcGon/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1897-12-01"
+  type: absorption
+  from: [hyakunijuichi]
+  to: [thirty-fourth]
+  note: 三十四銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1899-04-01"
+  type: absorption
+  from: [nihon-kyodo, nihon-churitsu]
+  to: [thirty-fourth]
+  note: 三十四銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1901-12-27"
+  type: absorption
+  from: [arina-bank]
+  to: [thirty-fourth]
+  note: 三十四銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1917"
+  type: absorption
+  from: [amagasaki-bank]
+  to: [thirty-fourth]
+  note: 三十四銀行が合併（銀行総覧は10月27日、三和銀行史は11月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1923-09-17"
+  type: transfer
+  from: [onishi-bank]
+  to: [thirty-fourth]
+  note: 三十四銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1923-12"
+  type: transfer
+  from: [katsuragi-bank]
+  to: [thirty-fourth]
+  note: 三十四銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1926-06-24"
+  type: absorption
+  from: [setsuyo-bank]
+  to: [thirty-fourth]
+  note: 三十四銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1927-02-18"
+  type: transfer
+  from: [sairoku-bank]
+  to: [thirty-fourth]
+  note: 三十四銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1928-05-14"
+  type: transfer
+  from: [bisan-shogyo]
+  to: [thirty-fourth]
+  note: 三十四銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+
+- date: "1929-08-19"
+  type: transfer
+  from: [sanju-bank]
+  to: [thirty-fourth]
+  note: 三十四銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
