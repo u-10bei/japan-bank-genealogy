@@ -5428,8 +5428,8 @@
   type: new
   founded: "2009-01-08"
   prefecture: 東京都
-  note: 新韓銀行の完全子会社SBJ金融準備として設立、2009年5月7日商号変更。2009年9月14日新韓銀行日本支店（大阪・東京・福岡）の事業を譲り受け開業
-  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/SBJ銀行]
+  note: 新韓銀行の在日支店の営業を譲り受けるため、同行の100%子会社SBJ金融準備として設立。2009年4月28日予備審査終了、5月7日SBJ銀行に商号変更、7月27日銀行業免許。9月14日新韓銀行の在日3支店（大阪・東京・福岡）の事業を譲り受け開業
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MLUCRCK82LID6Iigib2Zakr3Uwd/description.html", https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/SBJ銀行]
 
 - id: jibun-bank
   name: じぶん銀行
