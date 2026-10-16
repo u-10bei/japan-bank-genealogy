@@ -4225,3 +4225,73 @@
   to: [kagoshima-mujin-goshi]
   note: 鹿児島無尽合資会社に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/D_m4I3LklpivRxHld_UB6EgZdkp/description.html"]
+
+- date: "1942-11"
+  type: merger
+  from: [osaka-chuo-mujin, osaka-fudo-mujin, katano-mujin-kinyu, kansai-shoko-mujin, kongo-mujin]
+  to: [kinki-mujin]
+  note: 5社の新立合併（銀行総覧は11月19日設立、近畿銀行五十年史は11月17日新立合併（創立総会）とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- date: "1943-10-07"
+  type: absorption
+  from: [nihon-shokusan-mujin]
+  to: [kinki-mujin]
+  note: 近畿無尽が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- date: "1944-06-30"
+  type: absorption
+  from: [takada-mujin, mikasa-mujin]
+  to: [kinki-mujin]
+  note: 近畿無尽が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- date: "1944-07-19"
+  type: absorption
+  from: [kokka-mujin, nihon-kyoritsu-mujin]
+  to: [kinki-mujin]
+  note: 近畿無尽が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [kinki-mujin]
+  to: [kinki-sogo]
+  note: 相互銀行に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- date: "1951-10-19"
+  type: rename
+  from: [yamashiro-mujin]
+  to: [kansai-sogo]
+  note: 相互銀行に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jVYGGrTHlnCIAAbRgTwcd0eKQfp/description.html"]
+
+- date: "1943-02-15"
+  type: absorption
+  from: [kii-mujin]
+  to: [kofuku-mujin]
+  note: 幸福無尽が合併（2月1日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/f5iIGjyCcFoGuObkqcdp1j8P6Xj/description.html"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [kofuku-mujin]
+  to: [kofuku-sogo]
+  note: 相互銀行に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/f5iIGjyCcFoGuObkqcdp1j8P6Xj/description.html"]
+
+- date: "1942-10-02"
+  type: merger
+  from: [kajitsu-mujin, kogyo-mujin-shiga]
+  to: [shiga-mujin]
+  note: 新立合併（10月1日創立総会、10月2日合併・設立登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pFyISLDvwuwOuAKvAUvYa-UcsFn/description.html"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [shiga-mujin]
+  to: [shiga-sogo]
+  note: 相互銀行に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pFyISLDvwuwOuAKvAUvYa-UcsFn/description.html"]

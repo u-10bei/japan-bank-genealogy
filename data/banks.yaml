@@ -2756,14 +2756,93 @@
   prefecture: 大阪府
   sources: [https://ja.wikipedia.org/wiki/近畿大阪銀行]
 
+- id: osaka-chuo-mujin
+  name: 大阪中央無尽
+  type: other
+  dissolved: "1942-11"
+  note: 1942年11月、5社の新立合併で近畿無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- id: osaka-fudo-mujin
+  name: 大阪不動無尽
+  type: other
+  dissolved: "1942-11"
+  note: 1942年11月、5社の新立合併で近畿無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- id: katano-mujin-kinyu
+  name: 交野無尽金融
+  type: other
+  dissolved: "1942-11"
+  note: 1942年11月、5社の新立合併で近畿無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- id: kansai-shoko-mujin
+  name: 関西商工無尽
+  type: other
+  dissolved: "1942-11"
+  note: 1942年11月、5社の新立合併で近畿無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- id: kongo-mujin
+  name: 金剛無尽
+  type: other
+  dissolved: "1942-11"
+  note: 1942年11月、5社の新立合併で近畿無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- id: nihon-shokusan-mujin
+  name: 日本殖産無尽
+  type: other
+  dissolved: "1943-10-07"
+  note: 1943年10月7日近畿無尽に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- id: takada-mujin
+  name: 高田無尽
+  type: other
+  dissolved: "1944-06-30"
+  note: 1944年6月30日近畿無尽に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- id: mikasa-mujin
+  name: 三笠無尽
+  type: other
+  dissolved: "1944-06-30"
+  note: 1944年6月30日近畿無尽に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- id: kokka-mujin
+  name: 国華無尽
+  type: other
+  dissolved: "1944-07-19"
+  note: 1944年7月19日近畿無尽に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- id: nihon-kyoritsu-mujin
+  name: 日本共立無尽
+  type: other
+  dissolved: "1944-07-19"
+  note: 1944年7月19日近畿無尽に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
+- id: kinki-mujin
+  name: 近畿無尽
+  type: other
+  founded: "1942-11"
+  dissolved: "1951-10-20"
+  prefecture: 大阪府
+  note: 大阪中央無尽・大阪不動無尽・交野無尽金融・関西商工無尽・金剛無尽の5社の新立合併で設立（銀行総覧は1942年11月19日設立、近畿銀行五十年史は11月17日新立合併（創立総会）とする）。1951年10月20日近畿相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html"]
+
 - id: kinki-sogo
   name: 近畿相互銀行
   type: other
-  founded: "1942"
+  founded: "1951-10-20"
   dissolved: "1989-02"
   prefecture: 大阪府
-  note: 大阪の無尽会社5社の合併で近畿無尽として設立、1951年相互銀行に改組
-  sources: [https://ja.wikipedia.org/wiki/近畿大阪銀行]
+  note: 1951年10月20日、相互銀行への転換で近畿無尽が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u258v8GtHhvM-KzndHsN4OdCk5j/description.html", https://ja.wikipedia.org/wiki/近畿大阪銀行]
 
 - id: kinki-bank
   name: 近畿銀行
@@ -2792,14 +2871,23 @@
   note: 旧福徳銀行と旧なにわ銀行（ともに旧相互銀行）の合併で新設。2006年清算結了
   sources: [https://ja.wikipedia.org/wiki/なみはや銀行]
 
+- id: yamashiro-mujin
+  name: 山城無尽
+  type: other
+  founded: "1922-07"
+  dissolved: "1951-10-19"
+  prefecture: 京都府
+  note: 京都府相楽郡で設立（銀行総覧・Wikipediaは1922年7月1日、関西銀行の有価証券報告書は7月28日設立とする）。1951年10月19日関西相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jVYGGrTHlnCIAAbRgTwcd0eKQfp/description.html"]
+
 - id: kansai-sogo
   name: 関西相互銀行
   type: other
-  founded: "1922-07-01"
+  founded: "1951-10-19"
   dissolved: "1989-02-01"
   prefecture: 大阪府
-  note: 京都府相楽郡で山城無尽として設立、1951年10月19日関西相互銀行に改称
-  sources: [https://ja.wikipedia.org/wiki/関西アーバン銀行]
+  note: 1951年10月19日、相互銀行への転換で山城無尽が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jVYGGrTHlnCIAAbRgTwcd0eKQfp/description.html", https://ja.wikipedia.org/wiki/関西アーバン銀行]
 
 - id: kansai-bank
   name: 関西銀行
@@ -2809,14 +2897,30 @@
   prefecture: 大阪府
   sources: [https://ja.wikipedia.org/wiki/関西アーバン銀行]
 
+- id: kii-mujin
+  name: 紀伊無尽
+  type: other
+  dissolved: "1943-02-15"
+  note: 1943年2月15日幸福無尽に合併（2月1日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/f5iIGjyCcFoGuObkqcdp1j8P6Xj/description.html"]
+
+- id: kofuku-mujin
+  name: 幸福無尽
+  type: other
+  founded: "1926"
+  dissolved: "1951-10-20"
+  prefecture: 和歌山県
+  note: 和歌山市で設立（幸福相互銀行五十年史は1926年7月2日創立総会、8月9日無尽営業免許、8月28日設立登記。銀行総覧は8月9日設立とする）。1951年1月25日大阪へ本店移転。1951年10月20日幸福相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/f5iIGjyCcFoGuObkqcdp1j8P6Xj/description.html"]
+
 - id: kofuku-sogo
   name: 幸福相互銀行
   type: other
-  founded: "1926"
+  founded: "1951-10-20"
   dissolved: "1989"
   prefecture: 大阪府
-  note: 和歌山市で幸福無尽として発足、1951年大阪へ移転し幸福相互銀行に
-  sources: [https://ja.wikipedia.org/wiki/幸福銀行]
+  note: 1951年10月20日、相互銀行への転換で幸福無尽が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/f5iIGjyCcFoGuObkqcdp1j8P6Xj/description.html", https://ja.wikipedia.org/wiki/幸福銀行]
 
 - id: kofuku
   name: 幸福銀行
@@ -2844,14 +2948,38 @@
   prefecture: 大阪府
   sources: [https://ja.wikipedia.org/wiki/関西アーバン銀行]
 
+- id: kajitsu-mujin
+  name: 華実無尽
+  type: other
+  dissolved: "1942-10-02"
+  note: 1942年10月2日興業無尽と新立合併し滋賀無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pFyISLDvwuwOuAKvAUvYa-UcsFn/description.html"]
+
+- id: kogyo-mujin-shiga
+  name: 興業無尽
+  type: other
+  founded: "1925"
+  dissolved: "1942-10-02"
+  note: 銀行変遷史DBは1925〜1942年の興業無尽とする（設立日は未確認）。1942年10月2日華実無尽と新立合併し滋賀無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pFyISLDvwuwOuAKvAUvYa-UcsFn/description.html"]
+
+- id: shiga-mujin
+  name: 滋賀無尽
+  type: other
+  founded: "1942-10-02"
+  dissolved: "1951-10-20"
+  prefecture: 滋賀県
+  note: 近江八幡市で華実無尽・興業無尽の新立合併により設立（1942年10月1日創立総会、10月2日合併・設立登記）。1951年10月20日滋賀相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pFyISLDvwuwOuAKvAUvYa-UcsFn/description.html"]
+
 - id: shiga-sogo
   name: 滋賀相互銀行
   type: other
-  founded: "1942-10-02"
+  founded: "1951-10-20"
   dissolved: "1989-02"
   prefecture: 滋賀県
-  note: 滋賀無尽として近江八幡市で設立、1951年10月相互銀行に転換
-  sources: [https://ja.wikipedia.org/wiki/びわこ銀行]
+  note: 1951年10月20日、相互銀行への転換で滋賀無尽が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pFyISLDvwuwOuAKvAUvYa-UcsFn/description.html", https://ja.wikipedia.org/wiki/びわこ銀行]
 
 - id: biwako
   name: びわこ銀行
