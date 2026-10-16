@@ -4385,12 +4385,20 @@
   note: 宮城県で設立（銀行総覧は1938年10月31日、徳陽相互銀行三十年史は1938年10月とする）。表記は資料により揺れがある（銀行総覧は「大洋無尽」、銀行変遷史DBの東北無尽の項は「太平洋無尽」、Wikipediaは「太陽無尽」）。静岡県の太洋無尽（1948年）とは別。1942年4月1日、東北無尽・宮城無尽と新立合併し三徳無尽となる
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/36QNIy9m1nAjYvM41AZzCa3cHPi/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html", https://ja.wikipedia.org/wiki/徳陽シティ銀行]
 
+- id: miyagi-kyosai-mujin
+  name: 宮城共済無尽
+  type: other
+  dissolved: "1937"
+  note: 宮城共済無尽株式会社。1937年宮城無尽株式会社に改称（徳陽相互銀行三十年史による。月日は不明）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/c1DUudYmaZDZy2wzBiEz5-ETLFn/description.html"]
+
 - id: miyagi-mujin
   name: 宮城無尽
   type: other
+  founded: "1937"
   dissolved: "1942-04-01"
-  note: 1942年4月1日、太洋無尽・東北無尽と新立合併し三徳無尽となる。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html"]
+  note: 1937年宮城共済無尽株式会社が改称（月日は不明）。1942年4月1日、太洋無尽・東北無尽と新立合併し三徳無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/c1DUudYmaZDZy2wzBiEz5-ETLFn/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html"]
 
 - id: santoku-mujin
   name: 三徳無尽

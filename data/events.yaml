@@ -4316,3 +4316,10 @@
   to: [tokuyo-sogo]
   note: 相互銀行に転換
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html"]
+
+- date: "1937"
+  type: rename
+  from: [miyagi-kyosai-mujin]
+  to: [miyagi-mujin]
+  note: 宮城共済無尽株式会社が宮城無尽株式会社に改称（月日は不明）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/c1DUudYmaZDZy2wzBiEz5-ETLFn/description.html"]
