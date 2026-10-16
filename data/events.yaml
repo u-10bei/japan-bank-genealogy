@@ -4295,3 +4295,24 @@
   to: [shiga-sogo]
   note: 相互銀行に転換
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pFyISLDvwuwOuAKvAUvYa-UcsFn/description.html"]
+
+- date: "1915"
+  type: rename
+  from: [tohoku-chokin]
+  to: [tohoku-mujin]
+  note: 東北貯金株式会社が東北無尽株式会社に改称（月日は不明）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-PWbO80wqMfiYuxPcjjD4EMkr_h/description.html"]
+
+- date: "1942-04-01"
+  type: merger
+  from: [taiyo-mujin-miyagi, tohoku-mujin, miyagi-mujin]
+  to: [santoku-mujin]
+  note: 3社の新立合併（1942年3月23日合併認可、3月30日創立総会、4月1日新立合併・登記・開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-PWbO80wqMfiYuxPcjjD4EMkr_h/description.html"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [santoku-mujin]
+  to: [tokuyo-sogo]
+  note: 相互銀行に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html"]

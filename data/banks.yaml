@@ -4361,14 +4361,53 @@
   note: 2012年10月きらやか銀行と共同株式移転でじもとホールディングスを設立（有報）。転換日の月日は未確認
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDEF", https://ja.wikipedia.org/wiki/仙台銀行]
 
+- id: tohoku-chokin
+  name: 東北貯金
+  type: other
+  dissolved: "1915"
+  note: 東北貯金株式会社。1915年東北無尽株式会社に改称（徳陽相互銀行三十年史による。月日は不明）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-PWbO80wqMfiYuxPcjjD4EMkr_h/description.html"]
+
+- id: tohoku-mujin
+  name: 東北無尽
+  type: other
+  founded: "1915"
+  dissolved: "1942-04-01"
+  note: 1915年東北貯金株式会社が改称（月日は不明）。1942年4月1日、太洋無尽・宮城無尽と新立合併し三徳無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-PWbO80wqMfiYuxPcjjD4EMkr_h/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html"]
+
+- id: taiyo-mujin-miyagi
+  name: 太洋無尽
+  type: other
+  founded: "1938"
+  dissolved: "1942-04-01"
+  note: 銀行変遷史DBの三徳無尽の項は「太洋無尽株式会社(昭和13－昭和17)」、東北無尽の項は「太平洋無尽株式会社(昭和13－昭和17)」と表記が分かれ、Wikipediaは「太陽無尽」とする。設立日は未確認。静岡県の太洋無尽（1948年）とは別。1942年4月1日、東北無尽・宮城無尽と新立合併し三徳無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-PWbO80wqMfiYuxPcjjD4EMkr_h/description.html", https://ja.wikipedia.org/wiki/徳陽シティ銀行]
+
+- id: miyagi-mujin
+  name: 宮城無尽
+  type: other
+  dissolved: "1942-04-01"
+  note: 1942年4月1日、太洋無尽・東北無尽と新立合併し三徳無尽となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html"]
+
+- id: santoku-mujin
+  name: 三徳無尽
+  type: other
+  founded: "1942-04-01"
+  dissolved: "1951-10-20"
+  prefecture: 宮城県
+  note: 太洋無尽・東北無尽・宮城無尽の3社の新立合併で設立（1942年3月23日合併認可、3月30日創立総会、4月1日新立合併・登記・開業）。1951年10月20日徳陽相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html"]
+
 - id: tokuyo-sogo
   name: 徳陽相互銀行
   type: other
-  founded: "1942-04-01"
+  founded: "1951-10-20"
   dissolved: "1990-08"
   prefecture: 宮城県
-  note: 1942年宮城無尽・太陽無尽・東北無尽の合併で三徳無尽として発足、1951年10月徳陽相互銀行に改称
-  sources: [https://ja.wikipedia.org/wiki/徳陽シティ銀行]
+  note: 1951年10月20日、相互銀行への転換で三徳無尽が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bh4db8YNl7bXa0VVRqhHo-hZEzb/description.html", https://ja.wikipedia.org/wiki/徳陽シティ銀行]
 
 - id: tokuyo-city
   name: 徳陽シティ銀行
