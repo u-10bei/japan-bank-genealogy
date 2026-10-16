@@ -4400,3 +4400,17 @@
   to: [daisan-sogo]
   note: 相互銀行に転換
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html"]
+
+- date: "1916-05-30"
+  type: rename
+  from: [kumano-kyoyu-goshi]
+  to: [kumano-mujin-goshi]
+  note: 熊野共融合資会社が熊野無尽合資会社に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Ge1tymQxo7EbeZF5P-295rlo9Fg/description.html"]
+
+- date: "1936-06-12"
+  type: transfer
+  from: [mie-kangyo-mujin-goshi]
+  to: [mie-kangyo-mujin]
+  note: 合資会社を株式会社に改組（新設の株式会社が業務を継承）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rLTdO4TmDijumbg9eSZAZ2V1s2p/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_pPcjFHolYu_QCnOKwciktMW7kb/description.html"]

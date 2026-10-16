@@ -2542,28 +2542,50 @@
   note: 2018年4月2日三十三フィナンシャルグループの完全子会社化
   sources: [https://ja.wikipedia.org/wiki/三重銀行]
 
+- id: kumano-kyoyu-goshi
+  name: 熊野共融
+  type: other
+  founded: "1912-10-12"
+  dissolved: "1916-05-30"
+  prefecture: 三重県
+  note: 熊野共融合資会社。1912年10月12日設立（Wikipedia）。1916年5月30日熊野無尽合資会社に改称（第三銀行八十年史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Ge1tymQxo7EbeZF5P-295rlo9Fg/description.html", https://ja.wikipedia.org/wiki/第三銀行]
+
 - id: kumano-mujin-goshi
   name: 熊野無尽
   type: other
-  founded: "1912-10-12"
+  founded: "1916-05-30"
   dissolved: "1927-12-01"
   prefecture: 三重県
-  note: 熊野無尽合資会社。1912年10月12日設立の熊野共融合資会社が起源（Wikipedia。熊野無尽合資会社への改称日は出典に記載なし）。1927年12月1日、三重無尽株式会社が業務を引き継ぐ（第三銀行八十年史による）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html", https://ja.wikipedia.org/wiki/第三銀行]
+  note: 熊野無尽合資会社。1916年5月30日熊野共融合資会社が改称（8月25日無尽営業免許）。1927年12月1日、新設の三重無尽株式会社が業務を継承（消滅日は継承日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Ge1tymQxo7EbeZF5P-295rlo9Fg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html"]
+
+- id: mie-kangyo-mujin-goshi
+  name: 三重勧業無尽
+  type: other
+  founded: "1910-06"
+  dissolved: "1936-06-12"
+  prefecture: 三重県
+  note: 三重勧業無尽合資会社。設立日は資料により異なる（第三銀行八十年史・銀行総覧第30〜32回は1910年6月9日、銀行総覧第25〜29回・第40〜42回は6月20日、第33〜39回は1909年6月9日とする）。1917年3月26日無尽営業免許。1936年6月12日、株式会社に改組（新設の株式会社が業務を継承）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rLTdO4TmDijumbg9eSZAZ2V1s2p/description.html"]
 
 - id: mie-kangyo-mujin
   name: 三重勧業無尽
   type: other
+  founded: "1936-06-12"
   dissolved: "1940-03-03"
-  note: 1940年3月3日三重無尽に合併（2月2日合併認可）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html"]
+  prefecture: 三重県
+  note: 三重勧業無尽株式会社。1936年6月12日設立、三重勧業無尽合資会社の業務を継承。1940年3月3日三重無尽に合併（2月2日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_pPcjFHolYu_QCnOKwciktMW7kb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html"]
 
 - id: kyoyu-mujin
   name: 共融無尽
   type: other
+  founded: "1915-05-16"
   dissolved: "1944-03-27"
-  note: 1944年3月27日三重無尽に合併。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html"]
+  prefecture: 三重県
+  note: 1944年3月27日三重無尽に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xdQTuAfbmsaatwF1vZCzFuYXYs/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Vj-X9Z_BdKvsXGNIo-EHs6RGs6i/description.html"]
 
 - id: mie-mujin
   name: 三重無尽
