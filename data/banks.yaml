@@ -5437,8 +5437,8 @@
   founded: "2006-05-25"
   dissolved: "2020-02-09"
   prefecture: 東京都
-  note: 三菱東京UFJ銀行とKDDIの合弁。準備会社モバイルネットバンク設立調査として設立、2008年6月9日じぶん銀行に商号変更、6月17日免許取得。開業日はauじぶん銀行の記事で2008年6月26日、三菱UFJ銀行の記事で7月17日と食い違う。2019年4月KDDIの保有株式をauフィナンシャルHDに承継
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YKG2", https://ja.wikipedia.org/wiki/auじぶん銀行, https://ja.wikipedia.org/wiki/三菱UFJ銀行]
+  note: KDDIと三菱東京UFJ銀行が新銀行設立の準備会社モバイルネットバンク設立調査として設立。2008年6月9日じぶん銀行に商号変更、6月17日銀行業免許、6月26日営業開始、7月17日顧客向けサービス開始（Wikipedia記事間で6月26日・7月17日の両説があったのはこの違い）。2019年4月1日auフィナンシャルホールディングスの連結子会社
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/akVqqx-_eYZ37ghtpN8Rdiy6itk/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YKG2", https://ja.wikipedia.org/wiki/auじぶん銀行, https://ja.wikipedia.org/wiki/三菱UFJ銀行]
 
 - id: au-jibun-bank
   name: auじぶん銀行
@@ -5446,8 +5446,8 @@
   type: new
   founded: "2020-02-09"
   prefecture: 東京都
-  note: 2025年1月31日三菱UFJ銀行が保有株式をauフィナンシャルHDへ売却
-  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/auじぶん銀行, https://ja.wikipedia.org/wiki/三菱UFJフィナンシャル・グループ]
+  note: 2020年1月31日商号変更認可。2025年1月31日三菱UFJ銀行が保有株式をauフィナンシャルHDへ売却
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohePYyCDJJpgvwybKEo-I6Mv6Qg/description.html", https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/auじぶん銀行, https://ja.wikipedia.org/wiki/三菱UFJフィナンシャル・グループ]
 
 - id: nissaigin-trust
   name: 日債銀信託銀行
