@@ -956,23 +956,31 @@
   note: 1873年12月24日開業免状下付、1874年3月1日開業（銀行局報告・第四銀行百年史による。銀行総覧は改正国立銀行条例による開業免状再下付の1876年12月19日を設立日とする。Wikipediaは1873年11月2日設立とする）。1896年12月、営業満期国立銀行処分法により私立銀行として営業を継続し新潟銀行に改称（12月18日満期、第四銀行百年史は12月19日改組改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/x3i0UuEaQ7S_WvEos6RJU_mjrdl/description.html", https://ja.wikipedia.org/wiki/第四銀行]
 
+- id: nakajo-kyoritsu
+  name: 中条共立銀行
+  type: other
+  dissolved: "1912-12"
+  prefecture: 新潟県
+  note: 1912年12月新潟銀行に合併（11月22日合併認可。銀行総覧は12月17日、第四銀行百年史は12月15日とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1J6-m7Zh3jq7agR9Hbn8nGFjVBg/description.html"]
+
 - id: niigata-1896
   name: 新潟銀行
   type: other
   founded: "1896-12-19"
-  dissolved: "1917"
+  dissolved: "1917-02"
   prefecture: 新潟県
-  note: 1896年12月19日第四国立銀行が改称。1917年第四銀行に改称（Wikipediaによる。月日は未確認）。1918年に新潟商業銀行が改称した新潟銀行とは別
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/x3i0UuEaQ7S_WvEos6RJU_mjrdl/description.html", https://ja.wikipedia.org/wiki/第四銀行]
+  note: 1896年12月19日第四国立銀行が改称。1912年12月中条共立銀行を合併。1917年2月第四銀行に改称（2月2日改称認可、2月10日改称登記。第四銀行百年史は2月11日改称とする）。1918年に新潟商業銀行が改称した新潟銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1J6-m7Zh3jq7agR9Hbn8nGFjVBg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/x3i0UuEaQ7S_WvEos6RJU_mjrdl/description.html", https://ja.wikipedia.org/wiki/第四銀行]
 
 - id: daishi
   name: 第四銀行
   type: regional
-  founded: "1917"
+  founded: "1917-02"
   dissolved: "2021-01-01"
   prefecture: 新潟県
-  note: 1917年新潟銀行が改称（Wikipediaによる。創業は1873年の第四国立銀行）
-  sources: [https://ja.wikipedia.org/wiki/第四銀行, https://ja.wikipedia.org/wiki/第四北越銀行]
+  note: 1917年2月新潟銀行が改称（創業は1873年の第四国立銀行）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1J6-m7Zh3jq7agR9Hbn8nGFjVBg/description.html", https://ja.wikipedia.org/wiki/第四銀行, https://ja.wikipedia.org/wiki/第四北越銀行]
 
 - id: dai69-kokuritsu
   name: 第六十九国立銀行
