@@ -713,7 +713,7 @@
   type: rename
   from: [toyama-sangyo]
   to: [toyama]
-  sources: [https://ja.wikipedia.org/wiki/富山銀行]
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFUZ", https://ja.wikipedia.org/wiki/富山銀行]
 
 - date: "1943-12-18"
   type: merger
@@ -3672,3 +3672,44 @@
   note: 特定合併（経営が行き詰まった金融機関の救済策）
   sources: [https://ja.wikipedia.org/wiki/なみはや銀行]
 
+# ---------------------------------------------------------------- 旧商号（改称・改組）
+- date: "1948-12-01"
+  type: rename
+  from: [tottori-chochiku]
+  to: [inpaku]
+  sources: [https://ja.wikipedia.org/wiki/鳥取銀行]
+
+- date: "1949-11-11"
+  type: rename
+  from: [inpaku]
+  to: [tottori]
+  note: 1949年10月1日に鳥取信用組合の営業の全部を譲り受けたのち商号変更
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDT2"]
+
+- date: "1952-05-20"
+  type: rename
+  from: [shimotsuma-mujin]
+  to: [toyo-sogo]
+  note: 相互銀行へ転換（有報は1952年5月）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDJN"]
+
+- date: "1952-05"
+  type: rename
+  from: [ibaraki-mujin]
+  to: [ibaraki-sogo]
+  note: 相互銀行へ転換
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDJN"]
+
+- date: "1923-11"
+  type: merger
+  from: [yasuda-1880, hozen]
+  to: [yasuda]
+  note: 保善銀行に安田銀行以下11行が合併し、同時に商号を安田銀行に変更（他の10行は未収録）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+
+- date: "1951-10"
+  type: rename
+  from: [wakayama-mujin]
+  to: [wakayama-sogo]
+  note: 相互銀行法の施行に伴い商号変更
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S"]
