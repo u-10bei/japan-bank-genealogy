@@ -3618,8 +3618,8 @@
   founded: "1898-06"
   dissolved: "1908"
   prefecture: 滋賀県
-  note: 1898年6月第六十四国立銀行が改称。銀行変遷史DBは1898〜1908年の大津銀行とする（1908年以後の経緯は未確認）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e0IJz6AgGGa_W-ap-zF_5KVRblg/description.html"]
+  note: 1898年6月第六十四国立銀行が改称。1908年1月1日近江銀行が買収（近江銀行は未収録）。解散日は資料により異なる（滋賀銀行五十年史は1月31日解散・4月30日清算結了、銀行総覧は2月21日任意解散とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NGI5QYSr_jW-Xpb8emdaXrqDpnd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e0IJz6AgGGa_W-ap-zF_5KVRblg/description.html"]
 
 - id: dai133-kokuritsu
   name: 第百三十三国立銀行
