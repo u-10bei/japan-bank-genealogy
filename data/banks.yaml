@@ -4398,12 +4398,29 @@
   note: 2008年10月きらやかホールディングスを吸収合併。2012年10月仙台銀行と共同株式移転でじもとホールディングスを設立（有報）
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDEF", https://ja.wikipedia.org/wiki/きらやか銀行]
 
+- id: iwate-mujin-goshi
+  name: 岩手無尽
+  type: other
+  dissolved: "1920-12-04"
+  prefecture: 岩手県
+  note: 岩手無尽合資会社。1920年9月1日、岩手無尽株式会社に買収され、12月4日解散（銀行総覧による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gxvpRFokCF6AzcPGst56uGroQ1f/description.html"]
+
+- id: konan-mujin
+  name: 興南無尽
+  type: other
+  dissolved: "1941-12-10"
+  note: 1941年12月10日岩手無尽に営業譲渡（消滅日は営業譲渡日）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gxvpRFokCF6AzcPGst56uGroQ1f/description.html"]
+
 - id: iwate-mujin
   name: 岩手無尽
   type: other
+  founded: "1920-01-11"
   dissolved: "1942-02-02"
   prefecture: 岩手県
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+  note: 岩手無尽株式会社。設立日は創立総会の日（北日本相互銀行二十年史・銀行総覧の多くの回による。銀行総覧第28〜29・31〜33回は無尽営業免許日の1920年7月20日を設立日とする）。1920年9月1日岩手無尽合資会社を買収し開業。1941年12月10日興南無尽の営業を譲受。1942年2月2日盛岡無尽と新立合併し岩手興産無尽となる（1941年11月合併認可、1942年1月29日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gxvpRFokCF6AzcPGst56uGroQ1f/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
 
 - id: morioka-mujin
   name: 盛岡無尽

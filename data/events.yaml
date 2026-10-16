@@ -1497,7 +1497,8 @@
   type: merger
   from: [iwate-mujin, morioka-mujin]
   to: [iwate-kosan-mujin]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP"]
+  note: 新立合併（1941年11月合併認可、1942年1月29日創立総会）
+  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y8FP", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gxvpRFokCF6AzcPGst56uGroQ1f/description.html"]
 
 - date: "1950-08"
   type: rename
@@ -4435,3 +4436,17 @@
   to: [toho-sogo]
   note: 相互銀行に転換（1月4日相互銀行免許）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cMzpJ9TnGO3wkKtHCsr7UA9Tnci/description.html", https://ja.wikipedia.org/wiki/東邦相互銀行]
+
+- date: "1920-09-01"
+  type: transfer
+  from: [iwate-mujin-goshi]
+  to: [iwate-mujin]
+  note: 岩手無尽株式会社が岩手無尽合資会社を買収し開業。合資会社は12月4日解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gxvpRFokCF6AzcPGst56uGroQ1f/description.html"]
+
+- date: "1941-12-10"
+  type: transfer
+  from: [konan-mujin]
+  to: [iwate-mujin]
+  note: 岩手無尽が営業を譲受（買収）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gxvpRFokCF6AzcPGst56uGroQ1f/description.html"]
