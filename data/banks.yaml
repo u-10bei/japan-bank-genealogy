@@ -5558,10 +5558,10 @@
 - id: zero-one-bank
   name: 01銀行
   type: new
-  founded: "2023-09-28"
+  founded: "2024-02-01"
   prefecture: 大阪府
-  note: 池田泉州HDの完全子会社。準備会社01Bank設立準備として設立（Wikipedia沿革節。インフォボックスは2024年2月1日と食い違う）、2025年2月28日免許交付、3月3日商号変更、8月28日営業開始
-  sources: [https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/01銀行]
+  note: 池田泉州ホールディングスが銀行設立の準備会社01Bank（ゼロワンバンク）設立準備として設立。2025年2月28日銀行業免許・01銀行に商号変更、7月28日開業（顧客向けサービス開始）。日付はプレスリリース・日経・ニッキンを典拠とする銀行変遷史DBによる（Wikipediaの沿革節は設立2023年9月28日・商号変更3月3日・営業開始8月28日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gzJfLVgxqPk7YwRdzIZsuaNYL9l/description.html", https://www.fsa.go.jp/menkyo/menkyoj/ginkou.pdf, https://ja.wikipedia.org/wiki/01銀行]
 
 - id: sony-bank
   name: ソニー銀行
