@@ -947,13 +947,31 @@
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCRO", https://ja.wikipedia.org/wiki/あおぞら銀行]
 
 # ---------------------------------------------------------------- 地方銀行（例）
+- id: dai4-kokuritsu
+  name: 第四国立銀行
+  type: other
+  founded: "1873-12-24"
+  dissolved: "1896-12-19"
+  prefecture: 新潟県
+  note: 1873年12月24日開業免状下付、1874年3月1日開業（銀行局報告・第四銀行百年史による。銀行総覧は改正国立銀行条例による開業免状再下付の1876年12月19日を設立日とする。Wikipediaは1873年11月2日設立とする）。1896年12月、営業満期国立銀行処分法により私立銀行として営業を継続し新潟銀行に改称（12月18日満期、第四銀行百年史は12月19日改組改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/x3i0UuEaQ7S_WvEos6RJU_mjrdl/description.html", https://ja.wikipedia.org/wiki/第四銀行]
+
+- id: niigata-1896
+  name: 新潟銀行
+  type: other
+  founded: "1896-12-19"
+  dissolved: "1917"
+  prefecture: 新潟県
+  note: 1896年12月19日第四国立銀行が改称。1917年第四銀行に改称（Wikipediaによる。月日は未確認）。1918年に新潟商業銀行が改称した新潟銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/x3i0UuEaQ7S_WvEos6RJU_mjrdl/description.html", https://ja.wikipedia.org/wiki/第四銀行]
+
 - id: daishi
   name: 第四銀行
   type: regional
-  founded: "1873-11-02"
+  founded: "1917"
   dissolved: "2021-01-01"
   prefecture: 新潟県
-  note: 第四国立銀行として設立（1874年3月1日開業）
+  note: 1917年新潟銀行が改称（Wikipediaによる。創業は1873年の第四国立銀行）
   sources: [https://ja.wikipedia.org/wiki/第四銀行, https://ja.wikipedia.org/wiki/第四北越銀行]
 
 - id: dai69-kokuritsu
