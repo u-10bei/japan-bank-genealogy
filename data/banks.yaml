@@ -185,14 +185,23 @@
   note: 株式会社山口銀行。設立日は資料により異なる（銀行総覧は1917年1月20日設立、4月18日設立登記、三和銀行史は3月18日設立とする）。1917年5月1日個人経営の山口銀行の業務を継承して開業。1922〜1929年に虎屋・児山・紀阪貯蓄・摂池・田口・八坂・尼崎共立の各行を買収し、加島銀行の営業の一部を譲受。1933年12月9日鴻池銀行・三十四銀行と新立合併し三和銀行となる（11月20日合併認可、12月9日創立総会、12月11日開業）。現存の山口銀行（山口県）とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/山口銀行_(大阪)]
 
+- id: dai13-kokuritsu
+  name: 第十三国立銀行
+  type: other
+  founded: "1877-05-15"
+  dissolved: "1897-05-14"
+  prefecture: 大阪府
+  note: 1877年5月15日開業免状下付・設立、5月21日開業。1897年、新設の個人経営の鴻池銀行が業務を継承（銀行総覧は鴻池銀行の設立を2月1日、三和銀行史は3月1日とする）。1897年5月14日満期解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jM54B0uJg8QaFpIb_PjHdgusPXb/description.html"]
+
 - id: konoike-kojin
   name: 鴻池銀行
   type: other
-  founded: "1877-05-21"
+  founded: "1897"
   dissolved: "1901-02-28"
   prefecture: 大阪府
-  note: 第十三国立銀行として開業し、1897年個人経営の鴻池銀行に転換（第十三国立銀行時代を含む）。1900年12月1日合名会社鴻池銀行が業務を継承、1901年2月28日廃業（銀行総覧による）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZEFXFSRZ9mho6BycSPs4UVYTEPo/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/鴻池銀行]
+  note: 個人経営の鴻池銀行。第十三国立銀行の業務を継承して設立（銀行総覧は1897年2月1日、三和銀行史は3月1日設立とする）。1900年12月1日合名会社鴻池銀行が業務を継承、1901年2月28日廃業（銀行総覧による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZEFXFSRZ9mho6BycSPs4UVYTEPo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jM54B0uJg8QaFpIb_PjHdgusPXb/description.html", https://ja.wikipedia.org/wiki/鴻池銀行]
 
 - id: izumicho-bank
   name: 泉町銀行

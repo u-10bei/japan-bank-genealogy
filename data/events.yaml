@@ -4897,3 +4897,10 @@
   to: [konoike]
   note: 鴻池銀行が買収（広島銀行「創業百年史」は4月30日営業満期・譲渡・解散とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/q_g2GEJuNORSSgBLqhwoeKQ_Gej/description.html"]
+
+- date: "1897"
+  type: transfer
+  from: [dai13-kokuritsu]
+  to: [konoike-kojin]
+  note: 新設の個人経営の鴻池銀行が業務を継承（銀行総覧は2月1日設立、三和銀行史は3月1日設立・営業継承とする）。第十三国立銀行は5月14日満期解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jM54B0uJg8QaFpIb_PjHdgusPXb/description.html"]
