@@ -4691,3 +4691,17 @@
   partial: true
   note: 信託業務を中央信託銀行に譲渡（同日朝日銀行に改称）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2R_XLZBjARnfCi1MV4-zWWNiHBj/description.html"]
+
+- date: "1962-12-01"
+  type: rename
+  from: [daiichi-trust-bank]
+  to: [asahi-1962]
+  note: 信託業務を中央信託銀行に譲渡し、朝日銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/KKZHsAVcYMv-UvTnX8Er78He9eb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2R_XLZBjARnfCi1MV4-zWWNiHBj/description.html"]
+
+- date: "1964-08-01"
+  type: absorption
+  from: [asahi-1962]
+  to: [dai-ichi]
+  note: 第一銀行が合併（7月14日合併認可、8月19日合併登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/KKZHsAVcYMv-UvTnX8Er78He9eb/description.html"]

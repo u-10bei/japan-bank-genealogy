@@ -6869,8 +6869,17 @@
   founded: "1948-07"
   dissolved: "1962-12-01"
   prefecture: 東京都
-  note: 1948年7月第一信託株式会社が改称し銀行業務を開始（日本金融年表は7月21日とする）。1962年12月1日、信託業務を中央信託銀行に譲渡し朝日銀行に改称（朝日銀行のその後は未確認のため項目にしていない）
+  note: 1948年7月第一信託株式会社が改称し銀行業務を開始（日本金融年表は7月21日とする）。1962年12月1日、信託業務を中央信託銀行に譲渡し朝日銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2R_XLZBjARnfCi1MV4-zWWNiHBj/description.html"]
+
+- id: asahi-1962
+  name: 朝日銀行
+  type: other
+  founded: "1962-12-01"
+  dissolved: "1964-08-01"
+  prefecture: 東京都
+  note: 1962年12月1日、信託業務を中央信託銀行に譲渡した第一信託銀行が改称。1964年8月1日第一銀行に合併（7月14日合併認可、8月19日合併登記）。1991年改称のあさひ銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/KKZHsAVcYMv-UvTnX8Er78He9eb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2R_XLZBjARnfCi1MV4-zWWNiHBj/description.html"]
 
 - id: chuo-trust
   name: 中央信託銀行
