@@ -3827,7 +3827,7 @@
   founded: "1897-12"
   dissolved: "1934-06-01"
   prefecture: 奈良県
-  note: 1897年12月第六十八国立銀行が改称。1914年西和銀行の営業地盤を継承、1917年丹波市銀行・1927年産業銀行を買収、1930年8月25日四十三銀行の営業の一部を譲受（6行による分割買収。四十三銀行は未収録）。1934年6月1日御所銀行・八木銀行・吉野銀行と新立合併し南都銀行となる
+  note: 1897年12月第六十八国立銀行が改称。1914年西和銀行の営業地盤を継承、1917年丹波市銀行・1927年産業銀行を買収、1930年8月25日四十三銀行の営業の一部を譲受（6行による分割買収）。1934年6月1日御所銀行・八木銀行・吉野銀行と新立合併し南都銀行となる
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html", https://ja.wikipedia.org/wiki/南都銀行]
 
 - id: yoshino
@@ -3847,13 +3847,64 @@
   note: 六十八・吉野・八木・御所の4行合併で設立（八木・御所は設立日不明のため省略）
   sources: [https://ja.wikipedia.org/wiki/南都銀行]
 
+- id: dai43-kokuritsu
+  name: 第四十三国立銀行
+  type: other
+  founded: "1878-10-22"
+  dissolved: "1897-03-01"
+  prefecture: 和歌山県
+  note: 1878年10月22日開業免状下付・設立、11月25日開業。1897年3月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し四十三銀行に改称（1896年11月27日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jXhH0bC0YFBr0KZOGihD232B2qb/description.html"]
+
+- id: kishu-bank
+  name: 紀州銀行
+  type: other
+  dissolved: "1900-10-15"
+  prefecture: 和歌山県
+  note: 1900年10月15日四十三銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- id: wakayama-shogyo
+  name: 和歌山商業銀行
+  type: other
+  dissolved: "1903-02-14"
+  prefecture: 和歌山県
+  note: 1903年2月四十三銀行が買収、2月14日任意解散。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- id: kii-bank
+  name: 紀伊銀行
+  type: other
+  dissolved: "1903-09-05"
+  prefecture: 和歌山県
+  note: 1903年8月四十三銀行が買収（本店・粉河支店・和歌浦支店の貯蓄預金は紀陽貯蓄銀行が継承）、9月5日任意解散。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- id: hashimoto-bank
+  name: 橋本銀行
+  type: other
+  founded: "1896"
+  dissolved: "1907-08-22"
+  prefecture: 和歌山県
+  note: 1907年8月四十三銀行が買収、8月22日任意解散。銀行変遷史DBは1896〜1907年の橋本銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- id: shijusan
+  name: 四十三銀行
+  type: other
+  founded: "1897-03-01"
+  dissolved: "1930-08-25"
+  prefecture: 和歌山県
+  note: 1897年3月1日第四十三国立銀行が改称。1900年紀州銀行を合併、1903年和歌山商業銀行・紀伊銀行、1907年橋本銀行を買収。1930年8月25日、紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行に分割買収された（田辺銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jXhH0bC0YFBr0KZOGihD232B2qb/description.html"]
+
 - id: kiyo-chochiku
   name: 紀陽貯蓄銀行
   type: other
   founded: "1895-05-02"
   dissolved: "1922-01"
   prefecture: 和歌山県
-  note: 前身は第四十三国立銀行
+  note: 1903年、四十三銀行が買収した紀伊銀行の一部の店舗の貯蓄預金を継承（銀行変遷史DB）
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YE5S", https://ja.wikipedia.org/wiki/紀陽銀行]
 
 - id: kiyo

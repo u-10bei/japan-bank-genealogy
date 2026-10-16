@@ -5273,3 +5273,73 @@
   to: [rokujuhachi]
   note: 六十八銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html"]
+
+- date: "1897-03-01"
+  type: rename
+  from: [dai43-kokuritsu]
+  to: [shijusan]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jXhH0bC0YFBr0KZOGihD232B2qb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1900-10-15"
+  type: absorption
+  from: [kishu-bank]
+  to: [shijusan]
+  note: 四十三銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1903-02"
+  type: transfer
+  from: [wakayama-shogyo]
+  to: [shijusan]
+  note: 四十三銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1903-08"
+  type: transfer
+  from: [kii-bank]
+  to: [shijusan]
+  note: 四十三銀行が買収（一部店舗の貯蓄預金は紀陽貯蓄銀行が継承）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1907-08"
+  type: transfer
+  from: [hashimoto-bank]
+  to: [shijusan]
+  note: 四十三銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1930-08-25"
+  type: transfer
+  from: [shijusan]
+  to: [kii-chochiku]
+  note: 四十三銀行を紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行が分割買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1930-08-25"
+  type: transfer
+  from: [shijusan]
+  to: [kiyo]
+  note: 四十三銀行を紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行が分割買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1930-08-25"
+  type: transfer
+  from: [shijusan]
+  to: [thirty-fourth]
+  note: 四十三銀行を紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行が分割買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1930-08-25"
+  type: transfer
+  from: [shijusan]
+  to: [daido-ginko]
+  note: 四十三銀行を紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行が分割買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1930-08-25"
+  type: transfer
+  from: [shijusan]
+  to: [rokujuhachi]
+  note: 四十三銀行を紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行が分割買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
