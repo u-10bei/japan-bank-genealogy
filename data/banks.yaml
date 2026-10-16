@@ -409,14 +409,63 @@
   note: 私盟会社として創立（Wikipediaは創業を1876年5月とする）。1893年合名会社、1909年株式会社に改組
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/三井銀行]
 
+- id: dai15-kokuritsu
+  name: 第十五国立銀行
+  type: other
+  founded: "1877-05-21"
+  dissolved: "1897-05-21"
+  prefecture: 東京都
+  note: 1877年5月21日開業免状下付・開業（銀行総覧・三井銀行八十年史などによる。銀行局報告第1次は5月27日とする。3月21日創立許可）。1897年5月20日営業期間満了、営業満期国立銀行処分法により私立銀行として営業を継続し、5月21日十五銀行として開業（1896年12月10日満期継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/D3dGggohwIsoTa2l2D0wEb1lEGm/description.html", https://ja.wikipedia.org/wiki/十五銀行]
+
+- id: kobe-kawasaki
+  name: 神戸川崎銀行
+  type: other
+  founded: "1916"
+  dissolved: "1920-08-02"
+  prefecture: 兵庫県
+  note: 1920年8月2日十五銀行に合併。銀行変遷史DBは1916〜1920年の神戸川崎銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
+
+- id: naniwa-bank-1920
+  name: 浪速銀行
+  type: other
+  dissolved: "1920-08-02"
+  prefecture: 大阪府
+  note: 1920年8月2日十五銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
+
+- id: teiyu-bank
+  name: 丁酉銀行
+  type: other
+  dissolved: "1920-08-02"
+  note: 1920年8月2日十五銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
+
+- id: tsuda-bank
+  name: 津田銀行
+  type: other
+  founded: "1917"
+  dissolved: "1921-09-01"
+  note: 1921年9月1日十五銀行が営業を譲受（7月26日買収決定。日付は中國銀行五十年史による）。銀行変遷史DBは1917〜1921年の津田銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
+
+- id: shoko-bank-1921
+  name: 商工銀行
+  type: other
+  founded: "1921"
+  dissolved: "1922-03-01"
+  note: 1922年3月1日十五銀行が買収（三井銀行八十年史による。京都銀行五十年史は合併とする）。銀行変遷史DBは1921〜1922年の商工銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
+
 - id: jugo
   name: 十五銀行
   type: other
+  founded: "1897-05-21"
   dissolved: "1944-08-01"
   prefecture: 東京都
-  note: 第十五国立銀行として開業、1897年5月21日株式会社十五銀行に改組
-  founded: "1877-05-21"
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/十五銀行]
+  note: 1897年5月21日第十五国立銀行が私立銀行として営業を継続し改称。1920年神戸川崎銀行・浪速銀行を合併、丁酉銀行を買収。1921年津田銀行、1922年商工銀行を買収。1944年8月1日帝国銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/十五銀行]
 
 - id: teikoku
   name: 帝国銀行

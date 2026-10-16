@@ -75,7 +75,7 @@
   type: absorption
   from: [jugo]
   to: [teikoku]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/帝国銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/帝国銀行]
 
 - date: "1948-10"
   type: reorganization
@@ -5676,3 +5676,38 @@
   to: [jushichi]
   note: 十七銀行が営業を譲受
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- date: "1897-05-21"
+  type: rename
+  from: [dai15-kokuritsu]
+  to: [jugo]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（5月20日営業期間満了、5月21日十五銀行開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/D3dGggohwIsoTa2l2D0wEb1lEGm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
+
+- date: "1920-08-02"
+  type: absorption
+  from: [kobe-kawasaki, naniwa-bank-1920]
+  to: [jugo]
+  note: 十五銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
+
+- date: "1920-08-02"
+  type: transfer
+  from: [teiyu-bank]
+  to: [jugo]
+  note: 十五銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
+
+- date: "1921-09-01"
+  type: transfer
+  from: [tsuda-bank]
+  to: [jugo]
+  note: 十五銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
+
+- date: "1922-03-01"
+  type: transfer
+  from: [shoko-bank-1921]
+  to: [jugo]
+  note: 十五銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
