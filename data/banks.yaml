@@ -2053,14 +2053,51 @@
   note: 1943年7月27日設立総会、7月31日開業。持株会社ほくほくフィナンシャルグループ傘下
   sources: [https://ja.wikipedia.org/wiki/北陸銀行]
 
+- id: hokuto-mujin
+  name: 北都無尽
+  type: other
+  dissolved: "1943-06-10"
+  note: 1943年6月10日輪島無尽と新立合併し北陸無尽となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+
+- id: wajima-mujin
+  name: 輪島無尽
+  type: other
+  dissolved: "1943-06-10"
+  note: 1943年6月10日北都無尽と新立合併し北陸無尽となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+
+- id: hokkoku-mujin
+  name: 北国無尽
+  type: other
+  dissolved: "1944-09-01"
+  note: 1944年9月1日北陸無尽に合併（8月21日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+
+- id: noto-mujin
+  name: 能登無尽
+  type: other
+  dissolved: "1944-12-11"
+  note: 1944年12月11日北陸無尽に営業譲渡（消滅日は営業譲渡日）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+
+- id: hokuriku-mujin
+  name: 北陸無尽
+  type: other
+  founded: "1943-06-10"
+  dissolved: "1951-10-20"
+  prefecture: 石川県
+  note: 北都無尽・輪島無尽の新立合併で設立（1943年5月28日合併認可）。1944年9月1日北国無尽を合併、12月11日能登無尽の営業を譲受。1951年10月20日加州相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html", https://ja.wikipedia.org/wiki/石川銀行]
+
 - id: kashu-sogo
   name: 加州相互銀行
   type: other
-  founded: "1951-10"
+  founded: "1951-10-20"
   dissolved: "1989-02-01"
   prefecture: 石川県
-  note: 1943年設立の北陸無尽が相互銀行転換・改称
-  sources: [https://ja.wikipedia.org/wiki/石川銀行]
+  note: 1951年10月20日、相互銀行への転換で北陸無尽が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html", https://ja.wikipedia.org/wiki/石川銀行]
 
 - id: ishikawa
   name: 石川銀行

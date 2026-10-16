@@ -4534,3 +4534,31 @@
   to: [aso-mujin]
   note: 阿蘇貯金無尽株式会社が阿蘇無尽株式会社に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VXnCESVSb376ATn_sA8F7xKIxEc/description.html"]
+
+- date: "1943-06-10"
+  type: merger
+  from: [hokuto-mujin, wajima-mujin]
+  to: [hokuriku-mujin]
+  note: 新立合併（5月28日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+
+- date: "1944-09-01"
+  type: absorption
+  from: [hokkoku-mujin]
+  to: [hokuriku-mujin]
+  note: 北陸無尽が合併（8月21日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+
+- date: "1944-12-11"
+  type: transfer
+  from: [noto-mujin]
+  to: [hokuriku-mujin]
+  note: 北陸無尽が営業を譲受（買収）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [hokuriku-mujin]
+  to: [kashu-sogo]
+  note: 相互銀行に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
