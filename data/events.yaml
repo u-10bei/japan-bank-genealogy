@@ -158,3 +158,1106 @@
   type: merger
   from: [eighteenth, shinwa]
   to: [juhachi-shinwa]
+
+# ---------------------------------------------------------------- 地方銀行（北海道・東北）
+- date: "1897-09-01"
+  type: rename
+  from: [kokuritsu-59]
+  to: [dai59]
+  note: 国立銀行営業満期前特別処分法による普通銀行転換
+  sources: [https://ja.wikipedia.org/wiki/第五十九銀行]
+
+- date: "1943-10-01"
+  type: merger
+  from: [dai59, hachinohe-ginko, tsugaru-ginko, itayanagi-ginko, aomori-ginko-1912]
+  to: [aomori]
+  note: 5行合併で青森銀行を新立
+  sources: [https://ja.wikipedia.org/wiki/青森みちのく銀行, https://ja.wikipedia.org/wiki/第五十九銀行, https://ja.wikipedia.org/wiki/八戸銀行]
+
+- date: "1949-01"
+  type: rename
+  from: [aomori-chochiku]
+  to: [seiwa]
+  note: 普通銀行化
+  sources: [https://ja.wikipedia.org/wiki/みちのく銀行]
+
+- date: "1949-02"
+  type: absorption
+  from: [seiwan-chochiku]
+  to: [aomori-shogyo]
+  sources: [https://ja.wikipedia.org/wiki/みちのく銀行]
+
+- date: "1949"
+  type: absorption
+  from: [aomori-shogyo]
+  to: [seiwa]
+  sources: [https://ja.wikipedia.org/wiki/青森みちのく銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [hirosaki-mujin]
+  to: [hirosaki-sogo]
+  note: 相互銀行へ移行
+  sources: [https://ja.wikipedia.org/wiki/みちのく銀行]
+
+- date: "1976-10-01"
+  type: absorption
+  from: [hirosaki-sogo]
+  to: [seiwa]
+  note: 青和銀行が存続
+  sources: [https://ja.wikipedia.org/wiki/みちのく銀行]
+
+- date: "1976-10-01"
+  type: rename
+  from: [seiwa]
+  to: [michinoku]
+  sources: [https://ja.wikipedia.org/wiki/みちのく銀行]
+
+- date: "2025-01-01"
+  type: absorption
+  from: [michinoku]
+  to: [aomori]
+  note: 2022年からプロクレアHD傘下
+  sources: [https://ja.wikipedia.org/wiki/青森みちのく銀行, https://ja.wikipedia.org/wiki/みちのく銀行]
+
+- date: "2025-01-01"
+  type: rename
+  from: [aomori]
+  to: [aomori-michinoku]
+  sources: [https://ja.wikipedia.org/wiki/青森みちのく銀行]
+
+- date: "1898"
+  type: rename
+  from: [kokuritsu-48]
+  to: [dai48]
+  note: 秋田銀行記事は1889年とする
+  sources: [https://ja.wikipedia.org/wiki/第四十八銀行, https://ja.wikipedia.org/wiki/秋田銀行]
+
+- date: "1941-10-20"
+  type: merger
+  from: [dai48, akita-ginko-old, yuzawa-ginko]
+  to: [akita]
+  sources: [https://ja.wikipedia.org/wiki/秋田銀行, https://ja.wikipedia.org/wiki/第四十八銀行]
+
+- date: "1922-03-01"
+  type: rename
+  from: [masuda-ginko]
+  to: [ugo]
+  sources: [https://ja.wikipedia.org/wiki/北都銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [akita-mujin]
+  to: [akita-sogo]
+  note: 無尽会社から相互銀行へ転換
+  sources: [https://ja.wikipedia.org/wiki/秋田あけぼの銀行]
+
+- date: "1989-04-01"
+  type: rename
+  from: [akita-sogo]
+  to: [akita-akebono]
+  note: 普通銀行転換（第二地銀）
+  sources: [https://ja.wikipedia.org/wiki/秋田あけぼの銀行]
+
+- date: "1993-04-01"
+  type: absorption
+  from: [akita-akebono]
+  to: [ugo]
+  note: 羽後銀行が存続
+  sources: [https://ja.wikipedia.org/wiki/秋田あけぼの銀行, https://ja.wikipedia.org/wiki/北都銀行]
+
+- date: "1993-04-01"
+  type: rename
+  from: [ugo]
+  to: [hokuto]
+  sources: [https://ja.wikipedia.org/wiki/秋田あけぼの銀行, https://ja.wikipedia.org/wiki/北都銀行]
+
+- date: "1898-09-19"
+  type: rename
+  from: [kokuritsu-67]
+  to: [rokujushichi]
+  sources: [https://ja.wikipedia.org/wiki/六十七銀行]
+
+- date: "1941-04-07"
+  type: merger
+  from: [rokujushichi, kazama-ginko, tsuruoka-ginko, dewa-ginko]
+  to: [shonai]
+  sources: [https://ja.wikipedia.org/wiki/荘内銀行, https://ja.wikipedia.org/wiki/六十七銀行]
+
+- date: "1965"
+  type: rename
+  from: [ryou-u]
+  to: [yamagata]
+  sources: [https://ja.wikipedia.org/wiki/山形銀行]
+
+- date: "1960-01-01"
+  type: rename
+  from: [iwate-shokusan]
+  to: [iwate]
+  sources: [https://ja.wikipedia.org/wiki/岩手銀行]
+
+- date: "1932-01-31"
+  type: merger
+  from: [shichijushichi-old, tohoku-jitsugyo, gojo-ginko]
+  to: [shichijushichi]
+  note: 3行合併で新立（日付は設立日）
+  sources: [https://ja.wikipedia.org/wiki/七十七銀行, https://ja.wikipedia.org/wiki/第七十七国立銀行]
+
+- date: "1941-11-04"
+  type: merger
+  from: [koriyama-shogyo, aizu-ginko, shirakawa-seya]
+  to: [toho]
+  sources: [https://ja.wikipedia.org/wiki/東邦銀行]
+
+# ---------------------------------------------------------------- 地方銀行（関東・甲信）
+- date: "1898-09-10"
+  type: rename
+  from: [dai39-kokuritsu]
+  to: [sanjuku]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/群馬銀行]
+
+- date: "1918-11-01"
+  type: merger
+  from: [sanjuku, jomo-bussan]
+  to: [gunma-1918]
+  sources: [https://ja.wikipedia.org/wiki/群馬銀行]
+
+- date: "1928-07-01"
+  type: merger
+  from: [gunma-1918, jomo-jitsugyo, isesaki]
+  to: [gunma-chuo]
+  sources: [https://ja.wikipedia.org/wiki/群馬銀行]
+
+- date: "1931-03-01"
+  type: rename
+  from: [gunma-chuo]
+  to: [gunma-1931]
+  sources: [https://ja.wikipedia.org/wiki/群馬銀行]
+
+- date: "1932-10"
+  type: rename
+  from: [gunma-kenkinyu]
+  to: [gunma-daido]
+  note: 銀行業の認可を得て改称
+  sources: [https://ja.wikipedia.org/wiki/群馬銀行]
+
+- date: "1932-11"
+  type: absorption
+  from: [gunma-1931, joshu]
+  to: [gunma-daido]
+  sources: [https://ja.wikipedia.org/wiki/群馬銀行]
+
+- date: "1955"
+  type: rename
+  from: [gunma-daido]
+  to: [gunma]
+  sources: [https://ja.wikipedia.org/wiki/群馬銀行]
+
+- date: "2003-11-29"
+  type: failure
+  from: [ashikaga]
+  note: 預金保険法102条1項3号の認定。12月1日特別危機管理開始・一時国有化、2008年7月1日終了
+  sources: [https://ja.wikipedia.org/wiki/足利銀行]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai50-kokuritsu]
+  to: [tsuchiura-goju]
+  sources: [https://ja.wikipedia.org/wiki/五十銀行]
+
+- date: "1923-09-01"
+  type: rename
+  from: [tsuchiura-goju]
+  to: [goju]
+  sources: [https://ja.wikipedia.org/wiki/五十銀行]
+
+- date: "1898-10-01"
+  type: rename
+  from: [dai62-kokuritsu]
+  to: [mito-rokujuni]
+  sources: [https://ja.wikipedia.org/wiki/常磐銀行]
+
+- date: "1907-07-03"
+  type: rename
+  from: [mito-rokujuni]
+  to: [joban]
+  sources: [https://ja.wikipedia.org/wiki/常磐銀行]
+
+- date: "1935-07-31"
+  type: merger
+  from: [joban, goju]
+  to: [joyo]
+  note: 6月21日認可、7月30日創立総会、7月31日開業
+  sources: [https://ja.wikipedia.org/wiki/常陽銀行, https://ja.wikipedia.org/wiki/常磐銀行, https://ja.wikipedia.org/wiki/五十銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [toyo-sogo]
+  to: [tsukuba-1989]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/関東つくば銀行]
+
+- date: "1989"
+  type: rename
+  from: [ibaraki-sogo]
+  to: [ibaraki]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/茨城銀行]
+
+- date: "2003-04"
+  type: absorption
+  from: [tsukuba-1989]
+  to: [kanto]
+  sources: [https://ja.wikipedia.org/wiki/関東つくば銀行]
+
+- date: "2003-04"
+  type: rename
+  from: [kanto]
+  to: [kanto-tsukuba]
+  sources: [https://ja.wikipedia.org/wiki/関東つくば銀行]
+
+- date: "2010-03-01"
+  type: absorption
+  from: [ibaraki]
+  to: [kanto-tsukuba]
+  sources: [https://ja.wikipedia.org/wiki/筑波銀行, https://ja.wikipedia.org/wiki/茨城銀行]
+
+- date: "2010-03-01"
+  type: rename
+  from: [kanto-tsukuba]
+  to: [tsukuba]
+  sources: [https://ja.wikipedia.org/wiki/筑波銀行, https://ja.wikipedia.org/wiki/関東つくば銀行]
+
+- date: "1943-03-31"
+  type: merger
+  from: [chiba-godo, omigawa-nosho, dai98]
+  to: [chiba]
+  sources: [https://ja.wikipedia.org/wiki/千葉銀行]
+
+- date: "1989"
+  type: rename
+  from: [kokumin-sogo]
+  to: [kokumin]
+  note: 第二地銀へ転換
+  sources: [https://ja.wikipedia.org/wiki/国民銀行]
+
+- date: "1999-04-11"
+  type: failure
+  from: [kokumin]
+  note: 金融再生委員会に破綻を申し出
+  sources: [https://ja.wikipedia.org/wiki/国民銀行]
+
+- date: "2000-08-14"
+  type: transfer
+  from: [kokumin]
+  to: [yachiyo]
+  note: 営業譲受
+  sources: [https://ja.wikipedia.org/wiki/きらぼし銀行, https://ja.wikipedia.org/wiki/国民銀行]
+
+- date: "2018-05-01"
+  type: absorption
+  from: [tokyo-tomin, shinginko-tokyo]
+  to: [yachiyo]
+  note: 存続会社は八千代銀行
+  sources: [https://ja.wikipedia.org/wiki/きらぼし銀行, https://ja.wikipedia.org/wiki/新銀行東京, https://ja.wikipedia.org/wiki/東京都民銀行]
+
+- date: "2018-05-01"
+  type: rename
+  from: [yachiyo]
+  to: [kiraboshi]
+  sources: [https://ja.wikipedia.org/wiki/きらぼし銀行]
+
+- date: "1957"
+  type: rename
+  from: [yokohama-koshin]
+  to: [yokohama]
+  sources: [https://ja.wikipedia.org/wiki/横浜銀行]
+
+- date: "1897-01-01"
+  type: rename
+  from: [dai10-kokuritsu]
+  to: [dai10]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/山梨中央銀行, https://ja.wikipedia.org/wiki/第十銀行]
+
+- date: "1941-12-01"
+  type: merger
+  from: [dai10, yushin]
+  to: [yamanashi-chuo]
+  sources: [https://ja.wikipedia.org/wiki/第十銀行, https://ja.wikipedia.org/wiki/山梨中央銀行]
+
+- date: "1897-03-01"
+  type: rename
+  from: [dai19-kokuritsu]
+  to: [dai19]
+  sources: [https://ja.wikipedia.org/wiki/第十九銀行, https://ja.wikipedia.org/wiki/八十二長野銀行]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai63-kokuritsu]
+  to: [rokujusan]
+  sources: [https://ja.wikipedia.org/wiki/八十二長野銀行]
+
+- date: "1931-08-01"
+  type: merger
+  from: [dai19, rokujusan]
+  to: [hachijuni]
+  note: 合併は1931年6月10日とする記載もあり、設立は8月1日
+  sources: [https://ja.wikipedia.org/wiki/八十二長野銀行, https://ja.wikipedia.org/wiki/第十九銀行, https://ja.wikipedia.org/wiki/六十三銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [nagano-sogo]
+  to: [nagano]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/長野銀行]
+
+- date: "2026-01-01"
+  type: absorption
+  from: [nagano]
+  to: [hachijuni]
+  sources: [https://ja.wikipedia.org/wiki/八十二長野銀行, https://ja.wikipedia.org/wiki/長野銀行]
+
+- date: "2026-01-01"
+  type: rename
+  from: [hachijuni]
+  to: [hachijuni-nagano]
+  sources: [https://ja.wikipedia.org/wiki/八十二長野銀行]
+
+# ---------------------------------------------------------------- 地方銀行（北陸・東海・滋賀）
+- date: "1884-01-04"
+  type: absorption
+  from: [dai123-kokuritsu]
+  to: [dai12-kokuritsu]
+  note: 本店を富山へ移転し富山第十二国立銀行に。十二銀行の記事では1884年10月28日とする記載もある
+  sources: [https://ja.wikipedia.org/wiki/北陸銀行, https://ja.wikipedia.org/wiki/十二銀行]
+
+- date: "1897-07"
+  type: rename
+  from: [dai12-kokuritsu]
+  to: [juni]
+  note: 北陸銀行記事は7月16日、十二銀行記事は7月2日
+  sources: [https://ja.wikipedia.org/wiki/北陸銀行, https://ja.wikipedia.org/wiki/十二銀行]
+
+- date: "1920-06-18"
+  type: merger
+  from: [takaoka-2, takaoka-kyoritsu]
+  to: [takaoka]
+  sources: [https://ja.wikipedia.org/wiki/高岡銀行]
+
+- date: "1943-07-31"
+  type: merger
+  from: [juni, takaoka, chuetsu, toyama-2]
+  to: [hokuriku]
+  note: 7月27日設立総会、7月31日開業
+  sources: [https://ja.wikipedia.org/wiki/北陸銀行, https://ja.wikipedia.org/wiki/中越銀行, https://ja.wikipedia.org/wiki/高岡銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [kashu-sogo]
+  to: [ishikawa]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/石川銀行]
+
+- date: "2001-12-28"
+  type: failure
+  from: [ishikawa]
+  note: 預金保険法第74条第5項の申出を受け、金融整理管財人による管理を命ずる処分（Wikipediaの「2000年8月6日」は誤記）
+  sources: [https://www.fsa.go.jp/danwa/danwa/f-20011228-8.html, https://ja.wikipedia.org/wiki/石川銀行]
+
+- date: "2003-03-24"
+  type: transfer
+  from: [ishikawa]
+  to: [hokuriku, hokkoku]
+  note: 北陸銀行へ42店舗を譲渡、残りは北國銀行・富山第一銀行・金沢信金・能登信金へ分割譲渡
+  sources: [https://ja.wikipedia.org/wiki/石川銀行, https://ja.wikipedia.org/wiki/北陸銀行]
+
+- date: "1967-08-01"
+  type: rename
+  from: [toyama-sangyo]
+  to: [toyama]
+  sources: [https://ja.wikipedia.org/wiki/富山銀行]
+
+- date: "1943-12-18"
+  type: merger
+  from: [kanou-godo, kashu, nowa]
+  to: [hokkoku]
+  note: 1943年7月合併調印、12月12日創立総会
+  sources: [https://ja.wikipedia.org/wiki/北國銀行]
+
+- date: "1966-09-26"
+  type: absorption
+  from: [morita-chochiku]
+  to: [fukui]
+  sources: [https://ja.wikipedia.org/wiki/福井銀行]
+
+- date: "1989"
+  type: rename
+  from: [fukui-sogo]
+  to: [fukuho]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/福邦銀行]
+
+- date: "2026-05-02"
+  type: absorption
+  from: [fukuho]
+  to: [fukui]
+  sources: [https://ja.wikipedia.org/wiki/福井銀行, https://ja.wikipedia.org/wiki/福邦銀行]
+
+- date: "1897-07"
+  type: rename
+  from: [dai35-kokuritsu]
+  to: [sanjugo]
+  note: 私立銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/静岡銀行]
+
+- date: "1937-03"
+  type: merger
+  from: [sanjugo, shizuoka-old]
+  to: [shizuoka-sanjugo]
+  sources: [https://ja.wikipedia.org/wiki/静岡銀行]
+
+- date: "1943-03-01"
+  type: merger
+  from: [shizuoka-sanjugo, enshu]
+  to: [shizuoka]
+  sources: [https://ja.wikipedia.org/wiki/静岡銀行]
+
+- date: "1896-12-28"
+  type: rename
+  from: [nekata]
+  to: [sunto-jitsugyo]
+  sources: [https://ja.wikipedia.org/wiki/スルガ銀行]
+
+- date: "1912-07-19"
+  type: rename
+  from: [sunto-jitsugyo]
+  to: [suruga-old]
+  sources: [https://ja.wikipedia.org/wiki/スルガ銀行]
+
+- date: "2004-10-01"
+  type: rename
+  from: [suruga-old]
+  to: [suruga]
+  sources: [https://ja.wikipedia.org/wiki/スルガ銀行]
+
+- date: "1928-07-01"
+  type: merger
+  from: [fujikawa, yui, ejiri, kanbara, koshi, iwabuchi]
+  to: [sunshu]
+  sources: [https://ja.wikipedia.org/wiki/清水銀行]
+
+- date: "1948-05-01"
+  type: rename
+  from: [sunshu]
+  to: [shimizu]
+  sources: [https://ja.wikipedia.org/wiki/清水銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [chubu-sogo]
+  to: [chubu]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/中部銀行]
+
+- date: "2002-03-08"
+  type: failure
+  from: [chubu]
+  note: 預金保険法第74条第5項の申出
+  sources: [https://ja.wikipedia.org/wiki/中部銀行]
+
+- date: "2003-03-03"
+  type: transfer
+  from: [chubu]
+  to: [shimizu]
+  note: 静岡県内店舗を清水銀行・静岡中央銀行へ、神奈川・東京店舗を東京スター銀行へ譲渡
+  sources: [https://ja.wikipedia.org/wiki/中部銀行, https://ja.wikipedia.org/wiki/清水銀行]
+
+- date: "1896-03-09"
+  type: transfer
+  from: [dai129-kokuritsu]
+  to: [ogaki-kyoritsu]
+  note: 新設の大垣共立銀行が第百二十九国立銀行の業務を継承
+  sources: [https://ja.wikipedia.org/wiki/大垣共立銀行]
+
+- date: "1896-12"
+  type: rename
+  from: [dai16-kokuritsu]
+  to: [juroku]
+  sources: [https://ja.wikipedia.org/wiki/十六銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [gifu-sogo]
+  to: [gifu]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/岐阜銀行]
+
+- date: "2012-09-18"
+  type: absorption
+  from: [gifu]
+  to: [juroku]
+  sources: [https://ja.wikipedia.org/wiki/十六銀行, https://ja.wikipedia.org/wiki/岐阜銀行]
+
+- date: "1939-12"
+  type: rename
+  from: [yokkaichi]
+  to: [mie]
+  sources: [https://ja.wikipedia.org/wiki/三重銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [daisan-sogo]
+  to: [daisan]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/第三銀行]
+
+- date: "2021-05-01"
+  type: merger
+  from: [daisan, mie]
+  to: [sanjusan]
+  note: 法的には第三銀行が存続会社となり三十三銀行に商号変更
+  sources: [https://ja.wikipedia.org/wiki/三十三銀行, https://ja.wikipedia.org/wiki/第三銀行, https://ja.wikipedia.org/wiki/三重銀行]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai105-kokuritsu]
+  to: [hyakugo]
+  note: 普通銀行に改組
+  sources: [https://ja.wikipedia.org/wiki/百五銀行]
+
+- date: "1899-02"
+  type: rename
+  from: [dai133-kokuritsu]
+  to: [hyakusanjusan]
+  sources: [https://ja.wikipedia.org/wiki/百三十三銀行]
+
+- date: "1933-10-01"
+  type: merger
+  from: [hyakusanjusan, hachiman]
+  to: [shiga]
+  sources: [https://ja.wikipedia.org/wiki/滋賀銀行, https://ja.wikipedia.org/wiki/百三十三銀行]
+
+# ---------------------------------------------------------------- 地方銀行（近畿・中国）
+- date: "1941-10-01"
+  type: merger
+  from: [ryotan, miyazu, tango-shoko, tango-sangyo]
+  to: [tanwa]
+  sources: [https://ja.wikipedia.org/wiki/京都銀行]
+
+- date: "1951"
+  type: rename
+  from: [tanwa]
+  to: [kyoto]
+  sources: [https://ja.wikipedia.org/wiki/京都銀行]
+
+- date: "1957"
+  type: rename
+  from: [osaka-fudo]
+  to: [osaka-bank]
+  sources: [https://ja.wikipedia.org/wiki/近畿大阪銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [kinki-sogo]
+  to: [kinki-bank]
+  note: 相互銀行から普通銀行へ転換
+  sources: [https://ja.wikipedia.org/wiki/近畿大阪銀行]
+
+- date: "2000-04-01"
+  type: absorption
+  from: [kinki-bank]
+  to: [osaka-bank]
+  note: 存続会社は大阪銀行
+  sources: [https://ja.wikipedia.org/wiki/近畿大阪銀行]
+
+- date: "2000-04-01"
+  type: rename
+  from: [osaka-bank]
+  to: [kinki-osaka]
+  sources: [https://ja.wikipedia.org/wiki/近畿大阪銀行]
+
+- date: "1999-08-07"
+  type: failure
+  from: [namihaya]
+  note: 1999年8月6日破綻認定申請、8月7日破綻認定
+  sources: [https://ja.wikipedia.org/wiki/なみはや銀行]
+
+- date: "2001-02-13"
+  type: transfer
+  from: [namihaya]
+  to: [daiwa, kinki-osaka]
+  note: 大和銀行に25店、近畿大阪銀行に110店を営業譲渡
+  sources: [https://ja.wikipedia.org/wiki/なみはや銀行, https://ja.wikipedia.org/wiki/近畿大阪銀行]
+
+- date: "1989-02-01"
+  type: rename
+  from: [kansai-sogo]
+  to: [kansai-bank]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/関西アーバン銀行]
+
+- date: "1989"
+  type: rename
+  from: [kofuku-sogo]
+  to: [kofuku]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/幸福銀行]
+
+- date: "1999-05-21"
+  type: failure
+  from: [kofuku]
+  note: 金融再生法に基づく破綻申請、金融整理管財人を派遣
+  sources: [https://ja.wikipedia.org/wiki/幸福銀行]
+
+- date: "2001-02-26"
+  type: transfer
+  from: [kofuku]
+  to: [kansai-sawayaka]
+  sources: [https://ja.wikipedia.org/wiki/幸福銀行, https://ja.wikipedia.org/wiki/関西アーバン銀行]
+
+- date: "2004-02-01"
+  type: absorption
+  from: [kansai-sawayaka]
+  to: [kansai-bank]
+  note: 存続銀行は関西銀行
+  sources: [https://ja.wikipedia.org/wiki/関西アーバン銀行]
+
+- date: "2004-02-01"
+  type: rename
+  from: [kansai-bank]
+  to: [kansai-urban]
+  sources: [https://ja.wikipedia.org/wiki/関西アーバン銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [shiga-sogo]
+  to: [biwako]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/びわこ銀行]
+
+- date: "2010-03-01"
+  type: absorption
+  from: [biwako]
+  to: [kansai-urban]
+  sources: [https://ja.wikipedia.org/wiki/びわこ銀行, https://ja.wikipedia.org/wiki/関西アーバン銀行]
+
+- date: "2019-04-01"
+  type: absorption
+  from: [kansai-urban]
+  to: [kinki-osaka]
+  note: 存続会社は近畿大阪銀行
+  sources: [https://ja.wikipedia.org/wiki/関西みらい銀行, https://ja.wikipedia.org/wiki/近畿大阪銀行]
+
+- date: "2019-04-01"
+  type: rename
+  from: [kinki-osaka]
+  to: [kansai-mirai]
+  sources: [https://ja.wikipedia.org/wiki/関西みらい銀行, https://ja.wikipedia.org/wiki/近畿大阪銀行]
+
+- date: "2010-05-01"
+  type: absorption
+  from: [senshu]
+  to: [ikeda]
+  note: 存続会社は池田銀行
+  sources: [https://ja.wikipedia.org/wiki/池田泉州銀行, https://ja.wikipedia.org/wiki/泉州銀行]
+
+- date: "2010-05-01"
+  type: rename
+  from: [ikeda]
+  to: [ikeda-senshu]
+  sources: [https://ja.wikipedia.org/wiki/池田泉州銀行]
+
+- date: "1934-06-01"
+  type: merger
+  from: [rokujuhachi, yoshino]
+  to: [nanto]
+  note: ほかに八木銀行・御所銀行が参加
+  sources: [https://ja.wikipedia.org/wiki/南都銀行]
+
+- date: "1922"
+  type: rename
+  from: [kiyo-chochiku]
+  to: [kiyo]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/紀陽銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [wakayama-sogo]
+  to: [wakayama]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/和歌山銀行]
+
+- date: "2006-10-10"
+  type: absorption
+  from: [wakayama]
+  to: [kiyo]
+  sources: [https://ja.wikipedia.org/wiki/紀陽銀行, https://ja.wikipedia.org/wiki/和歌山銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [kouki-sogo]
+  to: [hanwa]
+  note: 第二地方銀行化
+  sources: [https://ja.wikipedia.org/wiki/阪和銀行]
+
+- date: "1996-11-21"
+  type: failure
+  from: [hanwa]
+  note: 大蔵省から業務停止命令
+  sources: [https://ja.wikipedia.org/wiki/阪和銀行]
+
+- date: "1998-01-26"
+  type: transfer
+  from: [hanwa]
+  to: [kii-yokin-kanri]
+  note: 同日阪和銀行は解散
+  sources: [https://ja.wikipedia.org/wiki/阪和銀行]
+
+- date: "1932-09"
+  type: rename
+  from: [mikumi]
+  to: [kasumi]
+  sources: [https://ja.wikipedia.org/wiki/但馬銀行]
+
+- date: "1956-09"
+  type: rename
+  from: [kasumi]
+  to: [tajima]
+  sources: [https://ja.wikipedia.org/wiki/但馬銀行]
+
+- date: "1941-07-01"
+  type: merger
+  from: [matsue, yonago]
+  to: [sanin-godo]
+  sources: [https://ja.wikipedia.org/wiki/山陰合同銀行]
+
+- date: "1989-04-01"
+  type: rename
+  from: [fuso-sogo]
+  to: [fuso]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/ふそう銀行]
+
+- date: "1991-04-01"
+  type: absorption
+  from: [fuso]
+  to: [sanin-godo]
+  sources: [https://ja.wikipedia.org/wiki/山陰合同銀行, https://ja.wikipedia.org/wiki/ふそう銀行]
+
+- date: "1919-09-30"
+  type: merger
+  from: [kurashiki]
+  to: [daiichi-godo]
+  note: ほかに鴨方倉庫・倉敷商業・茶屋町・天満屋・日笠の5行が参加
+  sources: [https://ja.wikipedia.org/wiki/中国銀行_(日本), https://ja.wikipedia.org/wiki/第一合同銀行]
+
+- date: "1930-12-21"
+  type: merger
+  from: [daiichi-godo, sanyo-okayama]
+  to: [chugoku]
+  sources: [https://ja.wikipedia.org/wiki/中国銀行_(日本)]
+
+- date: "1897"
+  type: rename
+  from: [dai66-kokuritsu]
+  to: [dai66]
+  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+
+- date: "1897"
+  type: rename
+  from: [dai146-kokuritsu]
+  to: [hiroshima-1897]
+  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+
+- date: "1920-06"
+  type: merger
+  from: [dai66, hiroshima-1897, hiroshima-shogyo, miyoshi-chochiku, hiba, sumikura, futami-chochiku]
+  to: [geibi-1920]
+  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+
+- date: "1945-05-01"
+  type: merger
+  from: [geibi-1920, kure, binan, miyoshi, hiroshima-godo-chochiku]
+  to: [geibi-1945]
+  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+
+- date: "1950-08"
+  type: rename
+  from: [geibi-1945]
+  to: [hiroshima]
+  note: 廣島銀行に改称
+  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+
+- date: "1898-11"
+  type: rename
+  from: [dai110-kokuritsu]
+  to: [hyakuju]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/百十銀行, https://ja.wikipedia.org/wiki/山口銀行]
+
+- date: "1944-03-31"
+  type: merger
+  from: [hyakuju]
+  to: [yamaguchi]
+  note: ほかに宇部・船城・華浦・大島の4行が参加
+  sources: [https://ja.wikipedia.org/wiki/山口銀行, https://ja.wikipedia.org/wiki/百十銀行]
+
+# ---------------------------------------------------------------- 地方銀行（四国・九州・沖縄）
+- date: "1964-10-01"
+  type: rename
+  from: [awa-shogyo]
+  to: [awa]
+  sources: [https://ja.wikipedia.org/wiki/阿波銀行]
+
+- date: "1898-10-07"
+  type: rename
+  from: [dai114-kokuritsu]
+  to: [takamatsu-114-old]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/百十四銀行]
+
+- date: "1924-03-30"
+  type: merger
+  from: [takamatsu-114-old, takamatsu-bank]
+  to: [takamatsu-114]
+  note: 対等合併
+  sources: [https://ja.wikipedia.org/wiki/百十四銀行]
+
+- date: "1948-06-22"
+  type: rename
+  from: [takamatsu-114]
+  to: [hyakujushi]
+  sources: [https://ja.wikipedia.org/wiki/百十四銀行]
+
+- date: "1934-08"
+  type: merger
+  from: [dai29, yawatahama-shogyo, ozu]
+  to: [yoshu]
+  sources: [https://ja.wikipedia.org/wiki/伊予銀行]
+
+- date: "1937-12"
+  type: merger
+  from: [dai52, nakata]
+  to: [matsuyama-52]
+  sources: [https://ja.wikipedia.org/wiki/伊予銀行]
+
+- date: "1941-09-01"
+  type: merger
+  from: [imabari-shogyo, matsuyama-52, yoshu]
+  to: [iyo-godo]
+  sources: [https://ja.wikipedia.org/wiki/伊予銀行]
+
+- date: "1951-11-01"
+  type: rename
+  from: [iyo-godo]
+  to: [iyo-1951]
+  sources: [https://ja.wikipedia.org/wiki/伊予銀行]
+
+- date: "1990-09-01"
+  type: rename
+  from: [iyo-1951]
+  to: [iyo]
+  sources: [https://ja.wikipedia.org/wiki/伊予銀行]
+
+- date: "1992-04-01"
+  type: absorption
+  from: [toho-sogo]
+  to: [iyo]
+  note: 救済合併
+  sources: [https://ja.wikipedia.org/wiki/東邦相互銀行, https://ja.wikipedia.org/wiki/伊予銀行]
+
+- date: "1896-02-07"
+  type: rename
+  from: [dai37-kokuritsu]
+  to: [kochi-dai37]
+  sources: [https://ja.wikipedia.org/wiki/四国銀行]
+
+- date: "1897-03-01"
+  type: rename
+  from: [kochi-dai37]
+  to: [kochi-old]
+  note: 国立銀行営業満期前特別処分法により株式会社高知銀行として営業継続
+  sources: [https://ja.wikipedia.org/wiki/四国銀行]
+
+- date: "1923-11-01"
+  type: rename
+  from: [kochi-old]
+  to: [shikoku]
+  note: 土佐銀行を吸収合併し改称
+  sources: [https://ja.wikipedia.org/wiki/四国銀行]
+
+- date: "1945-03-31"
+  type: merger
+  from: [jushichi, chikuho-old, kaho, fukuoka-chochiku]
+  to: [fukuoka]
+  sources: [https://ja.wikipedia.org/wiki/福岡銀行]
+
+- date: "1951-10-20"
+  type: rename
+  from: [nishinippon-mujin]
+  to: [nishinippon-sogo]
+  note: 相互銀行法施行により相互銀行へ転換
+  sources: [https://ja.wikipedia.org/wiki/西日本銀行]
+
+- date: "1954"
+  type: rename
+  from: [miyazaki-kyoei-mujin]
+  to: [takachiho-sogo]
+  sources: [https://ja.wikipedia.org/wiki/高千穂相互銀行]
+
+- date: "1984-04-01"
+  type: absorption
+  from: [takachiho-sogo]
+  to: [nishinippon-sogo]
+  note: 同日普通銀行転換・西日本銀行に改称
+  sources: [https://ja.wikipedia.org/wiki/西日本銀行, https://ja.wikipedia.org/wiki/高千穂相互銀行]
+
+- date: "1984-04-01"
+  type: rename
+  from: [nishinippon-sogo]
+  to: [nishinippon]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/西日本銀行]
+
+- date: "1951-10"
+  type: rename
+  from: [fukuoka-mujin]
+  to: [fukuoka-sogo]
+  sources: [https://ja.wikipedia.org/wiki/福岡シティ銀行]
+
+- date: "1989-02"
+  type: rename
+  from: [fukuoka-sogo]
+  to: [fukuoka-city]
+  note: 普通銀行に転換、第二地方銀行に
+  sources: [https://ja.wikipedia.org/wiki/福岡シティ銀行]
+
+- date: "2004-10-01"
+  type: merger
+  from: [nishinippon, fukuoka-city]
+  to: [nishi-nippon-city]
+  note: 法的には西日本銀行が福岡シティ銀行を吸収合併し商号変更
+  sources: [https://ja.wikipedia.org/wiki/西日本シティ銀行, https://ja.wikipedia.org/wiki/西日本銀行, https://ja.wikipedia.org/wiki/福岡シティ銀行]
+
+- date: "2011-10-03"
+  type: reorganization
+  from: [yamaguchi]
+  to: [yamaguchi, kitakyushu]
+  note: 山口銀行の九州内23支店を分割・譲受して開業
+  sources: [https://ja.wikipedia.org/wiki/北九州銀行]
+
+- date: "1931-08-01"
+  type: merger
+  from: [karatsu, saikai-shogyo]
+  to: [saga-chuo]
+  sources: [https://ja.wikipedia.org/wiki/佐賀銀行]
+
+- date: "1939-08-06"
+  type: merger
+  from: [imari, arita, koeki, takeo]
+  to: [saga-kogyo]
+  sources: [https://ja.wikipedia.org/wiki/佐賀銀行]
+
+- date: "1955-07-11"
+  type: merger
+  from: [saga-kogyo, saga-chuo]
+  to: [saga]
+  sources: [https://ja.wikipedia.org/wiki/佐賀銀行]
+
+- date: "1899-10-01"
+  type: rename
+  from: [dai135-kokuritsu]
+  to: [kyushu-shogyo]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/肥後銀行]
+
+- date: "1918-10"
+  type: rename
+  from: [kyushu-shogyo]
+  to: [kumamoto-old]
+  sources: [https://ja.wikipedia.org/wiki/肥後銀行]
+
+- date: "1925-07-25"
+  type: merger
+  from: [kumamoto-old, akita-kumamoto, ueki]
+  to: [higo-kyodo]
+  sources: [https://ja.wikipedia.org/wiki/肥後銀行]
+
+- date: "1928"
+  type: rename
+  from: [higo-kyodo]
+  to: [higo]
+  sources: [https://ja.wikipedia.org/wiki/肥後銀行]
+
+- date: "1897-05"
+  type: rename
+  from: [dai23-kokuritsu]
+  to: [nijusan]
+  note: 普通銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/大分銀行]
+
+- date: "1927-10"
+  type: merger
+  from: [oita-old, nijusan]
+  to: [oita-godo]
+  note: 出典では「大分銀行が二十三銀行を合併し大分合同銀行となる」
+  sources: [https://ja.wikipedia.org/wiki/大分銀行]
+
+- date: "1953-01"
+  type: rename
+  from: [oita-godo]
+  to: [oita]
+  sources: [https://ja.wikipedia.org/wiki/大分銀行]
+
+- date: "1962-08"
+  type: rename
+  from: [hyuga-kogyo]
+  to: [miyazaki]
+  sources: [https://ja.wikipedia.org/wiki/宮崎銀行]
+
+- date: "1944-02-01"
+  type: merger
+  from: [dai147, kagoshima-old, kagoshima-chochiku]
+  to: [kagoshima-kogyo]
+  sources: [https://ja.wikipedia.org/wiki/鹿児島銀行]
+
+- date: "1952-12"
+  type: rename
+  from: [kagoshima-kogyo]
+  to: [kagoshima]
+  sources: [https://ja.wikipedia.org/wiki/鹿児島銀行]
+
+- date: "1948-05"
+  type: rename
+  from: [okinawa-chuo]
+  to: [okinawa-old]
+  sources: [https://ja.wikipedia.org/wiki/沖縄中央銀行]
+
+- date: "1948-07-01"
+  type: absorption
+  from: [okinawa-old]
+  to: [ryukyu]
+  sources: [https://ja.wikipedia.org/wiki/琉球銀行_(特殊銀行), https://ja.wikipedia.org/wiki/琉球銀行]
+
+- date: "1963-08"
+  type: absorption
+  from: [sanwa-sogo-okinawa]
+  to: [okinawa]
+  note: 出典では「買収」
+  sources: [https://ja.wikipedia.org/wiki/沖縄銀行]
+
+- date: "1964-04"
+  type: absorption
+  from: [toyo-sogo-okinawa]
+  to: [okinawa]
+  sources: [https://ja.wikipedia.org/wiki/沖縄銀行]
+
+- date: "1971-10"
+  type: absorption
+  from: [nanyo-sogo]
+  to: [okinawa]
+  sources: [https://ja.wikipedia.org/wiki/沖縄銀行]
+
