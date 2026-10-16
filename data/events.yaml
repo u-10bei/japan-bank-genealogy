@@ -4768,3 +4768,17 @@
   to: [sanin-chochiku]
   note: 山陰貯蓄銀行が買収（1月20日買収認可）、島根貯蓄銀行は解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qs7JRy3mlbPLQMYbbgcVWx36K2h/description.html"]
+
+- date: "1888"
+  type: absorption
+  from: [dai31-kokuritsu]
+  to: [dai148-kokuritsu]
+  note: 第百四十八国立銀行が合併（銀行局報告は5月、第四銀行百年史は4月30日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html"]
+
+- date: "1898-07-01"
+  type: transfer
+  from: [dai148-kokuritsu]
+  to: [yamaguchi-osaka]
+  note: 満期により山口銀行が業務を継承（三和銀行史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html"]

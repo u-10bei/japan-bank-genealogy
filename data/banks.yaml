@@ -89,14 +89,30 @@
   note: 第三十四国立銀行として開業（1878年4月13日、三和銀行記事では1878年3月）、1897年9月普通銀行に転換
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三十四銀行]
 
+- id: dai31-kokuritsu
+  name: 第三十一国立銀行
+  type: other
+  dissolved: "1888"
+  note: 1888年第百四十八国立銀行に合併（銀行局報告は5月、第四銀行百年史は4月30日とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html"]
+
+- id: dai148-kokuritsu
+  name: 第百四十八国立銀行
+  type: other
+  founded: "1879-03-18"
+  dissolved: "1898"
+  prefecture: 大阪府
+  note: 1879年3月18日開業免状下付・設立、4月21日開業。1888年第三十一国立銀行を合併。1898年7月1日山口銀行が業務を継承。満期による解散日は資料により異なる（三和銀行史は1898年6月30日満期閉業、銀行総覧・銀行局報告は12月20日満期解散とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html"]
+
 - id: yamaguchi-osaka
   name: 山口銀行（大阪）
   type: other
-  founded: "1879"
+  founded: "1898"
   dissolved: "1933-12-09"
   prefecture: 大阪府
-  note: 1879年第百四十八国立銀行として開業、1898年山口銀行開業。現存の山口銀行（山口県）とは別
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/山口銀行_(大阪)]
+  note: 1898年7月1日第百四十八国立銀行の業務を継承して開業。銀行変遷史DBは1898〜1917年の山口銀行と、それ以後の山口銀行を分けている（未確認のため同じ項目とした）。現存の山口銀行（山口県）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3jRIsbG-iFFBep8UOAnVOt0MAof/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三和銀行, https://ja.wikipedia.org/wiki/山口銀行_(大阪)]
 
 - id: konoike
   name: 鴻池銀行
