@@ -3796,7 +3796,7 @@
   dissolved: "1958-04-01"
   prefecture: 愛媛県
   note: 1949年9月四国建物無尽が改称（Wikipediaは「東邦建設無尽」と表記）。1952年4月5日本店を松山市に移転。1958年1月4日相互銀行の免許を受け、4月1日東邦相互銀行に改称
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5pgnaKOQ-b-2F3XyUUI-DovSsMj/description.html", https://ja.wikipedia.org/wiki/東邦相互銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cMzpJ9TnGO3wkKtHCsr7UA9Tnci/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5pgnaKOQ-b-2F3XyUUI-DovSsMj/description.html", https://ja.wikipedia.org/wiki/東邦相互銀行]
 
 - id: toho-sogo
   name: 東邦相互銀行
@@ -3805,7 +3805,7 @@
   dissolved: "1992-04-01"
   prefecture: 愛媛県
   note: 1958年4月1日、相互銀行への転換で東邦建物無尽が改称。来島どっくグループの行き詰まりで経営危機、伊予銀行が救済合併
-  sources: [https://ja.wikipedia.org/wiki/東邦相互銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cMzpJ9TnGO3wkKtHCsr7UA9Tnci/description.html", https://ja.wikipedia.org/wiki/東邦相互銀行]
 
 - id: dai37-kokuritsu
   name: 第三十七国立銀行
