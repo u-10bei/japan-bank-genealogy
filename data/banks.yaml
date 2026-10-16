@@ -1785,6 +1785,33 @@
   note: 1923年1月20日光正銀行が改称。1928年11月27日業務廃止認可、銀行業を廃止し光正不動産株式会社に改称（消滅日は業務廃止認可日）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gT1Y1b44cAMRuStAY7NaC2q3L8g/description.html"]
 
+- id: rokken-shogyo
+  name: 六軒商業銀行
+  type: other
+  founded: "1898-06-30"
+  dissolved: "1908-12-22"
+  prefecture: 千葉県
+  note: 1898年6月30日設立、7月20日開業。1907年7月10日第九十八銀行に営業を譲渡（解散せず）。1908年12月22日福島に移転し原町商業銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/n4IryJhXGeftr8W7pqXUfJmbQRd/description.html"]
+
+- id: haramachi-shogyo
+  name: 原町商業銀行
+  type: other
+  founded: "1908-12-22"
+  dissolved: "1917-11-15"
+  prefecture: 福島県
+  note: 1908年12月22日六軒商業銀行が千葉から福島に移転し改称。福相銀行に改称（消滅日は銀行総覧の改称登記日。福島県金融経済の歩みは1916年消滅とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/KMB0JGBKg1BmdAVQL_J09NHHh_o/description.html"]
+
+- id: fukuso-bank
+  name: 福相銀行
+  type: other
+  founded: "1917-11-15"
+  dissolved: "1928-06-02"
+  prefecture: 福島県
+  note: 原町商業銀行が改称（設立日は銀行総覧の改称登記日）。1928年6月2日解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mR_TjPEXc2TCPe_6Zb54aZIKBSk/description.html"]
+
 - id: ichinomiya-shogyo
   name: 一宮商業銀行
   type: other
@@ -1815,7 +1842,7 @@
   founded: "1897-09-01"
   dissolved: "1943-03-31"
   prefecture: 千葉県
-  note: 安田財閥系。1897年9月1日第九十八国立銀行が改称。1907年7月10日津田沼商業銀行・六軒商業銀行の営業を譲受（両行は解散せず移転・改称。六軒商業銀行は未収録）。1917〜1919年に一宮商業・長南商業・花房の各行を合併。1943年3月31日小見川農商銀行・千葉合同銀行と新立合併し千葉銀行となる
+  note: 安田財閥系。1897年9月1日第九十八国立銀行が改称。1907年7月10日津田沼商業銀行・六軒商業銀行の営業を譲受（両行は解散せず移転・改称）。1917〜1919年に一宮商業・長南商業・花房の各行を合併。1943年3月31日小見川農商銀行・千葉合同銀行と新立合併し千葉銀行となる
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html", https://ja.wikipedia.org/wiki/千葉銀行]
 
 - id: chiba

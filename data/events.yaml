@@ -5013,3 +5013,25 @@
   to: [komazawa-bank]
   note: 駒沢銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TiIpCB4hSPz-uhOo4lsqpRMOxFe/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gT1Y1b44cAMRuStAY7NaC2q3L8g/description.html"]
+
+- date: "1907-07-10"
+  type: transfer
+  from: [rokken-shogyo]
+  to: [dai98]
+  partial: true
+  note: 第九十八銀行が営業を譲受（六軒商業銀行は解散せず、1908年12月22日福島に移転し原町商業銀行に改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/n4IryJhXGeftr8W7pqXUfJmbQRd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html"]
+
+- date: "1908-12-22"
+  type: rename
+  from: [rokken-shogyo]
+  to: [haramachi-shogyo]
+  note: 千葉から福島に移転し改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/n4IryJhXGeftr8W7pqXUfJmbQRd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/KMB0JGBKg1BmdAVQL_J09NHHh_o/description.html"]
+
+- date: "1917-11-15"
+  type: rename
+  from: [haramachi-shogyo]
+  to: [fukuso-bank]
+  note: 福相銀行に改称（日付は改称登記日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/KMB0JGBKg1BmdAVQL_J09NHHh_o/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mR_TjPEXc2TCPe_6Zb54aZIKBSk/description.html"]
