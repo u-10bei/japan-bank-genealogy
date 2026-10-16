@@ -5795,3 +5795,11 @@
   to: [sekishu]
   note: 浜田商業銀行の合併と同時に石州銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6B3SC9KQ1KsDkDAnJYNxKauVPcb/description.html"]
+
+- date: "1921-12"
+  type: transfer
+  from: [unshu-nishihama]
+  to: [shimane-chochiku]
+  partial: true
+  note: 雲州西浜銀行の貯蓄業務を新設の島根貯蓄銀行が継承
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MCdIi5UPJcOt6pPScBXbRnVyv2m/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qs7JRy3mlbPLQMYbbgcVWx36K2h/description.html"]
