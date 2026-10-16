@@ -5924,3 +5924,10 @@
   to: [daishi]
   note: 第四銀行が合併（3月10日合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vim3EiUqXGOboVHxY32SsbM0Kkl/description.html", https://ja.wikipedia.org/wiki/第四銀行]
+
+- date: "1919-09-30"
+  type: transfer
+  from: [mitsubishi-goshi-ginkobu]
+  to: [mitsubishi-1919]
+  note: 三菱合資会社銀行部が独立し、新設の三菱銀行に資産負債を譲渡（10月1日三菱銀行開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8rTCTYAxp6aTomAxHLqA0jJ8tul/description.html"]

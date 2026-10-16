@@ -13,6 +13,15 @@
 # ※ 初期データは主要行の系譜のみ。日付は出典で確認のうえ随時修正してください。
 
 # ---------------------------------------------------------------- 三菱UFJ系
+- id: mitsubishi-goshi-ginkobu
+  name: 三菱合資会社銀行部
+  type: other
+  founded: "1895-07-20"
+  dissolved: "1920-04"
+  prefecture: 東京都
+  note: 三菱合資会社（1893年12月15日、三菱社を改組して設立）が1895年7月20日に銀行部を設置し、第百十九国立銀行の業務を順次継承（9月7日営業認可、10月16日開業。第百十九国立銀行は未収録）。1919年9月30日、資産負債を新設の三菱銀行に譲渡。1920年4月廃業（銀行総覧による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8rTCTYAxp6aTomAxHLqA0jJ8tul/description.html"]
+
 - id: mitsubishi-1919
   name: 三菱銀行
   name_en: The Mitsubishi Bank
@@ -20,8 +29,8 @@
   founded: "1919-08-15"
   dissolved: "1948-10"
   prefecture: 東京都
-  note: 三菱合資会社銀行部の業務を継承して設立、同年10月1日営業開始
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三菱銀行]
+  note: 1919年8月15日設立（創立総会。8月19日営業認可）。9月30日三菱合資会社銀行部の資産負債を譲り受け、10月1日開業
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8rTCTYAxp6aTomAxHLqA0jJ8tul/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ", https://ja.wikipedia.org/wiki/三菱銀行]
 
 - id: chiyoda
   name: 千代田銀行
