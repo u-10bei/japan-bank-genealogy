@@ -8461,6 +8461,15 @@
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YCO6"]
 
 # ---------------------------------------------------------------- 旧銀行（中国・四国・九州・沖縄の系統、なみはや銀行の前身）
+- id: dai53-kokuritsu
+  name: 第五十三国立銀行
+  type: other
+  founded: "1878-12"
+  dissolved: "1898-07-01"
+  prefecture: 島根県
+  note: 津和野で設立（山陰合同銀行の有価証券報告書・五十年史は1878年12月1日、銀行総覧・開業免状下付は12月11日とする。1879年2月1日開業）。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し五十三銀行に改称（五十三銀行から八束銀行までの経緯は未確認のため項目にしていない）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jO1HJCW_fozE3UXCWo5XWQ5mXhp/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+
 - id: yatsuka
   name: 八束銀行
   type: other
