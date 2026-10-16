@@ -3607,17 +3607,52 @@
   name: 第百三十三国立銀行
   type: other
   founded: "1879-04"
-  dissolved: "1899-02"
+  dissolved: "1899-02-22"
   prefecture: 滋賀県
-  sources: [https://ja.wikipedia.org/wiki/百三十三銀行, https://ja.wikipedia.org/wiki/滋賀銀行]
+  note: 1899年2月22日、営業満期国立銀行処分法により私立銀行として営業を継続し百三十三銀行に改称（2月21日満期。滋賀銀行五十年史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xLidQLg5SbfZVoKCGo2SSsNeVLm/description.html", https://ja.wikipedia.org/wiki/百三十三銀行, https://ja.wikipedia.org/wiki/滋賀銀行]
+
+- id: hikone-shogyo
+  name: 彦根商業銀行
+  type: other
+  dissolved: "1901-11-20"
+  prefecture: 滋賀県
+  note: 1901年11月20日百三十三銀行に合併（11月1日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xLidQLg5SbfZVoKCGo2SSsNeVLm/description.html"]
+
+- id: takashima-bank
+  name: 高島銀行
+  type: other
+  founded: "1897"
+  dissolved: "1927-12-25"
+  prefecture: 滋賀県
+  note: 1927年12月25日百三十三銀行が買収。銀行変遷史DBは1897〜1927年の高島銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xLidQLg5SbfZVoKCGo2SSsNeVLm/description.html"]
+
+- id: terasho-bank
+  name: 寺庄銀行
+  type: other
+  dissolved: "1928-12-31"
+  prefecture: 滋賀県
+  note: 1928年12月31日百三十三銀行に合併（12月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xLidQLg5SbfZVoKCGo2SSsNeVLm/description.html"]
+
+- id: oumi-bank
+  name: 淡海銀行
+  type: other
+  dissolved: "1929-05-01"
+  prefecture: 滋賀県
+  note: 1929年5月1日百三十三銀行が買収（4月買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xLidQLg5SbfZVoKCGo2SSsNeVLm/description.html"]
 
 - id: hyakusanjusan
   name: 百三十三銀行
   type: other
-  founded: "1899-02"
+  founded: "1899-02-22"
   dissolved: "1933-10-01"
   prefecture: 滋賀県
-  sources: [https://ja.wikipedia.org/wiki/百三十三銀行]
+  note: 1899年2月22日第百三十三国立銀行が改称（1898年9月16日満期継続許可）。1901年彦根商業銀行・1928年寺庄銀行を合併、1927年高島銀行・1929年淡海銀行を買収。1933年10月1日八幡銀行と新立合併し滋賀銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xLidQLg5SbfZVoKCGo2SSsNeVLm/description.html", https://ja.wikipedia.org/wiki/百三十三銀行]
 
 - id: hachiman
   name: 八幡銀行
