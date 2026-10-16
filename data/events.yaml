@@ -5230,11 +5230,18 @@
   from: [rokujuku, nagaoka-bank]
   to: [nagaoka-rokujuku]
   note: 新立合併（10月26日合併認可、12月5日創立総会）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html", https://ja.wikipedia.org/wiki/北越銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BtGVCJOIioKV8-vpYuJW8z63FVl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html", https://ja.wikipedia.org/wiki/北越銀行]
 
 - date: "1948-10-01"
   type: rename
   from: [nagaoka-rokujuku]
   to: [hokuetsu]
-  note: 北越銀行に改称（9月20日商号変更認可）
-  sources: [https://ja.wikipedia.org/wiki/北越銀行]
+  note: 北越銀行に改称（9月20日改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BtGVCJOIioKV8-vpYuJW8z63FVl/description.html", https://ja.wikipedia.org/wiki/北越銀行]
+
+- date: "1943-12-31"
+  type: absorption
+  from: [nagaoka-chochiku]
+  to: [nagaoka-rokujuku]
+  note: 長岡六十九銀行が合併（12月6日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BtGVCJOIioKV8-vpYuJW8z63FVl/description.html"]

@@ -936,14 +936,23 @@
   note: 1942年12月7日六十九銀行と新立合併し長岡六十九銀行となる。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html", https://ja.wikipedia.org/wiki/北越銀行]
 
+- id: nagaoka-chochiku
+  name: 長岡貯蓄銀行
+  type: other
+  founded: "1921"
+  dissolved: "1943-12-31"
+  prefecture: 新潟県
+  note: 銀行変遷史DBは1921〜1943年の長岡貯蓄銀行とする（設立日は未確認）。1943年12月31日長岡六十九銀行に合併（12月6日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BtGVCJOIioKV8-vpYuJW8z63FVl/description.html"]
+
 - id: nagaoka-rokujuku
   name: 長岡六十九銀行
   type: other
   founded: "1942-12-07"
   dissolved: "1948-10-01"
   prefecture: 新潟県
-  note: 六十九銀行・長岡銀行の新立合併で設立（1942年10月26日合併認可、12月5日創立総会）。1948年10月1日北越銀行に改称（9月20日商号変更認可。Wikipediaによる）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html", https://ja.wikipedia.org/wiki/北越銀行]
+  note: 六十九銀行・長岡銀行の新立合併で設立（1942年10月26日合併認可、12月5日創立総会）。1943年12月31日長岡貯蓄銀行を合併。1945年11月1日加茂信用組合の営業を譲受（信用組合のため未収録）。1948年10月1日北越銀行に改称（9月20日改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BtGVCJOIioKV8-vpYuJW8z63FVl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mklx7Sbg7JDGObLTgEg2zWmUpvb/description.html", https://ja.wikipedia.org/wiki/北越銀行]
 
 - id: hokuetsu
   name: 北越銀行
