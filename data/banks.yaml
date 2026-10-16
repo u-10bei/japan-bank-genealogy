@@ -3603,13 +3603,31 @@
   prefecture: 三重県
   sources: [https://ja.wikipedia.org/wiki/百五銀行]
 
+- id: dai64-kokuritsu
+  name: 第六十四国立銀行
+  type: other
+  founded: "1878-06-17"
+  dissolved: "1898-06"
+  prefecture: 滋賀県
+  note: 大津で設立（1878年6月17日開業免状下付・設立、7月20日開業）。1879年第百三十三国立銀行が当行から分離して設立。1898年6月、営業満期国立銀行処分法により私立銀行として営業を継続し大津銀行に改称（3月17日満期継続許可。銀行局報告は6月16日継続、滋賀銀行五十年史は6月17日改組・改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e0IJz6AgGGa_W-ap-zF_5KVRblg/description.html"]
+
+- id: otsu-bank
+  name: 大津銀行
+  type: other
+  founded: "1898-06"
+  dissolved: "1908"
+  prefecture: 滋賀県
+  note: 1898年6月第六十四国立銀行が改称。銀行変遷史DBは1898〜1908年の大津銀行とする（1908年以後の経緯は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e0IJz6AgGGa_W-ap-zF_5KVRblg/description.html"]
+
 - id: dai133-kokuritsu
   name: 第百三十三国立銀行
   type: other
   founded: "1879-02-22"
   dissolved: "1899-02-22"
   prefecture: 滋賀県
-  note: 第六十四国立銀行から分離して設立（1879年1月11日分離設立許可、2月22日開業免状下付・設立、4月1日開業。第六十四国立銀行は未収録）。1899年2月22日、営業満期国立銀行処分法により私立銀行として営業を継続し百三十三銀行に改称（2月21日満期。滋賀銀行五十年史による）
+  note: 第六十四国立銀行から分離して設立（1879年1月11日分離設立許可、2月22日開業免状下付・設立、4月1日開業）。1899年2月22日、営業満期国立銀行処分法により私立銀行として営業を継続し百三十三銀行に改称（2月21日満期。滋賀銀行五十年史による）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/63NOeNg5sQVkQroj78ksVpIXWMb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xLidQLg5SbfZVoKCGo2SSsNeVLm/description.html", https://ja.wikipedia.org/wiki/百三十三銀行, https://ja.wikipedia.org/wiki/滋賀銀行]
 
 - id: hikone-shogyo

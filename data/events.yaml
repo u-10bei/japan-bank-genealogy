@@ -5975,3 +5975,18 @@
   to: [hyakusanjusan]
   note: 百三十三銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xLidQLg5SbfZVoKCGo2SSsNeVLm/description.html"]
+
+- date: "1879-02-22"
+  type: transfer
+  from: [dai64-kokuritsu]
+  to: [dai133-kokuritsu]
+  partial: true
+  note: 第百三十三国立銀行が第六十四国立銀行から分離して設立（1月11日分離設立許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e0IJz6AgGGa_W-ap-zF_5KVRblg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/63NOeNg5sQVkQroj78ksVpIXWMb/description.html"]
+
+- date: "1898-06"
+  type: rename
+  from: [dai64-kokuritsu]
+  to: [otsu-bank]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は6月16日、滋賀銀行五十年史は6月17日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e0IJz6AgGGa_W-ap-zF_5KVRblg/description.html"]
