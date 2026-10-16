@@ -5605,3 +5605,10 @@
   to: [iyo-sogo-chochiku]
   note: 伊予相互貯蓄銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1ZAFdvevxsIj2v0VfliuhE8sCho/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PnU7bNbBD3Dk8oA8ysC1WqR7mLm/description.html"]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai18-kokuritsu]
+  to: [eighteenth]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/uK4jFZTEhyg-PAahEuXTmrX870f/description.html"]

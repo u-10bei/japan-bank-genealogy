@@ -1057,14 +1057,23 @@
   prefecture: 新潟県
   sources: [https://ja.wikipedia.org/wiki/第四北越銀行]
 
+- id: dai18-kokuritsu
+  name: 第十八国立銀行
+  type: other
+  founded: "1877-11-02"
+  dissolved: "1897-07-01"
+  prefecture: 長崎県
+  note: 1877年9月2日創立総会、11月2日開業免状下付・設立、12月20日開業。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し十八銀行に改称（3月17日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/uK4jFZTEhyg-PAahEuXTmrX870f/description.html", https://ja.wikipedia.org/wiki/十八銀行]
+
 - id: eighteenth
   name: 十八銀行
   type: regional
-  founded: "1877-09-02"
+  founded: "1897-07-01"
   dissolved: "2020-10-01"
   prefecture: 長崎県
-  note: 第十八国立銀行として設立（同年12月20日開業）
-  sources: [https://ja.wikipedia.org/wiki/十八銀行]
+  note: 1897年7月1日第十八国立銀行が改称（創業は1877年）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/uK4jFZTEhyg-PAahEuXTmrX870f/description.html", https://ja.wikipedia.org/wiki/十八銀行]
 
 - id: haiki-ginko
   name: 早岐銀行
