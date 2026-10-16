@@ -569,7 +569,8 @@
   type: merger
   from: [chiba-godo, omigawa-nosho, dai98]
   to: [chiba]
-  sources: [https://ja.wikipedia.org/wiki/千葉銀行]
+  note: 3行の新立合併（2月16日合併認可、3月29日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html", https://ja.wikipedia.org/wiki/千葉銀行]
 
 - date: "1989"
   type: rename
@@ -4955,3 +4956,31 @@
   to: [nobeoka]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nzDfhp3LCkIGa31AgyMI8jWeHpd/description.html"]
+
+- date: "1897-09-01"
+  type: rename
+  from: [dai98-kokuritsu]
+  to: [dai98]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/suWikI_n-k59mk9uTlRf_tWHL3g/description.html"]
+
+- date: "1917"
+  type: absorption
+  from: [ichinomiya-shogyo]
+  to: [dai98]
+  note: 第九十八銀行が合併（銀行総覧は11月24日、千葉銀行史は12月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html"]
+
+- date: "1918-11-01"
+  type: absorption
+  from: [chonan-shogyo]
+  to: [dai98]
+  note: 第九十八銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html"]
+
+- date: "1919-04-01"
+  type: absorption
+  from: [hanabusa-bank]
+  to: [dai98]
+  note: 第九十八銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html"]

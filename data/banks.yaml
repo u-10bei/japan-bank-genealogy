@@ -1740,13 +1740,47 @@
   note: 設立日は出典に記載なし
   sources: [https://ja.wikipedia.org/wiki/千葉銀行]
 
+- id: dai98-kokuritsu
+  name: 第九十八国立銀行
+  type: other
+  founded: "1878-11-16"
+  dissolved: "1897-09-01"
+  prefecture: 千葉県
+  note: 1878年11月16日開業免状下付・設立、12月7日開業。1897年9月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第九十八銀行に改称（5月31日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/suWikI_n-k59mk9uTlRf_tWHL3g/description.html"]
+
+- id: ichinomiya-shogyo
+  name: 一宮商業銀行
+  type: other
+  dissolved: "1917"
+  prefecture: 千葉県
+  note: 1917年第九十八銀行に合併（銀行総覧は11月24日合併・12月8日合併登記、千葉銀行史は12月1日合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html"]
+
+- id: chonan-shogyo
+  name: 長南商業銀行
+  type: other
+  dissolved: "1918-11-01"
+  prefecture: 千葉県
+  note: 1918年11月1日第九十八銀行に合併（11月5日合併登記）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html"]
+
+- id: hanabusa-bank
+  name: 花房銀行
+  type: other
+  dissolved: "1919-04-01"
+  prefecture: 千葉県
+  note: 1919年4月1日第九十八銀行に合併（千葉銀行史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html"]
+
 - id: dai98
   name: 第九十八銀行
   type: other
+  founded: "1897-09-01"
   dissolved: "1943-03-31"
   prefecture: 千葉県
-  note: 旧第九十八国立銀行（安田財閥系）。設立日・改称日は出典に記載なし
-  sources: [https://ja.wikipedia.org/wiki/千葉銀行]
+  note: 安田財閥系。1897年9月1日第九十八国立銀行が改称。1907年7月10日津田沼商業銀行・六軒商業銀行の営業を譲受（両行は解散せず移転・改称したため未収録）。1917〜1919年に一宮商業・長南商業・花房の各行を合併。1943年3月31日小見川農商銀行・千葉合同銀行と新立合併し千葉銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eFSGPlK81VsfkyYVoqPufXAoMsm/description.html", https://ja.wikipedia.org/wiki/千葉銀行]
 
 - id: chiba
   name: 千葉銀行
