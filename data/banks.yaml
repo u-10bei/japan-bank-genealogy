@@ -4891,14 +4891,23 @@
   note: 高知銀行が土佐銀行を吸収合併し改称
   sources: [https://ja.wikipedia.org/wiki/四国銀行]
 
+- id: dai17-kokuritsu
+  name: 第十七国立銀行
+  type: other
+  founded: "1877-09-22"
+  dissolved: "1897-09"
+  prefecture: 福岡県
+  note: 1877年9月22日開業免状下付・設立、11月1日開業。1880年9月大阪に移転し、1883年8月15日福岡に戻る。1897年9月、営業満期国立銀行処分法により私立銀行として営業を継続し十七銀行に改称（6月16日満期継続許可。銀行局報告は9月1日満期、福岡銀行二十年史付編は9月22日改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-EitCLFIt55afpLHFfapHBbgo2i/description.html", https://ja.wikipedia.org/wiki/第十七国立銀行]
+
 - id: jushichi
   name: 十七銀行
   type: other
-  founded: "1877"
+  founded: "1897-09"
   dissolved: "1945-03-31"
   prefecture: 福岡県
-  note: 第十七国立銀行として創業（普通銀行転換日は記載なし）
-  sources: [https://ja.wikipedia.org/wiki/福岡銀行, https://ja.wikipedia.org/wiki/第十七国立銀行]
+  note: 1897年9月第十七国立銀行が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-EitCLFIt55afpLHFfapHBbgo2i/description.html", https://ja.wikipedia.org/wiki/福岡銀行, https://ja.wikipedia.org/wiki/第十七国立銀行]
 
 - id: chikuho-old
   name: 筑邦銀行

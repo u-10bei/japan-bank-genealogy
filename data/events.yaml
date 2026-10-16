@@ -5612,3 +5612,10 @@
   to: [eighteenth]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/uK4jFZTEhyg-PAahEuXTmrX870f/description.html"]
+
+- date: "1897-09"
+  type: rename
+  from: [dai17-kokuritsu]
+  to: [jushichi]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は9月1日満期、福岡銀行二十年史付編は9月22日改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-EitCLFIt55afpLHFfapHBbgo2i/description.html"]
