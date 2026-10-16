@@ -2053,33 +2053,73 @@
   note: 1943年7月27日設立総会、7月31日開業。持株会社ほくほくフィナンシャルグループ傘下
   sources: [https://ja.wikipedia.org/wiki/北陸銀行]
 
+- id: kano-mujin
+  name: 加能無尽
+  type: other
+  dissolved: "1943-05-10"
+  prefecture: 石川県
+  note: 1943年5月10日北都無尽に営業譲渡（消滅日は営業譲渡日）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rrV94PbLAipk15ouyPLnmcOgEih/description.html"]
+
 - id: hokuto-mujin
   name: 北都無尽
   type: other
+  founded: "1925-09-05"
   dissolved: "1943-06-10"
-  note: 1943年6月10日輪島無尽と新立合併し北陸無尽となる。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+  prefecture: 石川県
+  note: 1943年5月10日加能無尽の営業を譲受。1943年6月10日輪島無尽と新立合併し北陸無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rrV94PbLAipk15ouyPLnmcOgEih/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+
+- id: taihei-mujin-ishikawa
+  name: 太平無尽
+  type: other
+  dissolved: "1941-05-30"
+  prefecture: 石川県
+  note: 1941年5月30日輪島無尽に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/idf9t86PebtKDFaXPo_P9Ni4z2e/description.html"]
 
 - id: wajima-mujin
   name: 輪島無尽
   type: other
+  founded: "1922-04-18"
   dissolved: "1943-06-10"
-  note: 1943年6月10日北都無尽と新立合併し北陸無尽となる。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+  prefecture: 石川県
+  note: 1941年5月30日太平無尽を合併。1943年6月10日北都無尽と新立合併し北陸無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/idf9t86PebtKDFaXPo_P9Ni4z2e/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+
+- id: kanazawa-mujin
+  name: 金沢無尽
+  type: other
+  dissolved: "1942-04-04"
+  prefecture: 石川県
+  note: 1942年4月4日北国無尽に営業譲渡（消滅日は営業譲渡日）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XgKheUHwu5T_H2w6MaodkZN88-d/description.html"]
 
 - id: hokkoku-mujin
   name: 北国無尽
   type: other
+  founded: "1924-03-26"
   dissolved: "1944-09-01"
-  note: 1944年9月1日北陸無尽に合併（8月21日合併認可）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+  prefecture: 石川県
+  note: 設立日は加州相互銀行史・銀行総覧第34〜49回による（第31〜33回は1924年7月21日とする）。1942年4月4日金沢無尽の営業を譲受。1944年9月1日北陸無尽に合併（8月21日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XgKheUHwu5T_H2w6MaodkZN88-d/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+
+- id: noto-chokin
+  name: 無尽経営能登貯金
+  type: other
+  dissolved: "1916-06-08"
+  prefecture: 石川県
+  note: 無尽経営能登貯金株式会社。1916年6月8日能登無尽株式会社に改称（加州相互銀行史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ah9ZvBmoKdhMfa54w5KGW7XCwVe/description.html"]
 
 - id: noto-mujin
   name: 能登無尽
   type: other
+  founded: "1916-06-08"
   dissolved: "1944-12-11"
-  note: 1944年12月11日北陸無尽に営業譲渡（消滅日は営業譲渡日）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
+  prefecture: 石川県
+  note: 1916年6月8日無尽経営能登貯金株式会社が改称。1944年12月11日北陸無尽に営業譲渡（消滅日は営業譲渡日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ah9ZvBmoKdhMfa54w5KGW7XCwVe/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CMSo6K0A5E5r9QRDTso1lcYxbvf/description.html"]
 
 - id: hokuriku-mujin
   name: 北陸無尽
