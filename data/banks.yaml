@@ -615,14 +615,81 @@
   note: 第十八国立銀行として設立（同年12月20日開業）
   sources: [https://ja.wikipedia.org/wiki/十八銀行]
 
+- id: haiki-ginko
+  name: 早岐銀行
+  type: other
+  dissolved: "1907-06"
+  prefecture: 長崎県
+  note: 1907年6月佐世保銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
+
+- id: sasebo-ginko
+  name: 佐世保銀行
+  type: other
+  founded: "1907-06"
+  dissolved: "1939-09-01"
+  prefecture: 長崎県
+  note: 早岐銀行が改称（銀總は1907年6月20日、親和銀行史は6月・8月1日とする）。1927年9月1日相浦銀行、10月1日面高・折尾瀬・殖産・瀬戸の4行を合併。1939年8月31日新立合併により解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
+
+- id: ainoura-ginko
+  name: 相浦銀行
+  type: other
+  dissolved: "1927-09-01"
+  prefecture: 長崎県
+  note: 1927年9月1日佐世保銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
+
+- id: omodaka-ginko
+  name: 面高銀行
+  type: other
+  dissolved: "1927-10-01"
+  prefecture: 長崎県
+  note: 1927年10月1日佐世保銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
+
+- id: oriose-ginko
+  name: 折尾瀬銀行
+  type: other
+  dissolved: "1927-10-01"
+  prefecture: 長崎県
+  note: 1927年10月1日佐世保銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
+
+- id: shokusan-nagasaki
+  name: 殖産銀行
+  type: other
+  founded: "1891"
+  dissolved: "1927-10-01"
+  prefecture: 長崎県
+  note: 1927年10月1日佐世保銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
+
+- id: seto-ginko
+  name: 瀬戸銀行
+  type: other
+  founded: "1899"
+  dissolved: "1927-10-01"
+  prefecture: 長崎県
+  note: 1927年10月1日佐世保銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
+
+- id: sasebo-shogyo
+  name: 佐世保商業銀行
+  type: other
+  dissolved: "1939-09-01"
+  prefecture: 長崎県
+  note: 1939年8月31日、佐世保銀行との新立合併により解散（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html", https://ja.wikipedia.org/wiki/親和銀行]
+
 - id: shinwa
   name: 親和銀行
   type: regional
-  founded: "1939-09-07"
+  founded: "1939-09-01"
   dissolved: "2020-10-01"
   prefecture: 長崎県
-  note: 佐世保銀行と佐世保商業銀行の合併により設立
-  sources: [https://ja.wikipedia.org/wiki/親和銀行]
+  note: 佐世保銀行と佐世保商業銀行の新立合併により設立。1939年8月26日新立合併認可（銀總は同日を設立日とする）、8月31日両行解散、9月1日創立総会・開業（親和銀行史）。Wikipediaは9月7日とする
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html", https://ja.wikipedia.org/wiki/親和銀行]
 
 - id: juhachi-shinwa
   name: 十八親和銀行

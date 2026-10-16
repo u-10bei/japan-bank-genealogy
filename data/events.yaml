@@ -3804,3 +3804,30 @@
   from: [tonan-chochiku]
   to: [yokohama-koshin]
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
+
+# ---------------------------------------------------------------- 親和銀行の前身（銀行変遷史データベース）
+- date: "1907-06"
+  type: rename
+  from: [haiki-ginko]
+  to: [sasebo-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
+
+- date: "1927-09-01"
+  type: absorption
+  from: [ainoura-ginko]
+  to: [sasebo-ginko]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
+
+- date: "1927-10-01"
+  type: absorption
+  from: [omodaka-ginko, oriose-ginko, shokusan-nagasaki, seto-ginko]
+  to: [sasebo-ginko]
+  note: 4行を合併（1927年8月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html"]
+
+- date: "1939-09-01"
+  type: merger
+  from: [sasebo-ginko, sasebo-shogyo]
+  to: [shinwa]
+  note: 新立合併。8月26日認可、8月31日両行解散、9月1日創立総会・開業
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MfO9DL_A8CudmbB117U1minQx9j/description.html", https://ja.wikipedia.org/wiki/親和銀行]
