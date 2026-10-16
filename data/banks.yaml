@@ -3095,13 +3095,46 @@
   prefecture: 和歌山県
   sources: [https://ja.wikipedia.org/wiki/和歌山銀行]
 
+- id: shingu-mujin
+  name: 新宮無尽
+  type: other
+  dissolved: "1937-01"
+  prefecture: 和歌山県
+  note: 1937年1月紀南無尽に合併（興紀相互銀行史は1月26日合併解散決議とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html"]
+
+- id: kinan-mujin
+  name: 紀南無尽
+  type: other
+  founded: "1925-01-15"
+  dissolved: "1941-08-20"
+  prefecture: 和歌山県
+  note: 田辺市で設立（1月15日創立総会、3月6日無尽営業認可、3月15日開業、3月17日設立登記）。1937年1月新宮無尽を合併。1941年8月20日福徳無尽と新立合併し興紀無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html", https://ja.wikipedia.org/wiki/阪和銀行]
+
+- id: fukutoku-mujin-wakayama
+  name: 福徳無尽
+  type: other
+  dissolved: "1941-08-20"
+  note: 1941年8月20日紀南無尽と新立合併し興紀無尽となる。設立日は出典に記載なし。大阪の福徳相互銀行（のち福徳銀行）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html"]
+
+- id: kouki-mujin
+  name: 興紀無尽
+  type: other
+  founded: "1941-08-20"
+  dissolved: "1951-10"
+  prefecture: 和歌山県
+  note: 紀南無尽・福徳無尽の新立合併で設立（1941年7月24日合併認可、8月16日創立総会、8月20日設立登記）。Wikipediaは3社の合併とするが、銀行変遷史DBでは新宮無尽は1937年に紀南無尽へ合併済み。1951年10月興紀相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html", https://ja.wikipedia.org/wiki/阪和銀行]
+
 - id: kouki-sogo
   name: 興紀相互銀行
   type: other
-  founded: "1941-08"
+  founded: "1951-10"
   dissolved: "1989-02"
   prefecture: 和歌山県
-  note: 紀南無尽（1925年田辺市）など3社の合併で興紀無尽、1951年10月相互銀行に
+  note: 1951年10月、相互銀行への転換で興紀無尽が改称（日付は未確認）
   sources: [https://ja.wikipedia.org/wiki/阪和銀行]
 
 - id: hanwa

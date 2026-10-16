@@ -4351,3 +4351,24 @@
   to: [sogo-shinyo-mujin]
   note: 新設の相互信用無尽株式会社が合資会社の業務を継承（株式会社化）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0a6yrJLcBrVkZ2FkIQ4Mo7C1kno/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PMK5GchRrgrmgVDgDdZEc-cyR6h/description.html"]
+
+- date: "1937-01"
+  type: absorption
+  from: [shingu-mujin]
+  to: [kinan-mujin]
+  note: 紀南無尽が合併（1月26日新宮無尽が合併解散決議）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html"]
+
+- date: "1941-08-20"
+  type: merger
+  from: [kinan-mujin, fukutoku-mujin-wakayama]
+  to: [kouki-mujin]
+  note: 新立合併（7月24日合併認可、8月16日創立総会、8月20日設立登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z6BOsR-aYqZXT_SAOwXJ7gP0kEf/description.html"]
+
+- date: "1951-10"
+  type: rename
+  from: [kouki-mujin]
+  to: [kouki-sogo]
+  note: 相互銀行に転換
+  sources: [https://ja.wikipedia.org/wiki/阪和銀行]
