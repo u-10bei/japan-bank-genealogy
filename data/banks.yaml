@@ -5861,14 +5861,32 @@
   note: 1993年10月日向市信用組合と合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YG72", https://ja.wikipedia.org/wiki/宮崎太陽銀行]
 
+- id: mujin-gushu-sangyo-shikin
+  name: 無尽隅州産業資金
+  type: other
+  founded: "1913-09"
+  dissolved: "1917-12-12"
+  prefecture: 鹿児島県
+  note: 1913年9月同仁貯金合資会社として設立（Wikipedia）。無尽隅州産業資金合資会社への改称日は出典に記載なし。1917年12月12日隅州産業無尽合資会社に改称（銀行変遷史DB）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/D_m4I3LklpivRxHld_UB6EgZdkp/description.html", https://ja.wikipedia.org/wiki/南日本銀行]
+
+- id: gushu-sangyo-mujin
+  name: 隅州産業無尽
+  type: other
+  founded: "1917-12-12"
+  dissolved: "1924-11-24"
+  prefecture: 鹿児島県
+  note: 隅州産業無尽合資会社。1919年8月25日無尽営業免許。1924年11月24日鹿児島無尽合資会社に改称（銀行変遷史DB、旭相互銀行史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/D_m4I3LklpivRxHld_UB6EgZdkp/description.html"]
+
 - id: kagoshima-mujin-old
   name: 鹿児島無尽
   type: other
-  founded: "1913-09"
+  founded: "1924-11-24"
   dissolved: "1942-02-07"
   prefecture: 鹿児島県
-  note: 同仁貯金合資会社として設立し、隅州産業無尽等を経て鹿児島無尽に改称（Wikipedia。銀行変遷史DBはこの鹿児島無尽を1936〜1942年とする）。1942年2月7日、大島無尽・第一産業無尽・富国無尽と新立合併
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
+  note: 1924年11月24日隅州産業無尽合資会社が鹿児島無尽合資会社に改称。銀行変遷史DBは鹿児島無尽株式会社を1936〜1942年とする（株式会社への改組と考えられるが、改組日は確認できていないため同じ項目とした）。1942年2月7日、大島無尽・第一産業無尽・富国無尽と新立合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/D_m4I3LklpivRxHld_UB6EgZdkp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YGBN", https://ja.wikipedia.org/wiki/南日本銀行]
 
 - id: oshima-mujin-1936
   name: 大島無尽

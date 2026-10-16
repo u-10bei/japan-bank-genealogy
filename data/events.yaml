@@ -4204,3 +4204,17 @@
   to: [kagoshima-mujin-1942]
   note: 4社の新立合併（1941年12月5日認可、1942年2月1日創立総会）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v6NtcOoTSo2uM_gPVVUpPbaSwlc/description.html"]
+
+- date: "1917-12-12"
+  type: rename
+  from: [mujin-gushu-sangyo-shikin]
+  to: [gushu-sangyo-mujin]
+  note: 無尽隅州産業資金合資会社が隅州産業無尽合資会社に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/D_m4I3LklpivRxHld_UB6EgZdkp/description.html"]
+
+- date: "1924-11-24"
+  type: rename
+  from: [gushu-sangyo-mujin]
+  to: [kagoshima-mujin-old]
+  note: 鹿児島無尽合資会社に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/D_m4I3LklpivRxHld_UB6EgZdkp/description.html"]
