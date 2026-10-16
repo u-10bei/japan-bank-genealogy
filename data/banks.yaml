@@ -4792,6 +4792,7 @@
   founded: "1896"
   dissolved: "1941-09-01"
   prefecture: 愛媛県
+  note: 設立年はWikipediaによる（銀行変遷史DBは1900〜1941年の今治商業銀行とする）
   sources: [https://ja.wikipedia.org/wiki/伊予銀行]
 
 - id: iyo-godo
@@ -9525,12 +9526,39 @@
   note: 1943年7月15日合併認可、8月1日阿波商業銀行に合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
 
+- id: ehime-chochiku
+  name: 愛媛貯蓄銀行
+  type: other
+  dissolved: "1921-12-01"
+  prefecture: 愛媛県
+  note: 1921年12月1日、松山貯蓄銀行および貯蓄業務兼営11行の貯蓄部門と新立合併し伊予貯蓄銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1ZAFdvevxsIj2v0VfliuhE8sCho/description.html"]
+
+- id: matsuyama-chochiku
+  name: 松山貯蓄銀行
+  type: other
+  dissolved: "1921-12-01"
+  prefecture: 愛媛県
+  note: 1921年12月1日、愛媛貯蓄銀行および貯蓄業務兼営11行の貯蓄部門と新立合併し伊予貯蓄銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1ZAFdvevxsIj2v0VfliuhE8sCho/description.html"]
+
+- id: iyo-chochiku
+  name: 伊予貯蓄銀行
+  type: other
+  founded: "1921-12-01"
+  dissolved: "1926-03-01"
+  prefecture: 愛媛県
+  note: 愛媛貯蓄銀行・松山貯蓄銀行と、今治商業・伊予周桑・伊予農業・内子・宇和商業・大洲（1889〜1926）・大洲商業・喜多・第二十九・松山商業・八幡浜商業の11行が兼営する貯蓄部門との新立合併で設立（12月28日開業）。11行のうち未収録の行は図に表示していない。1926年3月1日伊予相互貯蓄銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1ZAFdvevxsIj2v0VfliuhE8sCho/description.html"]
+
 - id: iyo-sogo-chochiku
   name: 伊豫相互貯蓄銀行
   type: other
-  dissolved: "1944-12"
-  note: 1944年12月伊豫合同銀行が合併
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OLYJ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBIB"]
+  founded: "1926-03-01"
+  dissolved: "1944-12-15"
+  prefecture: 愛媛県
+  note: 1926年3月1日伊予貯蓄銀行が改称。1944年12月15日伊豫合同銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PnU7bNbBD3Dk8oA8ysC1WqR7mLm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OLYJ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBIB"]
 
 - id: tosa
   name: 土佐銀行

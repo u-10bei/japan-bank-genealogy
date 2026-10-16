@@ -3642,11 +3642,11 @@
   to: [awa-shogyo]
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/N0IXK1CUrCTLdFlOc7T_3Pp1-Jl/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100W01T"]
 
-- date: "1944-12"
+- date: "1944-12-15"
   type: absorption
   from: [iyo-sogo-chochiku]
   to: [iyo-godo]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OLYJ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBIB"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PnU7bNbBD3Dk8oA8ysC1WqR7mLm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OLYJ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBIB"]
 
 - date: "1923-11-01"
   type: absorption
@@ -5563,3 +5563,45 @@
   to: [kagoshima-old]
   note: 新立合併（9月30日創立総会、10月1日開業）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cx8m_wY_DbZTBkO1M40PYjKq_No/description.html"]
+
+- date: "1921-12-01"
+  type: merger
+  from: [ehime-chochiku, matsuyama-chochiku]
+  to: [iyo-chochiku]
+  note: 愛媛貯蓄銀行・松山貯蓄銀行と、貯蓄業務兼営11行の貯蓄部門との新立合併（12月28日開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1ZAFdvevxsIj2v0VfliuhE8sCho/description.html"]
+
+- date: "1921-12-01"
+  type: transfer
+  from: [imabari-shogyo]
+  to: [iyo-chochiku]
+  note: 兼営していた貯蓄部門を伊予貯蓄銀行の新立合併に統合
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1ZAFdvevxsIj2v0VfliuhE8sCho/description.html"]
+
+- date: "1921-12-01"
+  type: transfer
+  from: [iyo-shuso]
+  to: [iyo-chochiku]
+  note: 兼営していた貯蓄部門を伊予貯蓄銀行の新立合併に統合
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1ZAFdvevxsIj2v0VfliuhE8sCho/description.html"]
+
+- date: "1921-12-01"
+  type: transfer
+  from: [dai29]
+  to: [iyo-chochiku]
+  note: 兼営していた貯蓄部門を伊予貯蓄銀行の新立合併に統合
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1ZAFdvevxsIj2v0VfliuhE8sCho/description.html"]
+
+- date: "1921-12-01"
+  type: transfer
+  from: [yawatahama-shogyo]
+  to: [iyo-chochiku]
+  note: 兼営していた貯蓄部門を伊予貯蓄銀行の新立合併に統合
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1ZAFdvevxsIj2v0VfliuhE8sCho/description.html"]
+
+- date: "1926-03-01"
+  type: rename
+  from: [iyo-chochiku]
+  to: [iyo-sogo-chochiku]
+  note: 伊予相互貯蓄銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1ZAFdvevxsIj2v0VfliuhE8sCho/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PnU7bNbBD3Dk8oA8ysC1WqR7mLm/description.html"]
