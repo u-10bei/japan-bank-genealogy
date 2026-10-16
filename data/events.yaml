@@ -4331,9 +4331,23 @@
   note: 個人経営の大森無尽商行が株式会社大森無尽商行の設立により解散（株式会社化）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zEXeo08x3n6wL6vOMVu_gywTR8m/description.html"]
 
-- date: "1942-10-03"
+- date: "1942-10-05"
   type: merger
   from: [sogo-shinyo-mujin, omori-mujin-shoko, daiichi-kyoei-mujin]
   to: [niigata-mujin]
-  note: 3社の新立合併
-  sources: [https://ja.wikipedia.org/wiki/新潟中央銀行]
+  note: 3社の新立合併（10月3日創立総会、10月5日新立合併・開業、10月15日設立登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PMK5GchRrgrmgVDgDdZEc-cyR6h/description.html", https://ja.wikipedia.org/wiki/新潟中央銀行]
+
+- date: "1915-10-20"
+  type: rename
+  from: [sogo-shinyo-goshi]
+  to: [sogo-shinyo-mujin-goshi]
+  note: 相互信用合資会社が相互信用無尽合資会社に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0a6yrJLcBrVkZ2FkIQ4Mo7C1kno/description.html"]
+
+- date: "1936-05-24"
+  type: transfer
+  from: [sogo-shinyo-mujin-goshi]
+  to: [sogo-shinyo-mujin]
+  note: 新設の相互信用無尽株式会社が合資会社の業務を継承（株式会社化）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0a6yrJLcBrVkZ2FkIQ4Mo7C1kno/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PMK5GchRrgrmgVDgDdZEc-cyR6h/description.html"]
