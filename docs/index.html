@@ -146,6 +146,7 @@ svg text { font-family: inherit; }
 .event-dot { fill: var(--surface); stroke: var(--text-secondary); stroke-width: 1.5px; }
 .fail-mark { stroke: var(--critical); stroke-width: 2.5px; stroke-linecap: round; }
 .dim { opacity: .12; }
+.bank .bar.unknown-start { opacity: .45; }
 .bank.selected .bar { stroke: var(--text-primary); }
 .today { stroke: var(--text-muted); stroke-dasharray: 2 4; }
 
@@ -232,8 +233,11 @@ function init(data) {
     }
   }
   for (const b of banks.values()) {
-    b.start = toYear(b.founded);
     b.end = b.dissolved ? toYear(b.dissolved) : NOW_YEAR;
+    // 設立日不明: 最初に関わるイベント（なければ消滅日）の5年前から薄く描く
+    b.unknownStart = !b.founded;
+    b.start = b.founded ? toYear(b.founded)
+      : Math.min(b.end, ...b.events.map(e => toYear(e.date))) - 5;
     b.failed = b.events.some(e => e.type === "failure" && e.from.includes(b.id));
   }
 
@@ -323,7 +327,7 @@ function init(data) {
     .on("mousemove", (ev, d) => showTip(ev, d))
     .on("mouseleave", hideTip);
   bankSel.append("rect").attr("class", "hit").attr("height", ROW_H);
-  bankSel.append("rect").attr("class", "bar").attr("height", 8).attr("rx", 4)
+  bankSel.append("rect").attr("class", d => "bar" + (d.unknownStart ? " unknown-start" : "")).attr("height", 8).attr("rx", 4)
     .attr("fill", d => `var(--t-${d.type})`);
   bankSel.append("text").attr("class", d => d.dissolved ? "" : "alive")
     .text(d => d.name);
@@ -459,7 +463,7 @@ function init(data) {
       <p class="en">${esc(b.name_en || "")}</p>
       <dl>
         <dt>種別</dt><dd><span class="swatch" style="background:var(--t-${b.type})"></span> ${TYPE_LABELS[b.type]}</dd>
-        <dt>設立</dt><dd>${fmtDate(b.founded)}</dd>
+        <dt>設立</dt><dd>${b.founded ? fmtDate(b.founded) : "不明"}</dd>
         <dt>消滅</dt><dd>${b.dissolved ? fmtDate(b.dissolved) : "存続中"}</dd>
         ${b.prefecture ? `<dt>本店</dt><dd>${esc(b.prefecture)}</dd>` : ""}
       </dl>
@@ -478,7 +482,7 @@ function init(data) {
   // ---- ツールチップ
   const tip = document.getElementById("tooltip");
   function showTip(ev, d) {
-    tip.innerHTML = `<strong>${esc(d.name)}</strong><br><span class="muted">${TYPE_LABELS[d.type]}・${fmtDate(d.founded)}〜${d.dissolved ? fmtDate(d.dissolved) : "現在"}</span>`;
+    tip.innerHTML = `<strong>${esc(d.name)}</strong><br><span class="muted">${TYPE_LABELS[d.type]}・${d.founded ? fmtDate(d.founded) : "設立日不明"}〜${d.dissolved ? fmtDate(d.dissolved) : "現在"}</span>`;
     const pad = 12;
     let left = ev.clientX + pad, top = ev.clientY + pad;
     if (left + tip.offsetWidth > window.innerWidth) left = ev.clientX - tip.offsetWidth - pad;

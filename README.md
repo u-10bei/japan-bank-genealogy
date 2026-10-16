@@ -24,7 +24,7 @@
   name: 三和銀行             # 当時の正式名称
   name_en: The Sanwa Bank   # 英語名（任意）
   type: city                # 種別（下表）
-  founded: "1933-12-09"     # 設立日 YYYY / YYYY-MM / YYYY-MM-DD（文字列で）
+  founded: "1933-12-09"     # 設立日 YYYY / YYYY-MM / YYYY-MM-DD（文字列で。不明なら省略）
   dissolved: "2002-01-15"   # 消滅日（存続中なら省略）
   prefecture: 大阪府         # 本店所在地（任意）
   note: 補足                 # 任意

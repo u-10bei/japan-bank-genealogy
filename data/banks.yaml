@@ -4,7 +4,7 @@
 # name      : 正式名称（当時のもの）
 # name_en   : 英語名（任意）
 # type      : city | trust | long_term | regional | regional2 | special | other
-# founded   : 設立日 YYYY / YYYY-MM / YYYY-MM-DD
+# founded   : 設立日 YYYY / YYYY-MM / YYYY-MM-DD（出典に記載がなければ省略可）
 # dissolved : 消滅日（存続中なら省略）。合併・改称などで名称が消えた日
 # prefecture: 本店所在地の都道府県（任意）
 # note      : 補足（任意）

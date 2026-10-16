@@ -55,7 +55,7 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
             continue
         for k in set(b) - BANK_KEYS:
             errors.append(f"{where}: 未知のキー '{k}'")
-        for k in ("id", "name", "type", "founded"):
+        for k in ("id", "name", "type"):
             if not b.get(k):
                 errors.append(f"{where}: '{k}' は必須です")
         bid = b.get("id")
@@ -71,6 +71,8 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
             v = b.get(k)
             if v is not None and not DATE_RE.match(str(v)):
                 errors.append(f"{where}: {k} '{v}' は YYYY / YYYY-MM / YYYY-MM-DD 形式（文字列で記述）")
+        if not b.get("founded") and not b.get("dissolved"):
+            errors.append(f"{where}: founded か dissolved の少なくとも一方が必要です")
         if b.get("founded") and b.get("dissolved") and DATE_RE.match(str(b["founded"])) and DATE_RE.match(str(b["dissolved"])):
             if date_key(str(b["dissolved"])) < date_key(str(b["founded"])):
                 errors.append(f"{where}: dissolved が founded より前です")
@@ -102,11 +104,11 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
         d = date_key(str(e["date"]))
         for bid in src:
             b = ids[bid]
-            if date_key(str(b["founded"])) > d:
+            if b.get("founded") and date_key(str(b["founded"])) > d:
                 warnings.append(f"{where}: '{bid}' の設立日より前のイベントです")
         for bid in dst:
             b = ids[bid]
-            if e["type"] in ("merger", "rename", "reorganization") and str(b["founded"]) != str(e["date"]) and bid not in src:
+            if e["type"] in ("merger", "rename", "reorganization") and str(b.get("founded")) != str(e["date"]) and bid not in src:
                 warnings.append(f"{where}: '{bid}' の founded ({b['founded']}) がイベント日と一致しません")
 
     for bid in ids:
