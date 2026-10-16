@@ -5732,3 +5732,38 @@
   to: [niigata-1896]
   note: 新潟銀行が合併（銀行総覧は12月17日、第四銀行百年史は12月15日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1J6-m7Zh3jq7agR9Hbn8nGFjVBg/description.html"]
+
+- date: "1928-10-01"
+  type: absorption
+  from: [susami-bank]
+  to: [tanabe-bank]
+  note: 田辺銀行が合併（9月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]
+
+- date: "1930-08-25"
+  type: transfer
+  from: [shijusan]
+  to: [tanabe-bank]
+  note: 四十三銀行を紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行が分割買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html"]
+
+- date: "1937-11-10"
+  type: transfer
+  from: [hidaka-bank]
+  to: [tanabe-bank]
+  note: 業務を廃止した日高銀行の本支店の土地建物等を田辺銀行・紀陽銀行が分割買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]
+
+- date: "1937-11-10"
+  type: transfer
+  from: [hidaka-bank]
+  to: [kiyo]
+  note: 業務を廃止した日高銀行の本支店の土地建物等を田辺銀行・紀陽銀行が分割買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]
+
+- date: "1941-02-11"
+  type: transfer
+  from: [tanabe-bank]
+  to: [kiyo]
+  note: 紀陽銀行が買収（2月6日買収認可・解散認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]

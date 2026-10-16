@@ -4066,7 +4066,7 @@
   founded: "1897-03-01"
   dissolved: "1930-08-25"
   prefecture: 和歌山県
-  note: 1897年3月1日第四十三国立銀行が改称。1900年紀州銀行を合併、1903年和歌山商業銀行・紀伊銀行、1907年橋本銀行を買収。1930年8月25日、紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行に分割買収された（田辺銀行は未収録）
+  note: 1897年3月1日第四十三国立銀行が改称。1900年紀州銀行を合併、1903年和歌山商業銀行・紀伊銀行、1907年橋本銀行を買収。1930年8月25日、紀伊貯蓄銀行・紀陽銀行・三十四銀行・大同銀行・田辺銀行・六十八銀行の6行に分割買収された
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NcPOa6i8JJ5F3sh2X8gqB0XEcQl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jXhH0bC0YFBr0KZOGihD232B2qb/description.html"]
 
 - id: wakayama-chochiku
@@ -4076,6 +4076,31 @@
   prefecture: 和歌山県
   note: 1904年紀陽貯蓄銀行が買収（1月30日任意解散認可、7月18日営業譲受）。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/k7tzlbWqV4GsTacOEHStPieVEzf/description.html"]
+
+- id: susami-bank
+  name: 周参見銀行
+  type: other
+  dissolved: "1928-10-01"
+  prefecture: 和歌山県
+  note: 1928年10月1日田辺銀行に合併（9月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]
+
+- id: hidaka-bank
+  name: 日高銀行
+  type: other
+  dissolved: "1937-11-10"
+  prefecture: 和歌山県
+  note: 1937年11月10日業務廃止（紀南産業株式会社に改組）、本支店の土地建物等を田辺銀行・紀陽銀行が分割買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]
+
+- id: tanabe-bank
+  name: 田辺銀行
+  type: other
+  founded: "1900-11-25"
+  dissolved: "1941-02-11"
+  prefecture: 和歌山県
+  note: 設立日は創立総会の日（1901年2月14日設立認可、3月1日開業）。1928年周参見銀行を合併。1930年8月25日四十三銀行の営業の一部を譲受（6行による分割買収）。1937年日高銀行の土地建物等を紀陽銀行と分割買収。1941年2月11日紀陽銀行に営業譲渡（2月6日買収認可・解散認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]
 
 - id: kiyo-chochiku
   name: 紀陽貯蓄銀行
