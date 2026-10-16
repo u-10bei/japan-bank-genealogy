@@ -8491,18 +8491,19 @@
 - id: ohara-bank
   name: 大原銀行
   type: other
-  founded: "1900"
+  founded: "1900-04-22"
   dissolved: "1919-09-01"
   prefecture: 島根県
-  note: 銀行変遷史DBは1900〜1919年の大原銀行とする（設立日は未確認）。1919年9月1日八束貯蓄銀行に合併
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
+  note: 1919年9月1日八束貯蓄銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZiE-arwSwiocmRG47GSNjOF5Vkk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
 
 - id: masuda-chochiku
   name: 益田貯蓄銀行
   type: other
+  founded: "1900-10-20"
   dissolved: "1921-12-30"
   prefecture: 島根県
-  note: 1921年12月30日八束貯蓄銀行が営業を譲受（買収）（山陰合同銀行五十年史による。登記は1922年1月か）。消滅日は営業譲渡日。設立日は出典に記載なし
+  note: 1921年12月30日八束貯蓄銀行が営業を譲受（買収）（山陰合同銀行五十年史による。登記は1922年1月か）。消滅日は営業譲渡日。設立日は山陰合同銀行五十年史・銀行総覧第10〜29回による（第9回は10月22日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
 
 - id: yatsuka-chochiku
@@ -8511,16 +8512,17 @@
   founded: "1912-05-05"
   dissolved: "1922-01-01"
   prefecture: 島根県
-  note: 1912年5月31日営業認可、7月8日開業。1919年浜田銀行・大原銀行を合併、1921年益田貯蓄銀行を買収。1921年12月、貯蓄業務を新設の島根貯蓄銀行に譲渡し（島根貯蓄銀行は未収録）、1922年1月1日八束銀行に改称
+  note: 1912年5月31日営業認可、7月8日開業。1919年浜田銀行・大原銀行を合併、1921年益田貯蓄銀行を買収。1921年12月、貯蓄業務を新設の島根貯蓄銀行に譲渡し、1922年1月1日八束銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
 
 - id: shizuma-shogyo
   name: 静間商業銀行
   type: other
+  founded: "1900-07-20"
   dissolved: "1923-04-01"
   prefecture: 島根県
-  note: 1923年4月1日八束銀行に合併（5月21日合併登記）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/btRs9X3PO6CkDZRvXPiKDdcLb2h/description.html"]
+  note: 1923年4月1日八束銀行に合併（5月21日合併登記）。設立日は山陰合同銀行五十年史・銀行総覧第11〜29回による（第8〜10回は7月22日とする。11月1日開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WXL09I21JG5rIrH0Fv3PBGBuvAg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/btRs9X3PO6CkDZRvXPiKDdcLb2h/description.html"]
 
 - id: yatsuka
   name: 八束銀行
@@ -8552,12 +8554,21 @@
   note: 1941年10月山陰合同銀行が合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
 
+- id: shimane-chochiku
+  name: 島根貯蓄銀行
+  type: other
+  founded: "1921-12-13"
+  dissolved: "1936-02-01"
+  prefecture: 島根県
+  note: 雲州西浜銀行・庚申銀行・八束貯蓄銀行の貯蓄業務を継承して設立（設立日は銀行総覧第29回・山陰合同銀行五十年史による。第30〜42回は12月24日とする。1922年1月4日開業）。雲州西浜銀行・庚申銀行は未収録。1936年2月1日山陰貯蓄銀行に買収され解散（1月20日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qs7JRy3mlbPLQMYbbgcVWx36K2h/description.html"]
+
 - id: sanin-chochiku
   name: 山陰貯蓄銀行
   type: other
   dissolved: "1945-03-01"
-  note: 1945年3月山陰合同銀行が買収
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
+  note: 1936年2月1日島根貯蓄銀行を買収。1945年3月山陰合同銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qs7JRy3mlbPLQMYbbgcVWx36K2h/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBU8"]
 
 - id: kogetsu
   name: 後月銀行

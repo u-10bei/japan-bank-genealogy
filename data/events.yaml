@@ -4754,3 +4754,17 @@
   to: [yatsuka]
   note: 八束銀行が合併（5月21日合併登記）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/btRs9X3PO6CkDZRvXPiKDdcLb2h/description.html"]
+
+- date: "1921-12"
+  type: transfer
+  from: [yatsuka-chochiku]
+  to: [shimane-chochiku]
+  note: 八束貯蓄銀行の貯蓄業務を島根貯蓄銀行が継承（雲州西浜銀行・庚申銀行の貯蓄業務も同時に継承）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qs7JRy3mlbPLQMYbbgcVWx36K2h/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1H_kwxTRQYbMrbl509zcrkt6xJk/description.html"]
+
+- date: "1936-02-01"
+  type: transfer
+  from: [shimane-chochiku]
+  to: [sanin-chochiku]
+  note: 山陰貯蓄銀行が買収（1月20日買収認可）、島根貯蓄銀行は解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qs7JRy3mlbPLQMYbbgcVWx36K2h/description.html"]
