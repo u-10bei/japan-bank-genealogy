@@ -1233,7 +1233,8 @@
   type: merger
   from: [jushichi, chikuho-old, kaho, fukuoka-chochiku]
   to: [fukuoka]
-  sources: [https://ja.wikipedia.org/wiki/福岡銀行]
+  note: 4行の新立合併（3月27日合併認可、3月30日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html", https://ja.wikipedia.org/wiki/福岡銀行]
 
 - date: "1951-10-20"
   type: rename
@@ -5619,3 +5620,59 @@
   to: [jushichi]
   note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は9月1日満期、福岡銀行二十年史付編は9月22日改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-EitCLFIt55afpLHFfapHBbgo2i/description.html"]
+
+- date: "1921-07-01"
+  type: absorption
+  from: [munakata-bank]
+  to: [jushichi]
+  note: 十七銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- date: "1923-09-01"
+  type: absorption
+  from: [fukuoka-1916]
+  to: [jushichi]
+  note: 十七銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- date: "1925-02-01"
+  type: absorption
+  from: [mizuma-bank]
+  to: [jushichi]
+  note: 十七銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- date: "1941-03-01"
+  type: transfer
+  from: [hakata-bank]
+  to: [jushichi]
+  note: 十七銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- date: "1942-11-01"
+  type: transfer
+  from: [hokuho-bank]
+  to: [jushichi]
+  note: 十七銀行が3行の営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- date: "1942-11-01"
+  type: transfer
+  from: [kurate-bank]
+  to: [jushichi]
+  note: 十七銀行が3行の営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- date: "1942-11-01"
+  type: transfer
+  from: [shiida-godo]
+  to: [jushichi]
+  note: 十七銀行が3行の営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- date: "1945-02-10"
+  type: transfer
+  from: [takeishi-bank]
+  to: [jushichi]
+  note: 十七銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]

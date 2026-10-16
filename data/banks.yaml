@@ -4900,13 +4900,75 @@
   note: 1877年9月22日開業免状下付・設立、11月1日開業。1880年9月大阪に移転し、1883年8月15日福岡に戻る。1897年9月、営業満期国立銀行処分法により私立銀行として営業を継続し十七銀行に改称（6月16日満期継続許可。銀行局報告は9月1日満期、福岡銀行二十年史付編は9月22日改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-EitCLFIt55afpLHFfapHBbgo2i/description.html", https://ja.wikipedia.org/wiki/第十七国立銀行]
 
+- id: munakata-bank
+  name: 宗像銀行
+  type: other
+  dissolved: "1921-07-01"
+  prefecture: 福岡県
+  note: 1921年7月1日十七銀行に合併（福岡銀行二十年史付編による。合併登記は9月か）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- id: fukuoka-1916
+  name: 福岡銀行
+  type: other
+  founded: "1916"
+  dissolved: "1923-09-01"
+  prefecture: 福岡県
+  note: 1923年9月1日十七銀行に合併（8月28日合併認可、9月18日合併登記）。銀行変遷史DBは1916〜1923年の福岡銀行とする（設立日は未確認）。現在の福岡銀行（1945年設立）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- id: mizuma-bank
+  name: 三潴銀行
+  type: other
+  dissolved: "1925-02-01"
+  prefecture: 福岡県
+  note: 1925年2月1日十七銀行に合併（1924年12月27日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- id: hakata-bank
+  name: 博多銀行
+  type: other
+  dissolved: "1941-03-01"
+  prefecture: 福岡県
+  note: 1941年3月1日十七銀行が営業を譲受（2月13日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- id: hokuho-bank
+  name: 北豊銀行
+  type: other
+  dissolved: "1942-11-01"
+  note: 1942年11月1日十七銀行が営業を譲受（10月26日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- id: kurate-bank
+  name: 鞍手銀行
+  type: other
+  dissolved: "1942-11-01"
+  prefecture: 福岡県
+  note: 1942年11月1日十七銀行が営業を譲受（10月26日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- id: shiida-godo
+  name: 椎田合同銀行
+  type: other
+  dissolved: "1942-11-01"
+  note: 1942年11月1日十七銀行が営業を譲受（10月26日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
+- id: takeishi-bank
+  name: 武石銀行
+  type: other
+  dissolved: "1945-02-10"
+  note: 1945年2月10日十七銀行が営業を譲受。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svGW3Iycwm4Bxtv-IsJFdMmumZp/description.html"]
+
 - id: jushichi
   name: 十七銀行
   type: other
   founded: "1897-09"
   dissolved: "1945-03-31"
   prefecture: 福岡県
-  note: 1897年9月第十七国立銀行が改称
+  note: 1897年9月第十七国立銀行が改称。1921〜1925年に宗像銀行・福岡銀行（1916〜1923）・三潴銀行を合併、1941〜1945年に博多・北豊・鞍手・椎田合同・武石の各行を買収。1945年3月31日嘉穂銀行・筑邦銀行・福岡貯蓄銀行と新立合併し福岡銀行となる
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-EitCLFIt55afpLHFfapHBbgo2i/description.html", https://ja.wikipedia.org/wiki/福岡銀行, https://ja.wikipedia.org/wiki/第十七国立銀行]
 
 - id: chikuho-old
