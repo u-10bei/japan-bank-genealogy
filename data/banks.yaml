@@ -7535,6 +7535,15 @@
   note: "チェース・マンハッタン・オーバーシーズ・バンキング・コーポレーションの100%出資で設立。1985年11月22日免許、11月25日開業"
   sources: [https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/x7pJlMccITvFwZEhl8-KZBfTjco/description.html]
 
+- id: nihon-bankers-trust
+  name: 日本バンカース・トラスト信託銀行
+  type: trust
+  founded: "1985-10-17"
+  dissolved: "1999-08-02"
+  prefecture: 東京都
+  note: バンカース・トラスト銀行の全額出資で設立（1985年10月25日免許、10月28日開業）。1999年8月2日、ドイチェ・モルガン・グレンフェル信託銀行の営業の一部を譲り受け、ドイチェ信託銀行に改称（ドイチェ信託銀行のその後は未確認のため項目にしていない）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/t3U-KbfFheEnj7BuTjP5ht9Rwed/description.html"]
+
 - id: dmg-trust-1996
   name: ドイチェ・モルガン・グレンフェル信託銀行
   type: trust

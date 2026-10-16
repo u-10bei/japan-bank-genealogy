@@ -4641,3 +4641,10 @@
   partial: true
   note: 資産管理部門を日興シティ信託銀行に営業譲渡（シティトラスト信託銀行はその後も2006年3月31日まで営業）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DAO7XnPS1ULSeDy_cWrmq6n0FHe/description.html"]
+
+- date: "1999-08-02"
+  type: transfer
+  from: [dmg-trust-1996]
+  to: [nihon-bankers-trust]
+  note: ドイチェ・モルガン・グレンフェル信託銀行の営業の一部を日本バンカース・トラスト信託銀行が譲受（同日ドイチェ信託銀行に改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/t3U-KbfFheEnj7BuTjP5ht9Rwed/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/feHEUqdmaA1zi9lzuRFBMaYo-dl/description.html"]
