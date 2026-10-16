@@ -2703,14 +2703,81 @@
   note: 倉敷・鴨方倉庫・倉敷商業・茶屋町・天満屋・日笠の6行合併で設立（倉敷以外は設立日不明）。1920年八十六銀行等を合併
   sources: [https://ja.wikipedia.org/wiki/中国銀行_(日本), https://ja.wikipedia.org/wiki/第一合同銀行]
 
+- id: katsumada-ginko
+  name: 勝間田銀行
+  type: other
+  founded: "1896"
+  dissolved: "1923-07-24"
+  prefecture: 岡山県
+  note: 1923年、6行の新立合併により作備銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
+
+- id: kuse-ginko
+  name: 久世銀行
+  type: other
+  dissolved: "1923-07-24"
+  prefecture: 岡山県
+  note: 1923年、6行の新立合併により作備銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
+
+- id: tsuyama-chuo
+  name: 津山中央銀行
+  type: other
+  dissolved: "1923-07-24"
+  prefecture: 岡山県
+  note: 1923年、6行の新立合併により作備銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
+
+- id: doi-ginko
+  name: 土居銀行
+  type: other
+  founded: "1920"
+  dissolved: "1923-07-24"
+  prefecture: 岡山県
+  note: 1923年、6行の新立合併により作備銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
+
+- id: bizen-kamo
+  name: 備前加茂銀行
+  type: other
+  dissolved: "1923-07-24"
+  prefecture: 岡山県
+  note: 1923年、6行の新立合併により作備銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
+
+- id: muto-ginko
+  name: 武藤銀行
+  type: other
+  dissolved: "1923-07-24"
+  prefecture: 岡山県
+  note: 1923年、6行の新立合併により作備銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
+
+- id: sakubi-ginko
+  name: 作備銀行
+  type: other
+  founded: "1923-07-24"
+  dissolved: "1924-07-24"
+  prefecture: 岡山県
+  note: 勝間田・久世・津山中央・土居・備前加茂・武藤の6行の新立合併で岡山に設立（銀總は1923年6月26日、中國銀行五十年史は7月24日創立総会・開業）。1924年津山銀行と新立合併し山陽銀行に
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
+
+- id: tsuyama-ginko
+  name: 津山銀行
+  type: other
+  dissolved: "1924-07-24"
+  prefecture: 岡山県
+  note: 1924年作備銀行と新立合併し山陽銀行に（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html"]
+
 - id: sanyo-okayama
   name: 山陽銀行
   type: other
   founded: "1924-07-24"
   dissolved: "1930-12-21"
   prefecture: 岡山県
-  note: 作備銀行と津山銀行の合併で津山町に設立（両行の設立日は不明）
-  sources: [https://ja.wikipedia.org/wiki/中国銀行_(日本)]
+  note: 作備銀行と津山銀行の新立合併で設立（銀總は1924年5月22日、6月30日新立合併認可、中國銀行五十年史は7月24日創立総会・開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qeVFd0CZH0f_DXGBrUjIVylbHti/description.html", https://ja.wikipedia.org/wiki/中国銀行_(日本)]
 
 - id: chugoku
   name: 中国銀行
