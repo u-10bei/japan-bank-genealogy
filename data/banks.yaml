@@ -3787,14 +3787,48 @@
   note: 法人としては池田銀行（1951年9月1日設立）が存続
   sources: [https://ja.wikipedia.org/wiki/池田泉州銀行]
 
+- id: dai68-kokuritsu
+  name: 第六十八国立銀行
+  type: other
+  founded: "1878-10-08"
+  dissolved: "1897-12"
+  prefecture: 奈良県
+  note: 大和郡山で設立（1878年10月8日開業免状下付・設立、1879年1月11日開業）。1897年12月、国立銀行営業満期前特別処分法により私立銀行として営業を継続し六十八銀行に改称（9月1日満期前継続許可。銀行局報告は12月20日継続、南都銀行五十年史は12月21日改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IkfUHv-fV1lD-FdIfqFRga7lw4k/description.html", https://ja.wikipedia.org/wiki/南都銀行]
+
+- id: saiwa-bank
+  name: 西和銀行
+  type: other
+  dissolved: "1914-06-23"
+  prefecture: 奈良県
+  note: 1914年6月23日六十八銀行が営業地盤を継承（消滅日は継承日）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html"]
+
+- id: tanbaichi-bank
+  name: 丹波市銀行
+  type: other
+  dissolved: "1917-11-16"
+  prefecture: 奈良県
+  note: 1917年10月20日六十八銀行が買収、11月16日任意解散。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html"]
+
+- id: sangyo-bank-nara
+  name: 産業銀行
+  type: other
+  founded: "1911"
+  dissolved: "1927-12-26"
+  prefecture: 奈良県
+  note: 1927年12月26日六十八銀行が買収。銀行変遷史DBは1911〜1927年の産業銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html"]
+
 - id: rokujuhachi
   name: 六十八銀行
   type: other
-  founded: "1879"
+  founded: "1897-12"
   dissolved: "1934-06-01"
   prefecture: 奈良県
-  note: 第六十八国立銀行として大和郡山で設立（普通銀行転換日は未確認）
-  sources: [https://ja.wikipedia.org/wiki/南都銀行]
+  note: 1897年12月第六十八国立銀行が改称。1914年西和銀行の営業地盤を継承、1917年丹波市銀行・1927年産業銀行を買収、1930年8月25日四十三銀行の営業の一部を譲受（6行による分割買収。四十三銀行は未収録）。1934年6月1日御所銀行・八木銀行・吉野銀行と新立合併し南都銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html", https://ja.wikipedia.org/wiki/南都銀行]
 
 - id: yoshino
   name: 吉野銀行

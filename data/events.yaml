@@ -1011,8 +1011,8 @@
   type: merger
   from: [rokujuhachi, yoshino, yagi, gose]
   to: [nanto]
-  note: ほかに八木銀行・御所銀行が参加。八木銀行・御所銀行も合併に参加（有報）
-  sources: [https://ja.wikipedia.org/wiki/南都銀行]
+  note: 4行の新立合併（5月16日合併認可、6月1日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html", https://ja.wikipedia.org/wiki/南都銀行]
 
 - date: "1922-01"
   type: rename
@@ -5245,3 +5245,31 @@
   to: [nagaoka-rokujuku]
   note: 長岡六十九銀行が合併（12月6日合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BtGVCJOIioKV8-vpYuJW8z63FVl/description.html"]
+
+- date: "1897-12"
+  type: rename
+  from: [dai68-kokuritsu]
+  to: [rokujuhachi]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続（銀行局報告は12月20日、南都銀行五十年史は12月21日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IkfUHv-fV1lD-FdIfqFRga7lw4k/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html"]
+
+- date: "1914-06-23"
+  type: transfer
+  from: [saiwa-bank]
+  to: [rokujuhachi]
+  note: 六十八銀行が営業地盤を継承
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html"]
+
+- date: "1917-10-20"
+  type: transfer
+  from: [tanbaichi-bank]
+  to: [rokujuhachi]
+  note: 六十八銀行が買収（11月16日丹波市銀行任意解散）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html"]
+
+- date: "1927-12-26"
+  type: transfer
+  from: [sangyo-bank-nara]
+  to: [rokujuhachi]
+  note: 六十八銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IR9kDI8RRfPZ1KzZxsf9tvLwAin/description.html"]
