@@ -166,12 +166,37 @@
   note: 1923年12月三十四銀行が買収。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
 
+- id: heian-bank
+  name: 平安銀行
+  type: other
+  dissolved: "1904-03"
+  note: 1904年3月北浜銀行に合併（1月17日合併決議、銀行総覧は3月27日任意解散とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tBkHy5Dw2nzw2KR6ojvhboZGOGp/description.html"]
+
+- id: fujimoto-bank
+  name: 藤本銀行
+  type: other
+  dissolved: "1906-11-30"
+  note: 1906年11月30日北浜銀行に銀行業務を譲渡（大和証券60年史による。法人の解散日は出典に記載なし）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tBkHy5Dw2nzw2KR6ojvhboZGOGp/description.html"]
+
+- id: kitahama-bank
+  name: 北浜銀行
+  type: other
+  founded: "1897-01-14"
+  dissolved: "1919"
+  prefecture: 大阪府
+  note: 1897年1月14日大阪で設立（三和銀行史の沿革系統図は第四十二国立銀行の営業を継承したとする）。1904年平安銀行を合併、1906年藤本銀行の銀行業務を譲受。1919年摂陽銀行に改称（日本金融史資料は9月改称登記とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tBkHy5Dw2nzw2KR6ojvhboZGOGp/description.html"]
+
 - id: setsuyo-bank
   name: 摂陽銀行
   type: other
+  founded: "1919"
   dissolved: "1926-06-24"
-  note: 1926年6月24日三十四銀行に合併（5月14日合併認可）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+  prefecture: 大阪府
+  note: 1919年北浜銀行が改称（日本金融史資料は9月改称登記とする）。1926年6月24日三十四銀行に合併（5月14日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tBkHy5Dw2nzw2KR6ojvhboZGOGp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
 
 - id: sairoku-bank
   name: 西六銀行
@@ -967,9 +992,11 @@
 - id: dai44-kokuritsu
   name: 第四十四国立銀行
   type: other
+  founded: "1878-07-30"
   dissolved: "1882-09-05"
-  note: 1882年9月5日第三国立銀行に合併。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pHgVOBlxVCyFIiz5dbRiBtBZot/description.html"]
+  prefecture: 東京都
+  note: 1878年7月30日開業免状下付、8月1日開業。1882年9月5日第三国立銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/en4R3q7FkMylsvra0oPchewP5Bc/description.html"]
 
 - id: dai3-kokuritsu
   name: 第三国立銀行

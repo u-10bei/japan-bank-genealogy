@@ -6803,3 +6803,24 @@
   to: [yonjuni-bank]
   note: 営業満期国立銀行処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4eFzXdJHu13DBM5f7YEm6jU4Ang/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LrQPHwoYtOKYvOaCHF3R1Mh-mzo/description.html"]
+
+- date: "1904-03"
+  type: absorption
+  from: [heian-bank]
+  to: [kitahama-bank]
+  note: 北浜銀行が合併（1月17日合併決議）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tBkHy5Dw2nzw2KR6ojvhboZGOGp/description.html"]
+
+- date: "1906-11-30"
+  type: transfer
+  from: [fujimoto-bank]
+  to: [kitahama-bank]
+  note: 北浜銀行が藤本銀行の銀行業務を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tBkHy5Dw2nzw2KR6ojvhboZGOGp/description.html"]
+
+- date: "1919"
+  type: rename
+  from: [kitahama-bank]
+  to: [setsuyo-bank]
+  note: 摂陽銀行に改称（日本金融史資料は9月改称登記とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tBkHy5Dw2nzw2KR6ojvhboZGOGp/description.html"]
