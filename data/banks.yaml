@@ -4001,7 +4001,7 @@
   dissolved: "1942-08-22"
   prefecture: 滋賀県
   note: 二十一銀行・伊香銀行・江北銀行の新立合併で設立（11月26日合併認可、12月10日創立総会・開業）。1937年長浜貯金銀行を合併。1942年8月22日滋賀銀行に営業譲渡（8月12日買収認可）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
 
 - id: dai133-kokuritsu
   name: 第百三十三国立銀行
@@ -9520,13 +9520,6 @@
   type: other
   dissolved: "1940-11"
   note: 1940年11月滋賀銀行が買収
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
-
-- id: kohoku
-  name: 湖北銀行
-  type: other
-  dissolved: "1942-08"
-  note: 1942年8月滋賀銀行が買収
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
 
 - id: kashiwabara

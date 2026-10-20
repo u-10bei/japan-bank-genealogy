@@ -3149,12 +3149,6 @@
   to: [shiga]
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
 
-- date: "1942-08"
-  type: transfer
-  from: [kohoku]
-  to: [shiga]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
-
 - date: "1943-06"
   type: transfer
   from: [kashiwabara]
@@ -6318,4 +6312,4 @@
   from: [kohoku-bank]
   to: [shiga]
   note: 滋賀銀行が買収（8月12日買収認可）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
