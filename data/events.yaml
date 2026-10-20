@@ -6032,3 +6032,10 @@
   to: [showa-ginko]
   note: 昭和銀行が営業を譲受（勘定継承日）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dqrsySRr2erpTgyX3cqlWD09Koo/description.html"]
+
+- date: "1896-10"
+  type: rename
+  from: [dai2-kokuritsu]
+  to: [daini-ginko]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は10月27日満期、横浜銀行六十年史は10月28日改組とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_uIFDCVJ0duRtbNTdYc7u1zaU2j/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hFApZnyAmTM7Az4uzjYrMzkadvl/description.html"]

@@ -2536,13 +2536,23 @@
   note: 1927年12月7日横浜興信銀行に営業譲渡
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
 
+- id: dai2-kokuritsu
+  name: 第二国立銀行
+  type: other
+  founded: "1874-07-18"
+  dissolved: "1896-10"
+  prefecture: 神奈川県
+  note: 横浜為替会社を改組して設立（1873年1月18日改組認可、1874年7月18日開業免状下付、8月15日開業。銀行総覧は改正国立銀行条例による開業免状再下付の1876年11月28日を設立日とする）。1896年10月、営業満期国立銀行処分法により私立銀行として営業を継続し第二銀行に改称（8月27日満期継続許可。銀行局報告は10月27日満期、横浜銀行六十年史は10月28日改組とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_uIFDCVJ0duRtbNTdYc7u1zaU2j/description.html"]
+
 - id: daini-ginko
   name: 第二銀行
   type: other
+  founded: "1896-10"
   dissolved: "1928-04-02"
   prefecture: 神奈川県
-  note: 1928年4月2日横浜興信銀行に営業譲渡
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
+  note: 1896年10月第二国立銀行が改称。1928年4月2日横浜興信銀行に営業譲渡（消滅日は営業譲渡日。1934年9月18日任意解散認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hFApZnyAmTM7Az4uzjYrMzkadvl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0mB3W6YHEQvjCtNRCZtmUXueSme/description.html"]
 
 - id: yokohama-boeki
   name: 横浜貿易銀行
