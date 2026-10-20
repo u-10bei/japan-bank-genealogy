@@ -187,12 +187,30 @@
   note: 1928年5月14日三十四銀行が買収。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
 
+- id: dai143-kokuritsu
+  name: 第百四十三国立銀行
+  type: other
+  dissolved: "1880-04-01"
+  note: 1880年4月1日第三十国立銀行に合併（銀行局報告・千葉銀行史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dLFISWkvKSAwiqsaDkY5XrAHQBn/description.html"]
+
+- id: dai30-kokuritsu
+  name: 第三十国立銀行
+  type: other
+  founded: "1877-12-15"
+  dissolved: "1897-12"
+  prefecture: 東京都
+  note: 1877年12月15日開業免状下付・設立、12月24日開業（銀行局報告第5次は12月28日開業とする）。1880年4月1日第百四十三国立銀行を合併。1897年12月、営業満期国立銀行処分法により私立銀行として営業を継続し三十銀行に改称（10月27日満期継続許可、12月14日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dLFISWkvKSAwiqsaDkY5XrAHQBn/description.html"]
+
 - id: sanju-bank
   name: 三十銀行
   type: other
+  founded: "1897-12"
   dissolved: "1929-08-19"
-  note: 1929年8月19日三十四銀行が買収。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+  prefecture: 東京都
+  note: 1897年12月第三十国立銀行が改称（12月14日満期）。1929年8月19日三十四銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/X56TRqsOMQuRWkq0zhqi06nDB5o/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
 
 - id: thirty-fourth
   name: 三十四銀行

@@ -5519,7 +5519,7 @@
   from: [sanju-bank]
   to: [thirty-fourth]
   note: 三十四銀行が買収
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/X56TRqsOMQuRWkq0zhqi06nDB5o/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
 
 - date: "1897-03-01"
   type: rename
@@ -6443,3 +6443,17 @@
   to: [dai35-kokuritsu]
   note: 第三十五国立銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bgsMNxY1uEm7MPyffIYkYUJW0mh/description.html"]
+
+- date: "1880-04-01"
+  type: absorption
+  from: [dai143-kokuritsu]
+  to: [dai30-kokuritsu]
+  note: 第三十国立銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dLFISWkvKSAwiqsaDkY5XrAHQBn/description.html"]
+
+- date: "1897-12"
+  type: rename
+  from: [dai30-kokuritsu]
+  to: [sanju-bank]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（12月14日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dLFISWkvKSAwiqsaDkY5XrAHQBn/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/X56TRqsOMQuRWkq0zhqi06nDB5o/description.html"]
