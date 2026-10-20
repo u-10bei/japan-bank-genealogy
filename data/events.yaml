@@ -6291,3 +6291,31 @@
   to: [dai-ichi-1896]
   note: 第一銀行が合併（第一銀行史は9月19日、銀行総覧は9月25日合併解散とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7G5e_LjK6jxgUScmVM_ZY-1-Wep/description.html"]
+
+- date: "1897-11"
+  type: rename
+  from: [dai21-kokuritsu]
+  to: [nijuichi-bank]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（11月29日満期。滋賀銀行五十年史は11月30日改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WNMqu92e8rRqTjpT3BRpv5Q0OBf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7vMaV9Z4_av6XAD6u8pHTGEluso/description.html"]
+
+- date: "1929-12-10"
+  type: merger
+  from: [nijuichi-bank, ika-bank, kohoku-bank-old]
+  to: [kohoku-bank]
+  note: 3行の新立合併（11月26日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7vMaV9Z4_av6XAD6u8pHTGEluso/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html"]
+
+- date: "1937-03-08"
+  type: absorption
+  from: [nagahama-chokin]
+  to: [kohoku-bank]
+  note: 湖北銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html"]
+
+- date: "1942-08-22"
+  type: transfer
+  from: [kohoku-bank]
+  to: [shiga]
+  note: 滋賀銀行が買収（8月12日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html"]

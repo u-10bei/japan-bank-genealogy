@@ -3952,6 +3952,57 @@
   note: 1897年4月1日第百三十四国立銀行が改称。1902年任意解散（銀行総覧は8月12日任意解散、東海銀行史は7月20日解散とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Imhu-cN1fNINUYmhpTatDZ9PxZn/description.html"]
 
+- id: dai21-kokuritsu
+  name: 第二十一国立銀行
+  type: other
+  founded: "1877-11-30"
+  dissolved: "1897-11"
+  prefecture: 滋賀県
+  note: 1877年11月30日開業免状下付・設立（開業は銀行局報告が12月1日、滋賀銀行五十年史が12月15日とする）。1897年11月、営業満期国立銀行処分法により私立銀行として営業を継続し二十一銀行に改称（9月8日満期継続許可、11月29日満期。滋賀銀行五十年史は11月30日改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WNMqu92e8rRqTjpT3BRpv5Q0OBf/description.html"]
+
+- id: nijuichi-bank
+  name: 二十一銀行
+  type: other
+  founded: "1897-11"
+  dissolved: "1929-12-10"
+  prefecture: 滋賀県
+  note: 1897年11月第二十一国立銀行が改称。1929年12月10日伊香銀行・江北銀行と新立合併し湖北銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7vMaV9Z4_av6XAD6u8pHTGEluso/description.html"]
+
+- id: ika-bank
+  name: 伊香銀行
+  type: other
+  dissolved: "1929-12-10"
+  prefecture: 滋賀県
+  note: 1929年12月10日二十一銀行・江北銀行と新立合併し湖北銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html"]
+
+- id: kohoku-bank-old
+  name: 江北銀行
+  type: other
+  dissolved: "1929-12-10"
+  prefecture: 滋賀県
+  note: 1929年12月10日二十一銀行・伊香銀行と新立合併し湖北銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html"]
+
+- id: nagahama-chokin
+  name: 長浜貯金銀行
+  type: other
+  dissolved: "1937-03-08"
+  prefecture: 滋賀県
+  note: 1937年3月8日湖北銀行に合併（3月4日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html"]
+
+- id: kohoku-bank
+  name: 湖北銀行
+  type: other
+  founded: "1929-12-10"
+  dissolved: "1942-08-22"
+  prefecture: 滋賀県
+  note: 二十一銀行・伊香銀行・江北銀行の新立合併で設立（11月26日合併認可、12月10日創立総会・開業）。1937年長浜貯金銀行を合併。1942年8月22日滋賀銀行に営業譲渡（8月12日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html"]
+
 - id: dai133-kokuritsu
   name: 第百三十三国立銀行
   type: other
