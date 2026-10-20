@@ -5935,18 +5935,19 @@
 - id: dai23-kokuritsu
   name: 第二十三国立銀行
   type: other
-  founded: "1877-11"
-  dissolved: "1897-05"
+  founded: "1877-10-12"
+  dissolved: "1897-05-01"
   prefecture: 大分県
-  sources: [https://ja.wikipedia.org/wiki/大分銀行]
+  note: 1877年10月12日開業免状下付・設立、11月11日開業（Wikipediaの1877年11月は開業の月）。1897年5月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し二十三銀行に改称（1月25日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/aq2EjxGc5enz519wordTOvzqQYe/description.html", https://ja.wikipedia.org/wiki/大分銀行]
 
 - id: nijusan
   name: 二十三銀行
   type: other
-  founded: "1897-05"
+  founded: "1897-05-01"
   dissolved: "1927-10"
   prefecture: 大分県
-  sources: [https://ja.wikipedia.org/wiki/大分銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/aq2EjxGc5enz519wordTOvzqQYe/description.html", https://ja.wikipedia.org/wiki/大分銀行]
 
 - id: oita-old
   name: 大分銀行
