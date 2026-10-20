@@ -8926,12 +8926,23 @@
   note: 設立日未確認（Wikipediaのみ）
   sources: [https://ja.wikipedia.org/wiki/住友信託銀行]
 
+- id: barclays-trust
+  name: バークレイズ信託銀行
+  type: trust
+  founded: "1986-04-01"
+  dissolved: "1999-07-01"
+  prefecture: 東京都
+  note: バークレイズ・バンク・ピーエルシーの全額出資で設立（日本金融名鑑による。1986年4月30日免許、5月6日開業）。1999年7月1日バークレイズ・グローバル・インベスターズ信託銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5at5_fhqrLadEr84h_UhfQDMh4m/description.html"]
+
 - id: bgi-trust
   name: バークレイズ・グローバル・インベスターズ信託銀行
   type: trust
-  dissolved: "2008-02"
-  note: 外資系信託銀行。設立日未確認
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ"]
+  founded: "1999-07-01"
+  dissolved: "2008-02-01"
+  prefecture: 東京都
+  note: 1999年7月1日バークレイズ信託銀行が改称。2007年12月27日資産運用業務をバークレイズ・グローバル・インベスターズ株式会社（銀行ではないため未収録）に譲渡。2008年2月1日住友信託銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JTm4465atmDeFy76tcijGrCEHjb/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ"]
 
 - id: mitsui-shintaku
   name: 三井信託株式会社

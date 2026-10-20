@@ -2615,11 +2615,12 @@
   note: Wikipediaのみによる（有報に記載なし）
   sources: [https://ja.wikipedia.org/wiki/住友信託銀行]
 
-- date: "2008-02"
+- date: "2008-02-01"
   type: absorption
   from: [bgi-trust]
   to: [sumitomo-trust]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ"]
+  note: 住友信託銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JTm4465atmDeFy76tcijGrCEHjb/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBGJ"]
 
 - date: "1948-08"
   type: rename
@@ -6632,3 +6633,10 @@
   to: [kobe]
   note: 7行の新立合併（12月4日新立合併認可、12月12日創立総会、12月14日開業）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+
+- date: "1999-07-01"
+  type: rename
+  from: [barclays-trust]
+  to: [bgi-trust]
+  note: バークレイズ・グローバル・インベスターズ信託銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JTm4465atmDeFy76tcijGrCEHjb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5at5_fhqrLadEr84h_UhfQDMh4m/description.html"]
