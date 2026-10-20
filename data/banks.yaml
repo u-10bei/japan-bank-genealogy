@@ -699,13 +699,140 @@
   note: 但馬地方の8行の新立合併で設立（1941年4月18日認可、4月27日創立総会、5月3日開業）。1943年但馬貯蓄銀行を合併。1945年3月27日神戸銀行に合併。1956年に但馬銀行が神戸銀行から譲り受けた但馬地区の店舗の多くは旧全但銀行のもの
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qq2PtrHpgV4Tq58IWUDStWPmS8g/description.html"]
 
+- id: dai38-kokuritsu
+  name: 第三十八国立銀行
+  type: other
+  founded: "1878-10"
+  dissolved: "1898-07-01"
+  prefecture: 兵庫県
+  note: 設立日は資料により異なる（銀行局報告は1878年10月13日開業免状下付、銀行総覧は10月3日設立とする。神戸銀行史は1877年8月27日創立とする。11月20日開業）。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し三十八銀行に改称（2月16日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/o67Lfj0A7sI-rMO8lgZxdbD9s1j/description.html"]
+
+- id: kyujuyon-bank
+  name: 九十四銀行
+  type: other
+  dissolved: "1917"
+  note: 1917年三十八銀行に合併（銀行総覧は10月3日合併・11月5日合併登記、神戸銀行史は11月1日とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: shikama-bank
+  name: 飾磨銀行
+  type: other
+  dissolved: "1917"
+  note: 1917年三十八銀行に合併（銀行総覧は10月3日合併・11月3日合併登記、神戸銀行史は11月1日とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: himeji-1883
+  name: 姫路銀行
+  type: other
+  founded: "1883"
+  dissolved: "1917"
+  note: 1917年三十八銀行に合併（銀行総覧は10月3日合併・11月3日合併登記、神戸銀行史は11月1日とする）。銀行変遷史DBは1883〜1917年の姫路銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: kobe-jitsugyo
+  name: 神戸実業銀行
+  type: other
+  dissolved: "1923-08-01"
+  note: 1923年8月1日三十八銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: miki-bank
+  name: 三木銀行
+  type: other
+  dissolved: "1927-12-29"
+  note: 1927年12月29日三十八銀行が買収（神戸銀行史による。日本金融史資料は1928年1月届出とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: kakogawa-bank
+  name: 加古川銀行
+  type: other
+  dissolved: "1928-12-08"
+  note: 1928年12月8日三十八銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: aboshi-bank
+  name: 網干銀行
+  type: other
+  dissolved: "1930-02-10"
+  note: 1930年2月10日三十八銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: chuban-bank
+  name: 中播銀行
+  type: other
+  dissolved: "1930-08-09"
+  note: 1930年8月9日三十八銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: aioi-bank
+  name: 相生銀行
+  type: other
+  founded: "1896"
+  dissolved: "1930-08-16"
+  note: 1930年8月16日三十八銀行が買収。銀行変遷史DBは1896〜1930年の相生銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: sanjuhachi-bank
+  name: 三十八銀行
+  type: other
+  founded: "1898-07-01"
+  dissolved: "1936-12-12"
+  prefecture: 兵庫県
+  note: 1898年7月1日第三十八国立銀行が改称。1917年九十四・飾磨・姫路の3行、1923年神戸実業銀行を合併。1927〜1930年に三木・加古川・網干・中播・相生の各行を買収。1936年12月、7行の新立合併により神戸銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: kobe-okazaki
+  name: 神戸岡崎銀行
+  type: other
+  dissolved: "1936-12-12"
+  note: 1936年12月、7行の新立合併により神戸銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: gojuroku-bank
+  name: 五十六銀行
+  type: other
+  dissolved: "1936-12-12"
+  note: 1936年12月、7行の新立合併により神戸銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: takasago-bank
+  name: 高砂銀行
+  type: other
+  dissolved: "1936-12-12"
+  note: 1936年12月、7行の新立合併により神戸銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: nada-shogyo
+  name: 灘商業銀行
+  type: other
+  dissolved: "1936-12-12"
+  note: 1936年12月、7行の新立合併により神戸銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: nishinomiya-bank
+  name: 西宮銀行
+  type: other
+  dissolved: "1936-12-12"
+  note: 1936年12月、7行の新立合併により神戸銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- id: himeji-1928
+  name: 姫路銀行
+  type: other
+  founded: "1928"
+  dissolved: "1936-12-12"
+  note: 1936年12月、7行の新立合併により神戸銀行となる。銀行変遷史DBは1928〜1936年の姫路銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
 - id: kobe
   name: 神戸銀行
   type: city
   founded: "1936-12-12"
   dissolved: "1973-10-01"
   prefecture: 兵庫県
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/神戸銀行]
+  note: 三十八銀行・神戸岡崎銀行・五十六銀行・高砂銀行・灘商業銀行・西宮銀行・姫路銀行の7行の新立合併で設立（12月4日新立合併認可（銀行総覧は同日を設立日とする）、12月12日創立総会、12月14日開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG", https://ja.wikipedia.org/wiki/神戸銀行]
 
 - id: dainippon-mujin
   name: 大日本無尽

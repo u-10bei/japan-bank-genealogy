@@ -6569,3 +6569,66 @@
   to: [nippon-chuya-ginko]
   note: 日本昼夜銀行が買収（日本金融史資料は5月30日、富士銀行百年史は6月とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7SZ0K5Vr498CptE1bWGUyfR1qjb/description.html"]
+
+- date: "1898-07-01"
+  type: rename
+  from: [dai38-kokuritsu]
+  to: [sanjuhachi-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/o67Lfj0A7sI-rMO8lgZxdbD9s1j/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- date: "1917"
+  type: absorption
+  from: [kyujuyon-bank, shikama-bank, himeji-1883]
+  to: [sanjuhachi-bank]
+  note: 三十八銀行が3行を合併（銀行総覧は10月3日、神戸銀行史は11月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- date: "1923-08-01"
+  type: absorption
+  from: [kobe-jitsugyo]
+  to: [sanjuhachi-bank]
+  note: 三十八銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- date: "1927-12-29"
+  type: transfer
+  from: [miki-bank]
+  to: [sanjuhachi-bank]
+  note: 三十八銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- date: "1928-12-08"
+  type: transfer
+  from: [kakogawa-bank]
+  to: [sanjuhachi-bank]
+  note: 三十八銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- date: "1930-02-10"
+  type: transfer
+  from: [aboshi-bank]
+  to: [sanjuhachi-bank]
+  note: 三十八銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- date: "1930-08-09"
+  type: transfer
+  from: [chuban-bank]
+  to: [sanjuhachi-bank]
+  note: 三十八銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- date: "1930-08-16"
+  type: transfer
+  from: [aioi-bank]
+  to: [sanjuhachi-bank]
+  note: 三十八銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+
+- date: "1936-12-12"
+  type: merger
+  from: [sanjuhachi-bank, kobe-okazaki, gojuroku-bank, takasago-bank, nada-shogyo, nishinomiya-bank, himeji-1928]
+  to: [kobe]
+  note: 7行の新立合併（12月4日新立合併認可、12月12日創立総会、12月14日開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
