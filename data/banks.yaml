@@ -881,13 +881,66 @@
   note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
 
+- id: dai6-kokuritsu
+  name: 第六国立銀行
+  type: other
+  founded: "1877-02-13"
+  dissolved: "1897-02-12"
+  prefecture: 福島県
+  note: 福島で設立（1877年2月13日開業免状下付・設立、3月15日開業）。1891年6月17日営業停止、11月17日解除、12月1日東京に移転し営業再開。1897年2月12日、営業満期国立銀行処分法により私立銀行として営業を継続し肥後銀行に改称（1896年10月12日満期継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rfo_e-tBarv7yCNbNUsyq0TVZzo/description.html"]
+
+- id: kumamoto-1896
+  name: 熊本銀行
+  type: other
+  founded: "1896"
+  dissolved: "1899-12-26"
+  note: 1899年12月26日肥後銀行に合併。銀行変遷史DBは1896〜1899年の熊本銀行とする（設立日は未確認）。現在の熊本銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- id: daiku-ginko
+  name: 第九銀行
+  type: other
+  dissolved: "1907"
+  note: 1907年肥後銀行に合併（肥後銀行五十年史は5月1日合併、銀行総覧は4月24日合併のため解散とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- id: ekinan-bank
+  name: 益南銀行
+  type: other
+  dissolved: "1918"
+  note: 1918年肥後銀行に合併（富士銀行百年史別巻は2月、肥後銀行五十年史は6月30日、銀行総覧は7月10日任意解散登記とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- id: gufu-bank
+  name: 隅府銀行
+  type: other
+  dissolved: "1921-10"
+  note: 肥後銀行が営業を譲受（富士銀行百年史別巻は1921年10月営業譲受、肥後銀行五十年史は1922年9月17日合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- id: tamana-hirose
+  name: 玉名広瀬銀行
+  type: other
+  dissolved: "1922"
+  note: 1922年肥後銀行が営業を譲受（富士銀行百年史別巻は8月、肥後銀行五十年史は10月6日合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- id: tamana-bank
+  name: 玉名銀行
+  type: other
+  dissolved: "1923-06-30"
+  note: 1923年6月30日肥後銀行が営業を譲受（肥後銀行五十年史は合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
 - id: higo-1897
   name: 肥後銀行
   type: other
-  founded: "1897"
+  prefecture: 熊本県
+  founded: "1897-02-12"
   dissolved: "1923-11-01"
-  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。銀行変遷史DBは1897〜1923年の肥後銀行とする（設立日は未確認）。現在の肥後銀行とは別
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+  note: 1897年2月12日第六国立銀行が改称。1899年熊本銀行（1896〜1899）、1907年第九銀行、1918年益南銀行を合併し、1921〜1923年に隅府・玉名広瀬・玉名の各行を買収。1907年4月東京から熊本に移転。1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。現在の肥後銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
 
 - id: hyakusanju-bank
   name: 百三十銀行

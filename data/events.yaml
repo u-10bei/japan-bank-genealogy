@@ -6130,3 +6130,52 @@
   to: [naniwa-bank-1920]
   note: 浪速銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- date: "1897-02-12"
+  type: rename
+  from: [dai6-kokuritsu]
+  to: [higo-1897]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rfo_e-tBarv7yCNbNUsyq0TVZzo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- date: "1899-12-26"
+  type: absorption
+  from: [kumamoto-1896]
+  to: [higo-1897]
+  note: 肥後銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- date: "1907"
+  type: absorption
+  from: [daiku-ginko]
+  to: [higo-1897]
+  note: 肥後銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- date: "1918"
+  type: absorption
+  from: [ekinan-bank]
+  to: [higo-1897]
+  note: 肥後銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- date: "1921-10"
+  type: transfer
+  from: [gufu-bank]
+  to: [higo-1897]
+  note: 肥後銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- date: "1922"
+  type: transfer
+  from: [tamana-hirose]
+  to: [higo-1897]
+  note: 肥後銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- date: "1923-06-30"
+  type: transfer
+  from: [tamana-bank]
+  to: [higo-1897]
+  note: 肥後銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
