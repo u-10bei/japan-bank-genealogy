@@ -6907,3 +6907,10 @@
   to: [hokuriku]
   note: 北陸銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/EQCQAmaqoEOk1VEyRK69fYkQr7o/description.html"]
+
+- date: "1897-08-01"
+  type: rename
+  from: [dai49-kokuritsu]
+  to: [dai49-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MYJhapOkWMJJTUR_Pu0N0teVbfd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rqXcxTVBDqlKfHRKPLJ3b0I0E-b/description.html"]

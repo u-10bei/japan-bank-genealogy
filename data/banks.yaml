@@ -4545,6 +4545,24 @@
   note: 1898年1月20日第四十七国立銀行が改称。1921年10月25日、貯蓄銀行業務を、17行の貯蓄業務を統合して新設された富山合同貯蓄銀行に移す。1935年永守銀行を合併。1939年12月11日十二銀行に買収された（11月17日買収認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nauBjIwuOUpnwexOwYof4Td-0Ug/description.html"]
 
+- id: dai49-kokuritsu
+  name: 第四十九国立銀行
+  type: other
+  founded: "1878-05-02"
+  dissolved: "1897-08-01"
+  prefecture: 京都府
+  note: 1878年5月2日開業免状下付・設立、6月1日開業。1897年8月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第四十九銀行に改称（4月27日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MYJhapOkWMJJTUR_Pu0N0teVbfd/description.html"]
+
+- id: dai49-ginko
+  name: 第四十九銀行
+  type: other
+  founded: "1897-08-01"
+  dissolved: "1908-12"
+  prefecture: 京都府
+  note: 1897年8月1日第四十九国立銀行が改称。1908年12月京都商工銀行に債権債務を譲渡して解散（12月18日譲渡・解散決議、銀行総覧は12月19日任意解散、12月26日解散登記。京都商工銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rqXcxTVBDqlKfHRKPLJ3b0I0E-b/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
