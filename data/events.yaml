@@ -3713,12 +3713,19 @@
   note: 相互銀行へ転換
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDJN"]
 
-- date: "1923-11"
-  type: merger
-  from: [yasuda-1880, hozen]
+- date: "1923-11-01"
+  type: absorption
+  from: [yasuda-1880, daisan-1896, kanagawa-1896, kyoto-1894, shinano-bank, nijuni-bank, nihon-shogyo, nemuro-bank, higo-1897, hyakusanju-bank, meiji-shogyo]
+  to: [hozen]
+  note: 保善銀行が安田系11行を合併（10月8日合併改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+
+- date: "1923-11-01"
+  type: rename
+  from: [hozen]
   to: [yasuda]
-  note: 保善銀行に安田銀行以下11行が合併し、同時に商号を安田銀行に変更（他の10行は未収録）
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+  note: 11行の合併と同時に安田銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
 
 - date: "1951-10"
   type: rename
@@ -6039,3 +6046,24 @@
   to: [daini-ginko]
   note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は10月27日満期、横浜銀行六十年史は10月28日改組とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_uIFDCVJ0duRtbNTdYc7u1zaU2j/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hFApZnyAmTM7Az4uzjYrMzkadvl/description.html"]
+
+- date: "1882-09-05"
+  type: absorption
+  from: [dai44-kokuritsu]
+  to: [dai3-kokuritsu]
+  note: 第三国立銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pHgVOBlxVCyFIiz5dbRiBtBZot/description.html"]
+
+- date: "1896-12-01"
+  type: rename
+  from: [dai3-kokuritsu]
+  to: [daisan-1896]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（11月30日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pHgVOBlxVCyFIiz5dbRiBtBZot/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sEkW2vXWo4G-YxxqgkDv-YMEEXn/description.html"]
+
+- date: "1897-06-01"
+  type: absorption
+  from: [dai82-ginko]
+  to: [daisan-1896]
+  note: 第三銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sEkW2vXWo4G-YxxqgkDv-YMEEXn/description.html"]

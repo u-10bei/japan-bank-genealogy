@@ -729,28 +729,127 @@
   name: 安田銀行
   type: other
   founded: "1880-01"
-  dissolved: "1923-11"
+  dissolved: "1923-11-01"
   prefecture: 東京都
   note: 合本安田銀行として創業。1893年7月合資会社、1900年10月合名会社、1912年1月株式会社に改組
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
 
+- id: dai44-kokuritsu
+  name: 第四十四国立銀行
+  type: other
+  dissolved: "1882-09-05"
+  note: 1882年9月5日第三国立銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pHgVOBlxVCyFIiz5dbRiBtBZot/description.html"]
+
+- id: dai3-kokuritsu
+  name: 第三国立銀行
+  type: other
+  founded: "1876-12-01"
+  dissolved: "1896-12-01"
+  prefecture: 東京都
+  note: 1876年11月13日創立総会、12月1日開業免状下付・設立、12月5日開業。1882年9月5日第四十四国立銀行を合併。1896年12月1日、営業満期国立銀行処分法により私立銀行として営業を継続し第三銀行に改称（11月30日満期、8月18日満期継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pHgVOBlxVCyFIiz5dbRiBtBZot/description.html"]
+
+- id: dai82-ginko
+  name: 第八十二銀行
+  type: other
+  dissolved: "1897-06-01"
+  note: 1897年6月1日第三銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sEkW2vXWo4G-YxxqgkDv-YMEEXn/description.html"]
+
+- id: daisan-1896
+  name: 第三銀行
+  type: other
+  founded: "1896-12-01"
+  dissolved: "1923-11-01"
+  prefecture: 東京都
+  note: 1896年12月1日第三国立銀行が改称。1897年6月1日第八十二銀行を合併。1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。三重県の第三銀行、1944年に安田銀行へ営業を譲渡した第三銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sEkW2vXWo4G-YxxqgkDv-YMEEXn/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+
+- id: kanagawa-1896
+  name: 神奈川銀行
+  type: other
+  founded: "1896"
+  dissolved: "1923-11-01"
+  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。銀行変遷史DBは1896〜1923年の神奈川銀行とする（設立日は未確認）。現在の神奈川銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+
+- id: kyoto-1894
+  name: 京都銀行
+  type: other
+  founded: "1894"
+  dissolved: "1923-11-01"
+  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。銀行変遷史DBは1894〜1923年の京都銀行とする（設立日は未確認）。現在の京都銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+
+- id: shinano-bank
+  name: 信濃銀行
+  type: other
+  founded: "1889"
+  dissolved: "1923-11-01"
+  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。銀行変遷史DBは1889〜1923年の信濃銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+
+- id: nijuni-bank
+  name: 二十二銀行
+  type: other
+  dissolved: "1923-11-01"
+  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+
+- id: nihon-shogyo
+  name: 日本商業銀行
+  type: other
+  dissolved: "1923-11-01"
+  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+
+- id: nemuro-bank
+  name: 根室銀行
+  type: other
+  dissolved: "1923-11-01"
+  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+
+- id: higo-1897
+  name: 肥後銀行
+  type: other
+  founded: "1897"
+  dissolved: "1923-11-01"
+  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。銀行変遷史DBは1897〜1923年の肥後銀行とする（設立日は未確認）。現在の肥後銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+
+- id: hyakusanju-bank
+  name: 百三十銀行
+  type: other
+  dissolved: "1923-11-01"
+  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+
+- id: meiji-shogyo
+  name: 明治商業銀行
+  type: other
+  dissolved: "1923-11-01"
+  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+
 - id: hozen
   name: 保善銀行
   type: other
-  founded: "1923-07"
-  dissolved: "1923-11"
+  founded: "1923-05"
+  dissolved: "1923-11-01"
   prefecture: 東京都
-  note: 安田系銀行の合同の母体として設立
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
+  note: 安田系銀行11行の合同の母体として設立（日本金融史資料は5月6日設立、富士銀行百年史は5月7日成立とする。7月6日営業認可、7月11日設立登記。有価証券報告書は7月設立とする）。1923年11月1日、11行を合併し安田銀行に改称（10月8日合併改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
 
 - id: yasuda
   name: 安田銀行
   type: city
-  founded: "1923-11"
+  founded: "1923-11-01"
   dissolved: "1948-10"
   prefecture: 東京都
-  note: 1923年11月、保善銀行に安田銀行以下11行が合併し、同時に商号を安田銀行に変更（法人は保善銀行）
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/富士銀行]
+  note: 1923年11月1日、保善銀行に安田銀行以下11行が合併し、同時に商号を安田銀行に変更（法人は保善銀行）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH", https://ja.wikipedia.org/wiki/富士銀行]
 
 - id: fuji
   name: 富士銀行
