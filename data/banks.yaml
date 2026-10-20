@@ -1992,20 +1992,20 @@
 - id: kokuritsu-48
   name: 第四十八国立銀行
   type: other
-  founded: "1879-01"
-  dissolved: "1898"
+  founded: "1878-12-17"
+  dissolved: "1898-01-01"
   prefecture: 秋田県
-  note: 1879年1月4日開業
-  sources: [https://ja.wikipedia.org/wiki/秋田銀行, https://ja.wikipedia.org/wiki/第四十八銀行]
+  note: 1878年12月17日開業免状下付・設立、1879年1月4日開業（Wikipediaの1879年1月は開業の月）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第四十八銀行に改称（1897年9月22日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JSmZnspWvaVgV3z7J17Skwc0rEl/description.html", https://ja.wikipedia.org/wiki/秋田銀行, https://ja.wikipedia.org/wiki/第四十八銀行]
 
 - id: dai48
   name: 第四十八銀行
   type: other
-  founded: "1898"
+  founded: "1898-01-01"
   dissolved: "1941-10-20"
   prefecture: 秋田県
-  note: 普通銀行転換年は秋田銀行記事で1889年、第四十八銀行記事で1898年
-  sources: [https://ja.wikipedia.org/wiki/秋田銀行, https://ja.wikipedia.org/wiki/第四十八銀行]
+  note: 1898年1月1日第四十八国立銀行が改称（銀行変遷史DBによる。Wikipediaの秋田銀行の記事は1889年とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JSmZnspWvaVgV3z7J17Skwc0rEl/description.html", https://ja.wikipedia.org/wiki/秋田銀行, https://ja.wikipedia.org/wiki/第四十八銀行]
 
 - id: akita-ginko-old
   name: 秋田銀行

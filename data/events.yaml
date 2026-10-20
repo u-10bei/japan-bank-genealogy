@@ -362,12 +362,12 @@
   to: [aomori-michinoku]
   sources: [https://ja.wikipedia.org/wiki/青森みちのく銀行]
 
-- date: "1898"
+- date: "1898-01-01"
   type: rename
   from: [kokuritsu-48]
   to: [dai48]
-  note: 秋田銀行記事は1889年とする
-  sources: [https://ja.wikipedia.org/wiki/第四十八銀行, https://ja.wikipedia.org/wiki/秋田銀行]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続（Wikipediaの秋田銀行の記事は1889年とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JSmZnspWvaVgV3z7J17Skwc0rEl/description.html", https://ja.wikipedia.org/wiki/第四十八銀行, https://ja.wikipedia.org/wiki/秋田銀行]
 
 - date: "1941-10-20"
   type: merger
