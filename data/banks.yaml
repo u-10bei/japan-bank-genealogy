@@ -176,9 +176,11 @@
 - id: fujimoto-bank
   name: 藤本銀行
   type: other
-  dissolved: "1906-11-30"
-  note: 1906年11月30日北浜銀行に銀行業務を譲渡（大和証券60年史による。法人の解散日は出典に記載なし）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tBkHy5Dw2nzw2KR6ojvhboZGOGp/description.html"]
+  founded: "1895-12-21"
+  dissolved: "1906-12-31"
+  prefecture: 大阪府
+  note: 合資会社藤本銀行。1895年12月21日設立（大和証券60年史は1895年12月創立、1896年1月15日開業とする）。1906年11月30日北浜銀行に銀行業務を譲渡、12月31日任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Iaf7qDc8vIo59Ky6w2jxMyW_kA/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tBkHy5Dw2nzw2KR6ojvhboZGOGp/description.html"]
 
 - id: kitahama-bank
   name: 北浜銀行
@@ -4455,6 +4457,22 @@
   prefecture: 大阪府
   note: 1898年10月1日第四十二国立銀行が改称。1901年12月7日任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LrQPHwoYtOKYvOaCHF3R1Mh-mzo/description.html"]
+
+- id: dai75-kokuritsu
+  name: 第七十五国立銀行
+  type: other
+  dissolved: "1886-07-01"
+  note: 1886年7月1日第四十五国立銀行に合併（北陸銀行「創業百年史」は6月30日とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2byaVypcEySINqJpWFVDU6FVgKm/description.html"]
+
+- id: dai45-kokuritsu
+  name: 第四十五国立銀行
+  type: other
+  founded: "1878-10-21"
+  dissolved: "1898-10-20"
+  prefecture: 東京都
+  note: 1878年10月21日開業免状下付・設立、10月25日開業。1883年4月7日営業停止、7月16日解除、7月23日営業再開。1886年7月1日第七十五国立銀行を合併。1898年10月20日営業満期解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2byaVypcEySINqJpWFVDU6FVgKm/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

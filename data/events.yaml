@@ -6824,3 +6824,10 @@
   to: [setsuyo-bank]
   note: 摂陽銀行に改称（日本金融史資料は9月改称登記とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tBkHy5Dw2nzw2KR6ojvhboZGOGp/description.html"]
+
+- date: "1886-07-01"
+  type: absorption
+  from: [dai75-kokuritsu]
+  to: [dai45-kokuritsu]
+  note: 第四十五国立銀行が合併（北陸銀行「創業百年史」は6月30日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2byaVypcEySINqJpWFVDU6FVgKm/description.html"]
