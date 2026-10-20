@@ -6857,7 +6857,7 @@
   from: [toyama-1883]
   to: [dai47-kokuritsu]
   note: 富山銀行（初代）が第四十七国立銀行の営業権を買収し、同行と一体化して富山第四十七国立銀行となる（北陸銀行「創業百年史」本文は1891年11月とする）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E2NU1mOdHBEkBbqoZJi-3BMK2jk/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ciEj5GiqnbirBUonH0V9VNW9ece/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E2NU1mOdHBEkBbqoZJi-3BMK2jk/description.html"]
 
 - date: "1898-01-20"
   type: rename
