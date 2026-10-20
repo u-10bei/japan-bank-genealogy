@@ -6416,3 +6416,23 @@
   from: [dai26-kokuritsu]
   note: 鎖店（7月7日営業停止。1885年9月30日処分完結により解散）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/T0o48lSG5dnDjIWSu9__d09CcVg/description.html"]
+
+- date: "1897-12"
+  type: rename
+  from: [dai27-kokuritsu]
+  to: [nijushichi-bank]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（12月6日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OTK9vcNsbRRFjYNQM61ecHBdZb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vuuvWzF2eJOzA3X1laqrf6vSzhi/description.html"]
+
+- date: "1920-04-05"
+  type: rename
+  from: [nijushichi-bank]
+  to: [tokyo-watanabe]
+  note: 東京渡辺銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vuuvWzF2eJOzA3X1laqrf6vSzhi/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E5btPIk4l5GUxaRxeF-7wiwAvMm/description.html"]
+
+- date: "1928-06-29"
+  type: failure
+  from: [tokyo-watanabe]
+  note: 破産宣告
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E5btPIk4l5GUxaRxeF-7wiwAvMm/description.html"]

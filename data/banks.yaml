@@ -4025,6 +4025,33 @@
   note: 1878年2月18日開業免状下付、4月25日開業。1883年7月7日営業停止、11月7日鎖店。1885年9月30日処分完結により解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/T0o48lSG5dnDjIWSu9__d09CcVg/description.html"]
 
+- id: dai27-kokuritsu
+  name: 第二十七国立銀行
+  type: other
+  founded: "1877-12-07"
+  dissolved: "1897-12"
+  prefecture: 東京都
+  note: 1877年12月7日開業免状下付・設立、12月28日開業。1897年12月、営業満期国立銀行処分法により私立銀行として営業を継続し二十七銀行に改称（9月29日満期継続許可、12月6日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OTK9vcNsbRRFjYNQM61ecHBdZb/description.html"]
+
+- id: nijushichi-bank
+  name: 二十七銀行
+  type: other
+  founded: "1897-12"
+  dissolved: "1920-04-05"
+  prefecture: 東京都
+  note: 1897年12月第二十七国立銀行が改称。1920年4月5日東京渡辺銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vuuvWzF2eJOzA3X1laqrf6vSzhi/description.html"]
+
+- id: tokyo-watanabe
+  name: 東京渡辺銀行
+  type: other
+  founded: "1920-04-05"
+  dissolved: "1928-06-29"
+  prefecture: 東京都
+  note: 1920年4月5日二十七銀行が改称。1928年6月29日破産宣告
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E5btPIk4l5GUxaRxeF-7wiwAvMm/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
