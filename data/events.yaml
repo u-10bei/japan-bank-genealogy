@@ -6250,3 +6250,10 @@
   to: [daiku-ginko]
   note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は11月21日満期、肥後銀行五十年史は11月22日改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Zck7ZEzOCBsW4ilJa1sWxfFl9ee/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJDK6vmHPrrFE053svvdA8cFyWk/description.html"]
+
+- date: "1897-04-01"
+  type: rename
+  from: [dai11-kokuritsu]
+  to: [juichi-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8Je_1mtJcAZ8AZvCDKmXYiyR2ji/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DLajXSsJlyQNkdxb_KE2vHnWumc/description.html"]

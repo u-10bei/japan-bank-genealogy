@@ -3864,6 +3864,24 @@
   note: 1898年6月第六十四国立銀行が改称。1908年1月1日近江銀行が買収。解散日は資料により異なる（滋賀銀行五十年史は1月31日解散・4月30日清算結了、銀行総覧は2月21日任意解散とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NGI5QYSr_jW-Xpb8emdaXrqDpnd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e0IJz6AgGGa_W-ap-zF_5KVRblg/description.html"]
 
+- id: dai11-kokuritsu
+  name: 第十一国立銀行
+  type: other
+  founded: "1877-05-26"
+  dissolved: "1897-04-01"
+  prefecture: 愛知県
+  note: 1877年5月26日開業免状下付・設立、7月18日開業（東海銀行史は4月20日設立とする）。1897年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し十一銀行に改称（1896年12月10日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8Je_1mtJcAZ8AZvCDKmXYiyR2ji/description.html"]
+
+- id: juichi-bank
+  name: 十一銀行
+  type: other
+  founded: "1897-04-01"
+  dissolved: "1903-01-11"
+  prefecture: 愛知県
+  note: 1897年4月1日第十一国立銀行が改称。1903年1月11日任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DLajXSsJlyQNkdxb_KE2vHnWumc/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
