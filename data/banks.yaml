@@ -4480,8 +4480,26 @@
   founded: "1879-02-14"
   dissolved: "1898-07-01"
   prefecture: 愛知県
-  note: 岐阜で設立（1879年2月14日開業免状下付・設立、7月開業）。1886年10月1日愛知に移転。1891年8月14日営業停止、1892年1月14日解除、1月18日営業再開。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し愛知実業銀行に改称（3月31日満期前継続許可。愛知実業銀行は未収録）
+  note: 岐阜で設立（1879年2月14日開業免状下付・設立、7月開業）。1886年10月1日愛知に移転。1891年8月14日営業停止、1892年1月14日解除、1月18日営業再開。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し愛知実業銀行に改称（3月31日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sk7pRdrIaJ--bL4YESDRcZUYaA/description.html"]
+
+- id: aichi-jitsugyo
+  name: 愛知実業銀行
+  type: other
+  founded: "1898-07-01"
+  dissolved: "1927-06"
+  prefecture: 愛知県
+  note: 1898年7月1日第四十六国立銀行が改称。1927年6月愛知農商銀行に買収された
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/s6lbBniRrlvoiE92Wm3yKsmVIyl/description.html"]
+
+- id: aichi-nosho
+  name: 愛知農商銀行
+  type: other
+  founded: "1894-07-27"
+  dissolved: "1933-05-08"
+  prefecture: 愛知県
+  note: 1894年7月27日設立。1927年6月愛知実業銀行を買収。1933年1月14日破産宣告、5月8日破産確定
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VB-ZcvX6hvdcHk82gvvmAFxRwDd/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

@@ -6831,3 +6831,23 @@
   to: [dai45-kokuritsu]
   note: 第四十五国立銀行が合併（北陸銀行「創業百年史」は6月30日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2byaVypcEySINqJpWFVDU6FVgKm/description.html"]
+
+- date: "1898-07-01"
+  type: rename
+  from: [dai46-kokuritsu]
+  to: [aichi-jitsugyo]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sk7pRdrIaJ--bL4YESDRcZUYaA/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/s6lbBniRrlvoiE92Wm3yKsmVIyl/description.html"]
+
+- date: "1927-06"
+  type: transfer
+  from: [aichi-jitsugyo]
+  to: [aichi-nosho]
+  note: 愛知農商銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/s6lbBniRrlvoiE92Wm3yKsmVIyl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VB-ZcvX6hvdcHk82gvvmAFxRwDd/description.html"]
+
+- date: "1933-01-14"
+  type: failure
+  from: [aichi-nosho]
+  note: 破産宣告（5月8日破産確定）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VB-ZcvX6hvdcHk82gvvmAFxRwDd/description.html"]
