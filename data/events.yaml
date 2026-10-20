@@ -6683,3 +6683,10 @@
   to: [osaka-mujin]
   note: 大阪無尽が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lzTme0Sjzbex83IG3TcTuWNpVJl/description.html"]
+
+- date: "1989-04-01"
+  type: rename
+  from: [kyoto-sogo]
+  to: [kyoto-kyoei]
+  note: 普通銀行（第二地方銀行協会加盟行）に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JdpglGewSm4i72-3Yb05ZkhwgWd/description.html"]

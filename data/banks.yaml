@@ -10188,13 +10188,22 @@
   note: 福井無尽・武生無尽・越前無尽の合併で設立。1951年10月福井相互銀行に商号変更
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7"]
 
+- id: kyoto-sogo
+  name: 京都相互銀行
+  type: other
+  dissolved: "1989-04-01"
+  prefecture: 京都府
+  note: 1989年4月1日普通銀行に転換し京都共栄銀行に改称。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JdpglGewSm4i72-3Yb05ZkhwgWd/description.html"]
+
 - id: kyoto-kyoei
   name: 京都共栄銀行
-  type: other
-  dissolved: "1998-10"
+  type: regional2
+  founded: "1989-04-01"
+  dissolved: "1998-10-26"
   prefecture: 京都府
-  note: 1997年経営破綻。1998年10月営業譲渡（大半は幸福銀行、舞鶴市分は福邦銀行、丹後地方は北京都信用金庫）。福邦銀行は1998年3月営業一部譲受契約締結
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7", https://ja.wikipedia.org/wiki/京都共栄銀行]
+  note: 1989年4月1日、普通銀行（第二地方銀行協会加盟行）への転換で京都相互銀行が改称。1997年経営破綻。1998年10月26日幸福銀行に買収され解散（日本金融名鑑による）。1998年10月営業譲渡（大半は幸福銀行、舞鶴市分は福邦銀行、丹後地方は北京都信用金庫）。福邦銀行は1998年3月営業一部譲受契約締結
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JdpglGewSm4i72-3Yb05ZkhwgWd/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7", https://ja.wikipedia.org/wiki/京都共栄銀行]
 
 - id: yagi
   name: 八木銀行
