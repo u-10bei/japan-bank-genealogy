@@ -6375,3 +6375,17 @@
   from: [dai24-kokuritsu]
   note: 鎖店（1885年10月31日処分完結）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8p8iqBGnL-PYbyY8SnOs14yp3Vo/description.html"]
+
+- date: "1897-12-17"
+  type: rename
+  from: [dai25-kokuritsu]
+  to: [nijugo-bank]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（12月16日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UjUYnIKf1sTgMqATAGyXiiQeE-b/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v5mjuyx1qMnKr86a6nu_Pwg_W1g/description.html"]
+
+- date: "1926"
+  type: absorption
+  from: [obama-bank]
+  to: [nijugo-bank]
+  note: 二十五銀行が合併（3月18日合併認可。福井銀行八十年史は4月20日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v5mjuyx1qMnKr86a6nu_Pwg_W1g/description.html"]

@@ -3967,6 +3967,32 @@
   note: 1877年10月19日開業免状下付、11月1日開業。1882年8月24日鎖店（1885年10月31日処分完結。八十二銀行五十年史は1885年8月解散とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8p8iqBGnL-PYbyY8SnOs14yp3Vo/description.html"]
 
+- id: dai25-kokuritsu
+  name: 第二十五国立銀行
+  type: other
+  founded: "1877-12-17"
+  dissolved: "1897-12-17"
+  prefecture: 福井県
+  note: 小浜で設立（設立時の行政区域は滋賀県）。1877年12月17日開業免状下付・設立、1878年1月4日開業。1897年12月17日、営業満期国立銀行処分法により私立銀行として営業を継続し二十五銀行に改称（12月16日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UjUYnIKf1sTgMqATAGyXiiQeE-b/description.html"]
+
+- id: obama-bank
+  name: 小浜銀行
+  type: other
+  dissolved: "1926"
+  prefecture: 福井県
+  note: 1926年二十五銀行に合併（3月18日合併認可。福井銀行八十年史は4月20日合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v5mjuyx1qMnKr86a6nu_Pwg_W1g/description.html"]
+
+- id: nijugo-bank
+  name: 二十五銀行
+  type: other
+  founded: "1897-12-17"
+  dissolved: "1928"
+  prefecture: 福井県
+  note: 1897年12月17日第二十五国立銀行が改称。1926年小浜銀行を合併。1928年敦賀銀行と新立合併し敦賀二十五銀行となる（銀行総覧・北陸銀行「創業百年史」は11月25日、福井銀行八十年史は12月1日とする。敦賀銀行・敦賀二十五銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v5mjuyx1qMnKr86a6nu_Pwg_W1g/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
