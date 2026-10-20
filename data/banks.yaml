@@ -3882,6 +3882,31 @@
   note: 1897年4月1日第十一国立銀行が改称。1903年1月11日任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DLajXSsJlyQNkdxb_KE2vHnWumc/description.html"]
 
+- id: dai14-kokuritsu
+  name: 第十四国立銀行
+  type: other
+  founded: "1877-07-17"
+  dissolved: "1897-05-01"
+  prefecture: 長野県
+  note: 1877年7月17日開業免状下付・設立、8月5日開業。1897年5月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第十四銀行に改称（1月26日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/GoadlbW-U11AVVZs8B3BqEIRxee/description.html"]
+
+- id: hiroshima-shokusan
+  name: 広島殖産銀行
+  type: other
+  dissolved: "1915-04-09"
+  note: 1915年4月9日第十四銀行に合併（5月6日合併登記）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/txJsWsHE5wPr-3TlQUNAKnDPNrp/description.html"]
+
+- id: daijushi-bank
+  name: 第十四銀行
+  type: other
+  founded: "1897-05-01"
+  dissolved: "1918"
+  prefecture: 長野県
+  note: 1897年5月1日第十四国立銀行が改称。1910年12月10日長野から東京に移転。1915年4月9日広島殖産銀行を合併。破産確定（銀行総覧は1918年、日本金融史資料は1919年1月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/txJsWsHE5wPr-3TlQUNAKnDPNrp/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other

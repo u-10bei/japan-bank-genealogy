@@ -6257,3 +6257,23 @@
   to: [juichi-bank]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8Je_1mtJcAZ8AZvCDKmXYiyR2ji/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DLajXSsJlyQNkdxb_KE2vHnWumc/description.html"]
+
+- date: "1897-05-01"
+  type: rename
+  from: [dai14-kokuritsu]
+  to: [daijushi-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/GoadlbW-U11AVVZs8B3BqEIRxee/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/txJsWsHE5wPr-3TlQUNAKnDPNrp/description.html"]
+
+- date: "1915-04-09"
+  type: absorption
+  from: [hiroshima-shokusan]
+  to: [daijushi-bank]
+  note: 第十四銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/txJsWsHE5wPr-3TlQUNAKnDPNrp/description.html"]
+
+- date: "1918"
+  type: failure
+  from: [daijushi-bank]
+  note: 破産確定（銀行総覧は1918年、日本金融史資料は1919年1月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/txJsWsHE5wPr-3TlQUNAKnDPNrp/description.html"]
