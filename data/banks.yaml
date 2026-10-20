@@ -4016,6 +4016,15 @@
   note: 敦賀銀行・二十五銀行の新立合併で設立（銀行総覧・北陸銀行「創業百年史」は1928年11月25日、福井銀行八十年史は12月1日とする）。1929年本郷銀行を合併。1936年大和田銀行に合併（2月14日合併認可。福井銀行八十年史は3月10日合併とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/s0O9RE4PvWdDsB2FzMHzIOXf8/description.html"]
 
+- id: dai26-kokuritsu
+  name: 第二十六国立銀行
+  type: other
+  founded: "1878-02-18"
+  dissolved: "1883-11-07"
+  prefecture: 大阪府
+  note: 1878年2月18日開業免状下付、4月25日開業。1883年7月7日営業停止、11月7日鎖店。1885年9月30日処分完結により解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/T0o48lSG5dnDjIWSu9__d09CcVg/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other

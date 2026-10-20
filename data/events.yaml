@@ -6410,3 +6410,9 @@
   to: [owada-ginko]
   note: 大和田銀行が合併（2月14日合併認可。福井銀行八十年史は3月10日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/s0O9RE4PvWdDsB2FzMHzIOXf8/description.html"]
+
+- date: "1883-11-07"
+  type: failure
+  from: [dai26-kokuritsu]
+  note: 鎖店（7月7日営業停止。1885年9月30日処分完結により解散）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/T0o48lSG5dnDjIWSu9__d09CcVg/description.html"]
