@@ -3657,7 +3657,8 @@
   type: absorption
   from: [tosa]
   to: [kochi-old]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD3N"]
+  note: 高知銀行が合併し、同日四国銀行に改称（10月16日合併改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TetYPQHqyorYd84JP6QQ14SvZ0/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eY7dJpjcKSXTLYomHSchwO1ZX0p/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD3N"]
 
 - date: "1938-05-05"
   type: absorption
@@ -6179,3 +6180,52 @@
   to: [higo-1897]
   note: 肥後銀行が営業を譲受
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+
+- date: "1896-03"
+  type: transfer
+  from: [dai7-kokuritsu]
+  to: [tosa]
+  note: 第七国立銀行・第八十国立銀行の株主の協同で設立した土佐銀行に、両行の業務を漸次移管（3月10日土佐銀行開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1fDwRjEOBg37LVuN9SPAsPRi_hd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TetYPQHqyorYd84JP6QQ14SvZ0/description.html"]
+
+- date: "1896-11-25"
+  type: rename
+  from: [dai7-kokuritsu]
+  to: [daishichi-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1fDwRjEOBg37LVuN9SPAsPRi_hd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8QmY6srDbkKM5_ZNXChWTbw4iAl/description.html"]
+
+- date: "1897-06-29"
+  type: absorption
+  from: [dai80-ginko]
+  to: [daishichi-bank]
+  note: 第七銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8QmY6srDbkKM5_ZNXChWTbw4iAl/description.html"]
+
+- date: "1914"
+  type: absorption
+  from: [kochi-chochiku]
+  to: [tosa]
+  note: 土佐銀行が合併（銀行総覧は9月26日、四国銀行百年史は11月19日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TetYPQHqyorYd84JP6QQ14SvZ0/description.html"]
+
+- date: "1919-04-01"
+  type: absorption
+  from: [akaoka-bank]
+  to: [tosa]
+  note: 土佐銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TetYPQHqyorYd84JP6QQ14SvZ0/description.html"]
+
+- date: "1921-01-01"
+  type: absorption
+  from: [sukumo-ono]
+  to: [tosa]
+  note: 土佐銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TetYPQHqyorYd84JP6QQ14SvZ0/description.html"]
+
+- date: "1919-02-01"
+  type: absorption
+  from: [tosa-chokin]
+  to: [kochi-old]
+  note: 高知銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eY7dJpjcKSXTLYomHSchwO1ZX0p/description.html"]

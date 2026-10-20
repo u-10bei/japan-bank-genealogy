@@ -10280,12 +10280,68 @@
   note: 1926年3月1日伊予貯蓄銀行が改称。1944年12月15日伊豫合同銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PnU7bNbBD3Dk8oA8ysC1WqR7mLm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100OLYJ", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBIB"]
 
+- id: dai7-kokuritsu
+  name: 第七国立銀行
+  type: other
+  founded: "1877-02-20"
+  dissolved: "1896-11-25"
+  prefecture: 高知県
+  note: 1877年2月20日開業免状下付・設立、3月15日開業。1896年、第八十国立銀行の株主と協同で土佐銀行を設立し、業務を漸次移管。1896年11月25日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第七銀行に改称（8月21日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1fDwRjEOBg37LVuN9SPAsPRi_hd/description.html"]
+
+- id: dai80-ginko
+  name: 第八十銀行
+  type: other
+  dissolved: "1897-06-29"
+  prefecture: 高知県
+  note: 1897年6月29日第七銀行に合併（銀行総覧による）。第八十国立銀行の後身と考えられるが、改称の経緯・設立日は未確認
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8QmY6srDbkKM5_ZNXChWTbw4iAl/description.html"]
+
+- id: daishichi-bank
+  name: 第七銀行
+  type: other
+  founded: "1896-11-25"
+  dissolved: "1904-07-28"
+  prefecture: 高知県
+  note: 1896年11月25日第七国立銀行が改称。1897年6月29日第八十銀行を合併。1904年7月28日任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8QmY6srDbkKM5_ZNXChWTbw4iAl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1fDwRjEOBg37LVuN9SPAsPRi_hd/description.html"]
+
+- id: kochi-chochiku
+  name: 高知貯蓄銀行
+  type: other
+  dissolved: "1914"
+  note: 1914年土佐銀行に合併（銀行総覧は9月26日、四国銀行百年史は11月19日とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TetYPQHqyorYd84JP6QQ14SvZ0/description.html"]
+
+- id: akaoka-bank
+  name: 赤岡銀行
+  type: other
+  dissolved: "1919-04-01"
+  note: 1919年4月1日土佐銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TetYPQHqyorYd84JP6QQ14SvZ0/description.html"]
+
+- id: sukumo-ono
+  name: 宿毛小野銀行
+  type: other
+  dissolved: "1921-01-01"
+  note: 1921年1月1日土佐銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TetYPQHqyorYd84JP6QQ14SvZ0/description.html"]
+
+- id: tosa-chokin
+  name: 土佐貯金銀行
+  type: other
+  dissolved: "1919-02-01"
+  note: 1919年2月1日高知銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eY7dJpjcKSXTLYomHSchwO1ZX0p/description.html"]
+
 - id: tosa
   name: 土佐銀行
   type: other
+  founded: "1896-02-24"
   dissolved: "1923-11-01"
-  note: 1923年11月高知銀行が合併し四国銀行に改称
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD3N"]
+  prefecture: 高知県
+  note: 第七国立銀行・第八十国立銀行の株主の協同により設立（1896年2月24日設立認可、3月10日開業）し、両行の業務を漸次移管。1914年高知貯蓄銀行、1919年赤岡銀行、1921年宿毛小野銀行を合併。1923年11月1日高知銀行に合併し、高知銀行は四国銀行に改称（10月16日合併改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TetYPQHqyorYd84JP6QQ14SvZ0/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD3N"]
 
 - id: hamasaka
   name: 浜坂銀行
