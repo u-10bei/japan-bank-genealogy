@@ -3907,6 +3907,24 @@
   note: 1897年5月1日第十四国立銀行が改称。1910年12月10日長野から東京に移転。1915年4月9日広島殖産銀行を合併。破産確定（銀行総覧は1918年、日本金融史資料は1919年1月とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/txJsWsHE5wPr-3TlQUNAKnDPNrp/description.html"]
 
+- id: dai20-kokuritsu
+  name: 第二十国立銀行
+  type: other
+  founded: "1877-07-11"
+  dissolved: "1897-07"
+  prefecture: 東京都
+  note: 1877年7月11日開業免状下付・設立、8月10日開業。1897年7月、営業満期国立銀行処分法により私立銀行として営業を継続し二十銀行に改称（5月4日満期継続許可、7月10日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FhBy7AJ13K1WncA2O3kAV8RsGKh/description.html"]
+
+- id: niju-bank
+  name: 二十銀行
+  type: other
+  founded: "1897-07"
+  dissolved: "1912-09"
+  prefecture: 東京都
+  note: 1897年7月第二十国立銀行が改称。1912年9月第一銀行に合併（第一銀行史は9月19日合併、銀行総覧は9月25日合併解散とする。7月26日合併解散認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7G5e_LjK6jxgUScmVM_ZY-1-Wep/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other

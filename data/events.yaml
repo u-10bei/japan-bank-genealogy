@@ -6277,3 +6277,17 @@
   from: [daijushi-bank]
   note: 破産確定（銀行総覧は1918年、日本金融史資料は1919年1月とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/txJsWsHE5wPr-3TlQUNAKnDPNrp/description.html"]
+
+- date: "1897-07"
+  type: rename
+  from: [dai20-kokuritsu]
+  to: [niju-bank]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（7月10日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FhBy7AJ13K1WncA2O3kAV8RsGKh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7G5e_LjK6jxgUScmVM_ZY-1-Wep/description.html"]
+
+- date: "1912-09"
+  type: absorption
+  from: [niju-bank]
+  to: [dai-ichi-1896]
+  note: 第一銀行が合併（第一銀行史は9月19日、銀行総覧は9月25日合併解散とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7G5e_LjK6jxgUScmVM_ZY-1-Wep/description.html"]
