@@ -4094,6 +4094,14 @@
   note: 1920年4月5日二十七銀行が改称。1928年6月29日破産宣告
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E5btPIk4l5GUxaRxeF-7wiwAvMm/description.html"]
 
+- id: dai33-kokuritsu
+  name: 第三十三国立銀行
+  type: other
+  founded: "1878-01-19"
+  dissolved: "1892"
+  note: 1878年1月19日開業免状下付、2月1日開業。1892年3月31日営業停止、鎖店（銀行局報告は5月、銀行便覧は7月17日とする）。1893年6月2日処分完結。本店所在地は出典に記載なし。現在の三十三銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rFcJR_HD28nJMX5DVLKrnvi7U1n/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other

@@ -6471,3 +6471,9 @@
   to: [dai32-kokuritsu]
   note: 第三十二国立銀行が合併（銀行局報告第4次は10月1日、第12次は11月とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
+
+- date: "1892"
+  type: failure
+  from: [dai33-kokuritsu]
+  note: 3月31日営業停止、鎖店（銀行局報告は5月、銀行便覧は7月17日とする）。1893年6月2日処分完結
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rFcJR_HD28nJMX5DVLKrnvi7U1n/description.html"]
