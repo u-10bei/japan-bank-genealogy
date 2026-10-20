@@ -10188,12 +10188,57 @@
   note: 福井無尽・武生無尽・越前無尽の合併で設立。1951年10月福井相互銀行に商号変更
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7"]
 
+- id: kyoto-sangyo-mujin
+  name: 京都産業無尽
+  type: other
+  founded: "1924-06-15"
+  dissolved: "1940"
+  prefecture: 京都府
+  note: 1924年6月15日設立。1940年実業無尽を合併し昭和産業無尽に改称（『無尽・相銀合同の実証的研究』は4月30日合併・改称、全国無尽会社要覧は3月11日合併認可、全国相互銀行店舗名簿は3月11日合併設立とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_wC-muNNWx54eNGHt4y-_MAwVim/description.html"]
+
+- id: jitsugyo-mujin
+  name: 実業無尽
+  type: other
+  dissolved: "1940"
+  note: 1940年京都産業無尽に合併（京都産業無尽は同時に昭和産業無尽に改称）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_wC-muNNWx54eNGHt4y-_MAwVim/description.html"]
+
+- id: showa-sangyo-mujin-1940
+  name: 昭和産業無尽
+  type: other
+  founded: "1940"
+  dissolved: "1941-01"
+  prefecture: 京都府
+  note: 1940年京都産業無尽が実業無尽を合併し改称。1941年1月広済無尽と新立合併し、新たな昭和産業無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7z3gAnEeopOAEgRGa1GLhPRPeId/description.html"]
+
+- id: kosai-mujin
+  name: 広済無尽
+  type: other
+  founded: "1927-06-18"
+  dissolved: "1941-01"
+  prefecture: 京都府
+  note: 1927年6月18日設立。1941年1月昭和産業無尽（1940〜1941）と新立合併し、新たな昭和産業無尽となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Exz9EmplU8BPbg7zt_ieieixoPg/description.html"]
+
+- id: showa-sangyo-mujin
+  name: 昭和産業無尽
+  type: other
+  founded: "1941-01"
+  dissolved: "1951-10-20"
+  prefecture: 京都府
+  note: 広済無尽・昭和産業無尽（1940〜1941）の新立合併で設立（設立日は資料により異なる。銀行総覧第47回は1940年12月24日、第48〜49回は1941年1月18日、全国無尽会社要覧は1940年12月24日新立合併認可・1941年1月15日設立とする）。1951年10月20日相互銀行に転換し昭和産業相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WAIqSCPwmlJcLUrc7baBmFs3F_g/description.html"]
+
 - id: showa-sangyo-sogo
   name: 昭和産業相互銀行
   type: other
+  founded: "1951-10-20"
   dissolved: "1964-10-01"
-  note: 1964年10月1日京都相互銀行に改称（相互銀行史による）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zwCuHwmSd7ueA6VlTFa-UYaAe3n/description.html"]
+  prefecture: 京都府
+  note: 1951年10月20日、相互銀行への転換で昭和産業無尽が改称。1964年10月1日京都相互銀行に改称（相互銀行史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IbnKQIgRPPVK2sl_V2YpU9Q9jBj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zwCuHwmSd7ueA6VlTFa-UYaAe3n/description.html"]
 
 - id: kyoto-sogo
   name: 京都相互銀行

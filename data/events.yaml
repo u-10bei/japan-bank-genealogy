@@ -6697,3 +6697,31 @@
   to: [kyoto-sogo]
   note: 京都相互銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zwCuHwmSd7ueA6VlTFa-UYaAe3n/description.html"]
+
+- date: "1940"
+  type: absorption
+  from: [jitsugyo-mujin]
+  to: [kyoto-sangyo-mujin]
+  note: 京都産業無尽が合併し、同時に昭和産業無尽に改称（4月30日とする資料と3月11日とする資料がある）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_wC-muNNWx54eNGHt4y-_MAwVim/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7z3gAnEeopOAEgRGa1GLhPRPeId/description.html"]
+
+- date: "1940"
+  type: rename
+  from: [kyoto-sangyo-mujin]
+  to: [showa-sangyo-mujin-1940]
+  note: 実業無尽の合併と同時に昭和産業無尽に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_wC-muNNWx54eNGHt4y-_MAwVim/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7z3gAnEeopOAEgRGa1GLhPRPeId/description.html"]
+
+- date: "1941-01"
+  type: merger
+  from: [showa-sangyo-mujin-1940, kosai-mujin]
+  to: [showa-sangyo-mujin]
+  note: 新立合併（1940年12月24日新立合併認可。設立日は1940年12月24日・1941年1月15日・1月18日とする資料がある）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WAIqSCPwmlJcLUrc7baBmFs3F_g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7z3gAnEeopOAEgRGa1GLhPRPeId/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Exz9EmplU8BPbg7zt_ieieixoPg/description.html"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [showa-sangyo-mujin]
+  to: [showa-sangyo-sogo]
+  note: 相互銀行に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WAIqSCPwmlJcLUrc7baBmFs3F_g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IbnKQIgRPPVK2sl_V2YpU9Q9jBj/description.html"]
