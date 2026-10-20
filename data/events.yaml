@@ -2572,8 +2572,8 @@
   type: absorption
   from: [nippon-trust, tokyo-trust-2001]
   to: [mitsubishi-trust]
-  note: 三菱信託銀行を存続会社として日本信託銀行・東京信託銀行を合併（有報は2001年10月）
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO", https://ja.wikipedia.org/wiki/日本信託銀行]
+  note: 三菱信託銀行を存続会社として日本信託銀行・東京信託銀行を合併（有報は2001年10月。東京信託銀行は9月7日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/KJOq0QQeezViDZbYlki850v6ISn/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO", https://ja.wikipedia.org/wiki/日本信託銀行]
 
 - date: "2002-01-15"
   type: rename

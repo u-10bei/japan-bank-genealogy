@@ -8881,9 +8881,11 @@
 - id: tokyo-trust-2001
   name: 東京信託銀行
   type: trust
+  founded: "1993-08-24"
   dissolved: "2001-10-01"
-  note: 2001年9月三菱東京フィナンシャル・グループの完全子会社となり、翌月三菱信託銀行に合併。設立日は未確認。三井信託銀行の旧商号（1948-52年）とは別法人
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO"]
+  prefecture: 東京都
+  note: 東京銀行の信託銀行子会社として設立（9月3日銀行業免許・信託兼営認可、10月1日開業）。2001年9月三菱東京フィナンシャル・グループの完全子会社となり、10月1日三菱信託銀行に合併（9月7日合併認可）。三井信託銀行の旧商号（1948-52年）とは別法人
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/KJOq0QQeezViDZbYlki850v6ISn/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YIH8", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJQO"]
 
 - id: sumitomo-shintaku
   name: 住友信託株式会社
