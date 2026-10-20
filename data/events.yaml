@@ -753,7 +753,8 @@
   type: merger
   from: [sanjugo, shizuoka-old]
   to: [shizuoka-sanjugo]
-  sources: [https://ja.wikipedia.org/wiki/静岡銀行]
+  note: 新立合併（3月16日新立合併認可。銀行総覧は3月16日設立、静岡銀行史は3月27日新立合併（創立総会）とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html", https://ja.wikipedia.org/wiki/静岡銀行]
 
 - date: "1943-03-01"
   type: merger
@@ -6491,3 +6492,59 @@
   to: [dai35-kokuritsu]
   note: 第三十五国立銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/49w2cWXlgoUO4RHaPhALih6l0ml/description.html"]
+
+- date: "1907"
+  type: absorption
+  from: [ejiri-soko]
+  to: [sanjugo]
+  note: 三十五銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- date: "1919-06"
+  type: absorption
+  from: [toen-bank]
+  to: [sanjugo]
+  note: 三十五銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- date: "1922-10"
+  type: absorption
+  from: [enyo-bank, katsumata-bank]
+  to: [sanjugo]
+  note: 三十五銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- date: "1923-04"
+  type: absorption
+  from: [sangyo-bank-shizuoka]
+  to: [sanjugo]
+  note: 三十五銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- date: "1926"
+  type: transfer
+  from: [seigyo-bank]
+  to: [sanjugo]
+  note: 三十五銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- date: "1928-04"
+  type: absorption
+  from: [omiya-bank, shizuoka-shogyo]
+  to: [sanjugo]
+  note: 三十五銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- date: "1928-09"
+  type: absorption
+  from: [chuen-bank]
+  to: [sanjugo]
+  note: 三十五銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- date: "1929-12"
+  type: absorption
+  from: [yoshiwara-bank]
+  to: [sanjugo]
+  note: 三十五銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]

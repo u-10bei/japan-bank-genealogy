@@ -3394,14 +3394,89 @@
   founded: "1897-07-01"
   dissolved: "1937-03"
   prefecture: 静岡県
-  sources: [https://ja.wikipedia.org/wiki/静岡銀行]
+  note: 1897年7月1日第三十五国立銀行が改称。1907〜1929年に江尻倉庫・東遠・遠陽・勝間田・産業・大宮・静岡商業・中遠・吉原の各行を合併し、1926年精業銀行を買収（1928年1月には静岡米穀肥料委托株式会社も買収）。1937年3月静岡銀行（1935〜1937）と新立合併し静岡三十五銀行となる（銀行総覧は3月16日設立、静岡銀行史は3月27日新立合併（創立総会）とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html", https://ja.wikipedia.org/wiki/静岡銀行]
+
+- id: ejiri-soko
+  name: 江尻倉庫銀行
+  type: other
+  dissolved: "1907"
+  note: 1907年三十五銀行に合併（銀行総覧は6月26日、静岡銀行史は7月とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- id: toen-bank
+  name: 東遠銀行
+  type: other
+  dissolved: "1919-06"
+  note: 1919年6月三十五銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- id: enyo-bank
+  name: 遠陽銀行
+  type: other
+  dissolved: "1922-10"
+  note: 1922年10月三十五銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- id: katsumata-bank
+  name: 勝間田銀行
+  type: other
+  founded: "1891"
+  dissolved: "1922-10"
+  note: 1922年10月三十五銀行に合併。銀行変遷史DBは1891〜1922年の勝間田銀行とする（設立日は未確認）。岡山県の勝間田銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- id: sangyo-bank-shizuoka
+  name: 産業銀行
+  type: other
+  founded: "1899"
+  dissolved: "1923-04"
+  note: 1923年4月三十五銀行に合併（3月26日合併認可、4月26日合併登記）。銀行変遷史DBは1899〜1923年の産業銀行とする（設立日は未確認）。奈良県の産業銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- id: seigyo-bank
+  name: 精業銀行
+  type: other
+  dissolved: "1926"
+  note: 1926年三十五銀行が買収（2月8日買収届出。静岡銀行史は3月合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- id: omiya-bank
+  name: 大宮銀行
+  type: other
+  dissolved: "1928-04"
+  note: 1928年4月三十五銀行に合併（2月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- id: shizuoka-shogyo
+  name: 静岡商業銀行
+  type: other
+  dissolved: "1928-04"
+  note: 1928年4月三十五銀行に合併（2月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- id: chuen-bank
+  name: 中遠銀行
+  type: other
+  founded: "1921"
+  dissolved: "1928-09"
+  note: 1928年9月三十五銀行に合併（8月合併認可）。銀行変遷史DBは1921〜1928年の中遠銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- id: yoshiwara-bank
+  name: 吉原銀行
+  type: other
+  dissolved: "1929-12"
+  note: 1929年12月三十五銀行に合併（11月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
 
 - id: shizuoka-old
   name: 静岡銀行
   type: other
+  founded: "1935"
   dissolved: "1937-03"
   prefecture: 静岡県
-  note: 旧・静岡銀行（現在の静岡銀行とは別）
+  note: 旧・静岡銀行（現在の静岡銀行とは別）。銀行変遷史DBは1935〜1937年の静岡銀行とする（設立日は未確認）
   sources: [https://ja.wikipedia.org/wiki/静岡銀行]
 
 - id: shizuoka-sanjugo
