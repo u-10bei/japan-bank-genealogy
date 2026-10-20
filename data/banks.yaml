@@ -3323,6 +3323,15 @@
   note: 2024年10月1日福井銀行の完全子会社化
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TOO7", https://ja.wikipedia.org/wiki/福邦銀行]
 
+- id: dai28-kokuritsu
+  name: 第二十八国立銀行
+  type: other
+  founded: "1877-12-28"
+  dissolved: "1889-01-01"
+  prefecture: 静岡県
+  note: 1877年12月28日開業免状下付、1878年1月10日開業（静岡銀行史は1877年10月18日設立免許とする）。1889年1月1日第三十五国立銀行に合併（静岡銀行史による。銀行局報告は1月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bgsMNxY1uEm7MPyffIYkYUJW0mh/description.html"]
+
 - id: dai35-kokuritsu
   name: 第三十五国立銀行
   type: other

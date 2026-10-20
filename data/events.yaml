@@ -6436,3 +6436,10 @@
   from: [tokyo-watanabe]
   note: 破産宣告
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E5btPIk4l5GUxaRxeF-7wiwAvMm/description.html"]
+
+- date: "1889-01-01"
+  type: absorption
+  from: [dai28-kokuritsu]
+  to: [dai35-kokuritsu]
+  note: 第三十五国立銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bgsMNxY1uEm7MPyffIYkYUJW0mh/description.html"]
