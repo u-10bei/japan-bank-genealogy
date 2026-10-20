@@ -6389,3 +6389,24 @@
   to: [nijugo-bank]
   note: 二十五銀行が合併（3月18日合併認可。福井銀行八十年史は4月20日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v5mjuyx1qMnKr86a6nu_Pwg_W1g/description.html"]
+
+- date: "1928"
+  type: merger
+  from: [nijugo-bank, tsuruga-bank]
+  to: [tsuruga-nijugo]
+  note: 新立合併（銀行総覧・北陸銀行「創業百年史」は11月25日、福井銀行八十年史は12月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/s0O9RE4PvWdDsB2FzMHzIOXf8/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v5mjuyx1qMnKr86a6nu_Pwg_W1g/description.html"]
+
+- date: "1929"
+  type: absorption
+  from: [hongo-bank]
+  to: [tsuruga-nijugo]
+  note: 敦賀二十五銀行が合併（6月合併認可。福井銀行八十年史は7月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/s0O9RE4PvWdDsB2FzMHzIOXf8/description.html"]
+
+- date: "1936"
+  type: absorption
+  from: [tsuruga-nijugo]
+  to: [owada-ginko]
+  note: 大和田銀行が合併（2月14日合併認可。福井銀行八十年史は3月10日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/s0O9RE4PvWdDsB2FzMHzIOXf8/description.html"]
