@@ -3853,6 +3853,33 @@
   note: 1898年6月第六十四国立銀行が改称。1908年1月1日近江銀行が買収。解散日は資料により異なる（滋賀銀行五十年史は1月31日解散・4月30日清算結了、銀行総覧は2月21日任意解散とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NGI5QYSr_jW-Xpb8emdaXrqDpnd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e0IJz6AgGGa_W-ap-zF_5KVRblg/description.html"]
 
+- id: dai8-kokuritsu
+  name: 第八国立銀行
+  type: other
+  founded: "1877-02-22"
+  dissolved: "1886-07-01"
+  prefecture: 愛知県
+  note: 1877年2月22日開業免状下付、3月20日開業（東海銀行史は2月3日設立とする）。1886年7月1日第百三十四国立銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-tg4xIE5dPmXOX67wWVehGQidWp/description.html"]
+
+- id: dai134-kokuritsu
+  name: 第百三十四国立銀行
+  type: other
+  founded: "1878-12-02"
+  dissolved: "1897-04-01"
+  prefecture: 愛知県
+  note: 1878年12月2日開業免状下付・設立、1879年1月8日開業（東海銀行史は1878年11月12日設立とする）。1886年7月1日第八国立銀行を合併。1897年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百三十四銀行に改称（1896年12月10日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RskIenIZBoolNeE5z0V1I7lMsdd/description.html"]
+
+- id: hyakusanjuyon
+  name: 百三十四銀行
+  type: other
+  founded: "1897-04-01"
+  dissolved: "1902"
+  prefecture: 愛知県
+  note: 1897年4月1日第百三十四国立銀行が改称。1902年任意解散（銀行総覧は8月12日任意解散、東海銀行史は7月20日解散とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Imhu-cN1fNINUYmhpTatDZ9PxZn/description.html"]
+
 - id: dai133-kokuritsu
   name: 第百三十三国立銀行
   type: other

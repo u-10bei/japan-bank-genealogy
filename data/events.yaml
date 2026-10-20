@@ -6229,3 +6229,17 @@
   to: [kochi-old]
   note: 高知銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eY7dJpjcKSXTLYomHSchwO1ZX0p/description.html"]
+
+- date: "1886-07-01"
+  type: absorption
+  from: [dai8-kokuritsu]
+  to: [dai134-kokuritsu]
+  note: 第百三十四国立銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-tg4xIE5dPmXOX67wWVehGQidWp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RskIenIZBoolNeE5z0V1I7lMsdd/description.html"]
+
+- date: "1897-04-01"
+  type: rename
+  from: [dai134-kokuritsu]
+  to: [hyakusanjuyon]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RskIenIZBoolNeE5z0V1I7lMsdd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Imhu-cN1fNINUYmhpTatDZ9PxZn/description.html"]
