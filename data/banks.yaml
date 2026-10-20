@@ -4191,6 +4191,31 @@
   note: 1878年1月19日開業免状下付、2月1日開業。1892年3月31日営業停止、鎖店（銀行局報告は5月、銀行便覧は7月17日とする）。1893年6月2日処分完結。本店所在地は出典に記載なし。現在の三十三銀行とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rFcJR_HD28nJMX5DVLKrnvi7U1n/description.html"]
 
+- id: dai36-kokuritsu
+  name: 第三十六国立銀行
+  type: other
+  founded: "1878-02-16"
+  dissolved: "1898-02-15"
+  prefecture: 東京都
+  note: 八王子で設立（銀行局報告は所在地を神奈川県とするが、1893年に三多摩は東京府に移管）。1878年2月16日開業免状下付・設立、4月23日開業。1898年2月15日、営業満期国立銀行処分法により私立銀行として営業を継続し第三十六銀行に改称（1月21日満期継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qhz9jOXrcnYnKXaLcOL0nIs8DLc/description.html"]
+
+- id: itsukaichi-bank
+  name: 五日市銀行
+  type: other
+  dissolved: "1924-09"
+  note: 1924年9月第三十六銀行が営業を譲受（8月30日買収届出）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7SZ0K5Vr498CptE1bWGUyfR1qjb/description.html"]
+
+- id: dai36-ginko
+  name: 第三十六銀行
+  type: other
+  founded: "1898-02-15"
+  dissolved: "1942"
+  prefecture: 東京都
+  note: 1898年2月15日第三十六国立銀行が改称。1924年五日市銀行を買収。1942年日本昼夜銀行に営業を譲渡（5月28日買収認可、日本金融史資料は5月30日買収、富士銀行百年史は6月営業譲渡とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7SZ0K5Vr498CptE1bWGUyfR1qjb/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
@@ -10171,8 +10196,9 @@
 - id: nippon-chuya-ginko
   name: 日本昼夜銀行
   type: other
+  founded: "1922"
   dissolved: "1943-04"
-  note: 1943年4月安田銀行に合併
+  note: 銀行変遷史DBは1922〜1943年の日本昼夜銀行とする（設立日は未確認）。1942年第三十六銀行を買収。1943年4月安田銀行に合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YFAH"]
 
 - id: nagahama-bank

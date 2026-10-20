@@ -6548,3 +6548,24 @@
   to: [sanjugo]
   note: 三十五銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TK4gEwlXocyTbXzR-0F9sGqibkc/description.html"]
+
+- date: "1898-02-15"
+  type: rename
+  from: [dai36-kokuritsu]
+  to: [dai36-ginko]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qhz9jOXrcnYnKXaLcOL0nIs8DLc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7SZ0K5Vr498CptE1bWGUyfR1qjb/description.html"]
+
+- date: "1924-09"
+  type: transfer
+  from: [itsukaichi-bank]
+  to: [dai36-ginko]
+  note: 第三十六銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7SZ0K5Vr498CptE1bWGUyfR1qjb/description.html"]
+
+- date: "1942"
+  type: transfer
+  from: [dai36-ginko]
+  to: [nippon-chuya-ginko]
+  note: 日本昼夜銀行が買収（日本金融史資料は5月30日、富士銀行百年史は6月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7SZ0K5Vr498CptE1bWGUyfR1qjb/description.html"]
