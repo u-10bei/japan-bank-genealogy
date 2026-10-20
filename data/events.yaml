@@ -1343,12 +1343,19 @@
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/aq2EjxGc5enz519wordTOvzqQYe/description.html", https://ja.wikipedia.org/wiki/大分銀行]
 
-- date: "1927-10"
-  type: merger
-  from: [oita-old, nijusan]
+- date: "1927-10-18"
+  type: absorption
+  from: [nijusan]
+  to: [oita-old]
+  note: 大分銀行が合併し、同日大分合同銀行に改称（9月合併改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1C1Mb7P66OStVO4ikKvsCxe_dtj/description.html", https://ja.wikipedia.org/wiki/大分銀行]
+
+- date: "1927-10-18"
+  type: rename
+  from: [oita-old]
   to: [oita-godo]
-  note: 出典では「大分銀行が二十三銀行を合併し大分合同銀行となる」
-  sources: [https://ja.wikipedia.org/wiki/大分銀行]
+  note: 二十三銀行の合併と同時に大分合同銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1C1Mb7P66OStVO4ikKvsCxe_dtj/description.html", https://ja.wikipedia.org/wiki/大分銀行]
 
 - date: "1953-01"
   type: rename
@@ -6341,3 +6348,24 @@
   to: [nijuni-bank]
   note: 二十二銀行が合併（中國銀行五十年史は9月30日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/YVEpifZt7DjtEvwigQV5zrUg_4j/description.html"]
+
+- date: "1903-12"
+  type: absorption
+  from: [usuki-1899]
+  to: [nijusan]
+  note: 二十三銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1C1Mb7P66OStVO4ikKvsCxe_dtj/description.html"]
+
+- date: "1923-12"
+  type: transfer
+  from: [narikiyo-bank]
+  to: [nijusan]
+  note: 二十三銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1C1Mb7P66OStVO4ikKvsCxe_dtj/description.html"]
+
+- date: "1924-01"
+  type: transfer
+  from: [usuki-1914]
+  to: [nijusan]
+  note: 二十三銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1C1Mb7P66OStVO4ikKvsCxe_dtj/description.html"]

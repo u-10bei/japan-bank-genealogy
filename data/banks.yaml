@@ -5945,23 +5945,47 @@
   name: 二十三銀行
   type: other
   founded: "1897-05-01"
-  dissolved: "1927-10"
+  dissolved: "1927-10-18"
   prefecture: 大分県
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/aq2EjxGc5enz519wordTOvzqQYe/description.html", https://ja.wikipedia.org/wiki/大分銀行]
+  note: 1897年5月1日第二十三国立銀行が改称。1903年臼杵銀行（1899〜1903）を合併、1923年成清銀行・1924年臼杵銀行（1914〜1924）を買収。1927年10月18日大分銀行に合併（大分銀行は同日大分合同銀行に改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1C1Mb7P66OStVO4ikKvsCxe_dtj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/aq2EjxGc5enz519wordTOvzqQYe/description.html", https://ja.wikipedia.org/wiki/大分銀行]
+
+- id: usuki-1899
+  name: 臼杵銀行
+  type: other
+  founded: "1899"
+  dissolved: "1903-12"
+  note: 1903年12月二十三銀行に合併（銀行総覧は12月24日、大分銀行百年史は12月21日とする）。銀行変遷史DBは1899〜1903年の臼杵銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1C1Mb7P66OStVO4ikKvsCxe_dtj/description.html"]
+
+- id: narikiyo-bank
+  name: 成清銀行
+  type: other
+  dissolved: "1923-12"
+  note: 1923年12月二十三銀行が買収（12月6日営業譲渡・解散決議）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1C1Mb7P66OStVO4ikKvsCxe_dtj/description.html"]
+
+- id: usuki-1914
+  name: 臼杵銀行
+  type: other
+  founded: "1914"
+  dissolved: "1924-01"
+  note: 1924年1月二十三銀行が買収（1月25日営業譲渡・解散決議）。銀行変遷史DBは1914〜1924年の臼杵銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1C1Mb7P66OStVO4ikKvsCxe_dtj/description.html"]
 
 - id: oita-old
   name: 大分銀行
   type: other
   founded: "1893-02-01"
-  dissolved: "1927-10"
+  dissolved: "1927-10-18"
   prefecture: 大分県
-  note: 現大分銀行の前身の旧大分銀行
+  note: 現大分銀行の前身の旧大分銀行。1927年10月18日二十三銀行を合併し大分合同銀行に改称（9月合併改称認可）
   sources: [https://ja.wikipedia.org/wiki/大分銀行]
 
 - id: oita-godo
   name: 大分合同銀行
   type: other
-  founded: "1927-10"
+  founded: "1927-10-18"
   dissolved: "1953-01"
   prefecture: 大分県
   sources: [https://ja.wikipedia.org/wiki/大分銀行]
