@@ -6761,3 +6761,31 @@
   to: [yonju-bank]
   note: 四十銀行が合併（銀行総覧は10月15日、第一銀行史・群馬銀行五十年史は11月1日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ANQs1mHVMdM4owgsQEakv-NJ2Hi/description.html"]
+
+- date: "1898-07"
+  type: rename
+  from: [dai41-kokuritsu]
+  to: [yonjuichi-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続（銀行局報告は7月1日、足利銀行史は7月4日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svvoBbyXAEgBcvZTgT58XCn2VMf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mRH_X7XHudHejfrsNpHL7MVVdxh/description.html"]
+
+- date: "1918-06"
+  type: merger
+  from: [yonju-bank, yonjuichi-bank]
+  to: [hachijuichi-bank]
+  note: 新立合併（第一銀行史などは6月1日、銀行総覧は6月10日設立とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qLaARyDwf8gKkxOLUmej6N8DqRj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mRH_X7XHudHejfrsNpHL7MVVdxh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ANQs1mHVMdM4owgsQEakv-NJ2Hi/description.html"]
+
+- date: "1919-04-11"
+  type: absorption
+  from: [sano-shogyo]
+  to: [hachijuichi-bank]
+  note: 八十一銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qLaARyDwf8gKkxOLUmej6N8DqRj/description.html"]
+
+- date: "1921-07-01"
+  type: absorption
+  from: [hachijuichi-bank]
+  to: [tokai-1889]
+  note: 東海銀行（1889〜1927）が合併（第一銀行史による。合併解散登記は8月か）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qLaARyDwf8gKkxOLUmej6N8DqRj/description.html"]

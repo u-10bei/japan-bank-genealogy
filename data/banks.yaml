@@ -4365,8 +4365,51 @@
   founded: "1898-07-01"
   dissolved: "1918-06"
   prefecture: 群馬県
-  note: 1898年7月1日第四十国立銀行が改称。1917年館林貯蓄銀行を合併。1918年6月四十一銀行と新立合併し八十一銀行（東京）となる（第一銀行史・群馬銀行五十年史・足利銀行史は6月1日、銀行総覧は6月10日設立とする。四十一銀行・八十一銀行は未収録）
+  note: 1898年7月1日第四十国立銀行が改称。1917年館林貯蓄銀行を合併。1918年6月四十一銀行と新立合併し八十一銀行（東京）となる（第一銀行史・群馬銀行五十年史・足利銀行史は6月1日、銀行総覧は6月10日設立とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ANQs1mHVMdM4owgsQEakv-NJ2Hi/description.html"]
+
+- id: dai41-kokuritsu
+  name: 第四十一国立銀行
+  type: other
+  founded: "1878-09-04"
+  dissolved: "1898-07"
+  prefecture: 栃木県
+  note: 1878年9月4日開業免状下付・設立、9月8日開業（足利銀行史は1877年10月25日設立とする）。1898年7月、国立銀行営業満期前特別処分法により私立銀行として営業を継続し四十一銀行に改称（3月16日満期前継続許可。銀行局報告は7月1日継続、足利銀行史は7月4日改組改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/svvoBbyXAEgBcvZTgT58XCn2VMf/description.html"]
+
+- id: yonjuichi-bank
+  name: 四十一銀行
+  type: other
+  founded: "1898-07"
+  dissolved: "1918-06"
+  prefecture: 栃木県
+  note: 1898年7月第四十一国立銀行が改称。1918年6月四十銀行と新立合併し八十一銀行（東京）となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mRH_X7XHudHejfrsNpHL7MVVdxh/description.html"]
+
+- id: sano-shogyo
+  name: 佐野商業銀行
+  type: other
+  dissolved: "1919-04-11"
+  note: 1919年4月11日八十一銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qLaARyDwf8gKkxOLUmej6N8DqRj/description.html"]
+
+- id: hachijuichi-bank
+  name: 八十一銀行
+  type: other
+  founded: "1918-06"
+  dissolved: "1921-07-01"
+  prefecture: 東京都
+  note: 四十銀行・四十一銀行の新立合併で設立（第一銀行史・足利銀行史・群馬銀行史は6月1日新立合併、銀行総覧は6月10日設立とする。5月17日営業認可）。1919年4月11日佐野商業銀行を合併。1921年7月1日東海銀行（1889〜1927）に合併（第一銀行史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qLaARyDwf8gKkxOLUmej6N8DqRj/description.html"]
+
+- id: tokai-1889
+  name: 東海銀行
+  type: other
+  founded: "1889"
+  dissolved: "1927"
+  prefecture: 東京都
+  note: 銀行変遷史DBは1889〜1927年の東海銀行とする（設立日・消滅の経緯は未確認）。1921年7月1日八十一銀行を合併。1941年設立の東海銀行（名古屋）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qLaARyDwf8gKkxOLUmej6N8DqRj/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
