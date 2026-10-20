@@ -2612,8 +2612,8 @@
   type: absorption
   from: [sumigin-trust, daiwa-international-trust]
   to: [sumitomo-trust]
-  note: Wikipediaのみによる（有報に記載なし）
-  sources: [https://ja.wikipedia.org/wiki/住友信託銀行]
+  note: 住友信託銀行が2行を合併（住友信託銀行の有価証券報告書（2000年9月）による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6FPKwCsML7Z7d5uwqE6Ge-MsqUo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ROqmzdO365MrFG_p6w425ZfSm9h/description.html", https://ja.wikipedia.org/wiki/住友信託銀行]
 
 - date: "2008-02-01"
   type: absorption
@@ -3688,7 +3688,7 @@
   from: [fukutoku, naniwa]
   to: [namihaya]
   note: 特定合併（経営が行き詰まった金融機関の救済策）
-  sources: [https://ja.wikipedia.org/wiki/なみはや銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TrxN_YYqklEu1cwEuQGSZ_IlaDc/description.html", https://ja.wikipedia.org/wiki/なみはや銀行]
 
 # ---------------------------------------------------------------- 旧商号（改称・改組）
 - date: "1948-12-01"
@@ -6648,3 +6648,17 @@
   to: [daiwagin-trust]
   note: 証券投資信託・退職給付信託・特金外・年金特定信託部門の営業を大和銀信託銀行に分割譲渡（金融庁の1年は9月10日、『金融』・日本経済新聞は9月9日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRD2CUHcFhNfX7Qap9haMfiJy1k/description.html"]
+
+- date: "1951-10-20"
+  type: rename
+  from: [osaka-mujin]
+  to: [osaka-sogo]
+  note: 相互銀行に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Sz2cG-mAOQ1g_080coX1uxCdKGm/description.html"]
+
+- date: "1989-02-01"
+  type: rename
+  from: [osaka-sogo]
+  to: [naniwa]
+  note: 普通銀行（第二地方銀行協会加盟行）に転換
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Sz2cG-mAOQ1g_080coX1uxCdKGm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TrxN_YYqklEu1cwEuQGSZ_IlaDc/description.html"]

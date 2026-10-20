@@ -8917,16 +8917,20 @@
 - id: sumigin-trust
   name: すみぎん信託銀行
   type: trust
+  founded: "1996-06-28"
   dissolved: "2000-08-01"
-  note: 住友銀行系の信託銀行。設立日未確認（Wikipediaのみ）
-  sources: [https://ja.wikipedia.org/wiki/住友信託銀行]
+  prefecture: 東京都
+  note: 住友銀行の信託銀行子会社として設立。2000年8月1日住友信託銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6FPKwCsML7Z7d5uwqE6Ge-MsqUo/description.html", https://ja.wikipedia.org/wiki/住友信託銀行]
 
 - id: daiwa-international-trust
   name: 大和インターナショナル信託銀行
   type: trust
+  founded: "1993-08-23"
   dissolved: "2000-08-01"
-  note: 設立日未確認（Wikipediaのみ）
-  sources: [https://ja.wikipedia.org/wiki/住友信託銀行]
+  prefecture: 東京都
+  note: 大和証券の信託銀行子会社として設立（9月3日銀行業免許・信託兼営認可、10月1日開業）。2000年8月1日住友信託銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ROqmzdO365MrFG_p6w425ZfSm9h/description.html", https://ja.wikipedia.org/wiki/住友信託銀行]
 
 - id: barclays-trust
   name: バークレイズ信託銀行
@@ -11012,10 +11016,30 @@
   note: 1989年2月1日、普通銀行（第二地方銀行協会加盟行）への転換で福徳相互銀行が改称。1998年10月なにわ銀行と福徳銀行が合併しなみはや銀行を新設
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPeG5FWeWPcSBnEly_6Wnhd9Skn/description.html", https://ja.wikipedia.org/wiki/なみはや銀行]
 
+- id: osaka-mujin
+  name: 大阪無尽
+  type: other
+  founded: "1939"
+  dissolved: "1951-10-20"
+  prefecture: 大阪府
+  note: 銀行変遷史DBは1939〜1951年の大阪無尽とする（設立日は未確認）。1951年10月20日相互銀行に転換し大阪相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Sz2cG-mAOQ1g_080coX1uxCdKGm/description.html"]
+
+- id: osaka-sogo
+  name: 大阪相互銀行
+  type: other
+  founded: "1951-10-20"
+  dissolved: "1989-02-01"
+  prefecture: 大阪府
+  note: 1951年10月20日、相互銀行への転換で大阪無尽が改称。1989年2月1日普通銀行に転換しなにわ銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Sz2cG-mAOQ1g_080coX1uxCdKGm/description.html"]
+
 - id: naniwa
   name: なにわ銀行
   type: regional2
+  founded: "1989-02-01"
   dissolved: "1998-10-01"
-  note: 旧相互銀行。1998年10月福徳銀行と合併しなみはや銀行を新設
-  sources: [https://ja.wikipedia.org/wiki/なみはや銀行]
+  prefecture: 大阪府
+  note: 1989年2月1日、普通銀行（第二地方銀行協会加盟行）への転換で大阪相互銀行が改称。1998年10月1日福徳銀行と特定合併しなみはや銀行を設立
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TrxN_YYqklEu1cwEuQGSZ_IlaDc/description.html", https://ja.wikipedia.org/wiki/なみはや銀行]
 
