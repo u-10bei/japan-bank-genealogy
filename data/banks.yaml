@@ -10392,12 +10392,40 @@
   note: 1968年4月三井銀行に合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
 
+- id: nippon-shokusan-1949
+  name: 日本殖産
+  type: other
+  founded: "1949-06-01"
+  dissolved: "1950-03-15"
+  prefecture: 東京都
+  note: 日本殖産株式会社。1949年6月1日東京で設立。1950年3月15日平和貯蓄殖産無尽に改称（全国相互銀行店舗名簿は「大日本殖産株式会社」を吸収し改称とする）。日本殖産無尽とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JxChZ_Gs_qxcZ1i3t64bysyvpOl/description.html"]
+
+- id: heiwa-chochiku-mujin
+  name: 平和貯蓄殖産無尽
+  type: other
+  founded: "1950-03-15"
+  dissolved: "1951-10-20"
+  prefecture: 東京都
+  note: 1950年3月15日日本殖産株式会社が改称。1950年4月20日大日殖産株式会社を買収、5月1日無尽営業免許。1951年10月20日相互銀行に転換し平和相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4qSPVHj2D5ZpUbrjaqIr4B9Ne-b/description.html"]
+
+- id: tokyo-jutaku-mujin
+  name: 東京住宅無尽
+  type: other
+  dissolved: "1954-10"
+  prefecture: 東京都
+  note: 1954年10月平和相互銀行が債権債務を譲受（買収）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/C6Xt5Ss08XPsBN6cn63Bj0P6xi/description.html"]
+
 - id: heiwa-sogo
   name: 平和相互銀行
   type: other
-  dissolved: "1986-10"
-  note: 1986年10月住友銀行に合併
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+  founded: "1951-10-20"
+  dissolved: "1986-10-01"
+  prefecture: 東京都
+  note: 1951年10月20日、相互銀行への転換で平和貯蓄殖産無尽が改称。1954年10月東京住宅無尽を買収、1974年4月1日福徳信用組合（信用組合のため未収録）を合併。1986年10月1日住友銀行に合併（9月19日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/C6Xt5Ss08XPsBN6cn63Bj0P6xi/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
 
 - id: nippon-chuya-ginko
   name: 日本昼夜銀行
