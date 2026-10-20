@@ -4343,6 +4343,31 @@
   note: 1898年2月15日第三十六国立銀行が改称。1924年五日市銀行を買収。1942年日本昼夜銀行に営業を譲渡（5月28日買収認可、日本金融史資料は5月30日買収、富士銀行百年史は6月営業譲渡とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7SZ0K5Vr498CptE1bWGUyfR1qjb/description.html"]
 
+- id: dai40-kokuritsu
+  name: 第四十国立銀行
+  type: other
+  founded: "1878-09-04"
+  dissolved: "1898-07-01"
+  prefecture: 群馬県
+  note: 1878年9月4日開業免状下付・設立、11月5日開業。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し四十銀行に改称（3月29日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qm280qNePt96QLs6aMXG8D3QAZj/description.html"]
+
+- id: tatebayashi-chochiku
+  name: 館林貯蓄銀行
+  type: other
+  dissolved: "1917"
+  note: 1917年四十銀行に合併（銀行総覧は10月15日合併・11月3日合併登記、第一銀行史・群馬銀行五十年史は11月1日とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ANQs1mHVMdM4owgsQEakv-NJ2Hi/description.html"]
+
+- id: yonju-bank
+  name: 四十銀行
+  type: other
+  founded: "1898-07-01"
+  dissolved: "1918-06"
+  prefecture: 群馬県
+  note: 1898年7月1日第四十国立銀行が改称。1917年館林貯蓄銀行を合併。1918年6月四十一銀行と新立合併し八十一銀行（東京）となる（第一銀行史・群馬銀行五十年史・足利銀行史は6月1日、銀行総覧は6月10日設立とする。四十一銀行・八十一銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ANQs1mHVMdM4owgsQEakv-NJ2Hi/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other

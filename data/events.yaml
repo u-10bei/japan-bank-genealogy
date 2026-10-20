@@ -6747,3 +6747,17 @@
   to: [heiwa-sogo]
   note: 平和相互銀行が債権債務を譲受（全国相互銀行店舗名簿は合併とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/C6Xt5Ss08XPsBN6cn63Bj0P6xi/description.html"]
+
+- date: "1898-07-01"
+  type: rename
+  from: [dai40-kokuritsu]
+  to: [yonju-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qm280qNePt96QLs6aMXG8D3QAZj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ANQs1mHVMdM4owgsQEakv-NJ2Hi/description.html"]
+
+- date: "1917"
+  type: absorption
+  from: [tatebayashi-chochiku]
+  to: [yonju-bank]
+  note: 四十銀行が合併（銀行総覧は10月15日、第一銀行史・群馬銀行五十年史は11月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ANQs1mHVMdM4owgsQEakv-NJ2Hi/description.html"]
