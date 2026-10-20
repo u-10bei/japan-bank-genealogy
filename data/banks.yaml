@@ -454,13 +454,83 @@
   note: 1920年8月2日十五銀行に合併。銀行変遷史DBは1916〜1920年の神戸川崎銀行とする（設立日は未確認）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
 
+- id: dai5-kokuritsu
+  name: 第五国立銀行
+  type: other
+  founded: "1873-09-08"
+  dissolved: "1896-10"
+  prefecture: 大阪府
+  note: 大阪で設立（1873年9月8日開業免状下付、12月10日開業。銀行総覧は改正国立銀行条例による開業免状再下付後の1876年10月5日を設立日とする）。1876年1月東京に移転。1896年10月、営業満期国立銀行処分法により私立銀行として営業を継続し第五銀行に改称（7月23日満期継続許可、10月4日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1Jlo33qAdiLCsEtQ5gwq62emT0d/description.html"]
+
+- id: daigo-bank
+  name: 第五銀行
+  type: other
+  founded: "1896-10"
+  dissolved: "1898-09-08"
+  prefecture: 大阪府
+  note: 1896年10月第五国立銀行が改称。1896年12月1日東京から大阪に移転。1898年9月8日浪速銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gY6wJJOXl-5Ab6lzL6nswmLuwDp/description.html"]
+
+- id: dai32-kokuritsu
+  name: 第三十二国立銀行
+  type: other
+  dissolved: "1898-01"
+  prefecture: 大阪府
+  note: 1898年1月、営業満期国立銀行処分法により私立銀行として営業を継続し浪速銀行に改称（1897年10月14日満期継続許可。銀行局報告は1月15日継続、三井銀行八十年史は1月16日改称とする）。設立日は未確認
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- id: osaka-meiji
+  name: 大阪明治銀行
+  type: other
+  dissolved: "1899-04-18"
+  note: 1899年4月18日浪速銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- id: osaka-kyoritsu
+  name: 大阪共立銀行
+  type: other
+  dissolved: "1900-07-01"
+  note: 1900年7月1日浪速銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- id: osaka-shoko
+  name: 大阪商工銀行
+  type: other
+  dissolved: "1901-06-01"
+  note: 1901年6月1日浪速銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- id: wakayama-1895
+  name: 和歌山銀行
+  type: other
+  founded: "1895"
+  dissolved: "1909"
+  note: 1909年浪速銀行が買収（紀陽銀行史は10月1日買収、紀陽銀行100年史は11月1日営業譲受とする）。銀行変遷史DBは1895〜1909年の和歌山銀行とする（設立日は未確認）。現在の和歌山銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- id: bakan-shogyo
+  name: 馬関商業銀行
+  type: other
+  dissolved: "1918-01-01"
+  note: 1918年1月1日浪速銀行に合併（山口銀行史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- id: fukoku-bank
+  name: 富国銀行
+  type: other
+  dissolved: "1919-09-01"
+  note: 1919年9月1日浪速銀行が買収。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
 - id: naniwa-bank-1920
   name: 浪速銀行
   type: other
+  founded: "1898-01"
   dissolved: "1920-08-02"
   prefecture: 大阪府
-  note: 1920年8月2日十五銀行に合併。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
+  note: 1898年1月第三十二国立銀行が改称。1898〜1901年に第五・大阪明治・大阪共立・大阪商工の各行、1918年馬関商業銀行を合併、1909年和歌山銀行・1919年富国銀行を買収。1920年8月2日十五銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/y9BdPnO1r8mvip8I33oGhKZlwyd/description.html"]
 
 - id: teiyu-bank
   name: 丁酉銀行

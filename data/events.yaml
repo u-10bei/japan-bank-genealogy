@@ -6067,3 +6067,66 @@
   to: [daisan-1896]
   note: 第三銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sEkW2vXWo4G-YxxqgkDv-YMEEXn/description.html"]
+
+- date: "1896-10"
+  type: rename
+  from: [dai5-kokuritsu]
+  to: [daigo-bank]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（10月4日満期）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1Jlo33qAdiLCsEtQ5gwq62emT0d/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gY6wJJOXl-5Ab6lzL6nswmLuwDp/description.html"]
+
+- date: "1898-01"
+  type: rename
+  from: [dai32-kokuritsu]
+  to: [naniwa-bank-1920]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は1月15日、三井銀行八十年史は1月16日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- date: "1898-09-08"
+  type: absorption
+  from: [daigo-bank]
+  to: [naniwa-bank-1920]
+  note: 浪速銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gY6wJJOXl-5Ab6lzL6nswmLuwDp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- date: "1899-04-18"
+  type: absorption
+  from: [osaka-meiji]
+  to: [naniwa-bank-1920]
+  note: 浪速銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- date: "1900-07-01"
+  type: absorption
+  from: [osaka-kyoritsu]
+  to: [naniwa-bank-1920]
+  note: 浪速銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- date: "1901-06-01"
+  type: absorption
+  from: [osaka-shoko]
+  to: [naniwa-bank-1920]
+  note: 浪速銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- date: "1909"
+  type: transfer
+  from: [wakayama-1895]
+  to: [naniwa-bank-1920]
+  note: 浪速銀行が買収（紀陽銀行史は10月1日、紀陽銀行100年史は11月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- date: "1918-01-01"
+  type: absorption
+  from: [bakan-shogyo]
+  to: [naniwa-bank-1920]
+  note: 浪速銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+
+- date: "1919-09-01"
+  type: transfer
+  from: [fukoku-bank]
+  to: [naniwa-bank-1920]
+  note: 浪速銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
