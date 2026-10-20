@@ -898,12 +898,23 @@
   note: 1899年12月26日肥後銀行に合併。銀行変遷史DBは1896〜1899年の熊本銀行とする（設立日は未確認）。現在の熊本銀行とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
 
+- id: dai9-kokuritsu
+  name: 第九国立銀行
+  type: other
+  founded: "1877-11-22"
+  dissolved: "1897-11"
+  prefecture: 熊本県
+  note: 1877年11月22日開業免状下付・設立、12月15日開業（肥後銀行五十年史は2月19日創立とする）。1897年11月、営業満期国立銀行処分法により私立銀行として営業を継続し第九銀行に改称（8月4日満期継続許可。銀行局報告は11月21日満期、肥後銀行五十年史は11月22日営業継続・改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Zck7ZEzOCBsW4ilJa1sWxfFl9ee/description.html"]
+
 - id: daiku-ginko
   name: 第九銀行
   type: other
+  founded: "1897-11"
   dissolved: "1907"
-  note: 1907年肥後銀行に合併（肥後銀行五十年史は5月1日合併、銀行総覧は4月24日合併のため解散とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
+  prefecture: 熊本県
+  note: 1897年11月第九国立銀行が改称。1907年肥後銀行（1897〜1923）に合併（肥後銀行五十年史は5月1日合併、銀行総覧は4月24日合併のため解散とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJDK6vmHPrrFE053svvdA8cFyWk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UGeGDXfVF1yN0QeTa_qVkjcFN4d/description.html"]
 
 - id: ekinan-bank
   name: 益南銀行
