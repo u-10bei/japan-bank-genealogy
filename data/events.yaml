@@ -6369,3 +6369,9 @@
   to: [nijusan]
   note: 二十三銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1C1Mb7P66OStVO4ikKvsCxe_dtj/description.html"]
+
+- date: "1882-08-24"
+  type: failure
+  from: [dai24-kokuritsu]
+  note: 鎖店（1885年10月31日処分完結）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8p8iqBGnL-PYbyY8SnOs14yp3Vo/description.html"]

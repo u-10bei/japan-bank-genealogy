@@ -3958,6 +3958,15 @@
   note: 1897年7月第二十国立銀行が改称。1912年9月第一銀行に合併（第一銀行史は9月19日合併、銀行総覧は9月25日合併解散とする。7月26日合併解散認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7G5e_LjK6jxgUScmVM_ZY-1-Wep/description.html"]
 
+- id: dai24-kokuritsu
+  name: 第二十四国立銀行
+  type: other
+  founded: "1877-10-19"
+  dissolved: "1882-08-24"
+  prefecture: 長野県
+  note: 1877年10月19日開業免状下付、11月1日開業。1882年8月24日鎖店（1885年10月31日処分完結。八十二銀行五十年史は1885年8月解散とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8p8iqBGnL-PYbyY8SnOs14yp3Vo/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
