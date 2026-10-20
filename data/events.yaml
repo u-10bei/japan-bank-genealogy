@@ -742,12 +742,12 @@
   to: [fukui]
   sources: [https://ja.wikipedia.org/wiki/福井銀行, https://ja.wikipedia.org/wiki/福邦銀行]
 
-- date: "1897-07"
+- date: "1897-07-01"
   type: rename
   from: [dai35-kokuritsu]
   to: [sanjugo]
-  note: 私立銀行に転換
-  sources: [https://ja.wikipedia.org/wiki/静岡銀行]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/49w2cWXlgoUO4RHaPhALih6l0ml/description.html", https://ja.wikipedia.org/wiki/静岡銀行]
 
 - date: "1937-03"
   type: merger
@@ -6477,3 +6477,17 @@
   from: [dai33-kokuritsu]
   note: 3月31日営業停止、鎖店（銀行局報告は5月、銀行便覧は7月17日とする）。1893年6月2日処分完結
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rFcJR_HD28nJMX5DVLKrnvi7U1n/description.html"]
+
+- date: "1882-07-01"
+  type: absorption
+  from: [dai124-kokuritsu]
+  to: [dai35-kokuritsu]
+  note: 第三十五国立銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/49w2cWXlgoUO4RHaPhALih6l0ml/description.html"]
+
+- date: "1882-12-07"
+  type: absorption
+  from: [dai54-kokuritsu]
+  to: [dai35-kokuritsu]
+  note: 第三十五国立銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/49w2cWXlgoUO4RHaPhALih6l0ml/description.html"]

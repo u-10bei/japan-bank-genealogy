@@ -3365,19 +3365,33 @@
   note: 1877年12月28日開業免状下付、1878年1月10日開業（静岡銀行史は1877年10月18日設立免許とする）。1889年1月1日第三十五国立銀行に合併（静岡銀行史による。銀行局報告は1月とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bgsMNxY1uEm7MPyffIYkYUJW0mh/description.html"]
 
+- id: dai124-kokuritsu
+  name: 第百二十四国立銀行
+  type: other
+  dissolved: "1882-07-01"
+  note: 1882年7月1日第三十五国立銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/49w2cWXlgoUO4RHaPhALih6l0ml/description.html"]
+
+- id: dai54-kokuritsu
+  name: 第五十四国立銀行
+  type: other
+  dissolved: "1882-12-07"
+  note: 1882年12月7日第三十五国立銀行に合併（静岡銀行史は12月とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/49w2cWXlgoUO4RHaPhALih6l0ml/description.html"]
+
 - id: dai35-kokuritsu
   name: 第三十五国立銀行
   type: other
-  founded: "1877-12"
-  dissolved: "1897-07"
+  founded: "1878-05-04"
+  dissolved: "1897-07-01"
   prefecture: 静岡県
-  note: 静岡第三十五国立銀行。1878年5月開業
-  sources: [https://ja.wikipedia.org/wiki/静岡銀行]
+  note: 静岡第三十五国立銀行。1878年5月4日開業免状下付・設立、5月15日開業（静岡銀行史は1877年12月24日設立免許とする。Wikipediaの1877年12月は設立免許の月）。1882年第百二十四国立銀行・第五十四国立銀行、1889年第二十八国立銀行を合併。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し三十五銀行に改称（3月11日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/49w2cWXlgoUO4RHaPhALih6l0ml/description.html", https://ja.wikipedia.org/wiki/静岡銀行]
 
 - id: sanjugo
   name: 三十五銀行
   type: other
-  founded: "1897-07"
+  founded: "1897-07-01"
   dissolved: "1937-03"
   prefecture: 静岡県
   sources: [https://ja.wikipedia.org/wiki/静岡銀行]
