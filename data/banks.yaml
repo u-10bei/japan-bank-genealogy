@@ -3973,14 +3973,13 @@
   founded: "1877-12-17"
   dissolved: "1897-12-17"
   prefecture: 福井県
-  note: 小浜で設立（設立時の行政区域は滋賀県）。1877年12月17日開業免状下付・設立、1878年1月4日開業。1897年12月17日、営業満期国立銀行処分法により私立銀行として営業を継続し二十五銀行に改称（12月16日満期）
+  note: 福井で設立（設立時の行政区域は滋賀県）。1877年12月17日開業免状下付・設立、1878年1月4日開業。1897年12月17日、営業満期国立銀行処分法により私立銀行として営業を継続し二十五銀行に改称（12月16日満期）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UjUYnIKf1sTgMqATAGyXiiQeE-b/description.html"]
 
 - id: obama-bank
   name: 小浜銀行
   type: other
   dissolved: "1926"
-  prefecture: 福井県
   note: 1926年二十五銀行に合併（3月18日合併認可。福井銀行八十年史は4月20日合併とする）。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/v5mjuyx1qMnKr86a6nu_Pwg_W1g/description.html"]
 
