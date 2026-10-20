@@ -6662,3 +6662,24 @@
   to: [naniwa]
   note: 普通銀行（第二地方銀行協会加盟行）に転換
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Sz2cG-mAOQ1g_080coX1uxCdKGm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TrxN_YYqklEu1cwEuQGSZ_IlaDc/description.html"]
+
+- date: "1939-04-26"
+  type: absorption
+  from: [osaka-mujin-1916]
+  to: [sakai-sangyo-mujin]
+  note: 堺産業無尽が合併し、同日大阪無尽に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/39wPJhbt-_f_iRjCUyiVIdLn1qc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vBQzWnH-V1o2E9k5pRJcMODRM6d/description.html"]
+
+- date: "1939-04-26"
+  type: rename
+  from: [sakai-sangyo-mujin]
+  to: [osaka-mujin]
+  note: 大阪無尽（1916〜1939）の合併と同時に大阪無尽に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/39wPJhbt-_f_iRjCUyiVIdLn1qc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lzTme0Sjzbex83IG3TcTuWNpVJl/description.html"]
+
+- date: "1940-04-26"
+  type: absorption
+  from: [osaka-kangyo-mujin]
+  to: [osaka-mujin]
+  note: 大阪無尽が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lzTme0Sjzbex83IG3TcTuWNpVJl/description.html"]

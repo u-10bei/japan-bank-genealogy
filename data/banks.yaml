@@ -11016,14 +11016,39 @@
   note: 1989年2月1日、普通銀行（第二地方銀行協会加盟行）への転換で福徳相互銀行が改称。1998年10月なにわ銀行と福徳銀行が合併しなみはや銀行を新設
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OPeG5FWeWPcSBnEly_6Wnhd9Skn/description.html", https://ja.wikipedia.org/wiki/なみはや銀行]
 
+- id: sakai-sangyo-mujin
+  name: 堺産業無尽
+  type: other
+  founded: "1929-04-26"
+  dissolved: "1939-04-26"
+  prefecture: 大阪府
+  note: 1929年4月26日設立。1939年4月26日大阪無尽（1916〜1939）を合併し大阪無尽に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/39wPJhbt-_f_iRjCUyiVIdLn1qc/description.html"]
+
+- id: osaka-mujin-1916
+  name: 大阪無尽
+  type: other
+  founded: "1916-04-06"
+  dissolved: "1939-04-26"
+  prefecture: 大阪府
+  note: 1916年4月6日設立（銀行総覧第34〜39回は4月7日とする）。1939年4月26日堺産業無尽に合併（堺産業無尽は同日大阪無尽に改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vBQzWnH-V1o2E9k5pRJcMODRM6d/description.html"]
+
+- id: osaka-kangyo-mujin
+  name: 大阪勧業無尽
+  type: other
+  dissolved: "1940-04-26"
+  note: 1940年4月26日大阪無尽に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lzTme0Sjzbex83IG3TcTuWNpVJl/description.html"]
+
 - id: osaka-mujin
   name: 大阪無尽
   type: other
-  founded: "1939"
+  founded: "1939-04-26"
   dissolved: "1951-10-20"
   prefecture: 大阪府
-  note: 銀行変遷史DBは1939〜1951年の大阪無尽とする（設立日は未確認）。1951年10月20日相互銀行に転換し大阪相互銀行に改称
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Sz2cG-mAOQ1g_080coX1uxCdKGm/description.html"]
+  note: 1939年4月26日、堺産業無尽が大阪無尽（1916〜1939）を合併して改称。1940年4月26日大阪勧業無尽を合併。1951年10月20日相互銀行に転換し大阪相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lzTme0Sjzbex83IG3TcTuWNpVJl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Sz2cG-mAOQ1g_080coX1uxCdKGm/description.html"]
 
 - id: osaka-sogo
   name: 大阪相互銀行
