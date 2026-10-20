@@ -6690,3 +6690,10 @@
   to: [kyoto-kyoei]
   note: 普通銀行（第二地方銀行協会加盟行）に転換
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JdpglGewSm4i72-3Yb05ZkhwgWd/description.html"]
+
+- date: "1964-10-01"
+  type: rename
+  from: [showa-sangyo-sogo]
+  to: [kyoto-sogo]
+  note: 京都相互銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zwCuHwmSd7ueA6VlTFa-UYaAe3n/description.html"]
