@@ -6789,3 +6789,10 @@
   to: [tokai-1889]
   note: 東海銀行（1889〜1927）が合併（第一銀行史による。合併解散登記は8月か）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qLaARyDwf8gKkxOLUmej6N8DqRj/description.html"]
+
+- date: "1927-04-30"
+  type: absorption
+  from: [tokai-1889]
+  to: [dai-ichi-1896]
+  note: 第一銀行が合併（4月7日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_BZ7JoDx-s8kkZvZHvjUFzlWaim/description.html"]

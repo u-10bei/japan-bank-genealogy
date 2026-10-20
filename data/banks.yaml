@@ -4405,11 +4405,11 @@
 - id: tokai-1889
   name: 東海銀行
   type: other
-  founded: "1889"
-  dissolved: "1927"
+  founded: "1889-07"
+  dissolved: "1927-04-30"
   prefecture: 東京都
-  note: 銀行変遷史DBは1889〜1927年の東海銀行とする（設立日・消滅の経緯は未確認）。1921年7月1日八十一銀行を合併。1941年設立の東海銀行（名古屋）とは別
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qLaARyDwf8gKkxOLUmej6N8DqRj/description.html"]
+  note: 1889年7月東京で設立（銀行総覧第1〜29回は7月4日、第一銀行史は7月22日、銀行総覧第30〜33回は8月1日とする）。1921年7月1日八十一銀行を合併。1927年4月30日第一銀行に合併（4月7日合併認可）。1941年設立の東海銀行（名古屋）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_BZ7JoDx-s8kkZvZHvjUFzlWaim/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
