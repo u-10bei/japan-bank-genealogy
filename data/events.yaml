@@ -3437,11 +3437,12 @@
   to: [resona]
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3"]
 
-- date: "2002-10"
+- date: "2002-10-01"
   type: absorption
   from: [asahi-shintaku-ginko]
   to: [daiwa]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3"]
+  note: 大和銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRD2CUHcFhNfX7Qap9haMfiJy1k/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3"]
 
 - date: "1942-08"
   type: transfer
@@ -6640,3 +6641,10 @@
   to: [bgi-trust]
   note: バークレイズ・グローバル・インベスターズ信託銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JTm4465atmDeFy76tcijGrCEHjb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5at5_fhqrLadEr84h_UhfQDMh4m/description.html"]
+
+- date: "2002-09"
+  type: transfer
+  from: [asahi-shintaku-ginko]
+  to: [daiwagin-trust]
+  note: 証券投資信託・退職給付信託・特金外・年金特定信託部門の営業を大和銀信託銀行に分割譲渡（金融庁の1年は9月10日、『金融』・日本経済新聞は9月9日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRD2CUHcFhNfX7Qap9haMfiJy1k/description.html"]
