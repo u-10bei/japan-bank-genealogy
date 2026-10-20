@@ -6851,3 +6851,31 @@
   from: [aichi-nosho]
   note: 破産宣告（5月8日破産確定）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VB-ZcvX6hvdcHk82gvvmAFxRwDd/description.html"]
+
+- date: "1892-09"
+  type: absorption
+  from: [toyama-1883]
+  to: [dai47-kokuritsu]
+  note: 富山銀行（初代）が第四十七国立銀行の営業権を買収し、同行と一体化して富山第四十七国立銀行となる（北陸銀行「創業百年史」本文は1891年11月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E2NU1mOdHBEkBbqoZJi-3BMK2jk/description.html"]
+
+- date: "1898-01-20"
+  type: rename
+  from: [dai47-kokuritsu]
+  to: [dai47-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続（北陸銀行「創業百年史」は1897年9月1日改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E2NU1mOdHBEkBbqoZJi-3BMK2jk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nauBjIwuOUpnwexOwYof4Td-0Ug/description.html"]
+
+- date: "1935-02-20"
+  type: absorption
+  from: [nagamori-bank]
+  to: [dai47-ginko]
+  note: 第四十七銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nauBjIwuOUpnwexOwYof4Td-0Ug/description.html"]
+
+- date: "1939-12-11"
+  type: transfer
+  from: [dai47-ginko]
+  to: [juni]
+  note: 十二銀行が買収（11月17日買収認可。北陸銀行「創業百年史」は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nauBjIwuOUpnwexOwYof4Td-0Ug/description.html"]

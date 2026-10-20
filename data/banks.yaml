@@ -4501,6 +4501,42 @@
   note: 1894年7月27日設立。1927年6月愛知実業銀行を買収。1933年1月14日破産宣告、5月8日破産確定
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VB-ZcvX6hvdcHk82gvvmAFxRwDd/description.html"]
 
+- id: toyama-1883
+  name: 富山銀行
+  type: other
+  founded: "1883"
+  dissolved: "1892-09"
+  prefecture: 富山県
+  note: 初代。銀行変遷史DBは1883〜1892年の富山銀行とする（設立日は未確認）。第四十七国立銀行の営業権を買収して同行と一体化し、富山第四十七国立銀行となる（銀行局報告・北陸銀行「創業百年史」年表は1892年9月、創業百年史本文は1891年11月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E2NU1mOdHBEkBbqoZJi-3BMK2jk/description.html"]
+
+- id: dai47-kokuritsu
+  name: 第四十七国立銀行
+  type: other
+  founded: "1878-10-18"
+  dissolved: "1898-01-20"
+  prefecture: 富山県
+  note: 千葉県八幡で設立（1878年10月18日開業免状下付・設立、11月15日開業）。1891年富山に移転（北陸銀行「創業百年史」年表は11月10日、千葉銀行史は10月とする）。1892年9月、富山銀行（初代）が営業権を買収し、富山第四十七国立銀行となる。1898年1月20日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第四十七銀行に改称（1897年9月1日満期前継続許可。創業百年史は1897年9月1日改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/E2NU1mOdHBEkBbqoZJi-3BMK2jk/description.html"]
+
+- id: nagamori-bank
+  name: 永守銀行
+  type: other
+  founded: "1922"
+  dissolved: "1935-02-20"
+  prefecture: 富山県
+  note: 1935年2月20日第四十七銀行に合併（1月22日合併認可）。銀行変遷史DBは1922〜1935年の永守銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nauBjIwuOUpnwexOwYof4Td-0Ug/description.html"]
+
+- id: dai47-ginko
+  name: 第四十七銀行
+  type: other
+  founded: "1898-01-20"
+  dissolved: "1939-12-11"
+  prefecture: 富山県
+  note: 1898年1月20日第四十七国立銀行が改称。1921年10月25日、貯蓄銀行業務を17行の貯蓄業務を統合した富山合同貯蓄銀行（未収録）に移す。1935年永守銀行を合併。1939年12月11日十二銀行に買収された（11月17日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nauBjIwuOUpnwexOwYof4Td-0Ug/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
