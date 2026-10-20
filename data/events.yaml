@@ -6796,3 +6796,10 @@
   to: [dai-ichi-1896]
   note: 第一銀行が合併（4月7日合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_BZ7JoDx-s8kkZvZHvjUFzlWaim/description.html"]
+
+- date: "1898-10-01"
+  type: rename
+  from: [dai42-kokuritsu]
+  to: [yonjuni-bank]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4eFzXdJHu13DBM5f7YEm6jU4Ang/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LrQPHwoYtOKYvOaCHF3R1Mh-mzo/description.html"]
