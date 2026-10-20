@@ -490,13 +490,28 @@
   note: 1896年10月第五国立銀行が改称。1896年12月1日東京から大阪に移転。1898年9月8日浪速銀行に合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gY6wJJOXl-5Ab6lzL6nswmLuwDp/description.html"]
 
+- id: dai131-kokuritsu
+  name: 第百三十一国立銀行
+  type: other
+  dissolved: "1881-07-01"
+  note: 1881年7月1日第三十二国立銀行に合併（銀行局報告・十六銀行百年史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
+
+- id: dai142-kokuritsu
+  name: 第百四十二国立銀行
+  type: other
+  dissolved: "1881"
+  note: 1881年第三十二国立銀行に合併（銀行局報告第4次は10月1日、第12次は11月、千葉銀行史は10月とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
+
 - id: dai32-kokuritsu
   name: 第三十二国立銀行
   type: other
+  founded: "1878-01-16"
   dissolved: "1898-01"
   prefecture: 大阪府
-  note: 1898年1月、営業満期国立銀行処分法により私立銀行として営業を継続し浪速銀行に改称（1897年10月14日満期継続許可。銀行局報告は1月15日継続、三井銀行八十年史は1月16日改称とする）。設立日は未確認
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
+  note: 1878年1月16日開業免状下付・設立、2月1日開業。1881年第百三十一国立銀行・第百四十二国立銀行を合併。1898年1月、営業満期国立銀行処分法により私立銀行として営業を継続し浪速銀行に改称（1897年10月14日満期継続許可、1月15日満期。三井銀行八十年史は1月16日改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z7wfyTT9g_JUMKZ9E6STlhJ4WJc/description.html"]
 
 - id: osaka-meiji
   name: 大阪明治銀行

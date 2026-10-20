@@ -6457,3 +6457,17 @@
   to: [sanju-bank]
   note: 営業満期国立銀行処分法により私立銀行として営業継続（12月14日満期）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dLFISWkvKSAwiqsaDkY5XrAHQBn/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/X56TRqsOMQuRWkq0zhqi06nDB5o/description.html"]
+
+- date: "1881-07-01"
+  type: absorption
+  from: [dai131-kokuritsu]
+  to: [dai32-kokuritsu]
+  note: 第三十二国立銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
+
+- date: "1881"
+  type: absorption
+  from: [dai142-kokuritsu]
+  to: [dai32-kokuritsu]
+  note: 第三十二国立銀行が合併（銀行局報告第4次は10月1日、第12次は11月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
