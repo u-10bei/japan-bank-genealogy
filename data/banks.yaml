@@ -3326,6 +3326,15 @@
   note: 2代目。1911年6月富山橋北銀行が改称（銀行総覧は6月7日、創業百年史は6月19日とする）。現在の富山銀行とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9wRk7ReZaHEpofhN7GAKp6ldBij/description.html", https://ja.wikipedia.org/wiki/中越銀行, https://ja.wikipedia.org/wiki/富山銀行]
 
+- id: toyama-godo-chochiku
+  name: 富山合同貯蓄銀行
+  type: other
+  founded: "1921-10-25"
+  dissolved: "1943-12-20"
+  prefecture: 富山県
+  note: 岩瀬・魚津・越中・黒東・小杉・実業（1900〜1931）・新湊貯蓄・第四十七・大正昼夜・高岡貯金・中越・礪波・富山（1911〜1943）・永守貯蓄・氷見・伏木貯蓄・本郷貯蓄の17行の貯蓄銀行業務を統合して設立（1921年10月25日営業認可・創立総会）。17行のうち未収録の行は図に表示していない。1943年12月20日北陸銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/EQCQAmaqoEOk1VEyRK69fYkQr7o/description.html"]
+
 - id: hokuriku
   name: 北陸銀行
   name_en: "The Hokuriku Bank, Ltd."
@@ -4533,7 +4542,7 @@
   founded: "1898-01-20"
   dissolved: "1939-12-11"
   prefecture: 富山県
-  note: 1898年1月20日第四十七国立銀行が改称。1921年10月25日、貯蓄銀行業務を17行の貯蓄業務を統合した富山合同貯蓄銀行（未収録）に移す。1935年永守銀行を合併。1939年12月11日十二銀行に買収された（11月17日買収認可）
+  note: 1898年1月20日第四十七国立銀行が改称。1921年10月25日、貯蓄銀行業務を、17行の貯蓄業務を統合して新設された富山合同貯蓄銀行に移す。1935年永守銀行を合併。1939年12月11日十二銀行に買収された（11月17日買収認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nauBjIwuOUpnwexOwYof4Td-0Ug/description.html"]
 
 - id: dai8-kokuritsu

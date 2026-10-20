@@ -6879,3 +6879,31 @@
   to: [juni]
   note: 十二銀行が買収（11月17日買収認可。北陸銀行「創業百年史」は合併とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nauBjIwuOUpnwexOwYof4Td-0Ug/description.html"]
+
+- date: "1921-10-25"
+  type: transfer
+  from: [dai47-ginko]
+  to: [toyama-godo-chochiku]
+  note: 17行の貯蓄銀行業務を統合して富山合同貯蓄銀行を新設
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/EQCQAmaqoEOk1VEyRK69fYkQr7o/description.html"]
+
+- date: "1921-10-25"
+  type: transfer
+  from: [chuetsu]
+  to: [toyama-godo-chochiku]
+  note: 17行の貯蓄銀行業務を統合して富山合同貯蓄銀行を新設
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/EQCQAmaqoEOk1VEyRK69fYkQr7o/description.html"]
+
+- date: "1921-10-25"
+  type: transfer
+  from: [toyama-2]
+  to: [toyama-godo-chochiku]
+  note: 17行の貯蓄銀行業務を統合して富山合同貯蓄銀行を新設
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/EQCQAmaqoEOk1VEyRK69fYkQr7o/description.html"]
+
+- date: "1943-12-20"
+  type: absorption
+  from: [toyama-godo-chochiku]
+  to: [hokuriku]
+  note: 北陸銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/EQCQAmaqoEOk1VEyRK69fYkQr7o/description.html"]
