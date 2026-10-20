@@ -6313,3 +6313,31 @@
   to: [shiga]
   note: 滋賀銀行が買収（8月12日買収認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HOapKVNqB90sSdsyivAp4MnqXRm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBKA"]
+
+- date: "1897-01-01"
+  type: rename
+  from: [dai22-kokuritsu]
+  to: [nijuni-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tJtfkSJOypt_hziNmxfVP0_G57k/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/YVEpifZt7DjtEvwigQV5zrUg_4j/description.html"]
+
+- date: "1897-03"
+  type: absorption
+  from: [chugoku-1895]
+  to: [nijuni-bank]
+  note: 二十二銀行が合併（銀行総覧は3月15日、中國銀行五十年史は3月10日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/YVEpifZt7DjtEvwigQV5zrUg_4j/description.html"]
+
+- date: "1921"
+  type: absorption
+  from: [ushimado-bank]
+  to: [nijuni-bank]
+  note: 二十二銀行が合併（中國銀行五十年史は4月30日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/YVEpifZt7DjtEvwigQV5zrUg_4j/description.html"]
+
+- date: "1921"
+  type: absorption
+  from: [ibara-bank]
+  to: [nijuni-bank]
+  note: 二十二銀行が合併（中國銀行五十年史は9月30日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/YVEpifZt7DjtEvwigQV5zrUg_4j/description.html"]
