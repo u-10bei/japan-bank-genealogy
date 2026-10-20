@@ -6914,3 +6914,17 @@
   to: [dai49-ginko]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MYJhapOkWMJJTUR_Pu0N0teVbfd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rqXcxTVBDqlKfHRKPLJ3b0I0E-b/description.html"]
+
+- date: "1908-12"
+  type: transfer
+  from: [dai49-ginko]
+  to: [kyoto-shoko]
+  note: 京都商工銀行が第四十九銀行の債権債務を譲受（買収）。第四十九銀行は解散（京都銀行五十年史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Zr4J1b0EwHEiy278srzEDY3TCHl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rqXcxTVBDqlKfHRKPLJ3b0I0E-b/description.html"]
+
+- date: "1916-12-19"
+  type: absorption
+  from: [kyoto-shoko]
+  to: [dai-ichi-1896]
+  note: 第一銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Zr4J1b0EwHEiy278srzEDY3TCHl/description.html"]

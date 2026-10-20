@@ -4560,8 +4560,17 @@
   founded: "1897-08-01"
   dissolved: "1908-12"
   prefecture: 京都府
-  note: 1897年8月1日第四十九国立銀行が改称。1908年12月京都商工銀行に債権債務を譲渡して解散（12月18日譲渡・解散決議、銀行総覧は12月19日任意解散、12月26日解散登記。京都商工銀行は未収録）
+  note: 1897年8月1日第四十九国立銀行が改称。1908年12月京都商工銀行に債権債務を譲渡して解散（12月18日譲渡・解散決議、銀行総覧は12月19日任意解散、12月26日解散登記）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rqXcxTVBDqlKfHRKPLJ3b0I0E-b/description.html"]
+
+- id: kyoto-shoko
+  name: 京都商工銀行
+  type: other
+  founded: "1886-09-29"
+  dissolved: "1916-12-19"
+  prefecture: 京都府
+  note: 1886年9月29日設立、10月18日開業。1908年12月第四十九銀行を買収。1916年12月19日第一銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Zr4J1b0EwHEiy278srzEDY3TCHl/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
