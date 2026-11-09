@@ -7,6 +7,7 @@
 #        reorganization 分割・再編（from 複数 → to 複数 など）
 #        transfer       事業譲渡（破綻行の受け皿など）
 #        failure        経営破綻・国有化（to は省略可）
+#        dissolution    後継のない解散・廃業（to は書かない）
 # from : 変遷前の銀行IDのリスト
 # to   : 変遷後の銀行IDのリスト
 # note : 補足（任意）
@@ -7012,3 +7013,39 @@
   to: [hyakusanju-bank]
   note: 百三十銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pQ_9Hp0E09oeeBG_MKwr0PMEL8n/description.html"]
+
+- date: "1898-08-16"
+  type: dissolution
+  from: [dai60-kokuritsu]
+  note: 営業満期解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QGgBY0fb_aL7QayuY1AkxcFihDd/description.html"]
+
+- date: "1898-10-20"
+  type: dissolution
+  from: [dai45-kokuritsu]
+  note: 営業満期解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2byaVypcEySINqJpWFVDU6FVgKm/description.html"]
+
+- date: "1903-01-11"
+  type: dissolution
+  from: [juichi-bank]
+  note: 任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DLajXSsJlyQNkdxb_KE2vHnWumc/description.html"]
+
+- date: "1902"
+  type: dissolution
+  from: [hyakusanjuyon]
+  note: 任意解散（銀行総覧は8月12日、東海銀行史は7月20日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Imhu-cN1fNINUYmhpTatDZ9PxZn/description.html"]
+
+- date: "1901-12-07"
+  type: dissolution
+  from: [yonjuni-bank]
+  note: 任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LrQPHwoYtOKYvOaCHF3R1Mh-mzo/description.html"]
+
+- date: "1904-07-28"
+  type: dissolution
+  from: [daishichi-bank]
+  note: 任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8QmY6srDbkKM5_ZNXChWTbw4iAl/description.html"]

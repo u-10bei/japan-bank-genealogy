@@ -20,7 +20,7 @@ DATA_DIR = ROOT / "data"
 OUT_PATH = ROOT / "docs" / "data.json"
 
 BANK_TYPES = {"city", "trust", "long_term", "regional", "regional2", "new", "special", "other"}
-EVENT_TYPES = {"merger", "absorption", "rename", "reorganization", "transfer", "failure"}
+EVENT_TYPES = {"merger", "absorption", "rename", "reorganization", "transfer", "failure", "dissolution"}
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 DATE_RE = re.compile(r"^\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$")
 BANK_KEYS = {"id", "name", "name_en", "code", "type", "founded", "dissolved", "prefecture", "note", "sources"}
@@ -110,8 +110,10 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
         src, dst = e.get("from") or [], e.get("to") or []
         if not src:
             errors.append(f"{where}: from は必須です")
-        if not dst and e.get("type") != "failure":
-            errors.append(f"{where}: to は必須です（failure 以外）")
+        if not dst and e.get("type") not in ("failure", "dissolution"):
+            errors.append(f"{where}: to は必須です（failure・dissolution 以外）")
+        if dst and e.get("type") == "dissolution":
+            errors.append(f"{where}: dissolution には to を書かない")
         for bid in [*src, *dst]:
             referenced.add(bid)
             if bid not in ids:

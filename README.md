@@ -82,6 +82,7 @@ python scripts/compare_fsa.py                        # 金融庁の銀行免許�
 | `reorganization` | 分割・再編（複数 → 複数 など） |
 | `transfer` | 事業譲渡（破綻行の受け皿など）。事業の一部の譲渡で、自動判定では全部の承継に見えてしまう場合は `partial: true` を付ける |
 | `failure` | 経営破綻・国有化（`to` は省略可） |
+| `dissolution` | 後継のない解散・廃業（満期解散・任意解散など。`to` は書かない） |
 
 ## ローカルでの確認
 

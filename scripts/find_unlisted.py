@@ -87,12 +87,12 @@ def lineages(banks: list[dict], events: list[dict]) -> dict[str, str]:
     by_id = {b["id"]: b for b in banks}
     adj = collections.defaultdict(set)
     for e in events:
-        if e["type"] == "failure":
+        if e["type"] in ("failure", "dissolution"):
             continue
         if e["type"] == "transfer":
             if e.get("partial"):
                 continue
-            out = [x for x in events if set(x["from"]) & set(e["from"]) and x["type"] != "failure"]
+            out = [x for x in events if set(x["from"]) & set(e["from"]) and x["type"] not in ("failure", "dissolution")]
             whole = all(by_id[f].get("dissolved") for f in e["from"]) and all(x["type"] == "transfer" for x in out) \
                 and len({t for x in out for t in x.get("to") or []}) == 1
             if not whole:

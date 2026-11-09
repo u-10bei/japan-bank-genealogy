@@ -212,7 +212,7 @@ const TYPE_LABELS = {
 };
 const EVENT_LABELS = {
   merger: "合併", absorption: "吸収合併", rename: "商号変更",
-  reorganization: "再編", transfer: "事業譲渡", failure: "破綻・国有化",
+  reorganization: "再編", transfer: "事業譲渡", failure: "破綻・国有化", dissolution: "解散・廃業",
 };
 const ROW_H = 24, LABEL_PAD = 4, MARGIN = { left: 16, right: 140 };
 const NOW_YEAR = new Date().getFullYear() + new Date().getMonth() / 12;
@@ -234,6 +234,8 @@ d3.json("data.json").then(init).catch(err => {
   console.error(err);
 });
 
+// 後継のない終わり方（to のないイベント）。系統のつながりにはならない
+const TERMINAL = new Set(["failure", "dissolution"]);
 function init(data) {
   const banks = new Map(data.banks.map(b => [b.id, { ...b, preds: [], succs: [], events: [], transfersIn: [], transfersOut: [] }]));
   // 事業譲渡（transfer）を系統のつながりとみなすのは、譲渡元が消滅し、合併等の後継がなく、
@@ -245,7 +247,7 @@ function init(data) {
     return e.from.every(f => {
       const b = data.banks.find(x => x.id === f);
       if (!b || !b.dissolved) return false;
-      const out = data.events.filter(x => x.from.includes(f) && x.type !== "failure");
+      const out = data.events.filter(x => x.from.includes(f) && !TERMINAL.has(x.type));
       if (out.some(x => x.type !== "transfer")) return false;
       return new Set(out.flatMap(x => x.to)).size === 1;
     });
@@ -254,7 +256,7 @@ function init(data) {
     e.partial = !structuralTransfer(e);
     for (const f of e.from) banks.get(f).events.push(e);
     for (const t of e.to) if (!e.from.includes(t)) banks.get(t).events.push(e);
-    if (e.type === "failure") continue;
+    if (TERMINAL.has(e.type)) continue;
     for (const f of e.from) for (const t of e.to) {
       if (f === t) continue;
       if (e.partial) {
@@ -369,7 +371,7 @@ function init(data) {
 
   const links = [];
   for (const e of data.events) {
-    if (e.type === "failure") continue;
+    if (TERMINAL.has(e.type)) continue;
     for (const f of e.from) for (const t of e.to) if (f !== t) links.push({ e, f, t });
   }
   const linkSel = gLinks.selectAll("path").data(links).join("path")
@@ -379,7 +381,7 @@ function init(data) {
   for (const e of data.events) {
     if (e.type === "failure") {
       for (const f of e.from) eventPoints.push({ e, id: f, fail: true });
-    } else {
+    } else if (e.type !== "dissolution") {
       for (const t of e.to) if (!e.from.includes(t)) eventPoints.push({ e, id: t });
     }
   }
