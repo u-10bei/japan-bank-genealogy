@@ -8061,3 +8061,10 @@
   from: [dai120-ginko]
   note: 解散（1月20日解散決議）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/kbdWRAbCDCvwOkCdLrnOp7JF-Pe/description.html"]
+
+- date: "1897-09-01"
+  type: rename
+  from: [dai121-kokuritsu]
+  to: [hyakunijuichi]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RfwPf9ubnyVTQallh-mm7Gusaad/description.html"]

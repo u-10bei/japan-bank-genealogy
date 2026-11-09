@@ -119,9 +119,11 @@
 - id: hyakunijuichi
   name: 百二十一銀行
   type: other
+  founded: "1897-09-01"
   dissolved: "1897-12-01"
-  note: 1897年12月1日三十四銀行に合併。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
+  prefecture: 大阪府
+  note: 1897年9月1日第百二十一国立銀行が改称。1897年12月1日三十四銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RfwPf9ubnyVTQallh-mm7Gusaad/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ohLLtHgvaen7oJwnM_R4CrhtN7f/description.html"]
 
 - id: nihon-kyodo
   name: 日本共同銀行
@@ -5667,6 +5669,15 @@
   prefecture: 茨城県
   note: 1898年1月1日第百二十国立銀行が改称。1930年解散（日本金融史資料昭和編は1930年1月20日解散決議、常陽銀行二十年史は1930年廃業とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/kbdWRAbCDCvwOkCdLrnOp7JF-Pe/description.html"]
+
+- id: dai121-kokuritsu
+  name: 第百二十一国立銀行
+  type: other
+  founded: "1879-01-14"
+  dissolved: "1897-09-01"
+  prefecture: 大阪府
+  note: 大阪で設立（1879年1月14日開業免状下付、4月1日開業）。1897年9月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百二十一銀行に改称（5月29日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RfwPf9ubnyVTQallh-mm7Gusaad/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
