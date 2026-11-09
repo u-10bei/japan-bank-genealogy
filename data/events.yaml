@@ -7451,3 +7451,17 @@
   to: [dai90-ginko]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FtIBmpu0p5riPz4DBlNexwu1k0e/description.html"]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai91-kokuritsu]
+  to: [dai91-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XSNsHwjLJqKlzBNoQCC7_Vqgycl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XvGBArHWubZGWIkHqRN6sr0-pmj/description.html"]
+
+- date: "1928-08"
+  type: absorption
+  from: [dai91-ginko]
+  to: [juni]
+  note: 十二銀行が合併（8月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XvGBArHWubZGWIkHqRN6sr0-pmj/description.html"]
