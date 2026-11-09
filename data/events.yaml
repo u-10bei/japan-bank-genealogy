@@ -7431,3 +7431,16 @@
   to: [rikuchu-ginko]
   note: 3行の新立合併（3月12日新立合併認可。銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
+
+- date: "1897-01-01"
+  type: rename
+  from: [dai89-kokuritsu]
+  to: [hachijuku-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ojkqe7_Hsxh2Bf-Pe-6rS_ADNak/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gErqjYADljHUjP2H0AdjpCnkZih/description.html"]
+
+- date: "1909"
+  type: dissolution
+  from: [hachijuku-bank]
+  note: 任意解散（銀行総覧は4月6日、阿波銀行七十年小史は3月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gErqjYADljHUjP2H0AdjpCnkZih/description.html"]
