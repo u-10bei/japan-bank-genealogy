@@ -7382,3 +7382,17 @@
   to: [saitama]
   note: 4行の新立合併（6月28日新立合併認可、6月30日創立総会）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai86-kokuritsu]
+  to: [hachijuroku-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rGq1urfseZsg-epQbrned0vVeEi/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NLxkBkuWoX3WKC0EEErqy07LiLe/description.html"]
+
+- date: "1920-01-01"
+  type: absorption
+  from: [hachijuroku-bank]
+  to: [daiichi-godo]
+  note: 第一合同銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NLxkBkuWoX3WKC0EEErqy07LiLe/description.html"]

@@ -5112,8 +5112,17 @@
   founded: "1878-12-09"
   dissolved: "1897-07-01"
   prefecture: 岡山県
-  note: 1878年12月9日開業免状下付・設立、1879年5月1日開業。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し八十六銀行に改称（3月10日満期前継続許可。八十六銀行は未収録）
+  note: 1878年12月9日開業免状下付・設立、1879年5月1日開業。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し八十六銀行に改称（3月10日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rGq1urfseZsg-epQbrned0vVeEi/description.html"]
+
+- id: hachijuroku-bank
+  name: 八十六銀行
+  type: other
+  founded: "1897-07-01"
+  dissolved: "1920-01-01"
+  prefecture: 岡山県
+  note: 1897年7月1日第八十六国立銀行が改称。1920年1月1日第一合同銀行に合併（中國銀行五十年史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NLxkBkuWoX3WKC0EEErqy07LiLe/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
