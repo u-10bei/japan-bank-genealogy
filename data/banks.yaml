@@ -4721,21 +4721,21 @@
   name: 京町銀行
   type: other
   dissolved: "1897-07-01"
-  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行とともに六十一銀行に合併。設立日は出典に記載なし
+  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行の1行として六十一銀行に合併。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
 
 - id: kushihara-bank
   name: 櫛原銀行
   type: other
   dissolved: "1897-07-01"
-  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行とともに六十一銀行に合併。設立日は出典に記載なし
+  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行の1行として六十一銀行に合併。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
 
 - id: shojima-bank
   name: 荘島銀行
   type: other
   dissolved: "1897-07-01"
-  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行とともに六十一銀行に合併。設立日は出典に記載なし
+  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行の1行として六十一銀行に合併。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
 
 - id: tokiwa-1893
@@ -4743,7 +4743,7 @@
   type: other
   founded: "1893"
   dissolved: "1897-07-01"
-  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行とともに六十一銀行に合併。銀行変遷史DBは1893〜1897年の常盤銀行とする（設立日は未確認）
+  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行の1行として六十一銀行に合併。銀行変遷史DBは1893〜1897年の常盤銀行とする（設立日は未確認）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
 
 - id: rokujuichi-bank
