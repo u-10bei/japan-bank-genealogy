@@ -5948,8 +5948,9 @@
   type: other
   founded: "1934"
   dissolved: "1938-10"
-  note: 1938年10月浜松銀行が買収（10月26日買収認可。静岡銀行史は合併とする）。銀行変遷史DBは1934〜1938年の島田銀行とする（設立日は未確認）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+  prefecture: 静岡県
+  note: 島田銀行（1886〜1934）と西駿銀行の新立合併により静岡に設立（銀行総覧・日本金融史資料は1934年1月26日設立・新立合併認可、静岡銀行史は2月15日合併・設立とする）。1938年10月浜松銀行が買収（10月26日買収認可。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/i1Lo7TMHjdTNFUomf28APYgSrvn/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
 - id: uchida-bank
   name: 内田銀行
@@ -6362,6 +6363,49 @@
   prefecture: 静岡県
   note: 静岡で設立（銀行総覧による。静岡銀行史は1894年6月とする）。1914年5月6日近藤銀行に改称（改称登記）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dsp3txcvahA5LwVrNPsY53IvdMj/description.html"]
+
+- id: shimada-1886
+  name: 島田銀行
+  type: other
+  founded: "1886"
+  dissolved: "1934"
+  prefecture: 静岡県
+  note: 静岡で設立（銀行総覧は1886年12月24日設立、銀行局報告は12月創立承認、静岡銀行史は1886年2月設立とする）。1931年3月大富銀行を買収。1934年西駿銀行と新立合併し（新）島田銀行となる（銀行総覧・日本金融史資料は1934年1月26日設立・新立合併認可、静岡銀行史は2月15日合併・設立とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FiIv0SeQ2cMKmcD31t4zPQa0c6o/description.html"]
+
+- id: daifu-bank
+  name: 大富銀行
+  type: other
+  dissolved: "1931-03"
+  note: 1931年3月島田銀行が買収（3月23日買収認可。静岡銀行史は合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FiIv0SeQ2cMKmcD31t4zPQa0c6o/description.html"]
+
+- id: seisun-itaku-kk
+  name: 西駿委托株式会社
+  type: other
+  founded: "1899-08-19"
+  dissolved: "1900-07"
+  prefecture: 静岡県
+  note: 静岡で設立（銀行総覧第7〜31回による。第32〜40回は1890年8月19日、静岡銀行史は1899年8月とする）。1900年7月西駿委托銀行に改称（静岡銀行史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/d9jrb8ts5zj2kSz0bRyqJ3jt8Ni/description.html"]
+
+- id: seisun-itaku-bank
+  name: 西駿委托銀行
+  type: other
+  founded: "1900-07"
+  dissolved: "1909-01-22"
+  prefecture: 静岡県
+  note: 1900年7月西駿委托株式会社が改称（静岡銀行史による）。1909年1月22日西駿銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-zllUNdDoOdTVxowxvGIdGtHWPp/description.html"]
+
+- id: seisun-bank
+  name: 西駿銀行
+  type: other
+  founded: "1909-01-22"
+  dissolved: "1934"
+  prefecture: 静岡県
+  note: 1909年1月22日西駿委托銀行が改称（静岡銀行史は1909年1月とする）。1934年島田銀行と新立合併し（新）島田銀行となる（銀行総覧・日本金融史資料は1934年1月26日設立・新立合併認可、静岡銀行史は2月15日合併・設立とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efi_IKFgqKIh5oSLIPxAXtnB5Ed/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
