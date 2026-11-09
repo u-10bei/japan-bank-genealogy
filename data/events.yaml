@@ -8332,3 +8332,10 @@
   to: [daishi]
   note: 第四銀行が買収（3月9日買収認可。第四銀行百年史は3月29日営業譲渡とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- date: "1881-01-01"
+  type: absorption
+  from: [dai140-kokuritsu]
+  to: [kokuritsu-67]
+  note: 第六十七国立銀行が合併（1880年12月15日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vNecR0z0jlo0n_SgoQAJFas8K6e/description.html"]
