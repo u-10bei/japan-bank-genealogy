@@ -5106,6 +5106,15 @@
   note: 1878年11月26日開業免状下付・設立、12月17日開業（埼玉銀行史は5月15日設立許可、埼玉銀行通史は10月設立とする）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第八十五銀行に改称（1897年9月8日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/l8j8e0OMFtxh7NxU4U8WI1iL_Gh/description.html"]
 
+- id: dai86-kokuritsu
+  name: 第八十六国立銀行
+  type: other
+  founded: "1878-12-09"
+  dissolved: "1897-07-01"
+  prefecture: 岡山県
+  note: 1878年12月9日開業免状下付・設立、1879年5月1日開業。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し八十六銀行に改称（3月10日満期前継続許可。八十六銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rGq1urfseZsg-epQbrned0vVeEi/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
