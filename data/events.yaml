@@ -1224,21 +1224,22 @@
   type: rename
   from: [dai37-kokuritsu]
   to: [kochi-dai37]
+  note: 高知第三十七国立銀行に改称（Wikipediaによる。銀行変遷史DBには記載なし）
   sources: [https://ja.wikipedia.org/wiki/四国銀行]
 
 - date: "1897-03-01"
   type: rename
   from: [kochi-dai37]
   to: [kochi-old]
-  note: 国立銀行営業満期前特別処分法により株式会社高知銀行として営業継続
-  sources: [https://ja.wikipedia.org/wiki/四国銀行]
+  note: 国立銀行営業満期前特別処分法により株式会社高知銀行として営業継続（1896年11月28日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/whijc5l-4J8rJmkyCUevByNIogb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eY7dJpjcKSXTLYomHSchwO1ZX0p/description.html", https://ja.wikipedia.org/wiki/四国銀行]
 
 - date: "1923-11-01"
   type: rename
   from: [kochi-old]
   to: [shikoku]
-  note: 土佐銀行を吸収合併し改称
-  sources: [https://ja.wikipedia.org/wiki/四国銀行]
+  note: 土佐銀行を吸収合併し改称（10月16日合併改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eY7dJpjcKSXTLYomHSchwO1ZX0p/description.html", https://ja.wikipedia.org/wiki/四国銀行]
 
 - date: "1945-03-31"
   type: merger
@@ -8107,7 +8108,7 @@
   from: [dai127-kokuritsu]
   to: [kochi-dai37]
   note: 第三十七国立銀行が合併（銀行総覧は8月17日、銀行便覧は9月、四国銀行百年史は8月18日合併認可・9月26日合併）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZlGqNPrk5L_iyiB-rQlQmfL9GTj/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/whijc5l-4J8rJmkyCUevByNIogb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZlGqNPrk5L_iyiB-rQlQmfL9GTj/description.html"]
 
 - date: "1898-01-01"
   type: rename

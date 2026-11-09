@@ -7974,11 +7974,11 @@
 - id: dai37-kokuritsu
   name: 第三十七国立銀行
   type: other
-  founded: "1878-10-28"
+  founded: "1878-10-17"
   dissolved: "1896-02-07"
   prefecture: 高知県
-  note: 基礎情報欄では設立1878年10月17日
-  sources: [https://ja.wikipedia.org/wiki/四国銀行]
+  note: 高知で設立（1878年10月17日開業免状下付、12月8日開業。Wikipedia本文は10月28日設立とする）。1896年2月7日高知第三十七国立銀行に改称（Wikipediaによる。銀行変遷史DBには記載なし）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/whijc5l-4J8rJmkyCUevByNIogb/description.html", https://ja.wikipedia.org/wiki/四国銀行]
 
 - id: kochi-dai37
   name: 高知第三十七国立銀行
@@ -7986,7 +7986,8 @@
   founded: "1896-02-07"
   dissolved: "1897-03-01"
   prefecture: 高知県
-  sources: [https://ja.wikipedia.org/wiki/四国銀行]
+  note: 1896年2月7日第三十七国立銀行が改称（Wikipediaによる。銀行変遷史DBは改称を記載せず第三十七国立銀行として扱う）。1896年第百二十七国立銀行を合併（銀行総覧は8月17日、銀行便覧は9月、四国銀行百年史は8月18日合併認可・9月26日合併とする）。1897年3月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し高知銀行に改称（1896年11月28日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/whijc5l-4J8rJmkyCUevByNIogb/description.html", https://ja.wikipedia.org/wiki/四国銀行]
 
 - id: kochi-old
   name: 高知銀行
@@ -7994,8 +7995,8 @@
   founded: "1897-03-01"
   dissolved: "1923-11-01"
   prefecture: 高知県
-  note: 現在の高知銀行とは無関係
-  sources: [https://ja.wikipedia.org/wiki/四国銀行]
+  note: 現在の高知銀行とは無関係。1897年3月1日第三十七国立銀行が改称。1919年2月1日土佐貯金銀行を合併。1923年11月1日土佐銀行を合併し四国銀行に改称（10月16日合併改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eY7dJpjcKSXTLYomHSchwO1ZX0p/description.html", https://ja.wikipedia.org/wiki/四国銀行]
 
 - id: shikoku
   name: 四国銀行
@@ -8004,8 +8005,8 @@
   type: regional
   founded: "1923-11-01"
   prefecture: 高知県
-  note: 高知銀行が土佐銀行を吸収合併し改称
-  sources: [https://ja.wikipedia.org/wiki/四国銀行]
+  note: 高知銀行が土佐銀行を吸収合併し改称（1923年10月16日合併改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/eY7dJpjcKSXTLYomHSchwO1ZX0p/description.html", https://ja.wikipedia.org/wiki/四国銀行]
 
 - id: dai17-kokuritsu
   name: 第十七国立銀行
