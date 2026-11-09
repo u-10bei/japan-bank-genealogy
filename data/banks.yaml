@@ -5202,8 +5202,17 @@
   founded: "1897-07-01"
   dissolved: "1921"
   prefecture: 東京都
-  note: 1897年7月1日第九十二国立銀行が改称（福井）。1912年11月2日東京に移転。1921年京和貯蓄銀行に改称（日本金融史資料は12月改称登記とする。京和貯蓄銀行は未収録）
+  note: 1897年7月1日第九十二国立銀行が改称（福井）。1912年11月2日東京に移転。1921年京和貯蓄銀行に改称（日本金融史資料は12月改称登記とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oQ1AN-8ZM7vUNo11ntQScKlr9Tc/description.html"]
+
+- id: keiwa-chochiku
+  name: 京和貯蓄銀行
+  type: other
+  founded: "1921"
+  dissolved: "1930"
+  prefecture: 東京都
+  note: 1921年第九十二銀行が改称（日本金融史資料は12月改称登記とする）。銀行総覧の掲載は第36回（1929年末）までで、1930年に消滅したとみられる（消滅の経緯は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/GlSmZUY8cxCNkCBBGolEOXUT_Sm/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
