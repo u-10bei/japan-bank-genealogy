@@ -8511,3 +8511,16 @@
   from: [tohoku-1902]
   note: 破産確定
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FLTyoe5X-lsHZVFm8B-FT2O-cAo/description.html"]
+
+- date: "1898-07-01"
+  type: rename
+  from: [dai151-kokuritsu]
+  to: [hyakugojuichi-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jCzBFTDv73J1xcbJR974o9fluEk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TQP6E1wfxpldA1BNiYOqA3T7Ooo/description.html"]
+
+- date: "1902-01-31"
+  type: dissolution
+  from: [hyakugojuichi-ginko]
+  note: 任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TQP6E1wfxpldA1BNiYOqA3T7Ooo/description.html"]
