@@ -5187,6 +5187,15 @@
   note: 1897年7月1日第九十一国立銀行が改称。1928年8月十二銀行に合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XvGBArHWubZGWIkHqRN6sr0-pmj/description.html"]
 
+- id: dai92-kokuritsu
+  name: 第九十二国立銀行
+  type: other
+  founded: "1878-10-11"
+  dissolved: "1897-07-01"
+  prefecture: 福井県
+  note: 1878年10月11日開業免状下付・設立、12月2日開業（福井銀行八十年史は10月21日設立とする）。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第九十二銀行に改称（2月18日満期前継続許可。福井銀行八十年史・北陸銀行「創業百年史」は2月18日改称とする。第九十二銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/44Boo7OqXOpHXMq0Ly-qxp1wE6m/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
