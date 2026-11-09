@@ -5142,6 +5142,15 @@
   note: 1897年7月1日第八十七国立銀行が改称（富士銀行百年史別巻は「八十七銀行」と表記）。1902年百三十銀行に合併（銀行総覧は12月3日合併解散、福岡銀行二十年史付編は11月28日合併とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pJHdOG5PT5UtyElUaRjZZr-asth/description.html"]
 
+- id: dai88-kokuritsu
+  name: 第八十八国立銀行
+  type: other
+  founded: "1878-11-05"
+  dissolved: "1896-11-01"
+  prefecture: 岩手県
+  note: 1878年11月5日開業免状下付・設立、12月13日開業（岩手銀行五十年史は11月5日開業とする）。1896年11月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第八十八銀行に改称（7月28日満期前継続許可。岩手銀行五十年史は1897年8月1日改組とする。第八十八銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cFsH3QXvzWKyaaQ13NbpKRUiX7b/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
