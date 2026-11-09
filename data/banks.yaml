@@ -6112,6 +6112,15 @@
   note: 1934年12月26日藝備銀行が営業譲受（同日買収認可）。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
 
+- id: dai144-kokuritsu
+  name: 第百四十四国立銀行
+  type: other
+  founded: "1879-05-01"
+  dissolved: "1899-01-01"
+  prefecture: 宮崎県
+  note: 宮崎で設立（1879年5月1日開業免状下付、9月1日開業）。1899年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し飫肥銀行に改称（1898年9月26日満期前継続許可。銀行便覧・明治財政史は1899年1月、宮崎銀行五十年史は1月1日改組とする）。飫肥銀行は未収録
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MBnEG0sSkxYMok4-QZQ1fu3eoRk/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
