@@ -6118,8 +6118,101 @@
   founded: "1879-05-01"
   dissolved: "1899-01-01"
   prefecture: 宮崎県
-  note: 宮崎で設立（1879年5月1日開業免状下付、9月1日開業）。1899年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し飫肥銀行に改称（1898年9月26日満期前継続許可。銀行便覧・明治財政史は1899年1月、宮崎銀行五十年史は1月1日改組とする）。飫肥銀行は未収録
+  note: 宮崎で設立（1879年5月1日開業免状下付、9月1日開業）。1899年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し飫肥銀行に改称（1898年9月26日満期前継続許可。銀行便覧・明治財政史は1899年1月、宮崎銀行五十年史は1月1日改組とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MBnEG0sSkxYMok4-QZQ1fu3eoRk/description.html"]
+
+- id: obi-bank
+  name: 飫肥銀行
+  type: other
+  founded: "1899-01-01"
+  dissolved: "1907-08-01"
+  prefecture: 宮崎県
+  note: 1899年1月1日第百四十四国立銀行が改称（宮崎銀行五十年史による。銀行便覧・明治財政史は1899年1月とする）。1907年8月1日日州銀行・日向商業銀行と新立合併し日州銀行となる（6月8日合併のため解散）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RvT2OIN83wFR-SC7W0jjmN7pPqc/description.html"]
+
+- id: nisshu-1900
+  name: 日州銀行
+  type: other
+  founded: "1900"
+  dissolved: "1907-08-01"
+  note: 1907年8月1日飫肥銀行・日向商業銀行と新立合併し（新）日州銀行となる。銀行変遷史DBは1900〜1907年の日州銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RvT2OIN83wFR-SC7W0jjmN7pPqc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/21VWdOLwoxuKWSGjtGruBBHldvd/description.html"]
+
+- id: hyuga-shogyo
+  name: 日向商業銀行
+  type: other
+  dissolved: "1907-08-01"
+  note: 1907年8月1日飫肥銀行・日州銀行と新立合併し（新）日州銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RvT2OIN83wFR-SC7W0jjmN7pPqc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/21VWdOLwoxuKWSGjtGruBBHldvd/description.html"]
+
+- id: nisshu-1907
+  name: 日州銀行
+  type: other
+  founded: "1907-08-01"
+  dissolved: "1928"
+  prefecture: 宮崎県
+  note: 飫肥銀行・日州銀行・日向商業銀行の3行の新立合併により宮崎に設立（1907年7月31日創立総会、8月1日登記・開業）。1928年に佐土原・大正・橘・妻・日州・日佐・日向・都城の8行の新立合併で日向中央銀行となる（銀行総覧は2月1日設立、宮崎銀行五十年史は1927年12月3日新立合併認可・1月31日新立合併・2月1日開業とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/21VWdOLwoxuKWSGjtGruBBHldvd/description.html"]
+
+- id: sadowara-bank
+  name: 佐土原銀行
+  type: other
+  dissolved: "1928"
+  note: 1928年に佐土原・大正・橘・妻・日州・日佐・日向・都城の8行の新立合併で日向中央銀行となる（銀行総覧は2月1日設立、宮崎銀行五十年史は1927年12月3日新立合併認可・1月31日新立合併・2月1日開業とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
+
+- id: taisho-1916
+  name: 大正銀行
+  type: other
+  founded: "1916"
+  dissolved: "1928"
+  note: 1928年に佐土原・大正・橘・妻・日州・日佐・日向・都城の8行の新立合併で日向中央銀行となる（銀行総覧は2月1日設立、宮崎銀行五十年史は1927年12月3日新立合併認可・1月31日新立合併・2月1日開業とする）。銀行変遷史DBは1916〜1928年の大正銀行とする（設立日は未確認）。現在の大正銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
+
+- id: tachibana-bank
+  name: 橘銀行
+  type: other
+  dissolved: "1928"
+  note: 1928年に佐土原・大正・橘・妻・日州・日佐・日向・都城の8行の新立合併で日向中央銀行となる（銀行総覧は2月1日設立、宮崎銀行五十年史は1927年12月3日新立合併認可・1月31日新立合併・2月1日開業とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
+
+- id: tsuma-bank
+  name: 妻銀行
+  type: other
+  dissolved: "1928"
+  note: 1928年に佐土原・大正・橘・妻・日州・日佐・日向・都城の8行の新立合併で日向中央銀行となる（銀行総覧は2月1日設立、宮崎銀行五十年史は1927年12月3日新立合併認可・1月31日新立合併・2月1日開業とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
+
+- id: nissa-bank
+  name: 日佐銀行
+  type: other
+  dissolved: "1928"
+  note: 1928年に佐土原・大正・橘・妻・日州・日佐・日向・都城の8行の新立合併で日向中央銀行となる（銀行総覧は2月1日設立、宮崎銀行五十年史は1927年12月3日新立合併認可・1月31日新立合併・2月1日開業とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
+
+- id: hyuga-bank
+  name: 日向銀行
+  type: other
+  dissolved: "1928"
+  note: 1928年に佐土原・大正・橘・妻・日州・日佐・日向・都城の8行の新立合併で日向中央銀行となる（銀行総覧は2月1日設立、宮崎銀行五十年史は1927年12月3日新立合併認可・1月31日新立合併・2月1日開業とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
+
+- id: miyakonojo-1919
+  name: 都城銀行
+  type: other
+  founded: "1919"
+  dissolved: "1928"
+  note: 1928年に佐土原・大正・橘・妻・日州・日佐・日向・都城の8行の新立合併で日向中央銀行となる（銀行総覧は2月1日設立、宮崎銀行五十年史は1927年12月3日新立合併認可・1月31日新立合併・2月1日開業とする）。銀行変遷史DBは1919〜1928年の都城銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
+
+- id: hyuga-chuo
+  name: 日向中央銀行
+  type: other
+  founded: "1928"
+  dissolved: "1937-02-24"
+  prefecture: 宮崎県
+  note: 佐土原・大正・橘・妻・日州・日佐・日向・都城の8行の新立合併により宮崎に設立（銀行総覧は1928年2月1日設立。宮崎銀行五十年史は1927年12月3日新立合併認可、12月31日創立総会、1928年1月31日新立合併、2月1日開業とする）。1937年2月24日任意解散（同日任意解散認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

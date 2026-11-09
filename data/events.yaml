@@ -8427,3 +8427,30 @@
   to: [geibi-1920]
   note: 藝備銀行が営業譲受（同日買収認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- date: "1899-01-01"
+  type: rename
+  from: [dai144-kokuritsu]
+  to: [obi-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続（宮崎銀行五十年史は1月1日改組、銀行便覧・明治財政史は1月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MBnEG0sSkxYMok4-QZQ1fu3eoRk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RvT2OIN83wFR-SC7W0jjmN7pPqc/description.html"]
+
+- date: "1907-08-01"
+  type: merger
+  from: [obi-bank, nisshu-1900, hyuga-shogyo]
+  to: [nisshu-1907]
+  note: 3行の新立合併（7月31日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RvT2OIN83wFR-SC7W0jjmN7pPqc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/21VWdOLwoxuKWSGjtGruBBHldvd/description.html"]
+
+- date: "1928"
+  type: merger
+  from: [sadowara-bank, taisho-1916, tachibana-bank, tsuma-bank, nisshu-1907, nissa-bank, hyuga-bank, miyakonojo-1919]
+  to: [hyuga-chuo]
+  note: 8行の新立合併（銀行総覧は2月1日設立。宮崎銀行五十年史は1927年12月3日認可、1月31日新立合併、2月1日開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/21VWdOLwoxuKWSGjtGruBBHldvd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
+
+- date: "1937-02-24"
+  type: dissolution
+  from: [hyuga-chuo]
+  note: 任意解散（同日任意解散認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
