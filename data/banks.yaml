@@ -11588,14 +11588,59 @@
   note: 1878年8月15日開業免状下付・設立、9月4日開業。1898年8月、営業満期国立銀行処分法により私立銀行として営業を継続し第百銀行に改称（5月28日満期継続許可。銀行局報告は8月14日継続、三菱銀行史は8月15日改組・改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRr-439QrqJNa7ntA_eDLqrcgd/description.html"]
 
+- id: chukyo-1895
+  name: 中京銀行
+  type: other
+  founded: "1895"
+  dissolved: "1903-05"
+  note: 1903年5月第百銀行に合併（三菱銀行史は5月6日、銀行総覧は5月21日合併解散とする）。銀行変遷史DBは1895〜1903年の中京銀行とする（設立日は未確認）。現在の中京銀行（1989年〜）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
+- id: ushigome-chuo
+  name: 牛込中央銀行
+  type: other
+  dissolved: "1925"
+  note: 1923年11月12日第百銀行が買収（三菱銀行史による）。1925年解散。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
+- id: shogyo-bank-1922
+  name: 商業銀行
+  type: other
+  founded: "1922"
+  dissolved: "1924"
+  note: 1924年4月第百銀行が買収（三菱銀行史による。10月26日債権債務の大部分の譲渡・解散を決議）。銀行変遷史DBは1922〜1924年の商業銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
+- id: takasago-shoko
+  name: 高砂商工銀行
+  type: other
+  dissolved: "1925-11"
+  note: 1925年11月第百銀行が買収（11月4日買収届出）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
+- id: nisshin-bank
+  name: 日進銀行
+  type: other
+  dissolved: "1926-03-01"
+  note: 1926年3月1日第百銀行が買収（三菱銀行史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
 - id: daihyaku-1898
   name: 第百銀行
   type: other
   founded: "1898-08"
-  dissolved: "1927"
+  dissolved: "1927-09-15"
   prefecture: 東京都
-  note: 1898年8月第百国立銀行が改称。銀行変遷史DBは1898〜1927年の第百銀行とする（1927年の経緯は未確認）。1943年に三菱銀行に合併した第百銀行とは別項目
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRr-439QrqJNa7ntA_eDLqrcgd/description.html"]
+  note: 1898年8月第百国立銀行が改称。1903年中京銀行（1895〜1903）を合併、1923〜1926年に牛込中央・商業・高砂商工・日進の各行を買収。1927年9月15日川崎銀行に合併（8月合併認可。川崎銀行は同日川崎第百銀行に改称）。1943年に三菱銀行に合併した第百銀行とは別項目
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRr-439QrqJNa7ntA_eDLqrcgd/description.html"]
+
+- id: kawasaki-1880
+  name: 川崎銀行
+  type: other
+  founded: "1880"
+  dissolved: "1927-09-15"
+  note: 銀行変遷史DBは1880〜1927年の川崎銀行とする（設立日は未確認）。1927年9月15日第百銀行（1898〜1927）を合併し川崎第百銀行に改称（川崎第百銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
 
 - id: daihyaku
   name: 第百銀行

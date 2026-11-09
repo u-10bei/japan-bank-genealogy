@@ -7624,3 +7624,45 @@
   to: [daihyaku-1898]
   note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は8月14日、三菱銀行史は8月15日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRr-439QrqJNa7ntA_eDLqrcgd/description.html"]
+
+- date: "1903-05"
+  type: absorption
+  from: [chukyo-1895]
+  to: [daihyaku-1898]
+  note: 第百銀行が合併（三菱銀行史は5月6日、銀行総覧は5月21日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
+- date: "1923-11-12"
+  type: transfer
+  from: [ushigome-chuo]
+  to: [daihyaku-1898]
+  note: 第百銀行が買収（牛込中央銀行は1925年解散）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
+- date: "1924-04"
+  type: transfer
+  from: [shogyo-bank-1922]
+  to: [daihyaku-1898]
+  note: 第百銀行が買収（10月26日債権債務の大部分を譲渡し解散決議）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
+- date: "1925-11"
+  type: transfer
+  from: [takasago-shoko]
+  to: [daihyaku-1898]
+  note: 第百銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
+- date: "1926-03-01"
+  type: transfer
+  from: [nisshin-bank]
+  to: [daihyaku-1898]
+  note: 第百銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
+- date: "1927-09-15"
+  type: absorption
+  from: [daihyaku-1898]
+  to: [kawasaki-1880]
+  note: 川崎銀行が合併し、同日川崎第百銀行に改称（8月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
