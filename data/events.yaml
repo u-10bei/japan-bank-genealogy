@@ -7091,3 +7091,10 @@
   to: [shichiju-bank]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NAl6hsjAZSv7OcYYzaXbfR3iC4/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lCpe-vbYlnq9HLs93JhIMc2ijKk/description.html"]
+
+- date: "1909-03-25"
+  type: rename
+  from: [shichiju-bank]
+  to: [daiyu-bank]
+  note: 京都から東京に移転し改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lCpe-vbYlnq9HLs93JhIMc2ijKk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nUNCfP28piXtbpWyo0jcTrPBH7c/description.html"]
