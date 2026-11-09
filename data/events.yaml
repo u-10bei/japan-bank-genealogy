@@ -7887,9 +7887,51 @@
   note: 北海道銀行（1906〜1944）が合併（3月合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qdNNueiVsKNGka0k_rezFEKtU_o/description.html"]
 
-- date: "1944"
+- date: "1944-09-01"
   type: absorption
   from: [hokkaido-1906]
   to: [takugin]
-  note: 北海道拓殖銀行が合併（Wikipediaの北海道銀行の記事による。日付は未確認）
-  sources: [https://ja.wikipedia.org/wiki/北海道銀行]
+  note: 北海道拓殖銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JeTXiw72a8TZSP5Hdtciptc8yzc/description.html", https://ja.wikipedia.org/wiki/北海道銀行]
+
+- date: "1906"
+  type: absorption
+  from: [hokkaido-shogyo]
+  to: [otaru-bank]
+  note: 小樽銀行が合併し、同時に北海道銀行に改称（銀行総覧は4月25日、北海道拓殖銀行史は5月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JeTXiw72a8TZSP5Hdtciptc8yzc/description.html"]
+
+- date: "1906"
+  type: rename
+  from: [otaru-bank]
+  to: [hokkaido-1906]
+  note: 北海道商業銀行の合併と同時に北海道銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JeTXiw72a8TZSP5Hdtciptc8yzc/description.html"]
+
+- date: "1941-10-01"
+  type: transfer
+  from: [taihoku-bank]
+  to: [hokkaido-1906]
+  note: 北海道銀行が3行を買収（9月30日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JeTXiw72a8TZSP5Hdtciptc8yzc/description.html"]
+
+- date: "1941-10-01"
+  type: transfer
+  from: [hokkaido-shoko]
+  to: [hokkaido-1906]
+  note: 北海道銀行が3行を買収（9月30日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JeTXiw72a8TZSP5Hdtciptc8yzc/description.html"]
+
+- date: "1941-10-01"
+  type: transfer
+  from: [hokkaido-shokusan]
+  to: [hokkaido-1906]
+  note: 北海道銀行が3行を買収（9月30日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JeTXiw72a8TZSP5Hdtciptc8yzc/description.html"]
+
+- date: "1943-12-12"
+  type: absorption
+  from: [hakodate-chochiku]
+  to: [hokkaido-1906]
+  note: 北海道銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JeTXiw72a8TZSP5Hdtciptc8yzc/description.html"]
