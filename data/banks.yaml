@@ -4891,8 +4891,17 @@
   founded: "1878-10-30"
   dissolved: "1897-08-01"
   prefecture: 大阪府
-  note: 兵庫で設立（1878年10月30日開業免状下付・設立、12月22日開業）。1885年大阪に移転。1897年8月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第七十三銀行に改称、大阪から鹿児島に移転（第七十三銀行は未収録）
+  note: 兵庫で設立（1878年10月30日開業免状下付・設立、12月22日開業）。1885年大阪に移転。1897年8月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第七十三銀行に改称、大阪から鹿児島に移転
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6hy3uS5BrNu7DIAwWTPk6ocY_Zp/description.html"]
+
+- id: dai73-ginko
+  name: 第七十三銀行
+  type: other
+  founded: "1897-08-01"
+  dissolved: "1931-10-28"
+  prefecture: 鹿児島県
+  note: 1897年8月1日第七十三国立銀行が改称し、大阪から鹿児島に移転。1931年10月28日業務廃止（業務廃止認可・鹿児島銀行百年史による廃業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0VizQX57zLs8w7SsTK07x8A9TZo/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

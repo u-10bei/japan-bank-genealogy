@@ -7174,3 +7174,16 @@
   from: [koga-1913]
   note: 任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gyDtpKxakqU8CWeBvVLQML4UF_e/description.html"]
+
+- date: "1897-08-01"
+  type: rename
+  from: [dai73-kokuritsu]
+  to: [dai73-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続し、大阪から鹿児島に移転
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6hy3uS5BrNu7DIAwWTPk6ocY_Zp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0VizQX57zLs8w7SsTK07x8A9TZo/description.html"]
+
+- date: "1931-10-28"
+  type: dissolution
+  from: [dai73-ginko]
+  note: 業務廃止（廃業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0VizQX57zLs8w7SsTK07x8A9TZo/description.html"]
