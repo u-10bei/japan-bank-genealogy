@@ -6005,6 +6005,24 @@
   note: 山形で設立（1879年3月20日開業免状下付、8月1日開業）。1881年1月1日第六十七国立銀行に合併（1880年12月15日合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vNecR0z0jlo0n_SgoQAJFas8K6e/description.html"]
 
+- id: dai141-kokuritsu
+  name: 第百四十一国立銀行
+  type: other
+  founded: "1879-04-12"
+  dissolved: "1897-02-01"
+  prefecture: 愛媛県
+  note: 愛媛で設立（1879年4月12日開業免状下付、7月1日開業）。1897年2月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し西条銀行に改称（1896年10月22日満期前継続許可。伊予銀行五十年史は同日転換・改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AgxEUOaLh1vSN3Nj4lKdDUgDmwi/description.html"]
+
+- id: saijo-1897
+  name: 西条銀行
+  type: other
+  founded: "1897-02-01"
+  dissolved: "1928"
+  prefecture: 愛媛県
+  note: 1897年2月1日第百四十一国立銀行が改称。銀行変遷史DBは1897〜1928年の西条銀行とする（終期の詳細は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AgxEUOaLh1vSN3Nj4lKdDUgDmwi/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
