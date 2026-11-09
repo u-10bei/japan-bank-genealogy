@@ -5464,8 +5464,17 @@
   founded: "1878-11-16"
   dissolved: "1898-01-16"
   prefecture: 大分県
-  note: 1878年11月16日開業免状下付・設立、1879年1月13日開業（大分銀行百年史は1879年2月設立とする）。1898年1月16日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百九銀行に改称（1897年9月27日満期前継続許可。百九銀行は未収録）
+  note: 1878年11月16日開業免状下付・設立、1879年1月13日開業（大分銀行百年史は1879年2月設立とする）。1898年1月16日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百九銀行に改称（1897年9月27日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gYEF51xA0oeIQlS1Bdt55_EhOhg/description.html"]
+
+- id: hyakuku-bank
+  name: 百九銀行
+  type: other
+  founded: "1898-01-16"
+  dissolved: "1941-12-26"
+  prefecture: 大分県
+  note: 1898年1月16日第百九国立銀行が改称。1941年12月26日大分合同銀行が買収（12月17日買収認可。大分銀行百年史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u8LkkwI31Yr_-2Zy3TMYHeltvJc/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

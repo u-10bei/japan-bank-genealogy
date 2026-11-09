@@ -7824,3 +7824,17 @@
   from: [dai108-kokuritsu]
   note: 鎖店（3月15日営業停止。銀行局報告は4月2日、銀行便覧は4月5日とする。1887年5月18日処分完結により解散）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mke86ITnY-BVMNcr1aENoQan0/description.html"]
+
+- date: "1898-01-16"
+  type: rename
+  from: [dai109-kokuritsu]
+  to: [hyakuku-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gYEF51xA0oeIQlS1Bdt55_EhOhg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u8LkkwI31Yr_-2Zy3TMYHeltvJc/description.html"]
+
+- date: "1941-12-26"
+  type: transfer
+  from: [hyakuku-bank]
+  to: [oita-godo]
+  note: 大分合同銀行が買収（12月17日買収認可。大分銀行百年史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u8LkkwI31Yr_-2Zy3TMYHeltvJc/description.html"]
