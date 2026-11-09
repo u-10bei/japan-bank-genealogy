@@ -5225,6 +5225,15 @@
   note: 1921年第九十二銀行が改称（日本金融史資料は12月改称登記とする）。銀行総覧の掲載は第36回（1929年末）までで、1930年に消滅したとみられる（消滅の経緯は未確認）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/GlSmZUY8cxCNkCBBGolEOXUT_Sm/description.html"]
 
+- id: dai95-kokuritsu
+  name: 第九十五国立銀行
+  type: other
+  founded: "1878-09-18"
+  dissolved: "1897-05-15"
+  prefecture: 東京都
+  note: 1878年9月18日開業免状下付・設立、10月17日開業。1897年5月15日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し九十五銀行に改称（2月12日満期前継続許可。九十五銀行は未収録）。銀行変遷史DBは紀阪貯蓄銀行を当行の後身とする（三和銀行史は紀阪貯蓄銀行を1878年設立とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-dH90bQQVYOOHg4c2y7O-KtbwTo/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
