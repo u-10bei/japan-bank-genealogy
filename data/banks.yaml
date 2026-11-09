@@ -11589,10 +11589,10 @@
   name: 三春銀行
   type: other
   founded: "1897-07-01"
-  dissolved: "1942-08"
+  dissolved: "1942-11-30"
   prefecture: 福島県
-  note: 1897年7月1日第九十三国立銀行が改称。1942年8月東邦銀行が営業を譲受
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qr96p7vpbNXzK1V4A0W0cGtGcCp/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+  note: 1897年7月1日第九十三国立銀行が改称。1942年11月30日東邦銀行に営業を譲渡（11月16日営業譲渡認可。日付は東邦銀行五十年史・銀行変遷史DBによる。東邦銀行の有価証券報告書は1942年8月に猪苗代銀行・岩瀬興業銀行とともに営業を譲受とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AJrmLYRwoh80b10QjZRmO_C5Rfm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qr96p7vpbNXzK1V4A0W0cGtGcCp/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
 
 - id: inawashiro-ginko
   name: 猪苗代銀行

@@ -3449,9 +3449,9 @@
 
 - date: "1942-08"
   type: transfer
-  from: [miharu-ginko, inawashiro-ginko, iwase-kogyo-ginko]
+  from: [inawashiro-ginko, iwase-kogyo-ginko]
   to: [toho]
-  note: 3行の営業を譲受
+  note: 有価証券報告書は三春銀行を含む3行の営業を譲受とする（三春銀行は銀行変遷史DBにより1942年11月30日とした）
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
 
 - date: "1943-02"
@@ -7492,3 +7492,10 @@
   to: [miharu-ginko]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qr96p7vpbNXzK1V4A0W0cGtGcCp/description.html"]
+
+- date: "1942-11-30"
+  type: transfer
+  from: [miharu-ginko]
+  to: [toho]
+  note: 東邦銀行が営業を譲受（11月16日営業譲渡認可。有価証券報告書は1942年8月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AJrmLYRwoh80b10QjZRmO_C5Rfm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
