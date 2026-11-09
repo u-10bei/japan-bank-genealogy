@@ -1039,12 +1039,23 @@
   note: 1876年11月13日創立総会、12月1日開業免状下付・設立、12月5日開業。1882年9月5日第四十四国立銀行を合併。1896年12月1日、営業満期国立銀行処分法により私立銀行として営業を継続し第三銀行に改称（11月30日満期、8月18日満期継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pHgVOBlxVCyFIiz5dbRiBtBZot/description.html"]
 
+- id: dai82-kokuritsu
+  name: 第八十二国立銀行
+  type: other
+  founded: "1878-11-05"
+  dissolved: "1896-12-01"
+  prefecture: 東京都
+  note: 鳥取で設立（1878年11月5日開業免状下付・設立、11月24日開業。鳥取銀行の歩みは10月24日設立とする）。1893年1月東京に移転（鳥取銀行の歩み・山陰合同銀行五十年史の日付「1月34日」は誤記と考えられる）。1896年12月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第八十二銀行に改称（10月29日満期前継続許可。富士銀行百年史別巻は11月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/B67ljPpD-trryy35w_PfFdUfC4p/description.html"]
+
 - id: dai82-ginko
   name: 第八十二銀行
   type: other
+  founded: "1896-12-01"
   dissolved: "1897-06-01"
-  note: 1897年6月1日第三銀行に合併。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sEkW2vXWo4G-YxxqgkDv-YMEEXn/description.html"]
+  prefecture: 東京都
+  note: 1896年12月1日第八十二国立銀行が改称（富士銀行百年史別巻は11月とする）。1897年6月1日第三銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/B67ljPpD-trryy35w_PfFdUfC4p/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sEkW2vXWo4G-YxxqgkDv-YMEEXn/description.html"]
 
 - id: daisan-1896
   name: 第三銀行
