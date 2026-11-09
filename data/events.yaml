@@ -7140,3 +7140,17 @@
   to: [daishi]
   note: 第四銀行が合併（6月30日合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cufHqzqadC8TQASVRsXM5DavFbo/description.html"]
+
+- date: "1893-10"
+  type: absorption
+  from: [koga-bank]
+  to: [dai72-kokuritsu]
+  note: 第七十二国立銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e47kSh9ba0dhvGAQSlWf-9pRet/description.html"]
+
+- date: "1898-09"
+  type: rename
+  from: [dai72-kokuritsu]
+  to: [saga-1898]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は9月19日、佐賀銀行百年史は9月20日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e47kSh9ba0dhvGAQSlWf-9pRet/description.html"]

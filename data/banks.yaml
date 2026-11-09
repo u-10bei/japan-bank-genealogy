@@ -4843,6 +4843,32 @@
   note: 1898年10月1日第七十一国立銀行が改称。1923年12月17日岩船銀行、1924年6月29日村上産業銀行を合併。1938年8月7日第四銀行に合併（6月30日合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cufHqzqadC8TQASVRsXM5DavFbo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IT3CULTxCTz5uhqfdu2UOhY7tRc/description.html"]
 
+- id: koga-bank
+  name: 古賀銀行
+  type: other
+  founded: "1885"
+  dissolved: "1893-10"
+  note: 1893年10月第七十二国立銀行に合併（佐賀銀行百年史による）。銀行変遷史DBは1885〜1893年の古賀銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e47kSh9ba0dhvGAQSlWf-9pRet/description.html"]
+
+- id: dai72-kokuritsu
+  name: 第七十二国立銀行
+  type: other
+  founded: "1878-09-20"
+  dissolved: "1898-09"
+  prefecture: 佐賀県
+  note: 山形で設立（1878年9月20日開業免状下付・設立、9月25日開業）。1887年2月営業停止（銀行便覧は2月7日、荘内銀行「創業百年史」・山形銀行八十年史は2月18日とする）、9月1日解除・営業再開。1889年7月25日営業権を譲渡し佐賀に移転。1893年10月古賀銀行を合併。1898年9月、営業満期国立銀行処分法により私立銀行として営業を継続し佐賀銀行に改称（6月30日満期継続許可。銀行局報告は9月19日継続、佐賀銀行百年史は9月20日改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e47kSh9ba0dhvGAQSlWf-9pRet/description.html"]
+
+- id: saga-1898
+  name: 佐賀銀行
+  type: other
+  founded: "1898-09"
+  dissolved: "1913"
+  prefecture: 佐賀県
+  note: 1898年9月第七十二国立銀行が改称。銀行変遷史DBは1898〜1913年の佐賀銀行とする（1913年の経緯は未確認）。現在の佐賀銀行（1955年設立）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e47kSh9ba0dhvGAQSlWf-9pRet/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
