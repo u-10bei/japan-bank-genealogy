@@ -4708,6 +4708,15 @@
   note: 1878年8月17日開業免状下付・設立、9月2日開業。1890年1月31日営業停止、9月4日解除、10月1日営業再開。1898年8月16日営業満期解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QGgBY0fb_aL7QayuY1AkxcFihDd/description.html"]
 
+- id: dai61-kokuritsu
+  name: 第六十一国立銀行
+  type: other
+  founded: "1878-11-06"
+  dissolved: "1897-04-01"
+  prefecture: 福岡県
+  note: 1878年11月6日開業免状下付・設立、11月20日開業。1897年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し六十一銀行に改称（1896年12月10日満期前継続許可。六十一銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7NuU8DTQI5vOGUTt_-G9BmeWv9o/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
