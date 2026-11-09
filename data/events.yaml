@@ -3267,11 +3267,12 @@
   to: [hyakugo]
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
 
-- date: "1920-12"
+- date: "1920-12-25"
   type: absorption
   from: [hachijusan]
   to: [hyakugo]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+  note: 百五銀行が合併（11月30日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/j09iliO4jcQoA4vUyd3F-TQKBej/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
 
 - date: "1921-10"
   type: absorption
@@ -7266,6 +7267,34 @@
 - date: "1897-08-01"
   type: rename
   from: [dai83-kokuritsu]
-  to: [hachijusan]
+  to: [dai83-ginko]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VtLvRRHddguThavmeRrVVTwbmfk/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/L9WwguwE5asdHwN02In-l3vAgdg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VtLvRRHddguThavmeRrVVTwbmfk/description.html"]
+
+- date: "1897-12-10"
+  type: absorption
+  from: [ueno-bank]
+  to: [dai83-ginko]
+  note: 第八十三銀行が合併し、同日第八十三上野銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/L9WwguwE5asdHwN02In-l3vAgdg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tZ6Mxy6etTVacfOgfzGGsoaJkjj/description.html"]
+
+- date: "1897-12-10"
+  type: rename
+  from: [dai83-ginko]
+  to: [dai83-ueno]
+  note: 上野銀行の合併と同時に第八十三上野銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/L9WwguwE5asdHwN02In-l3vAgdg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tZ6Mxy6etTVacfOgfzGGsoaJkjj/description.html"]
+
+- date: "1912-05-02"
+  type: rename
+  from: [dai83-ueno]
+  to: [hachijusan]
+  note: 八十三銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tZ6Mxy6etTVacfOgfzGGsoaJkjj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/j09iliO4jcQoA4vUyd3F-TQKBej/description.html"]
+
+- date: "1918"
+  type: absorption
+  from: [nabari-bank]
+  to: [hachijusan]
+  note: 八十三銀行が合併（12月28日合併登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/j09iliO4jcQoA4vUyd3F-TQKBej/description.html"]

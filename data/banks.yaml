@@ -10858,14 +10858,47 @@
   note: 1878年9月21日開業免状下付・設立、11月18日開業。1897年8月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第八十三銀行に改称（4月21日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VtLvRRHddguThavmeRrVVTwbmfk/description.html"]
 
+- id: dai83-ginko
+  name: 第八十三銀行
+  type: other
+  founded: "1897-08-01"
+  dissolved: "1897-12-10"
+  prefecture: 三重県
+  note: 1897年8月1日第八十三国立銀行が改称（百五銀行百年のあゆみは「八十三銀行」と改称とする）。1897年12月10日上野銀行を合併し第八十三上野銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/L9WwguwE5asdHwN02In-l3vAgdg/description.html"]
+
+- id: ueno-bank
+  name: 上野銀行
+  type: other
+  founded: "1894"
+  dissolved: "1897-12-10"
+  note: 1897年12月10日第八十三銀行に合併（第八十三銀行は同日第八十三上野銀行に改称）。銀行変遷史DBは1894〜1897年の上野銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/L9WwguwE5asdHwN02In-l3vAgdg/description.html"]
+
+- id: dai83-ueno
+  name: 第八十三上野銀行
+  type: other
+  founded: "1897-12-10"
+  dissolved: "1912-05-02"
+  prefecture: 三重県
+  note: 1897年12月10日第八十三銀行が上野銀行を合併し改称。1912年5月2日八十三銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/tZ6Mxy6etTVacfOgfzGGsoaJkjj/description.html"]
+
+- id: nabari-bank
+  name: 名張銀行
+  type: other
+  dissolved: "1918"
+  note: 1918年八十三銀行に合併（銀行総覧は12月28日合併登記とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/j09iliO4jcQoA4vUyd3F-TQKBej/description.html"]
+
 - id: hachijusan
   name: 八十三銀行
   type: other
-  founded: "1897-08-01"
-  dissolved: "1920-12"
+  founded: "1912-05-02"
+  dissolved: "1920-12-25"
   prefecture: 三重県
-  note: 1897年8月1日第八十三国立銀行が改称（銀行変遷史DBは「第八十三銀行」、百五銀行百年のあゆみ・有価証券報告書は「八十三銀行」と表記）。1920年12月百五銀行が合併（有報は「買収あるいは合併」と一括記載）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VtLvRRHddguThavmeRrVVTwbmfk/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
+  note: 1912年5月2日第八十三上野銀行が改称（百五銀行百年のあゆみは、1897年に第八十三国立銀行が八十三銀行に改称したとする）。1918年名張銀行を合併。1920年12月25日百五銀行に合併（11月30日合併認可。有報は「買収あるいは合併」と一括記載）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/j09iliO4jcQoA4vUyd3F-TQKBej/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YBNQ"]
 
 - id: iga-ueno
   name: 伊賀上野銀行
