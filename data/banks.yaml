@@ -5377,6 +5377,15 @@
   note: 山口で設立（1878年10月23日開業免状下付・設立、12月2日開業）。1895年1月1日兵庫に移転。1897年11月日本商業銀行に営業を譲渡（富士銀行百年史別巻による）。1898年10月22日営業満期解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bg8xMDNEOx_WczZUt_868XzSBFb/description.html"]
 
+- id: dai106-kokuritsu
+  name: 第百六国立銀行
+  type: other
+  founded: "1879-02-24"
+  dissolved: "1898-04-01"
+  prefecture: 佐賀県
+  note: 1879年2月24日開業免状下付・設立、4月1日開業（銀行変遷史DBの資料欄は年を「大正12」と記すが、見出しの明治12年の誤記と考えられる）。1898年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し佐賀百六銀行に改称（1897年12月9日満期前継続許可。佐賀百六銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LTylKT9F_2af0te6NTiw3o5d9Mf/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
