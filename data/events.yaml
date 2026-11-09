@@ -4116,8 +4116,8 @@
   type: merger
   from: [asago-ginko, ikuno-ginko, sankyo-hyogo, shokusan-hyogo, tajima-1928, tajima-godo, muraoka-ginko, yabu-godo]
   to: [zentan-ginko]
-  note: 8行の新立合併（1941年4月18日認可）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qq2PtrHpgV4Tq58IWUDStWPmS8g/description.html"]
+  note: 8行の新立合併（1941年4月18日認可、4月27日創立総会、5月3日設立・開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BMl7_EvH-B1eg0vXA20VxSsEOkf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qq2PtrHpgV4Tq58IWUDStWPmS8g/description.html"]
 
 - date: "1943-12-24"
   type: absorption
@@ -6973,7 +6973,14 @@
 
 - date: "1928-01-20"
   type: absorption
-  from: [gojugo-bank]
+  from: [gojugo-bank, gokyo-bank]
   to: [tajima-1928]
-  note: 但馬銀行（1928〜1941）が合併（1927年12月合併認可）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rWAXB6LkOHaWJXiaXg45O2z8C-e/description.html"]
+  note: 但馬銀行（1928〜1941）が合橋銀行・五十五銀行を合併（1927年12月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rWAXB6LkOHaWJXiaXg45O2z8C-e/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BMl7_EvH-B1eg0vXA20VxSsEOkf/description.html"]
+
+- date: "1928-01-02"
+  type: rename
+  from: [kinoene-bank]
+  to: [tajima-1928]
+  note: 但馬銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BMl7_EvH-B1eg0vXA20VxSsEOkf/description.html"]

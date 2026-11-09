@@ -676,14 +676,29 @@
   note: 1941年5月3日、8行の新立合併により全但銀行に
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qq2PtrHpgV4Tq58IWUDStWPmS8g/description.html"]
 
+- id: kinoene-bank
+  name: 甲子銀行
+  type: other
+  dissolved: "1928-01-02"
+  prefecture: 兵庫県
+  note: 1928年1月2日但馬銀行に改称（神戸銀行史による）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BMl7_EvH-B1eg0vXA20VxSsEOkf/description.html"]
+
+- id: gokyo-bank
+  name: 合橋銀行
+  type: other
+  dissolved: "1928-01-20"
+  note: 1928年1月20日但馬銀行に合併（1927年12月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BMl7_EvH-B1eg0vXA20VxSsEOkf/description.html"]
+
 - id: tajima-1928
   name: 但馬銀行
   type: other
-  founded: "1928"
+  founded: "1928-01-02"
   dissolved: "1941-05-03"
   prefecture: 兵庫県
-  note: 1941年5月3日、8行の新立合併により全但銀行に（現在の但馬銀行とは別）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qq2PtrHpgV4Tq58IWUDStWPmS8g/description.html"]
+  note: 1928年1月2日甲子銀行が改称。1928年1月20日合橋銀行・五十五銀行を合併（1927年12月合併認可）。1941年5月3日、8行の新立合併により全但銀行に（現在の但馬銀行とは別）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BMl7_EvH-B1eg0vXA20VxSsEOkf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qq2PtrHpgV4Tq58IWUDStWPmS8g/description.html"]
 
 - id: tajima-godo
   name: 但馬合同銀行
