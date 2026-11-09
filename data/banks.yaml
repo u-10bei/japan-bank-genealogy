@@ -6229,8 +6229,9 @@
   type: other
   founded: "1907"
   dissolved: "1917-01"
-  note: 1916年10月1日廣島銀行に債権債務を譲渡（解散せず）。1917年1月熊本へ移転し毛利銀行に改称（毛利銀行は未収録）。銀行変遷史DBは1907〜1917年の村上銀行とする（設立日は未確認）。新潟県の村上銀行とは別
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FR_F77s8lCJIs-dfTCdTgnoBV6g/description.html"]
+  prefecture: 広島県
+  note: 1916年10月1日廣島銀行に債権債務を譲渡（解散せず）。1917年1月広島から熊本へ移転し毛利銀行に改称（広島銀行「創業百年史」・肥後銀行五十年史は1月27日、銀行総覧は1月29日移転改称登記とする）。銀行変遷史DBは1907〜1917年の村上銀行とする（設立日は未確認）。新潟県の村上銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FR_F77s8lCJIs-dfTCdTgnoBV6g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/72oFZgPudmOScvh_aJVHUg9_v7e/description.html"]
 
 - id: kamo-bank
   name: 賀茂銀行
@@ -6316,6 +6317,15 @@
   prefecture: 大阪府
   note: 1897年7月12日第百五十二国立銀行が改称。1901年7月19日任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XM74fQ8M-y_ndTcJ-OMgjFbhFUm/description.html"]
+
+- id: mouri-bank
+  name: 毛利銀行
+  type: other
+  founded: "1917-01"
+  dissolved: "1928-06"
+  prefecture: 熊本県
+  note: 合名会社。1917年1月村上銀行が広島から熊本に移転（営業権譲受）し改称（広島銀行「創業百年史」・肥後銀行五十年史は1月27日、銀行総覧は1月29日移転改称登記とする）。1928年6月安田銀行に営業譲渡（肥後銀行五十年史は6月20日合併、日本金融史資料は7月買収届出とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/72oFZgPudmOScvh_aJVHUg9_v7e/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

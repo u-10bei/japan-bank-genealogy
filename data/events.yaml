@@ -8537,3 +8537,17 @@
   from: [dai152-ginko]
   note: 任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XM74fQ8M-y_ndTcJ-OMgjFbhFUm/description.html"]
+
+- date: "1917-01"
+  type: rename
+  from: [murakami-1907]
+  to: [mouri-bank]
+  note: 広島から熊本に移転（営業権譲受）し改称（1月27日、銀行総覧は1月29日移転改称登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/72oFZgPudmOScvh_aJVHUg9_v7e/description.html"]
+
+- date: "1928-06"
+  type: transfer
+  from: [mouri-bank]
+  to: [yasuda]
+  note: 安田銀行が買収（肥後銀行五十年史は6月20日合併、日本金融史資料は7月買収届出とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/72oFZgPudmOScvh_aJVHUg9_v7e/description.html"]
