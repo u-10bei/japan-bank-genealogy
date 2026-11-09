@@ -296,7 +296,8 @@
   type: other
   founded: "1921"
   dissolved: "1925-10-20"
-  note: 1925年10月20日山口銀行が買収（三和銀行史による。11月9日買収届出）。1921年紀阪銀行が改称（銀行総覧による）。源流は第九十五国立銀行
+  prefecture: 大阪府
+  note: 1921年紀阪銀行が改称（銀行総覧による。源流は第九十五国立銀行）。1925年10月20日山口銀行が買収（三和銀行史による。11月9日買収届出）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BCFZsTgcAhZXaAX1BO8YxCNaFCk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
 
 - id: setchi-bank
