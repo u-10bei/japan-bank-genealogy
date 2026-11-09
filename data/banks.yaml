@@ -11610,7 +11610,6 @@
   name: 岩手銀行
   type: other
   dissolved: "1938-03"
-  prefecture: 岩手県
   note: 1938年3月、第八十八銀行・岩手銀行・第九十銀行の3行の新立合併により陸中銀行となる（銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）。設立日は出典に記載なし。現在の岩手銀行（1960年に岩手殖産銀行が改称）とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
 
@@ -11618,7 +11617,6 @@
   name: 第九十銀行
   type: other
   dissolved: "1938-03"
-  prefecture: 岩手県
   note: 1938年3月、第八十八銀行・岩手銀行・第九十銀行の3行の新立合併により陸中銀行となる（銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
 
