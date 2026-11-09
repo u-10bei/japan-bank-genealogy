@@ -5955,9 +5955,11 @@
 - id: uchida-bank
   name: 内田銀行
   type: other
+  founded: "1899-06-14"
   dissolved: "1939-10"
-  note: 1939年10月浜松銀行が買収（8月5日買収認可。静岡銀行史は合併とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+  prefecture: 静岡県
+  note: 静岡で設立（銀行総覧による。静岡銀行史は1899年6月とする）。1929年10月上内田実業銀行・土方銀行を合併。1939年10月浜松銀行が買収（8月5日買収認可。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8vBYYBuNvr_Hwdf9H6-HUnpK61n/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
 - id: dai139-kokuritsu
   name: 第百三十九国立銀行
@@ -6406,6 +6408,20 @@
   prefecture: 静岡県
   note: 1909年1月22日西駿委托銀行が改称（静岡銀行史は1909年1月とする）。1934年島田銀行と新立合併し（新）島田銀行となる（銀行総覧・日本金融史資料は1934年1月26日設立・新立合併認可、静岡銀行史は2月15日合併・設立とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/efi_IKFgqKIh5oSLIPxAXtnB5Ed/description.html"]
+
+- id: kamiuchida-jitsugyo
+  name: 上内田実業銀行
+  type: other
+  dissolved: "1929-10"
+  note: 1929年10月内田銀行に合併（合併認可。静岡銀行史は「上内田銀行」と表記）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8vBYYBuNvr_Hwdf9H6-HUnpK61n/description.html"]
+
+- id: hijikata-bank
+  name: 土方銀行
+  type: other
+  dissolved: "1929-10"
+  note: 1929年10月内田銀行に合併（合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8vBYYBuNvr_Hwdf9H6-HUnpK61n/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
