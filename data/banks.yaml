@@ -5240,8 +5240,16 @@
   founded: "1897-05-15"
   dissolved: "1911-01-09"
   prefecture: 東京都
-  note: 1897年5月15日第九十五国立銀行が改称。1911年1月9日百三銀行に改称（百三銀行は未収録）
+  note: 1897年5月15日第九十五国立銀行が改称。1911年1月9日百三銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7vZLIWrtEXWxD5LDmb5WmhbV8Ce/description.html"]
+
+- id: hyakusan-bank
+  name: 百三銀行
+  type: other
+  founded: "1911-01-09"
+  dissolved: "1913-03-03"
+  note: 1911年1月9日九十五銀行が改称。1913年3月3日農商銀行（1913〜1914）に改称（農商銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7WVqNw-OTM_C8TksPKMUmQ4gcto/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
