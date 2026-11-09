@@ -8524,3 +8524,16 @@
   from: [hyakugojuichi-ginko]
   note: 任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TQP6E1wfxpldA1BNiYOqA3T7Ooo/description.html"]
+
+- date: "1897-07-12"
+  type: rename
+  from: [dai152-kokuritsu]
+  to: [dai152-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/coD0PZoy98TQY93VZYNYbveskfh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XM74fQ8M-y_ndTcJ-OMgjFbhFUm/description.html"]
+
+- date: "1901-07-19"
+  type: dissolution
+  from: [dai152-ginko]
+  note: 任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XM74fQ8M-y_ndTcJ-OMgjFbhFUm/description.html"]

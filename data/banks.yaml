@@ -6297,6 +6297,24 @@
   note: 1898年7月1日第百五十一国立銀行が改称。1902年1月31日任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TQP6E1wfxpldA1BNiYOqA3T7Ooo/description.html"]
 
+- id: dai152-kokuritsu
+  name: 第百五十二国立銀行
+  type: other
+  founded: "1879-12-10"
+  dissolved: "1897-07-12"
+  prefecture: 大阪府
+  note: 沖縄で設立（1879年12月10日開業免状下付、1880年3月15日開業）。1883年1月鹿児島に移転。1888年7月27日営業停止、1889年5月17日解停、5月27日営業再開。1891年8月東京に移転、1896年大阪に移転（銀行総覧第2回は東京、第3回は大阪に掲出）。1897年7月12日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第百五十二銀行に改称（4月9日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/coD0PZoy98TQY93VZYNYbveskfh/description.html"]
+
+- id: dai152-ginko
+  name: 第百五十二銀行
+  type: other
+  founded: "1897-07-12"
+  dissolved: "1901-07-19"
+  prefecture: 大阪府
+  note: 1897年7月12日第百五十二国立銀行が改称。1901年7月19日任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XM74fQ8M-y_ndTcJ-OMgjFbhFUm/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
