@@ -8267,7 +8267,7 @@
   from: [totomi-kyodo]
   to: [hamamatsu-1919]
   note: 浜松銀行が買収（買収認可。静岡銀行史は合併とする）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5XFsLJSuOr1p0IzKwK2oUi35jUk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
 - date: "1929-06"
   type: transfer

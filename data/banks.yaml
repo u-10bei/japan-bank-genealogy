@@ -5928,9 +5928,11 @@
 - id: totomi-kyodo
   name: 遠江共同銀行
   type: other
+  founded: "1900-04-02"
   dissolved: "1928-12"
-  note: 1928年12月浜松銀行が買収（静岡銀行史は合併とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+  prefecture: 静岡県
+  note: 静岡で設立（静岡銀行史による。銀行総覧は1900年4月設立とする）。1928年12月浜松銀行が買収（買収認可。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/5XFsLJSuOr1p0IzKwK2oUi35jUk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
 - id: yamanouchi-bank
   name: 山之内銀行
