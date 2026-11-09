@@ -8348,3 +8348,17 @@
   to: [saijo-1897]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続（伊予銀行五十年史は1896年10月22日転換・改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AgxEUOaLh1vSN3Nj4lKdDUgDmwi/description.html"]
+
+- date: "1913-11-19"
+  type: absorption
+  from: [toyo-bank]
+  to: [saijo-1897]
+  note: 西条銀行が合併（11月5日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HjiB1AgZSU3qmGIC6m3uozKGWvf/description.html"]
+
+- date: "1928-12-03"
+  type: absorption
+  from: [saijo-1897]
+  to: [geibi-1920]
+  note: 芸備銀行が合併（11月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HjiB1AgZSU3qmGIC6m3uozKGWvf/description.html"]

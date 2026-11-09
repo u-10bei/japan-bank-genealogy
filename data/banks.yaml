@@ -6018,10 +6018,25 @@
   name: 西条銀行
   type: other
   founded: "1897-02-01"
-  dissolved: "1928"
+  dissolved: "1928-12-03"
   prefecture: 愛媛県
-  note: 1897年2月1日第百四十一国立銀行が改称。銀行変遷史DBは1897〜1928年の西条銀行とする（終期の詳細は未確認）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AgxEUOaLh1vSN3Nj4lKdDUgDmwi/description.html"]
+  note: 1897年2月1日第百四十一国立銀行が改称。1913年11月19日東予銀行を合併（11月5日合併認可）。1928年12月3日芸備銀行に合併（11月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HjiB1AgZSU3qmGIC6m3uozKGWvf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AgxEUOaLh1vSN3Nj4lKdDUgDmwi/description.html"]
+
+- id: toyo-bank
+  name: 東予銀行
+  type: other
+  dissolved: "1913-11-19"
+  note: 1913年11月19日西条銀行に合併（11月5日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HjiB1AgZSU3qmGIC6m3uozKGWvf/description.html"]
+
+- id: geibi-1920
+  name: 芸備銀行
+  type: other
+  founded: "1920"
+  dissolved: "1945"
+  note: 1928年12月3日西条銀行を合併。銀行変遷史DBは1920〜1945年の芸備銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HjiB1AgZSU3qmGIC6m3uozKGWvf/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
