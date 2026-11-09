@@ -7396,3 +7396,17 @@
   to: [daiichi-godo]
   note: 第一合同銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NLxkBkuWoX3WKC0EEErqy07LiLe/description.html"]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai87-kokuritsu]
+  to: [dai87-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OR4KBKL5hdsojlrs5Wf9-9A3Vag/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pJHdOG5PT5UtyElUaRjZZr-asth/description.html"]
+
+- date: "1902"
+  type: absorption
+  from: [dai87-ginko]
+  to: [hyakusanju-bank]
+  note: 百三十銀行が合併（銀行総覧は12月3日合併解散、福岡銀行二十年史付編は11月28日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pJHdOG5PT5UtyElUaRjZZr-asth/description.html"]
