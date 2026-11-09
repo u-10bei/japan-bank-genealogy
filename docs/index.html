@@ -304,11 +304,14 @@ function init(data) {
   const prefIdx = p => { const i = PREFS.indexOf(p); return i < 0 ? 99 : i; };
   const typeIdx = t => Object.keys(TYPE_LABELS).indexOf(t);
   const bySize = (a, b) => b.members.length - a.members.length || a.start - b.start;
+  // 系統の金融機関コード: 現存行のうち最も小さいコード。コードのない系統（現存行なし・政府系など）は末尾
+  const codeOf = L => L.alive.map(b => b.code).filter(Boolean).sort()[0] || "~";
   const SORTS = {
     size: { label: "系統の規模順（収録行数の多い順）", cmp: bySize },
     pref: { label: "本店所在地順（北から南）", cmp: (a, b) => prefIdx(a.rep.prefecture) - prefIdx(b.rep.prefecture) || bySize(a, b) },
     type: { label: "業態順（都市銀行→地方銀行→…）", cmp: (a, b) => typeIdx(a.rep.type) - typeIdx(b.rep.type) || prefIdx(a.rep.prefecture) - prefIdx(b.rep.prefecture) || bySize(a, b) },
     founded: { label: "系統の起源が古い順", cmp: (a, b) => a.start - b.start || bySize(a, b) },
+    code: { label: "金融機関コード順（現存行）", cmp: (a, b) => codeOf(a).localeCompare(codeOf(b)) || bySize(a, b) },
   };
   const rowOf = new Map();
   let headers = [], rowCount = 0;
@@ -330,7 +333,9 @@ function init(data) {
     let row = 0;
     for (const L of [...lineages].sort(SORTS[mode].cmp)) {
       const names = (L.alive.length ? L.alive : [L.rep]).map(b => b.name);
-      const meta = [L.rep.prefecture, `${L.members.length}行`, L.alive.length ? "" : "現存行なし"].filter(Boolean).join("・");
+      const codes = L.alive.map(b => b.code).filter(Boolean).sort();
+      const code = codes.length ? `コード${codes.join("/")}` : "";
+      const meta = [code, L.rep.prefecture, `${L.members.length}行`, L.alive.length ? "" : "現存行なし"].filter(Boolean).join("・");
       headers.push({ row, title: names.join("・") + " の系統", meta });
       row += 1;
       const before = order.length;
@@ -556,6 +561,7 @@ function init(data) {
         <dt>設立</dt><dd>${b.founded ? fmtDate(b.founded) : "不明"}</dd>
         <dt>消滅</dt><dd>${b.dissolved ? fmtDate(b.dissolved) : "存続中"}</dd>
         ${b.prefecture ? `<dt>本店</dt><dd>${esc(b.prefecture)}</dd>` : ""}
+        ${b.code ? `<dt>金融機関コード</dt><dd>${esc(b.code)}</dd>` : ""}
       </dl>
       ${b.note ? `<p>${esc(b.note)}</p>` : ""}
       ${b.preds.length ? `<h3>前身</h3><ul>${[...new Set(b.preds)].map(p => `<li>${linkTo(p)}</li>`).join("")}</ul>` : ""}

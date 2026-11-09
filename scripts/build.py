@@ -23,7 +23,8 @@ BANK_TYPES = {"city", "trust", "long_term", "regional", "regional2", "new", "spe
 EVENT_TYPES = {"merger", "absorption", "rename", "reorganization", "transfer", "failure"}
 ID_RE = re.compile(r"^[a-z0-9]+(-[a-z0-9]+)*$")
 DATE_RE = re.compile(r"^\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?$")
-BANK_KEYS = {"id", "name", "name_en", "type", "founded", "dissolved", "prefecture", "note", "sources"}
+BANK_KEYS = {"id", "name", "name_en", "code", "type", "founded", "dissolved", "prefecture", "note", "sources"}
+CODE_RE = re.compile(r"^\d{4}$")
 EVENT_KEYS = {"date", "type", "from", "to", "partial", "note", "sources"}
 
 
@@ -48,6 +49,7 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
     warnings: list[str] = []
     ids: dict[str, dict] = {}
 
+    codes: dict[str, str] = {}
     for i, b in enumerate(banks):
         where = f"banks.yaml[{i}] ({b.get('id', '?')})"
         if not isinstance(b, dict):
@@ -71,6 +73,15 @@ def validate(banks: list, events: list) -> tuple[list[str], list[str]]:
             v = b.get(k)
             if v is not None and not DATE_RE.match(str(v)):
                 errors.append(f"{where}: {k} '{v}' は YYYY / YYYY-MM / YYYY-MM-DD 形式（文字列で記述）")
+        if "code" in b:
+            if not CODE_RE.match(str(b["code"])):
+                errors.append(f"{where}: code は4桁の数字（文字列で記述）")
+            elif b.get("dissolved"):
+                errors.append(f"{where}: code（金融機関コード）は存続中の銀行にだけ付ける")
+            elif b["code"] in codes:
+                errors.append(f"{where}: code {b['code']} が {codes[b['code']]} と重複しています")
+            else:
+                codes[b["code"]] = bid
         if not b.get("sources"):
             warnings.append(f"{where}: sources（出典）がありません")
         if not b.get("founded") and not b.get("dissolved"):
