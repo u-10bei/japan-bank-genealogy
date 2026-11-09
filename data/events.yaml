@@ -8484,3 +8484,30 @@
   to: [hiroshima-1897]
   note: 廣島銀行が営業譲受
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FR_F77s8lCJIs-dfTCdTgnoBV6g/description.html"]
+
+- date: "1898-09-01"
+  type: rename
+  from: [dai150-kokuritsu]
+  to: [dai150-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Y7JSEDeQo4iw2P3S3BqZYWNV6bm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DvUDmaLk175WL90tthVs-OhdU5g/description.html"]
+
+- date: "1900"
+  type: absorption
+  from: [wajima-bank]
+  to: [dai150-ginko]
+  note: 第百五十銀行が合併（買収か。2月15日輪島銀行任意解散）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DvUDmaLk175WL90tthVs-OhdU5g/description.html"]
+
+- date: "1902-10-06"
+  type: rename
+  from: [dai150-ginko]
+  to: [tohoku-1902]
+  note: 東北銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DvUDmaLk175WL90tthVs-OhdU5g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FLTyoe5X-lsHZVFm8B-FT2O-cAo/description.html"]
+
+- date: "1904-06-24"
+  type: failure
+  from: [tohoku-1902]
+  note: 破産確定
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FLTyoe5X-lsHZVFm8B-FT2O-cAo/description.html"]

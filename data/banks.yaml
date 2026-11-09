@@ -6245,6 +6245,40 @@
   note: 1918年8月1日廣島銀行が営業譲受（広島銀行「創業百年史」は12月31日解散、銀行総覧・日本金融史資料は1919年任意解散とする）。銀行変遷史DBは1908〜1918年の芸陽銀行とする（設立日は未確認）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FR_F77s8lCJIs-dfTCdTgnoBV6g/description.html"]
 
+- id: dai150-kokuritsu
+  name: 第百五十国立銀行
+  type: other
+  founded: "1879-05-02"
+  dissolved: "1898-09-01"
+  prefecture: 東京都
+  note: 青森で設立（1879年5月2日開業免状下付、7月10日開業）。1891年9月25日営業停止、1892年3月3日解停、3月15日営業再開。1896年5月19日石川に移転、1897年東京に移転（銀行総覧第4回は石川県、第5回は東京府に転出とする）。1898年9月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第百五十銀行に改称（5月31日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Y7JSEDeQo4iw2P3S3BqZYWNV6bm/description.html"]
+
+- id: dai150-ginko
+  name: 第百五十銀行
+  type: other
+  founded: "1898-09-01"
+  dissolved: "1902-10-06"
+  prefecture: 愛知県
+  note: 1898年9月1日第百五十国立銀行が改称。1900年輪島銀行を合併（買収か）。1901年12月18日東京から愛知に移転。1902年10月6日東北銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DvUDmaLk175WL90tthVs-OhdU5g/description.html"]
+
+- id: wajima-bank
+  name: 輪島銀行
+  type: other
+  dissolved: "1900-02-15"
+  note: 1900年第百五十銀行に合併（買収か。北陸銀行「創業百年史」は合併とする）。銀行総覧は1900年2月15日任意解散とする。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DvUDmaLk175WL90tthVs-OhdU5g/description.html"]
+
+- id: tohoku-1902
+  name: 東北銀行
+  type: other
+  founded: "1902-10-06"
+  dissolved: "1904-06-24"
+  prefecture: 愛知県
+  note: 1902年10月6日第百五十銀行が改称。1904年6月24日破産確定。現在の東北銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FLTyoe5X-lsHZVFm8B-FT2O-cAo/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
