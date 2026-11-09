@@ -5248,8 +5248,17 @@
   type: other
   founded: "1911-01-09"
   dissolved: "1913-03-03"
-  note: 1911年1月9日九十五銀行が改称。1913年3月3日農商銀行（1913〜1914）に改称（農商銀行は未収録）
+  note: 1911年1月9日九十五銀行が改称。1913年3月3日農商銀行（1913〜1914）に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7WVqNw-OTM_C8TksPKMUmQ4gcto/description.html"]
+
+- id: nosho-bank-1913
+  name: 農商銀行
+  type: other
+  founded: "1913-03-03"
+  dissolved: "1914-02-06"
+  prefecture: 大阪府
+  note: 1913年3月3日百三銀行が改称。1913年5月16日東京から大阪に移転。1914年2月6日紀阪銀行に改称（日付は改称登記日。紀阪銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Cd8yYzShgFBH3fJg6_Ypfs4kZ5g/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

@@ -7520,3 +7520,10 @@
   to: [hyakusan-bank]
   note: 百三銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7vZLIWrtEXWxD5LDmb5WmhbV8Ce/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7WVqNw-OTM_C8TksPKMUmQ4gcto/description.html"]
+
+- date: "1913-03-03"
+  type: rename
+  from: [hyakusan-bank]
+  to: [nosho-bank-1913]
+  note: 農商銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7WVqNw-OTM_C8TksPKMUmQ4gcto/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Cd8yYzShgFBH3fJg6_Ypfs4kZ5g/description.html"]
