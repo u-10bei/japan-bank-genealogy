@@ -5510,6 +5510,15 @@
   note: 1898年9月18日第百十二国立銀行が改称。1900年6月29日任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/iXpSpIWIfEMIq0uzodEZn4V00Gm/description.html"]
 
+- id: dai113-kokuritsu
+  name: 第百十三国立銀行
+  type: other
+  founded: "1878-11-13"
+  dissolved: "1897-07-01"
+  prefecture: 北海道
+  note: 1878年11月13日開業免状下付・設立、1879年1月6日開業。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百十三銀行に改称（3月27日満期前継続許可。百十三銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LRV8PwCpgv8sH3GRKReTG97p4rb/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
