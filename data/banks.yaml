@@ -4540,9 +4540,11 @@
 - id: dai75-kokuritsu
   name: 第七十五国立銀行
   type: other
+  founded: "1878-11-06"
   dissolved: "1886-07-01"
-  note: 1886年7月1日第四十五国立銀行に合併（北陸銀行「創業百年史」は6月30日とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2byaVypcEySINqJpWFVDU6FVgKm/description.html"]
+  prefecture: 石川県
+  note: 1878年11月6日開業免状下付・設立認可（銀行変遷史DBの見出しは「明治11/6」とするが、資料はいずれも11月6日）。開業は銀行局報告が1879年1月25日、北陸銀行「創業百年史」が1878年12月6日とする。1886年7月1日第四十五国立銀行に合併（創業百年史は6月30日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/_eiy8IQ3GvS4WxoNCt6_BQZ6K1l/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2byaVypcEySINqJpWFVDU6FVgKm/description.html"]
 
 - id: dai45-kokuritsu
   name: 第四十五国立銀行
