@@ -5901,9 +5901,11 @@
 - id: sekiei-bank
   name: 積栄銀行
   type: other
+  founded: "1899"
   dissolved: "1926-06"
-  note: 1926年6月浜松銀行が買収（6月8日買収認可又は届出。静岡銀行史は合併とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+  prefecture: 静岡県
+  note: 1899年積栄社が改称（銀行総覧第6回・第7回による推定。静岡銀行史は1894年6月改称とする）。1926年6月浜松銀行が買収（6月8日買収認可又は届出。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/yN0sasxAX6ATbG0eWfwDfKHndvh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
 - id: taihei-1912
   name: 泰平銀行
@@ -6326,6 +6328,15 @@
   prefecture: 熊本県
   note: 合名会社。1917年1月村上銀行が広島から熊本に移転（営業権譲受）し改称（広島銀行「創業百年史」・肥後銀行五十年史は1月27日、銀行総覧は1月29日移転改称登記とする）。1928年6月安田銀行に営業譲渡（肥後銀行五十年史は6月20日合併、日本金融史資料は7月買収届出とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/72oFZgPudmOScvh_aJVHUg9_v7e/description.html"]
+
+- id: sekieisha
+  name: 積栄社
+  type: other
+  founded: "1893-04-21"
+  dissolved: "1899"
+  prefecture: 静岡県
+  note: 静岡で設立（銀行総覧による。静岡銀行史は1893年4月設立とする）。1899年積栄銀行に改称（銀行総覧による推定。静岡銀行史は1894年6月改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/egcujkP8yJjhbAhMdc-ZxB5DDpm/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
