@@ -7992,3 +7992,38 @@
   to: [daishi]
   note: 第四銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DOKMqmWuN-4X-QoWRjHdCDRlBMi/description.html"]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai117-kokuritsu]
+  to: [hyakujushichi-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JpmYDD1793wvu67N0WrxI5fXugj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html"]
+
+- date: "1920-03"
+  type: absorption
+  from: [yawata-shogyo]
+  to: [hyakujushichi-bank]
+  note: 百十七銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html"]
+
+- date: "1926"
+  type: absorption
+  from: [iida-jitsugyo]
+  to: [hyakujushichi-bank]
+  note: 百十七銀行が合併（八十二銀行五十年史は5月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html"]
+
+- date: "1926-07"
+  type: absorption
+  from: [koshi-1900]
+  to: [hyakujushichi-bank]
+  note: 百十七銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html"]
+
+- date: "1940-03"
+  type: merger
+  from: [hyakujushichi-bank, ina-bank, shinsan-bank]
+  to: [iida-ginko]
+  note: 3行の新立合併（3月8日新立合併認可。八十二銀行五十年史は3月29日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]

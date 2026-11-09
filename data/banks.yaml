@@ -12498,12 +12498,68 @@
   note: 1943年11月八十二銀行が営業を譲受
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
 
+- id: dai117-kokuritsu
+  name: 第百十七国立銀行
+  type: other
+  founded: "1878-12-05"
+  dissolved: "1897-07-01"
+  prefecture: 長野県
+  note: 1878年12月5日開業免状下付・設立、1879年1月15日開業。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百十七銀行に改称（3月18日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JpmYDD1793wvu67N0WrxI5fXugj/description.html"]
+
+- id: yawata-shogyo
+  name: 八幡商業銀行
+  type: other
+  dissolved: "1920-03"
+  note: 1920年3月百十七銀行に合併（八十二銀行五十年史による。日本金融史資料は7月合併登記とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html"]
+
+- id: iida-jitsugyo
+  name: 飯田実業銀行
+  type: other
+  dissolved: "1926"
+  note: 1926年百十七銀行に合併（6月29日合併認可。八十二銀行五十年史は5月とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html"]
+
+- id: koshi-1900
+  name: 庚子銀行
+  type: other
+  founded: "1900"
+  dissolved: "1926-07"
+  note: 1926年7月百十七銀行に合併（6月29日合併認可）。銀行変遷史DBは1900〜1926年の庚子銀行とする（設立日は未確認）。静岡県の庚子銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html"]
+
+- id: hyakujushichi-bank
+  name: 百十七銀行
+  type: other
+  founded: "1897-07-01"
+  dissolved: "1940-03"
+  prefecture: 長野県
+  note: 1897年7月1日第百十七国立銀行が改称。1920年八幡商業銀行、1926年飯田実業銀行・庚子銀行を合併。1940年3月、百十七銀行・伊那銀行・信産銀行の3行の新立合併により飯田銀行となる（銀行総覧は3月8日設立、八十二銀行五十年史は3月29日新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html"]
+
+- id: ina-bank
+  name: 伊那銀行
+  type: other
+  dissolved: "1940-03"
+  note: 1940年3月、百十七銀行・伊那銀行・信産銀行の3行の新立合併により飯田銀行となる（銀行総覧は3月8日設立、八十二銀行五十年史は3月29日新立合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html"]
+
+- id: shinsan-bank
+  name: 信産銀行
+  type: other
+  dissolved: "1940-03"
+  note: 1940年3月、百十七銀行・伊那銀行・信産銀行の3行の新立合併により飯田銀行となる（銀行総覧は3月8日設立、八十二銀行五十年史は3月29日新立合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html"]
+
 - id: iida-ginko
   name: 飯田銀行
   type: other
+  founded: "1940-03"
   dissolved: "1943-12"
-  note: 1943年12月八十二銀行に合併
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
+  prefecture: 長野県
+  note: 百十七銀行・伊那銀行・信産銀行の3行の新立合併で設立（3月8日新立合併認可。銀行総覧は3月8日設立、八十二銀行五十年史は3月29日新立合併とする）。1943年12月八十二銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oT_jRVHBy499rQUUGUAAeHfedtj/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAUN"]
 
 - id: shizuoka-jitsugyo
   name: 静岡実業銀行
