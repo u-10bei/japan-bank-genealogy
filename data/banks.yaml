@@ -534,9 +534,11 @@
 - id: dai142-kokuritsu
   name: 第百四十二国立銀行
   type: other
+  founded: "1879-03-14"
   dissolved: "1881"
-  note: 1881年第三十二国立銀行に合併（銀行局報告第4次は10月1日、第12次は11月、千葉銀行史は10月とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
+  prefecture: 千葉県
+  note: 千葉で設立（1879年3月14日開業免状下付、5月3日開業）。1881年第三十二国立銀行に合併（銀行局報告第4次は10月1日、第12次は11月、千葉銀行史は10月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JRIqRnoYpI1tjzc-jil238aVI4m/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
 
 - id: dai32-kokuritsu
   name: 第三十二国立銀行

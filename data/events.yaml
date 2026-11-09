@@ -6483,8 +6483,8 @@
   type: absorption
   from: [dai142-kokuritsu]
   to: [dai32-kokuritsu]
-  note: 第三十二国立銀行が合併（銀行局報告第4次は10月1日、第12次は11月とする）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
+  note: 第三十二国立銀行が合併（銀行局報告第4次は10月1日、第12次は11月、千葉銀行史は10月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JRIqRnoYpI1tjzc-jil238aVI4m/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
 
 - date: "1892"
   type: failure
