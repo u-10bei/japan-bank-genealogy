@@ -4572,6 +4572,15 @@
   note: 1886年9月29日設立、10月18日開業。1908年12月第四十九銀行を買収。1916年12月19日第一銀行に合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Zr4J1b0EwHEiy278srzEDY3TCHl/description.html"]
 
+- id: dai51-kokuritsu
+  name: 第五十一国立銀行
+  type: other
+  founded: "1878-09-30"
+  dissolved: "1898-01-01"
+  prefecture: 大阪府
+  note: 1878年9月30日開業免状下付・設立、12月5日開業（住友銀行八十年史は1878年2月設立とする）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し五十一銀行に改称（1897年9月27日満期前継続許可。五十一銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/S06lFx5OI6U_Uuh17NE_f7pjHn/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
