@@ -5776,6 +5776,41 @@
   note: 1897年10月1日第百三十二国立銀行が改称。1908年1月11日任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DvuJ02x-r-qLEYp6IvbJy5vgREp/description.html"]
 
+- id: dai137-kokuritsu
+  name: 第百三十七国立銀行
+  type: other
+  founded: "1879-04-11"
+  dissolved: "1897-07-01"
+  prefecture: 兵庫県
+  note: 兵庫で設立（1879年4月11日開業免状下付、6月15日開業）。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第百三十七銀行に改称（2月1日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gO70Euxdd2gtmXZjgVt4KS2UwCc/description.html"]
+
+- id: dai137-ginko
+  name: 第百三十七銀行
+  type: other
+  founded: "1897-07-01"
+  dissolved: "1900-09-17"
+  prefecture: 兵庫県
+  note: 1897年7月1日第百三十七国立銀行が改称。1900年9月17日共同貯蓄銀行を合併し百三十七銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1u9Ixp5I7IYW9Ja5A_3WibG7Uql/description.html"]
+
+- id: kyodo-chochiku
+  name: 共同貯蓄銀行
+  type: other
+  founded: "1895"
+  dissolved: "1900-09-17"
+  note: 1900年9月17日第百三十七銀行に合併。銀行変遷史DBは1895〜1900年の共同貯蓄銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1u9Ixp5I7IYW9Ja5A_3WibG7Uql/description.html"]
+
+- id: hyakusanjunana-ginko
+  name: 百三十七銀行
+  type: other
+  founded: "1900-09-17"
+  dissolved: "1942-06-20"
+  prefecture: 兵庫県
+  note: 1900年9月17日第百三十七銀行が共同貯蓄銀行を合併し改称。1942年6月20日神戸銀行と丹和銀行に分割買収された（6月10日分割買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RpH9PQslEPlZmMkibGHaBfAZxc/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other

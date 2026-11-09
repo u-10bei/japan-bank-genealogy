@@ -8143,3 +8143,38 @@
   from: [hyakusanjuni-ginko]
   note: 任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DvuJ02x-r-qLEYp6IvbJy5vgREp/description.html"]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai137-kokuritsu]
+  to: [dai137-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gO70Euxdd2gtmXZjgVt4KS2UwCc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1u9Ixp5I7IYW9Ja5A_3WibG7Uql/description.html"]
+
+- date: "1900-09-17"
+  type: absorption
+  from: [kyodo-chochiku]
+  to: [dai137-ginko]
+  note: 第百三十七銀行が合併し、同日百三十七銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1u9Ixp5I7IYW9Ja5A_3WibG7Uql/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RpH9PQslEPlZmMkibGHaBfAZxc/description.html"]
+
+- date: "1900-09-17"
+  type: rename
+  from: [dai137-ginko]
+  to: [hyakusanjunana-ginko]
+  note: 共同貯蓄銀行の合併と同日に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1u9Ixp5I7IYW9Ja5A_3WibG7Uql/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RpH9PQslEPlZmMkibGHaBfAZxc/description.html"]
+
+- date: "1942-06-20"
+  type: transfer
+  from: [hyakusanjunana-ginko]
+  to: [kobe]
+  note: 神戸銀行・丹和銀行による分割買収（6月10日認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RpH9PQslEPlZmMkibGHaBfAZxc/description.html"]
+
+- date: "1942-06-20"
+  type: transfer
+  from: [hyakusanjunana-ginko]
+  to: [tanwa]
+  note: 神戸銀行・丹和銀行による分割買収（6月10日認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RpH9PQslEPlZmMkibGHaBfAZxc/description.html"]
