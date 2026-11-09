@@ -4699,6 +4699,15 @@
   note: 1897年1月1日第五十八国立銀行が改称。1906年5月1日楊井銀行を合併。1909年4月2日百三十銀行に合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pQ_9Hp0E09oeeBG_MKwr0PMEL8n/description.html"]
 
+- id: dai60-kokuritsu
+  name: 第六十国立銀行
+  type: other
+  founded: "1878-08-17"
+  dissolved: "1898-08-16"
+  prefecture: 東京都
+  note: 1878年8月17日開業免状下付・設立、9月2日開業。1890年1月31日営業停止、9月4日解除、10月1日営業再開。1898年8月16日営業満期解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/QGgBY0fb_aL7QayuY1AkxcFihDd/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
