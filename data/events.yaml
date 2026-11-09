@@ -8088,3 +8088,9 @@
   to: [dai125-ginko]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続（8月11日継続日、荘内銀行「創業百年史」は8月19日新発足）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z3DvYfQHBdbKYTsXb_buypF41qb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pUrNhDKPzsV0UCC6ZLzaQIMzInh/description.html"]
+
+- date: "1882-11-22"
+  type: failure
+  from: [dai126-kokuritsu]
+  note: 鎖店（11月2日営業停止。1885年9月30日処分完結により解散）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Gzv4B-ZkS1t2iDqQFi4ar-bAmin/description.html"]

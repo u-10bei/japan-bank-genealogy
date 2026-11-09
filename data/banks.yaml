@@ -5710,6 +5710,15 @@
   note: 山形で設立（1878年12月19日開業免状下付、1879年2月11日開業）。1897年8月、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第百二十五銀行に改称（4月27日満期前継続許可。銀行局報告は8月11日継続日、荘内銀行「創業百年史」は8月19日新発足とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z3DvYfQHBdbKYTsXb_buypF41qb/description.html"]
 
+- id: dai126-kokuritsu
+  name: 第百二十六国立銀行
+  type: other
+  founded: "1878-12-10"
+  dissolved: "1882-11-22"
+  prefecture: 大阪府
+  note: 大阪で設立（1878年12月10日開業免状下付、1879年1月16日開業）。1882年11月2日営業停止、11月22日鎖店。1885年9月30日鎖店処分完了により解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Gzv4B-ZkS1t2iDqQFi4ar-bAmin/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
