@@ -7935,3 +7935,18 @@
   to: [hokkaido-1906]
   note: 北海道銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/JeTXiw72a8TZSP5Hdtciptc8yzc/description.html"]
+
+- date: "1897-08-01"
+  type: rename
+  from: [dai115-kokuritsu]
+  to: [konan-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hiRH7ZbJ-d1Gjth5iGkQjjybrhm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1A3aAvaaEq9QwiJlhbTdIatvk_k/description.html"]
+
+- date: "1906-06"
+  type: transfer
+  from: [konan-bank]
+  to: [omi-bank]
+  partial: true
+  note: 近江銀行が湖南銀行の営業を譲受（富士銀行百年史別巻による。湖南銀行はその後も存続し、1908年に兵庫に移転・改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1A3aAvaaEq9QwiJlhbTdIatvk_k/description.html"]

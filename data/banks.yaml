@@ -5593,8 +5593,17 @@
   founded: "1878-12-10"
   dissolved: "1897-08-01"
   prefecture: 滋賀県
-  note: 三重で設立（1878年12月10日開業免状下付・設立、1879年1月15日開業）。1886年9月20日滋賀に移転。1897年8月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し湖南銀行に改称（4月5日満期前継続許可。滋賀銀行五十年史は7月31日転換、8月1日改称とする。湖南銀行は未収録）
+  note: 三重で設立（1878年12月10日開業免状下付・設立、1879年1月15日開業）。1886年9月20日滋賀に移転。1897年8月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し湖南銀行に改称（4月5日満期前継続許可。滋賀銀行五十年史は7月31日転換、8月1日改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hiRH7ZbJ-d1Gjth5iGkQjjybrhm/description.html"]
+
+- id: konan-bank
+  name: 湖南銀行
+  type: other
+  founded: "1897-08-01"
+  dissolved: "1908-03"
+  prefecture: 滋賀県
+  note: 1897年8月1日第百十五国立銀行が改称。富士銀行百年史別巻は1906年6月に近江銀行が営業を譲受したとする。1908年3月兵庫に移転し百十五銀行に改称（銀行総覧は3月6日改称・3月7日移転、滋賀銀行五十年史は3月1日改称とする。百十五銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1A3aAvaaEq9QwiJlhbTdIatvk_k/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
