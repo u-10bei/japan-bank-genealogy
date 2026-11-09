@@ -5629,8 +5629,26 @@
   founded: "1878-11-14"
   dissolved: "1880-11-01"
   prefecture: 東京都
-  note: 1878年11月14日開業免状下付、12月9日開業。1880年11月1日第百三十六国立銀行に合併（第百三十六国立銀行は未収録）
+  note: 1878年11月14日開業免状下付、12月9日開業。1880年11月1日第百三十六国立銀行に合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hN058lXMfhREmtGpsgRDhFcwRap/description.html"]
+
+- id: dai136-kokuritsu
+  name: 第百三十六国立銀行
+  type: other
+  founded: "1879-02-20"
+  dissolved: "1898-07-01"
+  prefecture: 大阪府
+  note: 愛知で設立（1879年2月20日開業免状下付・設立、6月28日開業）。1880年11月1日第百十八国立銀行を合併。1886年ごろ大阪に移転（銀行局報告第8次・第9次からの推定）。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第百三十六銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/EsvPYTXl7T50zoh4OvO4xOtjoKc/description.html"]
+
+- id: dai136-ginko
+  name: 第百三十六銀行
+  type: other
+  founded: "1898-07-01"
+  dissolved: "1898-10-01"
+  prefecture: 大阪府
+  note: 1898年7月1日第百三十六国立銀行が改称（富士銀行百年史別巻は「百三十六銀行」と表記）。1898年10月1日百三十銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sQGBaSmkwtDo4ryw2_nQu2BppLh/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
