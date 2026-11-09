@@ -1118,24 +1118,26 @@
   to: [hiroshima-1897]
   sources: [https://ja.wikipedia.org/wiki/広島銀行]
 
-- date: "1920-06"
+- date: "1920-06-30"
   type: merger
   from: [dai66, hiroshima-1897, hiroshima-shogyo, miyoshi-chochiku, hiba, sumikura, futami-chochiku]
   to: [geibi-1920]
-  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+  note: 7行の新立合併（8月4日営業認可、10月1日開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html", https://ja.wikipedia.org/wiki/広島銀行]
 
 - date: "1945-05-01"
   type: merger
   from: [geibi-1920, kure, binan, miyoshi, hiroshima-godo-chochiku]
   to: [geibi-1945]
-  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+  note: 5行の新立合併（4月25日新立合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bapANvLbAudZKX01fd3SiM6bdOk/description.html", https://ja.wikipedia.org/wiki/広島銀行]
 
-- date: "1950-08"
+- date: "1950-08-06"
   type: rename
   from: [geibi-1945]
   to: [hiroshima]
-  note: 廣島銀行に改称
-  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+  note: 廣島銀行に改称（8月3日改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bapANvLbAudZKX01fd3SiM6bdOk/description.html", https://ja.wikipedia.org/wiki/広島銀行]
 
 - date: "1898-11"
   type: rename
@@ -8358,7 +8360,70 @@
 
 - date: "1928-12-03"
   type: absorption
-  from: [saijo-1897]
+  from: [saijo-1897, iyomishima-bank, ehime-1922]
   to: [geibi-1920]
-  note: 藝備銀行が合併（11月合併認可）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HjiB1AgZSU3qmGIC6m3uozKGWvf/description.html"]
+  note: 藝備銀行が3行を合併（11月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HjiB1AgZSU3qmGIC6m3uozKGWvf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- date: "1925-06"
+  type: absorption
+  from: [chugoku-shogyo]
+  to: [geibi-1920]
+  note: 藝備銀行が合併（5月28日合併認可。日本金融史資料は6月8日、広島銀行「創業百年史」は6月23日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- date: "1925-06"
+  type: transfer
+  from: [onomichi-shohin]
+  to: [geibi-1920]
+  note: 藝備銀行が買収（広島銀行「創業百年史」は6月16日営業譲受、日本金融史資料は9月11日買収届出とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- date: "1926-02-01"
+  type: transfer
+  from: [kake-bank]
+  to: [geibi-1920]
+  note: 藝備銀行が営業譲受（1月29日買収届出）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- date: "1926-05-10"
+  type: transfer
+  from: [nigata-bank]
+  to: [geibi-1920]
+  note: 藝備銀行が営業譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- date: "1926-10-01"
+  type: transfer
+  from: [tagawa-bank]
+  to: [geibi-1920]
+  note: 藝備銀行が営業譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- date: "1927-04-01"
+  type: transfer
+  from: [hiro-daiichi]
+  to: [geibi-1920]
+  note: 藝備銀行が営業譲受（3月31日広第一銀行解散）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- date: "1927-09-01"
+  type: transfer
+  from: [kure-daiichi]
+  to: [geibi-1920]
+  note: 藝備銀行が営業譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- date: "1928-12-31"
+  type: transfer
+  from: [kabe-bank]
+  to: [geibi-1920]
+  note: 藝備銀行が営業譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- date: "1934-12-26"
+  type: transfer
+  from: [bingo-bank]
+  to: [geibi-1920]
+  note: 藝備銀行が営業譲受（同日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]

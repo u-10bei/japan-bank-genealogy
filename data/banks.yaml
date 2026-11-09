@@ -6030,6 +6030,84 @@
   note: 1913年11月19日西条銀行に合併（11月5日合併認可）。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HjiB1AgZSU3qmGIC6m3uozKGWvf/description.html"]
 
+- id: chugoku-shogyo
+  name: 中国商業銀行
+  type: other
+  dissolved: "1925-06"
+  note: 1925年6月藝備銀行に合併（5月28日合併認可。日本金融史資料は6月8日、広島銀行「創業百年史」は6月23日合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- id: onomichi-shohin
+  name: 尾道諸品株式会社
+  type: other
+  dissolved: "1925-06"
+  note: 1925年6月藝備銀行が買収（広島銀行「創業百年史」は6月16日営業譲受、日本金融史資料は9月11日買収届出とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- id: kake-bank
+  name: 加計銀行
+  type: other
+  dissolved: "1926-02-01"
+  note: 1926年2月1日藝備銀行が営業譲受（1月29日買収届出）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- id: nigata-bank
+  name: 仁方銀行
+  type: other
+  dissolved: "1926-05-10"
+  note: 1926年5月10日藝備銀行が営業譲受（日本金融史資料は6月買収・支店設置認可とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- id: tagawa-bank
+  name: 多川銀行
+  type: other
+  dissolved: "1926-10-01"
+  note: 1926年10月1日藝備銀行が営業譲受。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- id: hiro-daiichi
+  name: 広第一銀行
+  type: other
+  dissolved: "1927-04-01"
+  note: 1927年3月31日解散、4月1日藝備銀行が営業譲受（4月7日買収届出）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- id: kure-daiichi
+  name: 呉第一銀行
+  type: other
+  dissolved: "1927-09-01"
+  note: 1927年9月1日藝備銀行が営業譲受。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- id: iyomishima-bank
+  name: 伊予三島銀行
+  type: other
+  dissolved: "1928-12-03"
+  note: 1928年12月3日藝備銀行に合併（11月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- id: ehime-1922
+  name: 愛媛銀行
+  type: other
+  founded: "1922"
+  dissolved: "1928-12-03"
+  note: 1928年12月3日藝備銀行に合併（11月合併認可）。現在の愛媛銀行とは別。銀行変遷史DBは1922〜1928年の愛媛銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- id: kabe-bank
+  name: 可部銀行
+  type: other
+  dissolved: "1928-12-31"
+  note: 1928年12月31日藝備銀行が営業譲受。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
+- id: bingo-bank
+  name: 備後銀行
+  type: other
+  dissolved: "1934-12-26"
+  note: 1934年12月26日藝備銀行が営業譲受（同日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
@@ -7253,11 +7331,11 @@
 - id: geibi-1920
   name: 藝備銀行
   type: other
-  founded: "1920-06"
+  founded: "1920-06-30"
   dissolved: "1945-05-01"
   prefecture: 広島県
-  note: 旧・藝備銀行。1925〜1934年に多数の銀行を合併・買収（1928年12月3日西条銀行を合併。銀行変遷史DBは「芸備銀行」と表記）
-  sources: [https://ja.wikipedia.org/wiki/広島銀行, "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HjiB1AgZSU3qmGIC6m3uozKGWvf/description.html"]
+  note: 旧・藝備銀行（銀行変遷史DBは「芸備銀行」と表記）。1920年6月30日、角倉・第六十六・比婆・廣島・広島商業・双三貯蓄・三次貯蓄の7行の新立合併により広島に設立（8月4日営業認可、8月19日設立登記、10月1日開業）。1925〜1934年に中国商業・伊予三島・愛媛・西条の各行を合併し、尾道諸品株式会社・加計・仁方・多川・広第一・呉第一・可部・備後の各行を買収。1945年5月1日呉銀行・備南銀行・広島合同貯蓄銀行・三次銀行と新立合併し（新）藝備銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html", https://ja.wikipedia.org/wiki/広島銀行, "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HjiB1AgZSU3qmGIC6m3uozKGWvf/description.html"]
 
 - id: kure
   name: 呉銀行
@@ -7295,20 +7373,20 @@
   name: 藝備銀行
   type: other
   founded: "1945-05-01"
-  dissolved: "1950-08"
+  dissolved: "1950-08-06"
   prefecture: 広島県
-  note: 新・藝備銀行（新立合併）
-  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+  note: 新・藝備銀行。呉銀行・藝備銀行・備南銀行・広島合同貯蓄銀行・三次銀行の5行の新立合併により広島に設立（4月25日新立合併認可、4月27日創立総会、5月1日開業）。1950年8月6日廣島銀行に改称（8月3日改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bapANvLbAudZKX01fd3SiM6bdOk/description.html", https://ja.wikipedia.org/wiki/広島銀行]
 
 - id: hiroshima
   name: 広島銀行
   name_en: "Hiroshima Bank, Ltd."
   code: "0169"
   type: regional
-  founded: "1950-08"
+  founded: "1950-08-06"
   prefecture: 広島県
-  note: 1950年8月廣島銀行に改称、1988年7月広島銀行に表記変更。2020年ひろぎんHD設立（持株会社）
-  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+  note: 1950年8月6日藝備銀行が廣島銀行に改称（8月3日改称認可）、1988年7月広島銀行に表記変更。2020年ひろぎんHD設立（持株会社）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bapANvLbAudZKX01fd3SiM6bdOk/description.html", https://ja.wikipedia.org/wiki/広島銀行]
 
 - id: dai110-kokuritsu
   name: 第百十国立銀行
