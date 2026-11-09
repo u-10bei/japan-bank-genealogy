@@ -4820,14 +4820,28 @@
   note: 1878年10月7日開業免状下付・設立、11月15日開業。1898年10月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し村上銀行に改称（6月9日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IT3CULTxCTz5uhqfdu2UOhY7tRc/description.html"]
 
+- id: iwafune-bank
+  name: 岩船銀行
+  type: other
+  dissolved: "1923-12-17"
+  note: 1923年12月17日村上銀行に合併（11月28日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cufHqzqadC8TQASVRsXM5DavFbo/description.html"]
+
+- id: murakami-sangyo
+  name: 村上産業銀行
+  type: other
+  dissolved: "1924-06-29"
+  note: 1924年6月29日村上銀行に合併（6月24日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cufHqzqadC8TQASVRsXM5DavFbo/description.html"]
+
 - id: murakami-bank
   name: 村上銀行
   type: other
   founded: "1898-10-01"
-  dissolved: "1938"
+  dissolved: "1938-08-07"
   prefecture: 新潟県
-  note: 1898年10月1日第七十一国立銀行が改称。銀行変遷史DBは1898〜1938年の村上銀行とする（1938年の経緯は未確認）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IT3CULTxCTz5uhqfdu2UOhY7tRc/description.html"]
+  note: 1898年10月1日第七十一国立銀行が改称。1923年12月17日岩船銀行、1924年6月29日村上産業銀行を合併。1938年8月7日第四銀行に合併（6月30日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cufHqzqadC8TQASVRsXM5DavFbo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IT3CULTxCTz5uhqfdu2UOhY7tRc/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

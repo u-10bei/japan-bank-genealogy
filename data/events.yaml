@@ -7119,3 +7119,24 @@
   to: [murakami-bank]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IT3CULTxCTz5uhqfdu2UOhY7tRc/description.html"]
+
+- date: "1923-12-17"
+  type: absorption
+  from: [iwafune-bank]
+  to: [murakami-bank]
+  note: 村上銀行が合併（11月28日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cufHqzqadC8TQASVRsXM5DavFbo/description.html"]
+
+- date: "1924-06-29"
+  type: absorption
+  from: [murakami-sangyo]
+  to: [murakami-bank]
+  note: 村上銀行が合併（6月24日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cufHqzqadC8TQASVRsXM5DavFbo/description.html"]
+
+- date: "1938-08-07"
+  type: absorption
+  from: [murakami-bank]
+  to: [daishi]
+  note: 第四銀行が合併（6月30日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cufHqzqadC8TQASVRsXM5DavFbo/description.html"]
