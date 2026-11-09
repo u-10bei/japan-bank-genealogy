@@ -5719,6 +5719,15 @@
   note: 大阪で設立（1878年12月10日開業免状下付、1879年1月16日開業）。1882年11月2日営業停止、11月22日鎖店。1885年9月30日鎖店処分完了により解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Gzv4B-ZkS1t2iDqQFi4ar-bAmin/description.html"]
 
+- id: dai127-kokuritsu
+  name: 第百二十七国立銀行
+  type: other
+  founded: "1878-12-17"
+  dissolved: "1896"
+  prefecture: 高知県
+  note: 香川の丸亀（当時は愛媛県）で設立（1878年12月17日開業免状下付、1879年2月1日開業。四国銀行百年史は1878年11月17日開業免許とする）。1881年7月1日高知に移転。1896年第三十七国立銀行（高知第三十七国立銀行）に合併（銀行総覧は8月17日、銀行便覧は9月、四国銀行百年史は8月18日合併認可・9月26日合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZlGqNPrk5L_iyiB-rQlQmfL9GTj/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
