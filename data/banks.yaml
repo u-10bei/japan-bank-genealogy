@@ -4578,7 +4578,7 @@
   founded: "1878-09-30"
   dissolved: "1898-01-01"
   prefecture: 大阪府
-  note: 1878年9月30日開業免状下付・設立、12月5日開業（住友銀行八十年史は1878年2月設立とする）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し五十一銀行に改称（1897年9月27日満期前継続許可。五十一銀行は未収録）
+  note: 1878年9月30日開業免状下付・設立、12月5日開業（住友銀行八十年史は1878年2月設立とする）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し五十一銀行に改称（1897年9月27日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/S06lFx5OI6U_Uuh17NE_f7pjHn/description.html"]
 
 - id: dai8-kokuritsu
@@ -10602,12 +10602,67 @@
   note: 1945年9月東海銀行に合併
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
 
+- id: kishiwada-1893
+  name: 岸和田銀行
+  type: other
+  founded: "1893"
+  dissolved: "1902"
+  note: 1902年五十一銀行に合併（銀行総覧は4月11日、住友銀行八十年史は1月とする）。銀行変遷史DBは1893〜1902年の岸和田銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
+- id: okada-bank
+  name: 岡田銀行
+  type: other
+  founded: "1885"
+  dissolved: "1930-05"
+  note: 1930年5月五十一銀行が営業を譲受（買収）。銀行変遷史DBは1885〜1930年の岡田銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
+- id: gojuichi-bank
+  name: 五十一銀行
+  type: other
+  founded: "1898-01-01"
+  dissolved: "1940-03"
+  prefecture: 大阪府
+  note: 1898年1月1日第五十一国立銀行が改称。1902年岸和田銀行（1893〜1902）を合併、1930年岡田銀行を買収。1940年3月、五十一銀行など5行の新立合併により阪南銀行となる（銀行総覧は3月20日設立、住友銀行八十年史は3月25日新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
+- id: izumi-bank
+  name: 和泉銀行
+  type: other
+  dissolved: "1940-03"
+  note: 1940年3月、五十一銀行など5行の新立合併により阪南銀行となる（銀行総覧は3月20日設立、住友銀行八十年史は3月25日新立合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
+- id: kaizuka-bank
+  name: 貝塚銀行
+  type: other
+  dissolved: "1940-03"
+  note: 1940年3月、五十一銀行など5行の新立合併により阪南銀行となる（銀行総覧は3月20日設立、住友銀行八十年史は3月25日新立合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
+- id: kishiwada-1922
+  name: 岸和田銀行
+  type: other
+  founded: "1922"
+  dissolved: "1940-03"
+  note: 1940年3月、五十一銀行など5行の新立合併により阪南銀行となる（銀行総覧は3月20日設立、住友銀行八十年史は3月25日新立合併とする）。銀行変遷史DBは1922〜1940年の岸和田銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
+- id: terada-bank
+  name: 寺田銀行
+  type: other
+  dissolved: "1940-03"
+  note: 1940年3月、五十一銀行など5行の新立合併により阪南銀行となる（銀行総覧は3月20日設立、住友銀行八十年史は3月25日新立合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
 - id: hannan-ginko
   name: 阪南銀行
   type: other
+  founded: "1940-03"
   dissolved: "1945-07"
-  note: 1945年7月住友銀行に合併
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
+  note: 五十一・和泉・貝塚・岸和田（1922〜1940）・寺田の5行の新立合併で設立（3月20日新立合併認可。銀行総覧は3月20日設立、住友銀行八十年史は3月25日新立合併とする）。1945年7月住友銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YEQG"]
 
 - id: ikeda-jitsugyo-ginko
   name: 池田実業銀行

@@ -6928,3 +6928,31 @@
   to: [dai-ichi-1896]
   note: 第一銀行が合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Zr4J1b0EwHEiy278srzEDY3TCHl/description.html"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai51-kokuritsu]
+  to: [gojuichi-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/S06lFx5OI6U_Uuh17NE_f7pjHn/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
+- date: "1902"
+  type: absorption
+  from: [kishiwada-1893]
+  to: [gojuichi-bank]
+  note: 五十一銀行が合併（銀行総覧は4月11日、住友銀行八十年史は1月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
+- date: "1930-05"
+  type: transfer
+  from: [okada-bank]
+  to: [gojuichi-bank]
+  note: 五十一銀行が営業を譲受（買収）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
+- date: "1940-03"
+  type: merger
+  from: [gojuichi-bank, izumi-bank, kaizuka-bank, kishiwada-1922, terada-bank]
+  to: [hannan-ginko]
+  note: 5行の新立合併（3月20日新立合併認可。銀行総覧は3月20日設立、住友銀行八十年史は3月25日新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
