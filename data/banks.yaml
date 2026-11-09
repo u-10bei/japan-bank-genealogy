@@ -11631,12 +11631,23 @@
   note: 1938年3月、第八十八銀行・岩手銀行・第九十銀行の3行の新立合併により陸中銀行となる（銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）。設立日は出典に記載なし。現在の岩手銀行（1960年に岩手殖産銀行が改称）とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
 
+- id: dai90-kokuritsu
+  name: 第九十国立銀行
+  type: other
+  founded: "1878-10-08"
+  dissolved: "1897-08-01"
+  prefecture: 岩手県
+  note: 1878年10月8日開業免状下付・設立、12月2日開業（岩手銀行五十年史は5月23日設立認可とする）。1897年8月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第九十銀行に改称（4月21日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FtIBmpu0p5riPz4DBlNexwu1k0e/description.html"]
+
 - id: dai90-ginko
   name: 第九十銀行
   type: other
+  founded: "1897-08-01"
   dissolved: "1938-03"
-  note: 1938年3月、第八十八銀行・岩手銀行・第九十銀行の3行の新立合併により陸中銀行となる（銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
+  prefecture: 岩手県
+  note: 1897年8月1日第九十国立銀行が改称。1938年3月、第八十八銀行・岩手銀行・第九十銀行の3行の新立合併により陸中銀行となる（銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FtIBmpu0p5riPz4DBlNexwu1k0e/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
 
 - id: rikuchu-ginko
   name: 陸中銀行

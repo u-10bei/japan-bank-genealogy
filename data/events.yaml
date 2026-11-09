@@ -7444,3 +7444,10 @@
   from: [hachijuku-bank]
   note: 任意解散（銀行総覧は4月6日、阿波銀行七十年小史は3月とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gErqjYADljHUjP2H0AdjpCnkZih/description.html"]
+
+- date: "1897-08-01"
+  type: rename
+  from: [dai90-kokuritsu]
+  to: [dai90-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FtIBmpu0p5riPz4DBlNexwu1k0e/description.html"]
