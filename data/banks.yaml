@@ -5449,6 +5449,15 @@
   note: 1897年2月1日第百七国立銀行が改称。1921年岩代銀行を合併、1925年飯坂銀行・1927年第百二十五銀行を買収。1934年6月23日任意解散認可（福島県金融経済の歩みは1933年破産、1934年6月解散とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
 
+- id: dai108-kokuritsu
+  name: 第百八国立銀行
+  type: other
+  founded: "1878-09-19"
+  dissolved: "1883-04"
+  prefecture: 福島県
+  note: 1878年9月19日開業免状下付、10月7日開業。1883年3月15日営業停止、4月鎖店（銀行局報告は4月2日、銀行便覧は4月5日とする）。1887年5月18日処分完結により解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mke86ITnY-BVMNcr1aENoQan0/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other

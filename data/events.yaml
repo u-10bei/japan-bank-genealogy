@@ -7818,3 +7818,9 @@
   from: [dai107-ginko]
   note: 任意解散認可（福島県金融経済の歩みは1933年破産、1934年6月解散とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
+
+- date: "1883-04"
+  type: failure
+  from: [dai108-kokuritsu]
+  note: 鎖店（3月15日営業停止。銀行局報告は4月2日、銀行便覧は4月5日とする。1887年5月18日処分完結により解散）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Mke86ITnY-BVMNcr1aENoQan0/description.html"]
