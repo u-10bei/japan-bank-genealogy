@@ -11634,20 +11634,75 @@
   note: 1898年8月第百国立銀行が改称。1903年中京銀行（1895〜1903）を合併、1923〜1926年に牛込中央・商業・高砂商工・日進の各行を買収。1927年9月15日川崎銀行に合併（8月合併認可。川崎銀行は同日川崎第百銀行に改称）。1943年に三菱銀行に合併した第百銀行とは別項目
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRr-439QrqJNa7ntA_eDLqrcgd/description.html"]
 
+- id: fushimi-bank
+  name: 伏見銀行
+  type: other
+  dissolved: "1926-03-27"
+  note: 1926年3月27日川崎銀行が買収（京都銀行五十年史は3月株式譲受、4月合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rjv_Pj_vmoXlidWs54U0vr2fA1c/description.html"]
+
 - id: kawasaki-1880
   name: 川崎銀行
   type: other
-  founded: "1880"
+  founded: "1880-03"
   dissolved: "1927-09-15"
-  note: 銀行変遷史DBは1880〜1927年の川崎銀行とする（設立日は未確認）。1927年9月15日第百銀行（1898〜1927）を合併し川崎第百銀行に改称（川崎第百銀行は未収録）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+  prefecture: 東京都
+  note: 川崎組を改組して設立（1880年3月11日創立許可。銀行総覧第1〜29回は3月15日、第30〜33回・三菱銀行史は3月25日設立とする）。1919年12月合資会社から株式会社に改組（同じ項目とした）。1926年伏見銀行を買収。1927年9月15日第百銀行（1898〜1927）を合併し川崎第百銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rjv_Pj_vmoXlidWs54U0vr2fA1c/description.html"]
+
+- id: kojimachi-bank
+  name: 麹町銀行
+  type: other
+  dissolved: "1927-12-10"
+  note: 1927年12月10日川崎第百銀行に合併（11月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3HgFI2aoMlHHI8YJzIxMzaBNWBp/description.html"]
+
+- id: tokorozawa-bank
+  name: 所沢銀行
+  type: other
+  dissolved: "1929-02"
+  note: 1929年2月川崎第百銀行が買収（三菱銀行史は2月1日、埼玉銀行史は2月19日とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3HgFI2aoMlHHI8YJzIxMzaBNWBp/description.html"]
+
+- id: kawasaki-chochiku
+  name: 川崎貯蓄銀行
+  type: other
+  dissolved: "1936-09-14"
+  note: 1936年9月14日川崎第百銀行に合併（8月26日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3HgFI2aoMlHHI8YJzIxMzaBNWBp/description.html"]
+
+- id: tokyo-chozo
+  name: 東京貯蔵銀行
+  type: other
+  dissolved: "1936-09-14"
+  note: 1936年9月14日川崎第百銀行に合併（8月26日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3HgFI2aoMlHHI8YJzIxMzaBNWBp/description.html"]
+
+- id: kawasaki-daihyaku
+  name: 川崎第百銀行
+  type: other
+  founded: "1927-09-15"
+  dissolved: "1936-11-11"
+  prefecture: 東京都
+  note: 1927年9月15日川崎銀行が第百銀行（1898〜1927）を合併し改称。1927年麹町銀行、1936年川崎貯蓄銀行・東京貯蔵銀行を合併、1929年所沢銀行を買収。1936年11月11日第百銀行に改称（11月10日改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3HgFI2aoMlHHI8YJzIxMzaBNWBp/description.html"]
+
+- id: haneda-bank
+  name: 羽田銀行
+  type: other
+  founded: "1900"
+  dissolved: "1939-02-27"
+  note: 1939年2月27日第百銀行が買収（2月7日買収認可）。銀行変遷史DBは1900〜1939年の羽田銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/O6BTDZukOK6KrsZHVBjdD-8kyNj/description.html"]
 
 - id: daihyaku
   name: 第百銀行
   type: other
-  dissolved: "1943-04"
-  note: 1943年4月三菱銀行に合併
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+  founded: "1936-11-11"
+  dissolved: "1943-04-01"
+  prefecture: 東京都
+  note: 1936年11月11日川崎第百銀行が改称。1939年2月27日羽田銀行を買収。1943年4月1日三菱銀行に合併（3月6日合併認可）。1898〜1927年の第百銀行とは別項目
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/O6BTDZukOK6KrsZHVBjdD-8kyNj/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
 
 - id: aichi-ginko-1941
   name: 愛知銀行

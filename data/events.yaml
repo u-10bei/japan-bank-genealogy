@@ -3352,11 +3352,12 @@
   note: 三菱銀行が東京中野銀行を買収
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
 
-- date: "1943-04"
+- date: "1943-04-01"
   type: absorption
   from: [daihyaku]
   to: [mitsubishi-1919]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
+  note: 三菱銀行が合併（3月6日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/O6BTDZukOK6KrsZHVBjdD-8kyNj/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
 
 - date: "1941-06-09"
   type: merger
@@ -7666,3 +7667,52 @@
   to: [kawasaki-1880]
   note: 川崎銀行が合併し、同日川崎第百銀行に改称（8月合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lJBLq5HYC7LktP7NFVpe8OfMwmd/description.html"]
+
+- date: "1926-03-27"
+  type: transfer
+  from: [fushimi-bank]
+  to: [kawasaki-1880]
+  note: 川崎銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rjv_Pj_vmoXlidWs54U0vr2fA1c/description.html"]
+
+- date: "1927-09-15"
+  type: rename
+  from: [kawasaki-1880]
+  to: [kawasaki-daihyaku]
+  note: 第百銀行の合併と同時に川崎第百銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rjv_Pj_vmoXlidWs54U0vr2fA1c/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3HgFI2aoMlHHI8YJzIxMzaBNWBp/description.html"]
+
+- date: "1927-12-10"
+  type: absorption
+  from: [kojimachi-bank]
+  to: [kawasaki-daihyaku]
+  note: 川崎第百銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3HgFI2aoMlHHI8YJzIxMzaBNWBp/description.html"]
+
+- date: "1929-02"
+  type: transfer
+  from: [tokorozawa-bank]
+  to: [kawasaki-daihyaku]
+  note: 川崎第百銀行が買収（三菱銀行史は2月1日、埼玉銀行史は2月19日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3HgFI2aoMlHHI8YJzIxMzaBNWBp/description.html"]
+
+- date: "1936-09-14"
+  type: absorption
+  from: [kawasaki-chochiku, tokyo-chozo]
+  to: [kawasaki-daihyaku]
+  note: 川崎第百銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3HgFI2aoMlHHI8YJzIxMzaBNWBp/description.html"]
+
+- date: "1936-11-11"
+  type: rename
+  from: [kawasaki-daihyaku]
+  to: [daihyaku]
+  note: 第百銀行に改称（11月10日改称認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3HgFI2aoMlHHI8YJzIxMzaBNWBp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/O6BTDZukOK6KrsZHVBjdD-8kyNj/description.html"]
+
+- date: "1939-02-27"
+  type: transfer
+  from: [haneda-bank]
+  to: [daihyaku]
+  note: 第百銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/O6BTDZukOK6KrsZHVBjdD-8kyNj/description.html"]
