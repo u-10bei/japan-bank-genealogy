@@ -4761,8 +4761,17 @@
   founded: "1878-11-15"
   dissolved: "1898-01-01"
   prefecture: 兵庫県
-  note: 鳥取で設立（1878年11月15日開業免状下付・設立、1879年1月4日開業。鳥取銀行の歩みは1879年1月4日設立とする）。1882年7月兵庫に移転（銀行変遷史DBの見出しによる。出典の山陰合同銀行五十年史の記載は「大正15.7」）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第六十五銀行に改称（1897年9月22日満期前継続許可。第六十五銀行は未収録）
+  note: 鳥取で設立（1878年11月15日開業免状下付・設立、1879年1月4日開業。鳥取銀行の歩みは1879年1月4日設立とする）。1882年7月兵庫に移転（銀行変遷史DBの見出しによる。出典の山陰合同銀行五十年史の記載は「大正15.7」）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第六十五銀行に改称（1897年9月22日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PmUeujVNpU9CHP2cYiDQGUPus5j/description.html"]
+
+- id: dai65-ginko
+  name: 第六十五銀行
+  type: other
+  founded: "1898-01-01"
+  dissolved: "1928-10-22"
+  prefecture: 兵庫県
+  note: 1898年1月1日第六十五国立銀行が改称（銀行総覧第6・7回は「六十五銀行」と表記）。1928年10月22日神戸岡崎銀行に買収された（神戸銀行史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AbwDcVpKZfQFnXBbNb4HizWDl0l/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
