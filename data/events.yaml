@@ -7187,3 +7187,24 @@
   from: [dai73-ginko]
   note: 業務廃止（廃業）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0VizQX57zLs8w7SsTK07x8A9TZo/description.html"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai76-kokuritsu]
+  to: [shichijuroku-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/86Hm3D_qL-D9rkIRS6cCjo5xzi/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ssEeuU-4b3CdZ3-8sk6nh4QkDii/description.html"]
+
+- date: "1925-08-14"
+  type: absorption
+  from: [tono-bank-1923]
+  to: [shichijuroku-bank]
+  note: 七十六銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ssEeuU-4b3CdZ3-8sk6nh4QkDii/description.html"]
+
+- date: "1928-05-01"
+  type: absorption
+  from: [shichijuroku-bank]
+  to: [ogaki-kyoritsu]
+  note: 大垣共立銀行が合併（4月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ssEeuU-4b3CdZ3-8sk6nh4QkDii/description.html"]

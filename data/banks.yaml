@@ -4913,8 +4913,25 @@
   founded: "1878-10-25"
   dissolved: "1898-01-01"
   prefecture: 岐阜県
-  note: 1878年10月25日開業免状下付・設立、1879年1月6日開業（大垣共立銀行九十年史は1月6日を設立（開業）とする）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し七十六銀行に改称（1897年9月27日満期前継続許可。七十六銀行は未収録）
+  note: 1878年10月25日開業免状下付・設立、1879年1月6日開業（大垣共立銀行九十年史は1月6日を設立（開業）とする）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し七十六銀行に改称（1897年9月27日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/86Hm3D_qL-D9rkIRS6cCjo5xzi/description.html"]
+
+- id: tono-bank-1923
+  name: 東濃銀行
+  type: other
+  founded: "1923"
+  dissolved: "1925-08-14"
+  note: 1925年8月14日七十六銀行に合併（十六銀行百年史による）。銀行変遷史DBは1923〜1925年の東濃銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ssEeuU-4b3CdZ3-8sk6nh4QkDii/description.html"]
+
+- id: shichijuroku-bank
+  name: 七十六銀行
+  type: other
+  founded: "1898-01-01"
+  dissolved: "1928-05-01"
+  prefecture: 岐阜県
+  note: 1898年1月1日第七十六国立銀行が改称。1925年8月14日東濃銀行を合併。1928年5月1日大垣共立銀行に合併（4月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ssEeuU-4b3CdZ3-8sk6nh4QkDii/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
