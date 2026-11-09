@@ -1112,18 +1112,19 @@
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wS8Z6OHIFZXM4hz12z0uOlgANab/description.html", https://ja.wikipedia.org/wiki/広島銀行]
 
-- date: "1897"
+- date: "1897-01-01"
   type: rename
   from: [dai146-kokuritsu]
   to: [hiroshima-1897]
-  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/haHr-w-b1lr82VqUZR4BUJpPRcm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FR_F77s8lCJIs-dfTCdTgnoBV6g/description.html", https://ja.wikipedia.org/wiki/広島銀行]
 
 - date: "1920-06-30"
   type: merger
   from: [dai66, hiroshima-1897, hiroshima-shogyo, miyoshi-chochiku, hiba, sumikura, futami-chochiku]
   to: [geibi-1920]
   note: 7行の新立合併（8月4日営業認可、10月1日開業）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html", https://ja.wikipedia.org/wiki/広島銀行]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FR_F77s8lCJIs-dfTCdTgnoBV6g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HoB4Urf4AC5FPK8yfJ3XtFbZaJi/description.html", https://ja.wikipedia.org/wiki/広島銀行]
 
 - date: "1945-05-01"
   type: merger
@@ -8454,3 +8455,32 @@
   from: [hyuga-chuo]
   note: 任意解散（同日任意解散認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NKXa5E5mVjeZ_g8J3hkaZ6JeX6l/description.html"]
+
+- date: "1916"
+  type: absorption
+  from: [toyota-1901]
+  to: [hiroshima-1897]
+  note: 廣島銀行が合併（銀行総覧は6月5日、広島銀行「創業百年史」は7月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FR_F77s8lCJIs-dfTCdTgnoBV6g/description.html"]
+
+- date: "1916-10-01"
+  type: transfer
+  from: [murakami-1907]
+  to: [hiroshima-1897]
+  partial: true
+  note: 廣島銀行が債権債務を譲受（村上銀行は解散せず、のち毛利銀行に改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FR_F77s8lCJIs-dfTCdTgnoBV6g/description.html"]
+
+- date: "1918-06-30"
+  type: transfer
+  from: [kamo-bank]
+  to: [hiroshima-1897]
+  note: 廣島銀行が本店及び2支店を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FR_F77s8lCJIs-dfTCdTgnoBV6g/description.html"]
+
+- date: "1918-08-01"
+  type: transfer
+  from: [geiyo-1908]
+  to: [hiroshima-1897]
+  note: 廣島銀行が営業譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/FR_F77s8lCJIs-dfTCdTgnoBV6g/description.html"]
