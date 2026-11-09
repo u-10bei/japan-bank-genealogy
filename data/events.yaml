@@ -6491,7 +6491,7 @@
   from: [dai124-kokuritsu]
   to: [dai35-kokuritsu]
   note: 第三十五国立銀行が合併
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/49w2cWXlgoUO4RHaPhALih6l0ml/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/49w2cWXlgoUO4RHaPhALih6l0ml/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/kyUXFcIqRtS14lrGnBzUXGNADzk/description.html"]
 
 - date: "1882-12-07"
   type: absorption
