@@ -8290,3 +8290,45 @@
   to: [shizuoka]
   note: 静岡銀行が買収（5月26日買収認可。静岡銀行史は合併とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai139-kokuritsu]
+  to: [hyakusanjuku-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IWCNstG-2dd80yQ3S1S_r98ycEp/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- date: "1924-07-18"
+  type: absorption
+  from: [takada-shogyo, naoetsu-shogyo]
+  to: [hyakusanjuku-ginko]
+  note: 百三十九銀行が合併（6月20日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- date: "1929-12"
+  type: absorption
+  from: [arai-bank]
+  to: [hyakusanjuku-ginko]
+  note: 百三十九銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- date: "1930-11-15"
+  type: absorption
+  from: [kakizaki-bank]
+  to: [hyakusanjuku-ginko]
+  note: 百三十九銀行が合併（10月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- date: "1931-12-03"
+  type: transfer
+  from: [echigo-bank]
+  to: [hyakusanjuku-ginko]
+  note: 百三十九銀行が買収（11月25日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- date: "1943-03-29"
+  type: transfer
+  from: [hyakusanjuku-ginko]
+  to: [daishi]
+  note: 第四銀行が買収（3月9日買収認可。第四銀行百年史は3月29日営業譲渡とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]

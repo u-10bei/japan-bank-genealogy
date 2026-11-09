@@ -5942,6 +5942,59 @@
   note: 1939年10月浜松銀行が買収（8月5日買収認可。静岡銀行史は合併とする）。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
+- id: dai139-kokuritsu
+  name: 第百三十九国立銀行
+  type: other
+  founded: "1879-02-26"
+  dissolved: "1898-01-01"
+  prefecture: 新潟県
+  note: 新潟で設立（1879年2月26日開業免状下付、7月3日開業）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百三十九銀行に改称（1897年9月22日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IWCNstG-2dd80yQ3S1S_r98ycEp/description.html"]
+
+- id: hyakusanjuku-ginko
+  name: 百三十九銀行
+  type: other
+  founded: "1898-01-01"
+  dissolved: "1943-03-29"
+  prefecture: 新潟県
+  note: 1898年1月1日第百三十九国立銀行が改称。1924年7月18日高田商業銀行・直江津商業銀行、1929年12月新井銀行、1930年11月15日柿崎銀行を合併、1931年12月3日越後銀行を買収。1943年3月29日第四銀行に営業譲渡（3月9日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- id: takada-shogyo
+  name: 高田商業銀行
+  type: other
+  dissolved: "1924-07-18"
+  note: 1924年7月18日百三十九銀行に合併（6月20日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- id: naoetsu-shogyo
+  name: 直江津商業銀行
+  type: other
+  dissolved: "1924-07-18"
+  note: 1924年7月18日百三十九銀行に合併（6月20日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- id: arai-bank
+  name: 新井銀行
+  type: other
+  dissolved: "1929-12"
+  note: 1929年12月百三十九銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- id: kakizaki-bank
+  name: 柿崎銀行
+  type: other
+  dissolved: "1930-11-15"
+  note: 1930年11月15日百三十九銀行に合併（10月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
+- id: echigo-bank
+  name: 越後銀行
+  type: other
+  dissolved: "1931-12-03"
+  note: 1931年12月3日百三十九銀行が買収（11月25日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qIzOKywjo_b87MXbjUd7lKNqpRk/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
