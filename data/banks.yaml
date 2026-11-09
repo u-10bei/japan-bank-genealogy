@@ -4781,8 +4781,17 @@
   founded: "1878-11-25"
   dissolved: "1897-04-01"
   prefecture: 京都府
-  note: 1878年11月25日開業免状下付・設立、1879年4月1日開業。1897年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し七十銀行に改称（1896年11月20日満期前継続許可。足利銀行史・京都銀行五十年史は1896年11月改称とする。七十銀行は未収録）
+  note: 1878年11月25日開業免状下付・設立、1879年4月1日開業。1897年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し七十銀行に改称（1896年11月20日満期前継続許可。足利銀行史・京都銀行五十年史は1896年11月改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NAl6hsjAZSv7OcYYzaXbfR3iC4/description.html"]
+
+- id: shichiju-bank
+  name: 七十銀行
+  type: other
+  founded: "1897-04-01"
+  dissolved: "1909-03-25"
+  prefecture: 京都府
+  note: 1897年4月1日第七十国立銀行が改称。1909年3月25日京都から東京に移転し大雄銀行に改称（大雄銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lCpe-vbYlnq9HLs93JhIMc2ijKk/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

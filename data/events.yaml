@@ -7084,3 +7084,10 @@
   to: [kobe-okazaki]
   note: 神戸岡崎銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AbwDcVpKZfQFnXBbNb4HizWDl0l/description.html"]
+
+- date: "1897-04-01"
+  type: rename
+  from: [dai70-kokuritsu]
+  to: [shichiju-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/NAl6hsjAZSv7OcYYzaXbfR3iC4/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lCpe-vbYlnq9HLs93JhIMc2ijKk/description.html"]
