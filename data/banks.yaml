@@ -5495,9 +5495,11 @@
 - id: dai153-kokuritsu
   name: 第百五十三国立銀行
   type: other
+  founded: "1879-11-11"
   dissolved: "1886-01-02"
-  note: 1886年1月2日第百十一国立銀行に合併（銀行局報告は「第百五十一銀行」と記すが、第百十一国立銀行の誤記）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4tQ27vZGmZGpM-wL1pdmvh4mdSi/description.html"]
+  prefecture: 京都府
+  note: 京都で設立（1879年11月11日開業免状下付、12月5日開業）。1886年1月2日第百十一国立銀行に合併（銀行局報告は「第百五十一国立銀行」と記すが、第百十一国立銀行の誤記。京都銀行五十年史は1886年1月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hxT-t4H_Uj5isUtlsxHPcQpdS5/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4tQ27vZGmZGpM-wL1pdmvh4mdSi/description.html"]
 
 - id: dai111-kokuritsu
   name: 第百十一国立銀行
