@@ -7098,3 +7098,17 @@
   to: [daiyu-bank]
   note: 京都から東京に移転し改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/lCpe-vbYlnq9HLs93JhIMc2ijKk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nUNCfP28piXtbpWyo0jcTrPBH7c/description.html"]
+
+- date: "1912-02"
+  type: rename
+  from: [daiyu-bank]
+  to: [kurobane-shogyo]
+  note: 神奈川から栃木に移転し改称（銀行総覧は2月13日、足利銀行史は2月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nUNCfP28piXtbpWyo0jcTrPBH7c/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4SNnwfTzJC6-0ObJ9hOM_PPsi_/description.html"]
+
+- date: "1937-02-15"
+  type: transfer
+  from: [kurobane-shogyo]
+  to: [ashikaga]
+  note: 足利銀行が買収（2月9日買収認可）。黒羽商業銀行は解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4SNnwfTzJC6-0ObJ9hOM_PPsi_/description.html"]

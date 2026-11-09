@@ -4799,8 +4799,17 @@
   founded: "1909-03-25"
   dissolved: "1912-02"
   prefecture: 神奈川県
-  note: 1909年3月25日七十銀行が京都から東京に移転し改称。1910年2月15日神奈川に移転。1912年2月栃木に移転し黒羽商業銀行に改称（銀行総覧は2月13日、足利銀行史は2月1日とする。黒羽商業銀行は未収録）
+  note: 1909年3月25日七十銀行が京都から東京に移転し改称。1910年2月15日神奈川に移転。1912年2月栃木に移転し黒羽商業銀行に改称（銀行総覧は2月13日、足利銀行史は2月1日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nUNCfP28piXtbpWyo0jcTrPBH7c/description.html"]
+
+- id: kurobane-shogyo
+  name: 黒羽商業銀行
+  type: other
+  founded: "1912-02"
+  dissolved: "1937-02-15"
+  prefecture: 栃木県
+  note: 1912年2月大雄銀行が神奈川から栃木に移転し改称（銀行総覧は2月13日、足利銀行史は2月1日とする）。1937年2月15日足利銀行に営業を譲渡し解散（2月9日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4SNnwfTzJC6-0ObJ9hOM_PPsi_/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
