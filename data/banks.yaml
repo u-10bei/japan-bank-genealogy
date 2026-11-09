@@ -5148,7 +5148,7 @@
   founded: "1878-11-05"
   dissolved: "1896-11-01"
   prefecture: 岩手県
-  note: 1878年11月5日開業免状下付・設立、12月13日開業（岩手銀行五十年史は11月5日開業とする）。1896年11月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第八十八銀行に改称（7月28日満期前継続許可。岩手銀行五十年史は1897年8月1日改組とする。第八十八銀行は未収録）
+  note: 1878年11月5日開業免状下付・設立、12月13日開業（岩手銀行五十年史は11月5日開業とする）。1896年11月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第八十八銀行に改称（7月28日満期前継続許可。岩手銀行五十年史は1897年8月1日改組とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cFsH3QXvzWKyaaQ13NbpKRUiX7b/description.html"]
 
 - id: dai8-kokuritsu
@@ -11590,12 +11590,45 @@
   note: 1945年5月七十七銀行が営業を譲受
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YAM0"]
 
+- id: sakari-bank
+  name: 盛銀行
+  type: other
+  dissolved: "1927-12-10"
+  note: 1927年12月10日第八十八銀行に合併（12月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
+
+- id: dai88-ginko
+  name: 第八十八銀行
+  type: other
+  founded: "1896-11-01"
+  dissolved: "1938-03"
+  prefecture: 岩手県
+  note: 1896年11月1日第八十八国立銀行が改称（岩手銀行五十年史は1897年8月1日改組とする）。1927年12月10日盛銀行を合併。1938年3月、第八十八銀行・岩手銀行・第九十銀行の3行の新立合併により陸中銀行となる（銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
+
+- id: iwate-ginko-1938
+  name: 岩手銀行
+  type: other
+  dissolved: "1938-03"
+  prefecture: 岩手県
+  note: 1938年3月、第八十八銀行・岩手銀行・第九十銀行の3行の新立合併により陸中銀行となる（銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）。設立日は出典に記載なし。現在の岩手銀行（1960年に岩手殖産銀行が改称）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
+
+- id: dai90-ginko
+  name: 第九十銀行
+  type: other
+  dissolved: "1938-03"
+  prefecture: 岩手県
+  note: 1938年3月、第八十八銀行・岩手銀行・第九十銀行の3行の新立合併により陸中銀行となる（銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
+
 - id: rikuchu-ginko
   name: 陸中銀行
   type: other
+  founded: "1938-03"
   dissolved: "1941-08-16"
-  note: 1941年8月16日岩手殖産銀行が吸収合併
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD6A"]
+  note: 第八十八銀行・岩手銀行・第九十銀行の3行の新立合併で設立（3月12日新立合併認可。銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）。1941年8月16日岩手殖産銀行が吸収合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YD6A"]
 
 - id: iwate-chochiku
   name: 岩手貯蓄銀行

@@ -7410,3 +7410,24 @@
   to: [hyakusanju-bank]
   note: 百三十銀行が合併（銀行総覧は12月3日合併解散、福岡銀行二十年史付編は11月28日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pJHdOG5PT5UtyElUaRjZZr-asth/description.html"]
+
+- date: "1896-11-01"
+  type: rename
+  from: [dai88-kokuritsu]
+  to: [dai88-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続（岩手銀行五十年史は1897年8月1日改組とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cFsH3QXvzWKyaaQ13NbpKRUiX7b/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
+
+- date: "1927-12-10"
+  type: absorption
+  from: [sakari-bank]
+  to: [dai88-ginko]
+  note: 第八十八銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
+
+- date: "1938-03"
+  type: merger
+  from: [dai88-ginko, iwate-ginko-1938, dai90-ginko]
+  to: [rikuchu-ginko]
+  note: 3行の新立合併（3月12日新立合併認可。銀行総覧は3月12日設立、岩手銀行五十年史は3月17日新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0m0AKzZ3m4lBpS7ejwjCepSRnr/description.html"]
