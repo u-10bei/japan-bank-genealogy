@@ -7228,3 +7228,16 @@
   from: [hachioji-78]
   note: 任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9tKgfTZRGJBxHLKdzn4Zj8fru4e/description.html"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai79-kokuritsu]
+  to: [dai79-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wZFDQWE18eqecbSpTodc1cncaOl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TcHcfK887Gs-Jv8dGAbFDEZKkTf/description.html"]
+
+- date: "1901-04-24"
+  type: failure
+  from: [dai79-ginko]
+  note: 破産
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TcHcfK887Gs-Jv8dGAbFDEZKkTf/description.html"]
