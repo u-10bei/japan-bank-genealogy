@@ -4638,8 +4638,24 @@
   founded: "1878-10-28"
   dissolved: "1897-01-01"
   prefecture: 大阪府
-  note: 1878年10月28日開業免状下付・設立、11月28日開業。1897年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第五十八銀行に改称（1896年9月18日満期前継続許可。第五十八銀行は未収録）
+  note: 1878年10月28日開業免状下付・設立、11月28日開業。1897年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第五十八銀行に改称（1896年9月18日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8qUhELU4dywhD0Z7NMnln61w8ie/description.html"]
+
+- id: yanai-bank
+  name: 楊井銀行
+  type: other
+  dissolved: "1906-05-01"
+  note: 1906年5月1日第五十八銀行に合併し、同行の支店として営業開始（4月23日合併可決。銀行総覧は5月2日廃業とする。買収の可能性もある）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pQ_9Hp0E09oeeBG_MKwr0PMEL8n/description.html"]
+
+- id: dai58-ginko
+  name: 第五十八銀行
+  type: other
+  founded: "1897-01-01"
+  dissolved: "1909-04-02"
+  prefecture: 大阪府
+  note: 1897年1月1日第五十八国立銀行が改称。1906年5月1日楊井銀行を合併。1909年4月2日百三十銀行に合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pQ_9Hp0E09oeeBG_MKwr0PMEL8n/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

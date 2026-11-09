@@ -6991,3 +6991,24 @@
   to: [gojuroku-bank]
   note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は6月10日、神戸銀行史は6月11日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PzX_C1QxqV8SFEiRNYuoO8w1Kwj/description.html"]
+
+- date: "1897-01-01"
+  type: rename
+  from: [dai58-kokuritsu]
+  to: [dai58-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8qUhELU4dywhD0Z7NMnln61w8ie/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pQ_9Hp0E09oeeBG_MKwr0PMEL8n/description.html"]
+
+- date: "1906-05-01"
+  type: absorption
+  from: [yanai-bank]
+  to: [dai58-ginko]
+  note: 第五十八銀行が合併（買収の可能性もある）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pQ_9Hp0E09oeeBG_MKwr0PMEL8n/description.html"]
+
+- date: "1909-04-02"
+  type: absorption
+  from: [dai58-ginko]
+  to: [hyakusanju-bank]
+  note: 百三十銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pQ_9Hp0E09oeeBG_MKwr0PMEL8n/description.html"]
