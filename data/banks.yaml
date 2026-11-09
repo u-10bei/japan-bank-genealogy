@@ -5679,6 +5679,24 @@
   note: 大阪で設立（1879年1月14日開業免状下付、4月1日開業）。1897年9月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百二十一銀行に改称（5月29日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/RfwPf9ubnyVTQallh-mm7Gusaad/description.html"]
 
+- id: dai122-kokuritsu
+  name: 第百二十二国立銀行
+  type: other
+  founded: "1878-12-18"
+  dissolved: "1898-01-01"
+  prefecture: 三重県
+  note: 三重で設立（1878年12月18日開業免状下付、1879年5月6日開業）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百二十二銀行に改称（1897年8月18日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/S6uI5KCE2x5I62RmLLvnqqlka0c/description.html"]
+
+- id: hyakunijuni-ginko
+  name: 百二十二銀行
+  type: other
+  founded: "1898-01-01"
+  dissolved: "1905-02-26"
+  prefecture: 三重県
+  note: 1898年1月1日第百二十二国立銀行が改称。1901年7月29日任意解散を決議したが、1902年1月14日に解散取消を決議。1905年2月26日任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Q-hKbt6NvgjKehKnRgyvSXSNjgj/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
