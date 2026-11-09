@@ -4869,14 +4869,21 @@
   note: 1898年9月第七十二国立銀行が改称。1913年4月古賀銀行に改称（銀行総覧は4月12日、佐賀銀行百年史は4月1日とする）。現在の佐賀銀行（1955年設立）とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mCW5iayUkExwCaCTEihx8swHgie/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/e47kSh9ba0dhvGAQSlWf-9pRet/description.html"]
 
+- id: hizen-chochiku
+  name: 肥前貯蓄銀行
+  type: other
+  dissolved: "1923-11-19"
+  note: 1923年11月19日古賀銀行に合併（10月16日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gyDtpKxakqU8CWeBvVLQML4UF_e/description.html"]
+
 - id: koga-1913
   name: 古賀銀行
   type: other
   founded: "1913-04"
-  dissolved: "1933"
+  dissolved: "1933-10-27"
   prefecture: 佐賀県
-  note: 1913年4月佐賀銀行（1898〜1913）が改称（銀行総覧は4月12日、佐賀銀行百年史は4月1日とする）。銀行変遷史DBは1913〜1933年の古賀銀行とする（1933年の経緯は未確認）。1885〜1893年の古賀銀行とは別
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mCW5iayUkExwCaCTEihx8swHgie/description.html"]
+  note: 1913年4月佐賀銀行（1898〜1913）が改称（銀行総覧は4月12日、佐賀銀行百年史は4月1日とする）。1923年11月19日肥前貯蓄銀行を合併（10月16日合併認可）。1933年10月27日任意解散。1885〜1893年の古賀銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gyDtpKxakqU8CWeBvVLQML4UF_e/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mCW5iayUkExwCaCTEihx8swHgie/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

@@ -7161,3 +7161,16 @@
   to: [koga-1913]
   note: 古賀銀行に改称（銀行総覧は4月12日、佐賀銀行百年史は4月1日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mCW5iayUkExwCaCTEihx8swHgie/description.html"]
+
+- date: "1923-11-19"
+  type: absorption
+  from: [hizen-chochiku]
+  to: [koga-1913]
+  note: 古賀銀行が合併（10月16日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gyDtpKxakqU8CWeBvVLQML4UF_e/description.html"]
+
+- date: "1933-10-27"
+  type: dissolution
+  from: [koga-1913]
+  note: 任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gyDtpKxakqU8CWeBvVLQML4UF_e/description.html"]
