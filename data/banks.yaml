@@ -5271,6 +5271,15 @@
   note: 1914年2月6日農商銀行が改称（日付は改称登記日）。1921年紀阪貯蓄銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BCFZsTgcAhZXaAX1BO8YxCNaFCk/description.html"]
 
+- id: dai96-kokuritsu
+  name: 第九十六国立銀行
+  type: other
+  founded: "1878-11-28"
+  dissolved: "1897-04-01"
+  prefecture: 福岡県
+  note: 1878年11月28日開業免状下付・設立、1879年1月4日開業。1897年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し柳河銀行に改称（1896年12月12日満期前継続許可。柳河銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/htRsjEuGT3xAFxRt00JJsfcgg4k/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
