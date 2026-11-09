@@ -4933,14 +4933,32 @@
   note: 1898年1月1日第七十六国立銀行が改称。1925年8月14日東濃銀行を合併。1928年5月1日大垣共立銀行に合併（4月合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ssEeuU-4b3CdZ3-8sk6nh4QkDii/description.html"]
 
+- id: hachioji-bank
+  name: 八王子銀行
+  type: other
+  founded: "1880"
+  dissolved: "1888-08"
+  prefecture: 東京都
+  note: 八王子で設立（銀行局報告は1880年5月創立許可、多摩近現代史年表は1881年7月開業とする。所在地は当時神奈川県、1893年に東京府に移管）。1888年8月第七十八国立銀行を買収し、同行の本店となる（多摩近現代史年表による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/HsHS4MbAsGJMTDXd59vraxTxi3c/description.html"]
+
 - id: dai78-kokuritsu
   name: 第七十八国立銀行
   type: other
   founded: "1878-10-19"
   dissolved: "1898-10-18"
   prefecture: 東京都
-  note: 大分で設立（1878年10月19日開業免状下付・設立、11月20日開業）。1888年、八王子銀行が買収し、当時神奈川県の八王子町（のち東京府）に移転（多摩近現代史年表は8月買収とする。八王子銀行は未収録）。1898年10月18日、営業満期国立銀行処分法により私立銀行として営業を継続し八王子第七十八銀行に改称（8月4日満期継続許可。八王子第七十八銀行は未収録）
+  note: 大分で設立（1878年10月19日開業免状下付・設立、11月20日開業）。1888年、八王子銀行が買収し、当時神奈川県の八王子町（のち東京府）に移転（多摩近現代史年表は8月買収とする）。1898年10月18日、営業満期国立銀行処分法により私立銀行として営業を継続し八王子第七十八銀行に改称（8月4日満期継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Gt4q8RBlhx_IumY61nxmSF0nfJo/description.html"]
+
+- id: hachioji-78
+  name: 八王子第七十八銀行
+  type: other
+  founded: "1898-10-18"
+  dissolved: "1909-01-22"
+  prefecture: 東京都
+  note: 1898年10月18日第七十八国立銀行が改称。1909年1月22日任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9tKgfTZRGJBxHLKdzn4Zj8fru4e/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
