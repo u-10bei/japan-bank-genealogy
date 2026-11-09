@@ -6984,3 +6984,10 @@
   to: [tajima-1928]
   note: 但馬銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BMl7_EvH-B1eg0vXA20VxSsEOkf/description.html"]
+
+- date: "1898-06"
+  type: rename
+  from: [dai56-kokuritsu]
+  to: [gojuroku-bank]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は6月10日、神戸銀行史は6月11日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PzX_C1QxqV8SFEiRNYuoO8w1Kwj/description.html"]

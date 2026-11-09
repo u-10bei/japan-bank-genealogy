@@ -831,12 +831,23 @@
   note: 1936年12月、7行の新立合併により神戸銀行となる。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
 
+- id: dai56-kokuritsu
+  name: 第五十六国立銀行
+  type: other
+  founded: "1878-06-11"
+  dissolved: "1898-06"
+  prefecture: 兵庫県
+  note: 1878年6月11日開業免状下付・設立、8月4日開業（神戸銀行史年表は6月10日創立とする）。1898年6月、営業満期国立銀行処分法により私立銀行として営業を継続し五十六銀行に改称（3月16日満期継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PzX_C1QxqV8SFEiRNYuoO8w1Kwj/description.html"]
+
 - id: gojuroku-bank
   name: 五十六銀行
   type: other
+  founded: "1898-06"
   dissolved: "1936-12-12"
-  note: 1936年12月、7行の新立合併により神戸銀行となる。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+  prefecture: 兵庫県
+  note: 1898年6月第五十六国立銀行が改称（銀行局報告は6月10日継続、神戸銀行史は6月11日改組とする）。1936年12月、7行の新立合併により神戸銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PzX_C1QxqV8SFEiRNYuoO8w1Kwj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
 
 - id: takasago-bank
   name: 高砂銀行
