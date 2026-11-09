@@ -5728,6 +5728,22 @@
   note: 香川の丸亀（当時は愛媛県）で設立（1878年12月17日開業免状下付、1879年2月1日開業。四国銀行百年史は1878年11月17日開業免許とする）。1881年7月1日高知に移転。1896年第三十七国立銀行（高知第三十七国立銀行）に合併（銀行総覧は8月17日、銀行便覧は9月、四国銀行百年史は8月18日合併認可・9月26日合併とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZlGqNPrk5L_iyiB-rQlQmfL9GTj/description.html"]
 
+- id: dai128-kokuritsu
+  name: 第百二十八国立銀行
+  type: other
+  founded: "1878-12-09"
+  dissolved: "1898-01-01"
+  prefecture: 岐阜県
+  note: 岐阜で設立（1878年12月9日開業免状下付、1879年2月9日開業）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百二十八銀行に改称（1897年9月28日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WPc-6kZprVVvsWrnnjfEPuIDZH/description.html"]
+
+- id: gujo-bank
+  name: 郡上銀行
+  type: other
+  dissolved: "1915-06-29"
+  note: 1915年6月29日百二十八銀行に合併（7月12日合併登記）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oGn1OwxUsbXQbRLVGB7E4BWS_Mh/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
@@ -11530,9 +11546,11 @@
 - id: hyakunijuhachi
   name: 百二十八銀行
   type: other
+  founded: "1898-01-01"
   dissolved: "1936-11"
-  note: 1936年11月十六銀行が買収
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+  prefecture: 岐阜県
+  note: 1898年1月1日第百二十八国立銀行が改称。1915年6月29日郡上銀行を合併。1936年11月業務廃止（10月30日業務廃止認可、11月2日業務廃止）。十六銀行百年史は11月1日営業の一部を十六銀行に譲渡とする（EDINETは1936年11月十六銀行が買収とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oGn1OwxUsbXQbRLVGB7E4BWS_Mh/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
 
 - id: mino
   name: 美濃銀行

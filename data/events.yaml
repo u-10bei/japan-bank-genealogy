@@ -3058,11 +3058,13 @@
   to: [juroku]
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
 
-- date: "1936-11"
+- date: "1936-11-01"
   type: transfer
   from: [hyakunijuhachi]
   to: [juroku]
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
+  partial: true
+  note: 十六銀行が営業の一部を譲受（十六銀行百年史。EDINETは1936年11月買収とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oGn1OwxUsbXQbRLVGB7E4BWS_Mh/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100LJFO", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100TN9I"]
 
 - date: "1937-02"
   type: transfer
@@ -8101,3 +8103,17 @@
   to: [kochi-dai37]
   note: 第三十七国立銀行が合併（銀行総覧は8月17日、銀行便覧は9月、四国銀行百年史は8月18日合併認可・9月26日合併）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZlGqNPrk5L_iyiB-rQlQmfL9GTj/description.html"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai128-kokuritsu]
+  to: [hyakunijuhachi]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WPc-6kZprVVvsWrnnjfEPuIDZH/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oGn1OwxUsbXQbRLVGB7E4BWS_Mh/description.html"]
+
+- date: "1915-06-29"
+  type: absorption
+  from: [gujo-bank]
+  to: [hyakunijuhachi]
+  note: 百二十八銀行が合併（7月12日合併登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oGn1OwxUsbXQbRLVGB7E4BWS_Mh/description.html"]
