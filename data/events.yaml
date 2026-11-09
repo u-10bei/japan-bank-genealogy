@@ -7049,3 +7049,24 @@
   from: [daishichi-bank]
   note: 任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8QmY6srDbkKM5_ZNXChWTbw4iAl/description.html"]
+
+- date: "1897-04-01"
+  type: rename
+  from: [dai61-kokuritsu]
+  to: [rokujuichi-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7NuU8DTQI5vOGUTt_-G9BmeWv9o/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
+
+- date: "1897-07-01"
+  type: absorption
+  from: [kyomachi-bank, kushihara-bank, shojima-bank, tokiwa-1893]
+  to: [rokujuichi-bank]
+  note: 六十一銀行が4行を合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
+
+- date: "1912-10-20"
+  type: transfer
+  from: [rokujuichi-bank]
+  to: [sumitomo-1895]
+  note: 住友銀行が営業を譲受（買収）。六十一銀行は11月解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]

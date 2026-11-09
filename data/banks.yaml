@@ -4714,8 +4714,46 @@
   founded: "1878-11-06"
   dissolved: "1897-04-01"
   prefecture: 福岡県
-  note: 1878年11月6日開業免状下付・設立、11月20日開業。1897年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し六十一銀行に改称（1896年12月10日満期前継続許可。六十一銀行は未収録）
+  note: 1878年11月6日開業免状下付・設立、11月20日開業。1897年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し六十一銀行に改称（1896年12月10日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7NuU8DTQI5vOGUTt_-G9BmeWv9o/description.html"]
+
+- id: kyomachi-bank
+  name: 京町銀行
+  type: other
+  dissolved: "1897-07-01"
+  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行とともに六十一銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
+
+- id: kushihara-bank
+  name: 櫛原銀行
+  type: other
+  dissolved: "1897-07-01"
+  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行とともに六十一銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
+
+- id: shojima-bank
+  name: 荘島銀行
+  type: other
+  dissolved: "1897-07-01"
+  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行とともに六十一銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
+
+- id: tokiwa-1893
+  name: 常盤銀行
+  type: other
+  founded: "1893"
+  dissolved: "1897-07-01"
+  note: 1897年7月1日、京町・櫛原・荘島・常盤の4行とともに六十一銀行に合併。銀行変遷史DBは1893〜1897年の常盤銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
+
+- id: rokujuichi-bank
+  name: 六十一銀行
+  type: other
+  founded: "1897-04-01"
+  dissolved: "1912-11"
+  prefecture: 福岡県
+  note: 1897年4月1日第六十一国立銀行が改称。1897年7月1日京町・櫛原・荘島・常盤の4行を合併。1912年10月20日住友銀行に営業を譲渡し、11月解散（住友銀行八十年史・福岡銀行二十年史付編は11月3日、銀行総覧は11月9日任意解散とする。1917年11月18日清算結了）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VfGcr3y0esu_Q479spE6N7QliXd/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
