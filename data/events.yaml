@@ -8130,3 +8130,16 @@
   to: [hyakusanju-bank]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fyMHPn64NIR4H5WlW3OM7yl6n_f/description.html"]
+
+- date: "1897-10-01"
+  type: rename
+  from: [dai132-kokuritsu]
+  to: [hyakusanjuni-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zfw-_ub-dZtfdwMjDb5ccQg6sJg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DvuJ02x-r-qLEYp6IvbJy5vgREp/description.html"]
+
+- date: "1908-01-11"
+  type: dissolution
+  from: [hyakusanjuni-ginko]
+  note: 任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DvuJ02x-r-qLEYp6IvbJy5vgREp/description.html"]

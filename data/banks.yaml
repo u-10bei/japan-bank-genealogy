@@ -5758,6 +5758,24 @@
   note: 大阪で設立（1878年12月27日開業免状下付、1879年2月15日開業）。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百三十銀行に改称（3月16日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fyMHPn64NIR4H5WlW3OM7yl6n_f/description.html"]
 
+- id: dai132-kokuritsu
+  name: 第百三十二国立銀行
+  type: other
+  founded: "1879-04-02"
+  dissolved: "1897-10-01"
+  prefecture: 東京都
+  note: 神奈川で設立（1879年4月2日開業免状下付、5月21日開業）。1883年4月7日営業停止、7月16日解停、7月23日営業再開。東京に移転（銀行局報告は1883年、横浜銀行六十年史は1893年5月とする）。1897年10月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百三十二銀行に改称（7月2日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/zfw-_ub-dZtfdwMjDb5ccQg6sJg/description.html"]
+
+- id: hyakusanjuni-ginko
+  name: 百三十二銀行
+  type: other
+  founded: "1897-10-01"
+  dissolved: "1908-01-11"
+  prefecture: 東京都
+  note: 1897年10月1日第百三十二国立銀行が改称。1908年1月11日任意解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DvuJ02x-r-qLEYp6IvbJy5vgREp/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
