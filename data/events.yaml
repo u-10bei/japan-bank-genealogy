@@ -7812,7 +7812,7 @@
   from: [dai125-ginko]
   to: [dai107-ginko]
   note: 第百七銀行が買収（3月16日買収認可）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pUrNhDKPzsV0UCC6ZLzaQIMzInh/description.html"]
 
 - date: "1934-06-23"
   type: dissolution
@@ -8081,3 +8081,10 @@
   from: [hyakunijuni-ginko]
   note: 任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Q-hKbt6NvgjKehKnRgyvSXSNjgj/description.html"]
+
+- date: "1897-08"
+  type: rename
+  from: [dai125-kokuritsu]
+  to: [dai125-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続（8月11日継続日、荘内銀行「創業百年史」は8月19日新発足）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Z3DvYfQHBdbKYTsXb_buypF41qb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pUrNhDKPzsV0UCC6ZLzaQIMzInh/description.html"]
