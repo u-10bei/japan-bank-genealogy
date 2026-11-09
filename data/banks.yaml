@@ -5919,9 +5919,11 @@
 - id: kondo-bank
   name: 近藤銀行
   type: other
+  founded: "1914-05-06"
   dissolved: "1927-11"
-  note: 1927年11月浜松銀行が買収（静岡銀行史は合併とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+  prefecture: 静岡県
+  note: 1914年5月6日片岡銀行が改称（改称登記。静岡銀行史は1914年5月とする）。1927年11月浜松銀行が買収（静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1Ft_b0GpXyC353vxt1AqJSt7Lde/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
 - id: totomi-kyodo
   name: 遠江共同銀行
@@ -6347,6 +6349,15 @@
   prefecture: 東京都
   note: 合資会社。岐阜で設立（銀行総覧は回により6月25日・29日・30日設立とし、十六銀行百年史は6月25日設立・7月1日開業とする）。1912年4月東京に移転（銀行総覧は4月10日、十六銀行百年史は4月4日とし、同時に泰平銀行に改称とする）。1912年6月17日株式会社に改組し泰平銀行に改称（銀行総覧による）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OauOOkujY6exVGRZ-c_6mlWv3zc/description.html"]
+
+- id: kataoka-bank
+  name: 片岡銀行
+  type: other
+  founded: "1894-06-05"
+  dissolved: "1914-05-06"
+  prefecture: 静岡県
+  note: 静岡で設立（銀行総覧による。静岡銀行史は1894年6月とする）。1914年5月6日近藤銀行に改称（改称登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dsp3txcvahA5LwVrNPsY53IvdMj/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

@@ -8260,7 +8260,7 @@
   from: [kondo-bank]
   to: [hamamatsu-1919]
   note: 浜松銀行が買収（静岡銀行史は合併とする）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1Ft_b0GpXyC353vxt1AqJSt7Lde/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
 - date: "1928-12"
   type: transfer
@@ -8566,3 +8566,10 @@
   to: [taihei-1912]
   note: 合資会社から株式会社に改組し改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OauOOkujY6exVGRZ-c_6mlWv3zc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XJRrohglefo5uU_WSaZ69TrXxO/description.html"]
+
+- date: "1914-05-06"
+  type: rename
+  from: [kataoka-bank]
+  to: [kondo-bank]
+  note: 近藤銀行に改称（改称登記）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dsp3txcvahA5LwVrNPsY53IvdMj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1Ft_b0GpXyC353vxt1AqJSt7Lde/description.html"]
