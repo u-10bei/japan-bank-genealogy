@@ -4960,6 +4960,15 @@
   note: 1898年10月18日第七十八国立銀行が改称。1909年1月22日任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9tKgfTZRGJBxHLKdzn4Zj8fru4e/description.html"]
 
+- id: dai79-kokuritsu
+  name: 第七十九国立銀行
+  type: other
+  founded: "1878-10-12"
+  dissolved: "1898-01-01"
+  prefecture: 大阪府
+  note: 島根で設立（1878年10月12日開業免状下付・設立、11月23日開業）。1883年9月営業停止（銀行便覧は9月11日、山陰合同銀行五十年史は9月16日営業停止処分とする）、1884年4月14日解除、6月2日営業再開。大阪に移転（銀行局報告は1884年、山陰合同銀行五十年史は1885年10月1日とする）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第七十九銀行に改称（1897年9月4日満期前継続許可。第七十九銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wZFDQWE18eqecbSpTodc1cncaOl/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
