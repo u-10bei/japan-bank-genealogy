@@ -4632,6 +4632,15 @@
   note: 1898年1月1日第五十五国立銀行が改称。1912年出石貯蓄銀行を合併。1928年1月20日但馬銀行（1928〜1941）に合併（1927年12月合併認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rWAXB6LkOHaWJXiaXg45O2z8C-e/description.html"]
 
+- id: dai58-kokuritsu
+  name: 第五十八国立銀行
+  type: other
+  founded: "1878-10-28"
+  dissolved: "1897-01-01"
+  prefecture: 大阪府
+  note: 1878年10月28日開業免状下付・設立、11月28日開業。1897年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第五十八銀行に改称（1896年9月18日満期前継続許可。第五十八銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8qUhELU4dywhD0Z7NMnln61w8ie/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
