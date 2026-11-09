@@ -7716,3 +7716,16 @@
   to: [daihyaku]
   note: 第百銀行が買収
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/O6BTDZukOK6KrsZHVBjdD-8kyNj/description.html"]
+
+- date: "1898-09-13"
+  type: rename
+  from: [dai101-kokuritsu]
+  to: [dai101-ginko]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9dug2tmPpd0ynWGxGhgz9hNOb3j/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2dldx1I6VvJ27w-iQSNNrxi0YCk/description.html"]
+
+- date: "1931-10-03"
+  type: failure
+  from: [dai101-ginko]
+  note: 営業免許取消（10月29日破産宣告）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2dldx1I6VvJ27w-iQSNNrxi0YCk/description.html"]

@@ -5330,6 +5330,24 @@
   note: 九十九銀行（1898〜1930）・平戸商業銀行の新立合併で設立（9月新立合併認可、9月30日旧行解散）。1941年3月31日親和銀行に営業を譲渡して解散し、4月1日親和銀行が買収（3月3日買収認可。親和銀行史による）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/otC0RN0_HAshLA_O7fDJMZyA11g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hpB2-EsM2ereQv9PJRIRvWSiz6/description.html"]
 
+- id: dai101-kokuritsu
+  name: 第百一国立銀行
+  type: other
+  founded: "1878-09-14"
+  dissolved: "1898-09-13"
+  prefecture: 福島県
+  note: 1878年9月14日開業免状下付・設立、11月3日開業。1898年9月13日、営業満期国立銀行処分法により私立銀行として営業を継続し第百一銀行に改称（4月21日満期継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/9dug2tmPpd0ynWGxGhgz9hNOb3j/description.html"]
+
+- id: dai101-ginko
+  name: 第百一銀行
+  type: other
+  founded: "1898-09-13"
+  dissolved: "1931-10-29"
+  prefecture: 福島県
+  note: 1898年9月13日第百一国立銀行が改称。1931年10月3日営業免許取消、10月29日破産宣告
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2dldx1I6VvJ27w-iQSNNrxi0YCk/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
