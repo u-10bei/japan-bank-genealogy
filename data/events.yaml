@@ -409,17 +409,19 @@
   to: [hokuto]
   sources: [https://ja.wikipedia.org/wiki/秋田あけぼの銀行, https://ja.wikipedia.org/wiki/北都銀行]
 
-- date: "1898-09-19"
+- date: "1898-09"
   type: rename
   from: [kokuritsu-67]
   to: [rokujushichi]
-  sources: [https://ja.wikipedia.org/wiki/六十七銀行]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は9月18日継続日、荘内銀行「創業百年史」は9月19日新発足）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u7MexCWYlYc06KzIchZIQQ63jBh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LujXCsUlibmuuYAk12YVwdV-Pfi/description.html", https://ja.wikipedia.org/wiki/六十七銀行]
 
 - date: "1941-04-07"
   type: merger
   from: [rokujushichi, kazama-ginko, tsuruoka-ginko, dewa-ginko]
   to: [shonai]
-  sources: [https://ja.wikipedia.org/wiki/荘内銀行, https://ja.wikipedia.org/wiki/六十七銀行]
+  note: 4行の新立合併（3月24日新立合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LujXCsUlibmuuYAk12YVwdV-Pfi/description.html", https://ja.wikipedia.org/wiki/荘内銀行, https://ja.wikipedia.org/wiki/六十七銀行]
 
 - date: "1965-04-01"
   type: rename
@@ -8338,4 +8340,4 @@
   from: [dai140-kokuritsu]
   to: [kokuritsu-67]
   note: 第六十七国立銀行が合併（1880年12月15日合併認可）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vNecR0z0jlo0n_SgoQAJFas8K6e/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u7MexCWYlYc06KzIchZIQQ63jBh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vNecR0z0jlo0n_SgoQAJFas8K6e/description.html"]
