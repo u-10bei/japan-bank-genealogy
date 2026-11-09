@@ -6473,7 +6473,7 @@
   from: [dai131-kokuritsu]
   to: [dai32-kokuritsu]
   note: 第三十二国立銀行が合併
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3Rs_N1udOmnXrnVkMkOwLlQnpgl/description.html"]
 
 - date: "1881"
   type: absorption

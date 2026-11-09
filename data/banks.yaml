@@ -525,9 +525,11 @@
 - id: dai131-kokuritsu
   name: 第百三十一国立銀行
   type: other
+  founded: "1879-01-15"
   dissolved: "1881-07-01"
-  note: 1881年7月1日第三十二国立銀行に合併（銀行局報告・十六銀行百年史による）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
+  prefecture: 岐阜県
+  note: 大阪（当時は堺県）で設立（1879年1月15日開業免状下付、6月10日開業）。1880年5月21日岐阜に移転（6月10日開業）。1881年7月1日第三十二国立銀行に合併（銀行局報告・十六銀行百年史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/3Rs_N1udOmnXrnVkMkOwLlQnpgl/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RwcV5aY1JayeXod2G-XHOCY5Xo/description.html"]
 
 - id: dai142-kokuritsu
   name: 第百四十二国立銀行
