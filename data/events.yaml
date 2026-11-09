@@ -7589,3 +7589,10 @@
   from: [dai97-kokuritsu]
   note: 満期解散（銀行総覧は2月10日、佐賀銀行百年史は2月9日とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CjaSWJFyWTA7Q1x8TVFo7JZdWYh/description.html"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai99-kokuritsu]
+  to: [kujuku-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/a2SFvMLV3oFfysSexf0Dd1CMm0k/description.html"]
