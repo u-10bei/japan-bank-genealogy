@@ -7784,3 +7784,37 @@
   to: [sumitomo-1895]
   note: 住友銀行が佐賀百六銀行の本店営業を譲受（買収。9月13日買収認可）。佐賀百六銀行は解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WLXyyyZ8nazyBOJBzEIPGmU4Ge/description.html"]
+
+- date: "1897-02-01"
+  type: rename
+  from: [dai107-kokuritsu]
+  to: [dai107-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jO7z8aYBC-MZpT3EoJkfOsK8_nk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
+
+- date: "1921-12"
+  type: absorption
+  from: [iwashiro-bank]
+  to: [dai107-ginko]
+  note: 第百七銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
+
+- date: "1925-03"
+  type: transfer
+  from: [iizaka-bank]
+  to: [dai107-ginko]
+  note: 第百七銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
+
+- date: "1927-04"
+  type: transfer
+  from: [dai125-ginko]
+  to: [dai107-ginko]
+  note: 第百七銀行が買収（3月16日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
+
+- date: "1934-06-23"
+  type: dissolution
+  from: [dai107-ginko]
+  note: 任意解散認可（福島県金融経済の歩みは1933年破産、1934年6月解散とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]

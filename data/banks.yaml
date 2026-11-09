@@ -5409,6 +5409,46 @@
   note: 1898年4月1日第百六国立銀行が改称。1924年肥前銀行、1928年西肥銀行を合併。1941年、5支店の営業を佐賀興業銀行に譲渡し（住友銀行八十年史は8月31日、佐賀銀行百年史は9月1日とする）、9月20日本店の営業を住友銀行に譲渡して解散（9月13日買収認可。1946年2月25日清算結了）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WLXyyyZ8nazyBOJBzEIPGmU4Ge/description.html"]
 
+- id: dai107-kokuritsu
+  name: 第百七国立銀行
+  type: other
+  founded: "1878-09-26"
+  dissolved: "1897-02-01"
+  prefecture: 福島県
+  note: 1878年9月26日開業免状下付・設立、10月15日開業。1897年2月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第百七銀行に改称（1896年9月2日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jO7z8aYBC-MZpT3EoJkfOsK8_nk/description.html"]
+
+- id: iwashiro-bank
+  name: 岩代銀行
+  type: other
+  dissolved: "1921-12"
+  note: 1921年12月第百七銀行に合併（日本金融史資料は1922年1月合併解散登記とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
+
+- id: iizaka-bank
+  name: 飯坂銀行
+  type: other
+  founded: "1919"
+  dissolved: "1925-03"
+  note: 1925年3月第百七銀行が買収（3月5日買収届出）。銀行変遷史DBは1919〜1925年の飯坂銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
+
+- id: dai125-ginko
+  name: 第百二十五銀行
+  type: other
+  dissolved: "1927-04"
+  note: 1927年4月第百七銀行が買収（3月16日買収認可。荘内銀行「創業百年史」・山形銀行八十年史は4月11日営業譲渡・解散、福島県金融経済の歩みは4月10日合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
+
+- id: dai107-ginko
+  name: 第百七銀行
+  type: other
+  founded: "1897-02-01"
+  dissolved: "1934-06-23"
+  prefecture: 福島県
+  note: 1897年2月1日第百七国立銀行が改称。1921年岩代銀行を合併、1925年飯坂銀行・1927年第百二十五銀行を買収。1934年6月23日任意解散認可（福島県金融経済の歩みは1933年破産、1934年6月解散とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MftNSbB59ajhzf67wAiHh8Xxolj/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
