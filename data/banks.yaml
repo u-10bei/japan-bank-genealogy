@@ -5151,6 +5151,15 @@
   note: 1878年11月5日開業免状下付・設立、12月13日開業（岩手銀行五十年史は11月5日開業とする）。1896年11月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第八十八銀行に改称（7月28日満期前継続許可。岩手銀行五十年史は1897年8月1日改組とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/cFsH3QXvzWKyaaQ13NbpKRUiX7b/description.html"]
 
+- id: dai89-kokuritsu
+  name: 第八十九国立銀行
+  type: other
+  founded: "1878-12-23"
+  dissolved: "1897-01-01"
+  prefecture: 徳島県
+  note: 1878年12月23日開業免状下付・設立、1879年5月20日開業。1897年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し八十九銀行に改称（1896年8月14日満期前継続許可。八十九銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ojkqe7_Hsxh2Bf-Pe-6rS_ADNak/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
