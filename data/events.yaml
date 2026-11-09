@@ -7617,3 +7617,10 @@
   to: [shinwa]
   note: 親和銀行が買収（3月3日買収認可。九十九銀行は3月31日営業譲渡・解散）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/otC0RN0_HAshLA_O7fDJMZyA11g/description.html"]
+
+- date: "1898-08"
+  type: rename
+  from: [dai100-kokuritsu]
+  to: [daihyaku-1898]
+  note: 営業満期国立銀行処分法により私立銀行として営業継続（銀行局報告は8月14日、三菱銀行史は8月15日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRr-439QrqJNa7ntA_eDLqrcgd/description.html"]

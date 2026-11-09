@@ -11579,6 +11579,24 @@
   note: 1942年4月三菱銀行が買収
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YJSZ"]
 
+- id: dai100-kokuritsu
+  name: 第百国立銀行
+  type: other
+  founded: "1878-08-15"
+  dissolved: "1898-08"
+  prefecture: 東京都
+  note: 1878年8月15日開業免状下付・設立、9月4日開業。1898年8月、営業満期国立銀行処分法により私立銀行として営業を継続し第百銀行に改称（5月28日満期継続許可。銀行局報告は8月14日継続、三菱銀行史は8月15日改組・改称とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRr-439QrqJNa7ntA_eDLqrcgd/description.html"]
+
+- id: daihyaku-1898
+  name: 第百銀行
+  type: other
+  founded: "1898-08"
+  dissolved: "1927"
+  prefecture: 東京都
+  note: 1898年8月第百国立銀行が改称。銀行変遷史DBは1898〜1927年の第百銀行とする（1927年の経緯は未確認）。1943年に三菱銀行に合併した第百銀行とは別項目
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRr-439QrqJNa7ntA_eDLqrcgd/description.html"]
+
 - id: daihyaku
   name: 第百銀行
   type: other
