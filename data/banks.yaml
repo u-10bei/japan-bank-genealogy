@@ -5650,6 +5650,24 @@
   note: 1898年7月1日第百三十六国立銀行が改称（富士銀行百年史別巻は「百三十六銀行」と表記）。1898年10月1日百三十銀行に合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/sQGBaSmkwtDo4ryw2_nQu2BppLh/description.html"]
 
+- id: dai120-kokuritsu
+  name: 第百二十国立銀行
+  type: other
+  founded: "1878-09-11"
+  dissolved: "1898-01-01"
+  prefecture: 茨城県
+  note: 茨城で設立（1878年9月11日開業免状下付、11月1日開業）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第百二十銀行に改称（1897年9月16日満期前継続許可。常陽銀行二十年史は1898年1月改組改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pSKvIuFrN0Y9KKTRArEDULqENFc/description.html"]
+
+- id: dai120-ginko
+  name: 第百二十銀行
+  type: other
+  founded: "1898-01-01"
+  dissolved: "1930"
+  prefecture: 茨城県
+  note: 1898年1月1日第百二十国立銀行が改称。1930年解散（日本金融史資料昭和編は1930年1月20日解散決議、常陽銀行二十年史は1930年廃業とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/kbdWRAbCDCvwOkCdLrnOp7JF-Pe/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
