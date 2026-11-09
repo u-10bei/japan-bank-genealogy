@@ -5910,10 +5910,11 @@
 - id: taihei-1912
   name: 泰平銀行
   type: other
-  founded: "1912"
+  founded: "1912-06-17"
   dissolved: "1926-12"
-  note: 1926年12月浜松銀行が買収（12月26日買収届出。静岡銀行史は合併とする）。銀行変遷史DBは1912〜1926年の泰平銀行とする（設立日は未確認）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+  prefecture: 東京都
+  note: 1912年6月17日合資会社関銀行が株式会社に改組し改称。1926年12月浜松銀行が買収（12月26日買収届出。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XJRrohglefo5uU_WSaZ69TrXxO/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
 - id: kondo-bank
   name: 近藤銀行
@@ -6337,6 +6338,15 @@
   prefecture: 静岡県
   note: 静岡で設立（銀行総覧による。静岡銀行史は1893年4月設立とする）。1899年積栄銀行に改称（銀行総覧による推定。静岡銀行史は1894年6月改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/egcujkP8yJjhbAhMdc-ZxB5DDpm/description.html"]
+
+- id: seki-1896
+  name: 関銀行
+  type: other
+  founded: "1896-06"
+  dissolved: "1912-06-17"
+  prefecture: 東京都
+  note: 合資会社。岐阜で設立（銀行総覧は回により6月25日・29日・30日設立とし、十六銀行百年史は6月25日設立・7月1日開業とする）。1912年4月東京に移転（銀行総覧は4月10日、十六銀行百年史は4月4日とし、同時に泰平銀行に改称とする）。1912年6月17日株式会社に改組し泰平銀行に改称（銀行総覧による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OauOOkujY6exVGRZ-c_6mlWv3zc/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

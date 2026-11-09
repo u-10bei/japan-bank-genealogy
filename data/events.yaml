@@ -8253,7 +8253,7 @@
   from: [taihei-1912]
   to: [hamamatsu-1919]
   note: 浜松銀行が買収（12月26日買収届出。静岡銀行史は合併とする）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XJRrohglefo5uU_WSaZ69TrXxO/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
 - date: "1927-11"
   type: transfer
@@ -8559,3 +8559,10 @@
   to: [sekiei-bank]
   note: 積栄銀行に改称（銀行総覧第6回・第7回による推定。静岡銀行史は1894年6月改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/egcujkP8yJjhbAhMdc-ZxB5DDpm/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/yN0sasxAX6ATbG0eWfwDfKHndvh/description.html"]
+
+- date: "1912-06-17"
+  type: rename
+  from: [seki-1896]
+  to: [taihei-1912]
+  note: 合資会社から株式会社に改組し改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/OauOOkujY6exVGRZ-c_6mlWv3zc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XJRrohglefo5uU_WSaZ69TrXxO/description.html"]
