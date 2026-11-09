@@ -7749,3 +7749,38 @@
   to: [nihon-shogyo]
   note: 日本商業銀行が買収（営業譲渡）。第百三国立銀行は1898年10月22日営業満期解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bg8xMDNEOx_WczZUt_868XzSBFb/description.html"]
+
+- date: "1898-04-01"
+  type: rename
+  from: [dai106-kokuritsu]
+  to: [saga-hyakuroku]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LTylKT9F_2af0te6NTiw3o5d9Mf/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WLXyyyZ8nazyBOJBzEIPGmU4Ge/description.html"]
+
+- date: "1924-04-16"
+  type: absorption
+  from: [hizen-bank]
+  to: [saga-hyakuroku]
+  note: 佐賀百六銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WLXyyyZ8nazyBOJBzEIPGmU4Ge/description.html"]
+
+- date: "1928-04-15"
+  type: absorption
+  from: [seihi-bank]
+  to: [saga-hyakuroku]
+  note: 佐賀百六銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WLXyyyZ8nazyBOJBzEIPGmU4Ge/description.html"]
+
+- date: "1941-08"
+  type: transfer
+  from: [saga-hyakuroku]
+  to: [saga-kogyo]
+  note: 佐賀百六銀行の全5支店の営業を佐賀興業銀行が譲受（住友銀行八十年史は8月31日、佐賀銀行百年史は9月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WLXyyyZ8nazyBOJBzEIPGmU4Ge/description.html"]
+
+- date: "1941-09-20"
+  type: transfer
+  from: [saga-hyakuroku]
+  to: [sumitomo-1895]
+  note: 住友銀行が佐賀百六銀行の本店営業を譲受（買収。9月13日買収認可）。佐賀百六銀行は解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/WLXyyyZ8nazyBOJBzEIPGmU4Ge/description.html"]
