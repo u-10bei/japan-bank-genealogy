@@ -8226,4 +8226,67 @@
   from: [futamata-bank]
   to: [hamamatsu-1919]
   note: 浜松銀行が買収（8月3日買収認可。静岡銀行史は合併とする）
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+
+- date: "1919-12-12"
+  type: rename
+  from: [yoshikawa-bank]
+  to: [hamamatsu-1919]
+  note: 浜松銀行に改称（静岡銀行史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+
+- date: "1926-06"
+  type: transfer
+  from: [sekiei-bank]
+  to: [hamamatsu-1919]
+  note: 浜松銀行が買収（6月8日買収認可又は届出。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+
+- date: "1926-12"
+  type: transfer
+  from: [taihei-1912]
+  to: [hamamatsu-1919]
+  note: 浜松銀行が買収（12月26日買収届出。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+
+- date: "1927-11"
+  type: transfer
+  from: [kondo-bank]
+  to: [hamamatsu-1919]
+  note: 浜松銀行が買収（静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+
+- date: "1928-12"
+  type: transfer
+  from: [totomi-kyodo]
+  to: [hamamatsu-1919]
+  note: 浜松銀行が買収（買収認可。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+
+- date: "1929-06"
+  type: transfer
+  from: [yamanouchi-bank]
+  to: [hamamatsu-1919]
+  note: 浜松銀行が買収（買収認可。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+
+- date: "1938-10"
+  type: transfer
+  from: [shimada-1934]
+  to: [hamamatsu-1919]
+  note: 浜松銀行が買収（10月26日買収認可。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+
+- date: "1939-10"
+  type: transfer
+  from: [uchida-bank]
+  to: [hamamatsu-1919]
+  note: 浜松銀行が買収（8月5日買収認可。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+
+- date: "1943-06-01"
+  type: transfer
+  from: [hamamatsu-1919]
+  to: [shizuoka]
+  note: 静岡銀行が買収（5月26日買収認可。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
