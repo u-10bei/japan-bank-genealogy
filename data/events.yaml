@@ -7241,3 +7241,17 @@
   from: [dai79-ginko]
   note: 破産
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TcHcfK887Gs-Jv8dGAbFDEZKkTf/description.html"]
+
+- date: "1896-03"
+  type: transfer
+  from: [dai80-kokuritsu]
+  to: [tosa]
+  note: 第七国立銀行・第八十国立銀行の株主の協同で設立した土佐銀行に、両行の業務を漸次移管（3月10日土佐銀行開業）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rVA2HaxmTaE2BodoRoWf4FPJDlj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/TetYPQHqyorYd84JP6QQ14SvZ0/description.html"]
+
+- date: "1896-11-25"
+  type: rename
+  from: [dai80-kokuritsu]
+  to: [dai80-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rVA2HaxmTaE2BodoRoWf4FPJDlj/description.html"]

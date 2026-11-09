@@ -11768,13 +11768,23 @@
   note: 1877年2月20日開業免状下付・設立、3月15日開業。1896年、第八十国立銀行の株主と協同で土佐銀行を設立し、業務を漸次移管。1896年11月25日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第七銀行に改称（8月21日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1fDwRjEOBg37LVuN9SPAsPRi_hd/description.html"]
 
+- id: dai80-kokuritsu
+  name: 第八十国立銀行
+  type: other
+  founded: "1878-10-08"
+  dissolved: "1896-11-25"
+  prefecture: 高知県
+  note: 1878年10月8日開業免状下付・設立、10月28日開業。1896年、第七国立銀行の株主と協同で土佐銀行を設立し、業務を漸次移管。1896年11月25日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第八十銀行に改称（8月21日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rVA2HaxmTaE2BodoRoWf4FPJDlj/description.html"]
+
 - id: dai80-ginko
   name: 第八十銀行
   type: other
+  founded: "1896-11-25"
   dissolved: "1897-06-29"
   prefecture: 高知県
-  note: 1897年6月29日第七銀行に合併（銀行総覧による）。第八十国立銀行の後身と考えられるが、改称の経緯・設立日は未確認
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8QmY6srDbkKM5_ZNXChWTbw4iAl/description.html"]
+  note: 1897年6月29日第七銀行に合併（銀行総覧による）。1896年11月25日第八十国立銀行が改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rVA2HaxmTaE2BodoRoWf4FPJDlj/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/8QmY6srDbkKM5_ZNXChWTbw4iAl/description.html"]
 
 - id: daishichi-bank
   name: 第七銀行
