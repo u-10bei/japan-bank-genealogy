@@ -8178,3 +8178,52 @@
   to: [tanwa]
   note: 神戸銀行・丹和銀行による分割買収（6月10日認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RpH9PQslEPlZmMkibGHaBfAZxc/description.html"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai138-kokuritsu]
+  to: [hyakusanjuhachi-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MiJ4H7x_BvPuV3YTTj5hW3Xb0en/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PehS4qTmhuq8iPBqgMzhjYrfpRc/description.html"]
+
+- date: "1921-10"
+  type: absorption
+  from: [komyo-bank, tenryugawa-bank]
+  to: [hyakusanjuhachi-ginko]
+  note: 百三十八銀行が合併し、同日二俣銀行に改称（静岡銀行史は新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PehS4qTmhuq8iPBqgMzhjYrfpRc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- date: "1921-10"
+  type: rename
+  from: [hyakusanjuhachi-ginko]
+  to: [futamata-bank]
+  note: 光明銀行・天竜川銀行の合併と同時に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PehS4qTmhuq8iPBqgMzhjYrfpRc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- date: "1926-06"
+  type: transfer
+  from: [yamanashi-jitsugyo]
+  to: [futamata-bank]
+  note: 二俣銀行が買収（静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- date: "1929-08"
+  type: transfer
+  from: [atago-bank]
+  to: [futamata-bank]
+  note: 二俣銀行が買収（静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- date: "1929-10"
+  type: transfer
+  from: [nakaze-bank]
+  to: [futamata-bank]
+  note: 二俣銀行が合併（買収か）。10月26日中瀬銀行廃業認可（静岡銀行史は1930年7月合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- date: "1939-09"
+  type: transfer
+  from: [futamata-bank]
+  to: [hamamatsu-1919]
+  note: 浜松銀行が買収（8月3日買収認可。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]

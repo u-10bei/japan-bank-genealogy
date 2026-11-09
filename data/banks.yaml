@@ -5811,6 +5811,76 @@
   note: 1900年9月17日第百三十七銀行が共同貯蓄銀行を合併し改称。1942年6月20日神戸銀行と丹和銀行に分割買収された（6月10日分割買収認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7RpH9PQslEPlZmMkibGHaBfAZxc/description.html"]
 
+- id: dai138-kokuritsu
+  name: 第百三十八国立銀行
+  type: other
+  founded: "1879-02-12"
+  dissolved: "1898-01-01"
+  prefecture: 静岡県
+  note: 静岡で設立（1879年2月12日開業免状下付、3月1日開業）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百三十八銀行に改称（1897年9月13日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/MiJ4H7x_BvPuV3YTTj5hW3Xb0en/description.html"]
+
+- id: hyakusanjuhachi-ginko
+  name: 百三十八銀行
+  type: other
+  founded: "1898-01-01"
+  dissolved: "1921-10"
+  prefecture: 静岡県
+  note: 1898年1月1日第百三十八国立銀行が改称。1921年10月光明銀行・天竜川銀行を合併し二俣銀行に改称（静岡銀行史は新立合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PehS4qTmhuq8iPBqgMzhjYrfpRc/description.html"]
+
+- id: komyo-bank
+  name: 光明銀行
+  type: other
+  dissolved: "1921-10"
+  note: 1921年10月百三十八銀行に合併（静岡銀行史は3行の新立合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PehS4qTmhuq8iPBqgMzhjYrfpRc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- id: tenryugawa-bank
+  name: 天竜川銀行
+  type: other
+  dissolved: "1921-10"
+  note: 1921年10月百三十八銀行に合併（静岡銀行史は3行の新立合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/PehS4qTmhuq8iPBqgMzhjYrfpRc/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- id: futamata-bank
+  name: 二俣銀行
+  type: other
+  founded: "1921-10"
+  dissolved: "1939-09"
+  prefecture: 静岡県
+  note: 1921年10月百三十八銀行が光明銀行・天竜川銀行を合併し改称。1926年6月山梨実業銀行、1929年8月阿多古銀行を買収、1929〜1930年に中瀬銀行を合併（買収か）。1939年9月浜松銀行が買収（8月3日買収認可。静岡銀行史は9月合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- id: yamanashi-jitsugyo
+  name: 山梨実業銀行
+  type: other
+  dissolved: "1926-06"
+  note: 1926年6月二俣銀行が買収（買収・支店設置認可。静岡銀行史は合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- id: atago-bank
+  name: 阿多古銀行
+  type: other
+  dissolved: "1929-08"
+  note: 1929年8月二俣銀行が買収（静岡銀行史は合併とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- id: nakaze-bank
+  name: 中瀬銀行
+  type: other
+  dissolved: "1929-10"
+  note: 二俣銀行が合併（買収か）。日本金融史資料は1929年10月26日廃業認可、静岡銀行史は1930年7月合併とする（銀行総覧の掲載は1928年末の第35回まで）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
+- id: hamamatsu-1919
+  name: 浜松銀行
+  type: other
+  founded: "1919"
+  dissolved: "1943"
+  note: 1939年9月二俣銀行を買収。銀行変遷史DBは1919〜1943年の浜松銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/vOGDAG9rPW5qfMWuF2rmIbgsQ_k/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
