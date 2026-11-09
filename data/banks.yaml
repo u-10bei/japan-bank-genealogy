@@ -4885,6 +4885,15 @@
   note: 1913年4月佐賀銀行（1898〜1913）が改称（銀行総覧は4月12日、佐賀銀行百年史は4月1日とする）。1923年11月19日肥前貯蓄銀行を合併（10月16日合併認可）。1933年10月27日任意解散。1885〜1893年の古賀銀行とは別
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gyDtpKxakqU8CWeBvVLQML4UF_e/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/mCW5iayUkExwCaCTEihx8swHgie/description.html"]
 
+- id: dai73-kokuritsu
+  name: 第七十三国立銀行
+  type: other
+  founded: "1878-10-30"
+  dissolved: "1897-08-01"
+  prefecture: 大阪府
+  note: 兵庫で設立（1878年10月30日開業免状下付・設立、12月22日開業）。1885年大阪に移転。1897年8月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第七十三銀行に改称、大阪から鹿児島に移転（第七十三銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/6hy3uS5BrNu7DIAwWTPk6ocY_Zp/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
