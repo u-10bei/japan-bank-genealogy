@@ -6643,16 +6643,16 @@
 - id: dai66-kokuritsu
   name: 第六十六国立銀行
   type: other
-  founded: "1878"
-  dissolved: "1897"
+  founded: "1878-11-29"
+  dissolved: "1897-07-01"
   prefecture: 広島県
-  note: 尾道で創業
-  sources: [https://ja.wikipedia.org/wiki/広島銀行]
+  note: 尾道で創業（Wikipediaによる）。1878年11月29日開業免状下付・設立、1879年4月20日開業。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第六十六銀行に改称（1月12日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/wS8Z6OHIFZXM4hz12z0uOlgANab/description.html", https://ja.wikipedia.org/wiki/広島銀行]
 
 - id: dai66
   name: 第六十六銀行
   type: other
-  founded: "1897"
+  founded: "1897-07-01"
   dissolved: "1920-06"
   prefecture: 広島県
   sources: [https://ja.wikipedia.org/wiki/広島銀行]
