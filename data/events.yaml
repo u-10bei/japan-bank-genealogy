@@ -7596,3 +7596,17 @@
   to: [kujuku-bank]
   note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/a2SFvMLV3oFfysSexf0Dd1CMm0k/description.html"]
+
+- date: "1921"
+  type: absorption
+  from: [hirado-chochiku]
+  to: [kujuku-bank]
+  note: 九十九銀行が合併（親和銀行史・十八銀行「百年の歩み」は1922年11月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hpB2-EsM2ereQv9PJRIRvWSiz6/description.html"]
+
+- date: "1930-10-01"
+  type: merger
+  from: [kujuku-bank, hirado-shogyo]
+  to: [kujuku-1930]
+  note: 新立合併（9月新立合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/hpB2-EsM2ereQv9PJRIRvWSiz6/description.html"]
