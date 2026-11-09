@@ -5348,6 +5348,24 @@
   note: 1898年9月13日第百一国立銀行が改称。1931年10月3日営業免許取消、10月29日破産宣告
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2dldx1I6VvJ27w-iQSNNrxi0YCk/description.html"]
 
+- id: dai102-kokuritsu
+  name: 第百二国立銀行
+  type: other
+  founded: "1878-11-28"
+  dissolved: "1897-07-01"
+  prefecture: 長崎県
+  note: 1878年11月28日開業免状下付・設立、1879年1月28日開業。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百二銀行に改称（3月17日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2FQDjewck_6JS12IiVLyusWHlao/description.html"]
+
+- id: hyakuni-bank
+  name: 百二銀行
+  type: other
+  founded: "1897-07-01"
+  dissolved: "1897-12-21"
+  prefecture: 長崎県
+  note: 1897年7月1日第百二国立銀行が改称。1897年12月21日任意解散（1901年8月清算終了）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Jb7jIXPAexwagBRVAN_l13kM4lg/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other

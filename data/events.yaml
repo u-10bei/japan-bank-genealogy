@@ -7729,3 +7729,16 @@
   from: [dai101-ginko]
   note: 営業免許取消（10月29日破産宣告）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2dldx1I6VvJ27w-iQSNNrxi0YCk/description.html"]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai102-kokuritsu]
+  to: [hyakuni-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/2FQDjewck_6JS12IiVLyusWHlao/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Jb7jIXPAexwagBRVAN_l13kM4lg/description.html"]
+
+- date: "1897-12-21"
+  type: dissolution
+  from: [hyakuni-bank]
+  note: 任意解散（1901年8月清算終了）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Jb7jIXPAexwagBRVAN_l13kM4lg/description.html"]
