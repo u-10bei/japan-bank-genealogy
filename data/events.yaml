@@ -6463,7 +6463,7 @@
   from: [dai143-kokuritsu]
   to: [dai30-kokuritsu]
   note: 第三十国立銀行が合併
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dLFISWkvKSAwiqsaDkY5XrAHQBn/description.html"]
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xV6g6nVmtZbOfdWhD9Ap7_jqc_m/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dLFISWkvKSAwiqsaDkY5XrAHQBn/description.html"]
 
 - date: "1897-12"
   type: rename

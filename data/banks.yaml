@@ -219,9 +219,11 @@
 - id: dai143-kokuritsu
   name: 第百四十三国立銀行
   type: other
+  founded: "1879-03-28"
   dissolved: "1880-04-01"
-  note: 1880年4月1日第三十国立銀行に合併（銀行局報告・千葉銀行史による）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dLFISWkvKSAwiqsaDkY5XrAHQBn/description.html"]
+  prefecture: 千葉県
+  note: 千葉で設立（1879年3月28日開業免状下付、6月7日開業）。1880年4月1日第三十国立銀行に合併（銀行局報告・千葉銀行史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/xV6g6nVmtZbOfdWhD9Ap7_jqc_m/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/dLFISWkvKSAwiqsaDkY5XrAHQBn/description.html"]
 
 - id: dai30-kokuritsu
   name: 第三十国立銀行
