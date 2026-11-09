@@ -1236,9 +1236,11 @@
 - id: hyakusanju-bank
   name: 百三十銀行
   type: other
+  founded: "1898-07-01"
   dissolved: "1923-11-01"
-  note: 1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
+  prefecture: 大阪府
+  note: 1898年7月1日第百三十国立銀行が改称。1923年11月1日、安田系11行の1行として保善銀行に合併（保善銀行は同日安田銀行に改称）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fyMHPn64NIR4H5WlW3OM7yl6n_f/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/alJ_TXXgEZBpjKcH4KSiFMjCNSm/description.html"]
 
 - id: meiji-shogyo
   name: 明治商業銀行
@@ -5744,6 +5746,15 @@
   dissolved: "1915-06-29"
   note: 1915年6月29日百二十八銀行に合併（7月12日合併登記）。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/oGn1OwxUsbXQbRLVGB7E4BWS_Mh/description.html"]
+
+- id: dai130-kokuritsu
+  name: 第百三十国立銀行
+  type: other
+  founded: "1878-12-27"
+  dissolved: "1898-07-01"
+  prefecture: 大阪府
+  note: 大阪で設立（1878年12月27日開業免状下付、1879年2月15日開業）。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し百三十銀行に改称（3月16日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fyMHPn64NIR4H5WlW3OM7yl6n_f/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行

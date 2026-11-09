@@ -8123,3 +8123,10 @@
   from: [dai129-kokuritsu]
   note: 営業満期により解散（業務は1896年に大垣共立銀行が継承済み）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/VqLZBc4pTedLe2gLLmqLYPDgPke/description.html"]
+
+- date: "1898-07-01"
+  type: rename
+  from: [dai130-kokuritsu]
+  to: [hyakusanju-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/fyMHPn64NIR4H5WlW3OM7yl6n_f/description.html"]
