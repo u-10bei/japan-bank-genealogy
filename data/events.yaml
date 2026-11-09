@@ -7742,3 +7742,10 @@
   from: [hyakuni-bank]
   note: 任意解散（1901年8月清算終了）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Jb7jIXPAexwagBRVAN_l13kM4lg/description.html"]
+
+- date: "1897-11"
+  type: transfer
+  from: [dai103-kokuritsu]
+  to: [nihon-shogyo]
+  note: 日本商業銀行が買収（営業譲渡）。第百三国立銀行は1898年10月22日営業満期解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bg8xMDNEOx_WczZUt_868XzSBFb/description.html"]

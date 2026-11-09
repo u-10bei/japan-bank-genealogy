@@ -5366,6 +5366,15 @@
   note: 1897年7月1日第百二国立銀行が改称。1897年12月21日任意解散（1901年8月清算終了）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Jb7jIXPAexwagBRVAN_l13kM4lg/description.html"]
 
+- id: dai103-kokuritsu
+  name: 第百三国立銀行
+  type: other
+  founded: "1878-10-23"
+  dissolved: "1898-10-22"
+  prefecture: 兵庫県
+  note: 山口で設立（1878年10月23日開業免状下付・設立、12月2日開業）。1895年1月1日兵庫に移転。1897年11月日本商業銀行に営業を譲渡（富士銀行百年史別巻による）。1898年10月22日営業満期解散
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/bg8xMDNEOx_WczZUt_868XzSBFb/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
