@@ -7838,3 +7838,16 @@
   to: [oita-godo]
   note: 大分合同銀行が買収（12月17日買収認可。大分銀行百年史は合併とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u8LkkwI31Yr_-2Zy3TMYHeltvJc/description.html"]
+
+- date: "1886-01-02"
+  type: absorption
+  from: [dai153-kokuritsu]
+  to: [dai111-kokuritsu]
+  note: 第百十一国立銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4tQ27vZGmZGpM-wL1pdmvh4mdSi/description.html"]
+
+- date: "1898"
+  type: failure
+  from: [dai111-kokuritsu]
+  note: 1月18日営業停止、官命鎖店（銀行局報告・銀行便覧は3月29日、銀行総覧・京都銀行五十年史は5月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4tQ27vZGmZGpM-wL1pdmvh4mdSi/description.html"]

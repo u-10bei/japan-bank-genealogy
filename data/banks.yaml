@@ -5476,6 +5476,22 @@
   note: 1898年1月16日第百九国立銀行が改称。1941年12月26日大分合同銀行が買収（12月17日買収認可。大分銀行百年史は合併とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/u8LkkwI31Yr_-2Zy3TMYHeltvJc/description.html"]
 
+- id: dai153-kokuritsu
+  name: 第百五十三国立銀行
+  type: other
+  dissolved: "1886-01-02"
+  note: 1886年1月2日第百十一国立銀行に合併（銀行局報告は「第百五十一銀行」と記すが、第百十一国立銀行の誤記）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4tQ27vZGmZGpM-wL1pdmvh4mdSi/description.html"]
+
+- id: dai111-kokuritsu
+  name: 第百十一国立銀行
+  type: other
+  founded: "1878-11-08"
+  dissolved: "1898"
+  prefecture: 京都府
+  note: 1878年11月8日開業免状下付・設立、12月10日開業。1886年1月2日第百五十三国立銀行を合併。1898年1月18日営業停止、命令により鎖店（銀行局報告・銀行便覧は3月29日官命鎖店、銀行総覧・京都銀行五十年史は5月とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4tQ27vZGmZGpM-wL1pdmvh4mdSi/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
