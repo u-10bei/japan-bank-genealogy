@@ -9755,6 +9755,7 @@
 - id: rcc
   name: 整理回収機構
   name_en: The Resolution and Collection Corporation
+  code: "2213"
   type: new
   founded: "1999-04-01"
   prefecture: 東京都
@@ -9781,6 +9782,7 @@
 
 - id: zero-one-bank
   name: 01銀行
+  code: "0046"
   type: new
   founded: "2024-02-01"
   prefecture: 大阪府
@@ -9809,6 +9811,7 @@
 
 - id: mufg-emutto-bank
   name: 三菱UFJエムット銀行
+  code: "0047"
   type: new
   founded: "2025-08-01"
   prefecture: 東京都
@@ -9912,6 +9915,7 @@
 - id: dbj
   name: 日本政策投資銀行
   name_en: Development Bank of Japan Inc.
+  code: "9930"
   type: special
   founded: "2008-10-01"
   prefecture: 東京都
@@ -9959,6 +9963,7 @@
 - id: jfc
   name: 日本政策金融公庫
   name_en: Japan Finance Corporation
+  code: "9932"
   type: special
   founded: "2008-10-01"
   prefecture: 東京都
@@ -9968,6 +9973,7 @@
 - id: jbic
   name: 国際協力銀行
   name_en: Japan Bank for International Cooperation
+  code: "9933"
   type: special
   founded: "2012-04-01"
   prefecture: 東京都
