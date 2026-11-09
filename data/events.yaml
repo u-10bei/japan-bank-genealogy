@@ -7326,3 +7326,59 @@
   to: [showa-ginko]
   note: 昭和銀行が買収（勘定継承日）。八十四銀行は2月9日に和議申請、3月1日に取下げ
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/jc3ify1wuDyW6VVZzUtxOfM3-Id/description.html"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai85-kokuritsu]
+  to: [dai85-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/l8j8e0OMFtxh7NxU4U8WI1iL_Gh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- date: "1927-03"
+  type: absorption
+  from: [hiki-bank]
+  to: [dai85-ginko]
+  note: 第八十五銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- date: "1927-08-01"
+  type: absorption
+  from: [fukaya-bank]
+  to: [dai85-ginko]
+  note: 第八十五銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- date: "1937"
+  type: transfer
+  from: [kawagoe-watanabe]
+  to: [dai85-ginko]
+  note: 第八十五銀行が買収（3月22日買収認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- date: "1937-09"
+  type: transfer
+  from: [urawa-shogyo]
+  to: [dai85-ginko]
+  note: 第八十五銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- date: "1937-11"
+  type: transfer
+  from: [seibu-bank]
+  to: [dai85-ginko]
+  note: 第八十五銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- date: "1937-11"
+  type: transfer
+  from: [chichibu-bank]
+  to: [dai85-ginko]
+  note: 第八十五銀行が買収
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- date: "1943-07-01"
+  type: merger
+  from: [dai85-ginko, oshi-shogyo, hanno-bank, bushu-bank]
+  to: [saitama]
+  note: 4行の新立合併（6月28日新立合併認可、6月30日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]

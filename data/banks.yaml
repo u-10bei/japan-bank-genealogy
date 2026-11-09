@@ -1337,13 +1337,88 @@
   prefecture: 東京都
   sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/協和銀行]
 
+- id: hiki-bank
+  name: 比企銀行
+  type: other
+  dissolved: "1927-03"
+  note: 1927年3月第八十五銀行に合併（2月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- id: fukaya-bank
+  name: 深谷銀行
+  type: other
+  dissolved: "1927-08-01"
+  note: 1927年8月1日第八十五銀行に合併（7月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- id: kawagoe-watanabe
+  name: 川越渡辺銀行
+  type: other
+  dissolved: "1937"
+  note: 1937年第八十五銀行が買収（3月22日買収認可。埼玉銀行史本文・埼玉銀行通史は4月、埼玉銀行史系統図・年表は3月とする）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- id: urawa-shogyo
+  name: 浦和商業銀行
+  type: other
+  dissolved: "1937-09"
+  note: 1937年9月第八十五銀行が買収（8月30日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- id: seibu-bank
+  name: 西武銀行
+  type: other
+  dissolved: "1937-11"
+  note: 1937年11月第八十五銀行が買収（10月27日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- id: chichibu-bank
+  name: 秩父銀行
+  type: other
+  dissolved: "1937-11"
+  note: 1937年11月第八十五銀行が買収（10月27日買収認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- id: dai85-ginko
+  name: 第八十五銀行
+  type: other
+  founded: "1898-01-01"
+  dissolved: "1943-07-01"
+  prefecture: 埼玉県
+  note: 1898年1月1日第八十五国立銀行が改称。1927年比企銀行・深谷銀行を合併、1937年川越渡辺・浦和商業・西武・秩父の各行を買収。1943年7月1日、4行の新立合併により埼玉銀行となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- id: oshi-shogyo
+  name: 忍商業銀行
+  type: other
+  dissolved: "1943-07-01"
+  note: 1943年7月1日、4行の新立合併により埼玉銀行となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- id: hanno-bank
+  name: 飯能銀行
+  type: other
+  founded: "1937"
+  dissolved: "1943-07-01"
+  note: 1943年7月1日、4行の新立合併により埼玉銀行となる。銀行変遷史DBは1937〜1943年の飯能銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
+- id: bushu-bank
+  name: 武州銀行
+  type: other
+  founded: "1918"
+  dissolved: "1943-07-01"
+  note: 1943年7月1日、4行の新立合併により埼玉銀行となる。銀行変遷史DBは1918〜1943年の武州銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html"]
+
 - id: saitama
   name: 埼玉銀行
   type: city
   founded: "1943-07-01"
   dissolved: "1991-04-01"
   prefecture: 埼玉県
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/埼玉銀行]
+  note: 第八十五銀行・忍商業銀行・飯能銀行・武州銀行の4行の新立合併で設立（1943年6月28日新立合併認可、6月30日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/nTtw4nSwJ6-IyXMJAwX7A_Iph1j/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD", https://ja.wikipedia.org/wiki/埼玉銀行]
 
 - id: kyowa-saitama
   name: 協和埼玉銀行
@@ -5028,7 +5103,7 @@
   founded: "1878-11-26"
   dissolved: "1898-01-01"
   prefecture: 埼玉県
-  note: 1878年11月26日開業免状下付・設立、12月17日開業（埼玉銀行史は5月15日設立許可、埼玉銀行通史は10月設立とする）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第八十五銀行に改称（1897年9月8日満期前継続許可。第八十五銀行は未収録）
+  note: 1878年11月26日開業免状下付・設立、12月17日開業（埼玉銀行史は5月15日設立許可、埼玉銀行通史は10月設立とする）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し第八十五銀行に改称（1897年9月8日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/l8j8e0OMFtxh7NxU4U8WI1iL_Gh/description.html"]
 
 - id: dai8-kokuritsu
