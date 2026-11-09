@@ -751,12 +751,23 @@
   note: 設立日は資料により異なる（銀行局報告は1878年10月13日開業免状下付、銀行総覧は10月3日設立とする。神戸銀行史は1877年8月27日創立とする。11月20日開業）。1898年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し三十八銀行に改称（2月16日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/o67Lfj0A7sI-rMO8lgZxdbD9s1j/description.html"]
 
+- id: dai94-kokuritsu
+  name: 第九十四国立銀行
+  type: other
+  founded: "1878-10-19"
+  dissolved: "1898-01-01"
+  prefecture: 兵庫県
+  note: 1878年10月19日開業免状下付・設立、12月13日開業。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し九十四銀行に改称（1897年9月20日満期前継続許可。神戸銀行史は9月20日改組とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/kGuOfYV03hbx8rC9Luvqyk6_tBh/description.html"]
+
 - id: kyujuyon-bank
   name: 九十四銀行
   type: other
+  founded: "1898-01-01"
   dissolved: "1917"
-  note: 1917年三十八銀行に合併（銀行総覧は10月3日合併・11月5日合併登記、神戸銀行史は11月1日とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
+  prefecture: 兵庫県
+  note: 1898年1月1日第九十四国立銀行が改称。1917年三十八銀行に合併（銀行総覧は10月3日合併・11月5日合併登記、神戸銀行史は11月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/kGuOfYV03hbx8rC9Luvqyk6_tBh/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rMfWAV9tapAfUQAPrCgAB9a4_ld/description.html"]
 
 - id: shikama-bank
   name: 飾磨銀行

@@ -7499,3 +7499,10 @@
   to: [toho]
   note: 東邦銀行が営業を譲受（11月16日営業譲渡認可。有価証券報告書は1942年8月とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/AJrmLYRwoh80b10QjZRmO_C5Rfm/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai94-kokuritsu]
+  to: [kyujuyon-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/kGuOfYV03hbx8rC9Luvqyk6_tBh/description.html"]
