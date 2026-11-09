@@ -7865,3 +7865,31 @@
   from: [dai112-ginko]
   note: 任意解散
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/iXpSpIWIfEMIq0uzodEZn4V00Gm/description.html"]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai113-kokuritsu]
+  to: [hyakujusan-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/LRV8PwCpgv8sH3GRKReTG97p4rb/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qdNNueiVsKNGka0k_rezFEKtU_o/description.html"]
+
+- date: "1922-04-02"
+  type: absorption
+  from: [hakodate-bank]
+  to: [hyakujusan-bank]
+  note: 百十三銀行が合併（3月2日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qdNNueiVsKNGka0k_rezFEKtU_o/description.html"]
+
+- date: "1928-03-31"
+  type: absorption
+  from: [hyakujusan-bank]
+  to: [hokkaido-1906]
+  note: 北海道銀行（1906〜1944）が合併（3月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qdNNueiVsKNGka0k_rezFEKtU_o/description.html"]
+
+- date: "1944"
+  type: absorption
+  from: [hokkaido-1906]
+  to: [takugin]
+  note: 北海道拓殖銀行が合併（Wikipediaの北海道銀行の記事による。日付は未確認）
+  sources: [https://ja.wikipedia.org/wiki/北海道銀行]
