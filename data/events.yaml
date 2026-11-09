@@ -7527,3 +7527,17 @@
   to: [nosho-bank-1913]
   note: 農商銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7WVqNw-OTM_C8TksPKMUmQ4gcto/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Cd8yYzShgFBH3fJg6_Ypfs4kZ5g/description.html"]
+
+- date: "1914-02-06"
+  type: rename
+  from: [nosho-bank-1913]
+  to: [kihan-bank]
+  note: 紀阪銀行に改称（日付は改称登記日）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Cd8yYzShgFBH3fJg6_Ypfs4kZ5g/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BCFZsTgcAhZXaAX1BO8YxCNaFCk/description.html"]
+
+- date: "1921"
+  type: rename
+  from: [kihan-bank]
+  to: [kihan-chochiku]
+  note: 紀阪貯蓄銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BCFZsTgcAhZXaAX1BO8YxCNaFCk/description.html"]

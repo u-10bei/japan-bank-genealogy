@@ -294,9 +294,10 @@
 - id: kihan-chochiku
   name: 紀阪貯蓄銀行
   type: other
+  founded: "1921"
   dissolved: "1925-10-20"
-  note: 1925年10月20日山口銀行が買収（三和銀行史による。11月9日買収届出）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
+  note: 1925年10月20日山口銀行が買収（三和銀行史による。11月9日買収届出）。1921年紀阪銀行が改称（銀行総覧による）。源流は第九十五国立銀行
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BCFZsTgcAhZXaAX1BO8YxCNaFCk/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UJsElsyt1fxB9j-_FZA6qpdbMq/description.html"]
 
 - id: setchi-bank
   name: 摂池銀行
@@ -5231,7 +5232,7 @@
   founded: "1878-09-18"
   dissolved: "1897-05-15"
   prefecture: 東京都
-  note: 1878年9月18日開業免状下付・設立、10月17日開業。1897年5月15日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し九十五銀行に改称（2月12日満期前継続許可）。銀行変遷史DBは紀阪貯蓄銀行を当行の後身とする（三和銀行史は紀阪貯蓄銀行を1878年設立とする）
+  note: 1878年9月18日開業免状下付・設立、10月17日開業。1897年5月15日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し九十五銀行に改称（2月12日満期前継続許可）。後身は九十五銀行・百三銀行・農商銀行・紀阪銀行を経て紀阪貯蓄銀行となる（三和銀行史は紀阪貯蓄銀行を1878年設立とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-dH90bQQVYOOHg4c2y7O-KtbwTo/description.html"]
 
 - id: kyujugo-bank
@@ -5257,8 +5258,17 @@
   founded: "1913-03-03"
   dissolved: "1914-02-06"
   prefecture: 大阪府
-  note: 1913年3月3日百三銀行が改称。1913年5月16日東京から大阪に移転。1914年2月6日紀阪銀行に改称（日付は改称登記日。紀阪銀行は未収録）
+  note: 1913年3月3日百三銀行が改称。1913年5月16日東京から大阪に移転。1914年2月6日紀阪銀行に改称（日付は改称登記日）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Cd8yYzShgFBH3fJg6_Ypfs4kZ5g/description.html"]
+
+- id: kihan-bank
+  name: 紀阪銀行
+  type: other
+  founded: "1914-02-06"
+  dissolved: "1921"
+  prefecture: 大阪府
+  note: 1914年2月6日農商銀行が改称（日付は改称登記日）。1921年紀阪貯蓄銀行に改称
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BCFZsTgcAhZXaAX1BO8YxCNaFCk/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
