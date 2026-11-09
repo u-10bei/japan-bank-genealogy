@@ -5937,9 +5937,11 @@
 - id: yamanouchi-bank
   name: 山之内銀行
   type: other
+  founded: "1893-04-12"
   dissolved: "1929-06"
-  note: 1929年6月浜松銀行が買収（静岡銀行史は合併とする）。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
+  prefecture: 静岡県
+  note: 合名会社。静岡で設立（銀行総覧による。静岡銀行史は1893年4月とする）。1929年6月浜松銀行が買収（買収認可。静岡銀行史は合併とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/R8DUlgZ3fMxV1hNHdRxNNLwv9sn/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1jE5YauXlH3_lsul5uh5U8yfNrh/description.html"]
 
 - id: shimada-1934
   name: 島田銀行
