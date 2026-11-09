@@ -5231,8 +5231,17 @@
   founded: "1878-09-18"
   dissolved: "1897-05-15"
   prefecture: 東京都
-  note: 1878年9月18日開業免状下付・設立、10月17日開業。1897年5月15日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し九十五銀行に改称（2月12日満期前継続許可。九十五銀行は未収録）。銀行変遷史DBは紀阪貯蓄銀行を当行の後身とする（三和銀行史は紀阪貯蓄銀行を1878年設立とする）
+  note: 1878年9月18日開業免状下付・設立、10月17日開業。1897年5月15日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し九十五銀行に改称（2月12日満期前継続許可）。銀行変遷史DBは紀阪貯蓄銀行を当行の後身とする（三和銀行史は紀阪貯蓄銀行を1878年設立とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-dH90bQQVYOOHg4c2y7O-KtbwTo/description.html"]
+
+- id: kyujugo-bank
+  name: 九十五銀行
+  type: other
+  founded: "1897-05-15"
+  dissolved: "1911-01-09"
+  prefecture: 東京都
+  note: 1897年5月15日第九十五国立銀行が改称。1911年1月9日百三銀行に改称（百三銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/7vZLIWrtEXWxD5LDmb5WmhbV8Ce/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
