@@ -7583,3 +7583,9 @@
   to: [chikuho-old]
   note: 18行の新立合併（6月28日新立合併認可、8月30日創立総会）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html", https://ja.wikipedia.org/wiki/福岡銀行]
+
+- date: "1899-02"
+  type: dissolution
+  from: [dai97-kokuritsu]
+  note: 満期解散（銀行総覧は2月10日、佐賀銀行百年史は2月9日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/CjaSWJFyWTA7Q1x8TVFo7JZdWYh/description.html"]
