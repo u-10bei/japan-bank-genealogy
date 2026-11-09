@@ -6956,3 +6956,24 @@
   to: [hannan-ginko]
   note: 5行の新立合併（3月20日新立合併認可。銀行総覧は3月20日設立、住友銀行八十年史は3月25日新立合併とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/ZJNetBolsIfF0odV05mrie1Xoml/description.html"]
+
+- date: "1898-01-01"
+  type: rename
+  from: [dai55-kokuritsu]
+  to: [gojugo-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UAJjkeQQsMXcTVeQnIMom8Yi26l/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rWAXB6LkOHaWJXiaXg45O2z8C-e/description.html"]
+
+- date: "1912-11-16"
+  type: absorption
+  from: [izushi-chochiku]
+  to: [gojugo-bank]
+  note: 五十五銀行が合併（10月3日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rWAXB6LkOHaWJXiaXg45O2z8C-e/description.html"]
+
+- date: "1928-01-20"
+  type: absorption
+  from: [gojugo-bank]
+  to: [tajima-1928]
+  note: 但馬銀行（1928〜1941）が合併（1927年12月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rWAXB6LkOHaWJXiaXg45O2z8C-e/description.html"]

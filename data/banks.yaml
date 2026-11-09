@@ -4587,8 +4587,24 @@
   founded: "1878-09-24"
   dissolved: "1898-01-01"
   prefecture: 兵庫県
-  note: 1878年9月24日開業免状下付・設立、11月1日開業。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し五十五銀行に改称（1897年9月28日満期前継続許可。神戸銀行史は1897年9月28日改組とする。五十五銀行は未収録）
+  note: 1878年9月24日開業免状下付・設立、11月1日開業。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し五十五銀行に改称（1897年9月28日満期前継続許可。神戸銀行史は1897年9月28日改組とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/UAJjkeQQsMXcTVeQnIMom8Yi26l/description.html"]
+
+- id: izushi-chochiku
+  name: 出石貯蓄銀行
+  type: other
+  dissolved: "1912-11-16"
+  note: 1912年11月16日五十五銀行に合併（10月3日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rWAXB6LkOHaWJXiaXg45O2z8C-e/description.html"]
+
+- id: gojugo-bank
+  name: 五十五銀行
+  type: other
+  founded: "1898-01-01"
+  dissolved: "1928-01-20"
+  prefecture: 兵庫県
+  note: 1898年1月1日第五十五国立銀行が改称。1912年出石貯蓄銀行を合併。1928年1月20日但馬銀行（1928〜1941）に合併（1927年12月合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/rWAXB6LkOHaWJXiaXg45O2z8C-e/description.html"]
 
 - id: dai8-kokuritsu
   name: 第八国立銀行
