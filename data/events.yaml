@@ -7541,3 +7541,45 @@
   to: [kihan-chochiku]
   note: 紀阪貯蓄銀行に改称
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/BCFZsTgcAhZXaAX1BO8YxCNaFCk/description.html"]
+
+- date: "1897-04-01"
+  type: rename
+  from: [dai96-kokuritsu]
+  to: [yanagawa-bank]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/htRsjEuGT3xAFxRt00JJsfcgg4k/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- date: "1923-02-18"
+  type: absorption
+  from: [okinohata-bank]
+  to: [yanagawa-bank]
+  note: 柳河銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- date: "1924-11-20"
+  type: absorption
+  from: [kisaki-bank]
+  to: [yanagawa-bank]
+  note: 柳河銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- date: "1932-12-25"
+  type: absorption
+  from: [umi-bank]
+  to: [yanagawa-bank]
+  note: 柳河銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- date: "1938-03-01"
+  type: absorption
+  from: [omizo-bank]
+  to: [yanagawa-bank]
+  note: 柳河銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- date: "1941-09-01"
+  type: merger
+  from: [yanagawa-bank, amagi-bank, ikiyoshi-bank, kitano-bank, kusano-bank, kosan-bank-fukuoka, daito-bank-fukuoka, tanushimaru-bank, chikugo-bank, chikushi-bank, chikuhi-bank, noda-bank-fukuoka, mikasa-bank, mizuta-bank, minagi-bank, meiju-bank, yasu-bank, yame-bank]
+  to: [chikuho-old]
+  note: 18行の新立合併（6月28日新立合併認可、8月30日創立総会）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html", https://ja.wikipedia.org/wiki/福岡銀行]

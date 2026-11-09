@@ -5277,7 +5277,7 @@
   founded: "1878-11-28"
   dissolved: "1897-04-01"
   prefecture: 福岡県
-  note: 1878年11月28日開業免状下付・設立、1879年1月4日開業。1897年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し柳河銀行に改称（1896年12月12日満期前継続許可。柳河銀行は未収録）
+  note: 1878年11月28日開業免状下付・設立、1879年1月4日開業。1897年4月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し柳河銀行に改称（1896年12月12日満期前継続許可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/htRsjEuGT3xAFxRt00JJsfcgg4k/description.html"]
 
 - id: dai8-kokuritsu
@@ -7014,13 +7014,174 @@
   note: 1897年9月第十七国立銀行が改称。1921〜1925年に宗像銀行・福岡銀行（1916〜1923）・三潴銀行を合併、1941〜1945年に博多・北豊・鞍手・椎田合同・武石の各行を買収。1945年3月31日嘉穂銀行・筑邦銀行・福岡貯蓄銀行と新立合併し福岡銀行となる
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/-EitCLFIt55afpLHFfapHBbgo2i/description.html", https://ja.wikipedia.org/wiki/福岡銀行, https://ja.wikipedia.org/wiki/第十七国立銀行]
 
+- id: okinohata-bank
+  name: 沖端銀行
+  type: other
+  dissolved: "1923-02-18"
+  note: 1923年2月18日柳河銀行に合併。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: kisaki-bank
+  name: 木佐木銀行
+  type: other
+  dissolved: "1924-11-20"
+  note: 1924年11月20日柳河銀行に合併（10月15日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: umi-bank
+  name: 宇美銀行
+  type: other
+  dissolved: "1932-12-25"
+  note: 1932年12月25日柳河銀行に合併（12月16日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: omizo-bank
+  name: 大溝銀行
+  type: other
+  dissolved: "1938-03-01"
+  note: 1938年3月1日柳河銀行に合併（2月23日合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: yanagawa-bank
+  name: 柳河銀行
+  type: other
+  founded: "1897-04-01"
+  dissolved: "1941-09-01"
+  prefecture: 福岡県
+  note: 1897年4月1日第九十六国立銀行が改称。1923年沖端銀行、1924年木佐木銀行、1932年宇美銀行、1938年大溝銀行を合併。1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: amagi-bank
+  name: 甘木銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: ikiyoshi-bank
+  name: 生吉銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: kitano-bank
+  name: 北野銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: kusano-bank
+  name: 草野銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: kosan-bank-fukuoka
+  name: 興産銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: daito-bank-fukuoka
+  name: 大東銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし。現在の大東銀行（福島県）とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: tanushimaru-bank
+  name: 田主丸銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: chikugo-bank
+  name: 筑後銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: chikushi-bank
+  name: 筑紫銀行
+  type: other
+  founded: "1900"
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。銀行変遷史DBは1900〜1941年の筑紫銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: chikuhi-bank
+  name: 筑肥銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: noda-bank-fukuoka
+  name: 野田銀行
+  type: other
+  founded: "1913"
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。銀行変遷史DBは1913〜1941年の野田銀行とする（設立日は未確認）。千葉県の野田銀行とは別
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: mikasa-bank
+  name: 御笠銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: mizuta-bank
+  name: 水田銀行
+  type: other
+  founded: "1929"
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。銀行変遷史DBは1929〜1941年の水田銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: minagi-bank
+  name: 三奈木銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: meiju-bank
+  name: 明十銀行
+  type: other
+  founded: "1925"
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。銀行変遷史DBは1925〜1941年の明十銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: yasu-bank
+  name: 弥寿銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
+- id: yame-bank
+  name: 八女銀行
+  type: other
+  dissolved: "1941-09-01"
+  note: 1941年9月1日、柳河銀行など18行の新立合併により筑邦銀行（1941〜1945）となる。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html"]
+
 - id: chikuho-old
   name: 筑邦銀行
   type: other
+  founded: "1941-09-01"
   dissolved: "1945-03-31"
   prefecture: 福岡県
-  note: 戦後の筑邦銀行とは無関係。設立日は出典に記載なし
-  sources: [https://ja.wikipedia.org/wiki/福岡銀行]
+  note: 柳河銀行など18行の新立合併で設立（1941年6月28日新立合併認可、8月30日創立総会）。戦後の筑邦銀行とは無関係
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/toEx83RLXt-ItuStt4CvcOxfFnh/description.html", https://ja.wikipedia.org/wiki/福岡銀行]
 
 - id: kaho
   name: 嘉穂銀行
