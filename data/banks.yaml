@@ -11576,12 +11576,23 @@
   note: あさひ銀行の信託銀行子会社として設立（3月22日銀行業免許・信託兼営認可、3月28日開業）。2002年9月、証券投資信託・退職給付信託・特金外・年金特定信託部門の営業を大和銀信託銀行に譲渡。2002年10月1日大和銀行に合併
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/gRD2CUHcFhNfX7Qap9haMfiJy1k/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDP3", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100YDPD"]
 
+- id: dai93-kokuritsu
+  name: 第九十三国立銀行
+  type: other
+  founded: "1878-10-16"
+  dissolved: "1897-07-01"
+  prefecture: 福島県
+  note: 1878年10月16日開業免状下付・設立、11月22日開業（東邦銀行五十年史は6月創立とする）。1897年7月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し三春銀行に改称（3月29日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qr96p7vpbNXzK1V4A0W0cGtGcCp/description.html"]
+
 - id: miharu-ginko
   name: 三春銀行
   type: other
+  founded: "1897-07-01"
   dissolved: "1942-08"
-  note: 1942年8月東邦銀行が営業を譲受
-  sources: ["https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
+  prefecture: 福島県
+  note: 1897年7月1日第九十三国立銀行が改称。1942年8月東邦銀行が営業を譲受
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qr96p7vpbNXzK1V4A0W0cGtGcCp/description.html", "https://disclosure2.edinet-fsa.go.jp/WZEK0040.aspx?S100Y9W6"]
 
 - id: inawashiro-ginko
   name: 猪苗代銀行

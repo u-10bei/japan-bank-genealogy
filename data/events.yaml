@@ -7485,3 +7485,10 @@
   from: [keiwa-chochiku]
   note: 消滅（銀行総覧の掲載が第36回（1929年末）までであることによる。経緯は未確認）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/GlSmZUY8cxCNkCBBGolEOXUT_Sm/description.html"]
+
+- date: "1897-07-01"
+  type: rename
+  from: [dai93-kokuritsu]
+  to: [miharu-ginko]
+  note: 国立銀行営業満期前特別処分法により私立銀行として営業継続
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/Qr96p7vpbNXzK1V4A0W0cGtGcCp/description.html"]
