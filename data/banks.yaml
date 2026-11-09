@@ -5605,6 +5605,24 @@
   note: 1897年8月1日第百十五国立銀行が改称。富士銀行百年史別巻は1906年6月に近江銀行が営業を譲受したとする。1908年3月兵庫に移転し百十五銀行に改称（銀行総覧は3月6日改称・3月7日移転、滋賀銀行五十年史は3月1日改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1A3aAvaaEq9QwiJlhbTdIatvk_k/description.html"]
 
+- id: dai116-kokuritsu
+  name: 第百十六国立銀行
+  type: other
+  founded: "1878-12-10"
+  dissolved: "1898-02-01"
+  prefecture: 新潟県
+  note: 1878年12月10日開業免状下付・設立、1879年2月5日開業。1898年2月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し新発田銀行に改称（1897年9月22日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/47JBz_ojqNd5d7pwAmz40Qv-9Dp/description.html"]
+
+- id: shibata-bank
+  name: 新発田銀行
+  type: other
+  founded: "1898-02-01"
+  dissolved: "1921-10-31"
+  prefecture: 新潟県
+  note: 1898年2月1日第百十六国立銀行が改称。1921年10月31日第四銀行に合併（日付は第四銀行百年史による。合併解散登記は11月か）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/DOKMqmWuN-4X-QoWRjHdCDRlBMi/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
