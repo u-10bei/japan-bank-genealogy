@@ -4811,6 +4811,24 @@
   note: 1912年2月大雄銀行が神奈川から栃木に移転し改称（銀行総覧は2月13日、足利銀行史は2月1日とする）。1937年2月15日足利銀行に営業を譲渡し解散（2月9日買収認可）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/4SNnwfTzJC6-0ObJ9hOM_PPsi_/description.html"]
 
+- id: dai71-kokuritsu
+  name: 第七十一国立銀行
+  type: other
+  founded: "1878-10-07"
+  dissolved: "1898-10-01"
+  prefecture: 新潟県
+  note: 1878年10月7日開業免状下付・設立、11月15日開業。1898年10月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し村上銀行に改称（6月9日満期前継続許可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IT3CULTxCTz5uhqfdu2UOhY7tRc/description.html"]
+
+- id: murakami-bank
+  name: 村上銀行
+  type: other
+  founded: "1898-10-01"
+  dissolved: "1938"
+  prefecture: 新潟県
+  note: 1898年10月1日第七十一国立銀行が改称。銀行変遷史DBは1898〜1938年の村上銀行とする（1938年の経緯は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/IT3CULTxCTz5uhqfdu2UOhY7tRc/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
