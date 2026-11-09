@@ -4905,6 +4905,15 @@
   note: 1897年8月1日第七十三国立銀行が改称し、大阪から鹿児島に移転。1931年10月28日業務廃止（業務廃止認可・鹿児島銀行百年史による廃業）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/0VizQX57zLs8w7SsTK07x8A9TZo/description.html"]
 
+- id: dai76-kokuritsu
+  name: 第七十六国立銀行
+  type: other
+  founded: "1878-10-25"
+  dissolved: "1898-01-01"
+  prefecture: 岐阜県
+  note: 1878年10月25日開業免状下付・設立、1879年1月6日開業（大垣共立銀行九十年史は1月6日を設立（開業）とする）。1898年1月1日、国立銀行営業満期前特別処分法により私立銀行として営業を継続し七十六銀行に改称（1897年9月27日満期前継続許可。七十六銀行は未収録）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/86Hm3D_qL-D9rkIRS6cCjo5xzi/description.html"]
+
 - id: dai8-kokuritsu
   name: 第八国立銀行
   type: other
