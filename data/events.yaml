@@ -7950,3 +7950,31 @@
   partial: true
   note: 近江銀行が湖南銀行の営業を譲受（富士銀行百年史別巻による。湖南銀行はその後も存続し、1908年に兵庫に移転・改称）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1A3aAvaaEq9QwiJlhbTdIatvk_k/description.html"]
+
+- date: "1908-03"
+  type: rename
+  from: [konan-bank]
+  to: [hyakujugo-bank]
+  note: 滋賀から兵庫に移転し百十五銀行に改称（銀行総覧は3月6日、滋賀銀行五十年史は3月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1A3aAvaaEq9QwiJlhbTdIatvk_k/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pNV3QwF6yEfDllgky45fSl4Jdvn/description.html"]
+
+- date: "1923-11-10"
+  type: absorption
+  from: [hyakujugo-bank]
+  to: [hidaka-bank]
+  note: 日高銀行が合併（10月5日合併認可）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pNV3QwF6yEfDllgky45fSl4Jdvn/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XUl6A2x6l2aY3nW70LYnp4tPNhg/description.html"]
+
+- date: "1928"
+  type: transfer
+  from: [hioki-bank]
+  to: [hidaka-bank]
+  note: 日高銀行が買収（紀陽銀行100年史は9月1日とする）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XUl6A2x6l2aY3nW70LYnp4tPNhg/description.html"]
+
+- date: "1929-04-24"
+  type: absorption
+  from: [kushimoto-bank]
+  to: [hidaka-bank]
+  note: 日高銀行が合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XUl6A2x6l2aY3nW70LYnp4tPNhg/description.html"]

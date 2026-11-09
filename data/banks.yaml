@@ -5602,7 +5602,7 @@
   founded: "1897-08-01"
   dissolved: "1908-03"
   prefecture: 滋賀県
-  note: 1897年8月1日第百十五国立銀行が改称。富士銀行百年史別巻は1906年6月に近江銀行が営業を譲受したとする。1908年3月兵庫に移転し百十五銀行に改称（銀行総覧は3月6日改称・3月7日移転、滋賀銀行五十年史は3月1日改称とする。百十五銀行は未収録）
+  note: 1897年8月1日第百十五国立銀行が改称。富士銀行百年史別巻は1906年6月に近江銀行が営業を譲受したとする。1908年3月兵庫に移転し百十五銀行に改称（銀行総覧は3月6日改称・3月7日移転、滋賀銀行五十年史は3月1日改称とする）
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/1A3aAvaaEq9QwiJlhbTdIatvk_k/description.html"]
 
 - id: dai8-kokuritsu
@@ -6291,13 +6291,38 @@
   note: 1928年10月1日田辺銀行に合併（9月合併認可）。設立日は出典に記載なし
   sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]
 
+- id: hyakujugo-bank
+  name: 百十五銀行
+  type: other
+  founded: "1908-03"
+  dissolved: "1923-11-10"
+  prefecture: 和歌山県
+  note: 1908年3月湖南銀行が滋賀から兵庫に移転し改称。1910年4月6日和歌山に移転。1923年11月10日日高銀行に合併（10月5日合併認可。日付は紀陽銀行100年史による）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/pNV3QwF6yEfDllgky45fSl4Jdvn/description.html"]
+
+- id: hioki-bank
+  name: 日置銀行
+  type: other
+  founded: "1899"
+  dissolved: "1928"
+  note: 1928年日高銀行が買収（紀陽銀行史は8月吸収、紀陽銀行100年史は9月1日買収・解散とする）。銀行変遷史DBは1899〜1928年の日置銀行とする（設立日は未確認）
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XUl6A2x6l2aY3nW70LYnp4tPNhg/description.html"]
+
+- id: kushimoto-bank
+  name: 串本銀行
+  type: other
+  dissolved: "1929-04-24"
+  note: 1929年4月24日日高銀行に合併（3月合併認可）。設立日は出典に記載なし
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XUl6A2x6l2aY3nW70LYnp4tPNhg/description.html"]
+
 - id: hidaka-bank
   name: 日高銀行
   type: other
+  founded: "1900-03"
   dissolved: "1937-11-10"
   prefecture: 和歌山県
-  note: 1937年11月10日業務廃止（紀南産業株式会社に改組）、本支店の土地建物等を田辺銀行・紀陽銀行が分割買収。設立日は出典に記載なし
-  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]
+  note: 1937年11月10日業務廃止（紀南産業株式会社に改組）、本支店の土地建物等を田辺銀行・紀陽銀行が分割買収。1900年3月設立（銀行総覧は3月15日、紀陽銀行100年史は3月12日とする）。1923年11月10日百十五銀行を合併、1928年日置銀行を買収、1929年4月24日串本銀行を合併
+  sources: ["https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/XUl6A2x6l2aY3nW70LYnp4tPNhg/description.html", "https://s-opac.net/Opac/OuE-_cBuDY2FFDpl1TgIkz-R2Co/qptshU90Je2OaJ3vicROabcpdZi/description.html"]
 
 - id: tanabe-bank
   name: 田辺銀行
